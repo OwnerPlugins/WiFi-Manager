@@ -18,7 +18,7 @@ SRC_URI = "git://github.com/Belfagor2005/WiFi-Manager.git;protocol=https;branch=
 
 S = "${WORKDIR}/git"
 
-FILES_${PN} = "/usr/*"
+FILES:${PN} = "/usr/*"
 
 do_install() {
     cp -af --no-preserve=ownership ${S}/usr* /screen/* ${D}/ 
