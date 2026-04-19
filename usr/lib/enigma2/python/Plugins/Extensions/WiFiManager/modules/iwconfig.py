@@ -464,9 +464,10 @@ def main():
 
             try:
                 if opts[0][0] in ("-v", "--version"):
-                    version_info()
-            except Exception as e:
-                print(e)
+                    print(_("WiFi Manager iwconfig version {}").format(__version__))
+                    return
+            except Exception:
+                pass
 
                 if len(args) == 0:
                     # no params given to iwconfig.py

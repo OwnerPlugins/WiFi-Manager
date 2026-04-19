@@ -34,8 +34,8 @@ from .. import _
 """
 
 try:
-    from .iwlibs import Wireless, Iwrange, getWNICnames, getNICnames, KILO, MEGA, ifname
-    from .iwlist import get_matching_command
+    from .iwlibs import Wireless, Iwrange, getWNICnames, getNICnames, KILO, MEGA
+    # from .iwlist import get_matching_command
     from . import flags
 except ImportError as e:
     print(f"Error importing pythonwifi: {e}")
