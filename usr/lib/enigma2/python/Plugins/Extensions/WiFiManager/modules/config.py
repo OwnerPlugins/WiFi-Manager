@@ -425,17 +425,24 @@ class WiFiConfigScreen(Screen, ConfigListScreen):
                     message += _("Applied: {} commands\n").format(success_count)
                     if failed_commands:
                         message += _("Failed: {} commands").format(len(failed_commands))
-                    self.session.open(MessageBox, message, MessageBox.TYPE_INFO)
+                    self.session.open(
+                        MessageBox, message, MessageBox.TYPE_INFO)
                 else:
-                    message = _("No settings were applied\n\nFailed commands:\n")
+                    message = _(
+                        "No settings were applied\n\nFailed commands:\n")
                     message += "\n".join(failed_commands[:3])
-                    self.session.open(MessageBox, message, MessageBox.TYPE_WARNING)
+                    self.session.open(
+                        MessageBox, message, MessageBox.TYPE_WARNING)
 
             return success_count, failed_commands
 
         except Exception as e:
             print("[WiFiConfig] Error in apply_advanced_settings: {}".format(e))
-            self.session.open(MessageBox, _("Error applying advanced settings: {}").format(str(e)), MessageBox.TYPE_ERROR)
+            self.session.open(
+                MessageBox,
+                _("Error applying advanced settings: {}").format(
+                    str(e)),
+                MessageBox.TYPE_ERROR)
             return 0, [str(e)]
 
     def buildConfigList(self):
