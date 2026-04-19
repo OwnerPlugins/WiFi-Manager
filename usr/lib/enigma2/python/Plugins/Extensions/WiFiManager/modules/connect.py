@@ -829,10 +829,10 @@ class WiFiConnectZ(Screen):
             else:
                 # DHCP - ottieni IP automaticamente
                 subprocess.run(
-                    f"dhclient {
-                        self.interface}",
+                    "dhclient {}".format(self.interface),
                     shell=True,
-                    timeout=15)
+                    timeout=15
+                )
                 print("[DEBUG] DHCP configuration applied")
 
         except Exception as e:
@@ -845,32 +845,38 @@ class WiFiConnectZ(Screen):
                 subprocess.run(
                     "killall wpa_supplicant 2>/dev/null",
                     shell=True,
-                    timeout=5)
+                    timeout=5
+                )
+
                 subprocess.run(
                     "killall dhclient 2>/dev/null",
                     shell=True,
-                    timeout=5)
+                    timeout=5
+                )
+
                 subprocess.run(
-                    f"iwconfig {
-                        self.interface} essid off",
+                    "iwconfig {} essid off".format(self.interface),
                     shell=True,
-                    timeout=5)
+                    timeout=5
+                )
 
                 # Reset interface
                 subprocess.run(
-                    f"ip link set {
-                        self.interface} down",
+                    "ip link set {} down".format(self.interface),
                     shell=True,
-                    timeout=5)
+                    timeout=5
+                )
+
                 subprocess.run(
-                    f"ip link set {
-                        self.interface} up",
+                    "ip link set {} up".format(self.interface),
                     shell=True,
-                    timeout=5)
+                    timeout=5
+                )
 
                 return True
+
             except Exception as e:
-                print(f"[DEBUG] Disconnect error: {e}")
+                print("[DEBUG] Disconnect error: {}".format(e))
                 return False
 
         def disconnect_callback(success):
@@ -918,39 +924,45 @@ class WiFiConnectZ(Screen):
         """Show current connection status"""
         try:
             result = subprocess.run(
-                f"iwconfig {
-                    self.interface}",
+                "iwconfig {}".format(self.interface),
                 shell=True,
                 capture_output=True,
-                text=True)
+                text=True
+            )
+
             if 'ESSID:' in result.stdout:
                 essid_match = search(r'ESSID:"([^"]*)"', result.stdout)
+
                 if essid_match and essid_match.group(1):
                     essid = essid_match.group(1)
-                    signal_match = search(
-                        r'Signal level=(-?\d+)', result.stdout)
+
+                    signal_match = search(r'Signal level=(-?\d+)', result.stdout)
                     signal = signal_match.group(1) if signal_match else "?"
 
                     # Get IP address
                     ip_result = subprocess.run(
-                        f"ip addr show {
-                            self.interface}",
+                        "ip addr show {}".format(self.interface),
                         shell=True,
                         capture_output=True,
-                        text=True)
-                    ip_match = search(
-                        r'inet (\d+\.\d+\.\d+\.\d+)', ip_result.stdout)
+                        text=True
+                    )
+
+                    ip_match = search(r'inet (\d+\.\d+\.\d+\.\d+)', ip_result.stdout)
                     ip_addr = ip_match.group(1) if ip_match else _("No IP")
 
                     self["status"].setText(
                         _("Connected: {} | Signal: {} dBm | IP: {}").format(
-                            essid, signal, ip_addr))
+                            essid,
+                            signal,
+                            ip_addr
+                        )
+                    )
                     return
 
             self["status"].setText(_("Not connected to any network"))
 
         except Exception as e:
-            self["status"].setText(_("Status check failed: {}").format(e))
+            self["status"].setText(_("Status check failed: {}".format(e)))
 
     def show_connection_details_with_callback(self, callback):
         """Show connection details in vertical format"""
@@ -1027,27 +1039,38 @@ class WiFiConnectZ(Screen):
                 # Add IP address information
                 try:
                     ip_result = subprocess.run(
-                        f"ip addr show {
-                            self.interface}",
+                        "ip addr show {}".format(self.interface),
                         shell=True,
                         capture_output=True,
-                        text=True)
+                        text=True
+                    )
+
                     ip_match = search(
-                        r'inet (\d+\.\d+\.\d+\.\d+)', ip_result.stdout)
+                        r'inet (\d+\.\d+\.\d+\.\d+)',
+                        ip_result.stdout
+                    )
+
                     if ip_match:
                         details.append(
                             _("IP Address: {ip}").format(
-                                ip=ip_match.group(1)))
+                                ip=ip_match.group(1)
+                            )
+                        )
 
                     # Add MAC address
                     mac_match = search(
                         r'link/ether ([0-9a-f:]+)',
                         ip_result.stdout,
-                        IGNORECASE)
+                        IGNORECASE
+                    )
+
                     if mac_match:
                         details.append(
                             _("MAC Address: {mac}").format(
-                                mac=mac_match.group(1)))
+                                mac=mac_match.group(1)
+                            )
+                        )
+
                 except Exception as e:
                     print(e)
                     pass

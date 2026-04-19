@@ -483,9 +483,10 @@ class WiFiScanner(Screen):
                     signal_lines = [
                         line for line in lines if 'Signal level' in line or 'Quality' in line]
                     for i, line in enumerate(signal_lines[:3]):
-                        print(
-                            f"[SIGNAL] iwlist signal line {i}: {
-                                line.strip()}")
+                        print("[SIGNAL] iwlist signal line {}: {}".format(
+                            i,
+                            line.strip()
+                        ))
 
                     # Use parse_iwlist_detailed da tools.py
                     parsed_networks = parse_iwlist_detailed(result)

@@ -22,7 +22,7 @@
 
 import getopt
 from sys import argv
-from .. import _
+from .. import _, __version__
 
 try:
     from .iwlibs import Wireless, Iwrange, getNICnames, getWNICnames

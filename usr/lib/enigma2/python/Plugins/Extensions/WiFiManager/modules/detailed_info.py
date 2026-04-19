@@ -168,49 +168,59 @@ class WiFiDetailedInfo(Screen):
 
             # Also save complete information to the debug file
             self._write_debug(
-                f"REFRESH COMPLETED SUCCESSFULLY - Interface: {self.ifname}")
+                "REFRESH COMPLETED SUCCESSFULLY - Interface: {}".format(self.ifname)
+            )
+
             self._write_debug(
-                f"FINAL OUTPUT LENGTH: {
-                    len(info_text)} characters")
+                "FINAL OUTPUT LENGTH: {} characters".format(len(info_text))
+            )
 
             # Save the full output to the debug file
             try:
                 with open(self.debug_file, "a", encoding="utf-8") as f:
                     f.write(
-                        "\n" +
-                        "=" *
-                        50 +
-                        " FULL OUTPUT " +
-                        "=" *
-                        50 +
-                        "\n")
+                        "\n"
+                        + "=" * 50
+                        + " FULL OUTPUT "
+                        + "=" * 50
+                        + "\n"
+                    )
                     f.write(info_text)
                     f.write("\n" + "=" * 120 + "\n")
+
             except Exception as e:
                 self._write_debug(
-                    f"Error saving full output to debug file: {e}", error=True)
+                    "Error saving full output to debug file: {}".format(e),
+                    error=True
+                )
 
             print("[WiFiDetailedInfo] Refresh completed successfully")
             self["info_output"].setText(info_text)
 
         except Exception as e:
-            error_msg = _(
-                "❌ Error getting detailed info:\n{}\n\n").format(str(e))
+            error_msg = _("❌ Error getting detailed info:\n{}\n\n").format(str(e))
             stack_trace = traceback.format_exc()
+
             self._write_debug(
-                f"CRITICAL ERROR during refresh: {error_msg}",
-                error=True)
-            self._write_debug(f"STACK TRACE: {stack_trace}", error=True)
-            print(f"[WiFiDetailedInfo] ERROR: {e}")
-            print(f"Stack trace: {stack_trace}")
+                "CRITICAL ERROR during refresh: {}".format(error_msg),
+                error=True
+            )
+
+            self._write_debug(
+                "STACK TRACE: {}".format(stack_trace),
+                error=True
+            )
+
+            print("[WiFiDetailedInfo] ERROR: {}".format(e))
+            print("Stack trace: {}".format(stack_trace))
             self["info_output"].setText(error_msg)
 
     def get_wireless_info(self):
         """Get wireless-specific information using tools.py"""
         self._write_debug(
-            f"Getting wireless info for {
-                self.ifname} using tools.py")
-        print(f"[WiFiDetailedInfo] Getting wireless info for {self.ifname}")
+            "Getting wireless info for {} using tools.py".format(self.ifname)
+        )
+        print("[WiFiDetailedInfo] Getting wireless info for {}".format(self.ifname))
         info = ""
 
         try:
@@ -218,9 +228,12 @@ class WiFiDetailedInfo(Screen):
 
             if 'error' in interface_info:
                 info += _("❌ Error: {}\n").format(interface_info['error'])
+
                 self._write_debug(
-                    f"Error getting wireless info: {
-                        interface_info['error']}", error=True)
+                    "Error getting wireless info: {}".format(interface_info['error']),
+                    error=True
+                )
+
                 return info
 
             info += _("📡 Interface Type: WIRELESS\n")
@@ -273,18 +286,24 @@ class WiFiDetailedInfo(Screen):
     def get_basic_interface_info(self):
         """Get basic interface information using tools.py"""
         self._write_debug(
-            f"Getting basic info for {
-                self.ifname} using tools.py")
-        print(f"[WiFiDetailedInfo] Getting basic info for {self.ifname}")
+            "Getting basic info for {} using tools.py".format(self.ifname)
+        )
+        print("[WiFiDetailedInfo] Getting basic info for {}".format(self.ifname))
         info = ""
 
         try:
             interface_info = get_interface_info(self.ifname)
+
             if 'error' in interface_info:
                 info += _("❌ Error: {}\n").format(interface_info['error'])
+
                 self._write_debug(
-                    f"Error getting interface info: {
-                        interface_info['error']}", error=True)
+                    "Error getting interface info: {}".format(
+                        interface_info['error']
+                    ),
+                    error=True
+                )
+
                 return info
 
             # Status
