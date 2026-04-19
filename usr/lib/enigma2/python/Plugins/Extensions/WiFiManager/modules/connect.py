@@ -968,16 +968,18 @@ class WiFiConnectZ(Screen):
         """Show connection details in vertical format"""
         try:
             result = subprocess.run(
-                f"iwconfig {
-                    self.interface}",
+                "iwconfig {}".format(self.interface),
                 shell=True,
                 capture_output=True,
-                text=True)
+                text=True
+            )
+
             if result.returncode == 0:
                 details = []
 
                 # Parse and organize connection details
                 lines = result.stdout.split('\n')
+
                 for line in lines:
                     line = line.strip()
                     if not line:
@@ -989,52 +991,63 @@ class WiFiConnectZ(Screen):
                         if essid_match:
                             details.append(
                                 _("Network: {essid}").format(
-                                    essid=essid_match.group(1)))
+                                    essid=essid_match.group(1)
+                                )
+                            )
 
                     elif 'Frequency:' in line:
                         freq_match = search(r'Frequency:([0-9.]+ GHz)', line)
                         if freq_match:
                             details.append(
                                 _("Frequency: {frequency}").format(
-                                    frequency=freq_match.group(1)))
+                                    frequency=freq_match.group(1)
+                                )
+                            )
 
                     elif 'Access Point:' in line:
-                        ap_match = search(
-                            r'Access Point: ([0-9A-Fa-f:]+)', line)
+                        ap_match = search(r'Access Point: ([0-9A-Fa-f:]+)', line)
                         if ap_match:
                             details.append(
                                 _("Access Point: {ap}").format(
-                                    ap=ap_match.group(1)))
+                                    ap=ap_match.group(1)
+                                )
+                            )
 
                     elif 'Bit Rate=' in line:
-                        rate_match = search(
-                            r'Bit Rate=([0-9.]+ [GM]b/s)', line)
+                        rate_match = search(r'Bit Rate=([0-9.]+ [GM]b/s)', line)
                         if rate_match:
                             details.append(
                                 _("Bit Rate: {rate}").format(
-                                    rate=rate_match.group(1)))
+                                    rate=rate_match.group(1)
+                                )
+                            )
 
                     elif 'Signal level=' in line:
-                        signal_match = search(
-                            r'Signal level=(-?\d+) dBm', line)
+                        signal_match = search(r'Signal level=(-?\d+) dBm', line)
                         if signal_match:
                             details.append(
                                 _("Signal Level: {signal} dBm").format(
-                                    signal=signal_match.group(1)))
+                                    signal=signal_match.group(1)
+                                )
+                            )
 
                     elif 'Link Quality=' in line:
                         quality_match = search(r'Link Quality=([0-9/]+)', line)
                         if quality_match:
                             details.append(
                                 _("Link Quality: {quality}").format(
-                                    quality=quality_match.group(1)))
+                                    quality=quality_match.group(1)
+                                )
+                            )
 
                     elif 'Mode:' in line:
                         mode_match = search(r'Mode:([A-Za-z]+)', line)
                         if mode_match:
                             details.append(
                                 _("Mode: {mode}").format(
-                                    mode=mode_match.group(1)))
+                                    mode=mode_match.group(1)
+                                )
+                            )
 
                 # Add IP address information
                 try:
@@ -1076,10 +1089,11 @@ class WiFiConnectZ(Screen):
                     pass
 
                 if details:
-                    # Create formatted details text
                     details_text = "\n".join(details)
+
                     formatted_text = _("Connection Details:\n\n{details}").format(
-                        details=details_text)
+                        details=details_text
+                    )
 
                     self.session.openWithCallback(
                         lambda result: callback() if callback else None,
@@ -1095,6 +1109,14 @@ class WiFiConnectZ(Screen):
                 MessageBox,
                 _("No connection details available"),
                 MessageBox.TYPE_INFO
+            )
+
+        except Exception as e:
+            self.session.openWithCallback(
+                lambda result: callback() if callback else None,
+                MessageBox,
+                _("Error: {}").format(str(e)),
+                MessageBox.TYPE_ERROR
             )
 
         except Exception as e:

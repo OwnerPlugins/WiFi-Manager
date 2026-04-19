@@ -425,17 +425,17 @@ class WiFiDetailedInfo(Screen):
         info = ""
 
         try:
-            self._write_debug(f"Running scan_networks for {self.ifname}")
+            self._write_debug("Running scan_networks for {}".format(self.ifname))
 
             networks = scan_networks(self.ifname, detailed=True)
 
             self._write_debug(
-                f"Scan completed, found {
-                    len(networks)} networks")
+                "Scan completed, found {} networks".format(len(networks))
+            )
 
             if networks:
                 info += _("Found {} networks:\n").format(len(networks))
-                self._write_debug(f"Found {len(networks)} networks")
+                self._write_debug("Found {} networks".format(len(networks)))
 
                 for i, net in enumerate(networks[:8]):
                     essid = net.get('essid', _('Unknown'))
@@ -447,10 +447,17 @@ class WiFiDetailedInfo(Screen):
                     signal_quality = format_signal_quality(quality_percent)
 
                     info += _("  {:2d}. {} {:20} | Signal: {:4} dBm ({}) | Channel: {}\n").format(
-                        i + 1, encrypted, essid, signal, signal_quality, channel)
+                        i + 1,
+                        encrypted,
+                        essid,
+                        signal,
+                        signal_quality,
+                        channel
+                    )
 
                 if len(networks) > 8:
                     info += _("  ... and {} more networks\n").format(len(networks) - 8)
+
             else:
                 info += _("No networks found or scan not supported\n")
                 self._write_debug("No networks found in scan")
@@ -460,7 +467,10 @@ class WiFiDetailedInfo(Screen):
             info += _("{}\n").format(error_msg)
             self._write_debug(error_msg, error=True)
 
-        self._write_debug(f"Network scan completed, length: {len(info)}")
+        self._write_debug(
+            "Network scan completed, length: {}".format(len(info))
+        )
+
         return info
 
     def format_bytes(self, bytes):
