@@ -234,7 +234,8 @@ class WiFiMonitor(Screen):
                 return None
 
             # ESSID
-            wifi_data['essid'] = interface_info.get('essid', _('Not connected'))
+            wifi_data['essid'] = interface_info.get(
+                'essid', _('Not connected'))
 
             # Quality
             quality_str = interface_info.get('quality', '0')
@@ -248,7 +249,8 @@ class WiFiMonitor(Screen):
                         if len(parts) == 2:
                             current = float(parts[0])
                             max_val = float(parts[1])
-                            quality = int((current / max_val) * 100) if max_val > 0 else 0
+                            quality = int(
+                                (current / max_val) * 100) if max_val > 0 else 0
                         else:
                             quality = 0
 
@@ -257,7 +259,8 @@ class WiFiMonitor(Screen):
 
                     else:
                         quality_clean = sub(r'[^\d.-]', '', quality_str)
-                        quality = int(float(quality_clean)) if quality_clean else 0
+                        quality = int(
+                            float(quality_clean)) if quality_clean else 0
                 else:
                     quality = int(quality_str)
 
@@ -296,13 +299,14 @@ class WiFiMonitor(Screen):
 
                     if signal_match2:
                         wifi_data['signal'] = int(signal_match2.group(1))
-                        print("[WiFiMonitor] Found signal level (alt format): {}".format(
-                            wifi_data['signal']
-                        ))
+                        print(
+                            "[WiFiMonitor] Found signal level (alt format): {}".format(
+                                wifi_data['signal']))
 
                     else:
                         quality_percent = wifi_data['quality']
-                        wifi_data['signal'] = int(-100 + (quality_percent * 0.8))
+                        wifi_data['signal'] = int(-100 +
+                                                  (quality_percent * 0.8))
 
                         print("[WiFiMonitor] Estimated signal: {} dBm".format(
                             wifi_data['signal']
@@ -336,11 +340,15 @@ class WiFiMonitor(Screen):
                         text=True
                     )
 
-                    ip_match = search(r'inet (\d+\.\d+\.\d+\.\d+)', result.stdout)
-                    wifi_data['ip'] = ip_match.group(1) if ip_match else _('Not connected')
+                    ip_match = search(
+                        r'inet (\d+\.\d+\.\d+\.\d+)', result.stdout)
+                    wifi_data['ip'] = ip_match.group(
+                        1) if ip_match else _('Not connected')
 
-                    mac_match = search(r'link/ether ([0-9a-f:]+)', result.stdout, IGNORECASE)
-                    wifi_data['mac'] = mac_match.group(1) if mac_match else _('N/A')
+                    mac_match = search(
+                        r'link/ether ([0-9a-f:]+)', result.stdout, IGNORECASE)
+                    wifi_data['mac'] = mac_match.group(
+                        1) if mac_match else _('N/A')
 
                 except Exception as e:
                     print(e)

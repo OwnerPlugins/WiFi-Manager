@@ -354,7 +354,9 @@ def setEssid(wifi, essid):
         print('Error for wireless request "Set ESSID" ({}):'.format(
             format(wifi_flags.SIOCSIWESSID, "X")
         ))
-        print('    argument too big (max {})'.format(wifi_flags.IW_ESSID_MAX_SIZE))
+        print(
+            '    argument too big (max {})'.format(
+                wifi_flags.IW_ESSID_MAX_SIZE))
         print(type(errno), errno)
         print(type(strerror), strerror)
 

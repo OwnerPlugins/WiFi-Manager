@@ -261,7 +261,8 @@ def get_interface_info(ifname):
 
         # Extract ESSID
         essid_match = search(r'ESSID:"([^"]*)"', output)
-        info['essid'] = essid_match.group(1) if essid_match else _("Not connected")
+        info['essid'] = essid_match.group(
+            1) if essid_match else _("Not connected")
 
         # Extract AP MAC address
         ap_match = search(r'Access Point: ([0-9A-Fa-f:]{17})', output)
@@ -284,7 +285,8 @@ def get_interface_info(ifname):
 
         # Extract Bitrate
         rate_match = search(r'Bit Rate[=:]([0-9.]+) Mb/s', output)
-        info['bitrate'] = _("{} Mb/s").format(rate_match.group(1)) if rate_match else _("Unknown")
+        info['bitrate'] = _("{} Mb/s").format(rate_match.group(1)
+                                              ) if rate_match else _("Unknown")
 
         # Extract Signal Quality
         quality_match = search(r'Link Quality=(\d+)/(\d+)', output)
@@ -305,7 +307,8 @@ def get_interface_info(ifname):
                 )
 
                 if iw_result.returncode == 0:
-                    iw_signal_match = search(r'signal: (-?\d+)', iw_result.stdout)
+                    iw_signal_match = search(
+                        r'signal: (-?\d+)', iw_result.stdout)
 
                     if iw_signal_match:
                         info['signal_dbm'] = int(iw_signal_match.group(1))
@@ -338,7 +341,8 @@ def get_interface_info(ifname):
 
         # Extract TX Power
         power_match = search(r'Tx-Power[=:](-?\d+) dBm', output)
-        info['txpower'] = _("{} dBm").format(power_match.group(1)) if power_match else _("Unknown")
+        info['txpower'] = _("{} dBm").format(
+            power_match.group(1)) if power_match else _("Unknown")
 
         # Get protocol (driver) information using ethtool
         try:
@@ -351,7 +355,9 @@ def get_interface_info(ifname):
 
             if ethtool_result.returncode == 0:
                 ethtool_output = ethtool_result.stdout
-                print("[DEBUG] ethtool output for {}:\n{}".format(ifname, ethtool_output))
+                print(
+                    "[DEBUG] ethtool output for {}:\n{}".format(
+                        ifname, ethtool_output))
 
                 driver_match = search(r'driver:\s*(\S+)', ethtool_output)
 
@@ -824,7 +830,8 @@ def test_ping(host="8.8.8.8", count=3, timeout=5, debug=False):
                             avg_ping = float(match.group(1))
 
                         if debug:
-                            print("[PING] Found average from stats: {:.1f} ms".format(avg_ping))
+                            print(
+                                "[PING] Found average from stats: {:.1f} ms".format(avg_ping))
 
                         return _("{:.1f} ms").format(avg_ping)
 

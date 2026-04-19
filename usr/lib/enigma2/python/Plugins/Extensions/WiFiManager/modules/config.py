@@ -362,13 +362,19 @@ class WiFiConfigScreen(Screen, ConfigListScreen):
             commands = []
 
             if self.wifi_config.mode.value != "auto":
-                commands.append("iwconfig {} mode {}".format(ifname, self.wifi_config.mode.value))
+                commands.append(
+                    "iwconfig {} mode {}".format(
+                        ifname, self.wifi_config.mode.value))
 
             if self.wifi_config.channel.value != "auto":
-                commands.append("iwconfig {} channel {}".format(ifname, self.wifi_config.channel.value))
+                commands.append(
+                    "iwconfig {} channel {}".format(
+                        ifname, self.wifi_config.channel.value))
 
             if self.wifi_config.txpower.value != "auto":
-                commands.append("iwconfig {} txpower {}".format(ifname, self.wifi_config.txpower.value))
+                commands.append(
+                    "iwconfig {} txpower {}".format(
+                        ifname, self.wifi_config.txpower.value))
 
             if self.wifi_config.rts.value != "auto":
                 rts_val = "off" if self.wifi_config.rts.value == "off" else self.wifi_config.rts.value
@@ -379,23 +385,32 @@ class WiFiConfigScreen(Screen, ConfigListScreen):
                 commands.append("iwconfig {} frag {}".format(ifname, frag_val))
 
             if self.wifi_config.country.value != "auto":
-                commands.append("iw reg set {}".format(self.wifi_config.country.value))
+                commands.append(
+                    "iw reg set {}".format(
+                        self.wifi_config.country.value))
 
             if self.wifi_config.rate.value != "auto":
-                commands.append("iwconfig {} rate {}M".format(ifname, self.wifi_config.rate.value))
+                commands.append(
+                    "iwconfig {} rate {}M".format(
+                        ifname, self.wifi_config.rate.value))
 
             success_count = 0
             failed_commands = []
 
             for cmd in commands:
                 try:
-                    result = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=10)
+                    result = subprocess.run(
+                        cmd, shell=True, capture_output=True, text=True, timeout=10)
                     if result.returncode == 0:
                         success_count += 1
-                        print("[WiFiConfig] Command successful: {}".format(cmd))
+                        print(
+                            "[WiFiConfig] Command successful: {}".format(cmd))
                     else:
-                        failed_commands.append("{}: {}".format(cmd, result.stderr.strip()))
-                        print("[WiFiConfig] Command failed: {} - {}".format(cmd, result.stderr))
+                        failed_commands.append(
+                            "{}: {}".format(
+                                cmd, result.stderr.strip()))
+                        print(
+                            "[WiFiConfig] Command failed: {} - {}".format(cmd, result.stderr))
                 except subprocess.TimeoutExpired:
                     failed_commands.append("{}: Timeout".format(cmd))
                     print("[WiFiConfig] Command timeout: {}".format(cmd))

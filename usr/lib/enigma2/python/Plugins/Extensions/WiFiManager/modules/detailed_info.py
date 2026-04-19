@@ -105,12 +105,15 @@ class WiFiDetailedInfo(Screen):
         wifi_ifaces = get_wifi_interfaces()
 
         if self.ifname not in wifi_ifaces:
-            error_msg = _("❌ Interface {} not found or not a WiFi interface\n").format(self.ifname)
+            error_msg = _("❌ Interface {} not found or not a WiFi interface\n").format(
+                self.ifname)
             error_msg += _("Available interfaces: {}").format(
                 ', '.join(wifi_ifaces) if wifi_ifaces else _('None')
             )
 
-            self._write_debug("Interface not found: {}".format(self.ifname), error=True)
+            self._write_debug(
+                "Interface not found: {}".format(
+                    self.ifname), error=True)
             self["info_output"].setText(error_msg)
             return
 
