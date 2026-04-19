@@ -1,6 +1,6 @@
 #!/bin/bash
 
-version='1.3'
+version='1.4'
 changelog='\nComplete Porting PY3'
 
 TMPPATH=/tmp/WiFiManager-install
