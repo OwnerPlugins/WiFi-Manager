@@ -936,7 +936,8 @@ class WiFiConnectZ(Screen):
                 if essid_match and essid_match.group(1):
                     essid = essid_match.group(1)
 
-                    signal_match = search(r'Signal level=(-?\d+)', result.stdout)
+                    signal_match = search(
+                        r'Signal level=(-?\d+)', result.stdout)
                     signal = signal_match.group(1) if signal_match else "?"
 
                     # Get IP address
@@ -947,7 +948,8 @@ class WiFiConnectZ(Screen):
                         text=True
                     )
 
-                    ip_match = search(r'inet (\d+\.\d+\.\d+\.\d+)', ip_result.stdout)
+                    ip_match = search(
+                        r'inet (\d+\.\d+\.\d+\.\d+)', ip_result.stdout)
                     ip_addr = ip_match.group(1) if ip_match else _("No IP")
 
                     self["status"].setText(
