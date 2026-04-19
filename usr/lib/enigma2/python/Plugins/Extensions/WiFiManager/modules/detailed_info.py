@@ -198,7 +198,8 @@ class WiFiDetailedInfo(Screen):
             self["info_output"].setText(info_text)
 
         except Exception as e:
-            error_msg = _("❌ Error getting detailed info:\n{}\n\n").format(str(e))
+            error_msg = _(
+                "❌ Error getting detailed info:\n{}\n\n").format(str(e))
             stack_trace = traceback.format_exc()
 
             self._write_debug(
@@ -220,7 +221,9 @@ class WiFiDetailedInfo(Screen):
         self._write_debug(
             "Getting wireless info for {} using tools.py".format(self.ifname)
         )
-        print("[WiFiDetailedInfo] Getting wireless info for {}".format(self.ifname))
+        print(
+            "[WiFiDetailedInfo] Getting wireless info for {}".format(
+                self.ifname))
         info = ""
 
         try:
@@ -230,9 +233,8 @@ class WiFiDetailedInfo(Screen):
                 info += _("❌ Error: {}\n").format(interface_info['error'])
 
                 self._write_debug(
-                    "Error getting wireless info: {}".format(interface_info['error']),
-                    error=True
-                )
+                    "Error getting wireless info: {}".format(
+                        interface_info['error']), error=True)
 
                 return info
 
