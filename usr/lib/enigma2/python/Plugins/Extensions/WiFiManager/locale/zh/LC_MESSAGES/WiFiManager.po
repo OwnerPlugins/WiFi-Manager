@@ -1,0 +1,1816 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-10-14 14:40+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Chinese\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "- {adapter}\\\\\\\\n"
+msgstr ""
+
+msgid "... and {} more networks\\\\\\\\n"
+msgstr ""
+
+msgid "1 dBm (Min)"
+msgstr ""
+
+msgid "1. Check if WiFi adapter is properly connected\\\\\\\\n"
+msgstr ""
+
+msgid "1. Disconnect from current WiFi network\\\\\\\\n"
+msgstr ""
+
+msgid "10 dBm"
+msgstr ""
+
+msgid "15 dBm"
+msgstr ""
+
+msgid "2. Restart WiFi adapter\\\\\\\\n"
+msgstr ""
+
+msgid "2. Verify WiFi adapter is supported by your receiver\\\\\\\\n"
+msgstr ""
+
+msgid "20 dBm (Max)"
+msgstr ""
+
+msgid "3. Check if WiFi driver is installed\\\\\\\\n"
+msgstr ""
+
+msgid "3. Try different USB port for USB WiFi adapters\\\\\\\\n"
+msgstr ""
+
+msgid "4. Check if WiFi drivers are installed\\\\\\\\n"
+msgstr ""
+
+msgid "4. Try with different USB WiFi adapter\\\\\\\\n"
+msgstr ""
+
+msgid "5 dBm"
+msgstr ""
+
+msgid "5. Check root permissions\\\\\\\\n"
+msgstr ""
+
+msgid "5. Restart the receiver and try again\\\\\\\\n"
+msgstr ""
+
+msgid "=== WiFi Diagnostics (System Commands Only) ===\\\\\\\\n"
+msgstr ""
+
+msgid "ACTIVE"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "Access Point"
+msgstr ""
+
+msgid "Access Point: {ap}"
+msgstr ""
+
+msgid "Access Points"
+msgstr ""
+
+msgid "Access points info displayed."
+msgstr ""
+
+msgid "Ad-Hoc"
+msgstr ""
+
+msgid "Advanced"
+msgstr ""
+
+msgid "Advanced Config"
+msgstr ""
+
+msgid "Advanced Config - {}"
+msgstr ""
+
+msgid "Advanced Scan"
+msgstr ""
+
+msgid "Advanced Scan Results"
+msgstr ""
+
+msgid "Advanced Tools"
+msgstr ""
+
+msgid "Advanced WiFi Configuration"
+msgstr ""
+
+msgid "Advanced WiFi Tools"
+msgstr ""
+
+msgid "Advanced WiFi configuration"
+msgstr ""
+
+msgid "Advanced WiFi configuration settings"
+msgstr ""
+
+msgid "Advanced WiFi interface configuration"
+msgstr ""
+
+msgid "Advanced configuration completed."
+msgstr ""
+
+msgid "All Network Interfaces: {interfaces}\\\\\\\\n"
+msgstr ""
+
+msgid "All ping tests failed"
+msgstr ""
+
+msgid "All settings reset to defaults"
+msgstr ""
+
+msgid "Applied: {} commands\\\\\\\\n"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Auto"
+msgstr ""
+
+msgid "Auto  limit    ;  min limit:{limit}"
+msgstr ""
+
+msgid "Automatic (DHCP)"
+msgstr ""
+
+msgid "Available frequencies and channels for your region"
+msgstr ""
+
+msgid "Available frequencies/channels"
+msgstr ""
+
+msgid "Available interfaces: {}"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Basic"
+msgstr ""
+
+msgid "Basic info error: {}"
+msgstr ""
+
+msgid "Basic view enabled - rescan to see basic info"
+msgstr ""
+
+msgid "Bit Rate: {rate}"
+msgstr ""
+
+msgid "Bit Rates:"
+msgstr ""
+
+msgid "Bitrate"
+msgstr ""
+
+msgid "Bitrate Info"
+msgstr ""
+
+msgid "Bitrate info displayed."
+msgstr ""
+
+msgid "Bitrate information not available\\\\\\\\n"
+msgstr ""
+
+msgid "CONNECTED to: {} - Press OK for options"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Cancelling test..."
+msgstr ""
+
+msgid "Cell"
+msgstr ""
+
+msgid "Channel"
+msgstr ""
+
+msgid "Channel Info"
+msgstr ""
+
+msgid "Channel info displayed."
+msgstr ""
+
+msgid "Channel {}"
+msgstr ""
+
+msgid "Channel: %s\\\\\\\\n"
+msgstr ""
+
+msgid "Check System Logs"
+msgstr ""
+
+msgid "Check system logs for WiFi errors"
+msgstr ""
+
+msgid "Check system logs for WiFi errors and connection issues"
+msgstr ""
+
+msgid "Checking internet connection..."
+msgstr ""
+
+msgid "Checking system logs..."
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "Client info completed"
+msgstr ""
+
+msgid "Client info error: {error}"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Cloudflare"
+msgstr ""
+
+msgid "Complete iwconfig-like information"
+msgstr ""
+
+msgid "Config"
+msgstr ""
+
+msgid "Configure {}"
+msgstr ""
+
+msgid "Connect"
+msgstr ""
+
+msgid "Connect to WiFi networks"
+msgstr ""
+
+msgid "Connected but no timing data"
+msgstr ""
+
+msgid "Connected successfully!"
+msgstr ""
+
+msgid "Connected to %s"
+msgstr ""
+
+msgid "Connected to: %s"
+msgstr ""
+
+msgid "Connected: {} | Signal: {} dBm | IP: {}"
+msgstr ""
+
+msgid "Connecting to %s..."
+msgstr ""
+
+msgid "Connection Info"
+msgstr ""
+
+msgid "Connection failed!"
+msgstr ""
+
+msgid "Connection timeout"
+msgstr ""
+
+msgid "Country Code"
+msgstr ""
+
+msgid "DHCP"
+msgstr ""
+
+msgid "DNS Server 1"
+msgstr ""
+
+msgid "DNS Server 2"
+msgstr ""
+
+msgid "DOWN"
+msgstr ""
+
+msgid "Data Rate"
+msgstr ""
+
+msgid "Defaults"
+msgstr ""
+
+msgid "Detailed Info - {}"
+msgstr ""
+
+msgid "Detailed network scanning"
+msgstr ""
+
+msgid "Detailed network scanning with signal strength and encryption info"
+msgstr ""
+
+msgid "Detailed speed test failed - Check internet connection"
+msgstr ""
+
+msgid "Detailed test completed"
+msgstr ""
+
+msgid "Detailed test error: {error}"
+msgstr ""
+
+msgid "Detailed view enabled - rescan to see details"
+msgstr ""
+
+msgid "Details"
+msgstr ""
+
+msgid "Details Info"
+msgstr ""
+
+msgid "Diagnostic error: {}\\\\\\\\n"
+msgstr ""
+
+msgid "Diagnostics"
+msgstr ""
+
+msgid "Disconnect"
+msgstr ""
+
+msgid "Disconnected"
+msgstr ""
+
+msgid "Disconnecting..."
+msgstr ""
+
+msgid "Download Speed: %s\\\\\\\\n"
+msgstr ""
+
+msgid "Download Speed: {download}\\\\\\\\n"
+msgstr ""
+
+msgid "Download test completed"
+msgstr ""
+
+msgid "Download: Failed\\\\\\\\n"
+msgstr ""
+
+msgid "Download: {:.2f} Mbps\\\\\\\\n"
+msgstr ""
+
+msgid "Driver check failed: {error}\\\\\\\\n"
+msgstr ""
+
+msgid "Driver info error: {}"
+msgstr ""
+
+msgid "Driver: Unknown\\\\\\\\n"
+msgstr ""
+
+msgid "Driver: {driver}\\\\\\\\n"
+msgstr ""
+
+msgid "ESSID: %s\\\\\\\\n"
+msgstr ""
+
+msgid "ESSID: {}"
+msgstr ""
+
+msgid "Edit Configuration"
+msgstr ""
+
+msgid "Edit Password"
+msgstr ""
+
+msgid "Encryption"
+msgstr ""
+
+msgid "Encryption Info"
+msgstr ""
+
+msgid "Encryption info displayed."
+msgstr ""
+
+msgid "Encryption information not available\\\\\\\\n"
+msgstr ""
+
+msgid "Encryption keys and security"
+msgstr ""
+
+msgid "Encryption keys and security protocols"
+msgstr ""
+
+msgid "Encryption: %s\\\\\\\\n"
+msgstr ""
+
+msgid "Enter Password"
+msgstr ""
+
+msgid "Enter password for: %s"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Error applying advanced settings: {}"
+msgstr ""
+
+msgid "Error applying settings: {}"
+msgstr ""
+
+msgid "Error disconnecting"
+msgstr ""
+
+msgid "Error getting AP information: {}"
+msgstr ""
+
+msgid "Error getting bitrate information: {}"
+msgstr ""
+
+msgid "Error getting channel information: {}"
+msgstr ""
+
+msgid "Error getting connection details: {error}"
+msgstr ""
+
+msgid "Error getting encryption information: {}"
+msgstr ""
+
+msgid "Error getting power information: {}"
+msgstr ""
+
+msgid "Error getting retry information: {}"
+msgstr ""
+
+msgid "Error loading help"
+msgstr ""
+
+msgid "Error on {interface}: {error}\\\\\\\\n"
+msgstr ""
+
+msgid "Error opening {module}: {error}"
+msgstr ""
+
+msgid "Error running {tool}: {error}"
+msgstr ""
+
+msgid "Error: {error}"
+msgstr ""
+
+msgid "Error: {}"
+msgstr ""
+
+msgid "Estimating upload speed..."
+msgstr ""
+
+msgid "Excellent"
+msgstr ""
+
+msgid "Excellent download speed\\\\\\\\n"
+msgstr ""
+
+msgid "Executing tool..."
+msgstr ""
+
+msgid "Exit"
+msgstr ""
+
+msgid "Failed"
+msgstr ""
+
+msgid "Failed to connect to %s"
+msgstr ""
+
+msgid "Failed to restart interface {e}"
+msgstr ""
+
+msgid "Failed: {} commands"
+msgstr ""
+
+msgid "Fair"
+msgstr ""
+
+msgid "Final connectivity check..."
+msgstr ""
+
+msgid "Finding best server..."
+msgstr ""
+
+msgid "Fixed lifetime ;  min lifetime:{lifetime}"
+msgstr ""
+
+msgid "Fixed limit    ;  min limit:{limit}"
+msgstr ""
+
+msgid "For troubleshooting, detailed guidance, or community support, visit:\\\\\\\\n"
+msgstr ""
+
+msgid "Forget Network"
+msgstr ""
+
+msgid "Forgotten network: {}"
+msgstr ""
+
+msgid "Found {} networks:\\\\\\\\n"
+msgstr ""
+
+msgid "Found: {}\\\\\\\\n"
+msgstr ""
+
+msgid "Fragmentation"
+msgstr ""
+
+msgid "Frequency"
+msgstr ""
+
+msgid "Frequency information not available\\\\\\\\n"
+msgstr ""
+
+msgid "Frequency/Channel"
+msgstr ""
+
+msgid "Frequency:"
+msgstr ""
+
+msgid "Frequency: %s\\\\\\\\n"
+msgstr ""
+
+msgid "Frequency: {frequency}"
+msgstr ""
+
+msgid "Full Comprehensive Test"
+msgstr ""
+
+msgid "Full Test"
+msgstr ""
+
+msgid "Full test completed"
+msgstr ""
+
+msgid "Full test error: {error}"
+msgstr ""
+
+msgid "Gateway"
+msgstr ""
+
+msgid "Gateway: {gateway}"
+msgstr ""
+
+msgid "Gathering client information..."
+msgstr ""
+
+msgid "Gathering network details..."
+msgstr ""
+
+msgid "Getting access point information..."
+msgstr ""
+
+msgid "Getting bitrate information..."
+msgstr ""
+
+msgid "Getting channel information..."
+msgstr ""
+
+msgid "Getting client information..."
+msgstr ""
+
+msgid "Getting encryption information..."
+msgstr ""
+
+msgid "Getting power management information..."
+msgstr ""
+
+msgid "Getting retry information..."
+msgstr ""
+
+msgid "Good"
+msgstr ""
+
+msgid "Good download speed\\\\\\\\n"
+msgstr ""
+
+msgid "Google"
+msgstr ""
+
+msgid "Google DNS"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Hidden"
+msgstr ""
+
+msgid "Hidden Network"
+msgstr ""
+
+msgid "Host not found"
+msgstr ""
+
+msgid "Hostname: {hostname}"
+msgstr ""
+
+msgid "INACTIVE"
+msgstr ""
+
+msgid "IP Address"
+msgstr ""
+
+msgid "IP Address: {ip}"
+msgstr ""
+
+msgid "IP Configuration"
+msgstr ""
+
+msgid "IP: N/A"
+msgstr ""
+
+msgid "IP: {ip}\\\\\\\\n"
+msgstr ""
+
+msgid "IP: {}"
+msgstr ""
+
+msgid "ISP: {isp}"
+msgstr ""
+
+msgid "ISP: {isp}\\\\\\\\n"
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "Initializing WiFi..."
+msgstr ""
+
+msgid "Initializing detailed speed test..."
+msgstr ""
+
+msgid "Interface"
+msgstr ""
+
+msgid "Interface found: {}"
+msgstr ""
+
+msgid "Interface restarted successfully"
+msgstr ""
+
+msgid "Interface restarted."
+msgstr ""
+
+msgid "Interface {} not available"
+msgstr ""
+
+msgid "Interface: {}"
+msgstr ""
+
+msgid "Invalid misc:%s"
+msgstr ""
+
+msgid "Kernel Messages (dmesg):\\\\\\\\n"
+msgstr ""
+
+msgid "Latency test completed"
+msgstr ""
+
+msgid "Latency: %s\\\\\\\\n"
+msgstr ""
+
+msgid "Link Quality: {quality}"
+msgstr ""
+
+msgid "Link Quality:%s/100"
+msgstr ""
+
+msgid "List of access points and connected peer stations"
+msgstr ""
+
+msgid "List of access points/peers"
+msgstr ""
+
+msgid "Location: {city}, {country}"
+msgstr ""
+
+msgid "Location: {city}, {country}\\\\\\\\n"
+msgstr ""
+
+msgid "Logs checked."
+msgstr ""
+
+msgid "MAC Address: {mac}"
+msgstr ""
+
+msgid "MAC Address: {mac}\\\\\\\\n"
+msgstr ""
+
+msgid "MAC: %s\\\\\\\\n"
+msgstr ""
+
+msgid "MAC: N/A"
+msgstr ""
+
+msgid "MAC: {}"
+msgstr ""
+
+msgid "Managed (Client)"
+msgstr ""
+
+msgid "Manual (Static IP)"
+msgstr ""
+
+msgid "Master (AP)"
+msgstr ""
+
+msgid "Missed beacon:%s"
+msgstr ""
+
+msgid "Mode:"
+msgstr ""
+
+msgid "Mode: {mode}"
+msgstr ""
+
+msgid "Modules reloaded."
+msgstr ""
+
+msgid "Monitor"
+msgstr ""
+
+msgid "Monitoring error: {}"
+msgstr ""
+
+msgid "N/A"
+msgstr ""
+
+msgid "Name: {name}\\\\\\\\n"
+msgstr ""
+
+msgid "Netmask"
+msgstr ""
+
+msgid "Network %d:\\\\\\\\n"
+msgstr ""
+
+msgid "Network Interface: {interface}"
+msgstr ""
+
+msgid "Network Name (SSID)"
+msgstr ""
+
+msgid "Network forgotten!"
+msgstr ""
+
+msgid "Network info error: {error}"
+msgstr ""
+
+msgid "Network information unavailable"
+msgstr ""
+
+msgid "Network unreachable"
+msgstr ""
+
+msgid "Network: %s"
+msgstr ""
+
+msgid "Network: {essid}"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No IP"
+msgstr ""
+
+msgid "No WiFi connection data available"
+msgstr ""
+
+msgid "No WiFi interface available"
+msgstr ""
+
+msgid "No WiFi interface detected. Please check your hardware."
+msgstr ""
+
+msgid "No WiFi interface found"
+msgstr ""
+
+msgid "No WiFi interfaces found"
+msgstr ""
+
+msgid "No WiFi interfaces found\\\\\\\\n"
+msgstr ""
+
+msgid "No WiFi messages in system logs"
+msgstr ""
+
+msgid "No connection details available"
+msgstr ""
+
+msgid "No data"
+msgstr ""
+
+msgid "No help available for this tool."
+msgstr ""
+
+msgid "No interface"
+msgstr ""
+
+msgid "No internet connection"
+msgstr ""
+
+msgid "No internet connection detected"
+msgstr ""
+
+msgid "No network selected"
+msgstr ""
+
+msgid "No networks found"
+msgstr ""
+
+msgid "No networks found - Press BLUE to rescan"
+msgstr ""
+
+msgid "No networks found on {}\\\\\\\\n"
+msgstr ""
+
+msgid "No networks found or scan not supported\\\\\\\\n"
+msgstr ""
+
+msgid "No networks found with iwlist\\\\\\\\n"
+msgstr ""
+
+msgid "No packets sent"
+msgstr ""
+
+msgid "No ping data"
+msgstr ""
+
+msgid "No results with iwlist\\\\\\\\n"
+msgstr ""
+
+msgid "No station/peer information available\\\\\\\\n"
+msgstr ""
+
+msgid "Noise level:%sdBm"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "None found"
+msgstr ""
+
+msgid "Not connected"
+msgstr ""
+
+msgid "Not connected to any network"
+msgstr ""
+
+msgid "Not-Associated"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "OpenDNS"
+msgstr ""
+
+msgid "Operation Mode"
+msgstr ""
+
+msgid "Operation completed."
+msgstr ""
+
+msgid "Output: {output}..."
+msgstr ""
+
+msgid "Packet retry limits and frame lifetime settings"
+msgstr ""
+
+msgid "Packets: {sent}, Lost: {lost} ({percentage:.1f}%) - {stability}"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Pause"
+msgstr ""
+
+msgid "Performing initial scan..."
+msgstr ""
+
+msgid "Ping error for {host}: {error}"
+msgstr ""
+
+msgid "Ping failed"
+msgstr ""
+
+msgid "Ping failed for {host} (returncode: {code})"
+msgstr ""
+
+msgid "Ping not available"
+msgstr ""
+
+msgid "Ping test completed: {avg:.1f} ms average ({success}/{total} successful)"
+msgstr ""
+
+msgid "Ping test error: {error}"
+msgstr ""
+
+msgid "Ping timeout for {host}"
+msgstr ""
+
+msgid "Ping {host} (fallback): {time} ms"
+msgstr ""
+
+msgid "Ping {host}: {time} ms"
+msgstr ""
+
+msgid "Ping/Latency: {ping}\\\\\\\\n"
+msgstr ""
+
+msgid "Ping: Failed\\\\\\\\n"
+msgstr ""
+
+msgid "Ping: {:.1f} ms\\\\\\\\n"
+msgstr ""
+
+msgid "Please enter a network name"
+msgstr ""
+
+msgid "Please enter a password"
+msgstr ""
+
+msgid "Poor"
+msgstr ""
+
+msgid "Poor download speed\\\\\\\\n"
+msgstr ""
+
+msgid "Power Management"
+msgstr ""
+
+msgid "Power management info displayed."
+msgstr ""
+
+msgid "Power management information not available\\\\\\\\n"
+msgstr ""
+
+msgid "Power management settings"
+msgstr ""
+
+msgid "Power management settings and power saving modes"
+msgstr ""
+
+msgid "Primary DNS"
+msgstr ""
+
+msgid "Public IP: Unable to determine"
+msgstr ""
+
+msgid "Public IP: {ip}"
+msgstr ""
+
+msgid "Quality: %s\\\\\\\\n"
+msgstr ""
+
+msgid "Quality: N/A"
+msgstr ""
+
+msgid "Quality: {}%"
+msgstr ""
+
+msgid "Quality: {}% ({})"
+msgstr ""
+
+msgid "Quick System Check"
+msgstr ""
+
+msgid "Quick Test"
+msgstr ""
+
+msgid "Quick test completed"
+msgstr ""
+
+msgid "Quick test error: {error}"
+msgstr ""
+
+msgid "RTS Threshold"
+msgstr ""
+
+msgid "Real-time signal quality monitor"
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Reload WiFi Modules"
+msgstr ""
+
+msgid "Reload kernel WiFi modules"
+msgstr ""
+
+msgid "Reload kernel WiFi modules to fix driver issues"
+msgstr ""
+
+msgid "Remember password"
+msgstr ""
+
+msgid "Restart WiFi Interface"
+msgstr ""
+
+msgid "Restart WiFi interface %s?"
+msgstr ""
+
+msgid "Restart wireless interface"
+msgstr ""
+
+msgid "Restart wireless interface to reset connectivity"
+msgstr ""
+
+msgid "Restarting interface..."
+msgstr ""
+
+msgid "Retry Limits"
+msgstr ""
+
+msgid "Retry limit information not available\\\\\\\\n"
+msgstr ""
+
+msgid "Retry limits and lifetime"
+msgstr ""
+
+msgid "Retry limits info displayed."
+msgstr ""
+
+msgid "Running detailed speed test..."
+msgstr ""
+
+msgid "Running full speed test..."
+msgstr ""
+
+msgid "Running quick speed test..."
+msgstr ""
+
+msgid "Rx invalid crypt:%s"
+msgstr ""
+
+msgid "Rx invalid frag:%s"
+msgstr ""
+
+msgid "Rx invalid nwid:%s"
+msgstr ""
+
+msgid "Save & Connect"
+msgstr ""
+
+msgid "Scan"
+msgstr ""
+
+msgid "Scan completed."
+msgstr ""
+
+msgid "Scan error {}"
+msgstr ""
+
+msgid "Scan error:"
+msgstr ""
+
+msgid "Scan error: {}"
+msgstr ""
+
+msgid "Scan error: {}\\\\\\\\n"
+msgstr ""
+
+msgid "Scan failed"
+msgstr ""
+
+msgid "Scan for available networks"
+msgstr ""
+
+msgid "Scanner"
+msgstr ""
+
+msgid "Scanning for WiFi networks..."
+msgstr ""
+
+msgid "Scanning for networks..."
+msgstr ""
+
+msgid "Scanning..."
+msgstr ""
+
+msgid "Secondary DNS"
+msgstr ""
+
+msgid "Secured"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Select a speed test type"
+msgstr ""
+
+msgid "Select a tool from the menu to get detailed information about WiFi configuration and status."
+msgstr ""
+
+msgid "Select a tool to see description"
+msgstr ""
+
+msgid "Select a tool to view detailed information"
+msgstr ""
+
+msgid "Select an option"
+msgstr ""
+
+msgid "Server found"
+msgstr ""
+
+msgid "Server info error: {error}"
+msgstr ""
+
+msgid "Settings applied successfully"
+msgstr ""
+
+msgid "Signal Level: {signal} dBm"
+msgstr ""
+
+msgid "Signal level:%sdBm"
+msgstr ""
+
+msgid "Signal: %s\\\\\\\\n"
+msgstr ""
+
+msgid "Signal: N/A"
+msgstr ""
+
+msgid "Signal: {} dBm"
+msgstr ""
+
+msgid "Speedtest"
+msgstr ""
+
+msgid "Speedtest failed - No internet connection or all tests failed"
+msgstr ""
+
+msgid "Speedtest failed: {}"
+msgstr ""
+
+msgid "SpeedtestSimple not available"
+msgstr ""
+
+msgid "Sponsor: {sponsor}\\\\\\\\n"
+msgstr ""
+
+msgid "Stability test error: {error}"
+msgstr ""
+
+msgid "Stable"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Static"
+msgstr ""
+
+msgid "Statistics error: {}"
+msgstr ""
+
+msgid "Status check failed: {}"
+msgstr ""
+
+msgid "Stop"
+msgstr ""
+
+msgid "Supported bit rates"
+msgstr ""
+
+msgid "Supported bitrates and current transmission rates"
+msgstr ""
+
+msgid "System Logs"
+msgstr ""
+
+msgid "System Logs:\\\\\\\\n"
+msgstr ""
+
+msgid "TX Power"
+msgstr ""
+
+msgid "Tertiary DNS"
+msgstr ""
+
+msgid "Test cancelled"
+msgstr ""
+
+msgid "Test completed - See results below"
+msgstr ""
+
+msgid "Test completed!"
+msgstr ""
+
+msgid "Test failed"
+msgstr ""
+
+msgid "Testing connection stability..."
+msgstr ""
+
+msgid "Testing connectivity..."
+msgstr ""
+
+msgid "Testing download speed (multiple servers)..."
+msgstr ""
+
+msgid "Testing download speed..."
+msgstr ""
+
+msgid "Testing latency to multiple hosts..."
+msgstr ""
+
+msgid "Testing latency..."
+msgstr ""
+
+msgid "Testing upload speed..."
+msgstr ""
+
+msgid "These forums are great places to get help,\\\\\\\\n"
+msgstr ""
+
+msgid "Timeout"
+msgstr ""
+
+msgid "Tool not available"
+msgstr ""
+
+msgid "Tool not implemented: {}"
+msgstr ""
+
+msgid "Tools"
+msgstr ""
+
+msgid "Tx excessive retries:%s"
+msgstr ""
+
+msgid "UP and active"
+msgstr ""
+
+msgid "Unable to assess download quality\\\\\\\\n"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Unstable"
+msgstr ""
+
+msgid "Upload Speed: %s\\\\\\\\n"
+msgstr ""
+
+msgid "Upload Speed: {upload}\\\\\\\\n"
+msgstr ""
+
+msgid "Upload estimation completed"
+msgstr ""
+
+msgid "Upload test failed: {error}"
+msgstr ""
+
+msgid "Upload test not available"
+msgstr ""
+
+msgid "Upload test: {result}"
+msgstr ""
+
+msgid "Upload: Not available\\\\\\\\n"
+msgstr ""
+
+msgid "Upload: {:.2f} Mbps (estimated)\\\\\\\\n"
+msgstr ""
+
+msgid "Very Poor"
+msgstr ""
+
+msgid "WEP Key Type"
+msgstr ""
+
+msgid "WiFi Advanced Tools"
+msgstr ""
+
+msgid "WiFi Connection Manager"
+msgstr ""
+
+msgid "WiFi Diagnostics"
+msgstr ""
+
+msgid "WiFi Manager"
+msgstr ""
+
+msgid "WiFi Manager iwconfig version {}"
+msgstr ""
+
+msgid "WiFi Manager v."
+msgstr ""
+
+msgid "WiFi Password"
+msgstr ""
+
+msgid "WiFi Scanner"
+msgstr ""
+
+msgid "WiFi Signal Monitor"
+msgstr ""
+
+msgid "WiFi Speed Test Manager"
+msgstr ""
+
+msgid "WiFi diagnostics and tests"
+msgstr ""
+
+msgid "Wired"
+msgstr ""
+
+msgid "Wireless"
+msgstr ""
+
+msgid "Wireless info error: {}"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "[LOCK]"
+msgstr ""
+
+msgid "[OPEN]"
+msgstr ""
+
+msgid "[SAVED]"
+msgstr ""
+
+msgid "bits"
+msgstr ""
+
+msgid "ethtool not found"
+msgstr ""
+
+msgid "iwlist error on {interface}: {error}\\\\\\\\n"
+msgstr ""
+
+msgid "iwlist error: {}\\\\\\\\n"
+msgstr ""
+
+msgid "iwlist exception on {interface}: {error}\\\\\\\\n"
+msgstr ""
+
+msgid "iwlist timeout on {}\\\\\\\\n"
+msgstr ""
+
+msgid "iwlist: No networks found or interface busy\\\\\\\\n"
+msgstr ""
+
+msgid "iwlist: No networks found\\\\\\\\n"
+msgstr ""
+
+msgid "lifetime"
+msgstr ""
+
+msgid "limit"
+msgstr ""
+
+msgid "long {type}:{value}"
+msgstr ""
+
+msgid "max {type}:{value}"
+msgstr ""
+
+msgid "min {type}:{value}"
+msgstr ""
+
+msgid "off"
+msgstr ""
+
+msgid "on"
+msgstr ""
+
+msgid "pythonwifi: No networks found\\\\\\\\n"
+msgstr ""
+
+msgid "share experiences,and connect with other users."
+msgstr ""
+
+msgid "short {type}:{value}"
+msgstr ""
+
+msgid "wait..."
+msgstr ""
+
+msgid "{:.1f} ms"
+msgstr ""
+
+msgid "{:.1f}%"
+msgstr ""
+
+msgid "{:2d}. {} {:20} | Signal: {:4} dBm ({}) | Channel: {}\\\\\\\\n"
+msgstr ""
+
+msgid "{connection}{saved}{icon} {essid} | {security} | {signal} dBm"
+msgstr ""
+
+msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}...\\\\\\\\n"
+msgstr ""
+
+msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}\\\\\\\\n"
+msgstr ""
+
+msgid "{icon} {interface}: {status}\\\\\\\\n"
+msgstr ""
+
+msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel:2} | Encrypted: {encrypted}\\\\\\\\n"
+msgstr ""
+
+msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel} | Encrypted: {encrypted}\\\\\\\\n"
+msgstr ""
+
+msgid "{index:2d}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
+msgstr ""
+
+msgid "{index}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
+msgstr ""
+
+msgid "{interface}: Connected to {essid} ({quality})\\\\\\\\n"
+msgstr ""
+
+msgid "{interface}: Not connected\\\\\\\\n"
+msgstr ""
+
+msgid "{name} ({host}): {ping}"
+msgstr ""
+
+msgid "{name} ({sponsor}): {ping}"
+msgstr ""
+
+msgid "{name}: Error {error}"
+msgstr ""
+
+msgid "{name}: Failed"
+msgstr ""
+
+msgid "{name}: Timeout"
+msgstr ""
+
+msgid "{name}: {speed:.2f} Mbps"
+msgstr ""
+
+msgid "{server}: {speed:.2f} Mbps ({data:.1f} MB in {time:.1f}s)\\\\\\\\n"
+msgstr ""
+
+msgid "{speed:.2f} Mbps"
+msgstr ""
+
+msgid "{} ({:.0f}%)"
+msgstr ""
+
+msgid "{} - Open network - Press OK for options"
+msgstr ""
+
+msgid "{} - Password required - Press OK for options"
+msgstr ""
+
+msgid "{} - Password saved - Press OK for options"
+msgstr ""
+
+msgid "{} GHz"
+msgstr ""
+
+msgid "{} Mb/s"
+msgstr ""
+
+msgid "{} Status: {}\\\\\\\\n"
+msgstr ""
+
+msgid "{} Type: {} interface\\\\\\\\n"
+msgstr ""
+
+msgid "{} dBm"
+msgstr ""
+
+msgid "{}: Failed"
+msgstr ""
+
+msgid "{}: {:.1f} ms"
+msgstr ""
+
+msgid "{}\\\\\\\\n"
+msgstr ""
+
+msgid " Keep drivers updated\\\\\\\\n"
+msgstr ""
+
+msgid " Monitor signal strength for best performance\\\\\\\\n"
+msgstr ""
+
+msgid " Use 5GHz band for less interference\\\\\\\\n"
+msgstr ""
+
+msgid "  No USB WiFi adapters found\\\\\\\\n"
+msgstr ""
+
+msgid "  Interface {interface}: DOWN (needs activation)\\\\\\\\n"
+msgstr ""
+
+msgid "  Missing commands: {commands}\\\\\\\\n"
+msgstr ""
+
+msgid "  No WiFi kernel modules detected\\\\\\\\n"
+msgstr ""
+
+msgid "  Scan: Interface busy (connected to network)\\\\\\\\n"
+msgstr ""
+
+msgid "  {test}: No data\\\\\\\\n"
+msgstr ""
+
+msgid " Average download speed\\\\\\\\n"
+msgstr ""
+
+msgid " Average latency ({:.1f} ms)\\\\\\\\n"
+msgstr ""
+
+msgid " Average latency\\\\\\\\n"
+msgstr ""
+
+msgid " Good download speed\\\\\\\\n"
+msgstr ""
+
+msgid " Good latency\\\\\\\\n"
+msgstr ""
+
+msgid " Excellent latency ({:.1f} ms)\\\\\\\\n"
+msgstr ""
+
+msgid " TX Power: {}\\\\\\\\n"
+msgstr ""
+
+msgid " All systems operational\\\\\\\\n"
+msgstr ""
+
+msgid " Available commands: {commands}\\\\\\\\n"
+msgstr ""
+
+msgid " Excellent download speed\\\\\\\\n"
+msgstr ""
+
+msgid " Excellent latency\\\\\\\\n"
+msgstr ""
+
+msgid " Good latency ({:.1f} ms)\\\\\\\\n"
+msgstr ""
+
+msgid " Interface {interface}: UP and active\\\\\\\\n"
+msgstr ""
+
+msgid " Loaded WiFi modules: {modules}\\\\\\\\n"
+msgstr ""
+
+msgid " SYSTEM STATUS: WiFi hardware detected and functional\\\\\\\\n"
+msgstr ""
+
+msgid " USB WiFi adapters detected:\\\\\\\\n"
+msgstr ""
+
+msgid " {test}: {output}\\\\\\\\n"
+msgstr ""
+
+msgid " CRITICAL: No WiFi interfaces detected!\\\\\\\\n"
+msgstr ""
+
+msgid " Download test failed\\\\\\\\n"
+msgstr ""
+
+msgid " ESSID check: {error}\\\\\\\\n"
+msgstr ""
+
+msgid " Error: {}\\\\\\\\n"
+msgstr ""
+
+msgid " Interface check failed: {error}\\\\\\\\n"
+msgstr ""
+
+msgid " Interface {interface}: NOT FOUND\\\\\\\\n"
+msgstr ""
+
+msgid " Interface {interface}: UNKNOWN STATE\\\\\\\\n"
+msgstr ""
+
+msgid " Interface {} not found or not a WiFi interface\\\\\\\\n"
+msgstr ""
+
+msgid " Kernel module check failed: {error}\\\\\\\\n"
+msgstr ""
+
+msgid " Latency test failed\\\\\\\\n"
+msgstr ""
+
+msgid " Mode check: {error}\\\\\\\\n"
+msgstr ""
+
+msgid " Poor download speed\\\\\\\\n"
+msgstr ""
+
+msgid " Poor latency\\\\\\\\n"
+msgstr ""
+
+msgid " SYSTEM STATUS: No WiFi interfaces detected\\\\\\\\n"
+msgstr ""
+
+msgid " Scan test: {error}\\\\\\\\n"
+msgstr ""
+
+msgid " Signal check: {error}\\\\\\\\n"
+msgstr ""
+
+msgid " USB device check failed: {error}\\\\\\\\n"
+msgstr ""
+
+msgid " Very poor latency ({:.1f} ms)\\\\\\\\n"
+msgstr ""
+
+msgid " {}\\\\\\\\n"
+msgstr ""
+
+msgid " Cannot assess connection quality\\\\\\\\n"
+msgstr ""
+
+msgid " Download speed unavailable\\\\\\\\n"
+msgstr ""
+
+msgid " Latency unavailable\\\\\\\\n"
+msgstr ""
+
+msgid " Quality assessment unavailable\\\\\\\\n"
+msgstr ""
+
+msgid "  Transmitted: {}\\\\\\\\n"
+msgstr ""
+
+msgid "  Received: {}\\\\\\\\n"
+msgstr ""
+
+msgid " AVAILABLE NETWORKS\\\\\\\\n"
+msgstr ""
+
+msgid " Connectivity: IP {ip} - ONLINE\\\\\\\\n"
+msgstr ""
+
+msgid " Connectivity: No IP address - OFFLINE\\\\\\\\n"
+msgstr ""
+
+msgid " Connectivity: Unknown status\\\\\\\\n"
+msgstr ""
+
+msgid " EXCELLENT connection\\\\\\\\n"
+msgstr ""
+
+msgid " SERVER INFORMATION:\\\\\\\\n"
+msgstr ""
+
+msgid " Poor latency ({:.1f} ms)\\\\\\\\n"
+msgstr ""
+
+msgid " FAIR connection\\\\\\\\n"
+msgstr ""
+
+msgid " GOOD connection\\\\\\\\n"
+msgstr ""
+
+msgid " POOR connection\\\\\\\\n"
+msgstr ""
+
+msgid " CLIENT INFORMATION:\\\\\\\\n"
+msgstr ""
+
+msgid " All basic diagnostics available\\\\\\\\n"
+msgstr ""
+
+msgid " Tips:\\\\\\\\n"
+msgstr ""
+
+msgid " Driver: Unknown\\\\\\\\n"
+msgstr ""
+
+msgid " Driver: {}\\\\\\\\n"
+msgstr ""
+
+msgid " Protocol: {}\\\\\\\\n"
+msgstr ""
+
+msgid " Excellent download speed ({:.1f} Mbps)\\\\\\\\n"
+msgstr ""
+
+msgid " TEST RESULTS:\\\\\\\\n"
+msgstr ""
+
+msgid " Average download speed ({:.1f} Mbps)\\\\\\\\n"
+msgstr ""
+
+msgid " Poor download speed ({:.1f} Mbps)\\\\\\\\n"
+msgstr ""
+
+msgid " Good download speed ({:.1f} Mbps)\\\\\\\\n"
+msgstr ""
+
+msgid " NETWORK STATISTICS\\\\\\\\n"
+msgstr ""
+
+msgid " Quality: {}\\\\\\\\n"
+msgstr ""
+
+msgid " Signal: No quality data available\\\\\\\\n"
+msgstr ""
+
+msgid " Signal: {quality}% quality, {signal} dBm\\\\\\\\n"
+msgstr ""
+
+msgid " MAC: {}\\\\\\\\n"
+msgstr ""
+
+msgid " DETAILED WIFI INFORMATION - {}\\\\\\\\n"
+msgstr ""
+
+msgid " ESSID: {}\\\\\\\\n"
+msgstr ""
+
+msgid " Interface Type: WIRELESS\\\\\\\\n"
+msgstr ""
+
+msgid " Scan: Found {count} networks\\\\\\\\n"
+msgstr ""
+
+msgid " Type: Wireless interface\\\\\\\\n"
+msgstr ""
+
+msgid " Connection appears good (based on download)\\\\\\\\n"
+msgstr ""
+
+msgid " Connection appears responsive (based on ping)\\\\\\\\n"
+msgstr ""
+
+msgid " Connection may be limited (based on download)\\\\\\\\n"
+msgstr ""
+
+msgid " Connection may be slow (based on ping)\\\\\\\\n"
+msgstr ""
+
+msgid " ESSID: Not connected\\\\\\\\n"
+msgstr ""
+
+msgid " ESSID: {essid}\\\\\\\\n"
+msgstr ""
+
+msgid " Frequency: {}\\\\\\\\n"
+msgstr ""
+
+msgid " WIRELESS INFORMATION\\\\\\\\n"
+msgstr ""
+
+msgid " DRIVER & HARDWARE\\\\\\\\n"
+msgstr ""
+
+msgid " Type: Wired interface\\\\\\\\n"
+msgstr ""
+
+msgid " BASIC INTERFACE INFO\\\\\\\\n"
+msgstr ""
+
+msgid " Interface: {}\\\\\\\\n"
+msgstr ""
+
+msgid " METHOD: Using system commands (no root required)\\\\\\\\n"
+msgstr ""
+
+msgid " Mode: Unknown\\\\\\\\n"
+msgstr ""
+
+msgid " Mode: {mode}\\\\\\\\n"
+msgstr ""
+
+msgid " Mode: {}\\\\\\\\n"
+msgstr ""
+
+msgid " Module: {}\\\\\\\\n"
+msgstr ""
+
+msgid " SYSTEM LEVEL DIAGNOSTICS\\\\\\\\n"
+msgstr ""
+
+msgid " Bit Rate: {}\\\\\\\\n"
+msgstr ""
+
+msgid " Check hardware connection and drivers\\\\\\\\n"
+msgstr ""
+
+msgid " VERY POOR connection\\\\\\\\n"
+msgstr ""
