@@ -484,9 +484,6 @@ msgstr ""
 msgid "Failed to connect to %s"
 msgstr ""
 
-msgid "Failed to restart interface {e}"
-msgstr ""
-
 msgid "Failed: {} commands"
 msgstr ""
 

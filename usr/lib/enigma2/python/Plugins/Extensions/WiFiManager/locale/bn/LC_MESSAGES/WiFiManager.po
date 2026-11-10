@@ -13,364 +13,364 @@ msgid "- {adapter}\\\\\\\\n"
 msgstr ""
 
 msgid "... and {} more networks\\\\\\\\n"
-msgstr ""
+msgstr "... এবং {} আরো নেটওয়ার্ক\\\\\\\\\\\\\\\\n"
 
 msgid "1 dBm (Min)"
-msgstr ""
+msgstr "1 dBm (মিনিট)"
 
 msgid "1. Check if WiFi adapter is properly connected\\\\\\\\n"
-msgstr ""
+msgstr "1. ওয়াইফাই অ্যাডাপ্টার সঠিকভাবে সংযুক্ত কিনা তা পরীক্ষা করুন\\\\\\\\\\\\\\\\n"
 
 msgid "1. Disconnect from current WiFi network\\\\\\\\n"
-msgstr ""
+msgstr "1. বর্তমান ওয়াইফাই নেটওয়ার্ক থেকে সংযোগ বিচ্ছিন্ন করুন\\\\\\\\\\\\\\\\n"
 
 msgid "10 dBm"
 msgstr ""
 
 msgid "15 dBm"
-msgstr ""
+msgstr "15 ডিবিএম"
 
 msgid "2. Restart WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "2. ওয়াইফাই অ্যাডাপ্টার পুনরায় চালু করুন\\\\\\\\\\\\\\\\n"
 
 msgid "2. Verify WiFi adapter is supported by your receiver\\\\\\\\n"
-msgstr ""
+msgstr "2. যাচাই করুন ওয়াইফাই অ্যাডাপ্টার আপনার রিসিভার দ্বারা সমর্থিত\\\\\\\\\\\\\\\\n"
 
 msgid "20 dBm (Max)"
-msgstr ""
+msgstr "20 dBm (সর্বোচ্চ)"
 
 msgid "3. Check if WiFi driver is installed\\\\\\\\n"
-msgstr ""
+msgstr "3. ওয়াইফাই ড্রাইভার ইনস্টল করা আছে কিনা তা পরীক্ষা করুন\\\\\\\\\\\\\\\\n"
 
 msgid "3. Try different USB port for USB WiFi adapters\\\\\\\\n"
-msgstr ""
+msgstr "3. USB WiFi অ্যাডাপ্টারের জন্য ভিন্ন USB পোর্ট চেষ্টা করুন\\\\\\\\\\\\\\\\n"
 
 msgid "4. Check if WiFi drivers are installed\\\\\\\\n"
-msgstr ""
+msgstr "4. ওয়াইফাই ড্রাইভার ইনস্টল করা আছে কিনা তা পরীক্ষা করুন\\\\\\\\\\\\\\\\n"
 
 msgid "4. Try with different USB WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "4. বিভিন্ন USB ওয়াইফাই অ্যাডাপ্টার দিয়ে চেষ্টা করুন\\\\\\\\\\\\\\\\n"
 
 msgid "5 dBm"
-msgstr ""
+msgstr "5 ডিবিএম"
 
 msgid "5. Check root permissions\\\\\\\\n"
-msgstr ""
+msgstr "5. রুট অনুমতি পরীক্ষা করুন\\\\\\\\\\\\\\\\n"
 
 msgid "5. Restart the receiver and try again\\\\\\\\n"
-msgstr ""
+msgstr "5. রিসিভার পুনরায় চালু করুন এবং আবার চেষ্টা করুন\\\\\\\\\\\\\\\\n"
 
 msgid "=== WiFi Diagnostics (System Commands Only) ===\\\\\\\\n"
-msgstr ""
+msgstr "=== ওয়াইফাই ডায়াগনস্টিকস (শুধুমাত্র সিস্টেম কমান্ড) ===\\\\\\\\\\\\\\\\n"
 
 msgid "ACTIVE"
-msgstr ""
+msgstr "সক্রিয়"
 
 msgid "About"
-msgstr ""
+msgstr "সম্পর্কে"
 
 msgid "Access Point"
-msgstr ""
+msgstr "অ্যাক্সেস পয়েন্ট"
 
 msgid "Access Point: {ap}"
-msgstr ""
+msgstr "অ্যাক্সেস পয়েন্ট: {ap}"
 
 msgid "Access Points"
-msgstr ""
+msgstr "অ্যাক্সেস পয়েন্ট"
 
 msgid "Access points info displayed."
-msgstr ""
+msgstr "অ্যাক্সেস পয়েন্ট তথ্য প্রদর্শিত."
 
 msgid "Ad-Hoc"
-msgstr ""
+msgstr "অ্যাড-হক"
 
 msgid "Advanced"
-msgstr ""
+msgstr "উন্নত"
 
 msgid "Advanced Config"
-msgstr ""
+msgstr "উন্নত কনফিগারেশন"
 
 msgid "Advanced Config - {}"
-msgstr ""
+msgstr "উন্নত কনফিগ - {}"
 
 msgid "Advanced Scan"
-msgstr ""
+msgstr "উন্নত স্ক্যান"
 
 msgid "Advanced Scan Results"
-msgstr ""
+msgstr "উন্নত স্ক্যান ফলাফল"
 
 msgid "Advanced Tools"
-msgstr ""
+msgstr "উন্নত সরঞ্জাম"
 
 msgid "Advanced WiFi Configuration"
-msgstr ""
+msgstr "উন্নত ওয়াইফাই কনফিগারেশন"
 
 msgid "Advanced WiFi Tools"
-msgstr ""
+msgstr "উন্নত ওয়াইফাই টুলস"
 
 msgid "Advanced WiFi configuration"
-msgstr ""
+msgstr "উন্নত ওয়াইফাই কনফিগারেশন"
 
 msgid "Advanced WiFi configuration settings"
-msgstr ""
+msgstr "উন্নত ওয়াইফাই কনফিগারেশন সেটিংস"
 
 msgid "Advanced WiFi interface configuration"
-msgstr ""
+msgstr "উন্নত ওয়াইফাই ইন্টারফেস কনফিগারেশন"
 
 msgid "Advanced configuration completed."
-msgstr ""
+msgstr "উন্নত কনফিগারেশন সম্পন্ন."
 
 msgid "All Network Interfaces: {interfaces}\\\\\\\\n"
-msgstr ""
+msgstr "সমস্ত নেটওয়ার্ক ইন্টারফেস: {interfaces}\\\\\\\\\\\\\\\\n"
 
 msgid "All ping tests failed"
-msgstr ""
+msgstr "সব পিং পরীক্ষা ব্যর্থ হয়েছে"
 
 msgid "All settings reset to defaults"
-msgstr ""
+msgstr "সমস্ত সেটিংস ডিফল্টে পুনরায় সেট করা হয়েছে৷"
 
 msgid "Applied: {} commands\\\\\\\\n"
-msgstr ""
+msgstr "প্রয়োগ করা হয়েছে: {} কমান্ড\\\\\\\\\\\\\\\\n"
 
 msgid "Apply"
-msgstr ""
+msgstr "আবেদন করুন"
 
 msgid "Auto"
-msgstr ""
+msgstr "অটো"
 
 msgid "Auto  limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "স্বয়ংক্রিয় সীমা; ন্যূনতম সীমা:{limit}"
 
 msgid "Automatic (DHCP)"
-msgstr ""
+msgstr "স্বয়ংক্রিয় (DHCP)"
 
 msgid "Available frequencies and channels for your region"
-msgstr ""
+msgstr "আপনার অঞ্চলের জন্য উপলব্ধ ফ্রিকোয়েন্সি এবং চ্যানেল"
 
 msgid "Available frequencies/channels"
-msgstr ""
+msgstr "উপলব্ধ ফ্রিকোয়েন্সি/চ্যানেল"
 
 msgid "Available interfaces: {}"
-msgstr ""
+msgstr "উপলব্ধ ইন্টারফেস: {}"
 
 msgid "Back"
-msgstr ""
+msgstr "ফিরে"
 
 msgid "Basic"
-msgstr ""
+msgstr "মৌলিক"
 
 msgid "Basic info error: {}"
-msgstr ""
+msgstr "মৌলিক তথ্য ত্রুটি: {}"
 
 msgid "Basic view enabled - rescan to see basic info"
-msgstr ""
+msgstr "মৌলিক ভিউ সক্ষম - মৌলিক তথ্য দেখতে পুনরায় স্ক্যান করুন"
 
 msgid "Bit Rate: {rate}"
-msgstr ""
+msgstr "বিট রেট: {rate}"
 
 msgid "Bit Rates:"
-msgstr ""
+msgstr "বিট রেট:"
 
 msgid "Bitrate"
-msgstr ""
+msgstr "বিটরেট"
 
 msgid "Bitrate Info"
-msgstr ""
+msgstr "বিটরেট তথ্য"
 
 msgid "Bitrate info displayed."
-msgstr ""
+msgstr "বিটরেট তথ্য প্রদর্শিত হয়."
 
 msgid "Bitrate information not available\\\\\\\\n"
-msgstr ""
+msgstr "বিটরেট তথ্য উপলব্ধ নেই\\\\\\\\\\\\\\\\n"
 
 msgid "CONNECTED to: {} - Press OK for options"
-msgstr ""
+msgstr "এর সাথে সংযুক্ত: {} - বিকল্পগুলির জন্য ঠিক আছে টিপুন৷"
 
 msgid "Cancel"
-msgstr ""
+msgstr "বাতিল করুন"
 
 msgid "Cancelling test..."
-msgstr ""
+msgstr "পরীক্ষা বাতিল হচ্ছে..."
 
 msgid "Cell"
-msgstr ""
+msgstr "সেল"
 
 msgid "Channel"
-msgstr ""
+msgstr "চ্যানেল"
 
 msgid "Channel Info"
-msgstr ""
+msgstr "চ্যানেল তথ্য"
 
 msgid "Channel info displayed."
-msgstr ""
+msgstr "চ্যানেল তথ্য প্রদর্শিত."
 
 msgid "Channel {}"
-msgstr ""
+msgstr "চ্যানেল {}"
 
 msgid "Channel: %s\\\\\\\\n"
-msgstr ""
+msgstr "চ্যানেল: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Check System Logs"
-msgstr ""
+msgstr "সিস্টেম লগ চেক করুন"
 
 msgid "Check system logs for WiFi errors"
-msgstr ""
+msgstr "ওয়াইফাই ত্রুটির জন্য সিস্টেম লগ চেক করুন"
 
 msgid "Check system logs for WiFi errors and connection issues"
-msgstr ""
+msgstr "ওয়াইফাই ত্রুটি এবং সংযোগ সমস্যার জন্য সিস্টেম লগ চেক করুন"
 
 msgid "Checking internet connection..."
-msgstr ""
+msgstr "ইন্টারনেট সংযোগ পরীক্ষা করা হচ্ছে..."
 
 msgid "Checking system logs..."
-msgstr ""
+msgstr "সিস্টেম লগ পরীক্ষা করা হচ্ছে..."
 
 msgid "Clear"
-msgstr ""
+msgstr "পরিষ্কার"
 
 msgid "Client info completed"
-msgstr ""
+msgstr "ক্লায়েন্ট তথ্য সম্পূর্ণ হয়েছে"
 
 msgid "Client info error: {error}"
-msgstr ""
+msgstr "ক্লায়েন্ট তথ্য ত্রুটি: {error}"
 
 msgid "Close"
-msgstr ""
+msgstr "বন্ধ"
 
 msgid "Cloudflare"
-msgstr ""
+msgstr "ক্লাউডফ্লেয়ার"
 
 msgid "Complete iwconfig-like information"
-msgstr ""
+msgstr "iwconfig-এর মত তথ্য সম্পূর্ণ করুন"
 
 msgid "Config"
-msgstr ""
+msgstr "কনফিগার"
 
 msgid "Configure {}"
-msgstr ""
+msgstr "কনফিগার করুন {}"
 
 msgid "Connect"
-msgstr ""
+msgstr "সংযোগ করুন"
 
 msgid "Connect to WiFi networks"
-msgstr ""
+msgstr "ওয়াইফাই নেটওয়ার্কে সংযোগ করুন"
 
 msgid "Connected but no timing data"
-msgstr ""
+msgstr "সংযুক্ত কিন্তু কোন টাইমিং ডেটা নেই৷"
 
 msgid "Connected successfully!"
-msgstr ""
+msgstr "সফলভাবে সংযুক্ত!"
 
 msgid "Connected to %s"
-msgstr ""
+msgstr "%s এর সাথে সংযুক্ত"
 
 msgid "Connected to: %s"
-msgstr ""
+msgstr "এর সাথে সংযুক্ত: %s"
 
 msgid "Connected: {} | Signal: {} dBm | IP: {}"
-msgstr ""
+msgstr "সংযুক্ত: {} | সংকেত: {} dBm | আইপি: {}"
 
 msgid "Connecting to %s..."
-msgstr ""
+msgstr "%s এর সাথে সংযুক্ত হচ্ছে..."
 
 msgid "Connection Info"
-msgstr ""
+msgstr "সংযোগ তথ্য"
 
 msgid "Connection failed!"
-msgstr ""
+msgstr "সংযোগ ব্যর্থ হয়েছে!"
 
 msgid "Connection timeout"
-msgstr ""
+msgstr "সংযোগের সময়সীমা শেষ"
 
 msgid "Country Code"
-msgstr ""
+msgstr "দেশের কোড"
 
 msgid "DHCP"
-msgstr ""
+msgstr "ডিএইচসিপি"
 
 msgid "DNS Server 1"
-msgstr ""
+msgstr "DNS সার্ভার 1"
 
 msgid "DNS Server 2"
-msgstr ""
+msgstr "DNS সার্ভার 2"
 
 msgid "DOWN"
-msgstr ""
+msgstr "নিচে"
 
 msgid "Data Rate"
-msgstr ""
+msgstr "ডেটা রেট"
 
 msgid "Defaults"
-msgstr ""
+msgstr "ডিফল্ট"
 
 msgid "Detailed Info - {}"
-msgstr ""
+msgstr "বিস্তারিত তথ্য - {}"
 
 msgid "Detailed network scanning"
-msgstr ""
+msgstr "বিস্তারিত নেটওয়ার্ক স্ক্যানিং"
 
 msgid "Detailed network scanning with signal strength and encryption info"
-msgstr ""
+msgstr "সংকেত শক্তি এবং এনক্রিপশন তথ্য সহ বিস্তারিত নেটওয়ার্ক স্ক্যানিং"
 
 msgid "Detailed speed test failed - Check internet connection"
-msgstr ""
+msgstr "বিস্তারিত গতি পরীক্ষা ব্যর্থ - ইন্টারনেট সংযোগ পরীক্ষা করুন"
 
 msgid "Detailed test completed"
-msgstr ""
+msgstr "বিস্তারিত পরীক্ষা সম্পন্ন হয়েছে"
 
 msgid "Detailed test error: {error}"
-msgstr ""
+msgstr "বিশদ পরীক্ষার ত্রুটি: {error}"
 
 msgid "Detailed view enabled - rescan to see details"
-msgstr ""
+msgstr "বিশদ দৃশ্য সক্ষম - বিশদ দেখতে পুনরায় স্ক্যান করুন৷"
 
 msgid "Details"
-msgstr ""
+msgstr "বিস্তারিত"
 
 msgid "Details Info"
-msgstr ""
+msgstr "বিস্তারিত তথ্য"
 
 msgid "Diagnostic error: {}\\\\\\\\n"
-msgstr ""
+msgstr "ডায়গনিস্টিক ত্রুটি: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Diagnostics"
-msgstr ""
+msgstr "ডায়াগনস্টিকস"
 
 msgid "Disconnect"
-msgstr ""
+msgstr "সংযোগ বিচ্ছিন্ন করুন"
 
 msgid "Disconnected"
-msgstr ""
+msgstr "সংযোগ বিচ্ছিন্ন"
 
 msgid "Disconnecting..."
-msgstr ""
+msgstr "সংযোগ বিচ্ছিন্ন হচ্ছে..."
 
 msgid "Download Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "ডাউনলোডের গতি: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Download Speed: {download}\\\\\\\\n"
-msgstr ""
+msgstr "ডাউনলোডের গতি: {download}\\\\\\\\\\\\\\\\n"
 
 msgid "Download test completed"
-msgstr ""
+msgstr "ডাউনলোড পরীক্ষা সম্পন্ন হয়েছে"
 
 msgid "Download: Failed\\\\\\\\n"
-msgstr ""
+msgstr "ডাউনলোড: ব্যর্থ\\\\\\\\\\\\\\\\n"
 
 msgid "Download: {:.2f} Mbps\\\\\\\\n"
-msgstr ""
+msgstr "ডাউনলোড করুন: {:.2f} Mbps\\\\\\\\\\\\\\\\n"
 
 msgid "Driver check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "ড্রাইভার চেক ব্যর্থ হয়েছে: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "Driver info error: {}"
-msgstr ""
+msgstr "ড্রাইভার তথ্য ত্রুটি: {}"
 
 msgid "Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "ড্রাইভার: অজানা\\\\\\\\\\\\\\\\n"
 
 msgid "Driver: {driver}\\\\\\\\n"
-msgstr ""
+msgstr "ড্রাইভার: {driver}\\\\\\\\\\\\\\\\n"
 
 msgid "ESSID: %s\\\\\\\\n"
 msgstr ""
@@ -379,259 +379,256 @@ msgid "ESSID: {}"
 msgstr ""
 
 msgid "Edit Configuration"
-msgstr ""
+msgstr "কনফিগারেশন সম্পাদনা করুন"
 
 msgid "Edit Password"
-msgstr ""
+msgstr "পাসওয়ার্ড সম্পাদনা করুন"
 
 msgid "Encryption"
-msgstr ""
+msgstr "এনক্রিপশন"
 
 msgid "Encryption Info"
-msgstr ""
+msgstr "এনক্রিপশন তথ্য"
 
 msgid "Encryption info displayed."
-msgstr ""
+msgstr "এনক্রিপশন তথ্য প্রদর্শিত."
 
 msgid "Encryption information not available\\\\\\\\n"
-msgstr ""
+msgstr "এনক্রিপশন তথ্য উপলব্ধ নেই\\\\\\\\\\\\\\\\n"
 
 msgid "Encryption keys and security"
-msgstr ""
+msgstr "এনক্রিপশন কী এবং নিরাপত্তা"
 
 msgid "Encryption keys and security protocols"
-msgstr ""
+msgstr "এনক্রিপশন কী এবং নিরাপত্তা প্রোটোকল"
 
 msgid "Encryption: %s\\\\\\\\n"
-msgstr ""
+msgstr "এনক্রিপশন: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Enter Password"
-msgstr ""
+msgstr "পাসওয়ার্ড লিখুন"
 
 msgid "Enter password for: %s"
-msgstr ""
+msgstr "এর জন্য পাসওয়ার্ড লিখুন: %s"
 
 msgid "Error"
-msgstr ""
+msgstr "ত্রুটি"
 
 msgid "Error applying advanced settings: {}"
-msgstr ""
+msgstr "উন্নত সেটিংস প্রয়োগে ত্রুটি: {}"
 
 msgid "Error applying settings: {}"
-msgstr ""
+msgstr "সেটিংস প্রয়োগে ত্রুটি: {}"
 
 msgid "Error disconnecting"
-msgstr ""
+msgstr "সংযোগ বিচ্ছিন্ন করার সময় ত্রুটি৷"
 
 msgid "Error getting AP information: {}"
-msgstr ""
+msgstr "AP তথ্য পেতে ত্রুটি: {}"
 
 msgid "Error getting bitrate information: {}"
-msgstr ""
+msgstr "বিটরেট তথ্য পেতে ত্রুটি: {}"
 
 msgid "Error getting channel information: {}"
-msgstr ""
+msgstr "চ্যানেল তথ্য পেতে ত্রুটি: {}"
 
 msgid "Error getting connection details: {error}"
-msgstr ""
+msgstr "সংযোগের বিবরণ পেতে ত্রুটি: {error}"
 
 msgid "Error getting encryption information: {}"
-msgstr ""
+msgstr "এনক্রিপশন তথ্য পেতে ত্রুটি: {}"
 
 msgid "Error getting power information: {}"
-msgstr ""
+msgstr "পাওয়ার তথ্য পেতে ত্রুটি: {}"
 
 msgid "Error getting retry information: {}"
-msgstr ""
+msgstr "পুনরায় চেষ্টা করার তথ্য পেতে ত্রুটি: {}"
 
 msgid "Error loading help"
-msgstr ""
+msgstr "সহায়তা লোড করার সময় ত্রুটি৷"
 
 msgid "Error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "{interface} এ ত্রুটি: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "Error opening {module}: {error}"
-msgstr ""
+msgstr "{module} খুলতে ত্রুটি: {error}"
 
 msgid "Error running {tool}: {error}"
-msgstr ""
+msgstr "চলমান ত্রুটি {tool}: {error}"
 
 msgid "Error: {error}"
-msgstr ""
+msgstr "ত্রুটি: {error}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "ত্রুটি: {}"
 
 msgid "Estimating upload speed..."
-msgstr ""
+msgstr "আপলোডের গতি অনুমান করা হচ্ছে..."
 
 msgid "Excellent"
-msgstr ""
+msgstr "চমৎকার"
 
 msgid "Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "চমৎকার ডাউনলোড গতি\\\\\\\\\\\\\\\\n"
 
 msgid "Executing tool..."
-msgstr ""
+msgstr "কার্যকরী টুল..."
 
 msgid "Exit"
-msgstr ""
+msgstr "প্রস্থান করুন"
 
 msgid "Failed"
-msgstr ""
+msgstr "ব্যর্থ হয়েছে"
 
 msgid "Failed to connect to %s"
-msgstr ""
-
-msgid "Failed to restart interface {e}"
-msgstr ""
+msgstr "%s এর সাথে সংযোগ করতে ব্যর্থ হয়েছে৷"
 
 msgid "Failed: {} commands"
-msgstr ""
+msgstr "ব্যর্থ হয়েছে: {} কমান্ড"
 
 msgid "Fair"
-msgstr ""
+msgstr "মেলা"
 
 msgid "Final connectivity check..."
-msgstr ""
+msgstr "চূড়ান্ত সংযোগ পরীক্ষা..."
 
 msgid "Finding best server..."
-msgstr ""
+msgstr "সেরা সার্ভার খোঁজা হচ্ছে..."
 
 msgid "Fixed lifetime ;  min lifetime:{lifetime}"
-msgstr ""
+msgstr "স্থায়ী জীবনকাল; সর্বনিম্ন জীবনকাল:{lifetime}"
 
 msgid "Fixed limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "নির্দিষ্ট সীমা; ন্যূনতম সীমা:{limit}"
 
 msgid "For troubleshooting, detailed guidance, or community support, visit:\\\\\\\\n"
-msgstr ""
+msgstr "সমস্যা সমাধান, বিশদ নির্দেশিকা বা সম্প্রদায় সহায়তার জন্য, এখানে যান:\\\\\\\\\\\\\\\\n"
 
 msgid "Forget Network"
-msgstr ""
+msgstr "নেটওয়ার্ক ভুলে যান"
 
 msgid "Forgotten network: {}"
-msgstr ""
+msgstr "ভুলে যাওয়া নেটওয়ার্ক: {}"
 
 msgid "Found {} networks:\\\\\\\\n"
-msgstr ""
+msgstr "{} নেটওয়ার্ক পাওয়া গেছে:\\\\\\\\\\\\\\\\n"
 
 msgid "Found: {}\\\\\\\\n"
-msgstr ""
+msgstr "পাওয়া গেছে: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Fragmentation"
-msgstr ""
+msgstr "ফ্র্যাগমেন্টেশন"
 
 msgid "Frequency"
-msgstr ""
+msgstr "ফ্রিকোয়েন্সি"
 
 msgid "Frequency information not available\\\\\\\\n"
-msgstr ""
+msgstr "ফ্রিকোয়েন্সি তথ্য উপলব্ধ নেই\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency/Channel"
-msgstr ""
+msgstr "ফ্রিকোয়েন্সি/চ্যানেল"
 
 msgid "Frequency:"
-msgstr ""
+msgstr "ফ্রিকোয়েন্সি:"
 
 msgid "Frequency: %s\\\\\\\\n"
-msgstr ""
+msgstr "ফ্রিকোয়েন্সি: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency: {frequency}"
-msgstr ""
+msgstr "ফ্রিকোয়েন্সি: {frequency}"
 
 msgid "Full Comprehensive Test"
-msgstr ""
+msgstr "সম্পূর্ণ ব্যাপক পরীক্ষা"
 
 msgid "Full Test"
-msgstr ""
+msgstr "সম্পূর্ণ পরীক্ষা"
 
 msgid "Full test completed"
-msgstr ""
+msgstr "সম্পূর্ণ পরীক্ষা সম্পন্ন হয়েছে"
 
 msgid "Full test error: {error}"
-msgstr ""
+msgstr "সম্পূর্ণ পরীক্ষা ত্রুটি: {error}"
 
 msgid "Gateway"
-msgstr ""
+msgstr "গেটওয়ে"
 
 msgid "Gateway: {gateway}"
-msgstr ""
+msgstr "গেটওয়ে: {gateway}"
 
 msgid "Gathering client information..."
-msgstr ""
+msgstr "ক্লায়েন্টের তথ্য সংগ্রহ করা হচ্ছে..."
 
 msgid "Gathering network details..."
-msgstr ""
+msgstr "নেটওয়ার্কের বিশদ বিবরণ সংগ্রহ করা হচ্ছে..."
 
 msgid "Getting access point information..."
-msgstr ""
+msgstr "অ্যাক্সেস পয়েন্টের তথ্য পাওয়া যাচ্ছে..."
 
 msgid "Getting bitrate information..."
-msgstr ""
+msgstr "বিটরেট তথ্য পাওয়া যাচ্ছে..."
 
 msgid "Getting channel information..."
-msgstr ""
+msgstr "চ্যানেলের তথ্য পাওয়া যাচ্ছে..."
 
 msgid "Getting client information..."
-msgstr ""
+msgstr "ক্লায়েন্টের তথ্য পাওয়া যাচ্ছে..."
 
 msgid "Getting encryption information..."
-msgstr ""
+msgstr "এনক্রিপশন তথ্য পাওয়া যাচ্ছে..."
 
 msgid "Getting power management information..."
-msgstr ""
+msgstr "পাওয়ার ম্যানেজমেন্টের তথ্য পাওয়া যাচ্ছে..."
 
 msgid "Getting retry information..."
-msgstr ""
+msgstr "পুনরায় চেষ্টা করার তথ্য পাওয়া যাচ্ছে..."
 
 msgid "Good"
-msgstr ""
+msgstr "ভাল"
 
 msgid "Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "ভালো ডাউনলোডের গতি\\\\\\\\\\\\\\\\n"
 
 msgid "Google"
-msgstr ""
+msgstr "গুগল"
 
 msgid "Google DNS"
 msgstr ""
 
 msgid "Help"
-msgstr ""
+msgstr "সাহায্য"
 
 msgid "Hidden"
-msgstr ""
+msgstr "লুকানো"
 
 msgid "Hidden Network"
-msgstr ""
+msgstr "লুকানো নেটওয়ার্ক"
 
 msgid "Host not found"
-msgstr ""
+msgstr "হোস্ট পাওয়া যায়নি"
 
 msgid "Hostname: {hostname}"
-msgstr ""
+msgstr "হোস্টনাম: {hostname}"
 
 msgid "INACTIVE"
-msgstr ""
+msgstr "নিষ্ক্রিয়"
 
 msgid "IP Address"
-msgstr ""
+msgstr "আইপি ঠিকানা"
 
 msgid "IP Address: {ip}"
-msgstr ""
+msgstr "IP ঠিকানা: {ip}"
 
 msgid "IP Configuration"
-msgstr ""
+msgstr "আইপি কনফিগারেশন"
 
 msgid "IP: N/A"
-msgstr ""
+msgstr "আইপি: N/A"
 
 msgid "IP: {ip}\\\\\\\\n"
-msgstr ""
+msgstr "আইপি: {ip}\\\\\\\\\\\\\\\\n"
 
 msgid "IP: {}"
-msgstr ""
+msgstr "আইপি: {}"
 
 msgid "ISP: {isp}"
 msgstr ""
@@ -640,70 +637,70 @@ msgid "ISP: {isp}\\\\\\\\n"
 msgstr ""
 
 msgid "Info"
-msgstr ""
+msgstr "তথ্য"
 
 msgid "Initializing WiFi..."
-msgstr ""
+msgstr "ওয়াইফাই শুরু করা হচ্ছে..."
 
 msgid "Initializing detailed speed test..."
-msgstr ""
+msgstr "বিস্তারিত গতি পরীক্ষা শুরু করা হচ্ছে..."
 
 msgid "Interface"
-msgstr ""
+msgstr "ইন্টারফেস"
 
 msgid "Interface found: {}"
-msgstr ""
+msgstr "ইন্টারফেস পাওয়া গেছে: {}"
 
 msgid "Interface restarted successfully"
-msgstr ""
+msgstr "ইন্টারফেস সফলভাবে পুনরায় চালু হয়েছে"
 
 msgid "Interface restarted."
-msgstr ""
+msgstr "ইন্টারফেস পুনরায় চালু করা হয়েছে।"
 
 msgid "Interface {} not available"
-msgstr ""
+msgstr "ইন্টারফেস {} উপলব্ধ নেই৷"
 
 msgid "Interface: {}"
-msgstr ""
+msgstr "ইন্টারফেস: {}"
 
 msgid "Invalid misc:%s"
-msgstr ""
+msgstr "অবৈধ বিবিধ:%s"
 
 msgid "Kernel Messages (dmesg):\\\\\\\\n"
-msgstr ""
+msgstr "কার্নেল বার্তা (dmesg):\\\\\\\\\\\\\\\\n"
 
 msgid "Latency test completed"
-msgstr ""
+msgstr "লেটেন্সি পরীক্ষা সম্পন্ন হয়েছে"
 
 msgid "Latency: %s\\\\\\\\n"
-msgstr ""
+msgstr "লেটেন্সি: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Link Quality: {quality}"
-msgstr ""
+msgstr "লিঙ্ক গুণমান: {quality}"
 
 msgid "Link Quality:%s/100"
-msgstr ""
+msgstr "লিঙ্ক গুণমান:%s/100"
 
 msgid "List of access points and connected peer stations"
-msgstr ""
+msgstr "অ্যাক্সেস পয়েন্ট এবং সংযুক্ত পিয়ার স্টেশনগুলির তালিকা"
 
 msgid "List of access points/peers"
-msgstr ""
+msgstr "অ্যাক্সেস পয়েন্ট/সহকর্মীর তালিকা"
 
 msgid "Location: {city}, {country}"
-msgstr ""
+msgstr "অবস্থান: {city}, {country}"
 
 msgid "Location: {city}, {country}\\\\\\\\n"
-msgstr ""
+msgstr "অবস্থান: {city}, {country}\\\\\\\\\\\\\\\\n"
 
 msgid "Logs checked."
-msgstr ""
+msgstr "লগ চেক করা হয়েছে."
 
 msgid "MAC Address: {mac}"
-msgstr ""
+msgstr "MAC ঠিকানা: {mac}"
 
 msgid "MAC Address: {mac}\\\\\\\\n"
-msgstr ""
+msgstr "MAC ঠিকানা: {mac}\\\\\\\\\\\\\\\\n"
 
 msgid "MAC: %s\\\\\\\\n"
 msgstr ""
@@ -715,697 +712,697 @@ msgid "MAC: {}"
 msgstr ""
 
 msgid "Managed (Client)"
-msgstr ""
+msgstr "পরিচালিত (ক্লায়েন্ট)"
 
 msgid "Manual (Static IP)"
-msgstr ""
+msgstr "ম্যানুয়াল (স্ট্যাটিক আইপি)"
 
 msgid "Master (AP)"
-msgstr ""
+msgstr "মাস্টার (এপি)"
 
 msgid "Missed beacon:%s"
-msgstr ""
+msgstr "মিস করা বীকন:%s"
 
 msgid "Mode:"
-msgstr ""
+msgstr "মোড:"
 
 msgid "Mode: {mode}"
-msgstr ""
+msgstr "মোড: {mode}"
 
 msgid "Modules reloaded."
-msgstr ""
+msgstr "মডিউল পুনরায় লোড করা হয়েছে।"
 
 msgid "Monitor"
-msgstr ""
+msgstr "মনিটর"
 
 msgid "Monitoring error: {}"
-msgstr ""
+msgstr "পর্যবেক্ষণ ত্রুটি: {}"
 
 msgid "N/A"
 msgstr ""
 
 msgid "Name: {name}\\\\\\\\n"
-msgstr ""
+msgstr "নাম: {name}\\\\\\\\\\\\\\\\n"
 
 msgid "Netmask"
-msgstr ""
+msgstr "নেটমাস্ক"
 
 msgid "Network %d:\\\\\\\\n"
-msgstr ""
+msgstr "নেটওয়ার্ক %d:\\\\\\\\\\\\\\\\n"
 
 msgid "Network Interface: {interface}"
-msgstr ""
+msgstr "নেটওয়ার্ক ইন্টারফেস: {interface}"
 
 msgid "Network Name (SSID)"
-msgstr ""
+msgstr "নেটওয়ার্কের নাম (SSID)"
 
 msgid "Network forgotten!"
-msgstr ""
+msgstr "নেটওয়ার্ক ভুলে!"
 
 msgid "Network info error: {error}"
-msgstr ""
+msgstr "নেটওয়ার্ক তথ্য ত্রুটি: {error}"
 
 msgid "Network information unavailable"
-msgstr ""
+msgstr "নেটওয়ার্ক তথ্য অনুপলব্ধ"
 
 msgid "Network unreachable"
-msgstr ""
+msgstr "নেটওয়ার্ক পৌঁছানো যাচ্ছে না"
 
 msgid "Network: %s"
-msgstr ""
+msgstr "নেটওয়ার্ক: %s"
 
 msgid "Network: {essid}"
-msgstr ""
+msgstr "নেটওয়ার্ক: {essid}"
 
 msgid "No"
-msgstr ""
+msgstr "না"
 
 msgid "No IP"
-msgstr ""
+msgstr "আইপি নেই"
 
 msgid "No WiFi connection data available"
-msgstr ""
+msgstr "কোনো WiFi সংযোগ ডেটা উপলব্ধ নেই৷"
 
 msgid "No WiFi interface available"
-msgstr ""
+msgstr "কোন ওয়াইফাই ইন্টারফেস উপলব্ধ"
 
 msgid "No WiFi interface detected. Please check your hardware."
-msgstr ""
+msgstr "কোন ওয়াইফাই ইন্টারফেস সনাক্ত করা হয়নি. আপনার হার্ডওয়্যার চেক করুন."
 
 msgid "No WiFi interface found"
-msgstr ""
+msgstr "কোনো ওয়াইফাই ইন্টারফেস পাওয়া যায়নি"
 
 msgid "No WiFi interfaces found"
-msgstr ""
+msgstr "কোনো ওয়াইফাই ইন্টারফেস পাওয়া যায়নি"
 
 msgid "No WiFi interfaces found\\\\\\\\n"
-msgstr ""
+msgstr "কোনো ওয়াইফাই ইন্টারফেস পাওয়া যায়নি\\\\\\\\\\\\\\\\n"
 
 msgid "No WiFi messages in system logs"
-msgstr ""
+msgstr "সিস্টেম লগে কোন ওয়াইফাই বার্তা নেই"
 
 msgid "No connection details available"
-msgstr ""
+msgstr "কোন সংযোগ বিশদ উপলব্ধ"
 
 msgid "No data"
-msgstr ""
+msgstr "কোন তথ্য নেই"
 
 msgid "No help available for this tool."
-msgstr ""
+msgstr "এই টুলের জন্য কোন সাহায্য উপলব্ধ."
 
 msgid "No interface"
-msgstr ""
+msgstr "কোনো ইন্টারফেস নেই"
 
 msgid "No internet connection"
-msgstr ""
+msgstr "ইন্টারনেট সংযোগ নেই"
 
 msgid "No internet connection detected"
-msgstr ""
+msgstr "কোন ইন্টারনেট সংযোগ সনাক্ত করা যায়নি"
 
 msgid "No network selected"
-msgstr ""
+msgstr "কোনো নেটওয়ার্ক নির্বাচন করা হয়নি৷"
 
 msgid "No networks found"
-msgstr ""
+msgstr "কোন নেটওয়ার্ক পাওয়া যায়নি"
 
 msgid "No networks found - Press BLUE to rescan"
-msgstr ""
+msgstr "কোনো নেটওয়ার্ক পাওয়া যায়নি - পুনরায় স্ক্যান করতে নীল টিপুন"
 
 msgid "No networks found on {}\\\\\\\\n"
-msgstr ""
+msgstr "{}\\\\\\\\\\\\\\\\n-এ কোনো নেটওয়ার্ক পাওয়া যায়নি"
 
 msgid "No networks found or scan not supported\\\\\\\\n"
-msgstr ""
+msgstr "কোনো নেটওয়ার্ক পাওয়া যায় নি বা স্ক্যান সমর্থিত নয়\\\\\\\\\\\\\\\\n"
 
 msgid "No networks found with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "iwlist\\\\\\\\\\\\\\\\n এর সাথে কোনো নেটওয়ার্ক পাওয়া যায়নি"
 
 msgid "No packets sent"
-msgstr ""
+msgstr "কোনো প্যাকেট পাঠানো হয়নি"
 
 msgid "No ping data"
-msgstr ""
+msgstr "কোনো পিং ডেটা নেই"
 
 msgid "No results with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "iwlist\\\\\\\\\\\\\\\\n এর সাথে কোন ফলাফল নেই"
 
 msgid "No station/peer information available\\\\\\\\n"
-msgstr ""
+msgstr "কোনো স্টেশন/পিয়ার তথ্য উপলব্ধ নেই\\\\\\\\\\\\\\\\n"
 
 msgid "Noise level:%sdBm"
-msgstr ""
+msgstr "শব্দের মাত্রা:%sdBm"
 
 msgid "None"
-msgstr ""
+msgstr "কোনোটিই নয়"
 
 msgid "None found"
-msgstr ""
+msgstr "একটিও পাওয়া যায়নি"
 
 msgid "Not connected"
-msgstr ""
+msgstr "সংযুক্ত নয়"
 
 msgid "Not connected to any network"
-msgstr ""
+msgstr "কোনো নেটওয়ার্কের সাথে সংযুক্ত নয়"
 
 msgid "Not-Associated"
-msgstr ""
+msgstr "নট-অ্যাসোসিয়েটেড"
 
 msgid "Open"
-msgstr ""
+msgstr "খোলা"
 
 msgid "OpenDNS"
 msgstr ""
 
 msgid "Operation Mode"
-msgstr ""
+msgstr "অপারেশন মোড"
 
 msgid "Operation completed."
-msgstr ""
+msgstr "অপারেশন সম্পন্ন হয়েছে।"
 
 msgid "Output: {output}..."
-msgstr ""
+msgstr "আউটপুট: {output}..."
 
 msgid "Packet retry limits and frame lifetime settings"
-msgstr ""
+msgstr "প্যাকেট পুনরায় চেষ্টা সীমা এবং ফ্রেম জীবনকাল সেটিংস"
 
 msgid "Packets: {sent}, Lost: {lost} ({percentage:.1f}%) - {stability}"
-msgstr ""
+msgstr "প্যাকেট: {sent}, হারিয়েছে: {lost} ({percentage:.1f}%) - {stability}"
 
 msgid "Password"
-msgstr ""
+msgstr "পাসওয়ার্ড"
 
 msgid "Pause"
-msgstr ""
+msgstr "বিরতি"
 
 msgid "Performing initial scan..."
-msgstr ""
+msgstr "প্রাথমিক স্ক্যান করা হচ্ছে..."
 
 msgid "Ping error for {host}: {error}"
-msgstr ""
+msgstr "{host} এর জন্য পিং ত্রুটি: {error}"
 
 msgid "Ping failed"
-msgstr ""
+msgstr "পিং ব্যর্থ হয়েছে"
 
 msgid "Ping failed for {host} (returncode: {code})"
-msgstr ""
+msgstr "{host} এর জন্য পিং ব্যর্থ হয়েছে (রিটার্নকোড: {code})"
 
 msgid "Ping not available"
-msgstr ""
+msgstr "পিং উপলব্ধ নয়"
 
 msgid "Ping test completed: {avg:.1f} ms average ({success}/{total} successful)"
-msgstr ""
+msgstr "পিং পরীক্ষা সম্পন্ন হয়েছে: {avg:.1f} ms গড় ({success}/{total} সফল)"
 
 msgid "Ping test error: {error}"
-msgstr ""
+msgstr "পিং পরীক্ষা ত্রুটি: {error}"
 
 msgid "Ping timeout for {host}"
-msgstr ""
+msgstr "{host} এর জন্য পিং টাইমআউট"
 
 msgid "Ping {host} (fallback): {time} ms"
-msgstr ""
+msgstr "পিং {host} (ফলব্যাক): {time} ms"
 
 msgid "Ping {host}: {time} ms"
-msgstr ""
+msgstr "পিং {host}: {time} মিসে"
 
 msgid "Ping/Latency: {ping}\\\\\\\\n"
-msgstr ""
+msgstr "পিং/লেটেন্সি: {ping}\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: Failed\\\\\\\\n"
-msgstr ""
+msgstr "পিং: ব্যর্থ\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: {:.1f} ms\\\\\\\\n"
-msgstr ""
+msgstr "পিং: {:.1f} ms\\\\\\\\\\\\\\\\n"
 
 msgid "Please enter a network name"
-msgstr ""
+msgstr "অনুগ্রহ করে একটি নেটওয়ার্কের নাম লিখুন৷"
 
 msgid "Please enter a password"
-msgstr ""
+msgstr "একটি পাসওয়ার্ড লিখুন"
 
 msgid "Poor"
-msgstr ""
+msgstr "দরিদ্র"
 
 msgid "Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "খারাপ ডাউনলোড গতি\\\\\\\\\\\\\\\\n"
 
 msgid "Power Management"
-msgstr ""
+msgstr "পাওয়ার ম্যানেজমেন্ট"
 
 msgid "Power management info displayed."
-msgstr ""
+msgstr "পাওয়ার ম্যানেজমেন্ট তথ্য প্রদর্শিত হয়।"
 
 msgid "Power management information not available\\\\\\\\n"
-msgstr ""
+msgstr "পাওয়ার ম্যানেজমেন্ট তথ্য উপলব্ধ নেই\\\\\\\\\\\\\\\\n"
 
 msgid "Power management settings"
-msgstr ""
+msgstr "পাওয়ার ম্যানেজমেন্ট সেটিংস"
 
 msgid "Power management settings and power saving modes"
-msgstr ""
+msgstr "পাওয়ার ম্যানেজমেন্ট সেটিংস এবং পাওয়ার সেভিং মোড"
 
 msgid "Primary DNS"
-msgstr ""
+msgstr "প্রাথমিক DNS"
 
 msgid "Public IP: Unable to determine"
-msgstr ""
+msgstr "পাবলিক আইপি: নির্ধারণ করতে অক্ষম"
 
 msgid "Public IP: {ip}"
-msgstr ""
+msgstr "সর্বজনীন আইপি: {ip}"
 
 msgid "Quality: %s\\\\\\\\n"
-msgstr ""
+msgstr "গুণমান: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Quality: N/A"
-msgstr ""
+msgstr "গুণমান: N/A"
 
 msgid "Quality: {}%"
-msgstr ""
+msgstr "গুণমান: {}%"
 
 msgid "Quality: {}% ({})"
-msgstr ""
+msgstr "গুণমান: {}% ({})"
 
 msgid "Quick System Check"
-msgstr ""
+msgstr "দ্রুত সিস্টেম চেক"
 
 msgid "Quick Test"
-msgstr ""
+msgstr "দ্রুত পরীক্ষা"
 
 msgid "Quick test completed"
-msgstr ""
+msgstr "দ্রুত পরীক্ষা সম্পন্ন হয়েছে"
 
 msgid "Quick test error: {error}"
-msgstr ""
+msgstr "দ্রুত পরীক্ষার ত্রুটি: {error}"
 
 msgid "RTS Threshold"
-msgstr ""
+msgstr "RTS থ্রেশহোল্ড"
 
 msgid "Real-time signal quality monitor"
-msgstr ""
+msgstr "রিয়েল-টাইম সিগন্যাল মানের মনিটর"
 
 msgid "Refresh"
-msgstr ""
+msgstr "রিফ্রেশ"
 
 msgid "Reload WiFi Modules"
-msgstr ""
+msgstr "ওয়াইফাই মডিউল পুনরায় লোড করুন"
 
 msgid "Reload kernel WiFi modules"
-msgstr ""
+msgstr "কার্নেল ওয়াইফাই মডিউল পুনরায় লোড করুন"
 
 msgid "Reload kernel WiFi modules to fix driver issues"
-msgstr ""
+msgstr "ড্রাইভার সমস্যা সমাধানের জন্য কার্নেল ওয়াইফাই মডিউল পুনরায় লোড করুন"
 
 msgid "Remember password"
-msgstr ""
+msgstr "পাসওয়ার্ড মনে রাখবেন"
 
 msgid "Restart WiFi Interface"
-msgstr ""
+msgstr "ওয়াইফাই ইন্টারফেস পুনরায় চালু করুন"
 
 msgid "Restart WiFi interface %s?"
-msgstr ""
+msgstr "ওয়াইফাই ইন্টারফেস %s রিস্টার্ট করবেন?"
 
 msgid "Restart wireless interface"
-msgstr ""
+msgstr "ওয়্যারলেস ইন্টারফেস পুনরায় চালু করুন"
 
 msgid "Restart wireless interface to reset connectivity"
-msgstr ""
+msgstr "সংযোগ পুনরায় সেট করতে ওয়্যারলেস ইন্টারফেস পুনরায় চালু করুন"
 
 msgid "Restarting interface..."
-msgstr ""
+msgstr "ইন্টারফেস রিস্টার্ট করা হচ্ছে..."
 
 msgid "Retry Limits"
-msgstr ""
+msgstr "সীমা পুনরায় চেষ্টা করুন"
 
 msgid "Retry limit information not available\\\\\\\\n"
-msgstr ""
+msgstr "পুনরায় চেষ্টা করুন সীমা তথ্য উপলব্ধ নেই\\\\\\\\\\\\\\\\n"
 
 msgid "Retry limits and lifetime"
-msgstr ""
+msgstr "সীমা এবং জীবনকাল পুনরায় চেষ্টা করুন"
 
 msgid "Retry limits info displayed."
-msgstr ""
+msgstr "সীমা তথ্য পুনরায় চেষ্টা করুন প্রদর্শিত হয়."
 
 msgid "Running detailed speed test..."
-msgstr ""
+msgstr "বিস্তারিত গতি পরীক্ষা চলছে..."
 
 msgid "Running full speed test..."
-msgstr ""
+msgstr "পূর্ণ গতির পরীক্ষা চলছে..."
 
 msgid "Running quick speed test..."
-msgstr ""
+msgstr "দ্রুত গতি পরীক্ষা চলছে..."
 
 msgid "Rx invalid crypt:%s"
-msgstr ""
+msgstr "Rx অবৈধ ক্রিপ্ট:%s"
 
 msgid "Rx invalid frag:%s"
-msgstr ""
+msgstr "Rx অবৈধ ফ্র্যাগ:%s"
 
 msgid "Rx invalid nwid:%s"
-msgstr ""
+msgstr "Rx অবৈধ nwid:%s"
 
 msgid "Save & Connect"
-msgstr ""
+msgstr "সংরক্ষণ করুন এবং সংযুক্ত করুন"
 
 msgid "Scan"
-msgstr ""
+msgstr "স্ক্যান করুন"
 
 msgid "Scan completed."
-msgstr ""
+msgstr "স্ক্যান সম্পন্ন হয়েছে।"
 
 msgid "Scan error {}"
-msgstr ""
+msgstr "স্ক্যান ত্রুটি {}"
 
 msgid "Scan error:"
-msgstr ""
+msgstr "স্ক্যান ত্রুটি:"
 
 msgid "Scan error: {}"
-msgstr ""
+msgstr "স্ক্যান ত্রুটি: {}"
 
 msgid "Scan error: {}\\\\\\\\n"
-msgstr ""
+msgstr "স্ক্যান ত্রুটি: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Scan failed"
-msgstr ""
+msgstr "স্ক্যান ব্যর্থ হয়েছে"
 
 msgid "Scan for available networks"
-msgstr ""
+msgstr "উপলব্ধ নেটওয়ার্কগুলির জন্য স্ক্যান করুন"
 
 msgid "Scanner"
-msgstr ""
+msgstr "স্ক্যানার"
 
 msgid "Scanning for WiFi networks..."
-msgstr ""
+msgstr "ওয়াইফাই নেটওয়ার্কের জন্য স্ক্যান করা হচ্ছে..."
 
 msgid "Scanning for networks..."
-msgstr ""
+msgstr "নেটওয়ার্কের জন্য স্ক্যান করা হচ্ছে..."
 
 msgid "Scanning..."
-msgstr ""
+msgstr "স্ক্যান করা হচ্ছে..."
 
 msgid "Secondary DNS"
-msgstr ""
+msgstr "সেকেন্ডারি DNS"
 
 msgid "Secured"
-msgstr ""
+msgstr "সুরক্ষিত"
 
 msgid "Select"
-msgstr ""
+msgstr "নির্বাচন করুন"
 
 msgid "Select a speed test type"
-msgstr ""
+msgstr "একটি গতি পরীক্ষার ধরন নির্বাচন করুন"
 
 msgid "Select a tool from the menu to get detailed information about WiFi configuration and status."
-msgstr ""
+msgstr "ওয়াইফাই কনফিগারেশন এবং স্থিতি সম্পর্কে বিস্তারিত তথ্য পেতে মেনু থেকে একটি টুল নির্বাচন করুন।"
 
 msgid "Select a tool to see description"
-msgstr ""
+msgstr "বর্ণনা দেখতে একটি টুল নির্বাচন করুন"
 
 msgid "Select a tool to view detailed information"
-msgstr ""
+msgstr "বিস্তারিত তথ্য দেখতে একটি টুল নির্বাচন করুন"
 
 msgid "Select an option"
-msgstr ""
+msgstr "একটি বিকল্প নির্বাচন করুন"
 
 msgid "Server found"
-msgstr ""
+msgstr "সার্ভার পাওয়া গেছে"
 
 msgid "Server info error: {error}"
-msgstr ""
+msgstr "সার্ভার তথ্য ত্রুটি: {error}"
 
 msgid "Settings applied successfully"
-msgstr ""
+msgstr "সেটিংস সফলভাবে প্রয়োগ করা হয়েছে৷"
 
 msgid "Signal Level: {signal} dBm"
-msgstr ""
+msgstr "সংকেত স্তর: {signal} dBm"
 
 msgid "Signal level:%sdBm"
-msgstr ""
+msgstr "সংকেত স্তর:%sdBm"
 
 msgid "Signal: %s\\\\\\\\n"
-msgstr ""
+msgstr "সংকেত: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Signal: N/A"
-msgstr ""
+msgstr "সংকেত: N/A"
 
 msgid "Signal: {} dBm"
-msgstr ""
+msgstr "সংকেত: {} dBm"
 
 msgid "Speedtest"
-msgstr ""
+msgstr "স্পিডটেস্ট"
 
 msgid "Speedtest failed - No internet connection or all tests failed"
-msgstr ""
+msgstr "স্পিডটেস্ট ব্যর্থ হয়েছে - কোনও ইন্টারনেট সংযোগ বা সমস্ত পরীক্ষা ব্যর্থ হয়েছে৷"
 
 msgid "Speedtest failed: {}"
-msgstr ""
+msgstr "গতি পরীক্ষা ব্যর্থ হয়েছে: {}"
 
 msgid "SpeedtestSimple not available"
-msgstr ""
+msgstr "SpeedtestSimple উপলব্ধ নয়"
 
 msgid "Sponsor: {sponsor}\\\\\\\\n"
-msgstr ""
+msgstr "স্পনসর: {sponsor}\\\\\\\\\\\\\\\\n"
 
 msgid "Stability test error: {error}"
-msgstr ""
+msgstr "স্থিতিশীলতা পরীক্ষা ত্রুটি: {error}"
 
 msgid "Stable"
-msgstr ""
+msgstr "স্থিতিশীল"
 
 msgid "Start"
-msgstr ""
+msgstr "শুরু করুন"
 
 msgid "Static"
-msgstr ""
+msgstr "স্থির"
 
 msgid "Statistics error: {}"
-msgstr ""
+msgstr "পরিসংখ্যান ত্রুটি: {}"
 
 msgid "Status check failed: {}"
-msgstr ""
+msgstr "স্থিতি পরীক্ষা ব্যর্থ হয়েছে: {}"
 
 msgid "Stop"
-msgstr ""
+msgstr "থামো"
 
 msgid "Supported bit rates"
-msgstr ""
+msgstr "সমর্থিত বিট রেট"
 
 msgid "Supported bitrates and current transmission rates"
-msgstr ""
+msgstr "সমর্থিত বিটরেট এবং বর্তমান ট্রান্সমিশন হার"
 
 msgid "System Logs"
-msgstr ""
+msgstr "সিস্টেম লগ"
 
 msgid "System Logs:\\\\\\\\n"
-msgstr ""
+msgstr "সিস্টেম লগ:\\\\\\\\\\\\\\\\n"
 
 msgid "TX Power"
-msgstr ""
+msgstr "TX পাওয়ার"
 
 msgid "Tertiary DNS"
-msgstr ""
+msgstr "তৃতীয় DNS"
 
 msgid "Test cancelled"
-msgstr ""
+msgstr "পরীক্ষা বাতিল করা হয়েছে"
 
 msgid "Test completed - See results below"
-msgstr ""
+msgstr "পরীক্ষা সম্পন্ন হয়েছে - নীচের ফলাফল দেখুন"
 
 msgid "Test completed!"
-msgstr ""
+msgstr "পরীক্ষা সম্পন্ন!"
 
 msgid "Test failed"
-msgstr ""
+msgstr "পরীক্ষা ব্যর্থ হয়েছে"
 
 msgid "Testing connection stability..."
-msgstr ""
+msgstr "সংযোগের স্থায়িত্ব পরীক্ষা করা হচ্ছে..."
 
 msgid "Testing connectivity..."
-msgstr ""
+msgstr "সংযোগ পরীক্ষা করা হচ্ছে..."
 
 msgid "Testing download speed (multiple servers)..."
-msgstr ""
+msgstr "ডাউনলোডের গতি পরীক্ষা করা হচ্ছে (একাধিক সার্ভার)..."
 
 msgid "Testing download speed..."
-msgstr ""
+msgstr "ডাউনলোডের গতি পরীক্ষা করা হচ্ছে..."
 
 msgid "Testing latency to multiple hosts..."
-msgstr ""
+msgstr "একাধিক হোস্টে লেটেন্সি পরীক্ষা করা হচ্ছে..."
 
 msgid "Testing latency..."
-msgstr ""
+msgstr "লেটেন্সি পরীক্ষা করা হচ্ছে..."
 
 msgid "Testing upload speed..."
-msgstr ""
+msgstr "আপলোডের গতি পরীক্ষা করা হচ্ছে..."
 
 msgid "These forums are great places to get help,\\\\\\\\n"
-msgstr ""
+msgstr "এই ফোরামগুলি সাহায্য পাওয়ার জন্য দুর্দান্ত জায়গা,\\\\\\\\\\\\\\\\n"
 
 msgid "Timeout"
-msgstr ""
+msgstr "টাইম আউট"
 
 msgid "Tool not available"
-msgstr ""
+msgstr "টুল উপলব্ধ নয়"
 
 msgid "Tool not implemented: {}"
-msgstr ""
+msgstr "টুল বাস্তবায়িত হয়নি: {}"
 
 msgid "Tools"
-msgstr ""
+msgstr "টুলস"
 
 msgid "Tx excessive retries:%s"
-msgstr ""
+msgstr "Tx অত্যধিক পুনরায় চেষ্টা:%s"
 
 msgid "UP and active"
-msgstr ""
+msgstr "ইউপি এবং সক্রিয়"
 
 msgid "Unable to assess download quality\\\\\\\\n"
-msgstr ""
+msgstr "ডাউনলোড মানের মূল্যায়ন করতে অক্ষম\\\\\\\\\\\\\\\\n"
 
 msgid "Unknown"
-msgstr ""
+msgstr "অজানা"
 
 msgid "Unstable"
-msgstr ""
+msgstr "অস্থির"
 
 msgid "Upload Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "আপলোডের গতি: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Upload Speed: {upload}\\\\\\\\n"
-msgstr ""
+msgstr "আপলোডের গতি: {upload}\\\\\\\\\\\\\\\\n"
 
 msgid "Upload estimation completed"
-msgstr ""
+msgstr "আপলোড অনুমান সম্পন্ন হয়েছে"
 
 msgid "Upload test failed: {error}"
-msgstr ""
+msgstr "আপলোড পরীক্ষা ব্যর্থ হয়েছে: {error}"
 
 msgid "Upload test not available"
-msgstr ""
+msgstr "আপলোড পরীক্ষা উপলব্ধ নেই"
 
 msgid "Upload test: {result}"
-msgstr ""
+msgstr "আপলোড পরীক্ষা: {result}"
 
 msgid "Upload: Not available\\\\\\\\n"
-msgstr ""
+msgstr "আপলোড: উপলব্ধ নেই\\\\\\\\\\\\\\\\n"
 
 msgid "Upload: {:.2f} Mbps (estimated)\\\\\\\\n"
-msgstr ""
+msgstr "আপলোড: {:.2f} Mbps (আনুমানিক)\\\\\\\\\\\\\\\\n"
 
 msgid "Very Poor"
-msgstr ""
+msgstr "খুবই দরিদ্র"
 
 msgid "WEP Key Type"
-msgstr ""
+msgstr "WEP কী প্রকার"
 
 msgid "WiFi Advanced Tools"
-msgstr ""
+msgstr "ওয়াইফাই অ্যাডভান্সড টুলস"
 
 msgid "WiFi Connection Manager"
-msgstr ""
+msgstr "ওয়াইফাই কানেকশন ম্যানেজার"
 
 msgid "WiFi Diagnostics"
-msgstr ""
+msgstr "ওয়াইফাই ডায়াগনস্টিকস"
 
 msgid "WiFi Manager"
-msgstr ""
+msgstr "ওয়াইফাই ম্যানেজার"
 
 msgid "WiFi Manager iwconfig version {}"
-msgstr ""
+msgstr "ওয়াইফাই ম্যানেজার iwconfig সংস্করণ {}"
 
 msgid "WiFi Manager v."
-msgstr ""
+msgstr "ওয়াইফাই ম্যানেজার v."
 
 msgid "WiFi Password"
-msgstr ""
+msgstr "ওয়াইফাই পাসওয়ার্ড"
 
 msgid "WiFi Scanner"
-msgstr ""
+msgstr "ওয়াইফাই স্ক্যানার"
 
 msgid "WiFi Signal Monitor"
-msgstr ""
+msgstr "ওয়াইফাই সিগন্যাল মনিটর"
 
 msgid "WiFi Speed Test Manager"
-msgstr ""
+msgstr "ওয়াইফাই স্পিড টেস্ট ম্যানেজার"
 
 msgid "WiFi diagnostics and tests"
-msgstr ""
+msgstr "ওয়াইফাই ডায়াগনস্টিকস এবং পরীক্ষা"
 
 msgid "Wired"
-msgstr ""
+msgstr "তারযুক্ত"
 
 msgid "Wireless"
-msgstr ""
+msgstr "বেতার"
 
 msgid "Wireless info error: {}"
-msgstr ""
+msgstr "বেতার তথ্য ত্রুটি: {}"
 
 msgid "Yes"
-msgstr ""
+msgstr "হ্যাঁ"
 
 msgid "[LOCK]"
-msgstr ""
+msgstr "[লক]"
 
 msgid "[OPEN]"
-msgstr ""
+msgstr "[খোলা]"
 
 msgid "[SAVED]"
-msgstr ""
+msgstr "[সংরক্ষিত]"
 
 msgid "bits"
-msgstr ""
+msgstr "বিট"
 
 msgid "ethtool not found"
-msgstr ""
+msgstr "ethtool পাওয়া যায়নি"
 
 msgid "iwlist error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "{interface} এ iwlist ত্রুটি: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist error: {}\\\\\\\\n"
-msgstr ""
+msgstr "iwlist ত্রুটি: {}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist exception on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "{interface} এ iwlist ব্যতিক্রম: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist timeout on {}\\\\\\\\n"
-msgstr ""
+msgstr "{}\\\\\\\\\\\\\\\\n-এ iwlist টাইমআউট"
 
 msgid "iwlist: No networks found or interface busy\\\\\\\\n"
-msgstr ""
+msgstr "iwlist: কোনো নেটওয়ার্ক পাওয়া যায়নি বা ইন্টারফেস ব্যস্ত\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "iwlist: কোনো নেটওয়ার্ক পাওয়া যায়নি\\\\\\\\\\\\\\\\n"
 
 msgid "lifetime"
-msgstr ""
+msgstr "জীবনকাল"
 
 msgid "limit"
-msgstr ""
+msgstr "সীমা"
 
 msgid "long {type}:{value}"
-msgstr ""
+msgstr "দীর্ঘ {type}:{value}"
 
 msgid "max {type}:{value}"
-msgstr ""
+msgstr "সর্বোচ্চ {type}:{value}"
 
 msgid "min {type}:{value}"
-msgstr ""
+msgstr "মিনিট {type}:{value}"
 
 msgid "off"
-msgstr ""
+msgstr "বন্ধ"
 
 msgid "on"
-msgstr ""
+msgstr "অন"
 
 msgid "pythonwifi: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "pythonwifi: কোনো নেটওয়ার্ক পাওয়া যায়নি\\\\\\\\\\\\\\\\n"
 
 msgid "share experiences,and connect with other users."
-msgstr ""
+msgstr "অভিজ্ঞতা শেয়ার করুন, এবং অন্যান্য ব্যবহারকারীদের সাথে সংযোগ করুন।"
 
 msgid "short {type}:{value}"
-msgstr ""
+msgstr "সংক্ষিপ্ত {type}:{value}"
 
 msgid "wait..."
-msgstr ""
+msgstr "অপেক্ষা করুন..."
 
 msgid "{:.1f} ms"
 msgstr ""
@@ -1414,58 +1411,58 @@ msgid "{:.1f}%"
 msgstr ""
 
 msgid "{:2d}. {} {:20} | Signal: {:4} dBm ({}) | Channel: {}\\\\\\\\n"
-msgstr ""
+msgstr "{:2d} {} {:20} | সংকেত: {:4} dBm ({}) | চ্যানেল: {}\\\\\\\\\\\\\\\\n"
 
 msgid "{connection}{saved}{icon} {essid} | {security} | {signal} dBm"
-msgstr ""
+msgstr "{connection}_{saved}_{icon} {essid} | {security} | {signal} dBm"
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}...\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} | গুণমান: {quality:3}% | সংকেত: {signal:4} dBm | {bssid}...\\\\\\\\\\\\\\\\n"
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} | গুণমান: {quality:3}% | সংকেত: {signal:4} dBm | {bssid}\\\\\\\\\\\\\\\\n"
 
 msgid "{icon} {interface}: {status}\\\\\\\\n"
 msgstr ""
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel:2} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d} {essid:20} | গুণমান: {quality:3}% ({signal_quality}) | সংকেত: {signal:4} dBm | চ্যানেল: {channel:2} | এনক্রিপ্ট করা: {encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d} {essid:20} | গুণমান: {quality:3}% ({signal_quality}) | সংকেত: {signal:4} dBm | চ্যানেল: {channel:2} | এনক্রিপ্ট করা: {encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d} {essid:20} | গুণমান: {quality:3}% | সংকেত: {signal:4} dBm\\\\\\\\\\\\\\\\n"
 
 msgid "{index}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d} {essid:20} | গুণমান: {quality:3}% | সংকেত: {signal:4} dBm\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Connected to {essid} ({quality})\\\\\\\\n"
-msgstr ""
+msgstr "{interface}: {essid} ({quality}) এর সাথে সংযুক্ত\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Not connected\\\\\\\\n"
-msgstr ""
+msgstr "{interface}: সংযুক্ত নেই\\\\\\\\\\\\\\\\n"
 
 msgid "{name} ({host}): {ping}"
 msgstr ""
 
 msgid "{name} ({sponsor}): {ping}"
-msgstr ""
+msgstr "{name} ({host}): {ping}"
 
 msgid "{name}: Error {error}"
-msgstr ""
+msgstr "{name}: ত্রুটি {error}"
 
 msgid "{name}: Failed"
-msgstr ""
+msgstr "{name}: ব্যর্থ হয়েছে"
 
 msgid "{name}: Timeout"
-msgstr ""
+msgstr "{name}: সময়সীমা"
 
 msgid "{name}: {speed:.2f} Mbps"
 msgstr ""
 
 msgid "{server}: {speed:.2f} Mbps ({data:.1f} MB in {time:.1f}s)\\\\\\\\n"
-msgstr ""
+msgstr "{server}: {speed:.2f} Mbps ({data:.1f} MB {time:.1f}s)\\\\\\\\\\\\\\\\n"
 
 msgid "{speed:.2f} Mbps"
 msgstr ""
@@ -1474,13 +1471,13 @@ msgid "{} ({:.0f}%)"
 msgstr ""
 
 msgid "{} - Open network - Press OK for options"
-msgstr ""
+msgstr "{} - নেটওয়ার্ক খুলুন - বিকল্পগুলির জন্য ঠিক আছে টিপুন৷"
 
 msgid "{} - Password required - Press OK for options"
-msgstr ""
+msgstr "{} - পাসওয়ার্ড প্রয়োজন - বিকল্পের জন্য ঠিক আছে টিপুন"
 
 msgid "{} - Password saved - Press OK for options"
-msgstr ""
+msgstr "{} - পাসওয়ার্ড সংরক্ষিত - বিকল্পগুলির জন্য ঠিক আছে টিপুন৷"
 
 msgid "{} GHz"
 msgstr ""
@@ -1489,328 +1486,328 @@ msgid "{} Mb/s"
 msgstr ""
 
 msgid "{} Status: {}\\\\\\\\n"
-msgstr ""
+msgstr "{} অবস্থা: {}\\\\\\\\\\\\\\\\n"
 
 msgid "{} Type: {} interface\\\\\\\\n"
-msgstr ""
+msgstr "{} প্রকার: {} ইন্টারফেস\\\\\\\\\\\\\\\\n"
 
 msgid "{} dBm"
 msgstr ""
 
 msgid "{}: Failed"
-msgstr ""
+msgstr "{}: ব্যর্থ"
 
 msgid "{}: {:.1f} ms"
-msgstr ""
+msgstr "{}: {:.1f} মি.সে"
 
 msgid "{}\\\\\\\\n"
 msgstr ""
 
 msgid " Keep drivers updated\\\\\\\\n"
-msgstr ""
+msgstr "ড্রাইভার আপডেট রাখুন\\\\\\\\\\\\\\\\n"
 
 msgid " Monitor signal strength for best performance\\\\\\\\n"
-msgstr ""
+msgstr "সর্বোত্তম পারফরম্যান্সের জন্য সিগন্যাল শক্তি মনিটর করুন\\\\\\\\\\\\\\\\n"
 
 msgid " Use 5GHz band for less interference\\\\\\\\n"
-msgstr ""
+msgstr "কম হস্তক্ষেপের জন্য 5GHz ব্যান্ড ব্যবহার করুন\\\\\\\\\\\\\\\\n"
 
 msgid "  No USB WiFi adapters found\\\\\\\\n"
-msgstr ""
+msgstr "কোনো USB WiFi অ্যাডাপ্টার পাওয়া যায়নি\\\\\\\\\\\\\\\\n"
 
 msgid "  Interface {interface}: DOWN (needs activation)\\\\\\\\n"
-msgstr ""
+msgstr "ইন্টারফেস {interface}: ডাউন (অ্যাক্টিভেশন প্রয়োজন)\\\\\\\\\\\\\\\\n"
 
 msgid "  Missing commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "অনুপস্থিত কমান্ড: {commands}\\\\\\\\\\\\\\\\n"
 
 msgid "  No WiFi kernel modules detected\\\\\\\\n"
-msgstr ""
+msgstr "কোনো WiFi কার্নেল মডিউল সনাক্ত করা যায়নি\\\\\\\\\\\\\\\\n"
 
 msgid "  Scan: Interface busy (connected to network)\\\\\\\\n"
-msgstr ""
+msgstr "স্ক্যান: ইন্টারফেস ব্যস্ত (নেটওয়ার্কের সাথে সংযুক্ত)\\\\\\\\\\\\\\\\n"
 
 msgid "  {test}: No data\\\\\\\\n"
-msgstr ""
+msgstr "{test}: কোনো ডেটা নেই\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed\\\\\\\\n"
-msgstr ""
+msgstr "গড় ডাউনলোড গতি\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "গড় বিলম্ব ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency\\\\\\\\n"
-msgstr ""
+msgstr "গড় বিলম্ব\\\\\\\\\\\\\\\\n"
 
 msgid " Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "ভালো ডাউনলোডের গতি\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency\\\\\\\\n"
-msgstr ""
+msgstr "ভালো লেটেন্সি\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "চমৎকার লেটেন্সি ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " TX Power: {}\\\\\\\\n"
-msgstr ""
+msgstr "TX পাওয়ার: {}\\\\\\\\\\\\\\\\n"
 
 msgid " All systems operational\\\\\\\\n"
-msgstr ""
+msgstr "সমস্ত সিস্টেম চালু আছে\\\\\\\\\\\\\\\\n"
 
 msgid " Available commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "উপলব্ধ কমান্ড: {commands}\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "চমৎকার ডাউনলোড গতি\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency\\\\\\\\n"
-msgstr ""
+msgstr "চমৎকার লেটেন্সি\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "ভালো লেটেন্সি ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: UP and active\\\\\\\\n"
-msgstr ""
+msgstr "ইন্টারফেস {interface}: UP এবং সক্রিয়\\\\\\\\\\\\\\\\n"
 
 msgid " Loaded WiFi modules: {modules}\\\\\\\\n"
-msgstr ""
+msgstr "লোড করা ওয়াইফাই মডিউল: {modules}\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: WiFi hardware detected and functional\\\\\\\\n"
-msgstr ""
+msgstr "সিস্টেম স্ট্যাটাস: ওয়াইফাই হার্ডওয়্যার সনাক্ত করা হয়েছে এবং কার্যকরী\\\\\\\\\\\\\\\\n"
 
 msgid " USB WiFi adapters detected:\\\\\\\\n"
-msgstr ""
+msgstr "USB WiFi অ্যাডাপ্টার সনাক্ত করা হয়েছে:\\\\\\\\\\\\\\\\n"
 
 msgid " {test}: {output}\\\\\\\\n"
-msgstr ""
+msgstr "{test}: {output}\\\\\\\\\\\\\\\\n"
 
 msgid " CRITICAL: No WiFi interfaces detected!\\\\\\\\n"
-msgstr ""
+msgstr "সমালোচনামূলক: কোনো ওয়াইফাই ইন্টারফেস সনাক্ত করা যায়নি!\\\\\\\\\\\\\\\\n"
 
 msgid " Download test failed\\\\\\\\n"
-msgstr ""
+msgstr "ডাউনলোড পরীক্ষা ব্যর্থ হয়েছে\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID চেক: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Error: {}\\\\\\\\n"
-msgstr ""
+msgstr "ত্রুটি: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "ইন্টারফেস পরীক্ষা ব্যর্থ হয়েছে: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: NOT FOUND\\\\\\\\n"
-msgstr ""
+msgstr "ইন্টারফেস {interface}: পাওয়া যায়নি\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: UNKNOWN STATE\\\\\\\\n"
-msgstr ""
+msgstr "ইন্টারফেস {interface}: অজানা রাজ্য\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {} not found or not a WiFi interface\\\\\\\\n"
-msgstr ""
+msgstr "ইন্টারফেস {} পাওয়া যায়নি বা একটি ওয়াইফাই ইন্টারফেস নেই\\\\\\\\\\\\\\\\n"
 
 msgid " Kernel module check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "কার্নেল মডিউল পরীক্ষা ব্যর্থ হয়েছে: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Latency test failed\\\\\\\\n"
-msgstr ""
+msgstr "লেটেন্সি পরীক্ষা ব্যর্থ হয়েছে\\\\\\\\\\\\\\\\n"
 
 msgid " Mode check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "মোড পরীক্ষা: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "খারাপ ডাউনলোড গতি\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency\\\\\\\\n"
-msgstr ""
+msgstr "দুর্বল বিলম্ব\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: No WiFi interfaces detected\\\\\\\\n"
-msgstr ""
+msgstr "সিস্টেম স্ট্যাটাস: কোনো ওয়াইফাই ইন্টারফেস শনাক্ত হয়নি\\\\\\\\\\\\\\\\n"
 
 msgid " Scan test: {error}\\\\\\\\n"
-msgstr ""
+msgstr "স্ক্যান পরীক্ষা: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Signal check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "সিগন্যাল চেক: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " USB device check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "USB ডিভাইস চেক ব্যর্থ হয়েছে: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Very poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "খুব খারাপ লেটেন্সি ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " {}\\\\\\\\n"
-msgstr ""
+msgstr "{}\\\\\\\\\\\\\\\\n"
 
 msgid " Cannot assess connection quality\\\\\\\\n"
-msgstr ""
+msgstr "সংযোগের গুণমান মূল্যায়ন করা যাবে না\\\\\\\\\\\\\\\\n"
 
 msgid " Download speed unavailable\\\\\\\\n"
-msgstr ""
+msgstr "ডাউনলোডের গতি অনুপলব্ধ\\\\\\\\\\\\\\\\n"
 
 msgid " Latency unavailable\\\\\\\\n"
-msgstr ""
+msgstr "লেটেন্সি অনুপলব্ধ\\\\\\\\\\\\\\\\n"
 
 msgid " Quality assessment unavailable\\\\\\\\n"
-msgstr ""
+msgstr "গুণমান মূল্যায়ন অনুপলব্ধ\\\\\\\\\\\\\\\\n"
 
 msgid "  Transmitted: {}\\\\\\\\n"
-msgstr ""
+msgstr "প্রেরিত: {}\\\\\\\\\\\\\\\\n"
 
 msgid "  Received: {}\\\\\\\\n"
-msgstr ""
+msgstr "গৃহীত: {}\\\\\\\\\\\\\\\\n"
 
 msgid " AVAILABLE NETWORKS\\\\\\\\n"
-msgstr ""
+msgstr "উপলব্ধ নেটওয়ার্ক\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: IP {ip} - ONLINE\\\\\\\\n"
-msgstr ""
+msgstr "সংযোগ: IP {ip} - অনলাইন\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: No IP address - OFFLINE\\\\\\\\n"
-msgstr ""
+msgstr "সংযোগ: কোন আইপি ঠিকানা নেই - অফলাইন\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: Unknown status\\\\\\\\n"
-msgstr ""
+msgstr "সংযোগ: অজানা স্থিতি\\\\\\\\\\\\\\\\n"
 
 msgid " EXCELLENT connection\\\\\\\\n"
-msgstr ""
+msgstr "চমৎকার সংযোগ\\\\\\\\\\\\\\\\n"
 
 msgid " SERVER INFORMATION:\\\\\\\\n"
-msgstr ""
+msgstr "সার্ভার তথ্য:\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "দুর্বল বিলম্ব ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " FAIR connection\\\\\\\\n"
-msgstr ""
+msgstr "FAIR সংযোগ\\\\\\\\\\\\\\\\n"
 
 msgid " GOOD connection\\\\\\\\n"
-msgstr ""
+msgstr "ভালো সংযোগ\\\\\\\\\\\\\\\\n"
 
 msgid " POOR connection\\\\\\\\n"
-msgstr ""
+msgstr "দুর্বল সংযোগ\\\\\\\\\\\\\\\\n"
 
 msgid " CLIENT INFORMATION:\\\\\\\\n"
-msgstr ""
+msgstr "ক্লায়েন্ট তথ্য:\\\\\\\\\\\\\\\\n"
 
 msgid " All basic diagnostics available\\\\\\\\n"
-msgstr ""
+msgstr "সমস্ত মৌলিক ডায়াগনস্টিক উপলব্ধ\\\\\\\\\\\\\\\\n"
 
 msgid " Tips:\\\\\\\\n"
-msgstr ""
+msgstr "টিপস:\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "ড্রাইভার: অজানা\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: {}\\\\\\\\n"
-msgstr ""
+msgstr "ড্রাইভার: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Protocol: {}\\\\\\\\n"
-msgstr ""
+msgstr "প্রোটোকল: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "চমৎকার ডাউনলোড গতি ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " TEST RESULTS:\\\\\\\\n"
-msgstr ""
+msgstr "পরীক্ষার ফলাফল:\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "গড় ডাউনলোড গতি ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " Poor download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "খারাপ ডাউনলোডের গতি ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " Good download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "ভালো ডাউনলোডের গতি ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " NETWORK STATISTICS\\\\\\\\n"
-msgstr ""
+msgstr "নেটওয়ার্ক পরিসংখ্যান\\\\\\\\\\\\\\\\n"
 
 msgid " Quality: {}\\\\\\\\n"
-msgstr ""
+msgstr "গুণমান: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Signal: No quality data available\\\\\\\\n"
-msgstr ""
+msgstr "সংকেত: কোনো গুণমান ডেটা উপলব্ধ নেই\\\\\\\\\\\\\\\\n"
 
 msgid " Signal: {quality}% quality, {signal} dBm\\\\\\\\n"
-msgstr ""
+msgstr "সংকেত: {quality}% গুণমান, {signal} dBm\\\\\\\\\\\\\\\\n"
 
 msgid " MAC: {}\\\\\\\\n"
-msgstr ""
+msgstr "MAC: {}\\\\\\\\\\\\\\\\n"
 
 msgid " DETAILED WIFI INFORMATION - {}\\\\\\\\n"
-msgstr ""
+msgstr "বিস্তারিত ওয়াইফাই তথ্য - {}\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: {}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface Type: WIRELESS\\\\\\\\n"
-msgstr ""
+msgstr "ইন্টারফেসের ধরন: ওয়্যারলেস\\\\\\\\\\\\\\\\n"
 
 msgid " Scan: Found {count} networks\\\\\\\\n"
-msgstr ""
+msgstr "স্ক্যান: {count} নেটওয়ার্ক পাওয়া গেছে\\\\\\\\\\\\\\\\n"
 
 msgid " Type: Wireless interface\\\\\\\\n"
-msgstr ""
+msgstr "প্রকার: ওয়্যারলেস ইন্টারফেস\\\\\\\\\\\\\\\\n"
 
 msgid " Connection appears good (based on download)\\\\\\\\n"
-msgstr ""
+msgstr "সংযোগ ভাল দেখা যাচ্ছে (ডাউনলোডের উপর ভিত্তি করে)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection appears responsive (based on ping)\\\\\\\\n"
-msgstr ""
+msgstr "সংযোগ প্রতিক্রিয়াশীল দেখায় (পিংয়ের উপর ভিত্তি করে)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection may be limited (based on download)\\\\\\\\n"
-msgstr ""
+msgstr "সংযোগ সীমিত হতে পারে (ডাউনলোডের উপর ভিত্তি করে)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection may be slow (based on ping)\\\\\\\\n"
-msgstr ""
+msgstr "সংযোগ ধীর হতে পারে (পিং এর উপর ভিত্তি করে)\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: Not connected\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: সংযুক্ত নয়\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: {essid}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: {essid}\\\\\\\\\\\\\\\\n"
 
 msgid " Frequency: {}\\\\\\\\n"
-msgstr ""
+msgstr "ফ্রিকোয়েন্সি: {}\\\\\\\\\\\\\\\\n"
 
 msgid " WIRELESS INFORMATION\\\\\\\\n"
-msgstr ""
+msgstr "ওয়্যারলেস তথ্য\\\\\\\\\\\\\\\\n"
 
 msgid " DRIVER & HARDWARE\\\\\\\\n"
-msgstr ""
+msgstr "ড্রাইভার এবং হার্ডওয়্যার\\\\\\\\\\\\\\\\n"
 
 msgid " Type: Wired interface\\\\\\\\n"
-msgstr ""
+msgstr "প্রকার: তারযুক্ত ইন্টারফেস\\\\\\\\\\\\\\\\n"
 
 msgid " BASIC INTERFACE INFO\\\\\\\\n"
-msgstr ""
+msgstr "মৌলিক ইন্টারফেস তথ্য\\\\\\\\\\\\\\\\n"
 
 msgid " Interface: {}\\\\\\\\n"
-msgstr ""
+msgstr "ইন্টারফেস: {}\\\\\\\\\\\\\\\\n"
 
 msgid " METHOD: Using system commands (no root required)\\\\\\\\n"
-msgstr ""
+msgstr "পদ্ধতি: সিস্টেম কমান্ড ব্যবহার করা (কোন রুট প্রয়োজন নেই)\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "মোড: অজানা\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: {mode}\\\\\\\\n"
-msgstr ""
+msgstr "মোড: {mode}\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: {}\\\\\\\\n"
-msgstr ""
+msgstr "মোড: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Module: {}\\\\\\\\n"
-msgstr ""
+msgstr "মডিউল: {}\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM LEVEL DIAGNOSTICS\\\\\\\\n"
-msgstr ""
+msgstr "সিস্টেম লেভেল ডায়াগনস্টিকস\\\\\\\\\\\\\\\\n"
 
 msgid " Bit Rate: {}\\\\\\\\n"
-msgstr ""
+msgstr "বিট রেট: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Check hardware connection and drivers\\\\\\\\n"
-msgstr ""
+msgstr "হার্ডওয়্যার সংযোগ এবং ড্রাইভার পরীক্ষা করুন\\\\\\\\\\\\\\\\n"
 
 msgid " VERY POOR connection\\\\\\\\n"
-msgstr ""
+msgstr "খুব খারাপ সংযোগ\\\\\\\\\\\\\\\\n"
