@@ -13,364 +13,364 @@ msgid "- {adapter}\\\\\\\\n"
 msgstr ""
 
 msgid "... and {} more networks\\\\\\\\n"
-msgstr ""
+msgstr "... و {} شبکه دیگر\\\\\\\\\\\\\\\\n"
 
 msgid "1 dBm (Min)"
-msgstr ""
+msgstr "1 dBm (دقیقه)"
 
 msgid "1. Check if WiFi adapter is properly connected\\\\\\\\n"
-msgstr ""
+msgstr "1. بررسی کنید که آیا آداپتور WiFi به درستی وصل شده است\\\\\\\\\\\\\\\\n"
 
 msgid "1. Disconnect from current WiFi network\\\\\\\\n"
-msgstr ""
+msgstr "1. از شبکه WiFi فعلی جدا شوید\\\\\\\\\\\\\\\\n"
 
 msgid "10 dBm"
-msgstr ""
+msgstr "10 دسی بل"
 
 msgid "15 dBm"
-msgstr ""
+msgstr "15 دسی بل"
 
 msgid "2. Restart WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "2. آداپتور WiFi\\\\\\\\\\\\\\\\n را دوباره راه اندازی کنید"
 
 msgid "2. Verify WiFi adapter is supported by your receiver\\\\\\\\n"
-msgstr ""
+msgstr "2. بررسی کنید که آداپتور WiFi توسط گیرنده شما پشتیبانی می‌شود\\\\\\\\\\\\\\\\n"
 
 msgid "20 dBm (Max)"
-msgstr ""
+msgstr "20 dBm (حداکثر)"
 
 msgid "3. Check if WiFi driver is installed\\\\\\\\n"
-msgstr ""
+msgstr "3. بررسی کنید که آیا درایور WiFi نصب شده است\\\\\\\\\\\\\\\\n"
 
 msgid "3. Try different USB port for USB WiFi adapters\\\\\\\\n"
-msgstr ""
+msgstr "3. پورت USB مختلف را برای آداپتورهای USB WiFi\\\\\\\\\\\\\\\\n امتحان کنید"
 
 msgid "4. Check if WiFi drivers are installed\\\\\\\\n"
-msgstr ""
+msgstr "4. بررسی کنید که آیا درایورهای WiFi نصب شده اند\\\\\\\\\\\\\\\\n"
 
 msgid "4. Try with different USB WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "4. با آداپتور USB WiFi مختلف\\\\\\\\\\\\\\\\n امتحان کنید"
 
 msgid "5 dBm"
 msgstr ""
 
 msgid "5. Check root permissions\\\\\\\\n"
-msgstr ""
+msgstr "5. مجوزهای root\\\\\\\\\\\\\\\\n را بررسی کنید"
 
 msgid "5. Restart the receiver and try again\\\\\\\\n"
-msgstr ""
+msgstr "5. گیرنده را راه اندازی مجدد کنید و دوباره امتحان کنید\\\\\\\\\\\\\\\\n"
 
 msgid "=== WiFi Diagnostics (System Commands Only) ===\\\\\\\\n"
-msgstr ""
+msgstr "=== تشخیص وای فای (فقط دستورات سیستم) ===\\\\\\\\\\\\\\\\n"
 
 msgid "ACTIVE"
-msgstr ""
+msgstr "فعال"
 
 msgid "About"
-msgstr ""
+msgstr "درباره"
 
 msgid "Access Point"
-msgstr ""
+msgstr "نقطه دسترسی"
 
 msgid "Access Point: {ap}"
-msgstr ""
+msgstr "نقطه دسترسی: {ap}"
 
 msgid "Access Points"
-msgstr ""
+msgstr "نقاط دسترسی"
 
 msgid "Access points info displayed."
-msgstr ""
+msgstr "اطلاعات نقاط دسترسی نمایش داده می شود."
 
 msgid "Ad-Hoc"
 msgstr ""
 
 msgid "Advanced"
-msgstr ""
+msgstr "پیشرفته"
 
 msgid "Advanced Config"
-msgstr ""
+msgstr "تنظیمات پیشرفته"
 
 msgid "Advanced Config - {}"
-msgstr ""
+msgstr "پیکربندی پیشرفته - {}"
 
 msgid "Advanced Scan"
-msgstr ""
+msgstr "اسکن پیشرفته"
 
 msgid "Advanced Scan Results"
-msgstr ""
+msgstr "نتایج اسکن پیشرفته"
 
 msgid "Advanced Tools"
-msgstr ""
+msgstr "ابزارهای پیشرفته"
 
 msgid "Advanced WiFi Configuration"
-msgstr ""
+msgstr "پیکربندی پیشرفته WiFi"
 
 msgid "Advanced WiFi Tools"
-msgstr ""
+msgstr "ابزارهای پیشرفته وای فای"
 
 msgid "Advanced WiFi configuration"
-msgstr ""
+msgstr "پیکربندی پیشرفته WiFi"
 
 msgid "Advanced WiFi configuration settings"
-msgstr ""
+msgstr "تنظیمات پیشرفته وای فای"
 
 msgid "Advanced WiFi interface configuration"
-msgstr ""
+msgstr "پیکربندی پیشرفته رابط WiFi"
 
 msgid "Advanced configuration completed."
-msgstr ""
+msgstr "پیکربندی پیشرفته تکمیل شد."
 
 msgid "All Network Interfaces: {interfaces}\\\\\\\\n"
-msgstr ""
+msgstr "همه رابط های شبکه: {interfaces}\\\\\\\\\\\\\\\\n"
 
 msgid "All ping tests failed"
-msgstr ""
+msgstr "تمام تست های پینگ ناموفق بود"
 
 msgid "All settings reset to defaults"
-msgstr ""
+msgstr "همه تنظیمات به حالت پیش فرض بازنشانی می شوند"
 
 msgid "Applied: {} commands\\\\\\\\n"
-msgstr ""
+msgstr "اعمال شد: {} دستورات\\\\\\\\\\\\\\\\n"
 
 msgid "Apply"
-msgstr ""
+msgstr "درخواست کنید"
 
 msgid "Auto"
-msgstr ""
+msgstr "خودکار"
 
 msgid "Auto  limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "محدودیت خودکار؛ حداقل محدودیت:{limit}"
 
 msgid "Automatic (DHCP)"
-msgstr ""
+msgstr "خودکار (DHCP)"
 
 msgid "Available frequencies and channels for your region"
-msgstr ""
+msgstr "فرکانس ها و کانال های موجود برای منطقه شما"
 
 msgid "Available frequencies/channels"
-msgstr ""
+msgstr "فرکانس ها / کانال های موجود"
 
 msgid "Available interfaces: {}"
-msgstr ""
+msgstr "رابط های موجود: {}"
 
 msgid "Back"
-msgstr ""
+msgstr "برگشت"
 
 msgid "Basic"
-msgstr ""
+msgstr "اساسی"
 
 msgid "Basic info error: {}"
-msgstr ""
+msgstr "خطای اطلاعات اولیه: {}"
 
 msgid "Basic view enabled - rescan to see basic info"
-msgstr ""
+msgstr "نمای اصلی فعال شد - برای مشاهده اطلاعات اولیه، دوباره اسکن کنید"
 
 msgid "Bit Rate: {rate}"
-msgstr ""
+msgstr "نرخ بیت: {rate}"
 
 msgid "Bit Rates:"
-msgstr ""
+msgstr "نرخ بیت:"
 
 msgid "Bitrate"
-msgstr ""
+msgstr "میزان بیت"
 
 msgid "Bitrate Info"
-msgstr ""
+msgstr "اطلاعات نرخ بیت"
 
 msgid "Bitrate info displayed."
-msgstr ""
+msgstr "اطلاعات نرخ بیت نمایش داده می شود."
 
 msgid "Bitrate information not available\\\\\\\\n"
-msgstr ""
+msgstr "اطلاعات نرخ بیت در دسترس نیست\\\\\\\\\\\\\\\\n"
 
 msgid "CONNECTED to: {} - Press OK for options"
-msgstr ""
+msgstr "متصل به: {} - برای گزینه‌ها تأیید را فشار دهید"
 
 msgid "Cancel"
-msgstr ""
+msgstr "لغو کنید"
 
 msgid "Cancelling test..."
-msgstr ""
+msgstr "در حال لغو تست..."
 
 msgid "Cell"
-msgstr ""
+msgstr "سلول"
 
 msgid "Channel"
-msgstr ""
+msgstr "کانال"
 
 msgid "Channel Info"
-msgstr ""
+msgstr "اطلاعات کانال"
 
 msgid "Channel info displayed."
-msgstr ""
+msgstr "اطلاعات کانال نمایش داده شد"
 
 msgid "Channel {}"
-msgstr ""
+msgstr "کانال {}"
 
 msgid "Channel: %s\\\\\\\\n"
-msgstr ""
+msgstr "کانال: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Check System Logs"
-msgstr ""
+msgstr "گزارش های سیستم را بررسی کنید"
 
 msgid "Check system logs for WiFi errors"
-msgstr ""
+msgstr "گزارش های سیستم را برای خطاهای WiFi بررسی کنید"
 
 msgid "Check system logs for WiFi errors and connection issues"
-msgstr ""
+msgstr "گزارش های سیستم را برای خطاهای WiFi و مشکلات اتصال بررسی کنید"
 
 msgid "Checking internet connection..."
-msgstr ""
+msgstr "در حال بررسی اتصال اینترنت..."
 
 msgid "Checking system logs..."
-msgstr ""
+msgstr "بررسی گزارش های سیستم..."
 
 msgid "Clear"
-msgstr ""
+msgstr "پاک کردن"
 
 msgid "Client info completed"
-msgstr ""
+msgstr "اطلاعات مشتری تکمیل شد"
 
 msgid "Client info error: {error}"
-msgstr ""
+msgstr "خطای اطلاعات مشتری: {error}"
 
 msgid "Close"
-msgstr ""
+msgstr "بستن"
 
 msgid "Cloudflare"
 msgstr ""
 
 msgid "Complete iwconfig-like information"
-msgstr ""
+msgstr "اطلاعات کامل شبیه iwconfig"
 
 msgid "Config"
-msgstr ""
+msgstr "پیکربندی"
 
 msgid "Configure {}"
-msgstr ""
+msgstr "پیکربندی {}"
 
 msgid "Connect"
-msgstr ""
+msgstr "اتصال"
 
 msgid "Connect to WiFi networks"
-msgstr ""
+msgstr "به شبکه های وای فای متصل شوید"
 
 msgid "Connected but no timing data"
-msgstr ""
+msgstr "متصل است اما داده‌های زمان‌بندی وجود ندارد"
 
 msgid "Connected successfully!"
-msgstr ""
+msgstr "با موفقیت وصل شد!"
 
 msgid "Connected to %s"
-msgstr ""
+msgstr "به %s متصل شد"
 
 msgid "Connected to: %s"
-msgstr ""
+msgstr "متصل به: %s"
 
 msgid "Connected: {} | Signal: {} dBm | IP: {}"
-msgstr ""
+msgstr "متصل: {} | سیگنال: {} dBm | IP: {}"
 
 msgid "Connecting to %s..."
-msgstr ""
+msgstr "در حال اتصال به %s..."
 
 msgid "Connection Info"
-msgstr ""
+msgstr "اطلاعات اتصال"
 
 msgid "Connection failed!"
-msgstr ""
+msgstr "اتصال ناموفق بود!"
 
 msgid "Connection timeout"
-msgstr ""
+msgstr "پایان زمان اتصال"
 
 msgid "Country Code"
-msgstr ""
+msgstr "کد کشور"
 
 msgid "DHCP"
 msgstr ""
 
 msgid "DNS Server 1"
-msgstr ""
+msgstr "سرور DNS 1"
 
 msgid "DNS Server 2"
-msgstr ""
+msgstr "سرور DNS 2"
 
 msgid "DOWN"
-msgstr ""
+msgstr "پایین"
 
 msgid "Data Rate"
-msgstr ""
+msgstr "نرخ داده"
 
 msgid "Defaults"
-msgstr ""
+msgstr "پیش فرض ها"
 
 msgid "Detailed Info - {}"
-msgstr ""
+msgstr "اطلاعات دقیق - {}"
 
 msgid "Detailed network scanning"
-msgstr ""
+msgstr "اسکن شبکه دقیق"
 
 msgid "Detailed network scanning with signal strength and encryption info"
-msgstr ""
+msgstr "اسکن شبکه دقیق با قدرت سیگنال و اطلاعات رمزگذاری"
 
 msgid "Detailed speed test failed - Check internet connection"
-msgstr ""
+msgstr "تست دقیق سرعت انجام نشد - اتصال اینترنت را بررسی کنید"
 
 msgid "Detailed test completed"
-msgstr ""
+msgstr "تست دقیق تکمیل شد"
 
 msgid "Detailed test error: {error}"
-msgstr ""
+msgstr "خطای دقیق آزمایش: {error}"
 
 msgid "Detailed view enabled - rescan to see details"
-msgstr ""
+msgstr "نمای تفصیلی فعال شد - برای دیدن جزئیات دوباره اسکن کنید"
 
 msgid "Details"
-msgstr ""
+msgstr "جزئیات"
 
 msgid "Details Info"
-msgstr ""
+msgstr "جزئیات اطلاعات"
 
 msgid "Diagnostic error: {}\\\\\\\\n"
-msgstr ""
+msgstr "خطای تشخیصی: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Diagnostics"
-msgstr ""
+msgstr "تشخیص"
 
 msgid "Disconnect"
-msgstr ""
+msgstr "قطع کن"
 
 msgid "Disconnected"
-msgstr ""
+msgstr "قطع شده است"
 
 msgid "Disconnecting..."
-msgstr ""
+msgstr "در حال قطع شدن..."
 
 msgid "Download Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "سرعت دانلود: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Download Speed: {download}\\\\\\\\n"
-msgstr ""
+msgstr "سرعت دانلود: {download}\\\\\\\\\\\\\\\\n"
 
 msgid "Download test completed"
-msgstr ""
+msgstr "تست دانلود تکمیل شد"
 
 msgid "Download: Failed\\\\\\\\n"
-msgstr ""
+msgstr "دانلود: ناموفق\\\\\\\\\\\\\\\\n"
 
 msgid "Download: {:.2f} Mbps\\\\\\\\n"
-msgstr ""
+msgstr "دانلود: {:.2f} Mbps\\\\\\\\\\\\\\\\n"
 
 msgid "Driver check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "بررسی درایور انجام نشد: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "Driver info error: {}"
-msgstr ""
+msgstr "خطای اطلاعات درایور: {}"
 
 msgid "Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "راننده: نامشخص\\\\\\\\\\\\\\\\n"
 
 msgid "Driver: {driver}\\\\\\\\n"
-msgstr ""
+msgstr "راننده: {driver}\\\\\\\\\\\\\\\\n"
 
 msgid "ESSID: %s\\\\\\\\n"
 msgstr ""
@@ -379,247 +379,247 @@ msgid "ESSID: {}"
 msgstr ""
 
 msgid "Edit Configuration"
-msgstr ""
+msgstr "ویرایش پیکربندی"
 
 msgid "Edit Password"
-msgstr ""
+msgstr "ویرایش رمز عبور"
 
 msgid "Encryption"
-msgstr ""
+msgstr "رمزگذاری"
 
 msgid "Encryption Info"
-msgstr ""
+msgstr "اطلاعات رمزگذاری"
 
 msgid "Encryption info displayed."
-msgstr ""
+msgstr "اطلاعات رمزگذاری نمایش داده می شود."
 
 msgid "Encryption information not available\\\\\\\\n"
-msgstr ""
+msgstr "اطلاعات رمزگذاری موجود نیست\\\\\\\\\\\\\\\\n"
 
 msgid "Encryption keys and security"
-msgstr ""
+msgstr "کلیدهای رمزگذاری و امنیت"
 
 msgid "Encryption keys and security protocols"
-msgstr ""
+msgstr "کلیدهای رمزگذاری و پروتکل های امنیتی"
 
 msgid "Encryption: %s\\\\\\\\n"
-msgstr ""
+msgstr "رمزگذاری: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Enter Password"
-msgstr ""
+msgstr "رمز عبور را وارد کنید"
 
 msgid "Enter password for: %s"
-msgstr ""
+msgstr "رمز عبور را برای: %s وارد کنید"
 
 msgid "Error"
-msgstr ""
+msgstr "خطا"
 
 msgid "Error applying advanced settings: {}"
-msgstr ""
+msgstr "خطا در اعمال تنظیمات پیشرفته: {}"
 
 msgid "Error applying settings: {}"
-msgstr ""
+msgstr "خطا در اعمال تنظیمات: {}"
 
 msgid "Error disconnecting"
-msgstr ""
+msgstr "خطا در قطع اتصال"
 
 msgid "Error getting AP information: {}"
-msgstr ""
+msgstr "خطا در دریافت اطلاعات AP: {}"
 
 msgid "Error getting bitrate information: {}"
-msgstr ""
+msgstr "خطا در دریافت اطلاعات نرخ بیت: {}"
 
 msgid "Error getting channel information: {}"
-msgstr ""
+msgstr "خطا در دریافت اطلاعات کانال: {}"
 
 msgid "Error getting connection details: {error}"
-msgstr ""
+msgstr "خطا در دریافت جزئیات اتصال: {error}"
 
 msgid "Error getting encryption information: {}"
-msgstr ""
+msgstr "خطا در دریافت اطلاعات رمزگذاری: {}"
 
 msgid "Error getting power information: {}"
-msgstr ""
+msgstr "خطا در دریافت اطلاعات قدرت: {}"
 
 msgid "Error getting retry information: {}"
-msgstr ""
+msgstr "خطا در دریافت اطلاعات تلاش مجدد: {}"
 
 msgid "Error loading help"
-msgstr ""
+msgstr "خطا در بارگیری راهنما"
 
 msgid "Error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "خطا در {interface}: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "Error opening {module}: {error}"
-msgstr ""
+msgstr "خطا در باز کردن {module}: {error}"
 
 msgid "Error running {tool}: {error}"
-msgstr ""
+msgstr "خطا در اجرای {tool}: {error}"
 
 msgid "Error: {error}"
-msgstr ""
+msgstr "خطا: {error}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "خطا: {}"
 
 msgid "Estimating upload speed..."
-msgstr ""
+msgstr "تخمین سرعت آپلود..."
 
 msgid "Excellent"
-msgstr ""
+msgstr "عالی"
 
 msgid "Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "سرعت دانلود عالی\\\\\\\\\\\\\\\\n"
 
 msgid "Executing tool..."
-msgstr ""
+msgstr "ابزار اجرایی ..."
 
 msgid "Exit"
-msgstr ""
+msgstr "خارج شوید"
 
 msgid "Failed"
-msgstr ""
+msgstr "شکست خورد"
 
 msgid "Failed to connect to %s"
-msgstr ""
+msgstr "اتصال به %s انجام نشد"
 
 msgid "Failed: {} commands"
-msgstr ""
+msgstr "ناموفق: دستورات {}"
 
 msgid "Fair"
-msgstr ""
+msgstr "منصفانه"
 
 msgid "Final connectivity check..."
-msgstr ""
+msgstr "بررسی نهایی اتصال..."
 
 msgid "Finding best server..."
-msgstr ""
+msgstr "یافتن بهترین سرور..."
 
 msgid "Fixed lifetime ;  min lifetime:{lifetime}"
-msgstr ""
+msgstr "طول عمر ثابت؛ حداقل طول عمر:{lifetime}"
 
 msgid "Fixed limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "محدودیت ثابت؛ حداقل محدودیت:{limit}"
 
 msgid "For troubleshooting, detailed guidance, or community support, visit:\\\\\\\\n"
-msgstr ""
+msgstr "برای عیب‌یابی، راهنمایی دقیق یا پشتیبانی انجمن، به این آدرس مراجعه کنید:\\\\\\\\\\\\\\\\n"
 
 msgid "Forget Network"
-msgstr ""
+msgstr "شبکه را فراموش کنید"
 
 msgid "Forgotten network: {}"
-msgstr ""
+msgstr "شبکه فراموش شده: {}"
 
 msgid "Found {} networks:\\\\\\\\n"
-msgstr ""
+msgstr "{} شبکه پیدا شد:\\\\\\\\\\\\\\\\n"
 
 msgid "Found: {}\\\\\\\\n"
-msgstr ""
+msgstr "پیدا شد: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Fragmentation"
-msgstr ""
+msgstr "تکه تکه شدن"
 
 msgid "Frequency"
-msgstr ""
+msgstr "فرکانس"
 
 msgid "Frequency information not available\\\\\\\\n"
-msgstr ""
+msgstr "اطلاعات فرکانس در دسترس نیست\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency/Channel"
-msgstr ""
+msgstr "فرکانس / کانال"
 
 msgid "Frequency:"
-msgstr ""
+msgstr "فرکانس:"
 
 msgid "Frequency: %s\\\\\\\\n"
-msgstr ""
+msgstr "فرکانس: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency: {frequency}"
-msgstr ""
+msgstr "فرکانس: {frequency}"
 
 msgid "Full Comprehensive Test"
-msgstr ""
+msgstr "آزمون کامل جامع"
 
 msgid "Full Test"
-msgstr ""
+msgstr "تست کامل"
 
 msgid "Full test completed"
-msgstr ""
+msgstr "تست کامل انجام شد"
 
 msgid "Full test error: {error}"
-msgstr ""
+msgstr "خطای کامل تست: {error}"
 
 msgid "Gateway"
-msgstr ""
+msgstr "دروازه"
 
 msgid "Gateway: {gateway}"
-msgstr ""
+msgstr "دروازه: {gateway}"
 
 msgid "Gathering client information..."
-msgstr ""
+msgstr "جمع آوری اطلاعات مشتری..."
 
 msgid "Gathering network details..."
-msgstr ""
+msgstr "در حال جمع آوری جزئیات شبکه..."
 
 msgid "Getting access point information..."
-msgstr ""
+msgstr "دریافت اطلاعات نقطه دسترسی..."
 
 msgid "Getting bitrate information..."
-msgstr ""
+msgstr "دریافت اطلاعات نرخ بیت..."
 
 msgid "Getting channel information..."
-msgstr ""
+msgstr "دریافت اطلاعات کانال..."
 
 msgid "Getting client information..."
-msgstr ""
+msgstr "دریافت اطلاعات مشتری..."
 
 msgid "Getting encryption information..."
-msgstr ""
+msgstr "دریافت اطلاعات رمزگذاری..."
 
 msgid "Getting power management information..."
-msgstr ""
+msgstr "دریافت اطلاعات مدیریت انرژی..."
 
 msgid "Getting retry information..."
-msgstr ""
+msgstr "در حال دریافت اطلاعات تلاش مجدد..."
 
 msgid "Good"
-msgstr ""
+msgstr "خوب"
 
 msgid "Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "سرعت دانلود خوب\\\\\\\\\\\\\\\\n"
 
 msgid "Google"
-msgstr ""
+msgstr "گوگل"
 
 msgid "Google DNS"
 msgstr ""
 
 msgid "Help"
-msgstr ""
+msgstr "کمک کنید"
 
 msgid "Hidden"
-msgstr ""
+msgstr "پنهان شده است"
 
 msgid "Hidden Network"
-msgstr ""
+msgstr "شبکه پنهان"
 
 msgid "Host not found"
-msgstr ""
+msgstr "هاست پیدا نشد"
 
 msgid "Hostname: {hostname}"
-msgstr ""
+msgstr "نام میزبان: {hostname}"
 
 msgid "INACTIVE"
-msgstr ""
+msgstr "غیر فعال"
 
 msgid "IP Address"
-msgstr ""
+msgstr "آدرس IP"
 
 msgid "IP Address: {ip}"
-msgstr ""
+msgstr "آدرس IP: {ip}"
 
 msgid "IP Configuration"
-msgstr ""
+msgstr "پیکربندی IP"
 
 msgid "IP: N/A"
 msgstr ""
@@ -637,70 +637,70 @@ msgid "ISP: {isp}\\\\\\\\n"
 msgstr ""
 
 msgid "Info"
-msgstr ""
+msgstr "اطلاعات"
 
 msgid "Initializing WiFi..."
-msgstr ""
+msgstr "در حال راه اندازی WiFi..."
 
 msgid "Initializing detailed speed test..."
-msgstr ""
+msgstr "شروع تست دقیق سرعت..."
 
 msgid "Interface"
-msgstr ""
+msgstr "رابط"
 
 msgid "Interface found: {}"
-msgstr ""
+msgstr "رابط پیدا شد: {}"
 
 msgid "Interface restarted successfully"
-msgstr ""
+msgstr "رابط با موفقیت دوباره راه اندازی شد"
 
 msgid "Interface restarted."
-msgstr ""
+msgstr "رابط راه اندازی مجدد شد."
 
 msgid "Interface {} not available"
-msgstr ""
+msgstr "رابط {} در دسترس نیست"
 
 msgid "Interface: {}"
-msgstr ""
+msgstr "رابط: {}"
 
 msgid "Invalid misc:%s"
-msgstr ""
+msgstr "متفرقه نامعتبر:%s"
 
 msgid "Kernel Messages (dmesg):\\\\\\\\n"
-msgstr ""
+msgstr "پیام های هسته (dmesg):\\\\\\\\\\\\\\\\n"
 
 msgid "Latency test completed"
-msgstr ""
+msgstr "تست تاخیر تکمیل شد"
 
 msgid "Latency: %s\\\\\\\\n"
-msgstr ""
+msgstr "تأخیر: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Link Quality: {quality}"
-msgstr ""
+msgstr "کیفیت پیوند: {quality}"
 
 msgid "Link Quality:%s/100"
-msgstr ""
+msgstr "کیفیت پیوند: %s/100"
 
 msgid "List of access points and connected peer stations"
-msgstr ""
+msgstr "فهرست نقاط دسترسی و ایستگاه های همتا متصل"
 
 msgid "List of access points/peers"
-msgstr ""
+msgstr "فهرست نقاط دسترسی/همتاها"
 
 msgid "Location: {city}, {country}"
-msgstr ""
+msgstr "مکان: {city}، {country}"
 
 msgid "Location: {city}, {country}\\\\\\\\n"
-msgstr ""
+msgstr "مکان: {city}، {country}\\\\\\\\\\\\\\\\n"
 
 msgid "Logs checked."
-msgstr ""
+msgstr "گزارش ها بررسی شد."
 
 msgid "MAC Address: {mac}"
-msgstr ""
+msgstr "آدرس MAC: {mac}"
 
 msgid "MAC Address: {mac}\\\\\\\\n"
-msgstr ""
+msgstr "آدرس مک: {mac}\\\\\\\\\\\\\\\\n"
 
 msgid "MAC: %s\\\\\\\\n"
 msgstr ""
@@ -712,697 +712,697 @@ msgid "MAC: {}"
 msgstr ""
 
 msgid "Managed (Client)"
-msgstr ""
+msgstr "مدیریت شده (مشتری)"
 
 msgid "Manual (Static IP)"
-msgstr ""
+msgstr "دستی (IP استاتیک)"
 
 msgid "Master (AP)"
-msgstr ""
+msgstr "استاد (AP)"
 
 msgid "Missed beacon:%s"
-msgstr ""
+msgstr "چراغ از دست رفته:%s"
 
 msgid "Mode:"
-msgstr ""
+msgstr "حالت:"
 
 msgid "Mode: {mode}"
-msgstr ""
+msgstr "حالت: {mode}"
 
 msgid "Modules reloaded."
-msgstr ""
+msgstr "ماژول ها دوباره بارگیری شدند."
 
 msgid "Monitor"
-msgstr ""
+msgstr "نظارت کنید"
 
 msgid "Monitoring error: {}"
-msgstr ""
+msgstr "خطای نظارت: {}"
 
 msgid "N/A"
 msgstr ""
 
 msgid "Name: {name}\\\\\\\\n"
-msgstr ""
+msgstr "نام: {name}\\\\\\\\\\\\\\\\n"
 
 msgid "Netmask"
-msgstr ""
+msgstr "ماسک شبکه"
 
 msgid "Network %d:\\\\\\\\n"
-msgstr ""
+msgstr "شبکه %d:\\\\\\\\\\\\\\\\n"
 
 msgid "Network Interface: {interface}"
-msgstr ""
+msgstr "رابط شبکه: {interface}"
 
 msgid "Network Name (SSID)"
-msgstr ""
+msgstr "نام شبکه (SSID)"
 
 msgid "Network forgotten!"
-msgstr ""
+msgstr "شبکه فراموش شد!"
 
 msgid "Network info error: {error}"
-msgstr ""
+msgstr "خطای اطلاعات شبکه: {error}"
 
 msgid "Network information unavailable"
-msgstr ""
+msgstr "اطلاعات شبکه در دسترس نیست"
 
 msgid "Network unreachable"
-msgstr ""
+msgstr "شبکه غیر قابل دسترس"
 
 msgid "Network: %s"
-msgstr ""
+msgstr "شبکه: %s"
 
 msgid "Network: {essid}"
-msgstr ""
+msgstr "شبکه: {essid}"
 
 msgid "No"
-msgstr ""
+msgstr "خیر"
 
 msgid "No IP"
-msgstr ""
+msgstr "بدون IP"
 
 msgid "No WiFi connection data available"
-msgstr ""
+msgstr "هیچ داده اتصال WiFi در دسترس نیست"
 
 msgid "No WiFi interface available"
-msgstr ""
+msgstr "رابط WiFi در دسترس نیست"
 
 msgid "No WiFi interface detected. Please check your hardware."
-msgstr ""
+msgstr "هیچ رابط WiFi شناسایی نشد. لطفا سخت افزار خود را بررسی کنید."
 
 msgid "No WiFi interface found"
-msgstr ""
+msgstr "رابط WiFi پیدا نشد"
 
 msgid "No WiFi interfaces found"
-msgstr ""
+msgstr "هیچ رابط WiFi یافت نشد"
 
 msgid "No WiFi interfaces found\\\\\\\\n"
-msgstr ""
+msgstr "هیچ رابط WiFi پیدا نشد\\\\\\\\\\\\\\\\n"
 
 msgid "No WiFi messages in system logs"
-msgstr ""
+msgstr "هیچ پیام WiFi در گزارش های سیستم وجود ندارد"
 
 msgid "No connection details available"
-msgstr ""
+msgstr "جزئیات اتصال در دسترس نیست"
 
 msgid "No data"
-msgstr ""
+msgstr "داده ای وجود ندارد"
 
 msgid "No help available for this tool."
-msgstr ""
+msgstr "هیچ کمکی برای این ابزار موجود نیست."
 
 msgid "No interface"
-msgstr ""
+msgstr "بدون رابط"
 
 msgid "No internet connection"
-msgstr ""
+msgstr "بدون اتصال به اینترنت"
 
 msgid "No internet connection detected"
-msgstr ""
+msgstr "هیچ اتصال اینترنتی شناسایی نشد"
 
 msgid "No network selected"
-msgstr ""
+msgstr "هیچ شبکه ای انتخاب نشده است"
 
 msgid "No networks found"
-msgstr ""
+msgstr "هیچ شبکه ای پیدا نشد"
 
 msgid "No networks found - Press BLUE to rescan"
-msgstr ""
+msgstr "هیچ شبکه ای یافت نشد - برای اسکن مجدد، آبی را فشار دهید"
 
 msgid "No networks found on {}\\\\\\\\n"
-msgstr ""
+msgstr "هیچ شبکه ای در {}\\\\\\\\\\\\\\\\n یافت نشد"
 
 msgid "No networks found or scan not supported\\\\\\\\n"
-msgstr ""
+msgstr "هیچ شبکه ای یافت نشد یا اسکن پشتیبانی نشد\\\\\\\\\\\\\\\\n"
 
 msgid "No networks found with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "هیچ شبکه ای با iwlist\\\\\\\\\\\\\\\\n پیدا نشد"
 
 msgid "No packets sent"
-msgstr ""
+msgstr "هیچ بسته ای ارسال نشد"
 
 msgid "No ping data"
-msgstr ""
+msgstr "داده پینگ وجود ندارد"
 
 msgid "No results with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "هیچ نتیجه ای با iwlist\\\\\\\\\\\\\\\\n وجود ندارد"
 
 msgid "No station/peer information available\\\\\\\\n"
-msgstr ""
+msgstr "هیچ اطلاعات ایستگاه/همتا موجود نیست\\\\\\\\\\\\\\\\n"
 
 msgid "Noise level:%sdBm"
-msgstr ""
+msgstr "سطح نویز: %sdBm"
 
 msgid "None"
-msgstr ""
+msgstr "هیچ کدام"
 
 msgid "None found"
-msgstr ""
+msgstr "هیچ کدام پیدا نشد"
 
 msgid "Not connected"
-msgstr ""
+msgstr "متصل نیست"
 
 msgid "Not connected to any network"
-msgstr ""
+msgstr "به هیچ شبکه ای متصل نیست"
 
 msgid "Not-Associated"
-msgstr ""
+msgstr "مرتبط نیست"
 
 msgid "Open"
-msgstr ""
+msgstr "باز کنید"
 
 msgid "OpenDNS"
 msgstr ""
 
 msgid "Operation Mode"
-msgstr ""
+msgstr "حالت عملیات"
 
 msgid "Operation completed."
-msgstr ""
+msgstr "عملیات تکمیل شد."
 
 msgid "Output: {output}..."
-msgstr ""
+msgstr "خروجی: {output}..."
 
 msgid "Packet retry limits and frame lifetime settings"
-msgstr ""
+msgstr "محدودیت‌های تلاش مجدد بسته و تنظیمات طول عمر فریم"
 
 msgid "Packets: {sent}, Lost: {lost} ({percentage:.1f}%) - {stability}"
-msgstr ""
+msgstr "بسته ها: {sent}، گم شده: {lost} ({percentage:.1f}%) - {stability}"
 
 msgid "Password"
-msgstr ""
+msgstr "رمز عبور"
 
 msgid "Pause"
-msgstr ""
+msgstr "مکث کنید"
 
 msgid "Performing initial scan..."
-msgstr ""
+msgstr "انجام اسکن اولیه..."
 
 msgid "Ping error for {host}: {error}"
-msgstr ""
+msgstr "خطای پینگ برای {host}: {error}"
 
 msgid "Ping failed"
-msgstr ""
+msgstr "پینگ انجام نشد"
 
 msgid "Ping failed for {host} (returncode: {code})"
-msgstr ""
+msgstr "پینگ برای {host} انجام نشد (کد برگشت: {code})"
 
 msgid "Ping not available"
-msgstr ""
+msgstr "پینگ در دسترس نیست"
 
 msgid "Ping test completed: {avg:.1f} ms average ({success}/{total} successful)"
-msgstr ""
+msgstr "تست پینگ تکمیل شد: میانگین {avg:.1f} ms ({success}/{total} موفقیت آمیز)"
 
 msgid "Ping test error: {error}"
-msgstr ""
+msgstr "خطای تست پینگ: {error}"
 
 msgid "Ping timeout for {host}"
-msgstr ""
+msgstr "درنگ پینگ برای {host}"
 
 msgid "Ping {host} (fallback): {time} ms"
-msgstr ""
+msgstr "پینگ {host} (بازگشت): {time} ms"
 
 msgid "Ping {host}: {time} ms"
-msgstr ""
+msgstr "پینگ {host}: {time} ms"
 
 msgid "Ping/Latency: {ping}\\\\\\\\n"
-msgstr ""
+msgstr "پینگ/تاخیر: {ping}\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: Failed\\\\\\\\n"
-msgstr ""
+msgstr "پینگ: ناموفق\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: {:.1f} ms\\\\\\\\n"
-msgstr ""
+msgstr "پینگ: {:.1f} ms\\\\\\\\\\\\\\\\n"
 
 msgid "Please enter a network name"
-msgstr ""
+msgstr "لطفاً یک نام شبکه وارد کنید"
 
 msgid "Please enter a password"
-msgstr ""
+msgstr "لطفا یک رمز عبور وارد کنید"
 
 msgid "Poor"
-msgstr ""
+msgstr "بیچاره"
 
 msgid "Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "سرعت دانلود ضعیف\\\\\\\\\\\\\\\\n"
 
 msgid "Power Management"
-msgstr ""
+msgstr "مدیریت نیرو"
 
 msgid "Power management info displayed."
-msgstr ""
+msgstr "اطلاعات مدیریت انرژی نمایش داده می شود."
 
 msgid "Power management information not available\\\\\\\\n"
-msgstr ""
+msgstr "اطلاعات مدیریت نیرو در دسترس نیست\\\\\\\\\\\\\\\\n"
 
 msgid "Power management settings"
-msgstr ""
+msgstr "تنظیمات مدیریت انرژی"
 
 msgid "Power management settings and power saving modes"
-msgstr ""
+msgstr "تنظیمات مدیریت انرژی و حالت‌های ذخیره انرژی"
 
 msgid "Primary DNS"
-msgstr ""
+msgstr "DNS اولیه"
 
 msgid "Public IP: Unable to determine"
-msgstr ""
+msgstr "IP عمومی: تعیین نمی شود"
 
 msgid "Public IP: {ip}"
-msgstr ""
+msgstr "IP عمومی: {ip}"
 
 msgid "Quality: %s\\\\\\\\n"
-msgstr ""
+msgstr "کیفیت: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Quality: N/A"
-msgstr ""
+msgstr "کیفیت: N/A"
 
 msgid "Quality: {}%"
-msgstr ""
+msgstr "کیفیت: {}%"
 
 msgid "Quality: {}% ({})"
-msgstr ""
+msgstr "کیفیت: {}% ({})"
 
 msgid "Quick System Check"
-msgstr ""
+msgstr "بررسی سریع سیستم"
 
 msgid "Quick Test"
-msgstr ""
+msgstr "تست سریع"
 
 msgid "Quick test completed"
-msgstr ""
+msgstr "تست سریع تکمیل شد"
 
 msgid "Quick test error: {error}"
-msgstr ""
+msgstr "خطای تست سریع: {error}"
 
 msgid "RTS Threshold"
-msgstr ""
+msgstr "آستانه RTS"
 
 msgid "Real-time signal quality monitor"
-msgstr ""
+msgstr "نظارت بر کیفیت سیگنال در زمان واقعی"
 
 msgid "Refresh"
-msgstr ""
+msgstr "تازه کردن"
 
 msgid "Reload WiFi Modules"
-msgstr ""
+msgstr "ماژول های وای فای را دوباره بارگیری کنید"
 
 msgid "Reload kernel WiFi modules"
-msgstr ""
+msgstr "بارگیری مجدد ماژول های وای فای هسته"
 
 msgid "Reload kernel WiFi modules to fix driver issues"
-msgstr ""
+msgstr "برای رفع مشکلات درایور، ماژول های وای فای هسته را دوباره بارگیری کنید"
 
 msgid "Remember password"
-msgstr ""
+msgstr "رمز عبور را به خاطر بسپار"
 
 msgid "Restart WiFi Interface"
-msgstr ""
+msgstr "رابط وای فای را مجددا راه اندازی کنید"
 
 msgid "Restart WiFi interface %s?"
-msgstr ""
+msgstr "رابط WiFi %s راه اندازی مجدد شود؟"
 
 msgid "Restart wireless interface"
-msgstr ""
+msgstr "رابط بی سیم را مجددا راه اندازی کنید"
 
 msgid "Restart wireless interface to reset connectivity"
-msgstr ""
+msgstr "برای بازنشانی اتصال، رابط بی سیم را راه اندازی مجدد کنید"
 
 msgid "Restarting interface..."
-msgstr ""
+msgstr "راه اندازی مجدد رابط..."
 
 msgid "Retry Limits"
-msgstr ""
+msgstr "محدودیت ها را دوباره امتحان کنید"
 
 msgid "Retry limit information not available\\\\\\\\n"
-msgstr ""
+msgstr "اطلاعات محدود را دوباره امتحان کنید\\\\\\\\\\\\\\\\n موجود نیست"
 
 msgid "Retry limits and lifetime"
-msgstr ""
+msgstr "محدودیت ها و طول عمر را دوباره امتحان کنید"
 
 msgid "Retry limits info displayed."
-msgstr ""
+msgstr "تلاش مجدد اطلاعات محدودیت نمایش داده می شود."
 
 msgid "Running detailed speed test..."
-msgstr ""
+msgstr "اجرای تست دقیق سرعت..."
 
 msgid "Running full speed test..."
-msgstr ""
+msgstr "اجرای تست سرعت کامل..."
 
 msgid "Running quick speed test..."
-msgstr ""
+msgstr "اجرای تست سرعت سریع..."
 
 msgid "Rx invalid crypt:%s"
-msgstr ""
+msgstr "رمز Rx نامعتبر:%s"
 
 msgid "Rx invalid frag:%s"
-msgstr ""
+msgstr "Rx frag نامعتبر:%s"
 
 msgid "Rx invalid nwid:%s"
-msgstr ""
+msgstr "Rx nwid نامعتبر است:%s"
 
 msgid "Save & Connect"
-msgstr ""
+msgstr "ذخیره و اتصال"
 
 msgid "Scan"
-msgstr ""
+msgstr "اسکن کنید"
 
 msgid "Scan completed."
-msgstr ""
+msgstr "اسکن کامل شد."
 
 msgid "Scan error {}"
-msgstr ""
+msgstr "خطای اسکن {}"
 
 msgid "Scan error:"
-msgstr ""
+msgstr "خطای اسکن:"
 
 msgid "Scan error: {}"
-msgstr ""
+msgstr "خطای اسکن: {}"
 
 msgid "Scan error: {}\\\\\\\\n"
-msgstr ""
+msgstr "خطای اسکن: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Scan failed"
-msgstr ""
+msgstr "اسکن انجام نشد"
 
 msgid "Scan for available networks"
-msgstr ""
+msgstr "شبکه های موجود را اسکن کنید"
 
 msgid "Scanner"
-msgstr ""
+msgstr "اسکنر"
 
 msgid "Scanning for WiFi networks..."
-msgstr ""
+msgstr "در حال اسکن برای شبکه های WiFi..."
 
 msgid "Scanning for networks..."
-msgstr ""
+msgstr "در حال اسکن برای شبکه ها..."
 
 msgid "Scanning..."
-msgstr ""
+msgstr "در حال اسکن..."
 
 msgid "Secondary DNS"
-msgstr ""
+msgstr "DNS ثانویه"
 
 msgid "Secured"
-msgstr ""
+msgstr "ایمن شد"
 
 msgid "Select"
-msgstr ""
+msgstr "انتخاب کنید"
 
 msgid "Select a speed test type"
-msgstr ""
+msgstr "نوع تست سرعت را انتخاب کنید"
 
 msgid "Select a tool from the menu to get detailed information about WiFi configuration and status."
-msgstr ""
+msgstr "ابزاری را از منو برای دریافت اطلاعات دقیق درباره پیکربندی و وضعیت WiFi انتخاب کنید."
 
 msgid "Select a tool to see description"
-msgstr ""
+msgstr "ابزاری را برای مشاهده توضیحات انتخاب کنید"
 
 msgid "Select a tool to view detailed information"
-msgstr ""
+msgstr "ابزاری را برای مشاهده اطلاعات دقیق انتخاب کنید"
 
 msgid "Select an option"
-msgstr ""
+msgstr "یک گزینه را انتخاب کنید"
 
 msgid "Server found"
-msgstr ""
+msgstr "سرور پیدا شد"
 
 msgid "Server info error: {error}"
-msgstr ""
+msgstr "خطای اطلاعات سرور: {error}"
 
 msgid "Settings applied successfully"
-msgstr ""
+msgstr "تنظیمات با موفقیت اعمال شد"
 
 msgid "Signal Level: {signal} dBm"
-msgstr ""
+msgstr "سطح سیگنال: {signal} dBm"
 
 msgid "Signal level:%sdBm"
-msgstr ""
+msgstr "سطح سیگنال: %sdBm"
 
 msgid "Signal: %s\\\\\\\\n"
-msgstr ""
+msgstr "سیگنال: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Signal: N/A"
-msgstr ""
+msgstr "سیگنال: N/A"
 
 msgid "Signal: {} dBm"
-msgstr ""
+msgstr "سیگنال: {} dBm"
 
 msgid "Speedtest"
-msgstr ""
+msgstr "سرعت تست"
 
 msgid "Speedtest failed - No internet connection or all tests failed"
-msgstr ""
+msgstr "Speedtest ناموفق - اتصال به اینترنت وجود ندارد یا همه آزمایش ها ناموفق هستند"
 
 msgid "Speedtest failed: {}"
-msgstr ""
+msgstr "تست سرعت ناموفق بود: {}"
 
 msgid "SpeedtestSimple not available"
-msgstr ""
+msgstr "SpeedtestSimple در دسترس نیست"
 
 msgid "Sponsor: {sponsor}\\\\\\\\n"
-msgstr ""
+msgstr "حامی: {sponsor}\\\\\\\\\\\\\\\\n"
 
 msgid "Stability test error: {error}"
-msgstr ""
+msgstr "خطای تست پایداری: {error}"
 
 msgid "Stable"
-msgstr ""
+msgstr "پایدار"
 
 msgid "Start"
-msgstr ""
+msgstr "شروع کنید"
 
 msgid "Static"
-msgstr ""
+msgstr "استاتیک"
 
 msgid "Statistics error: {}"
-msgstr ""
+msgstr "خطای آماری: {}"
 
 msgid "Status check failed: {}"
-msgstr ""
+msgstr "بررسی وضعیت ناموفق بود: {}"
 
 msgid "Stop"
-msgstr ""
+msgstr "توقف کنید"
 
 msgid "Supported bit rates"
-msgstr ""
+msgstr "نرخ بیت پشتیبانی شده"
 
 msgid "Supported bitrates and current transmission rates"
-msgstr ""
+msgstr "نرخ بیت پشتیبانی شده و نرخ انتقال فعلی"
 
 msgid "System Logs"
-msgstr ""
+msgstr "گزارش های سیستم"
 
 msgid "System Logs:\\\\\\\\n"
-msgstr ""
+msgstr "گزارش های سیستم:\\\\\\\\\\\\\\\\n"
 
 msgid "TX Power"
 msgstr ""
 
 msgid "Tertiary DNS"
-msgstr ""
+msgstr "DNS سوم"
 
 msgid "Test cancelled"
-msgstr ""
+msgstr "تست لغو شد"
 
 msgid "Test completed - See results below"
-msgstr ""
+msgstr "تست تکمیل شد - نتایج را در زیر مشاهده کنید"
 
 msgid "Test completed!"
-msgstr ""
+msgstr "تست تکمیل شد!"
 
 msgid "Test failed"
-msgstr ""
+msgstr "تست ناموفق بود"
 
 msgid "Testing connection stability..."
-msgstr ""
+msgstr "تست پایداری اتصال..."
 
 msgid "Testing connectivity..."
-msgstr ""
+msgstr "تست اتصال..."
 
 msgid "Testing download speed (multiple servers)..."
-msgstr ""
+msgstr "تست سرعت دانلود (چند سرور)..."
 
 msgid "Testing download speed..."
-msgstr ""
+msgstr "تست سرعت دانلود..."
 
 msgid "Testing latency to multiple hosts..."
-msgstr ""
+msgstr "آزمایش تأخیر برای چندین میزبان..."
 
 msgid "Testing latency..."
-msgstr ""
+msgstr "تست تاخیر..."
 
 msgid "Testing upload speed..."
-msgstr ""
+msgstr "تست سرعت آپلود..."
 
 msgid "These forums are great places to get help,\\\\\\\\n"
-msgstr ""
+msgstr "این انجمن ها مکان های خوبی برای کمک گرفتن هستند،\\\\\\\\\\\\\\\\n"
 
 msgid "Timeout"
-msgstr ""
+msgstr "تایم اوت"
 
 msgid "Tool not available"
-msgstr ""
+msgstr "ابزار در دسترس نیست"
 
 msgid "Tool not implemented: {}"
-msgstr ""
+msgstr "ابزار اجرا نشد: {}"
 
 msgid "Tools"
-msgstr ""
+msgstr "ابزار"
 
 msgid "Tx excessive retries:%s"
-msgstr ""
+msgstr "Tx تکرار بیش از حد:%s"
 
 msgid "UP and active"
-msgstr ""
+msgstr "بالا و فعال"
 
 msgid "Unable to assess download quality\\\\\\\\n"
-msgstr ""
+msgstr "ارزیابی کیفیت دانلود ممکن نیست\\\\\\\\\\\\\\\\n"
 
 msgid "Unknown"
-msgstr ""
+msgstr "ناشناس"
 
 msgid "Unstable"
-msgstr ""
+msgstr "ناپایدار"
 
 msgid "Upload Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "سرعت آپلود: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Upload Speed: {upload}\\\\\\\\n"
-msgstr ""
+msgstr "سرعت آپلود: {upload}\\\\\\\\\\\\\\\\n"
 
 msgid "Upload estimation completed"
-msgstr ""
+msgstr "تخمین بارگذاری تکمیل شد"
 
 msgid "Upload test failed: {error}"
-msgstr ""
+msgstr "آزمایش آپلود انجام نشد: {error}"
 
 msgid "Upload test not available"
-msgstr ""
+msgstr "تست آپلود در دسترس نیست"
 
 msgid "Upload test: {result}"
-msgstr ""
+msgstr "تست آپلود: {result}"
 
 msgid "Upload: Not available\\\\\\\\n"
-msgstr ""
+msgstr "آپلود: در دسترس نیست\\\\\\\\\\\\\\\\n"
 
 msgid "Upload: {:.2f} Mbps (estimated)\\\\\\\\n"
-msgstr ""
+msgstr "آپلود: {:.2f} مگابیت در ثانیه (تخمین زده شده)\\\\\\\\\\\\\\\\n"
 
 msgid "Very Poor"
-msgstr ""
+msgstr "خیلی ضعیف"
 
 msgid "WEP Key Type"
-msgstr ""
+msgstr "نوع کلید WEP"
 
 msgid "WiFi Advanced Tools"
-msgstr ""
+msgstr "ابزارهای پیشرفته وای فای"
 
 msgid "WiFi Connection Manager"
-msgstr ""
+msgstr "مدیر اتصال وای فای"
 
 msgid "WiFi Diagnostics"
-msgstr ""
+msgstr "تشخیص وای فای"
 
 msgid "WiFi Manager"
-msgstr ""
+msgstr "مدیر وای فای"
 
 msgid "WiFi Manager iwconfig version {}"
-msgstr ""
+msgstr "وای فای منیجر نسخه iwconfig {}"
 
 msgid "WiFi Manager v."
 msgstr ""
 
 msgid "WiFi Password"
-msgstr ""
+msgstr "رمز وای فای"
 
 msgid "WiFi Scanner"
-msgstr ""
+msgstr "اسکنر وای فای"
 
 msgid "WiFi Signal Monitor"
-msgstr ""
+msgstr "مانیتور سیگنال وای فای"
 
 msgid "WiFi Speed Test Manager"
-msgstr ""
+msgstr "مدیر تست سرعت WiFi"
 
 msgid "WiFi diagnostics and tests"
-msgstr ""
+msgstr "تشخیص و تست وای فای"
 
 msgid "Wired"
-msgstr ""
+msgstr "سیمی"
 
 msgid "Wireless"
-msgstr ""
+msgstr "بی سیم"
 
 msgid "Wireless info error: {}"
-msgstr ""
+msgstr "خطای اطلاعات بی سیم: {}"
 
 msgid "Yes"
-msgstr ""
+msgstr "بله"
 
 msgid "[LOCK]"
-msgstr ""
+msgstr "[قفل]"
 
 msgid "[OPEN]"
-msgstr ""
+msgstr "[باز]"
 
 msgid "[SAVED]"
-msgstr ""
+msgstr "[ذخیره شده]"
 
 msgid "bits"
-msgstr ""
+msgstr "بیت ها"
 
 msgid "ethtool not found"
-msgstr ""
+msgstr "ethtool پیدا نشد"
 
 msgid "iwlist error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "خطای iwlist در {interface}: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist error: {}\\\\\\\\n"
-msgstr ""
+msgstr "خطای iwlist: {}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist exception on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "استثنای iwlist در {interface}: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist timeout on {}\\\\\\\\n"
-msgstr ""
+msgstr "زمان پایان iwlist در {}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist: No networks found or interface busy\\\\\\\\n"
-msgstr ""
+msgstr "iwlist: هیچ شبکه ای پیدا نشد یا رابطی مشغول است\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "iwlist: هیچ شبکه ای پیدا نشد\\\\\\\\\\\\\\\\n"
 
 msgid "lifetime"
-msgstr ""
+msgstr "طول عمر"
 
 msgid "limit"
-msgstr ""
+msgstr "محدود کردن"
 
 msgid "long {type}:{value}"
-msgstr ""
+msgstr "طولانی {type}:{value}"
 
 msgid "max {type}:{value}"
-msgstr ""
+msgstr "حداکثر {type}:{value}"
 
 msgid "min {type}:{value}"
-msgstr ""
+msgstr "دقیقه {type}:{value}"
 
 msgid "off"
-msgstr ""
+msgstr "خاموش"
 
 msgid "on"
-msgstr ""
+msgstr "در"
 
 msgid "pythonwifi: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "pythonwifi: هیچ شبکه ای پیدا نشد\\\\\\\\\\\\\\\\n"
 
 msgid "share experiences,and connect with other users."
-msgstr ""
+msgstr "تجربیات خود را به اشتراک بگذارید و با سایر کاربران ارتباط برقرار کنید."
 
 msgid "short {type}:{value}"
-msgstr ""
+msgstr "کوتاه {type}:{value}"
 
 msgid "wait..."
-msgstr ""
+msgstr "صبر کن..."
 
 msgid "{:.1f} ms"
 msgstr ""
@@ -1411,91 +1411,91 @@ msgid "{:.1f}%"
 msgstr ""
 
 msgid "{:2d}. {} {:20} | Signal: {:4} dBm ({}) | Channel: {}\\\\\\\\n"
-msgstr ""
+msgstr "{:2d}. {} {:20} | سیگنال: {:4} dBm ({}) | کانال: {}\\\\\\\\\\\\\\\\n"
 
 msgid "{connection}{saved}{icon} {essid} | {security} | {signal} dBm"
 msgstr ""
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}...\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} | کیفیت: {quality:3}% | سیگنال: {signal:4} dBm | {bssid}...\\\\\\\\\\\\\\\\n"
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} | کیفیت: {quality:3}% | سیگنال: {signal:4} dBm | {bssid}\\\\\\\\\\\\\\\\n"
 
 msgid "{icon} {interface}: {status}\\\\\\\\n"
 msgstr ""
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel:2} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | کیفیت: {quality:3}% ({signal_quality}) | سیگنال: {signal:4} dBm | کانال: {channel:2} | رمزگذاری شده: {encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | کیفیت: {quality:3}% ({signal_quality}) | سیگنال: {signal:4} dBm | کانال: {channel:2} | رمزگذاری شده: {encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | کیفیت: {quality:3}% | سیگنال: {signal:4} dBm\\\\\\\\\\\\\\\\n"
 
 msgid "{index}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | کیفیت: {quality:3}% | سیگنال: {signal:4} dBm\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Connected to {essid} ({quality})\\\\\\\\n"
-msgstr ""
+msgstr "{interface}: متصل به {essid} ({quality})\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Not connected\\\\\\\\n"
-msgstr ""
+msgstr "{interface}: متصل نیست\\\\\\\\\\\\\\\\n"
 
 msgid "{name} ({host}): {ping}"
 msgstr ""
 
 msgid "{name} ({sponsor}): {ping}"
-msgstr ""
+msgstr "{name} ({host}): {ping}"
 
 msgid "{name}: Error {error}"
-msgstr ""
+msgstr "{name}: خطای {error}"
 
 msgid "{name}: Failed"
-msgstr ""
+msgstr "{name}: ناموفق"
 
 msgid "{name}: Timeout"
-msgstr ""
+msgstr "{name}: تایم اوت"
 
 msgid "{name}: {speed:.2f} Mbps"
-msgstr ""
+msgstr "{name}: {speed:.2f} مگابیت بر ثانیه"
 
 msgid "{server}: {speed:.2f} Mbps ({data:.1f} MB in {time:.1f}s)\\\\\\\\n"
-msgstr ""
+msgstr "{server}: {speed:.2f} مگابیت در ثانیه ({data:.1f} مگابایت در {time:.1f}s)\\\\\\\\\\\\\\\\n"
 
 msgid "{speed:.2f} Mbps"
-msgstr ""
+msgstr "{speed:.2f} مگابیت در ثانیه"
 
 msgid "{} ({:.0f}%)"
 msgstr ""
 
 msgid "{} - Open network - Press OK for options"
-msgstr ""
+msgstr "{} - شبکه را باز کنید - برای گزینه‌ها تأیید را فشار دهید"
 
 msgid "{} - Password required - Press OK for options"
-msgstr ""
+msgstr "{} - رمز عبور لازم است - برای گزینه‌ها، تأیید را فشار دهید"
 
 msgid "{} - Password saved - Press OK for options"
-msgstr ""
+msgstr "{} - رمز عبور ذخیره شد - برای گزینه‌ها تأیید را فشار دهید"
 
 msgid "{} GHz"
-msgstr ""
+msgstr "{} گیگاهرتز"
 
 msgid "{} Mb/s"
-msgstr ""
+msgstr "{} مگابیت بر ثانیه"
 
 msgid "{} Status: {}\\\\\\\\n"
-msgstr ""
+msgstr "{} وضعیت: {}\\\\\\\\\\\\\\\\n"
 
 msgid "{} Type: {} interface\\\\\\\\n"
-msgstr ""
+msgstr "{} نوع: {} رابط\\\\\\\\\\\\\\\\n"
 
 msgid "{} dBm"
 msgstr ""
 
 msgid "{}: Failed"
-msgstr ""
+msgstr "{}: ناموفق"
 
 msgid "{}: {:.1f} ms"
 msgstr ""
@@ -1504,94 +1504,94 @@ msgid "{}\\\\\\\\n"
 msgstr ""
 
 msgid " Keep drivers updated\\\\\\\\n"
-msgstr ""
+msgstr "درایورها را به روز نگه دارید\\\\\\\\\\\\\\\\n"
 
 msgid " Monitor signal strength for best performance\\\\\\\\n"
-msgstr ""
+msgstr "قدرت سیگنال را برای بهترین عملکرد کنترل کنید\\\\\\\\\\\\\\\\n"
 
 msgid " Use 5GHz band for less interference\\\\\\\\n"
-msgstr ""
+msgstr "برای تداخل کمتر از باند 5 گیگاهرتز استفاده کنید\\\\\\\\\\\\\\\\n"
 
 msgid "  No USB WiFi adapters found\\\\\\\\n"
-msgstr ""
+msgstr "هیچ آداپتور وای فای USB پیدا نشد\\\\\\\\\\\\\\\\n"
 
 msgid "  Interface {interface}: DOWN (needs activation)\\\\\\\\n"
-msgstr ""
+msgstr "رابط {interface}: DOWN (نیاز به فعال سازی)\\\\\\\\\\\\\\\\n"
 
 msgid "  Missing commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "دستورات از دست رفته: {commands}\\\\\\\\\\\\\\\\n"
 
 msgid "  No WiFi kernel modules detected\\\\\\\\n"
-msgstr ""
+msgstr "هیچ ماژول هسته WiFi شناسایی نشد\\\\\\\\\\\\\\\\n"
 
 msgid "  Scan: Interface busy (connected to network)\\\\\\\\n"
-msgstr ""
+msgstr "اسکن: واسط اشغال (متصل به شبکه)\\\\\\\\\\\\\\\\n"
 
 msgid "  {test}: No data\\\\\\\\n"
-msgstr ""
+msgstr "{test}: داده ای وجود ندارد\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed\\\\\\\\n"
-msgstr ""
+msgstr "میانگین سرعت دانلود\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "متوسط ​​تأخیر ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency\\\\\\\\n"
-msgstr ""
+msgstr "تأخیر متوسط ​​\\\\\\\\\\\\\\\\n"
 
 msgid " Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "سرعت دانلود خوب\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency\\\\\\\\n"
-msgstr ""
+msgstr "تاخیر خوب\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "تأخیر عالی ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " TX Power: {}\\\\\\\\n"
-msgstr ""
+msgstr "TX Power: {}\\\\\\\\\\\\\\\\n"
 
 msgid " All systems operational\\\\\\\\n"
-msgstr ""
+msgstr "همه سیستم ها عملیاتی \\\\\\\\\\\\\\\\n"
 
 msgid " Available commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "دستورات موجود: {commands}\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "سرعت دانلود عالی\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency\\\\\\\\n"
-msgstr ""
+msgstr "تأخیر عالی\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "تأخیر خوب ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: UP and active\\\\\\\\n"
-msgstr ""
+msgstr "رابط {interface}: بالا و فعال\\\\\\\\\\\\\\\\n"
 
 msgid " Loaded WiFi modules: {modules}\\\\\\\\n"
-msgstr ""
+msgstr "ماژول های WiFi بارگذاری شده: {modules}\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: WiFi hardware detected and functional\\\\\\\\n"
-msgstr ""
+msgstr "وضعیت سیستم: سخت افزار WiFi شناسایی شده و کار می کند\\\\\\\\\\\\\\\\n"
 
 msgid " USB WiFi adapters detected:\\\\\\\\n"
-msgstr ""
+msgstr "آداپتورهای وای فای USB شناسایی شدند:\\\\\\\\\\\\\\\\n"
 
 msgid " {test}: {output}\\\\\\\\n"
-msgstr ""
+msgstr "{test}: {output}\\\\\\\\\\\\\\\\n"
 
 msgid " CRITICAL: No WiFi interfaces detected!\\\\\\\\n"
-msgstr ""
+msgstr "مهم: هیچ رابط WiFi شناسایی نشد!\\\\\\\\\\\\\\\\n"
 
 msgid " Download test failed\\\\\\\\n"
-msgstr ""
+msgstr "آزمایش دانلود انجام نشد\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID check: {error}\\\\\\\\n"
 msgstr ""
 
 msgid " Error: {}\\\\\\\\n"
-msgstr ""
+msgstr "خطا: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface check failed: {error}\\\\\\\\n"
 msgstr ""
@@ -1603,211 +1603,211 @@ msgid " Interface {interface}: UNKNOWN STATE\\\\\\\\n"
 msgstr ""
 
 msgid " Interface {} not found or not a WiFi interface\\\\\\\\n"
-msgstr ""
+msgstr "رابط {} یافت نشد یا رابط WiFi نیست\\\\\\\\\\\\\\\\n"
 
 msgid " Kernel module check failed: {error}\\\\\\\\n"
 msgstr ""
 
 msgid " Latency test failed\\\\\\\\n"
-msgstr ""
+msgstr "آزمایش تأخیر انجام نشد\\\\\\\\\\\\\\\\n"
 
 msgid " Mode check: {error}\\\\\\\\n"
 msgstr ""
 
 msgid " Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "سرعت دانلود ضعیف\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency\\\\\\\\n"
-msgstr ""
+msgstr "تأخیر ضعیف\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: No WiFi interfaces detected\\\\\\\\n"
-msgstr ""
+msgstr "وضعیت سیستم: هیچ رابط WiFi شناسایی نشد\\\\\\\\\\\\\\\\n"
 
 msgid " Scan test: {error}\\\\\\\\n"
-msgstr ""
+msgstr "تست اسکن: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Signal check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "بررسی سیگنال: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " USB device check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "بررسی دستگاه USB انجام نشد: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Very poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "تأخیر بسیار ضعیف ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " {}\\\\\\\\n"
-msgstr ""
+msgstr "{}\\\\\\\\\\\\\\\\n"
 
 msgid " Cannot assess connection quality\\\\\\\\n"
-msgstr ""
+msgstr "نمی توان کیفیت اتصال را ارزیابی کرد\\\\\\\\\\\\\\\\n"
 
 msgid " Download speed unavailable\\\\\\\\n"
-msgstr ""
+msgstr "سرعت دانلود در دسترس نیست\\\\\\\\\\\\\\\\n"
 
 msgid " Latency unavailable\\\\\\\\n"
-msgstr ""
+msgstr "تأخیر در دسترس نیست\\\\\\\\\\\\\\\\n"
 
 msgid " Quality assessment unavailable\\\\\\\\n"
-msgstr ""
+msgstr "ارزیابی کیفیت در دسترس نیست\\\\\\\\\\\\\\\\n"
 
 msgid "  Transmitted: {}\\\\\\\\n"
-msgstr ""
+msgstr "ارسال شده: {}\\\\\\\\\\\\\\\\n"
 
 msgid "  Received: {}\\\\\\\\n"
-msgstr ""
+msgstr "دریافت شده: {}\\\\\\\\\\\\\\\\n"
 
 msgid " AVAILABLE NETWORKS\\\\\\\\n"
-msgstr ""
+msgstr "شبکه های موجود\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: IP {ip} - ONLINE\\\\\\\\n"
-msgstr ""
+msgstr "اتصال: IP {ip} - ONLINE\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: No IP address - OFFLINE\\\\\\\\n"
-msgstr ""
+msgstr "اتصال: بدون آدرس IP - آفلاین\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: Unknown status\\\\\\\\n"
-msgstr ""
+msgstr "اتصال: وضعیت نامشخص\\\\\\\\\\\\\\\\n"
 
 msgid " EXCELLENT connection\\\\\\\\n"
-msgstr ""
+msgstr "اتصال عالی\\\\\\\\\\\\\\\\n"
 
 msgid " SERVER INFORMATION:\\\\\\\\n"
-msgstr ""
+msgstr "اطلاعات سرور:\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "تأخیر ضعیف ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " FAIR connection\\\\\\\\n"
-msgstr ""
+msgstr "اتصال عادلانه\\\\\\\\\\\\\\\\n"
 
 msgid " GOOD connection\\\\\\\\n"
-msgstr ""
+msgstr "اتصال خوب\\\\\\\\\\\\\\\\n"
 
 msgid " POOR connection\\\\\\\\n"
-msgstr ""
+msgstr "اتصال ضعیف\\\\\\\\\\\\\\\\n"
 
 msgid " CLIENT INFORMATION:\\\\\\\\n"
-msgstr ""
+msgstr "اطلاعات مشتری:\\\\\\\\\\\\\\\\n"
 
 msgid " All basic diagnostics available\\\\\\\\n"
-msgstr ""
+msgstr "همه تشخیص‌های اولیه موجود است\\\\\\\\\\\\\\\\n"
 
 msgid " Tips:\\\\\\\\n"
-msgstr ""
+msgstr "نکات:\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "راننده: نامشخص\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: {}\\\\\\\\n"
-msgstr ""
+msgstr "راننده: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Protocol: {}\\\\\\\\n"
-msgstr ""
+msgstr "پروتکل: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "سرعت دانلود عالی ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " TEST RESULTS:\\\\\\\\n"
-msgstr ""
+msgstr "نتایج آزمون:\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "میانگین سرعت دانلود ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " Poor download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "سرعت دانلود ضعیف ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " Good download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "سرعت دانلود خوب ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " NETWORK STATISTICS\\\\\\\\n"
-msgstr ""
+msgstr "آمار شبکه\\\\\\\\\\\\\\\\n"
 
 msgid " Quality: {}\\\\\\\\n"
-msgstr ""
+msgstr "کیفیت: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Signal: No quality data available\\\\\\\\n"
-msgstr ""
+msgstr "سیگنال: داده‌ای با کیفیت موجود نیست\\\\\\\\\\\\\\\\n"
 
 msgid " Signal: {quality}% quality, {signal} dBm\\\\\\\\n"
-msgstr ""
+msgstr "سیگنال: کیفیت {quality}%، {signal} dBm\\\\\\\\\\\\\\\\n"
 
 msgid " MAC: {}\\\\\\\\n"
-msgstr ""
+msgstr "MAC: {}\\\\\\\\\\\\\\\\n"
 
 msgid " DETAILED WIFI INFORMATION - {}\\\\\\\\n"
-msgstr ""
+msgstr "اطلاعات WIFI دقیق - {}\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: {}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface Type: WIRELESS\\\\\\\\n"
-msgstr ""
+msgstr "نوع رابط: WIRELESS\\\\\\\\\\\\\\\\n"
 
 msgid " Scan: Found {count} networks\\\\\\\\n"
-msgstr ""
+msgstr "اسکن: شبکه های {count} پیدا شد\\\\\\\\\\\\\\\\n"
 
 msgid " Type: Wireless interface\\\\\\\\n"
-msgstr ""
+msgstr "نوع: رابط بی سیم\\\\\\\\\\\\\\\\n"
 
 msgid " Connection appears good (based on download)\\\\\\\\n"
-msgstr ""
+msgstr "اتصال خوب به نظر می رسد (بر اساس دانلود)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection appears responsive (based on ping)\\\\\\\\n"
-msgstr ""
+msgstr "اتصال پاسخگو به نظر می رسد (بر اساس پینگ)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection may be limited (based on download)\\\\\\\\n"
-msgstr ""
+msgstr "اتصال ممکن است محدود باشد (بر اساس دانلود)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection may be slow (based on ping)\\\\\\\\n"
-msgstr ""
+msgstr "اتصال ممکن است کند باشد (بر اساس پینگ)\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: Not connected\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: متصل نیست\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: {essid}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: {essid}\\\\\\\\\\\\\\\\n"
 
 msgid " Frequency: {}\\\\\\\\n"
-msgstr ""
+msgstr "فرکانس: {}\\\\\\\\\\\\\\\\n"
 
 msgid " WIRELESS INFORMATION\\\\\\\\n"
-msgstr ""
+msgstr "اطلاعات بی سیم\\\\\\\\\\\\\\\\n"
 
 msgid " DRIVER & HARDWARE\\\\\\\\n"
-msgstr ""
+msgstr "درایور و سخت افزار\\\\\\\\\\\\\\\\n"
 
 msgid " Type: Wired interface\\\\\\\\n"
-msgstr ""
+msgstr "نوع: رابط سیمی\\\\\\\\\\\\\\\\n"
 
 msgid " BASIC INTERFACE INFO\\\\\\\\n"
-msgstr ""
+msgstr "اطلاعات رابط اصلی\\\\\\\\\\\\\\\\n"
 
 msgid " Interface: {}\\\\\\\\n"
-msgstr ""
+msgstr "رابط: {}\\\\\\\\\\\\\\\\n"
 
 msgid " METHOD: Using system commands (no root required)\\\\\\\\n"
-msgstr ""
+msgstr "روش: استفاده از دستورات سیستم (بدون نیاز به روت)\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "حالت: ناشناخته\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: {mode}\\\\\\\\n"
-msgstr ""
+msgstr "حالت: {mode}\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: {}\\\\\\\\n"
-msgstr ""
+msgstr "حالت: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Module: {}\\\\\\\\n"
-msgstr ""
+msgstr "ماژول: {}\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM LEVEL DIAGNOSTICS\\\\\\\\n"
-msgstr ""
+msgstr "تشخیص سطح سیستم\\\\\\\\\\\\\\\\n"
 
 msgid " Bit Rate: {}\\\\\\\\n"
-msgstr ""
+msgstr "نرخ بیت: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Check hardware connection and drivers\\\\\\\\n"
-msgstr ""
+msgstr "اتصال سخت افزار و درایورها را بررسی کنید\\\\\\\\\\\\\\\\n"
 
 msgid " VERY POOR connection\\\\\\\\n"
-msgstr ""
+msgstr "اتصال بسیار ضعیف\\\\\\\\\\\\\\\\n"

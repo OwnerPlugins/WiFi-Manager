@@ -14,364 +14,364 @@ msgid "- {adapter}\\\\\\\\n"
 msgstr ""
 
 msgid "... and {} more networks\\\\\\\\n"
-msgstr ""
+msgstr "...さらに {} 個のネットワーク\\\\\\\\\\\\\\\\n"
 
 msgid "1 dBm (Min)"
-msgstr ""
+msgstr "1dBm (最小)"
 
 msgid "1. Check if WiFi adapter is properly connected\\\\\\\\n"
-msgstr ""
+msgstr "1. WiFi アダプターが正しく接続されているかどうかを確認します\\\\\\\\\\\\\\\\n"
 
 msgid "1. Disconnect from current WiFi network\\\\\\\\n"
-msgstr ""
+msgstr "1. 現在の WiFi ネットワークから切断します\\\\\\\\\\\\\\\\n"
 
 msgid "10 dBm"
-msgstr ""
+msgstr "10dBm"
 
 msgid "15 dBm"
-msgstr ""
+msgstr "15dBm"
 
 msgid "2. Restart WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "2. WiFi アダプターを再起動します\\\\\\\\\\\\\\\\n"
 
 msgid "2. Verify WiFi adapter is supported by your receiver\\\\\\\\n"
-msgstr ""
+msgstr "2. WiFi アダプターが受信機でサポートされていることを確認します\\\\\\\\\\\\\\\\n"
 
 msgid "20 dBm (Max)"
-msgstr ""
+msgstr "20dBm (最大)"
 
 msgid "3. Check if WiFi driver is installed\\\\\\\\n"
-msgstr ""
+msgstr "3. WiFi ドライバーがインストールされているかどうかを確認します\\\\\\\\\\\\\\\\n"
 
 msgid "3. Try different USB port for USB WiFi adapters\\\\\\\\n"
-msgstr ""
+msgstr "3. USB WiFi アダプター用に別の USB ポートを試します\\\\\\\\\\\\\\\\n"
 
 msgid "4. Check if WiFi drivers are installed\\\\\\\\n"
-msgstr ""
+msgstr "4. WiFi ドライバーがインストールされているかどうかを確認します\\\\\\\\\\\\\\\\n"
 
 msgid "4. Try with different USB WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "4. 別の USB WiFi アダプタで試してください\\\\\\\\\\\\\\\\n"
 
 msgid "5 dBm"
-msgstr ""
+msgstr "5dBm"
 
 msgid "5. Check root permissions\\\\\\\\n"
-msgstr ""
+msgstr "5. root 権限を確認します\\\\\\\\\\\\\\\\n"
 
 msgid "5. Restart the receiver and try again\\\\\\\\n"
-msgstr ""
+msgstr "5. 受信機を再起動して、もう一度試してください\\\\\\\\\\\\\\\\n"
 
 msgid "=== WiFi Diagnostics (System Commands Only) ===\\\\\\\\n"
-msgstr ""
+msgstr "=== WiFi 診断 (システム コマンドのみ) ===\\\\\\\\\\\\\\\\n"
 
 msgid "ACTIVE"
-msgstr ""
+msgstr "アクティブ"
 
 msgid "About"
-msgstr ""
+msgstr "について"
 
 msgid "Access Point"
-msgstr ""
+msgstr "アクセスポイント"
 
 msgid "Access Point: {ap}"
-msgstr ""
+msgstr "アクセスポイント: {ap}"
 
 msgid "Access Points"
-msgstr ""
+msgstr "アクセスポイント"
 
 msgid "Access points info displayed."
-msgstr ""
+msgstr "アクセスポイント情報が表示されます。"
 
 msgid "Ad-Hoc"
-msgstr ""
+msgstr "このために"
 
 msgid "Advanced"
-msgstr ""
+msgstr "高度な"
 
 msgid "Advanced Config"
-msgstr ""
+msgstr "詳細設定"
 
 msgid "Advanced Config - {}"
-msgstr ""
+msgstr "高度な構成 - {}"
 
 msgid "Advanced Scan"
-msgstr ""
+msgstr "アドバンストスキャン"
 
 msgid "Advanced Scan Results"
-msgstr ""
+msgstr "高度なスキャン結果"
 
 msgid "Advanced Tools"
-msgstr ""
+msgstr "高度なツール"
 
 msgid "Advanced WiFi Configuration"
-msgstr ""
+msgstr "高度な WiFi 構成"
 
 msgid "Advanced WiFi Tools"
-msgstr ""
+msgstr "高度な WiFi ツール"
 
 msgid "Advanced WiFi configuration"
-msgstr ""
+msgstr "高度な WiFi 構成"
 
 msgid "Advanced WiFi configuration settings"
-msgstr ""
+msgstr "高度な WiFi 構成設定"
 
 msgid "Advanced WiFi interface configuration"
-msgstr ""
+msgstr "高度な WiFi インターフェイス構成"
 
 msgid "Advanced configuration completed."
-msgstr ""
+msgstr "詳細設定が完了しました。"
 
 msgid "All Network Interfaces: {interfaces}\\\\\\\\n"
-msgstr ""
+msgstr "すべてのネットワーク インターフェイス: {interfaces}\\\\\\\\\\\\\\\\n"
 
 msgid "All ping tests failed"
-msgstr ""
+msgstr "すべての ping テストが失敗しました"
 
 msgid "All settings reset to defaults"
-msgstr ""
+msgstr "すべての設定がデフォルトにリセットされる"
 
 msgid "Applied: {} commands\\\\\\\\n"
-msgstr ""
+msgstr "適用: {} コマンド\\\\\\\\\\\\\\\\n"
 
 msgid "Apply"
-msgstr ""
+msgstr "適用する"
 
 msgid "Auto"
-msgstr ""
+msgstr "自動"
 
 msgid "Auto  limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "自動制限; 最小制限:{limit}"
 
 msgid "Automatic (DHCP)"
-msgstr ""
+msgstr "自動 (DHCP)"
 
 msgid "Available frequencies and channels for your region"
-msgstr ""
+msgstr "お住まいの地域で利用可能な周波数とチャンネル"
 
 msgid "Available frequencies/channels"
-msgstr ""
+msgstr "利用可能な周波数/チャンネル"
 
 msgid "Available interfaces: {}"
-msgstr ""
+msgstr "利用可能なインターフェース: {}"
 
 msgid "Back"
-msgstr ""
+msgstr "戻る"
 
 msgid "Basic"
-msgstr ""
+msgstr "基本"
 
 msgid "Basic info error: {}"
-msgstr ""
+msgstr "基本情報エラー: {}"
 
 msgid "Basic view enabled - rescan to see basic info"
-msgstr ""
+msgstr "基本ビューが有効 - 再スキャンして基本情報を表示します"
 
 msgid "Bit Rate: {rate}"
-msgstr ""
+msgstr "ビットレート: {rate}"
 
 msgid "Bit Rates:"
-msgstr ""
+msgstr "ビットレート:"
 
 msgid "Bitrate"
-msgstr ""
+msgstr "ビットレート"
 
 msgid "Bitrate Info"
-msgstr ""
+msgstr "ビットレート情報"
 
 msgid "Bitrate info displayed."
-msgstr ""
+msgstr "ビットレート情報が表示されます。"
 
 msgid "Bitrate information not available\\\\\\\\n"
-msgstr ""
+msgstr "ビットレート情報が利用できません\\\\\\\\\\\\\\\\n"
 
 msgid "CONNECTED to: {} - Press OK for options"
-msgstr ""
+msgstr "接続先: {} - オプションについては [OK] を押してください"
 
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"
 
 msgid "Cancelling test..."
-msgstr ""
+msgstr "テストをキャンセルしています..."
 
 msgid "Cell"
-msgstr ""
+msgstr "細胞"
 
 msgid "Channel"
-msgstr ""
+msgstr "チャネル"
 
 msgid "Channel Info"
-msgstr ""
+msgstr "チャンネル情報"
 
 msgid "Channel info displayed."
-msgstr ""
+msgstr "チャンネル情報が表示されます。"
 
 msgid "Channel {}"
-msgstr ""
+msgstr "チャンネル {}"
 
 msgid "Channel: %s\\\\\\\\n"
-msgstr ""
+msgstr "チャネル: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Check System Logs"
-msgstr ""
+msgstr "システムログを確認する"
 
 msgid "Check system logs for WiFi errors"
-msgstr ""
+msgstr "WiFi エラーのシステム ログを確認する"
 
 msgid "Check system logs for WiFi errors and connection issues"
-msgstr ""
+msgstr "WiFi エラーや接続の問題についてシステム ログを確認します。"
 
 msgid "Checking internet connection..."
-msgstr ""
+msgstr "インターネット接続を確認しています..."
 
 msgid "Checking system logs..."
-msgstr ""
+msgstr "システムログを確認しています..."
 
 msgid "Clear"
-msgstr ""
+msgstr "クリア"
 
 msgid "Client info completed"
-msgstr ""
+msgstr "顧客情報の入力が完了しました"
 
 msgid "Client info error: {error}"
-msgstr ""
+msgstr "クライアント情報エラー: {error}"
 
 msgid "Close"
-msgstr ""
+msgstr "近い"
 
 msgid "Cloudflare"
-msgstr ""
+msgstr "クラウドフレア"
 
 msgid "Complete iwconfig-like information"
-msgstr ""
+msgstr "iwconfig に似た完全な情報"
 
 msgid "Config"
-msgstr ""
+msgstr "構成"
 
 msgid "Configure {}"
-msgstr ""
+msgstr "{} を構成する"
 
 msgid "Connect"
-msgstr ""
+msgstr "接続する"
 
 msgid "Connect to WiFi networks"
-msgstr ""
+msgstr "WiFi ネットワークに接続する"
 
 msgid "Connected but no timing data"
-msgstr ""
+msgstr "接続されていますが、タイミング データがありません"
 
 msgid "Connected successfully!"
-msgstr ""
+msgstr "無事接続されました！"
 
 msgid "Connected to %s"
-msgstr ""
+msgstr "%s に接続しました"
 
 msgid "Connected to: %s"
-msgstr ""
+msgstr "接続先: %s"
 
 msgid "Connected: {} | Signal: {} dBm | IP: {}"
-msgstr ""
+msgstr "接続済み: {} |信号: {} dBm | IP: {}"
 
 msgid "Connecting to %s..."
-msgstr ""
+msgstr "%s に接続中..."
 
 msgid "Connection Info"
-msgstr ""
+msgstr "接続情報"
 
 msgid "Connection failed!"
-msgstr ""
+msgstr "接続に失敗しました!"
 
 msgid "Connection timeout"
-msgstr ""
+msgstr "接続タイムアウト"
 
 msgid "Country Code"
-msgstr ""
+msgstr "国コード"
 
 msgid "DHCP"
 msgstr ""
 
 msgid "DNS Server 1"
-msgstr ""
+msgstr "DNSサーバー1"
 
 msgid "DNS Server 2"
-msgstr ""
+msgstr "DNSサーバー2"
 
 msgid "DOWN"
-msgstr ""
+msgstr "下"
 
 msgid "Data Rate"
-msgstr ""
+msgstr "データレート"
 
 msgid "Defaults"
-msgstr ""
+msgstr "デフォルト"
 
 msgid "Detailed Info - {}"
-msgstr ""
+msgstr "詳細情報 - {}"
 
 msgid "Detailed network scanning"
-msgstr ""
+msgstr "詳細なネットワークスキャン"
 
 msgid "Detailed network scanning with signal strength and encryption info"
-msgstr ""
+msgstr "信号強度と暗号化情報を含む詳細なネットワーク スキャン"
 
 msgid "Detailed speed test failed - Check internet connection"
-msgstr ""
+msgstr "詳細な速度テストに失敗しました - インターネット接続を確認してください"
 
 msgid "Detailed test completed"
-msgstr ""
+msgstr "詳細なテストが完了しました"
 
 msgid "Detailed test error: {error}"
-msgstr ""
+msgstr "詳細なテスト エラー: {error}"
 
 msgid "Detailed view enabled - rescan to see details"
-msgstr ""
+msgstr "詳細ビューが有効 - 再スキャンして詳細を表示します"
 
 msgid "Details"
-msgstr ""
+msgstr "詳細"
 
 msgid "Details Info"
-msgstr ""
+msgstr "詳細情報"
 
 msgid "Diagnostic error: {}\\\\\\\\n"
-msgstr ""
+msgstr "診断エラー: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Diagnostics"
-msgstr ""
+msgstr "診断"
 
 msgid "Disconnect"
-msgstr ""
+msgstr "切断する"
 
 msgid "Disconnected"
-msgstr ""
+msgstr "切断されました"
 
 msgid "Disconnecting..."
-msgstr ""
+msgstr "切断中..."
 
 msgid "Download Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "ダウンロード速度: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Download Speed: {download}\\\\\\\\n"
-msgstr ""
+msgstr "ダウンロード速度: {download}\\\\\\\\\\\\\\\\n"
 
 msgid "Download test completed"
-msgstr ""
+msgstr "ダウンロードテスト完了"
 
 msgid "Download: Failed\\\\\\\\n"
-msgstr ""
+msgstr "ダウンロード: 失敗しました\\\\\\\\\\\\\\\\n"
 
 msgid "Download: {:.2f} Mbps\\\\\\\\n"
-msgstr ""
+msgstr "ダウンロード: {:.2f} Mbps\\\\\\\\\\\\\\\\n"
 
 msgid "Driver check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "ドライバーのチェックに失敗しました: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "Driver info error: {}"
-msgstr ""
+msgstr "ドライバー情報エラー: {}"
 
 msgid "Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "ドライバー: 不明\\\\\\\\\\\\\\\\n"
 
 msgid "Driver: {driver}\\\\\\\\n"
-msgstr ""
+msgstr "ドライバー: {driver}\\\\\\\\\\\\\\\\n"
 
 msgid "ESSID: %s\\\\\\\\n"
 msgstr ""
@@ -380,250 +380,250 @@ msgid "ESSID: {}"
 msgstr ""
 
 msgid "Edit Configuration"
-msgstr ""
+msgstr "構成の編集"
 
 msgid "Edit Password"
-msgstr ""
+msgstr "パスワードの編集"
 
 msgid "Encryption"
-msgstr ""
+msgstr "暗号化"
 
 msgid "Encryption Info"
-msgstr ""
+msgstr "暗号化情報"
 
 msgid "Encryption info displayed."
-msgstr ""
+msgstr "暗号化情報が表示されます。"
 
 msgid "Encryption information not available\\\\\\\\n"
-msgstr ""
+msgstr "暗号化情報が利用できません\\\\\\\\\\\\\\\\n"
 
 msgid "Encryption keys and security"
-msgstr ""
+msgstr "暗号化キーとセキュリティ"
 
 msgid "Encryption keys and security protocols"
-msgstr ""
+msgstr "暗号化キーとセキュリティプロトコル"
 
 msgid "Encryption: %s\\\\\\\\n"
-msgstr ""
+msgstr "暗号化: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Enter Password"
-msgstr ""
+msgstr "パスワードを入力してください"
 
 msgid "Enter password for: %s"
-msgstr ""
+msgstr "パスワードを入力してください: %s"
 
 msgid "Error"
-msgstr ""
+msgstr "エラー"
 
 msgid "Error applying advanced settings: {}"
-msgstr ""
+msgstr "詳細設定の適用中にエラーが発生しました: {}"
 
 msgid "Error applying settings: {}"
-msgstr ""
+msgstr "設定の適用中にエラーが発生しました: {}"
 
 msgid "Error disconnecting"
-msgstr ""
+msgstr "切断エラー"
 
 msgid "Error getting AP information: {}"
-msgstr ""
+msgstr "AP 情報の取得中にエラーが発生しました: {}"
 
 msgid "Error getting bitrate information: {}"
-msgstr ""
+msgstr "ビットレート情報の取得中にエラーが発生しました: {}"
 
 msgid "Error getting channel information: {}"
-msgstr ""
+msgstr "チャンネル情報の取得中にエラーが発生しました: {}"
 
 msgid "Error getting connection details: {error}"
-msgstr ""
+msgstr "接続の詳細の取得中にエラーが発生しました: {error}"
 
 msgid "Error getting encryption information: {}"
-msgstr ""
+msgstr "暗号化情報の取得エラー: {}"
 
 msgid "Error getting power information: {}"
-msgstr ""
+msgstr "電力情報の取得中にエラーが発生しました: {}"
 
 msgid "Error getting retry information: {}"
-msgstr ""
+msgstr "再試行情報の取得中にエラーが発生しました: {}"
 
 msgid "Error loading help"
-msgstr ""
+msgstr "ヘルプの読み込みエラー"
 
 msgid "Error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "{interface} のエラー: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "Error opening {module}: {error}"
-msgstr ""
+msgstr "{module} を開くときにエラーが発生しました: {error}"
 
 msgid "Error running {tool}: {error}"
-msgstr ""
+msgstr "{tool} の実行中にエラーが発生しました: {error}"
 
 msgid "Error: {error}"
-msgstr ""
+msgstr "エラー: {error}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "エラー： {}"
 
 msgid "Estimating upload speed..."
-msgstr ""
+msgstr "アップロード速度を見積もっています..."
 
 msgid "Excellent"
-msgstr ""
+msgstr "素晴らしい"
 
 msgid "Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "優れたダウンロード速度\\\\\\\\\\\\\\\\n"
 
 msgid "Executing tool..."
-msgstr ""
+msgstr "ツールを実行中..."
 
 msgid "Exit"
-msgstr ""
+msgstr "出口"
 
 msgid "Failed"
-msgstr ""
+msgstr "失敗した"
 
 msgid "Failed to connect to %s"
-msgstr ""
+msgstr "%s への接続に失敗しました"
 
 msgid "Failed: {} commands"
-msgstr ""
+msgstr "失敗しました: {} コマンド"
 
 msgid "Fair"
-msgstr ""
+msgstr "公平"
 
 msgid "Final connectivity check..."
-msgstr ""
+msgstr "最終接続チェック..."
 
 msgid "Finding best server..."
-msgstr ""
+msgstr "最適なサーバーを探しています..."
 
 msgid "Fixed lifetime ;  min lifetime:{lifetime}"
-msgstr ""
+msgstr "固定寿命。 最小存続期間:{lifetime}"
 
 msgid "Fixed limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "固定制限; 最小制限:{limit}"
 
 msgid "For troubleshooting, detailed guidance, or community support, visit:\\\\\\\\n"
-msgstr ""
+msgstr "トラブルシューティング、詳細なガイダンス、またはコミュニティ サポートについては、次のサイトにアクセスしてください:\\\\\\\\\\\\\\\\n"
 
 msgid "Forget Network"
-msgstr ""
+msgstr "ネットワークを忘れる"
 
 msgid "Forgotten network: {}"
-msgstr ""
+msgstr "忘れられたネットワーク: {}"
 
 msgid "Found {} networks:\\\\\\\\n"
-msgstr ""
+msgstr "{} 個のネットワークが見つかりました:\\\\\\\\\\\\\\\\n"
 
 msgid "Found: {}\\\\\\\\n"
-msgstr ""
+msgstr "見つかりました: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Fragmentation"
-msgstr ""
+msgstr "断片化"
 
 msgid "Frequency"
-msgstr ""
+msgstr "頻度"
 
 msgid "Frequency information not available\\\\\\\\n"
-msgstr ""
+msgstr "周波数情報が利用できません\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency/Channel"
-msgstr ""
+msgstr "周波数/チャンネル"
 
 msgid "Frequency:"
-msgstr ""
+msgstr "頻度："
 
 msgid "Frequency: %s\\\\\\\\n"
-msgstr ""
+msgstr "頻度: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency: {frequency}"
-msgstr ""
+msgstr "頻度: {frequency}"
 
 msgid "Full Comprehensive Test"
-msgstr ""
+msgstr "完全な総合テスト"
 
 msgid "Full Test"
-msgstr ""
+msgstr "完全なテスト"
 
 msgid "Full test completed"
-msgstr ""
+msgstr "完全なテストが完了しました"
 
 msgid "Full test error: {error}"
-msgstr ""
+msgstr "完全なテスト エラー: {error}"
 
 msgid "Gateway"
-msgstr ""
+msgstr "ゲートウェイ"
 
 msgid "Gateway: {gateway}"
-msgstr ""
+msgstr "ゲートウェイ: {gateway}"
 
 msgid "Gathering client information..."
-msgstr ""
+msgstr "顧客情報を収集中..."
 
 msgid "Gathering network details..."
-msgstr ""
+msgstr "ネットワークの詳細を収集しています..."
 
 msgid "Getting access point information..."
-msgstr ""
+msgstr "アクセスポイント情報を取得しています..."
 
 msgid "Getting bitrate information..."
-msgstr ""
+msgstr "ビットレート情報を取得中..."
 
 msgid "Getting channel information..."
-msgstr ""
+msgstr "チャンネル情報を取得しています..."
 
 msgid "Getting client information..."
-msgstr ""
+msgstr "顧客情報を取得しています..."
 
 msgid "Getting encryption information..."
-msgstr ""
+msgstr "暗号化情報を取得しています..."
 
 msgid "Getting power management information..."
-msgstr ""
+msgstr "電源管理情報を取得しています..."
 
 msgid "Getting retry information..."
-msgstr ""
+msgstr "再試行情報を取得しています..."
 
 msgid "Good"
-msgstr ""
+msgstr "良い"
 
 msgid "Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "良好なダウンロード速度\\\\\\\\\\\\\\\\n"
 
 msgid "Google"
-msgstr ""
+msgstr "グーグル"
 
 msgid "Google DNS"
 msgstr ""
 
 msgid "Help"
-msgstr ""
+msgstr "ヘルプ"
 
 msgid "Hidden"
-msgstr ""
+msgstr "隠れた"
 
 msgid "Hidden Network"
-msgstr ""
+msgstr "隠れたネットワーク"
 
 msgid "Host not found"
-msgstr ""
+msgstr "ホストが見つかりません"
 
 msgid "Hostname: {hostname}"
-msgstr ""
+msgstr "ホスト名: {hostname}"
 
 msgid "INACTIVE"
-msgstr ""
+msgstr "非アクティブ"
 
 msgid "IP Address"
-msgstr ""
+msgstr "IPアドレス"
 
 msgid "IP Address: {ip}"
-msgstr ""
+msgstr "IP アドレス: {ip}"
 
 msgid "IP Configuration"
-msgstr ""
+msgstr "IP構成"
 
 msgid "IP: N/A"
-msgstr ""
+msgstr "IP: 該当なし"
 
 msgid "IP: {ip}\\\\\\\\n"
 msgstr ""
@@ -638,832 +638,832 @@ msgid "ISP: {isp}\\\\\\\\n"
 msgstr ""
 
 msgid "Info"
-msgstr ""
+msgstr "情報"
 
 msgid "Initializing WiFi..."
-msgstr ""
+msgstr "WiFiを初期化しています..."
 
 msgid "Initializing detailed speed test..."
-msgstr ""
+msgstr "詳細な速度テストを初期化しています..."
 
 msgid "Interface"
-msgstr ""
+msgstr "インタフェース"
 
 msgid "Interface found: {}"
-msgstr ""
+msgstr "見つかったインターフェース: {}"
 
 msgid "Interface restarted successfully"
-msgstr ""
+msgstr "インターフェースが正常に再起動されました"
 
 msgid "Interface restarted."
-msgstr ""
+msgstr "インターフェースが再起動されました。"
 
 msgid "Interface {} not available"
-msgstr ""
+msgstr "インターフェース {} は使用できません"
 
 msgid "Interface: {}"
-msgstr ""
+msgstr "インターフェース: {}"
 
 msgid "Invalid misc:%s"
-msgstr ""
+msgstr "無効なその他:%s"
 
 msgid "Kernel Messages (dmesg):\\\\\\\\n"
-msgstr ""
+msgstr "カーネル メッセージ (dmesg):\\\\\\\\\\\\\\\\n"
 
 msgid "Latency test completed"
-msgstr ""
+msgstr "レイテンシテスト完了"
 
 msgid "Latency: %s\\\\\\\\n"
-msgstr ""
+msgstr "レイテンシ: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Link Quality: {quality}"
-msgstr ""
+msgstr "リンク品質: {quality}"
 
 msgid "Link Quality:%s/100"
-msgstr ""
+msgstr "リンク品質:%s/100"
 
 msgid "List of access points and connected peer stations"
-msgstr ""
+msgstr "アクセス ポイントと接続されているピア ステーションのリスト"
 
 msgid "List of access points/peers"
-msgstr ""
+msgstr "アクセスポイント/ピアのリスト"
 
 msgid "Location: {city}, {country}"
-msgstr ""
+msgstr "場所: {city}、{country}"
 
 msgid "Location: {city}, {country}\\\\\\\\n"
-msgstr ""
+msgstr "場所: {city}、{country}\\\\\\\\\\\\\\\\n"
 
 msgid "Logs checked."
-msgstr ""
+msgstr "ログをチェックしました。"
 
 msgid "MAC Address: {mac}"
-msgstr ""
+msgstr "MAC アドレス: {mac}"
 
 msgid "MAC Address: {mac}\\\\\\\\n"
-msgstr ""
+msgstr "MAC アドレス: {mac}\\\\\\\\\\\\\\\\n"
 
 msgid "MAC: %s\\\\\\\\n"
 msgstr ""
 
 msgid "MAC: N/A"
-msgstr ""
+msgstr "MAC: 該当なし"
 
 msgid "MAC: {}"
-msgstr ""
+msgstr "マック： {}"
 
 msgid "Managed (Client)"
-msgstr ""
+msgstr "管理対象 (クライアント)"
 
 msgid "Manual (Static IP)"
-msgstr ""
+msgstr "手動（静的IP）"
 
 msgid "Master (AP)"
-msgstr ""
+msgstr "マスター(AP)"
 
 msgid "Missed beacon:%s"
-msgstr ""
+msgstr "ビーコンを逃しました:%s"
 
 msgid "Mode:"
-msgstr ""
+msgstr "モード："
 
 msgid "Mode: {mode}"
-msgstr ""
+msgstr "モード: {mode}"
 
 msgid "Modules reloaded."
-msgstr ""
+msgstr "モジュールがリロードされました。"
 
 msgid "Monitor"
-msgstr ""
+msgstr "モニター"
 
 msgid "Monitoring error: {}"
-msgstr ""
+msgstr "モニタリングエラー: {}"
 
 msgid "N/A"
-msgstr ""
+msgstr "該当なし"
 
 msgid "Name: {name}\\\\\\\\n"
-msgstr ""
+msgstr "名前: {name}\\\\\\\\\\\\\\\\n"
 
 msgid "Netmask"
-msgstr ""
+msgstr "ネットマスク"
 
 msgid "Network %d:\\\\\\\\n"
-msgstr ""
+msgstr "ネットワーク %d:\\\\\\\\\\\\\\\\n"
 
 msgid "Network Interface: {interface}"
-msgstr ""
+msgstr "ネットワークインターフェース: {interface}"
 
 msgid "Network Name (SSID)"
-msgstr ""
+msgstr "ネットワーク名(SSID)"
 
 msgid "Network forgotten!"
-msgstr ""
+msgstr "ネットワークを忘れました!"
 
 msgid "Network info error: {error}"
-msgstr ""
+msgstr "ネットワーク情報エラー: {error}"
 
 msgid "Network information unavailable"
-msgstr ""
+msgstr "ネットワーク情報が利用できない"
 
 msgid "Network unreachable"
-msgstr ""
+msgstr "ネットワークに到達できません"
 
 msgid "Network: %s"
-msgstr ""
+msgstr "ネットワーク: %s"
 
 msgid "Network: {essid}"
-msgstr ""
+msgstr "ネットワーク: {essid}"
 
 msgid "No"
-msgstr ""
+msgstr "いいえ"
 
 msgid "No IP"
-msgstr ""
+msgstr "IPなし"
 
 msgid "No WiFi connection data available"
-msgstr ""
+msgstr "利用可能な WiFi 接続データがありません"
 
 msgid "No WiFi interface available"
-msgstr ""
+msgstr "利用可能な WiFi インターフェイスがありません"
 
 msgid "No WiFi interface detected. Please check your hardware."
-msgstr ""
+msgstr "WiFi インターフェイスが検出されませんでした。ハードウェアを確認してください。"
 
 msgid "No WiFi interface found"
-msgstr ""
+msgstr "WiFi インターフェースが見つかりません"
 
 msgid "No WiFi interfaces found"
-msgstr ""
+msgstr "WiFi インターフェイスが見つかりません"
 
 msgid "No WiFi interfaces found\\\\\\\\n"
-msgstr ""
+msgstr "WiFi インターフェースが見つかりません\\\\\\\\\\\\\\\\n"
 
 msgid "No WiFi messages in system logs"
-msgstr ""
+msgstr "システムログに WiFi メッセージがありません"
 
 msgid "No connection details available"
-msgstr ""
+msgstr "接続の詳細はありません"
 
 msgid "No data"
-msgstr ""
+msgstr "データなし"
 
 msgid "No help available for this tool."
-msgstr ""
+msgstr "このツールにはヘルプがありません。"
 
 msgid "No interface"
-msgstr ""
+msgstr "インターフェースなし"
 
 msgid "No internet connection"
-msgstr ""
+msgstr "インターネット接続がありません"
 
 msgid "No internet connection detected"
-msgstr ""
+msgstr "インターネット接続が検出されませんでした"
 
 msgid "No network selected"
-msgstr ""
+msgstr "ネットワークが選択されていません"
 
 msgid "No networks found"
-msgstr ""
+msgstr "ネットワークが見つかりません"
 
 msgid "No networks found - Press BLUE to rescan"
-msgstr ""
+msgstr "ネットワークが見つかりません - 再スキャンするには青を押してください"
 
 msgid "No networks found on {}\\\\\\\\n"
-msgstr ""
+msgstr "{} にネットワークが見つかりません\\\\\\\\\\\\\\\\n"
 
 msgid "No networks found or scan not supported\\\\\\\\n"
-msgstr ""
+msgstr "ネットワークが見つからないか、スキャンがサポートされていません\\\\\\\\\\\\\\\\n"
 
 msgid "No networks found with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "iwlist を使用したネットワークが見つかりません\\\\\\\\\\\\\\\\n"
 
 msgid "No packets sent"
-msgstr ""
+msgstr "パケットは送信されませんでした"
 
 msgid "No ping data"
-msgstr ""
+msgstr "ping データがありません"
 
 msgid "No results with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "iwlist では結果がありません\\\\\\\\\\\\\\\\n"
 
 msgid "No station/peer information available\\\\\\\\n"
-msgstr ""
+msgstr "利用可能なステーション/ピア情報がありません\\\\\\\\\\\\\\\\n"
 
 msgid "Noise level:%sdBm"
-msgstr ""
+msgstr "騒音レベル:%sdBm"
 
 msgid "None"
-msgstr ""
+msgstr "なし"
 
 msgid "None found"
-msgstr ""
+msgstr "何も見つかりませんでした"
 
 msgid "Not connected"
-msgstr ""
+msgstr "接続されていません"
 
 msgid "Not connected to any network"
-msgstr ""
+msgstr "どのネットワークにも接続されていません"
 
 msgid "Not-Associated"
-msgstr ""
+msgstr "関連しない"
 
 msgid "Open"
-msgstr ""
+msgstr "開ける"
 
 msgid "OpenDNS"
 msgstr ""
 
 msgid "Operation Mode"
-msgstr ""
+msgstr "動作モード"
 
 msgid "Operation completed."
-msgstr ""
+msgstr "操作が完了しました。"
 
 msgid "Output: {output}..."
-msgstr ""
+msgstr "出力: {output}..."
 
 msgid "Packet retry limits and frame lifetime settings"
-msgstr ""
+msgstr "パケットの再試行制限とフレームの有効期間の設定"
 
 msgid "Packets: {sent}, Lost: {lost} ({percentage:.1f}%) - {stability}"
-msgstr ""
+msgstr "パケット: {sent}、損失: {lost} ({percentage:.1f}%) - {stability}"
 
 msgid "Password"
-msgstr ""
+msgstr "パスワード"
 
 msgid "Pause"
-msgstr ""
+msgstr "一時停止"
 
 msgid "Performing initial scan..."
-msgstr ""
+msgstr "初期スキャンを実行しています..."
 
 msgid "Ping error for {host}: {error}"
-msgstr ""
+msgstr "{host} の Ping エラー: {error}"
 
 msgid "Ping failed"
-msgstr ""
+msgstr "ping が失敗しました"
 
 msgid "Ping failed for {host} (returncode: {code})"
-msgstr ""
+msgstr "{host} の ping が失敗しました (リターンコード: {code})"
 
 msgid "Ping not available"
-msgstr ""
+msgstr "Ping が利用できない"
 
 msgid "Ping test completed: {avg:.1f} ms average ({success}/{total} successful)"
-msgstr ""
+msgstr "Ping テスト完了: 平均 {avg:.1f} ミリ秒 ({success}/{total} 成功)"
 
 msgid "Ping test error: {error}"
-msgstr ""
+msgstr "Ping テスト エラー: {error}"
 
 msgid "Ping timeout for {host}"
-msgstr ""
+msgstr "{host} の Ping タイムアウト"
 
 msgid "Ping {host} (fallback): {time} ms"
-msgstr ""
+msgstr "Ping {host} (フォールバック): {time} ミリ秒"
 
 msgid "Ping {host}: {time} ms"
-msgstr ""
+msgstr "Ping {host}: {time} ミリ秒"
 
 msgid "Ping/Latency: {ping}\\\\\\\\n"
-msgstr ""
+msgstr "Ping/遅延: {ping}\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: Failed\\\\\\\\n"
-msgstr ""
+msgstr "Ping: 失敗しました\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: {:.1f} ms\\\\\\\\n"
-msgstr ""
+msgstr "Ping: {:.1f} ミリ秒\\\\\\\\\\\\\\\\n"
 
 msgid "Please enter a network name"
-msgstr ""
+msgstr "ネットワーク名を入力してください"
 
 msgid "Please enter a password"
-msgstr ""
+msgstr "パスワードを入力してください"
 
 msgid "Poor"
-msgstr ""
+msgstr "貧しい"
 
 msgid "Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "ダウンロード速度が遅い\\\\\\\\\\\\\\\\n"
 
 msgid "Power Management"
-msgstr ""
+msgstr "電源管理"
 
 msgid "Power management info displayed."
-msgstr ""
+msgstr "電源管理情報が表示されます。"
 
 msgid "Power management information not available\\\\\\\\n"
-msgstr ""
+msgstr "電源管理情報が利用できません\\\\\\\\\\\\\\\\n"
 
 msgid "Power management settings"
-msgstr ""
+msgstr "電源管理設定"
 
 msgid "Power management settings and power saving modes"
-msgstr ""
+msgstr "電源管理設定と省電力モード"
 
 msgid "Primary DNS"
-msgstr ""
+msgstr "プライマリDNS"
 
 msgid "Public IP: Unable to determine"
-msgstr ""
+msgstr "パブリックIP: 特定できません"
 
 msgid "Public IP: {ip}"
-msgstr ""
+msgstr "パブリックIP: {ip}"
 
 msgid "Quality: %s\\\\\\\\n"
-msgstr ""
+msgstr "品質: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Quality: N/A"
-msgstr ""
+msgstr "品質: 該当なし"
 
 msgid "Quality: {}%"
-msgstr ""
+msgstr "品質： {}％"
 
 msgid "Quality: {}% ({})"
-msgstr ""
+msgstr "品質： {}％ （{}）"
 
 msgid "Quick System Check"
-msgstr ""
+msgstr "クイックシステムチェック"
 
 msgid "Quick Test"
-msgstr ""
+msgstr "クイックテスト"
 
 msgid "Quick test completed"
-msgstr ""
+msgstr "クイックテストが完了しました"
 
 msgid "Quick test error: {error}"
-msgstr ""
+msgstr "クイック テスト エラー: {error}"
 
 msgid "RTS Threshold"
-msgstr ""
+msgstr "RTS しきい値"
 
 msgid "Real-time signal quality monitor"
-msgstr ""
+msgstr "リアルタイム信号品質モニター"
 
 msgid "Refresh"
-msgstr ""
+msgstr "リフレッシュ"
 
 msgid "Reload WiFi Modules"
-msgstr ""
+msgstr "WiFi モジュールをリロードする"
 
 msgid "Reload kernel WiFi modules"
-msgstr ""
+msgstr "カーネル WiFi モジュールをリロードする"
 
 msgid "Reload kernel WiFi modules to fix driver issues"
-msgstr ""
+msgstr "カーネル WiFi モジュールをリロードしてドライバーの問題を修正する"
 
 msgid "Remember password"
-msgstr ""
+msgstr "パスワードを記憶する"
 
 msgid "Restart WiFi Interface"
-msgstr ""
+msgstr "WiFiインターフェースを再起動します"
 
 msgid "Restart WiFi interface %s?"
-msgstr ""
+msgstr "WiFi インターフェース %s を再起動しますか?"
 
 msgid "Restart wireless interface"
-msgstr ""
+msgstr "無線インターフェースを再起動する"
 
 msgid "Restart wireless interface to reset connectivity"
-msgstr ""
+msgstr "ワイヤレスインターフェースを再起動して接続をリセットします"
 
 msgid "Restarting interface..."
-msgstr ""
+msgstr "インターフェースを再起動しています..."
 
 msgid "Retry Limits"
-msgstr ""
+msgstr "再試行制限"
 
 msgid "Retry limit information not available\\\\\\\\n"
-msgstr ""
+msgstr "再試行制限情報が利用できません\\\\\\\\\\\\\\\\n"
 
 msgid "Retry limits and lifetime"
-msgstr ""
+msgstr "再試行制限と有効期間"
 
 msgid "Retry limits info displayed."
-msgstr ""
+msgstr "再試行制限情報が表示されます。"
 
 msgid "Running detailed speed test..."
-msgstr ""
+msgstr "詳細な速度テストを実行しています..."
 
 msgid "Running full speed test..."
-msgstr ""
+msgstr "全速力テストを実行しています..."
 
 msgid "Running quick speed test..."
-msgstr ""
+msgstr "クイックスピードテストを実行しています..."
 
 msgid "Rx invalid crypt:%s"
-msgstr ""
+msgstr "無効な暗号を受信しました:%s"
 
 msgid "Rx invalid frag:%s"
-msgstr ""
+msgstr "無効なフラグの受信:%s"
 
 msgid "Rx invalid nwid:%s"
-msgstr ""
+msgstr "受信無効な nwid:%s"
 
 msgid "Save & Connect"
-msgstr ""
+msgstr "保存して接続する"
 
 msgid "Scan"
-msgstr ""
+msgstr "スキャン"
 
 msgid "Scan completed."
-msgstr ""
+msgstr "スキャンが完了しました。"
 
 msgid "Scan error {}"
-msgstr ""
+msgstr "スキャンエラー {}"
 
 msgid "Scan error:"
-msgstr ""
+msgstr "スキャンエラー:"
 
 msgid "Scan error: {}"
-msgstr ""
+msgstr "スキャン エラー: {}"
 
 msgid "Scan error: {}\\\\\\\\n"
-msgstr ""
+msgstr "スキャン エラー: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Scan failed"
-msgstr ""
+msgstr "スキャンに失敗しました"
 
 msgid "Scan for available networks"
-msgstr ""
+msgstr "利用可能なネットワークをスキャンします"
 
 msgid "Scanner"
-msgstr ""
+msgstr "スキャナー"
 
 msgid "Scanning for WiFi networks..."
-msgstr ""
+msgstr "WiFi ネットワークをスキャンしています..."
 
 msgid "Scanning for networks..."
-msgstr ""
+msgstr "ネットワークをスキャンしています..."
 
 msgid "Scanning..."
-msgstr ""
+msgstr "走査..."
 
 msgid "Secondary DNS"
-msgstr ""
+msgstr "セカンダリDNS"
 
 msgid "Secured"
-msgstr ""
+msgstr "安全な"
 
 msgid "Select"
-msgstr ""
+msgstr "選択"
 
 msgid "Select a speed test type"
-msgstr ""
+msgstr "スピードテストのタイプを選択してください"
 
 msgid "Select a tool from the menu to get detailed information about WiFi configuration and status."
-msgstr ""
+msgstr "メニューからツールを選択して、WiFi の構成とステータスに関する詳細情報を取得します。"
 
 msgid "Select a tool to see description"
-msgstr ""
+msgstr "ツールを選択すると説明が表示されます"
 
 msgid "Select a tool to view detailed information"
-msgstr ""
+msgstr "ツールを選択して詳細情報を表示します"
 
 msgid "Select an option"
-msgstr ""
+msgstr "オプションを選択してください"
 
 msgid "Server found"
-msgstr ""
+msgstr "サーバーが見つかりました"
 
 msgid "Server info error: {error}"
-msgstr ""
+msgstr "サーバー情報エラー: {error}"
 
 msgid "Settings applied successfully"
-msgstr ""
+msgstr "設定が正常に適用されました"
 
 msgid "Signal Level: {signal} dBm"
-msgstr ""
+msgstr "信号レベル: {signal} dBm"
 
 msgid "Signal level:%sdBm"
-msgstr ""
+msgstr "信号レベル:%sdBm"
 
 msgid "Signal: %s\\\\\\\\n"
-msgstr ""
+msgstr "信号: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Signal: N/A"
-msgstr ""
+msgstr "信号: 該当なし"
 
 msgid "Signal: {} dBm"
-msgstr ""
+msgstr "信号: {} dBm"
 
 msgid "Speedtest"
-msgstr ""
+msgstr "スピードテスト"
 
 msgid "Speedtest failed - No internet connection or all tests failed"
-msgstr ""
+msgstr "スピードテストに失敗しました - インターネット接続がないか、すべてのテストが失敗しました"
 
 msgid "Speedtest failed: {}"
-msgstr ""
+msgstr "スピードテストに失敗しました: {}"
 
 msgid "SpeedtestSimple not available"
-msgstr ""
+msgstr "SpeedtestSimple は利用できません"
 
 msgid "Sponsor: {sponsor}\\\\\\\\n"
-msgstr ""
+msgstr "スポンサー: {sponsor}\\\\\\\\\\\\\\\\n"
 
 msgid "Stability test error: {error}"
-msgstr ""
+msgstr "安定性テストエラー: {error}"
 
 msgid "Stable"
-msgstr ""
+msgstr "安定した"
 
 msgid "Start"
-msgstr ""
+msgstr "始める"
 
 msgid "Static"
-msgstr ""
+msgstr "静的"
 
 msgid "Statistics error: {}"
-msgstr ""
+msgstr "統計エラー: {}"
 
 msgid "Status check failed: {}"
-msgstr ""
+msgstr "ステータスチェックに失敗しました: {}"
 
 msgid "Stop"
-msgstr ""
+msgstr "停止"
 
 msgid "Supported bit rates"
-msgstr ""
+msgstr "サポートされているビットレート"
 
 msgid "Supported bitrates and current transmission rates"
-msgstr ""
+msgstr "サポートされているビットレートと現在の伝送レート"
 
 msgid "System Logs"
-msgstr ""
+msgstr "システムログ"
 
 msgid "System Logs:\\\\\\\\n"
-msgstr ""
+msgstr "システム ログ:\\\\\\\\\\\\\\\\n"
 
 msgid "TX Power"
-msgstr ""
+msgstr "送信電力"
 
 msgid "Tertiary DNS"
-msgstr ""
+msgstr "三次DNS"
 
 msgid "Test cancelled"
-msgstr ""
+msgstr "テストがキャンセルされました"
 
 msgid "Test completed - See results below"
-msgstr ""
+msgstr "テストが完了しました - 以下の結果を参照してください"
 
 msgid "Test completed!"
-msgstr ""
+msgstr "テストが完了しました！"
 
 msgid "Test failed"
-msgstr ""
+msgstr "テストが失敗しました"
 
 msgid "Testing connection stability..."
-msgstr ""
+msgstr "接続の安定性をテストしています..."
 
 msgid "Testing connectivity..."
-msgstr ""
+msgstr "接続をテストしています..."
 
 msgid "Testing download speed (multiple servers)..."
 msgstr ""
 
 msgid "Testing download speed..."
-msgstr ""
+msgstr "ダウンロード速度をテストしています..."
 
 msgid "Testing latency to multiple hosts..."
-msgstr ""
+msgstr "複数のホストに対する遅延をテストしています..."
 
 msgid "Testing latency..."
-msgstr ""
+msgstr "遅延をテストしています..."
 
 msgid "Testing upload speed..."
-msgstr ""
+msgstr "アップロード速度をテストしています..."
 
 msgid "These forums are great places to get help,\\\\\\\\n"
-msgstr ""
+msgstr "これらのフォーラムは、助けを得るのに最適な場所です。\\\\\\\\\\\\\\\\n"
 
 msgid "Timeout"
-msgstr ""
+msgstr "タイムアウト"
 
 msgid "Tool not available"
-msgstr ""
+msgstr "ツールが使用できません"
 
 msgid "Tool not implemented: {}"
-msgstr ""
+msgstr "ツールが実装されていません: {}"
 
 msgid "Tools"
-msgstr ""
+msgstr "ツール"
 
 msgid "Tx excessive retries:%s"
-msgstr ""
+msgstr "過剰な送信再試行:%s"
 
 msgid "UP and active"
-msgstr ""
+msgstr "アップしてアクティブに"
 
 msgid "Unable to assess download quality\\\\\\\\n"
-msgstr ""
+msgstr "ダウンロードの品質を評価できません\\\\\\\\\\\\\\\\n"
 
 msgid "Unknown"
-msgstr ""
+msgstr "未知"
 
 msgid "Unstable"
-msgstr ""
+msgstr "不安定"
 
 msgid "Upload Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "アップロード速度: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Upload Speed: {upload}\\\\\\\\n"
-msgstr ""
+msgstr "アップロード速度: {upload}\\\\\\\\\\\\\\\\n"
 
 msgid "Upload estimation completed"
-msgstr ""
+msgstr "アップロード見積もり完了"
 
 msgid "Upload test failed: {error}"
-msgstr ""
+msgstr "アップロード テストが失敗しました: {error}"
 
 msgid "Upload test not available"
-msgstr ""
+msgstr "アップロードテストは利用できません"
 
 msgid "Upload test: {result}"
-msgstr ""
+msgstr "アップロードテスト: {result}"
 
 msgid "Upload: Not available\\\\\\\\n"
-msgstr ""
+msgstr "アップロード: 利用できません\\\\\\\\\\\\\\\\n"
 
 msgid "Upload: {:.2f} Mbps (estimated)\\\\\\\\n"
-msgstr ""
+msgstr "アップロード: {:.2f} Mbps (推定)\\\\\\\\\\\\\\\\n"
 
 msgid "Very Poor"
-msgstr ""
+msgstr "非常に悪い"
 
 msgid "WEP Key Type"
-msgstr ""
+msgstr "WEPキーの種類"
 
 msgid "WiFi Advanced Tools"
-msgstr ""
+msgstr "WiFi の高度なツール"
 
 msgid "WiFi Connection Manager"
-msgstr ""
+msgstr "WiFi接続マネージャー"
 
 msgid "WiFi Diagnostics"
-msgstr ""
+msgstr "WiFi診断"
 
 msgid "WiFi Manager"
-msgstr ""
+msgstr "WiFiマネージャー"
 
 msgid "WiFi Manager iwconfig version {}"
-msgstr ""
+msgstr "WiFi マネージャー iwconfig バージョン {}"
 
 msgid "WiFi Manager v."
-msgstr ""
+msgstr "WiFiマネージャーv."
 
 msgid "WiFi Password"
-msgstr ""
+msgstr "WiFiパスワード"
 
 msgid "WiFi Scanner"
-msgstr ""
+msgstr "WiFiスキャナー"
 
 msgid "WiFi Signal Monitor"
-msgstr ""
+msgstr "WiFi信号モニター"
 
 msgid "WiFi Speed Test Manager"
-msgstr ""
+msgstr "WiFi スピード テスト マネージャー"
 
 msgid "WiFi diagnostics and tests"
-msgstr ""
+msgstr "WiFi の診断とテスト"
 
 msgid "Wired"
-msgstr ""
+msgstr "有線"
 
 msgid "Wireless"
-msgstr ""
+msgstr "無線"
 
 msgid "Wireless info error: {}"
-msgstr ""
+msgstr "ワイヤレス情報エラー: {}"
 
 msgid "Yes"
-msgstr ""
+msgstr "はい"
 
 msgid "[LOCK]"
-msgstr ""
+msgstr "[ロック]"
 
 msgid "[OPEN]"
-msgstr ""
+msgstr "[開ける]"
 
 msgid "[SAVED]"
-msgstr ""
+msgstr "[保存済み]"
 
 msgid "bits"
-msgstr ""
+msgstr "ビット"
 
 msgid "ethtool not found"
-msgstr ""
+msgstr "ethtoolが見つかりません"
 
 msgid "iwlist error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "{interface} の iwlist エラー: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist error: {}\\\\\\\\n"
-msgstr ""
+msgstr "iwlist エラー: {}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist exception on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "{interface} の iwlist 例外: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist timeout on {}\\\\\\\\n"
-msgstr ""
+msgstr "iwlist が {} でタイムアウトしました\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist: No networks found or interface busy\\\\\\\\n"
-msgstr ""
+msgstr "iwlist: ネットワークが見つからないか、インターフェースがビジー状態です\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "iwlist: ネットワークが見つかりません\\\\\\\\\\\\\\\\n"
 
 msgid "lifetime"
-msgstr ""
+msgstr "一生"
 
 msgid "limit"
-msgstr ""
+msgstr "限界"
 
 msgid "long {type}:{value}"
-msgstr ""
+msgstr "長い {type}:{value}"
 
 msgid "max {type}:{value}"
-msgstr ""
+msgstr "最大 {type}:{value}"
 
 msgid "min {type}:{value}"
-msgstr ""
+msgstr "分 {type}:{value}"
 
 msgid "off"
-msgstr ""
+msgstr "オフ"
 
 msgid "on"
-msgstr ""
+msgstr "の上"
 
 msgid "pythonwifi: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "pythonwifi: ネットワークが見つかりません\\\\\\\\\\\\\\\\n"
 
 msgid "share experiences,and connect with other users."
-msgstr ""
+msgstr "経験を共有し、他のユーザーとつながります。"
 
 msgid "short {type}:{value}"
-msgstr ""
+msgstr "短い {type}:{value}"
 
 msgid "wait..."
-msgstr ""
+msgstr "待って..."
 
 msgid "{:.1f} ms"
-msgstr ""
+msgstr "{:.1f} ミリ秒"
 
 msgid "{:.1f}%"
 msgstr ""
 
 msgid "{:2d}. {} {:20} | Signal: {:4} dBm ({}) | Channel: {}\\\\\\\\n"
-msgstr ""
+msgstr "{:2d}。 {} {:20} |信号: {:4} dBm ({}) |チャンネル: {}\\\\\\\\\\\\\\\\n"
 
 msgid "{connection}{saved}{icon} {essid} | {security} | {signal} dBm"
 msgstr ""
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}...\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} |品質: {quality:3}% |信号: {signal:4} dBm | {bssid}...\\\\\\\\\\\\\\\\n"
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} |品質: {quality:3}% |信号: {signal:4} dBm | {bssid}\\\\\\\\\\\\\\\\n"
 
 msgid "{icon} {interface}: {status}\\\\\\\\n"
 msgstr ""
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel:2} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}。 {essid:20} |品質: {quality:3}% ({signal_quality}) |信号: {signal:4} dBm |チャンネル: {channel:2} |暗号化: {encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}。 {essid:20} |品質: {quality:3}% ({signal_quality}) |信号: {signal:4} dBm |チャンネル: {channel:2} |暗号化: {encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}。 {essid:20} |品質: {quality:3}% |信号: {signal:4} dBm\\\\\\\\\\\\\\\\n"
 
 msgid "{index}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}。 {essid:20} |品質: {quality:3}% |信号: {signal:4} dBm\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Connected to {essid} ({quality})\\\\\\\\n"
-msgstr ""
+msgstr "{interface}: {essid} ({quality}) に接続しました\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Not connected\\\\\\\\n"
-msgstr ""
+msgstr "{interface}: 接続されていません\\\\\\\\\\\\\\\\n"
 
 msgid "{name} ({host}): {ping}"
 msgstr ""
 
 msgid "{name} ({sponsor}): {ping}"
-msgstr ""
+msgstr "{name} ({host}): {ping}"
 
 msgid "{name}: Error {error}"
-msgstr ""
+msgstr "{name}: エラー {error}"
 
 msgid "{name}: Failed"
-msgstr ""
+msgstr "{name}: 失敗しました"
 
 msgid "{name}: Timeout"
-msgstr ""
+msgstr "{name}: タイムアウト"
 
 msgid "{name}: {speed:.2f} Mbps"
 msgstr ""
 
 msgid "{server}: {speed:.2f} Mbps ({data:.1f} MB in {time:.1f}s)\\\\\\\\n"
-msgstr ""
+msgstr "{server}: {speed:.2f} Mbps ({time:.1f}s で {data:.1f} MB)\\\\\\\\\\\\\\\\n"
 
 msgid "{speed:.2f} Mbps"
 msgstr ""
@@ -1472,208 +1472,208 @@ msgid "{} ({:.0f}%)"
 msgstr ""
 
 msgid "{} - Open network - Press OK for options"
-msgstr ""
+msgstr "{} - オープン ネットワーク - オプションについては [OK] を押してください"
 
 msgid "{} - Password required - Press OK for options"
-msgstr ""
+msgstr "{} - パスワードが必要です - オプションについては [OK] を押してください"
 
 msgid "{} - Password saved - Press OK for options"
-msgstr ""
+msgstr "{} - パスワードが保存されました - オプションについては [OK] を押してください"
 
 msgid "{} GHz"
 msgstr ""
 
 msgid "{} Mb/s"
-msgstr ""
+msgstr "{} MB/秒"
 
 msgid "{} Status: {}\\\\\\\\n"
-msgstr ""
+msgstr "{} ステータス: {}\\\\\\\\\\\\\\\\n"
 
 msgid "{} Type: {} interface\\\\\\\\n"
-msgstr ""
+msgstr "{} タイプ: {} インターフェイス\\\\\\\\\\\\\\\\n"
 
 msgid "{} dBm"
 msgstr ""
 
 msgid "{}: Failed"
-msgstr ""
+msgstr "{}： 失敗した"
 
 msgid "{}: {:.1f} ms"
-msgstr ""
+msgstr "{}: {:.1f} ミリ秒"
 
 msgid "{}\\\\\\\\n"
 msgstr ""
 
 msgid " Keep drivers updated\\\\\\\\n"
-msgstr ""
+msgstr "ドライバーを常に最新の状態に保ちます\\\\\\\\\\\\\\\\n"
 
 msgid " Monitor signal strength for best performance\\\\\\\\n"
-msgstr ""
+msgstr "最高のパフォーマンスを得るために信号強度を監視します\\\\\\\\\\\\\\\\n"
 
 msgid " Use 5GHz band for less interference\\\\\\\\n"
-msgstr ""
+msgstr "干渉を少なくするために 5 GHz 帯域を使用します\\\\\\\\\\\\\\\\n"
 
 msgid "  No USB WiFi adapters found\\\\\\\\n"
-msgstr ""
+msgstr "USB WiFi アダプターが見つかりません\\\\\\\\\\\\\\\\n"
 
 msgid "  Interface {interface}: DOWN (needs activation)\\\\\\\\n"
-msgstr ""
+msgstr "インターフェイス {interface}: ダウン (アクティブ化が必要)\\\\\\\\\\\\\\\\n"
 
 msgid "  Missing commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "欠落しているコマンド: {commands}\\\\\\\\\\\\\\\\n"
 
 msgid "  No WiFi kernel modules detected\\\\\\\\n"
 msgstr ""
 
 msgid "  Scan: Interface busy (connected to network)\\\\\\\\n"
-msgstr ""
+msgstr "スキャン: インターフェイスがビジーです (ネットワークに接続されています)\\\\\\\\\\\\\\\\n"
 
 msgid "  {test}: No data\\\\\\\\n"
-msgstr ""
+msgstr "{test}: データがありません\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed\\\\\\\\n"
-msgstr ""
+msgstr "平均ダウンロード速度\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "平均遅延 ({:.1f} ミリ秒)\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency\\\\\\\\n"
-msgstr ""
+msgstr "平均レイテンシ\\\\\\\\\\\\\\\\n"
 
 msgid " Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "良好なダウンロード速度\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency\\\\\\\\n"
-msgstr ""
+msgstr "良好なレイテンシー\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "優れたレイテンシ ({:.1f} ミリ秒)\\\\\\\\\\\\\\\\n"
 
 msgid " TX Power: {}\\\\\\\\n"
-msgstr ""
+msgstr "TX 電力: {}\\\\\\\\\\\\\\\\n"
 
 msgid " All systems operational\\\\\\\\n"
-msgstr ""
+msgstr "すべてのシステムが稼働中\\\\\\\\\\\\\\\\n"
 
 msgid " Available commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "使用可能なコマンド: {commands}\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "優れたダウンロード速度\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency\\\\\\\\n"
-msgstr ""
+msgstr "優れた遅延\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "良好なレイテンシ ({:.1f} ミリ秒)\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: UP and active\\\\\\\\n"
-msgstr ""
+msgstr "インターフェイス {interface}: 稼働中でアクティブです\\\\\\\\\\\\\\\\n"
 
 msgid " Loaded WiFi modules: {modules}\\\\\\\\n"
-msgstr ""
+msgstr "ロードされた WiFi モジュール: {modules}\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: WiFi hardware detected and functional\\\\\\\\n"
-msgstr ""
+msgstr "システム ステータス: WiFi ハードウェアが検出され、機能しています\\\\\\\\\\\\\\\\n"
 
 msgid " USB WiFi adapters detected:\\\\\\\\n"
-msgstr ""
+msgstr "USB WiFi アダプターが検出されました:\\\\\\\\\\\\\\\\n"
 
 msgid " {test}: {output}\\\\\\\\n"
-msgstr ""
+msgstr "{test}: {output}\\\\\\\\\\\\\\\\n"
 
 msgid " CRITICAL: No WiFi interfaces detected!\\\\\\\\n"
-msgstr ""
+msgstr "重大: WiFi インターフェースが検出されませんでした!\\\\\\\\\\\\\\\\n"
 
 msgid " Download test failed\\\\\\\\n"
-msgstr ""
+msgstr "ダウンロード テストが失敗しました\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID チェック: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Error: {}\\\\\\\\n"
-msgstr ""
+msgstr "エラー: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "インターフェイスのチェックに失敗しました: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: NOT FOUND\\\\\\\\n"
-msgstr ""
+msgstr "インターフェース {interface}: 見つかりません\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: UNKNOWN STATE\\\\\\\\n"
-msgstr ""
+msgstr "インターフェイス {interface}: 不明な状態\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {} not found or not a WiFi interface\\\\\\\\n"
-msgstr ""
+msgstr "インターフェイス {} が見つからないか、WiFi インターフェイスではありません\\\\\\\\\\\\\\\\n"
 
 msgid " Kernel module check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "カーネル モジュールのチェックに失敗しました: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Latency test failed\\\\\\\\n"
-msgstr ""
+msgstr "レイテンシ テストに失敗しました\\\\\\\\\\\\\\\\n"
 
 msgid " Mode check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "モードチェック: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "ダウンロード速度が遅い\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency\\\\\\\\n"
-msgstr ""
+msgstr "遅延が少ない\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: No WiFi interfaces detected\\\\\\\\n"
-msgstr ""
+msgstr "システム ステータス: WiFi インターフェイスが検出されません\\\\\\\\\\\\\\\\n"
 
 msgid " Scan test: {error}\\\\\\\\n"
-msgstr ""
+msgstr "スキャン テスト: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Signal check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "信号チェック: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " USB device check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "USB デバイスのチェックに失敗しました: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Very poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "レイテンシーが非常に低い ({:.1f} ミリ秒)\\\\\\\\\\\\\\\\n"
 
 msgid " {}\\\\\\\\n"
-msgstr ""
+msgstr "{}\\\\\\\\\\\\\\\\n"
 
 msgid " Cannot assess connection quality\\\\\\\\n"
-msgstr ""
+msgstr "接続品質を評価できません\\\\\\\\\\\\\\\\n"
 
 msgid " Download speed unavailable\\\\\\\\n"
-msgstr ""
+msgstr "ダウンロード速度を利用できません\\\\\\\\\\\\\\\\n"
 
 msgid " Latency unavailable\\\\\\\\n"
-msgstr ""
+msgstr "レイテンシーを利用できません\\\\\\\\\\\\\\\\n"
 
 msgid " Quality assessment unavailable\\\\\\\\n"
-msgstr ""
+msgstr "品質評価は利用できません\\\\\\\\\\\\\\\\n"
 
 msgid "  Transmitted: {}\\\\\\\\n"
-msgstr ""
+msgstr "送信済み: {}\\\\\\\\\\\\\\\\n"
 
 msgid "  Received: {}\\\\\\\\n"
-msgstr ""
+msgstr "受信しました: {}\\\\\\\\\\\\\\\\n"
 
 msgid " AVAILABLE NETWORKS\\\\\\\\n"
-msgstr ""
+msgstr "利用可能なネットワーク\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: IP {ip} - ONLINE\\\\\\\\n"
-msgstr ""
+msgstr "接続: IP {ip} - オンライン\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: No IP address - OFFLINE\\\\\\\\n"
-msgstr ""
+msgstr "接続: IP アドレスなし - オフライン\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: Unknown status\\\\\\\\n"
-msgstr ""
+msgstr "接続: 不明なステータス\\\\\\\\\\\\\\\\n"
 
 msgid " EXCELLENT connection\\\\\\\\n"
-msgstr ""
+msgstr "優れた接続\\\\\\\\\\\\\\\\n"
 
 msgid " SERVER INFORMATION:\\\\\\\\n"
-msgstr ""
+msgstr "サーバー情報:\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency ({:.1f} ms)\\\\\\\\n"
 msgstr ""
@@ -1682,10 +1682,10 @@ msgid " FAIR connection\\\\\\\\n"
 msgstr ""
 
 msgid " GOOD connection\\\\\\\\n"
-msgstr ""
+msgstr "良好な接続\\\\\\\\\\\\\\\\n"
 
 msgid " POOR connection\\\\\\\\n"
-msgstr ""
+msgstr "接続が悪い\\\\\\\\\\\\\\\\n"
 
 msgid " CLIENT INFORMATION:\\\\\\\\n"
 msgstr ""
@@ -1694,10 +1694,10 @@ msgid " All basic diagnostics available\\\\\\\\n"
 msgstr ""
 
 msgid " Tips:\\\\\\\\n"
-msgstr ""
+msgstr "ヒント:\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "ドライバー: 不明\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: {}\\\\\\\\n"
 msgstr ""
@@ -1709,7 +1709,7 @@ msgid " Excellent download speed ({:.1f} Mbps)\\\\\\\\n"
 msgstr ""
 
 msgid " TEST RESULTS:\\\\\\\\n"
-msgstr ""
+msgstr "テスト結果:\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed ({:.1f} Mbps)\\\\\\\\n"
 msgstr ""

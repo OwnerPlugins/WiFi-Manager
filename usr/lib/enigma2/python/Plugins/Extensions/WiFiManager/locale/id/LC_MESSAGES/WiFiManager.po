@@ -13,364 +13,364 @@ msgid "- {adapter}\\\\\\\\n"
 msgstr ""
 
 msgid "... and {} more networks\\\\\\\\n"
-msgstr ""
+msgstr "... dan {} lebih banyak jaringan\\\\\\\\\\\\\\\\n"
 
 msgid "1 dBm (Min)"
 msgstr ""
 
 msgid "1. Check if WiFi adapter is properly connected\\\\\\\\n"
-msgstr ""
+msgstr "1. Periksa apakah adaptor WiFi terhubung dengan benar\\\\\\\\\\\\\\\\n"
 
 msgid "1. Disconnect from current WiFi network\\\\\\\\n"
-msgstr ""
+msgstr "1. Putuskan sambungan dari jaringan WiFi saat ini\\\\\\\\\\\\\\\\n"
 
 msgid "10 dBm"
-msgstr ""
+msgstr "10dBm"
 
 msgid "15 dBm"
-msgstr ""
+msgstr "15dBm"
 
 msgid "2. Restart WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "2. Mulai ulang adaptor WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "2. Verify WiFi adapter is supported by your receiver\\\\\\\\n"
-msgstr ""
+msgstr "2. Pastikan adaptor WiFi didukung oleh receiver Anda\\\\\\\\\\\\\\\\n"
 
 msgid "20 dBm (Max)"
-msgstr ""
+msgstr "20 dBm (Maks)"
 
 msgid "3. Check if WiFi driver is installed\\\\\\\\n"
-msgstr ""
+msgstr "3. Periksa apakah driver WiFi sudah diinstal\\\\\\\\\\\\\\\\n"
 
 msgid "3. Try different USB port for USB WiFi adapters\\\\\\\\n"
-msgstr ""
+msgstr "3. Coba port USB lain untuk adaptor USB WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "4. Check if WiFi drivers are installed\\\\\\\\n"
-msgstr ""
+msgstr "4. Periksa apakah driver WiFi sudah diinstal\\\\\\\\\\\\\\\\n"
 
 msgid "4. Try with different USB WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "4. Coba dengan adaptor WiFi USB yang berbeda\\\\\\\\\\\\\\\\n"
 
 msgid "5 dBm"
-msgstr ""
+msgstr "5dBm"
 
 msgid "5. Check root permissions\\\\\\\\n"
-msgstr ""
+msgstr "5. Periksa izin root\\\\\\\\\\\\\\\\n"
 
 msgid "5. Restart the receiver and try again\\\\\\\\n"
-msgstr ""
+msgstr "5. Nyalakan ulang receiver dan coba lagi\\\\\\\\\\\\\\\\n"
 
 msgid "=== WiFi Diagnostics (System Commands Only) ===\\\\\\\\n"
-msgstr ""
+msgstr "=== Diagnostik WiFi (Hanya Perintah Sistem) ===\\\\\\\\\\\\\\\\n"
 
 msgid "ACTIVE"
-msgstr ""
+msgstr "AKTIF"
 
 msgid "About"
-msgstr ""
+msgstr "Tentang"
 
 msgid "Access Point"
-msgstr ""
+msgstr "Titik Akses"
 
 msgid "Access Point: {ap}"
-msgstr ""
+msgstr "Titik Akses: {ap}"
 
 msgid "Access Points"
-msgstr ""
+msgstr "Titik Akses"
 
 msgid "Access points info displayed."
-msgstr ""
+msgstr "Info titik akses ditampilkan."
 
 msgid "Ad-Hoc"
 msgstr ""
 
 msgid "Advanced"
-msgstr ""
+msgstr "Canggih"
 
 msgid "Advanced Config"
-msgstr ""
+msgstr "Konfigurasi Lanjutan"
 
 msgid "Advanced Config - {}"
-msgstr ""
+msgstr "Konfigurasi Tingkat Lanjut - {}"
 
 msgid "Advanced Scan"
-msgstr ""
+msgstr "Pemindaian Tingkat Lanjut"
 
 msgid "Advanced Scan Results"
-msgstr ""
+msgstr "Hasil Pemindaian Tingkat Lanjut"
 
 msgid "Advanced Tools"
-msgstr ""
+msgstr "Alat Canggih"
 
 msgid "Advanced WiFi Configuration"
-msgstr ""
+msgstr "Konfigurasi WiFi Tingkat Lanjut"
 
 msgid "Advanced WiFi Tools"
-msgstr ""
+msgstr "Alat WiFi Tingkat Lanjut"
 
 msgid "Advanced WiFi configuration"
-msgstr ""
+msgstr "Konfigurasi WiFi tingkat lanjut"
 
 msgid "Advanced WiFi configuration settings"
-msgstr ""
+msgstr "Pengaturan konfigurasi WiFi tingkat lanjut"
 
 msgid "Advanced WiFi interface configuration"
-msgstr ""
+msgstr "Konfigurasi antarmuka WiFi tingkat lanjut"
 
 msgid "Advanced configuration completed."
-msgstr ""
+msgstr "Konfigurasi lanjutan selesai."
 
 msgid "All Network Interfaces: {interfaces}\\\\\\\\n"
-msgstr ""
+msgstr "Semua Antarmuka Jaringan: {interfaces}\\\\\\\\\\\\\\\\n"
 
 msgid "All ping tests failed"
-msgstr ""
+msgstr "Semua tes ping gagal"
 
 msgid "All settings reset to defaults"
-msgstr ""
+msgstr "Semua pengaturan diatur ulang ke default"
 
 msgid "Applied: {} commands\\\\\\\\n"
-msgstr ""
+msgstr "Diterapkan: {} perintah\\\\\\\\\\\\\\\\n"
 
 msgid "Apply"
-msgstr ""
+msgstr "Menerapkan"
 
 msgid "Auto"
-msgstr ""
+msgstr "Mobil"
 
 msgid "Auto  limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "Batas otomatis; batas minimum:{limit}"
 
 msgid "Automatic (DHCP)"
-msgstr ""
+msgstr "Otomatis (DHCP)"
 
 msgid "Available frequencies and channels for your region"
-msgstr ""
+msgstr "Frekuensi dan saluran yang tersedia untuk wilayah Anda"
 
 msgid "Available frequencies/channels"
-msgstr ""
+msgstr "Frekuensi/saluran yang tersedia"
 
 msgid "Available interfaces: {}"
-msgstr ""
+msgstr "Antarmuka yang tersedia: {}"
 
 msgid "Back"
-msgstr ""
+msgstr "Kembali"
 
 msgid "Basic"
-msgstr ""
+msgstr "Dasar"
 
 msgid "Basic info error: {}"
-msgstr ""
+msgstr "Kesalahan info dasar: {}"
 
 msgid "Basic view enabled - rescan to see basic info"
-msgstr ""
+msgstr "Tampilan dasar diaktifkan - pindai ulang untuk melihat info dasar"
 
 msgid "Bit Rate: {rate}"
-msgstr ""
+msgstr "Kecepatan Bit: {rate}"
 
 msgid "Bit Rates:"
-msgstr ""
+msgstr "Kecepatan Bit:"
 
 msgid "Bitrate"
-msgstr ""
+msgstr "Kecepatan bit"
 
 msgid "Bitrate Info"
-msgstr ""
+msgstr "Info Kecepatan Bit"
 
 msgid "Bitrate info displayed."
-msgstr ""
+msgstr "Info kecepatan bit ditampilkan."
 
 msgid "Bitrate information not available\\\\\\\\n"
-msgstr ""
+msgstr "Informasi kecepatan bit tidak tersedia\\\\\\\\\\\\\\\\n"
 
 msgid "CONNECTED to: {} - Press OK for options"
-msgstr ""
+msgstr "TERHUBUNG ke: {} - Tekan OK untuk melihat opsi"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Membatalkan"
 
 msgid "Cancelling test..."
-msgstr ""
+msgstr "Membatalkan tes..."
 
 msgid "Cell"
-msgstr ""
+msgstr "Sel"
 
 msgid "Channel"
-msgstr ""
+msgstr "Saluran"
 
 msgid "Channel Info"
-msgstr ""
+msgstr "Info Saluran"
 
 msgid "Channel info displayed."
-msgstr ""
+msgstr "Info saluran ditampilkan."
 
 msgid "Channel {}"
-msgstr ""
+msgstr "Saluran {}"
 
 msgid "Channel: %s\\\\\\\\n"
-msgstr ""
+msgstr "Saluran: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Check System Logs"
-msgstr ""
+msgstr "Periksa Log Sistem"
 
 msgid "Check system logs for WiFi errors"
-msgstr ""
+msgstr "Periksa log sistem untuk kesalahan WiFi"
 
 msgid "Check system logs for WiFi errors and connection issues"
-msgstr ""
+msgstr "Periksa log sistem untuk kesalahan WiFi dan masalah koneksi"
 
 msgid "Checking internet connection..."
-msgstr ""
+msgstr "Memeriksa koneksi internet..."
 
 msgid "Checking system logs..."
-msgstr ""
+msgstr "Memeriksa log sistem..."
 
 msgid "Clear"
-msgstr ""
+msgstr "Jernih"
 
 msgid "Client info completed"
-msgstr ""
+msgstr "Info klien selesai"
 
 msgid "Client info error: {error}"
-msgstr ""
+msgstr "Kesalahan info klien: {error}"
 
 msgid "Close"
-msgstr ""
+msgstr "Menutup"
 
 msgid "Cloudflare"
-msgstr ""
+msgstr "awan suar"
 
 msgid "Complete iwconfig-like information"
-msgstr ""
+msgstr "Lengkapi informasi seperti iwconfig"
 
 msgid "Config"
-msgstr ""
+msgstr "Konfigurasi"
 
 msgid "Configure {}"
-msgstr ""
+msgstr "Konfigurasikan {}"
 
 msgid "Connect"
-msgstr ""
+msgstr "Menghubungkan"
 
 msgid "Connect to WiFi networks"
-msgstr ""
+msgstr "Hubungkan ke jaringan WiFi"
 
 msgid "Connected but no timing data"
-msgstr ""
+msgstr "Terhubung tetapi tidak ada data waktu"
 
 msgid "Connected successfully!"
-msgstr ""
+msgstr "Berhasil terhubung!"
 
 msgid "Connected to %s"
-msgstr ""
+msgstr "Terhubung ke %s"
 
 msgid "Connected to: %s"
-msgstr ""
+msgstr "Terhubung ke: %s"
 
 msgid "Connected: {} | Signal: {} dBm | IP: {}"
-msgstr ""
+msgstr "Terhubung: {} | Sinyal: {} dBm | AKU P: {}"
 
 msgid "Connecting to %s..."
-msgstr ""
+msgstr "Menghubungkan ke %s..."
 
 msgid "Connection Info"
-msgstr ""
+msgstr "Info Koneksi"
 
 msgid "Connection failed!"
-msgstr ""
+msgstr "Koneksi gagal!"
 
 msgid "Connection timeout"
-msgstr ""
+msgstr "Batas waktu koneksi habis"
 
 msgid "Country Code"
-msgstr ""
+msgstr "Kode negara"
 
 msgid "DHCP"
 msgstr ""
 
 msgid "DNS Server 1"
-msgstr ""
+msgstr "Server DNS 1"
 
 msgid "DNS Server 2"
-msgstr ""
+msgstr "Server DNS 2"
 
 msgid "DOWN"
-msgstr ""
+msgstr "TURUN"
 
 msgid "Data Rate"
-msgstr ""
+msgstr "Kecepatan Data"
 
 msgid "Defaults"
-msgstr ""
+msgstr "Default"
 
 msgid "Detailed Info - {}"
-msgstr ""
+msgstr "Info Lengkap - {}"
 
 msgid "Detailed network scanning"
-msgstr ""
+msgstr "Pemindaian jaringan terperinci"
 
 msgid "Detailed network scanning with signal strength and encryption info"
-msgstr ""
+msgstr "Pemindaian jaringan terperinci dengan kekuatan sinyal dan info enkripsi"
 
 msgid "Detailed speed test failed - Check internet connection"
-msgstr ""
+msgstr "Tes kecepatan terperinci gagal - Periksa koneksi internet"
 
 msgid "Detailed test completed"
-msgstr ""
+msgstr "Tes terperinci selesai"
 
 msgid "Detailed test error: {error}"
-msgstr ""
+msgstr "Kesalahan pengujian terperinci: {error}"
 
 msgid "Detailed view enabled - rescan to see details"
-msgstr ""
+msgstr "Tampilan detail diaktifkan - pindai ulang untuk melihat detail"
 
 msgid "Details"
-msgstr ""
+msgstr "Detail"
 
 msgid "Details Info"
-msgstr ""
+msgstr "Informasi Detail"
 
 msgid "Diagnostic error: {}\\\\\\\\n"
-msgstr ""
+msgstr "Kesalahan diagnostik: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Diagnostics"
-msgstr ""
+msgstr "Diagnostik"
 
 msgid "Disconnect"
-msgstr ""
+msgstr "Memutuskan"
 
 msgid "Disconnected"
-msgstr ""
+msgstr "Terputus"
 
 msgid "Disconnecting..."
-msgstr ""
+msgstr "Memutuskan sambungan..."
 
 msgid "Download Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "Kecepatan Unduhan: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Download Speed: {download}\\\\\\\\n"
-msgstr ""
+msgstr "Kecepatan Unduh: {download}\\\\\\\\\\\\\\\\n"
 
 msgid "Download test completed"
-msgstr ""
+msgstr "Tes pengunduhan selesai"
 
 msgid "Download: Failed\\\\\\\\n"
-msgstr ""
+msgstr "Unduhan: Gagal\\\\\\\\\\\\\\\\n"
 
 msgid "Download: {:.2f} Mbps\\\\\\\\n"
-msgstr ""
+msgstr "Unduh: {:.2f} Mbps\\\\\\\\\\\\\\\\n"
 
 msgid "Driver check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Pemeriksaan driver gagal: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "Driver info error: {}"
-msgstr ""
+msgstr "Kesalahan info pengemudi: {}"
 
 msgid "Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "Pengemudi: Tidak diketahui\\\\\\\\\\\\\\\\n"
 
 msgid "Driver: {driver}\\\\\\\\n"
-msgstr ""
+msgstr "Pengemudi: {driver}\\\\\\\\\\\\\\\\n"
 
 msgid "ESSID: %s\\\\\\\\n"
 msgstr ""
@@ -379,256 +379,256 @@ msgid "ESSID: {}"
 msgstr ""
 
 msgid "Edit Configuration"
-msgstr ""
+msgstr "Sunting Konfigurasi"
 
 msgid "Edit Password"
-msgstr ""
+msgstr "Sunting Kata Sandi"
 
 msgid "Encryption"
-msgstr ""
+msgstr "Enkripsi"
 
 msgid "Encryption Info"
-msgstr ""
+msgstr "Info Enkripsi"
 
 msgid "Encryption info displayed."
-msgstr ""
+msgstr "Info enkripsi ditampilkan."
 
 msgid "Encryption information not available\\\\\\\\n"
-msgstr ""
+msgstr "Informasi enkripsi tidak tersedia\\\\\\\\\\\\\\\\n"
 
 msgid "Encryption keys and security"
-msgstr ""
+msgstr "Kunci enkripsi dan keamanan"
 
 msgid "Encryption keys and security protocols"
-msgstr ""
+msgstr "Kunci enkripsi dan protokol keamanan"
 
 msgid "Encryption: %s\\\\\\\\n"
-msgstr ""
+msgstr "Enkripsi: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Enter Password"
-msgstr ""
+msgstr "Masukkan Kata Sandi"
 
 msgid "Enter password for: %s"
-msgstr ""
+msgstr "Masukkan kata sandi untuk: %s"
 
 msgid "Error"
-msgstr ""
+msgstr "Kesalahan"
 
 msgid "Error applying advanced settings: {}"
-msgstr ""
+msgstr "Kesalahan saat menerapkan setelan lanjutan: {}"
 
 msgid "Error applying settings: {}"
-msgstr ""
+msgstr "Kesalahan saat menerapkan setelan: {}"
 
 msgid "Error disconnecting"
-msgstr ""
+msgstr "Terjadi kesalahan saat memutuskan sambungan"
 
 msgid "Error getting AP information: {}"
-msgstr ""
+msgstr "Terjadi kesalahan saat mendapatkan informasi AP: {}"
 
 msgid "Error getting bitrate information: {}"
-msgstr ""
+msgstr "Terjadi kesalahan saat mendapatkan informasi bitrate: {}"
 
 msgid "Error getting channel information: {}"
-msgstr ""
+msgstr "Terjadi kesalahan saat mendapatkan informasi saluran: {}"
 
 msgid "Error getting connection details: {error}"
-msgstr ""
+msgstr "Kesalahan saat mendapatkan detail koneksi: {error}"
 
 msgid "Error getting encryption information: {}"
-msgstr ""
+msgstr "Terjadi kesalahan saat mendapatkan informasi enkripsi: {}"
 
 msgid "Error getting power information: {}"
-msgstr ""
+msgstr "Terjadi kesalahan saat mendapatkan informasi daya: {}"
 
 msgid "Error getting retry information: {}"
-msgstr ""
+msgstr "Terjadi kesalahan saat mendapatkan informasi percobaan ulang: {}"
 
 msgid "Error loading help"
-msgstr ""
+msgstr "Terjadi kesalahan saat memuat bantuan"
 
 msgid "Error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Kesalahan pada {interface}: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "Error opening {module}: {error}"
-msgstr ""
+msgstr "Kesalahan saat membuka {module}: {error}"
 
 msgid "Error running {tool}: {error}"
-msgstr ""
+msgstr "Kesalahan saat menjalankan {tool}: {error}"
 
 msgid "Error: {error}"
-msgstr ""
+msgstr "Kesalahan: {error}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Kesalahan: {}"
 
 msgid "Estimating upload speed..."
-msgstr ""
+msgstr "Memperkirakan kecepatan unggah..."
 
 msgid "Excellent"
-msgstr ""
+msgstr "Bagus sekali"
 
 msgid "Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "Kecepatan pengunduhan luar biasa\\\\\\\\\\\\\\\\n"
 
 msgid "Executing tool..."
-msgstr ""
+msgstr "Alat pelaksana..."
 
 msgid "Exit"
-msgstr ""
+msgstr "KELUAR"
 
 msgid "Failed"
-msgstr ""
+msgstr "Gagal"
 
 msgid "Failed to connect to %s"
-msgstr ""
+msgstr "Gagal menyambung ke %s"
 
 msgid "Failed: {} commands"
-msgstr ""
+msgstr "Gagal: perintah {}"
 
 msgid "Fair"
-msgstr ""
+msgstr "Adil"
 
 msgid "Final connectivity check..."
-msgstr ""
+msgstr "Pemeriksaan konektivitas terakhir..."
 
 msgid "Finding best server..."
-msgstr ""
+msgstr "Menemukan server terbaik..."
 
 msgid "Fixed lifetime ;  min lifetime:{lifetime}"
-msgstr ""
+msgstr "Memperbaiki seumur hidup; min seumur hidup:{lifetime}"
 
 msgid "Fixed limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "Batas tetap; batas minimum:{limit}"
 
 msgid "For troubleshooting, detailed guidance, or community support, visit:\\\\\\\\n"
-msgstr ""
+msgstr "Untuk pemecahan masalah, panduan terperinci, atau dukungan komunitas, kunjungi:\\\\\\\\\\\\\\\\n"
 
 msgid "Forget Network"
-msgstr ""
+msgstr "Lupakan Jaringan"
 
 msgid "Forgotten network: {}"
-msgstr ""
+msgstr "Jaringan yang terlupakan: {}"
 
 msgid "Found {} networks:\\\\\\\\n"
-msgstr ""
+msgstr "Ditemukan {} jaringan:\\\\\\\\\\\\\\\\n"
 
 msgid "Found: {}\\\\\\\\n"
-msgstr ""
+msgstr "Ditemukan: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Fragmentation"
-msgstr ""
+msgstr "Fragmentasi"
 
 msgid "Frequency"
-msgstr ""
+msgstr "Frekuensi"
 
 msgid "Frequency information not available\\\\\\\\n"
-msgstr ""
+msgstr "Informasi frekuensi tidak tersedia\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency/Channel"
-msgstr ""
+msgstr "Frekuensi/Saluran"
 
 msgid "Frequency:"
-msgstr ""
+msgstr "Frekuensi:"
 
 msgid "Frequency: %s\\\\\\\\n"
-msgstr ""
+msgstr "Frekuensi: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency: {frequency}"
-msgstr ""
+msgstr "Frekuensi: {frequency}"
 
 msgid "Full Comprehensive Test"
-msgstr ""
+msgstr "Tes Komprehensif Penuh"
 
 msgid "Full Test"
-msgstr ""
+msgstr "Tes Penuh"
 
 msgid "Full test completed"
-msgstr ""
+msgstr "Tes penuh selesai"
 
 msgid "Full test error: {error}"
-msgstr ""
+msgstr "Kesalahan pengujian penuh: {error}"
 
 msgid "Gateway"
-msgstr ""
+msgstr "Gerbang"
 
 msgid "Gateway: {gateway}"
-msgstr ""
+msgstr "Gerbang: {gateway}"
 
 msgid "Gathering client information..."
-msgstr ""
+msgstr "Mengumpulkan informasi klien..."
 
 msgid "Gathering network details..."
-msgstr ""
+msgstr "Mengumpulkan detail jaringan..."
 
 msgid "Getting access point information..."
-msgstr ""
+msgstr "Mendapatkan informasi titik akses..."
 
 msgid "Getting bitrate information..."
-msgstr ""
+msgstr "Mendapatkan informasi kecepatan bit..."
 
 msgid "Getting channel information..."
-msgstr ""
+msgstr "Mendapatkan informasi saluran..."
 
 msgid "Getting client information..."
-msgstr ""
+msgstr "Mendapatkan informasi klien..."
 
 msgid "Getting encryption information..."
-msgstr ""
+msgstr "Mendapatkan informasi enkripsi..."
 
 msgid "Getting power management information..."
-msgstr ""
+msgstr "Mendapatkan informasi manajemen daya..."
 
 msgid "Getting retry information..."
-msgstr ""
+msgstr "Mendapatkan informasi percobaan ulang..."
 
 msgid "Good"
-msgstr ""
+msgstr "Bagus"
 
 msgid "Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "Kecepatan unduh bagus\\\\\\\\\\\\\\\\n"
 
 msgid "Google"
 msgstr ""
 
 msgid "Google DNS"
-msgstr ""
+msgstr "DNS Google"
 
 msgid "Help"
-msgstr ""
+msgstr "Membantu"
 
 msgid "Hidden"
-msgstr ""
+msgstr "Tersembunyi"
 
 msgid "Hidden Network"
-msgstr ""
+msgstr "Jaringan Tersembunyi"
 
 msgid "Host not found"
-msgstr ""
+msgstr "Tuan rumah tidak ditemukan"
 
 msgid "Hostname: {hostname}"
-msgstr ""
+msgstr "Nama host: {hostname}"
 
 msgid "INACTIVE"
-msgstr ""
+msgstr "TIDAK AKTIF"
 
 msgid "IP Address"
-msgstr ""
+msgstr "Alamat IP"
 
 msgid "IP Address: {ip}"
-msgstr ""
+msgstr "Alamat IP: {ip}"
 
 msgid "IP Configuration"
-msgstr ""
+msgstr "Konfigurasi IP"
 
 msgid "IP: N/A"
-msgstr ""
+msgstr "IP: Tidak Ada"
 
 msgid "IP: {ip}\\\\\\\\n"
-msgstr ""
+msgstr "Alamat IP: {ip}\\\\\\\\\\\\\\\\n"
 
 msgid "IP: {}"
-msgstr ""
+msgstr "AKU P: {}"
 
 msgid "ISP: {isp}"
 msgstr ""
@@ -637,772 +637,772 @@ msgid "ISP: {isp}\\\\\\\\n"
 msgstr ""
 
 msgid "Info"
-msgstr ""
+msgstr "Informasi"
 
 msgid "Initializing WiFi..."
-msgstr ""
+msgstr "Menginisialisasi WiFi..."
 
 msgid "Initializing detailed speed test..."
-msgstr ""
+msgstr "Menginisialisasi uji kecepatan terperinci..."
 
 msgid "Interface"
-msgstr ""
+msgstr "Antarmuka"
 
 msgid "Interface found: {}"
-msgstr ""
+msgstr "Antarmuka ditemukan: {}"
 
 msgid "Interface restarted successfully"
-msgstr ""
+msgstr "Antarmuka berhasil dimulai ulang"
 
 msgid "Interface restarted."
-msgstr ""
+msgstr "Antarmuka dimulai ulang."
 
 msgid "Interface {} not available"
-msgstr ""
+msgstr "Antarmuka {} tidak tersedia"
 
 msgid "Interface: {}"
-msgstr ""
+msgstr "Antarmuka: {}"
 
 msgid "Invalid misc:%s"
-msgstr ""
+msgstr "Lain-lain tidak valid:%s"
 
 msgid "Kernel Messages (dmesg):\\\\\\\\n"
-msgstr ""
+msgstr "Pesan Kernel (dmesg):\\\\\\\\\\\\\\\\n"
 
 msgid "Latency test completed"
-msgstr ""
+msgstr "Tes latensi selesai"
 
 msgid "Latency: %s\\\\\\\\n"
-msgstr ""
+msgstr "Latensi: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Link Quality: {quality}"
-msgstr ""
+msgstr "Kualitas Tautan: {quality}"
 
 msgid "Link Quality:%s/100"
-msgstr ""
+msgstr "Kualitas Tautan:%s/100"
 
 msgid "List of access points and connected peer stations"
-msgstr ""
+msgstr "Daftar titik akses dan stasiun rekan yang terhubung"
 
 msgid "List of access points/peers"
-msgstr ""
+msgstr "Daftar titik akses/rekan"
 
 msgid "Location: {city}, {country}"
-msgstr ""
+msgstr "Lokasi: {city}, {country}"
 
 msgid "Location: {city}, {country}\\\\\\\\n"
-msgstr ""
+msgstr "Lokasi: {city}, {country}\\\\\\\\\\\\\\\\n"
 
 msgid "Logs checked."
-msgstr ""
+msgstr "Log diperiksa."
 
 msgid "MAC Address: {mac}"
-msgstr ""
+msgstr "Alamat MAC: {mac}"
 
 msgid "MAC Address: {mac}\\\\\\\\n"
-msgstr ""
+msgstr "Alamat MAC: {mac}\\\\\\\\\\\\\\\\n"
 
 msgid "MAC: %s\\\\\\\\n"
 msgstr ""
 
 msgid "MAC: N/A"
-msgstr ""
+msgstr "MAC: Tidak Ada"
 
 msgid "MAC: {}"
 msgstr ""
 
 msgid "Managed (Client)"
-msgstr ""
+msgstr "Dikelola (Klien)"
 
 msgid "Manual (Static IP)"
-msgstr ""
+msgstr "Manual (IP Statis)"
 
 msgid "Master (AP)"
-msgstr ""
+msgstr "Guru (AP)"
 
 msgid "Missed beacon:%s"
-msgstr ""
+msgstr "Suar tidak terjawab:%s"
 
 msgid "Mode:"
 msgstr ""
 
 msgid "Mode: {mode}"
-msgstr ""
+msgstr "Modus: {mode}"
 
 msgid "Modules reloaded."
-msgstr ""
+msgstr "Modul dimuat ulang."
 
 msgid "Monitor"
-msgstr ""
+msgstr "Memantau"
 
 msgid "Monitoring error: {}"
-msgstr ""
+msgstr "Kesalahan pemantauan: {}"
 
 msgid "N/A"
-msgstr ""
+msgstr "T/A"
 
 msgid "Name: {name}\\\\\\\\n"
-msgstr ""
+msgstr "Nama: {name}\\\\\\\\\\\\\\\\n"
 
 msgid "Netmask"
-msgstr ""
+msgstr "masker jaringan"
 
 msgid "Network %d:\\\\\\\\n"
-msgstr ""
+msgstr "Jaringan %d:\\\\\\\\\\\\\\\\n"
 
 msgid "Network Interface: {interface}"
-msgstr ""
+msgstr "Antarmuka Jaringan: {interface}"
 
 msgid "Network Name (SSID)"
-msgstr ""
+msgstr "Nama Jaringan (SSID)"
 
 msgid "Network forgotten!"
-msgstr ""
+msgstr "Jaringan dilupakan!"
 
 msgid "Network info error: {error}"
-msgstr ""
+msgstr "Kesalahan info jaringan: {error}"
 
 msgid "Network information unavailable"
-msgstr ""
+msgstr "Informasi jaringan tidak tersedia"
 
 msgid "Network unreachable"
-msgstr ""
+msgstr "Jaringan tidak dapat dijangkau"
 
 msgid "Network: %s"
-msgstr ""
+msgstr "Jaringan: %s"
 
 msgid "Network: {essid}"
-msgstr ""
+msgstr "Jaringan: {essid}"
 
 msgid "No"
-msgstr ""
+msgstr "TIDAK"
 
 msgid "No IP"
-msgstr ""
+msgstr "Tidak ada IP"
 
 msgid "No WiFi connection data available"
-msgstr ""
+msgstr "Tidak ada data koneksi WiFi yang tersedia"
 
 msgid "No WiFi interface available"
-msgstr ""
+msgstr "Tidak ada antarmuka WiFi yang tersedia"
 
 msgid "No WiFi interface detected. Please check your hardware."
-msgstr ""
+msgstr "Tidak ada antarmuka WiFi yang terdeteksi. Silakan periksa perangkat keras Anda."
 
 msgid "No WiFi interface found"
-msgstr ""
+msgstr "Tidak ada antarmuka WiFi yang ditemukan"
 
 msgid "No WiFi interfaces found"
-msgstr ""
+msgstr "Tidak ditemukan antarmuka WiFi"
 
 msgid "No WiFi interfaces found\\\\\\\\n"
-msgstr ""
+msgstr "Tidak ditemukan antarmuka WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "No WiFi messages in system logs"
-msgstr ""
+msgstr "Tidak ada pesan WiFi di log sistem"
 
 msgid "No connection details available"
-msgstr ""
+msgstr "Tidak ada detail koneksi yang tersedia"
 
 msgid "No data"
-msgstr ""
+msgstr "Tidak ada data"
 
 msgid "No help available for this tool."
-msgstr ""
+msgstr "Tidak ada bantuan yang tersedia untuk alat ini."
 
 msgid "No interface"
-msgstr ""
+msgstr "Tidak ada antarmuka"
 
 msgid "No internet connection"
-msgstr ""
+msgstr "Tidak ada koneksi internet"
 
 msgid "No internet connection detected"
-msgstr ""
+msgstr "Tidak ada koneksi internet yang terdeteksi"
 
 msgid "No network selected"
-msgstr ""
+msgstr "Tidak ada jaringan yang dipilih"
 
 msgid "No networks found"
-msgstr ""
+msgstr "Tidak ada jaringan yang ditemukan"
 
 msgid "No networks found - Press BLUE to rescan"
-msgstr ""
+msgstr "Tidak ada jaringan yang ditemukan - Tekan BIRU untuk memindai ulang"
 
 msgid "No networks found on {}\\\\\\\\n"
-msgstr ""
+msgstr "Tidak ada jaringan yang ditemukan di {}\\\\\\\\\\\\\\\\n"
 
 msgid "No networks found or scan not supported\\\\\\\\n"
-msgstr ""
+msgstr "Tidak ada jaringan yang ditemukan atau pemindaian tidak didukung\\\\\\\\\\\\\\\\n"
 
 msgid "No networks found with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "Tidak ada jaringan yang ditemukan dengan iwlist\\\\\\\\\\\\\\\\n"
 
 msgid "No packets sent"
-msgstr ""
+msgstr "Tidak ada paket yang dikirim"
 
 msgid "No ping data"
-msgstr ""
+msgstr "Tidak ada data ping"
 
 msgid "No results with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "Tidak ada hasil dengan iwlist\\\\\\\\\\\\\\\\n"
 
 msgid "No station/peer information available\\\\\\\\n"
-msgstr ""
+msgstr "Tidak ada informasi stasiun/rekan yang tersedia\\\\\\\\\\\\\\\\n"
 
 msgid "Noise level:%sdBm"
-msgstr ""
+msgstr "Tingkat kebisingan:%sdBm"
 
 msgid "None"
-msgstr ""
+msgstr "Tidak ada"
 
 msgid "None found"
-msgstr ""
+msgstr "Tidak ada yang ditemukan"
 
 msgid "Not connected"
-msgstr ""
+msgstr "Tidak terhubung"
 
 msgid "Not connected to any network"
-msgstr ""
+msgstr "Tidak terhubung ke jaringan apa pun"
 
 msgid "Not-Associated"
-msgstr ""
+msgstr "Tidak Terkait"
 
 msgid "Open"
-msgstr ""
+msgstr "Membuka"
 
 msgid "OpenDNS"
-msgstr ""
+msgstr "BukaDNS"
 
 msgid "Operation Mode"
-msgstr ""
+msgstr "Modus Operasi"
 
 msgid "Operation completed."
-msgstr ""
+msgstr "Operasi selesai."
 
 msgid "Output: {output}..."
-msgstr ""
+msgstr "Keluaran: {output}..."
 
 msgid "Packet retry limits and frame lifetime settings"
-msgstr ""
+msgstr "Batas percobaan ulang paket dan pengaturan masa pakai bingkai"
 
 msgid "Packets: {sent}, Lost: {lost} ({percentage:.1f}%) - {stability}"
-msgstr ""
+msgstr "Paket: {sent}, Hilang: {lost} ({percentage:.1f}%) - {stability}"
 
 msgid "Password"
-msgstr ""
+msgstr "Kata sandi"
 
 msgid "Pause"
-msgstr ""
+msgstr "Berhenti sebentar"
 
 msgid "Performing initial scan..."
-msgstr ""
+msgstr "Melakukan pemindaian awal..."
 
 msgid "Ping error for {host}: {error}"
-msgstr ""
+msgstr "Kesalahan ping untuk {host}: {error}"
 
 msgid "Ping failed"
-msgstr ""
+msgstr "Ping gagal"
 
 msgid "Ping failed for {host} (returncode: {code})"
-msgstr ""
+msgstr "Ping gagal untuk {host} (kode pengembalian: {code})"
 
 msgid "Ping not available"
-msgstr ""
+msgstr "Ping tidak tersedia"
 
 msgid "Ping test completed: {avg:.1f} ms average ({success}/{total} successful)"
-msgstr ""
+msgstr "Tes ping selesai: rata-rata {avg:.1f} ms ({success}/{total} berhasil)"
 
 msgid "Ping test error: {error}"
-msgstr ""
+msgstr "Kesalahan tes ping: {error}"
 
 msgid "Ping timeout for {host}"
-msgstr ""
+msgstr "Batas waktu ping untuk {host}"
 
 msgid "Ping {host} (fallback): {time} ms"
-msgstr ""
+msgstr "Ping {host} (pengganti): {time} ms"
 
 msgid "Ping {host}: {time} ms"
 msgstr ""
 
 msgid "Ping/Latency: {ping}\\\\\\\\n"
-msgstr ""
+msgstr "Ping/Latensi: {ping}\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: Failed\\\\\\\\n"
-msgstr ""
+msgstr "Ping: Gagal\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: {:.1f} ms\\\\\\\\n"
 msgstr ""
 
 msgid "Please enter a network name"
-msgstr ""
+msgstr "Silakan masukkan nama jaringan"
 
 msgid "Please enter a password"
-msgstr ""
+msgstr "Silakan masukkan kata sandi"
 
 msgid "Poor"
-msgstr ""
+msgstr "Miskin"
 
 msgid "Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "Kecepatan pengunduhan buruk\\\\\\\\\\\\\\\\n"
 
 msgid "Power Management"
-msgstr ""
+msgstr "Manajemen Daya"
 
 msgid "Power management info displayed."
-msgstr ""
+msgstr "Info manajemen daya ditampilkan."
 
 msgid "Power management information not available\\\\\\\\n"
-msgstr ""
+msgstr "Informasi manajemen daya tidak tersedia\\\\\\\\\\\\\\\\n"
 
 msgid "Power management settings"
-msgstr ""
+msgstr "Pengaturan manajemen daya"
 
 msgid "Power management settings and power saving modes"
-msgstr ""
+msgstr "Pengaturan manajemen daya dan mode hemat daya"
 
 msgid "Primary DNS"
-msgstr ""
+msgstr "DNS primer"
 
 msgid "Public IP: Unable to determine"
-msgstr ""
+msgstr "IP Publik: Tidak dapat menentukan"
 
 msgid "Public IP: {ip}"
-msgstr ""
+msgstr "IP Publik: {ip}"
 
 msgid "Quality: %s\\\\\\\\n"
-msgstr ""
+msgstr "Kualitas: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Quality: N/A"
-msgstr ""
+msgstr "Kualitas: Tidak Ada"
 
 msgid "Quality: {}%"
-msgstr ""
+msgstr "Kualitas: {}%"
 
 msgid "Quality: {}% ({})"
-msgstr ""
+msgstr "Kualitas: {}% ({})"
 
 msgid "Quick System Check"
-msgstr ""
+msgstr "Pemeriksaan Sistem Cepat"
 
 msgid "Quick Test"
-msgstr ""
+msgstr "Tes Cepat"
 
 msgid "Quick test completed"
-msgstr ""
+msgstr "Tes cepat selesai"
 
 msgid "Quick test error: {error}"
-msgstr ""
+msgstr "Kesalahan tes cepat: {error}"
 
 msgid "RTS Threshold"
-msgstr ""
+msgstr "Ambang Batas RTS"
 
 msgid "Real-time signal quality monitor"
-msgstr ""
+msgstr "Monitor kualitas sinyal waktu nyata"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Menyegarkan"
 
 msgid "Reload WiFi Modules"
-msgstr ""
+msgstr "Muat ulang Modul WiFi"
 
 msgid "Reload kernel WiFi modules"
-msgstr ""
+msgstr "Muat ulang modul WiFi kernel"
 
 msgid "Reload kernel WiFi modules to fix driver issues"
-msgstr ""
+msgstr "Muat ulang modul WiFi kernel untuk memperbaiki masalah driver"
 
 msgid "Remember password"
-msgstr ""
+msgstr "Ingat kata sandi"
 
 msgid "Restart WiFi Interface"
-msgstr ""
+msgstr "Mulai ulang Antarmuka WiFi"
 
 msgid "Restart WiFi interface %s?"
-msgstr ""
+msgstr "Mulai ulang antarmuka WiFi %s?"
 
 msgid "Restart wireless interface"
-msgstr ""
+msgstr "Mulai ulang antarmuka nirkabel"
 
 msgid "Restart wireless interface to reset connectivity"
-msgstr ""
+msgstr "Mulai ulang antarmuka nirkabel untuk mengatur ulang konektivitas"
 
 msgid "Restarting interface..."
-msgstr ""
+msgstr "Memulai ulang antarmuka..."
 
 msgid "Retry Limits"
-msgstr ""
+msgstr "Batas Coba Lagi"
 
 msgid "Retry limit information not available\\\\\\\\n"
-msgstr ""
+msgstr "Informasi batas coba lagi tidak tersedia\\\\\\\\\\\\\\\\n"
 
 msgid "Retry limits and lifetime"
-msgstr ""
+msgstr "Batas coba lagi dan seumur hidup"
 
 msgid "Retry limits info displayed."
-msgstr ""
+msgstr "Info batas coba lagi ditampilkan."
 
 msgid "Running detailed speed test..."
-msgstr ""
+msgstr "Menjalankan tes kecepatan terperinci..."
 
 msgid "Running full speed test..."
-msgstr ""
+msgstr "Menjalankan tes kecepatan penuh..."
 
 msgid "Running quick speed test..."
-msgstr ""
+msgstr "Menjalankan tes kecepatan cepat..."
 
 msgid "Rx invalid crypt:%s"
-msgstr ""
+msgstr "Rx ruang bawah tanah tidak valid:%s"
 
 msgid "Rx invalid frag:%s"
-msgstr ""
+msgstr "Rx pecahan tidak valid:%s"
 
 msgid "Rx invalid nwid:%s"
-msgstr ""
+msgstr "Rx tidak valid pada tanggal:%s"
 
 msgid "Save & Connect"
-msgstr ""
+msgstr "Simpan & Hubungkan"
 
 msgid "Scan"
-msgstr ""
+msgstr "Pindai"
 
 msgid "Scan completed."
-msgstr ""
+msgstr "Pemindaian selesai."
 
 msgid "Scan error {}"
-msgstr ""
+msgstr "Kesalahan pemindaian {}"
 
 msgid "Scan error:"
-msgstr ""
+msgstr "Kesalahan pemindaian:"
 
 msgid "Scan error: {}"
-msgstr ""
+msgstr "Kesalahan pemindaian: {}"
 
 msgid "Scan error: {}\\\\\\\\n"
-msgstr ""
+msgstr "Kesalahan pemindaian: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Scan failed"
-msgstr ""
+msgstr "Pemindaian gagal"
 
 msgid "Scan for available networks"
-msgstr ""
+msgstr "Pindai jaringan yang tersedia"
 
 msgid "Scanner"
-msgstr ""
+msgstr "Pemindai"
 
 msgid "Scanning for WiFi networks..."
-msgstr ""
+msgstr "Memindai jaringan WiFi..."
 
 msgid "Scanning for networks..."
-msgstr ""
+msgstr "Memindai jaringan..."
 
 msgid "Scanning..."
-msgstr ""
+msgstr "Memindai..."
 
 msgid "Secondary DNS"
-msgstr ""
+msgstr "DNS Sekunder"
 
 msgid "Secured"
-msgstr ""
+msgstr "Diamankan"
 
 msgid "Select"
-msgstr ""
+msgstr "Memilih"
 
 msgid "Select a speed test type"
-msgstr ""
+msgstr "Pilih jenis tes kecepatan"
 
 msgid "Select a tool from the menu to get detailed information about WiFi configuration and status."
-msgstr ""
+msgstr "Pilih alat dari menu untuk mendapatkan informasi detail tentang konfigurasi dan status WiFi."
 
 msgid "Select a tool to see description"
-msgstr ""
+msgstr "Pilih alat untuk melihat deskripsi"
 
 msgid "Select a tool to view detailed information"
-msgstr ""
+msgstr "Pilih alat untuk melihat informasi rinci"
 
 msgid "Select an option"
-msgstr ""
+msgstr "Pilih sebuah opsi"
 
 msgid "Server found"
-msgstr ""
+msgstr "Server ditemukan"
 
 msgid "Server info error: {error}"
-msgstr ""
+msgstr "Kesalahan info server: {error}"
 
 msgid "Settings applied successfully"
-msgstr ""
+msgstr "Pengaturan berhasil diterapkan"
 
 msgid "Signal Level: {signal} dBm"
-msgstr ""
+msgstr "Tingkat Sinyal: {signal} dBm"
 
 msgid "Signal level:%sdBm"
-msgstr ""
+msgstr "Tingkat sinyal:%sdBm"
 
 msgid "Signal: %s\\\\\\\\n"
-msgstr ""
+msgstr "Sinyal: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Signal: N/A"
-msgstr ""
+msgstr "Sinyal: Tidak Ada"
 
 msgid "Signal: {} dBm"
-msgstr ""
+msgstr "Sinyal: {} dBm"
 
 msgid "Speedtest"
-msgstr ""
+msgstr "Tes kecepatan"
 
 msgid "Speedtest failed - No internet connection or all tests failed"
-msgstr ""
+msgstr "Speedtest gagal - Tidak ada koneksi internet atau semua tes gagal"
 
 msgid "Speedtest failed: {}"
-msgstr ""
+msgstr "Tes kecepatan gagal: {}"
 
 msgid "SpeedtestSimple not available"
-msgstr ""
+msgstr "SpeedtestSimple tidak tersedia"
 
 msgid "Sponsor: {sponsor}\\\\\\\\n"
 msgstr ""
 
 msgid "Stability test error: {error}"
-msgstr ""
+msgstr "Kesalahan uji stabilitas: {error}"
 
 msgid "Stable"
-msgstr ""
+msgstr "Stabil"
 
 msgid "Start"
-msgstr ""
+msgstr "Awal"
 
 msgid "Static"
-msgstr ""
+msgstr "Statis"
 
 msgid "Statistics error: {}"
-msgstr ""
+msgstr "Kesalahan statistik: {}"
 
 msgid "Status check failed: {}"
-msgstr ""
+msgstr "Pemeriksaan status gagal: {}"
 
 msgid "Stop"
-msgstr ""
+msgstr "Berhenti"
 
 msgid "Supported bit rates"
-msgstr ""
+msgstr "Kecepatan bit yang didukung"
 
 msgid "Supported bitrates and current transmission rates"
-msgstr ""
+msgstr "Bitrate yang didukung dan kecepatan transmisi saat ini"
 
 msgid "System Logs"
-msgstr ""
+msgstr "Log Sistem"
 
 msgid "System Logs:\\\\\\\\n"
-msgstr ""
+msgstr "Log Sistem:\\\\\\\\\\\\\\\\n"
 
 msgid "TX Power"
-msgstr ""
+msgstr "Kekuatan TX"
 
 msgid "Tertiary DNS"
-msgstr ""
+msgstr "DNS Tersier"
 
 msgid "Test cancelled"
-msgstr ""
+msgstr "Tes dibatalkan"
 
 msgid "Test completed - See results below"
-msgstr ""
+msgstr "Tes selesai - Lihat hasilnya di bawah"
 
 msgid "Test completed!"
-msgstr ""
+msgstr "Tes selesai!"
 
 msgid "Test failed"
-msgstr ""
+msgstr "Tes gagal"
 
 msgid "Testing connection stability..."
-msgstr ""
+msgstr "Menguji stabilitas koneksi..."
 
 msgid "Testing connectivity..."
-msgstr ""
+msgstr "Menguji konektivitas..."
 
 msgid "Testing download speed (multiple servers)..."
-msgstr ""
+msgstr "Menguji kecepatan unduh (beberapa server)..."
 
 msgid "Testing download speed..."
-msgstr ""
+msgstr "Menguji kecepatan unduh..."
 
 msgid "Testing latency to multiple hosts..."
-msgstr ""
+msgstr "Menguji latensi ke beberapa host..."
 
 msgid "Testing latency..."
-msgstr ""
+msgstr "Menguji latensi..."
 
 msgid "Testing upload speed..."
-msgstr ""
+msgstr "Menguji kecepatan unggah..."
 
 msgid "These forums are great places to get help,\\\\\\\\n"
-msgstr ""
+msgstr "Forum ini adalah tempat yang bagus untuk mendapatkan bantuan,\\\\\\\\\\\\\\\\n"
 
 msgid "Timeout"
-msgstr ""
+msgstr "Batas waktu"
 
 msgid "Tool not available"
-msgstr ""
+msgstr "Alat tidak tersedia"
 
 msgid "Tool not implemented: {}"
-msgstr ""
+msgstr "Alat tidak diimplementasikan: {}"
 
 msgid "Tools"
-msgstr ""
+msgstr "Peralatan"
 
 msgid "Tx excessive retries:%s"
-msgstr ""
+msgstr "Tx percobaan ulang yang berlebihan:%s"
 
 msgid "UP and active"
-msgstr ""
+msgstr "NAIK dan aktif"
 
 msgid "Unable to assess download quality\\\\\\\\n"
-msgstr ""
+msgstr "Tidak dapat menilai kualitas unduhan\\\\\\\\\\\\\\\\n"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Tidak dikenal"
 
 msgid "Unstable"
-msgstr ""
+msgstr "Tidak stabil"
 
 msgid "Upload Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "Kecepatan Unggah: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Upload Speed: {upload}\\\\\\\\n"
-msgstr ""
+msgstr "Kecepatan Unggah: {upload}\\\\\\\\\\\\\\\\n"
 
 msgid "Upload estimation completed"
-msgstr ""
+msgstr "Estimasi unggahan selesai"
 
 msgid "Upload test failed: {error}"
-msgstr ""
+msgstr "Tes unggahan gagal: {error}"
 
 msgid "Upload test not available"
-msgstr ""
+msgstr "Tes unggahan tidak tersedia"
 
 msgid "Upload test: {result}"
-msgstr ""
+msgstr "Tes unggah: {result}"
 
 msgid "Upload: Not available\\\\\\\\n"
-msgstr ""
+msgstr "Unggah: Tidak tersedia\\\\\\\\\\\\\\\\n"
 
 msgid "Upload: {:.2f} Mbps (estimated)\\\\\\\\n"
-msgstr ""
+msgstr "Unggah: {:.2f} Mbps (perkiraan)\\\\\\\\\\\\\\\\n"
 
 msgid "Very Poor"
-msgstr ""
+msgstr "Sangat Buruk"
 
 msgid "WEP Key Type"
-msgstr ""
+msgstr "Jenis Kunci WEP"
 
 msgid "WiFi Advanced Tools"
-msgstr ""
+msgstr "Alat Canggih WiFi"
 
 msgid "WiFi Connection Manager"
-msgstr ""
+msgstr "Manajer Koneksi WiFi"
 
 msgid "WiFi Diagnostics"
-msgstr ""
+msgstr "Diagnostik Wi-Fi"
 
 msgid "WiFi Manager"
-msgstr ""
+msgstr "Manajer WiFi"
 
 msgid "WiFi Manager iwconfig version {}"
-msgstr ""
+msgstr "Manajer WiFi versi iwconfig {}"
 
 msgid "WiFi Manager v."
-msgstr ""
+msgstr "Manajer WiFi v."
 
 msgid "WiFi Password"
-msgstr ""
+msgstr "Kata Sandi Wi-Fi"
 
 msgid "WiFi Scanner"
-msgstr ""
+msgstr "Pemindai WiFi"
 
 msgid "WiFi Signal Monitor"
-msgstr ""
+msgstr "Pemantau Sinyal WiFi"
 
 msgid "WiFi Speed Test Manager"
-msgstr ""
+msgstr "Manajer Tes Kecepatan WiFi"
 
 msgid "WiFi diagnostics and tests"
-msgstr ""
+msgstr "Diagnostik dan tes WiFi"
 
 msgid "Wired"
-msgstr ""
+msgstr "Kabel"
 
 msgid "Wireless"
-msgstr ""
+msgstr "Nirkabel"
 
 msgid "Wireless info error: {}"
-msgstr ""
+msgstr "Kesalahan info nirkabel: {}"
 
 msgid "Yes"
-msgstr ""
+msgstr "Ya"
 
 msgid "[LOCK]"
-msgstr ""
+msgstr "[KUNCI]"
 
 msgid "[OPEN]"
-msgstr ""
+msgstr "[MEMBUKA]"
 
 msgid "[SAVED]"
-msgstr ""
+msgstr "[disimpan]"
 
 msgid "bits"
-msgstr ""
+msgstr "bit"
 
 msgid "ethtool not found"
-msgstr ""
+msgstr "ettool tidak ditemukan"
 
 msgid "iwlist error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "kesalahan iwlist pada {interface}: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist error: {}\\\\\\\\n"
-msgstr ""
+msgstr "kesalahan iwlist: {}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist exception on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "pengecualian iwlist pada {interface}: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist timeout on {}\\\\\\\\n"
-msgstr ""
+msgstr "iwlist batas waktu pada {}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist: No networks found or interface busy\\\\\\\\n"
-msgstr ""
+msgstr "iwlist: Tidak ada jaringan yang ditemukan atau antarmuka sibuk\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "iwlist: Tidak ada jaringan yang ditemukan\\\\\\\\\\\\\\\\n"
 
 msgid "lifetime"
-msgstr ""
+msgstr "seumur hidup"
 
 msgid "limit"
-msgstr ""
+msgstr "membatasi"
 
 msgid "long {type}:{value}"
-msgstr ""
+msgstr "panjang {type}:{value}"
 
 msgid "max {type}:{value}"
-msgstr ""
+msgstr "maks {type}:{value}"
 
 msgid "min {type}:{value}"
-msgstr ""
+msgstr "menit {type}:{value}"
 
 msgid "off"
-msgstr ""
+msgstr "mati"
 
 msgid "on"
-msgstr ""
+msgstr "pada"
 
 msgid "pythonwifi: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "pythonwifi: Tidak ada jaringan yang ditemukan\\\\\\\\\\\\\\\\n"
 
 msgid "share experiences,and connect with other users."
-msgstr ""
+msgstr "berbagi pengalaman, dan terhubung dengan pengguna lain."
 
 msgid "short {type}:{value}"
-msgstr ""
+msgstr "pendek {type}:{value}"
 
 msgid "wait..."
-msgstr ""
+msgstr "Tunggu..."
 
 msgid "{:.1f} ms"
 msgstr ""
@@ -1411,58 +1411,58 @@ msgid "{:.1f}%"
 msgstr ""
 
 msgid "{:2d}. {} {:20} | Signal: {:4} dBm ({}) | Channel: {}\\\\\\\\n"
-msgstr ""
+msgstr "{:2d}. {} {:20} | Sinyal: {:4} dBm ({}) | Saluran: {}\\\\\\\\\\\\\\\\n"
 
 msgid "{connection}{saved}{icon} {essid} | {security} | {signal} dBm"
 msgstr ""
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}...\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} | Kualitas: {quality:3}% | Sinyal: {signal:4} dBm | {bssid}...\\\\\\\\\\\\\\\\n"
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} | Kualitas: {quality:3}% | Sinyal: {signal:4} dBm | {bssid}\\\\\\\\\\\\\\\\n"
 
 msgid "{icon} {interface}: {status}\\\\\\\\n"
 msgstr ""
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel:2} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Kualitas: {quality:3}% ({signal_quality}) | Sinyal: {signal:4} dBm | Saluran: {channel:2} | Terenkripsi: {encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Kualitas: {quality:3}% ({signal_quality}) | Sinyal: {signal:4} dBm | Saluran: {channel:2} | Terenkripsi: {encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Kualitas: {quality:3}% | Sinyal: {signal:4} dBm\\\\\\\\\\\\\\\\n"
 
 msgid "{index}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Kualitas: {quality:3}% | Sinyal: {signal:4} dBm\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Connected to {essid} ({quality})\\\\\\\\n"
-msgstr ""
+msgstr "{interface}: Terhubung ke {essid} ({quality})\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Not connected\\\\\\\\n"
-msgstr ""
+msgstr "{interface}: Tidak terhubung\\\\\\\\\\\\\\\\n"
 
 msgid "{name} ({host}): {ping}"
 msgstr ""
 
 msgid "{name} ({sponsor}): {ping}"
-msgstr ""
+msgstr "{name} ({host}): {ping}"
 
 msgid "{name}: Error {error}"
-msgstr ""
+msgstr "{name}: Kesalahan {error}"
 
 msgid "{name}: Failed"
-msgstr ""
+msgstr "{name}: Gagal"
 
 msgid "{name}: Timeout"
-msgstr ""
+msgstr "{name}: Waktu habis"
 
 msgid "{name}: {speed:.2f} Mbps"
 msgstr ""
 
 msgid "{server}: {speed:.2f} Mbps ({data:.1f} MB in {time:.1f}s)\\\\\\\\n"
-msgstr ""
+msgstr "{server}: {speed:.2f} Mbps ({data:.1f} MB dalam {time:.1f}s)\\\\\\\\\\\\\\\\n"
 
 msgid "{speed:.2f} Mbps"
 msgstr ""
@@ -1471,343 +1471,343 @@ msgid "{} ({:.0f}%)"
 msgstr ""
 
 msgid "{} - Open network - Press OK for options"
-msgstr ""
+msgstr "{} - Buka jaringan - Tekan OK untuk melihat opsi"
 
 msgid "{} - Password required - Press OK for options"
-msgstr ""
+msgstr "{} - Kata sandi diperlukan - Tekan OK untuk melihat opsi"
 
 msgid "{} - Password saved - Press OK for options"
-msgstr ""
+msgstr "{} - Kata sandi disimpan - Tekan OK untuk melihat opsi"
 
 msgid "{} GHz"
-msgstr ""
+msgstr "{}GHz"
 
 msgid "{} Mb/s"
-msgstr ""
+msgstr "{} Mb/dtk"
 
 msgid "{} Status: {}\\\\\\\\n"
 msgstr ""
 
 msgid "{} Type: {} interface\\\\\\\\n"
-msgstr ""
+msgstr "{} Tipe: {} antarmuka\\\\\\\\\\\\\\\\n"
 
 msgid "{} dBm"
-msgstr ""
+msgstr "{}dBm"
 
 msgid "{}: Failed"
-msgstr ""
+msgstr "{}: Gagal"
 
 msgid "{}: {:.1f} ms"
-msgstr ""
+msgstr "{}: {:.1f} mdt"
 
 msgid "{}\\\\\\\\n"
-msgstr ""
+msgstr "{}\\\\\\\\\\\\\\\\N"
 
 msgid " Keep drivers updated\\\\\\\\n"
-msgstr ""
+msgstr "Selalu perbarui driver\\\\\\\\\\\\\\\\n"
 
 msgid " Monitor signal strength for best performance\\\\\\\\n"
-msgstr ""
+msgstr "Pantau kekuatan sinyal untuk performa terbaik\\\\\\\\\\\\\\\\n"
 
 msgid " Use 5GHz band for less interference\\\\\\\\n"
-msgstr ""
+msgstr "Gunakan pita 5GHz untuk mengurangi interferensi\\\\\\\\\\\\\\\\n"
 
 msgid "  No USB WiFi adapters found\\\\\\\\n"
-msgstr ""
+msgstr "Tidak ditemukan adaptor USB WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "  Interface {interface}: DOWN (needs activation)\\\\\\\\n"
-msgstr ""
+msgstr "Antarmuka {interface}: BAWAH (perlu aktivasi)\\\\\\\\\\\\\\\\n"
 
 msgid "  Missing commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "Perintah yang hilang: {commands}\\\\\\\\\\\\\\\\n"
 
 msgid "  No WiFi kernel modules detected\\\\\\\\n"
-msgstr ""
+msgstr "Tidak ada modul kernel WiFi yang terdeteksi\\\\\\\\\\\\\\\\n"
 
 msgid "  Scan: Interface busy (connected to network)\\\\\\\\n"
-msgstr ""
+msgstr "Pindai: Antarmuka sibuk (terhubung ke jaringan)\\\\\\\\\\\\\\\\n"
 
 msgid "  {test}: No data\\\\\\\\n"
-msgstr ""
+msgstr "{test}: Tidak ada data\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed\\\\\\\\n"
-msgstr ""
+msgstr "Kecepatan pengunduhan rata-rata\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Latensi rata-rata ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency\\\\\\\\n"
-msgstr ""
+msgstr "Latensi rata-rata\\\\\\\\\\\\\\\\n"
 
 msgid " Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "Kecepatan unduh bagus\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency\\\\\\\\n"
-msgstr ""
+msgstr "Latensi bagus\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Latensi luar biasa ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " TX Power: {}\\\\\\\\n"
-msgstr ""
+msgstr "Kekuatan TX: {}\\\\\\\\\\\\\\\\n"
 
 msgid " All systems operational\\\\\\\\n"
-msgstr ""
+msgstr "Semua sistem beroperasi\\\\\\\\\\\\\\\\n"
 
 msgid " Available commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "Perintah yang tersedia: {commands}\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "Kecepatan pengunduhan luar biasa\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency\\\\\\\\n"
-msgstr ""
+msgstr "Latensi luar biasa\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Latensi bagus ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: UP and active\\\\\\\\n"
-msgstr ""
+msgstr "Antarmuka {interface}: ATAS dan aktif\\\\\\\\\\\\\\\\n"
 
 msgid " Loaded WiFi modules: {modules}\\\\\\\\n"
-msgstr ""
+msgstr "Modul WiFi yang dimuat: {modules}\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: WiFi hardware detected and functional\\\\\\\\n"
-msgstr ""
+msgstr "STATUS SISTEM: Perangkat keras WiFi terdeteksi dan berfungsi\\\\\\\\\\\\\\\\n"
 
 msgid " USB WiFi adapters detected:\\\\\\\\n"
-msgstr ""
+msgstr "Adaptor WiFi USB terdeteksi:\\\\\\\\\\\\\\\\n"
 
 msgid " {test}: {output}\\\\\\\\n"
-msgstr ""
+msgstr "{test}: {output}\\\\\\\\\\\\\\\\n"
 
 msgid " CRITICAL: No WiFi interfaces detected!\\\\\\\\n"
-msgstr ""
+msgstr "KRITIS: Tidak ada antarmuka WiFi yang terdeteksi!\\\\\\\\\\\\\\\\n"
 
 msgid " Download test failed\\\\\\\\n"
-msgstr ""
+msgstr "Tes pengunduhan gagal\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Pemeriksaan ESSID: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Error: {}\\\\\\\\n"
-msgstr ""
+msgstr "Kesalahan: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Pemeriksaan antarmuka gagal: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: NOT FOUND\\\\\\\\n"
-msgstr ""
+msgstr "Antarmuka {interface}: TIDAK DITEMUKAN\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: UNKNOWN STATE\\\\\\\\n"
-msgstr ""
+msgstr "Antarmuka {interface}: NEGARA TIDAK DIKETAHUI\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {} not found or not a WiFi interface\\\\\\\\n"
-msgstr ""
+msgstr "Antarmuka {} tidak ditemukan atau bukan antarmuka WiFi\\\\\\\\\\\\\\\\n"
 
 msgid " Kernel module check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Pemeriksaan modul kernel gagal: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Latency test failed\\\\\\\\n"
-msgstr ""
+msgstr "Uji latensi gagal\\\\\\\\\\\\\\\\n"
 
 msgid " Mode check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Pemeriksaan mode: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "Kecepatan pengunduhan buruk\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency\\\\\\\\n"
-msgstr ""
+msgstr "Latensi buruk\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: No WiFi interfaces detected\\\\\\\\n"
-msgstr ""
+msgstr "STATUS SISTEM: Tidak ada antarmuka WiFi yang terdeteksi\\\\\\\\\\\\\\\\n"
 
 msgid " Scan test: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Tes pemindaian: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Signal check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Pemeriksaan sinyal: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " USB device check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Pemeriksaan perangkat USB gagal: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Very poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Latensi sangat buruk ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " {}\\\\\\\\n"
-msgstr ""
+msgstr "{}\\\\\\\\\\\\\\\\N"
 
 msgid " Cannot assess connection quality\\\\\\\\n"
-msgstr ""
+msgstr "Tidak dapat menilai kualitas koneksi\\\\\\\\\\\\\\\\n"
 
 msgid " Download speed unavailable\\\\\\\\n"
-msgstr ""
+msgstr "Kecepatan pengunduhan tidak tersedia\\\\\\\\\\\\\\\\n"
 
 msgid " Latency unavailable\\\\\\\\n"
-msgstr ""
+msgstr "Latensi tidak tersedia\\\\\\\\\\\\\\\\n"
 
 msgid " Quality assessment unavailable\\\\\\\\n"
-msgstr ""
+msgstr "Penilaian kualitas tidak tersedia\\\\\\\\\\\\\\\\n"
 
 msgid "  Transmitted: {}\\\\\\\\n"
-msgstr ""
+msgstr "Ditransmisikan: {}\\\\\\\\\\\\\\\\n"
 
 msgid "  Received: {}\\\\\\\\n"
-msgstr ""
+msgstr "Diterima: {}\\\\\\\\\\\\\\\\n"
 
 msgid " AVAILABLE NETWORKS\\\\\\\\n"
-msgstr ""
+msgstr "JARINGAN YANG TERSEDIA\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: IP {ip} - ONLINE\\\\\\\\n"
-msgstr ""
+msgstr "Konektivitas: IP {ip} - ONLINE\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: No IP address - OFFLINE\\\\\\\\n"
-msgstr ""
+msgstr "Konektivitas: Tanpa alamat IP - OFFLINE\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: Unknown status\\\\\\\\n"
-msgstr ""
+msgstr "Konektivitas: Status tidak diketahui\\\\\\\\\\\\\\\\n"
 
 msgid " EXCELLENT connection\\\\\\\\n"
-msgstr ""
+msgstr "Koneksi YANG SANGAT BAIK\\\\\\\\\\\\\\\\n"
 
 msgid " SERVER INFORMATION:\\\\\\\\n"
-msgstr ""
+msgstr "INFORMASI SERVER:\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Latensi buruk ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " FAIR connection\\\\\\\\n"
-msgstr ""
+msgstr "Koneksi ADIL\\\\\\\\\\\\\\\\n"
 
 msgid " GOOD connection\\\\\\\\n"
-msgstr ""
+msgstr "Koneksi BAIK\\\\\\\\\\\\\\\\n"
 
 msgid " POOR connection\\\\\\\\n"
-msgstr ""
+msgstr "Koneksi buruk\\\\\\\\\\\\\\\\n"
 
 msgid " CLIENT INFORMATION:\\\\\\\\n"
-msgstr ""
+msgstr "INFORMASI KLIEN:\\\\\\\\\\\\\\\\n"
 
 msgid " All basic diagnostics available\\\\\\\\n"
-msgstr ""
+msgstr "Semua diagnostik dasar tersedia\\\\\\\\\\\\\\\\n"
 
 msgid " Tips:\\\\\\\\n"
-msgstr ""
+msgstr "Tips:\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "Pengemudi: Tidak diketahui\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: {}\\\\\\\\n"
-msgstr ""
+msgstr "Pengemudi: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Protocol: {}\\\\\\\\n"
-msgstr ""
+msgstr "Protokol: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "Kecepatan unduh luar biasa ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " TEST RESULTS:\\\\\\\\n"
-msgstr ""
+msgstr "HASIL UJI:\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "Kecepatan unduh rata-rata ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " Poor download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "Kecepatan unduh buruk ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " Good download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "Kecepatan unduh bagus ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " NETWORK STATISTICS\\\\\\\\n"
-msgstr ""
+msgstr "STATISTIK JARINGAN\\\\\\\\\\\\\\\\n"
 
 msgid " Quality: {}\\\\\\\\n"
-msgstr ""
+msgstr "Kualitas: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Signal: No quality data available\\\\\\\\n"
-msgstr ""
+msgstr "Sinyal: Tidak ada data berkualitas yang tersedia\\\\\\\\\\\\\\\\n"
 
 msgid " Signal: {quality}% quality, {signal} dBm\\\\\\\\n"
-msgstr ""
+msgstr "Sinyal: kualitas {quality}%, {signal} dBm\\\\\\\\\\\\\\\\n"
 
 msgid " MAC: {}\\\\\\\\n"
-msgstr ""
+msgstr "MAC: {}\\\\\\\\\\\\\\\\n"
 
 msgid " DETAILED WIFI INFORMATION - {}\\\\\\\\n"
-msgstr ""
+msgstr "INFORMASI WIFI RINCI - {}\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: {}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface Type: WIRELESS\\\\\\\\n"
-msgstr ""
+msgstr "Tipe Antarmuka: NIRKABEL\\\\\\\\\\\\\\\\n"
 
 msgid " Scan: Found {count} networks\\\\\\\\n"
-msgstr ""
+msgstr "Pindai: Ditemukan {count} jaringan\\\\\\\\\\\\\\\\n"
 
 msgid " Type: Wireless interface\\\\\\\\n"
-msgstr ""
+msgstr "Tipe: Antarmuka nirkabel\\\\\\\\\\\\\\\\n"
 
 msgid " Connection appears good (based on download)\\\\\\\\n"
-msgstr ""
+msgstr "Koneksi tampak bagus (berdasarkan unduhan)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection appears responsive (based on ping)\\\\\\\\n"
-msgstr ""
+msgstr "Koneksi tampak responsif (berdasarkan ping)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection may be limited (based on download)\\\\\\\\n"
-msgstr ""
+msgstr "Koneksi mungkin terbatas (berdasarkan unduhan)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection may be slow (based on ping)\\\\\\\\n"
-msgstr ""
+msgstr "Koneksi mungkin lambat (berdasarkan ping)\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: Not connected\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: Tidak terhubung\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: {essid}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: {essid}\\\\\\\\\\\\\\\\n"
 
 msgid " Frequency: {}\\\\\\\\n"
-msgstr ""
+msgstr "Frekuensi: {}\\\\\\\\\\\\\\\\n"
 
 msgid " WIRELESS INFORMATION\\\\\\\\n"
-msgstr ""
+msgstr "INFORMASI NIRKABEL\\\\\\\\\\\\\\\\n"
 
 msgid " DRIVER & HARDWARE\\\\\\\\n"
-msgstr ""
+msgstr "DRIVER & PERANGKAT KERAS\\\\\\\\\\\\\\\\n"
 
 msgid " Type: Wired interface\\\\\\\\n"
-msgstr ""
+msgstr "Tipe: Antarmuka berkabel\\\\\\\\\\\\\\\\n"
 
 msgid " BASIC INTERFACE INFO\\\\\\\\n"
-msgstr ""
+msgstr "INFO ANTARMUKA DASAR\\\\\\\\\\\\\\\\n"
 
 msgid " Interface: {}\\\\\\\\n"
-msgstr ""
+msgstr "Antarmuka: {}\\\\\\\\\\\\\\\\n"
 
 msgid " METHOD: Using system commands (no root required)\\\\\\\\n"
-msgstr ""
+msgstr "METODE: Menggunakan perintah sistem (tidak diperlukan root)\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "Modus: Tidak Diketahui\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: {mode}\\\\\\\\n"
-msgstr ""
+msgstr "Modus: {mode}\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: {}\\\\\\\\n"
-msgstr ""
+msgstr "Modus: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Module: {}\\\\\\\\n"
-msgstr ""
+msgstr "Modul: {}\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM LEVEL DIAGNOSTICS\\\\\\\\n"
-msgstr ""
+msgstr "DIAGNOSA TINGKAT SISTEM\\\\\\\\\\\\\\\\n"
 
 msgid " Bit Rate: {}\\\\\\\\n"
-msgstr ""
+msgstr "Kecepatan Bit: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Check hardware connection and drivers\\\\\\\\n"
-msgstr ""
+msgstr "Periksa koneksi perangkat keras dan driver\\\\\\\\\\\\\\\\n"
 
 msgid " VERY POOR connection\\\\\\\\n"
-msgstr ""
+msgstr "Koneksi SANGAT BURUK\\\\\\\\\\\\\\\\n"
