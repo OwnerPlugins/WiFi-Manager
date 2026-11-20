@@ -1071,8 +1071,8 @@ class Iwstruct(object):
         try:
             buff = array.array('B', b'\0' * buffsize)
             caddr_t, length = buff.buffer_info()
-            print(
-                f"[DEBUG] pack_wrq: caddr_t={caddr_t}, length={length}")  # DEBUG
+            # DEBUG
+            print(f"[DEBUG] pack_wrq: caddr_t={caddr_t}, length={length}")
             # Due argomenti separati!
             datastr = struct.pack('Pi', caddr_t, length)
             return buff, datastr
