@@ -12,17 +12,20 @@ msgstr ""
 msgid "- {adapter}\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "... and {} more networks\\\\\\\\n"
-msgstr "... dan {} lebih banyak jaringan\\\\\\\\\\\\\\\\n"
+msgstr "... dan {} lebih banyak jaringan\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "1 dBm (Min)"
 msgstr ""
 
+#, fuzzy
 msgid "1. Check if WiFi adapter is properly connected\\\\\\\\n"
-msgstr "1. Periksa apakah adaptor WiFi terhubung dengan benar\\\\\\\\\\\\\\\\n"
+msgstr "1. Periksa apakah adaptor WiFi terhubung dengan benar\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "1. Disconnect from current WiFi network\\\\\\\\n"
-msgstr "1. Putuskan sambungan dari jaringan WiFi saat ini\\\\\\\\\\\\\\\\n"
+msgstr "1. Putuskan sambungan dari jaringan WiFi saat ini\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "10 dBm"
 msgstr "10dBm"
@@ -30,38 +33,47 @@ msgstr "10dBm"
 msgid "15 dBm"
 msgstr "15dBm"
 
+#, fuzzy
 msgid "2. Restart WiFi adapter\\\\\\\\n"
-msgstr "2. Mulai ulang adaptor WiFi\\\\\\\\\\\\\\\\n"
+msgstr "2. Mulai ulang adaptor WiFi\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "2. Verify WiFi adapter is supported by your receiver\\\\\\\\n"
-msgstr "2. Pastikan adaptor WiFi didukung oleh receiver Anda\\\\\\\\\\\\\\\\n"
+msgstr "2. Pastikan adaptor WiFi didukung oleh receiver Anda\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "20 dBm (Max)"
 msgstr "20 dBm (Maks)"
 
+#, fuzzy
 msgid "3. Check if WiFi driver is installed\\\\\\\\n"
-msgstr "3. Periksa apakah driver WiFi sudah diinstal\\\\\\\\\\\\\\\\n"
+msgstr "3. Periksa apakah driver WiFi sudah diinstal\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "3. Try different USB port for USB WiFi adapters\\\\\\\\n"
-msgstr "3. Coba port USB lain untuk adaptor USB WiFi\\\\\\\\\\\\\\\\n"
+msgstr "3. Coba port USB lain untuk adaptor USB WiFi\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "4. Check if WiFi drivers are installed\\\\\\\\n"
-msgstr "4. Periksa apakah driver WiFi sudah diinstal\\\\\\\\\\\\\\\\n"
+msgstr "4. Periksa apakah driver WiFi sudah diinstal\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "4. Try with different USB WiFi adapter\\\\\\\\n"
-msgstr "4. Coba dengan adaptor WiFi USB yang berbeda\\\\\\\\\\\\\\\\n"
+msgstr "4. Coba dengan adaptor WiFi USB yang berbeda\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "5 dBm"
 msgstr "5dBm"
 
+#, fuzzy
 msgid "5. Check root permissions\\\\\\\\n"
-msgstr "5. Periksa izin root\\\\\\\\\\\\\\\\n"
+msgstr "5. Periksa izin root\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "5. Restart the receiver and try again\\\\\\\\n"
-msgstr "5. Nyalakan ulang receiver dan coba lagi\\\\\\\\\\\\\\\\n"
+msgstr "5. Nyalakan ulang receiver dan coba lagi\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "=== WiFi Diagnostics (System Commands Only) ===\\\\\\\\n"
-msgstr "=== Diagnostik WiFi (Hanya Perintah Sistem) ===\\\\\\\\\\\\\\\\n"
+msgstr "=== Diagnostik WiFi (Hanya Perintah Sistem) ===\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "ACTIVE"
 msgstr "AKTIF"
@@ -120,8 +132,9 @@ msgstr "Konfigurasi antarmuka WiFi tingkat lanjut"
 msgid "Advanced configuration completed."
 msgstr "Konfigurasi lanjutan selesai."
 
+#, fuzzy
 msgid "All Network Interfaces: {interfaces}\\\\\\\\n"
-msgstr "Semua Antarmuka Jaringan: {interfaces}\\\\\\\\\\\\\\\\n"
+msgstr "Semua Antarmuka Jaringan: {interfaces}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "All ping tests failed"
 msgstr "Semua tes ping gagal"
@@ -129,8 +142,9 @@ msgstr "Semua tes ping gagal"
 msgid "All settings reset to defaults"
 msgstr "Semua pengaturan diatur ulang ke default"
 
+#, fuzzy
 msgid "Applied: {} commands\\\\\\\\n"
-msgstr "Diterapkan: {} perintah\\\\\\\\\\\\\\\\n"
+msgstr "Diterapkan: {} perintah\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Apply"
 msgstr "Menerapkan"
@@ -180,8 +194,9 @@ msgstr "Info Kecepatan Bit"
 msgid "Bitrate info displayed."
 msgstr "Info kecepatan bit ditampilkan."
 
+#, fuzzy
 msgid "Bitrate information not available\\\\\\\\n"
-msgstr "Informasi kecepatan bit tidak tersedia\\\\\\\\\\\\\\\\n"
+msgstr "Informasi kecepatan bit tidak tersedia\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "CONNECTED to: {} - Press OK for options"
 msgstr "TERHUBUNG ke: {} - Tekan OK untuk melihat opsi"
@@ -207,8 +222,9 @@ msgstr "Info saluran ditampilkan."
 msgid "Channel {}"
 msgstr "Saluran {}"
 
+#, fuzzy
 msgid "Channel: %s\\\\\\\\n"
-msgstr "Saluran: %s\\\\\\\\\\\\\\\\n"
+msgstr "Saluran: %s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Check System Logs"
 msgstr "Periksa Log Sistem"
@@ -330,8 +346,9 @@ msgstr "Detail"
 msgid "Details Info"
 msgstr "Informasi Detail"
 
+#, fuzzy
 msgid "Diagnostic error: {}\\\\\\\\n"
-msgstr "Kesalahan diagnostik: {}\\\\\\\\\\\\\\\\n"
+msgstr "Kesalahan diagnostik: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Diagnostics"
 msgstr "Diagnostik"
@@ -345,35 +362,43 @@ msgstr "Terputus"
 msgid "Disconnecting..."
 msgstr "Memutuskan sambungan..."
 
+#, fuzzy
 msgid "Download Speed: %s\\\\\\\\n"
-msgstr "Kecepatan Unduhan: %s\\\\\\\\\\\\\\\\n"
+msgstr "Kecepatan Unduhan: %s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "Download Speed: {download}\\\\\\\\n"
-msgstr "Kecepatan Unduh: {download}\\\\\\\\\\\\\\\\n"
+msgstr "Kecepatan Unduh: {download}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Download test completed"
 msgstr "Tes pengunduhan selesai"
 
+#, fuzzy
 msgid "Download: Failed\\\\\\\\n"
-msgstr "Unduhan: Gagal\\\\\\\\\\\\\\\\n"
+msgstr "Unduhan: Gagal\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "Download: {:.2f} Mbps\\\\\\\\n"
-msgstr "Unduh: {:.2f} Mbps\\\\\\\\\\\\\\\\n"
+msgstr "Unduh: {:.2f} Mbps\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "Driver check failed: {error}\\\\\\\\n"
-msgstr "Pemeriksaan driver gagal: {error}\\\\\\\\\\\\\\\\n"
+msgstr "Pemeriksaan driver gagal: {error}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Driver info error: {}"
 msgstr "Kesalahan info pengemudi: {}"
 
+#, fuzzy
 msgid "Driver: Unknown\\\\\\\\n"
-msgstr "Pengemudi: Tidak diketahui\\\\\\\\\\\\\\\\n"
+msgstr "Pengemudi: Tidak diketahui\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "Driver: {driver}\\\\\\\\n"
-msgstr "Pengemudi: {driver}\\\\\\\\\\\\\\\\n"
+msgstr "Pengemudi: {driver}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "ESSID: %s\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "ESSID: {}"
 msgstr ""
@@ -393,8 +418,9 @@ msgstr "Info Enkripsi"
 msgid "Encryption info displayed."
 msgstr "Info enkripsi ditampilkan."
 
+#, fuzzy
 msgid "Encryption information not available\\\\\\\\n"
-msgstr "Informasi enkripsi tidak tersedia\\\\\\\\\\\\\\\\n"
+msgstr "Informasi enkripsi tidak tersedia\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Encryption keys and security"
 msgstr "Kunci enkripsi dan keamanan"
@@ -402,8 +428,9 @@ msgstr "Kunci enkripsi dan keamanan"
 msgid "Encryption keys and security protocols"
 msgstr "Kunci enkripsi dan protokol keamanan"
 
+#, fuzzy
 msgid "Encryption: %s\\\\\\\\n"
-msgstr "Enkripsi: %s\\\\\\\\\\\\\\\\n"
+msgstr "Enkripsi: %s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Enter Password"
 msgstr "Masukkan Kata Sandi"
@@ -447,8 +474,9 @@ msgstr "Terjadi kesalahan saat mendapatkan informasi percobaan ulang: {}"
 msgid "Error loading help"
 msgstr "Terjadi kesalahan saat memuat bantuan"
 
+#, fuzzy
 msgid "Error on {interface}: {error}\\\\\\\\n"
-msgstr "Kesalahan pada {interface}: {error}\\\\\\\\\\\\\\\\n"
+msgstr "Kesalahan pada {interface}: {error}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Error opening {module}: {error}"
 msgstr "Kesalahan saat membuka {module}: {error}"
@@ -468,8 +496,9 @@ msgstr "Memperkirakan kecepatan unggah..."
 msgid "Excellent"
 msgstr "Bagus sekali"
 
+#, fuzzy
 msgid "Excellent download speed\\\\\\\\n"
-msgstr "Kecepatan pengunduhan luar biasa\\\\\\\\\\\\\\\\n"
+msgstr "Kecepatan pengunduhan luar biasa\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Executing tool..."
 msgstr "Alat pelaksana..."
@@ -501,8 +530,9 @@ msgstr "Memperbaiki seumur hidup; min seumur hidup:{lifetime}"
 msgid "Fixed limit    ;  min limit:{limit}"
 msgstr "Batas tetap; batas minimum:{limit}"
 
+#, fuzzy
 msgid "For troubleshooting, detailed guidance, or community support, visit:\\\\\\\\n"
-msgstr "Untuk pemecahan masalah, panduan terperinci, atau dukungan komunitas, kunjungi:\\\\\\\\\\\\\\\\n"
+msgstr "Untuk pemecahan masalah, panduan terperinci, atau dukungan komunitas, kunjungi:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Forget Network"
 msgstr "Lupakan Jaringan"
@@ -510,11 +540,13 @@ msgstr "Lupakan Jaringan"
 msgid "Forgotten network: {}"
 msgstr "Jaringan yang terlupakan: {}"
 
+#, fuzzy
 msgid "Found {} networks:\\\\\\\\n"
-msgstr "Ditemukan {} jaringan:\\\\\\\\\\\\\\\\n"
+msgstr "Ditemukan {} jaringan:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "Found: {}\\\\\\\\n"
-msgstr "Ditemukan: {}\\\\\\\\\\\\\\\\n"
+msgstr "Ditemukan: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Fragmentation"
 msgstr "Fragmentasi"
@@ -522,8 +554,9 @@ msgstr "Fragmentasi"
 msgid "Frequency"
 msgstr "Frekuensi"
 
+#, fuzzy
 msgid "Frequency information not available\\\\\\\\n"
-msgstr "Informasi frekuensi tidak tersedia\\\\\\\\\\\\\\\\n"
+msgstr "Informasi frekuensi tidak tersedia\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency/Channel"
 msgstr "Frekuensi/Saluran"
@@ -531,8 +564,9 @@ msgstr "Frekuensi/Saluran"
 msgid "Frequency:"
 msgstr "Frekuensi:"
 
+#, fuzzy
 msgid "Frequency: %s\\\\\\\\n"
-msgstr "Frekuensi: %s\\\\\\\\\\\\\\\\n"
+msgstr "Frekuensi: %s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency: {frequency}"
 msgstr "Frekuensi: {frequency}"
@@ -585,8 +619,9 @@ msgstr "Mendapatkan informasi percobaan ulang..."
 msgid "Good"
 msgstr "Bagus"
 
+#, fuzzy
 msgid "Good download speed\\\\\\\\n"
-msgstr "Kecepatan unduh bagus\\\\\\\\\\\\\\\\n"
+msgstr "Kecepatan unduh bagus\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Google"
 msgstr ""
@@ -624,8 +659,9 @@ msgstr "Konfigurasi IP"
 msgid "IP: N/A"
 msgstr "IP: Tidak Ada"
 
+#, fuzzy
 msgid "IP: {ip}\\\\\\\\n"
-msgstr "Alamat IP: {ip}\\\\\\\\\\\\\\\\n"
+msgstr "AKU P: {}"
 
 msgid "IP: {}"
 msgstr "AKU P: {}"
@@ -633,8 +669,9 @@ msgstr "AKU P: {}"
 msgid "ISP: {isp}"
 msgstr ""
 
+#, fuzzy
 msgid "ISP: {isp}\\\\\\\\n"
-msgstr ""
+msgstr "Alamat IP: {ip}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Info"
 msgstr "Informasi"
@@ -666,14 +703,16 @@ msgstr "Antarmuka: {}"
 msgid "Invalid misc:%s"
 msgstr "Lain-lain tidak valid:%s"
 
+#, fuzzy
 msgid "Kernel Messages (dmesg):\\\\\\\\n"
-msgstr "Pesan Kernel (dmesg):\\\\\\\\\\\\\\\\n"
+msgstr "Pesan Kernel (dmesg):\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Latency test completed"
 msgstr "Tes latensi selesai"
 
+#, fuzzy
 msgid "Latency: %s\\\\\\\\n"
-msgstr "Latensi: %s\\\\\\\\\\\\\\\\n"
+msgstr "Latensi: %s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Link Quality: {quality}"
 msgstr "Kualitas Tautan: {quality}"
@@ -690,8 +729,9 @@ msgstr "Daftar titik akses/rekan"
 msgid "Location: {city}, {country}"
 msgstr "Lokasi: {city}, {country}"
 
+#, fuzzy
 msgid "Location: {city}, {country}\\\\\\\\n"
-msgstr "Lokasi: {city}, {country}\\\\\\\\\\\\\\\\n"
+msgstr "Lokasi: {city}, {country}"
 
 msgid "Logs checked."
 msgstr "Log diperiksa."
@@ -699,8 +739,9 @@ msgstr "Log diperiksa."
 msgid "MAC Address: {mac}"
 msgstr "Alamat MAC: {mac}"
 
+#, fuzzy
 msgid "MAC Address: {mac}\\\\\\\\n"
-msgstr "Alamat MAC: {mac}\\\\\\\\\\\\\\\\n"
+msgstr "Alamat MAC: {mac}"
 
 msgid "MAC: %s\\\\\\\\n"
 msgstr ""
@@ -741,14 +782,16 @@ msgstr "Kesalahan pemantauan: {}"
 msgid "N/A"
 msgstr "T/A"
 
+#, fuzzy
 msgid "Name: {name}\\\\\\\\n"
-msgstr "Nama: {name}\\\\\\\\\\\\\\\\n"
+msgstr "Nama: {name}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Netmask"
 msgstr "masker jaringan"
 
+#, fuzzy
 msgid "Network %d:\\\\\\\\n"
-msgstr "Jaringan %d:\\\\\\\\\\\\\\\\n"
+msgstr "Jaringan %d:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Network Interface: {interface}"
 msgstr "Antarmuka Jaringan: {interface}"
@@ -795,8 +838,9 @@ msgstr "Tidak ada antarmuka WiFi yang ditemukan"
 msgid "No WiFi interfaces found"
 msgstr "Tidak ditemukan antarmuka WiFi"
 
+#, fuzzy
 msgid "No WiFi interfaces found\\\\\\\\n"
-msgstr "Tidak ditemukan antarmuka WiFi\\\\\\\\\\\\\\\\n"
+msgstr "Tidak ditemukan antarmuka WiFi"
 
 msgid "No WiFi messages in system logs"
 msgstr "Tidak ada pesan WiFi di log sistem"
@@ -828,14 +872,17 @@ msgstr "Tidak ada jaringan yang ditemukan"
 msgid "No networks found - Press BLUE to rescan"
 msgstr "Tidak ada jaringan yang ditemukan - Tekan BIRU untuk memindai ulang"
 
+#, fuzzy
 msgid "No networks found on {}\\\\\\\\n"
-msgstr "Tidak ada jaringan yang ditemukan di {}\\\\\\\\\\\\\\\\n"
+msgstr "Tidak ada jaringan yang ditemukan di {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "No networks found or scan not supported\\\\\\\\n"
-msgstr "Tidak ada jaringan yang ditemukan atau pemindaian tidak didukung\\\\\\\\\\\\\\\\n"
+msgstr "Tidak ada jaringan yang ditemukan atau pemindaian tidak didukung\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "No networks found with iwlist\\\\\\\\n"
-msgstr "Tidak ada jaringan yang ditemukan dengan iwlist\\\\\\\\\\\\\\\\n"
+msgstr "Tidak ada jaringan yang ditemukan dengan iwlist\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "No packets sent"
 msgstr "Tidak ada paket yang dikirim"
@@ -843,11 +890,13 @@ msgstr "Tidak ada paket yang dikirim"
 msgid "No ping data"
 msgstr "Tidak ada data ping"
 
+#, fuzzy
 msgid "No results with iwlist\\\\\\\\n"
-msgstr "Tidak ada hasil dengan iwlist\\\\\\\\\\\\\\\\n"
+msgstr "Tidak ada hasil dengan iwlist\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "No station/peer information available\\\\\\\\n"
-msgstr "Tidak ada informasi stasiun/rekan yang tersedia\\\\\\\\\\\\\\\\n"
+msgstr "Tidak ada informasi stasiun/rekan yang tersedia\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Noise level:%sdBm"
 msgstr "Tingkat kebisingan:%sdBm"
@@ -924,14 +973,17 @@ msgstr "Ping {host} (pengganti): {time} ms"
 msgid "Ping {host}: {time} ms"
 msgstr ""
 
+#, fuzzy
 msgid "Ping/Latency: {ping}\\\\\\\\n"
-msgstr "Ping/Latensi: {ping}\\\\\\\\\\\\\\\\n"
+msgstr "Ping/Latensi: {ping}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "Ping: Failed\\\\\\\\n"
-msgstr "Ping: Gagal\\\\\\\\\\\\\\\\n"
+msgstr "Ping: Gagal\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "Ping: {:.1f} ms\\\\\\\\n"
-msgstr ""
+msgstr "{}: {:.1f} mdt"
 
 msgid "Please enter a network name"
 msgstr "Silakan masukkan nama jaringan"
@@ -942,8 +994,9 @@ msgstr "Silakan masukkan kata sandi"
 msgid "Poor"
 msgstr "Miskin"
 
+#, fuzzy
 msgid "Poor download speed\\\\\\\\n"
-msgstr "Kecepatan pengunduhan buruk\\\\\\\\\\\\\\\\n"
+msgstr "Kecepatan pengunduhan buruk\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Power Management"
 msgstr "Manajemen Daya"
@@ -951,8 +1004,9 @@ msgstr "Manajemen Daya"
 msgid "Power management info displayed."
 msgstr "Info manajemen daya ditampilkan."
 
+#, fuzzy
 msgid "Power management information not available\\\\\\\\n"
-msgstr "Informasi manajemen daya tidak tersedia\\\\\\\\\\\\\\\\n"
+msgstr "Informasi manajemen daya tidak tersedia\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Power management settings"
 msgstr "Pengaturan manajemen daya"
@@ -969,8 +1023,9 @@ msgstr "IP Publik: Tidak dapat menentukan"
 msgid "Public IP: {ip}"
 msgstr "IP Publik: {ip}"
 
+#, fuzzy
 msgid "Quality: %s\\\\\\\\n"
-msgstr "Kualitas: %s\\\\\\\\\\\\\\\\n"
+msgstr "Kualitas: {}%"
 
 msgid "Quality: N/A"
 msgstr "Kualitas: Tidak Ada"
@@ -1032,8 +1087,9 @@ msgstr "Memulai ulang antarmuka..."
 msgid "Retry Limits"
 msgstr "Batas Coba Lagi"
 
+#, fuzzy
 msgid "Retry limit information not available\\\\\\\\n"
-msgstr "Informasi batas coba lagi tidak tersedia\\\\\\\\\\\\\\\\n"
+msgstr "Informasi batas coba lagi tidak tersedia\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Retry limits and lifetime"
 msgstr "Batas coba lagi dan seumur hidup"
@@ -1077,8 +1133,9 @@ msgstr "Kesalahan pemindaian:"
 msgid "Scan error: {}"
 msgstr "Kesalahan pemindaian: {}"
 
+#, fuzzy
 msgid "Scan error: {}\\\\\\\\n"
-msgstr "Kesalahan pemindaian: {}\\\\\\\\\\\\\\\\n"
+msgstr "Kesalahan pemindaian: {}"
 
 msgid "Scan failed"
 msgstr "Pemindaian gagal"
@@ -1137,8 +1194,9 @@ msgstr "Tingkat Sinyal: {signal} dBm"
 msgid "Signal level:%sdBm"
 msgstr "Tingkat sinyal:%sdBm"
 
+#, fuzzy
 msgid "Signal: %s\\\\\\\\n"
-msgstr "Sinyal: %s\\\\\\\\\\\\\\\\n"
+msgstr "Sinyal: %s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Signal: N/A"
 msgstr "Sinyal: Tidak Ada"
@@ -1191,8 +1249,9 @@ msgstr "Bitrate yang didukung dan kecepatan transmisi saat ini"
 msgid "System Logs"
 msgstr "Log Sistem"
 
+#, fuzzy
 msgid "System Logs:\\\\\\\\n"
-msgstr "Log Sistem:\\\\\\\\\\\\\\\\n"
+msgstr "Log Sistem"
 
 msgid "TX Power"
 msgstr "Kekuatan TX"
@@ -1233,8 +1292,9 @@ msgstr "Menguji latensi..."
 msgid "Testing upload speed..."
 msgstr "Menguji kecepatan unggah..."
 
+#, fuzzy
 msgid "These forums are great places to get help,\\\\\\\\n"
-msgstr "Forum ini adalah tempat yang bagus untuk mendapatkan bantuan,\\\\\\\\\\\\\\\\n"
+msgstr "Forum ini adalah tempat yang bagus untuk mendapatkan bantuan,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Timeout"
 msgstr "Batas waktu"
@@ -1254,8 +1314,9 @@ msgstr "Tx percobaan ulang yang berlebihan:%s"
 msgid "UP and active"
 msgstr "NAIK dan aktif"
 
+#, fuzzy
 msgid "Unable to assess download quality\\\\\\\\n"
-msgstr "Tidak dapat menilai kualitas unduhan\\\\\\\\\\\\\\\\n"
+msgstr "Tidak dapat menilai kualitas unduhan\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Unknown"
 msgstr "Tidak dikenal"
@@ -1263,11 +1324,13 @@ msgstr "Tidak dikenal"
 msgid "Unstable"
 msgstr "Tidak stabil"
 
+#, fuzzy
 msgid "Upload Speed: %s\\\\\\\\n"
-msgstr "Kecepatan Unggah: %s\\\\\\\\\\\\\\\\n"
+msgstr "Kecepatan Unggah: %s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "Upload Speed: {upload}\\\\\\\\n"
-msgstr "Kecepatan Unggah: {upload}\\\\\\\\\\\\\\\\n"
+msgstr "Kecepatan Unggah: {upload}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Upload estimation completed"
 msgstr "Estimasi unggahan selesai"
@@ -1281,11 +1344,13 @@ msgstr "Tes unggahan tidak tersedia"
 msgid "Upload test: {result}"
 msgstr "Tes unggah: {result}"
 
+#, fuzzy
 msgid "Upload: Not available\\\\\\\\n"
-msgstr "Unggah: Tidak tersedia\\\\\\\\\\\\\\\\n"
+msgstr "Unggah: Tidak tersedia\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "Upload: {:.2f} Mbps (estimated)\\\\\\\\n"
-msgstr "Unggah: {:.2f} Mbps (perkiraan)\\\\\\\\\\\\\\\\n"
+msgstr "Unggah: {:.2f} Mbps (perkiraan)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Very Poor"
 msgstr "Sangat Buruk"
@@ -1353,23 +1418,29 @@ msgstr "bit"
 msgid "ethtool not found"
 msgstr "ettool tidak ditemukan"
 
+#, fuzzy
 msgid "iwlist error on {interface}: {error}\\\\\\\\n"
-msgstr "kesalahan iwlist pada {interface}: {error}\\\\\\\\\\\\\\\\n"
+msgstr "kesalahan iwlist pada {interface}: {error}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "iwlist error: {}\\\\\\\\n"
-msgstr "kesalahan iwlist: {}\\\\\\\\\\\\\\\\n"
+msgstr "kesalahan iwlist: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "iwlist exception on {interface}: {error}\\\\\\\\n"
-msgstr "pengecualian iwlist pada {interface}: {error}\\\\\\\\\\\\\\\\n"
+msgstr "pengecualian iwlist pada {interface}: {error}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "iwlist timeout on {}\\\\\\\\n"
-msgstr "iwlist batas waktu pada {}\\\\\\\\\\\\\\\\n"
+msgstr "iwlist batas waktu pada {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "iwlist: No networks found or interface busy\\\\\\\\n"
-msgstr "iwlist: Tidak ada jaringan yang ditemukan atau antarmuka sibuk\\\\\\\\\\\\\\\\n"
+msgstr "iwlist: Tidak ada jaringan yang ditemukan atau antarmuka sibuk\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "iwlist: No networks found\\\\\\\\n"
-msgstr "iwlist: Tidak ada jaringan yang ditemukan\\\\\\\\\\\\\\\\n"
+msgstr "iwlist: Tidak ada jaringan yang ditemukan\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "lifetime"
 msgstr "seumur hidup"
@@ -1392,8 +1463,9 @@ msgstr "mati"
 msgid "on"
 msgstr "pada"
 
+#, fuzzy
 msgid "pythonwifi: No networks found\\\\\\\\n"
-msgstr "pythonwifi: Tidak ada jaringan yang ditemukan\\\\\\\\\\\\\\\\n"
+msgstr "pythonwifi: Tidak ada jaringan yang ditemukan\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "share experiences,and connect with other users."
 msgstr "berbagi pengalaman, dan terhubung dengan pengguna lain."
@@ -1410,38 +1482,47 @@ msgstr ""
 msgid "{:.1f}%"
 msgstr ""
 
+#, fuzzy
 msgid "{:2d}. {} {:20} | Signal: {:4} dBm ({}) | Channel: {}\\\\\\\\n"
-msgstr "{:2d}. {} {:20} | Sinyal: {:4} dBm ({}) | Saluran: {}\\\\\\\\\\\\\\\\n"
+msgstr "{:2d}. {} {:20} | Sinyal: {:4} dBm ({}) | Saluran: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "{connection}{saved}{icon} {essid} | {security} | {signal} dBm"
 msgstr ""
 
+#, fuzzy
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}...\\\\\\\\n"
-msgstr "{essid:20} | Kualitas: {quality:3}% | Sinyal: {signal:4} dBm | {bssid}...\\\\\\\\\\\\\\\\n"
+msgstr "{essid:20} | Kualitas: {quality:3}% | Sinyal: {signal:4} dBm | {bssid}...\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}\\\\\\\\n"
-msgstr "{essid:20} | Kualitas: {quality:3}% | Sinyal: {signal:4} dBm | {bssid}\\\\\\\\\\\\\\\\n"
+msgstr "{essid:20} | Kualitas: {quality:3}% | Sinyal: {signal:4} dBm | {bssid}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "{icon} {interface}: {status}\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel:2} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr "{index:2d}. {essid:20} | Kualitas: {quality:3}% ({signal_quality}) | Sinyal: {signal:4} dBm | Saluran: {channel:2} | Terenkripsi: {encrypted}\\\\\\\\\\\\\\\\n"
+msgstr "{index:2d}. {essid:20} | Kualitas: {quality:3}% ({signal_quality}) | Sinyal: {signal:4} dBm | Saluran: {channel:2} | Terenkripsi: {encrypted}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr "{index:2d}. {essid:20} | Kualitas: {quality:3}% ({signal_quality}) | Sinyal: {signal:4} dBm | Saluran: {channel:2} | Terenkripsi: {encrypted}\\\\\\\\\\\\\\\\n"
+msgstr "{index:2d}. {essid:20} | Kualitas: {quality:3}% ({signal_quality}) | Sinyal: {signal:4} dBm | Saluran: {channel:2} | Terenkripsi: {encrypted}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr "{index:2d}. {essid:20} | Kualitas: {quality:3}% | Sinyal: {signal:4} dBm\\\\\\\\\\\\\\\\n"
+msgstr "{index:2d}. {essid:20} | Kualitas: {quality:3}% | Sinyal: {signal:4} dBm\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "{index}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr "{index:2d}. {essid:20} | Kualitas: {quality:3}% | Sinyal: {signal:4} dBm\\\\\\\\\\\\\\\\n"
+msgstr "{index:2d}. {essid:20} | Kualitas: {quality:3}% | Sinyal: {signal:4} dBm\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "{interface}: Connected to {essid} ({quality})\\\\\\\\n"
-msgstr "{interface}: Terhubung ke {essid} ({quality})\\\\\\\\\\\\\\\\n"
+msgstr "{interface}: Terhubung ke {essid} ({quality})\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "{interface}: Not connected\\\\\\\\n"
-msgstr "{interface}: Tidak terhubung\\\\\\\\\\\\\\\\n"
+msgstr "{interface}: Tidak terhubung\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "{name} ({host}): {ping}"
 msgstr ""
@@ -1461,8 +1542,9 @@ msgstr "{name}: Waktu habis"
 msgid "{name}: {speed:.2f} Mbps"
 msgstr ""
 
+#, fuzzy
 msgid "{server}: {speed:.2f} Mbps ({data:.1f} MB in {time:.1f}s)\\\\\\\\n"
-msgstr "{server}: {speed:.2f} Mbps ({data:.1f} MB dalam {time:.1f}s)\\\\\\\\\\\\\\\\n"
+msgstr "{server}: {speed:.2f} Mbps ({data:.1f} MB dalam {time:.1f}s)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "{speed:.2f} Mbps"
 msgstr ""
@@ -1488,8 +1570,9 @@ msgstr "{} Mb/dtk"
 msgid "{} Status: {}\\\\\\\\n"
 msgstr ""
 
+#, fuzzy
 msgid "{} Type: {} interface\\\\\\\\n"
-msgstr "{} Tipe: {} antarmuka\\\\\\\\\\\\\\\\n"
+msgstr "{} Tipe: {} antarmuka\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "{} dBm"
 msgstr "{}dBm"
@@ -1503,311 +1586,451 @@ msgstr "{}: {:.1f} mdt"
 msgid "{}\\\\\\\\n"
 msgstr "{}\\\\\\\\\\\\\\\\N"
 
+#, fuzzy
 msgid " Keep drivers updated\\\\\\\\n"
-msgstr "Selalu perbarui driver\\\\\\\\\\\\\\\\n"
+msgstr "Selalu perbarui driver\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Monitor signal strength for best performance\\\\\\\\n"
-msgstr "Pantau kekuatan sinyal untuk performa terbaik\\\\\\\\\\\\\\\\n"
+msgstr "Pantau kekuatan sinyal untuk performa terbaik\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Use 5GHz band for less interference\\\\\\\\n"
-msgstr "Gunakan pita 5GHz untuk mengurangi interferensi\\\\\\\\\\\\\\\\n"
+msgstr "Gunakan pita 5GHz untuk mengurangi interferensi\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "  No USB WiFi adapters found\\\\\\\\n"
-msgstr "Tidak ditemukan adaptor USB WiFi\\\\\\\\\\\\\\\\n"
+msgstr "Tidak ditemukan adaptor USB WiFi\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "  Interface {interface}: DOWN (needs activation)\\\\\\\\n"
-msgstr "Antarmuka {interface}: BAWAH (perlu aktivasi)\\\\\\\\\\\\\\\\n"
+msgstr "Antarmuka {interface}: BAWAH (perlu aktivasi)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "  Missing commands: {commands}\\\\\\\\n"
-msgstr "Perintah yang hilang: {commands}\\\\\\\\\\\\\\\\n"
+msgstr "Perintah yang hilang: {commands}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "  No WiFi kernel modules detected\\\\\\\\n"
-msgstr "Tidak ada modul kernel WiFi yang terdeteksi\\\\\\\\\\\\\\\\n"
+msgstr "Tidak ada modul kernel WiFi yang terdeteksi\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "  Scan: Interface busy (connected to network)\\\\\\\\n"
-msgstr "Pindai: Antarmuka sibuk (terhubung ke jaringan)\\\\\\\\\\\\\\\\n"
+msgstr "Pindai: Antarmuka sibuk (terhubung ke jaringan)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "  {test}: No data\\\\\\\\n"
-msgstr "{test}: Tidak ada data\\\\\\\\\\\\\\\\n"
+msgstr "{test}: Tidak ada data\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Average download speed\\\\\\\\n"
-msgstr "Kecepatan pengunduhan rata-rata\\\\\\\\\\\\\\\\n"
+msgstr "Kecepatan pengunduhan rata-rata\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Average latency ({:.1f} ms)\\\\\\\\n"
-msgstr "Latensi rata-rata ({:.1f} ms)\\\\\\\\\\\\\\\\n"
+msgstr "Latensi rata-rata ({:.1f} ms)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Average latency\\\\\\\\n"
-msgstr "Latensi rata-rata\\\\\\\\\\\\\\\\n"
+msgstr "Latensi rata-rata\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Good download speed\\\\\\\\n"
-msgstr "Kecepatan unduh bagus\\\\\\\\\\\\\\\\n"
+msgstr "Kecepatan unduh bagus\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Good latency\\\\\\\\n"
-msgstr "Latensi bagus\\\\\\\\\\\\\\\\n"
+msgstr "Latensi bagus\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Excellent latency ({:.1f} ms)\\\\\\\\n"
-msgstr "Latensi luar biasa ({:.1f} ms)\\\\\\\\\\\\\\\\n"
+msgstr "Latensi luar biasa ({:.1f} ms)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " TX Power: {}\\\\\\\\n"
-msgstr "Kekuatan TX: {}\\\\\\\\\\\\\\\\n"
+msgstr "Kekuatan TX: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " All systems operational\\\\\\\\n"
-msgstr "Semua sistem beroperasi\\\\\\\\\\\\\\\\n"
+msgstr "Semua sistem beroperasi\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Available commands: {commands}\\\\\\\\n"
-msgstr "Perintah yang tersedia: {commands}\\\\\\\\\\\\\\\\n"
+msgstr "Perintah yang tersedia: {commands}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Excellent download speed\\\\\\\\n"
-msgstr "Kecepatan pengunduhan luar biasa\\\\\\\\\\\\\\\\n"
+msgstr "Kecepatan pengunduhan luar biasa\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Excellent latency\\\\\\\\n"
-msgstr "Latensi luar biasa\\\\\\\\\\\\\\\\n"
+msgstr "Latensi luar biasa\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Good latency ({:.1f} ms)\\\\\\\\n"
-msgstr "Latensi bagus ({:.1f} ms)\\\\\\\\\\\\\\\\n"
+msgstr "Latensi bagus ({:.1f} ms)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Interface {interface}: UP and active\\\\\\\\n"
-msgstr "Antarmuka {interface}: ATAS dan aktif\\\\\\\\\\\\\\\\n"
+msgstr "Antarmuka {interface}: ATAS dan aktif\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Loaded WiFi modules: {modules}\\\\\\\\n"
-msgstr "Modul WiFi yang dimuat: {modules}\\\\\\\\\\\\\\\\n"
+msgstr "Modul WiFi yang dimuat: {modules}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " SYSTEM STATUS: WiFi hardware detected and functional\\\\\\\\n"
-msgstr "STATUS SISTEM: Perangkat keras WiFi terdeteksi dan berfungsi\\\\\\\\\\\\\\\\n"
+msgstr "STATUS SISTEM: Perangkat keras WiFi terdeteksi dan berfungsi\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " USB WiFi adapters detected:\\\\\\\\n"
-msgstr "Adaptor WiFi USB terdeteksi:\\\\\\\\\\\\\\\\n"
+msgstr "Adaptor WiFi USB terdeteksi:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " {test}: {output}\\\\\\\\n"
-msgstr "{test}: {output}\\\\\\\\\\\\\\\\n"
+msgstr "{test}: {output}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " CRITICAL: No WiFi interfaces detected!\\\\\\\\n"
-msgstr "KRITIS: Tidak ada antarmuka WiFi yang terdeteksi!\\\\\\\\\\\\\\\\n"
+msgstr "KRITIS: Tidak ada antarmuka WiFi yang terdeteksi!\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Download test failed\\\\\\\\n"
-msgstr "Tes pengunduhan gagal\\\\\\\\\\\\\\\\n"
+msgstr "Tes pengunduhan gagal\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " ESSID check: {error}\\\\\\\\n"
-msgstr "Pemeriksaan ESSID: {error}\\\\\\\\\\\\\\\\n"
+msgstr "Pemeriksaan ESSID: {error}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Error: {}\\\\\\\\n"
-msgstr "Kesalahan: {}\\\\\\\\\\\\\\\\n"
+msgstr "Kesalahan: {}"
 
+#, fuzzy
 msgid " Interface check failed: {error}\\\\\\\\n"
-msgstr "Pemeriksaan antarmuka gagal: {error}\\\\\\\\\\\\\\\\n"
+msgstr "Pemeriksaan antarmuka gagal: {error}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Interface {interface}: NOT FOUND\\\\\\\\n"
-msgstr "Antarmuka {interface}: TIDAK DITEMUKAN\\\\\\\\\\\\\\\\n"
+msgstr "Antarmuka {interface}: TIDAK DITEMUKAN\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Interface {interface}: UNKNOWN STATE\\\\\\\\n"
-msgstr "Antarmuka {interface}: NEGARA TIDAK DIKETAHUI\\\\\\\\\\\\\\\\n"
+msgstr "Antarmuka {interface}: NEGARA TIDAK DIKETAHUI\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Interface {} not found or not a WiFi interface\\\\\\\\n"
-msgstr "Antarmuka {} tidak ditemukan atau bukan antarmuka WiFi\\\\\\\\\\\\\\\\n"
+msgstr "Antarmuka {} tidak ditemukan atau bukan antarmuka WiFi\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Kernel module check failed: {error}\\\\\\\\n"
-msgstr "Pemeriksaan modul kernel gagal: {error}\\\\\\\\\\\\\\\\n"
+msgstr "Pemeriksaan modul kernel gagal: {error}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Latency test failed\\\\\\\\n"
-msgstr "Uji latensi gagal\\\\\\\\\\\\\\\\n"
+msgstr "Uji latensi gagal\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Mode check: {error}\\\\\\\\n"
-msgstr "Pemeriksaan mode: {error}\\\\\\\\\\\\\\\\n"
+msgstr "Pemeriksaan mode: {error}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Poor download speed\\\\\\\\n"
-msgstr "Kecepatan pengunduhan buruk\\\\\\\\\\\\\\\\n"
+msgstr "Kecepatan pengunduhan buruk\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Poor latency\\\\\\\\n"
-msgstr "Latensi buruk\\\\\\\\\\\\\\\\n"
+msgstr "Latensi buruk\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " SYSTEM STATUS: No WiFi interfaces detected\\\\\\\\n"
-msgstr "STATUS SISTEM: Tidak ada antarmuka WiFi yang terdeteksi\\\\\\\\\\\\\\\\n"
+msgstr "STATUS SISTEM: Tidak ada antarmuka WiFi yang terdeteksi\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Scan test: {error}\\\\\\\\n"
-msgstr "Tes pemindaian: {error}\\\\\\\\\\\\\\\\n"
+msgstr "Tes pemindaian: {error}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Signal check: {error}\\\\\\\\n"
-msgstr "Pemeriksaan sinyal: {error}\\\\\\\\\\\\\\\\n"
+msgstr "Pemeriksaan sinyal: {error}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " USB device check failed: {error}\\\\\\\\n"
-msgstr "Pemeriksaan perangkat USB gagal: {error}\\\\\\\\\\\\\\\\n"
+msgstr "Pemeriksaan perangkat USB gagal: {error}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Very poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr "Latensi sangat buruk ({:.1f} ms)\\\\\\\\\\\\\\\\n"
+msgstr "Latensi sangat buruk ({:.1f} ms)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid " {}\\\\\\\\n"
 msgstr "{}\\\\\\\\\\\\\\\\N"
 
+#, fuzzy
 msgid " Cannot assess connection quality\\\\\\\\n"
-msgstr "Tidak dapat menilai kualitas koneksi\\\\\\\\\\\\\\\\n"
+msgstr "Tidak dapat menilai kualitas koneksi\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Download speed unavailable\\\\\\\\n"
-msgstr "Kecepatan pengunduhan tidak tersedia\\\\\\\\\\\\\\\\n"
+msgstr "Kecepatan pengunduhan tidak tersedia\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Latency unavailable\\\\\\\\n"
-msgstr "Latensi tidak tersedia\\\\\\\\\\\\\\\\n"
+msgstr "Latensi tidak tersedia\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Quality assessment unavailable\\\\\\\\n"
-msgstr "Penilaian kualitas tidak tersedia\\\\\\\\\\\\\\\\n"
+msgstr "Penilaian kualitas tidak tersedia\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "  Transmitted: {}\\\\\\\\n"
-msgstr "Ditransmisikan: {}\\\\\\\\\\\\\\\\n"
+msgstr "Ditransmisikan: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid "  Received: {}\\\\\\\\n"
-msgstr "Diterima: {}\\\\\\\\\\\\\\\\n"
+msgstr "Diterima: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " AVAILABLE NETWORKS\\\\\\\\n"
-msgstr "JARINGAN YANG TERSEDIA\\\\\\\\\\\\\\\\n"
+msgstr "JARINGAN YANG TERSEDIA\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Connectivity: IP {ip} - ONLINE\\\\\\\\n"
-msgstr "Konektivitas: IP {ip} - ONLINE\\\\\\\\\\\\\\\\n"
+msgstr "Konektivitas: IP {ip} - ONLINE\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Connectivity: No IP address - OFFLINE\\\\\\\\n"
-msgstr "Konektivitas: Tanpa alamat IP - OFFLINE\\\\\\\\\\\\\\\\n"
+msgstr "Konektivitas: Tanpa alamat IP - OFFLINE\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Connectivity: Unknown status\\\\\\\\n"
-msgstr "Konektivitas: Status tidak diketahui\\\\\\\\\\\\\\\\n"
+msgstr "Konektivitas: Status tidak diketahui\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " EXCELLENT connection\\\\\\\\n"
-msgstr "Koneksi YANG SANGAT BAIK\\\\\\\\\\\\\\\\n"
+msgstr "Koneksi YANG SANGAT BAIK\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " SERVER INFORMATION:\\\\\\\\n"
-msgstr "INFORMASI SERVER:\\\\\\\\\\\\\\\\n"
+msgstr "INFORMASI SERVER:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr "Latensi buruk ({:.1f} ms)\\\\\\\\\\\\\\\\n"
+msgstr "Latensi buruk ({:.1f} ms)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " FAIR connection\\\\\\\\n"
-msgstr "Koneksi ADIL\\\\\\\\\\\\\\\\n"
+msgstr "Koneksi ADIL\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " GOOD connection\\\\\\\\n"
-msgstr "Koneksi BAIK\\\\\\\\\\\\\\\\n"
+msgstr "Koneksi BAIK\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " POOR connection\\\\\\\\n"
-msgstr "Koneksi buruk\\\\\\\\\\\\\\\\n"
+msgstr "Koneksi buruk\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " CLIENT INFORMATION:\\\\\\\\n"
-msgstr "INFORMASI KLIEN:\\\\\\\\\\\\\\\\n"
+msgstr "INFORMASI KLIEN:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " All basic diagnostics available\\\\\\\\n"
-msgstr "Semua diagnostik dasar tersedia\\\\\\\\\\\\\\\\n"
+msgstr "Semua diagnostik dasar tersedia\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid " Tips:\\\\\\\\n"
 msgstr "Tips:\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Driver: Unknown\\\\\\\\n"
-msgstr "Pengemudi: Tidak diketahui\\\\\\\\\\\\\\\\n"
+msgstr "Pengemudi: Tidak diketahui\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Driver: {}\\\\\\\\n"
-msgstr "Pengemudi: {}\\\\\\\\\\\\\\\\n"
+msgstr "Pengemudi: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Protocol: {}\\\\\\\\n"
-msgstr "Protokol: {}\\\\\\\\\\\\\\\\n"
+msgstr "Protokol: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Excellent download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr "Kecepatan unduh luar biasa ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
+msgstr "Kecepatan unduh luar biasa ({:.1f} Mbps)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " TEST RESULTS:\\\\\\\\n"
-msgstr "HASIL UJI:\\\\\\\\\\\\\\\\n"
+msgstr "HASIL UJI:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Average download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr "Kecepatan unduh rata-rata ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
+msgstr "Kecepatan unduh rata-rata ({:.1f} Mbps)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Poor download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr "Kecepatan unduh buruk ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
+msgstr "Kecepatan unduh buruk ({:.1f} Mbps)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Good download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr "Kecepatan unduh bagus ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
+msgstr "Kecepatan unduh bagus ({:.1f} Mbps)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " NETWORK STATISTICS\\\\\\\\n"
-msgstr "STATISTIK JARINGAN\\\\\\\\\\\\\\\\n"
+msgstr "STATISTIK JARINGAN\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Quality: {}\\\\\\\\n"
-msgstr "Kualitas: {}\\\\\\\\\\\\\\\\n"
+msgstr "Kualitas: {}%"
 
+#, fuzzy
 msgid " Signal: No quality data available\\\\\\\\n"
-msgstr "Sinyal: Tidak ada data berkualitas yang tersedia\\\\\\\\\\\\\\\\n"
+msgstr "Sinyal: Tidak ada data berkualitas yang tersedia\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Signal: {quality}% quality, {signal} dBm\\\\\\\\n"
-msgstr "Sinyal: kualitas {quality}%, {signal} dBm\\\\\\\\\\\\\\\\n"
+msgstr "Sinyal: kualitas {quality}%, {signal} dBm\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " MAC: {}\\\\\\\\n"
-msgstr "MAC: {}\\\\\\\\\\\\\\\\n"
+msgstr "MAC: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " DETAILED WIFI INFORMATION - {}\\\\\\\\n"
-msgstr "INFORMASI WIFI RINCI - {}\\\\\\\\\\\\\\\\n"
+msgstr "INFORMASI WIFI RINCI - {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " ESSID: {}\\\\\\\\n"
-msgstr "ESSID: {}\\\\\\\\\\\\\\\\n"
+msgstr "ESSID: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Interface Type: WIRELESS\\\\\\\\n"
-msgstr "Tipe Antarmuka: NIRKABEL\\\\\\\\\\\\\\\\n"
+msgstr "Tipe Antarmuka: NIRKABEL\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Scan: Found {count} networks\\\\\\\\n"
-msgstr "Pindai: Ditemukan {count} jaringan\\\\\\\\\\\\\\\\n"
+msgstr "Pindai: Ditemukan {count} jaringan\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Type: Wireless interface\\\\\\\\n"
-msgstr "Tipe: Antarmuka nirkabel\\\\\\\\\\\\\\\\n"
+msgstr "Tipe: Antarmuka nirkabel\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Connection appears good (based on download)\\\\\\\\n"
-msgstr "Koneksi tampak bagus (berdasarkan unduhan)\\\\\\\\\\\\\\\\n"
+msgstr "Koneksi tampak bagus (berdasarkan unduhan)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Connection appears responsive (based on ping)\\\\\\\\n"
-msgstr "Koneksi tampak responsif (berdasarkan ping)\\\\\\\\\\\\\\\\n"
+msgstr "Koneksi tampak responsif (berdasarkan ping)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Connection may be limited (based on download)\\\\\\\\n"
-msgstr "Koneksi mungkin terbatas (berdasarkan unduhan)\\\\\\\\\\\\\\\\n"
+msgstr "Koneksi mungkin terbatas (berdasarkan unduhan)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Connection may be slow (based on ping)\\\\\\\\n"
-msgstr "Koneksi mungkin lambat (berdasarkan ping)\\\\\\\\\\\\\\\\n"
+msgstr "Koneksi mungkin lambat (berdasarkan ping)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " ESSID: Not connected\\\\\\\\n"
-msgstr "ESSID: Tidak terhubung\\\\\\\\\\\\\\\\n"
+msgstr "ESSID: Tidak terhubung\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " ESSID: {essid}\\\\\\\\n"
-msgstr "ESSID: {essid}\\\\\\\\\\\\\\\\n"
+msgstr "ESSID: {essid}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Frequency: {}\\\\\\\\n"
-msgstr "Frekuensi: {}\\\\\\\\\\\\\\\\n"
+msgstr "Frekuensi: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " WIRELESS INFORMATION\\\\\\\\n"
-msgstr "INFORMASI NIRKABEL\\\\\\\\\\\\\\\\n"
+msgstr "INFORMASI NIRKABEL\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " DRIVER & HARDWARE\\\\\\\\n"
-msgstr "DRIVER & PERANGKAT KERAS\\\\\\\\\\\\\\\\n"
+msgstr "DRIVER & PERANGKAT KERAS\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Type: Wired interface\\\\\\\\n"
-msgstr "Tipe: Antarmuka berkabel\\\\\\\\\\\\\\\\n"
+msgstr "Tipe: Antarmuka berkabel\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " BASIC INTERFACE INFO\\\\\\\\n"
-msgstr "INFO ANTARMUKA DASAR\\\\\\\\\\\\\\\\n"
+msgstr "INFO ANTARMUKA DASAR\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Interface: {}\\\\\\\\n"
-msgstr "Antarmuka: {}\\\\\\\\\\\\\\\\n"
+msgstr "Antarmuka: {}"
 
+#, fuzzy
 msgid " METHOD: Using system commands (no root required)\\\\\\\\n"
-msgstr "METODE: Menggunakan perintah sistem (tidak diperlukan root)\\\\\\\\\\\\\\\\n"
+msgstr "METODE: Menggunakan perintah sistem (tidak diperlukan root)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Mode: Unknown\\\\\\\\n"
-msgstr "Modus: Tidak Diketahui\\\\\\\\\\\\\\\\n"
+msgstr "Modus: Tidak Diketahui\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Mode: {mode}\\\\\\\\n"
-msgstr "Modus: {mode}\\\\\\\\\\\\\\\\n"
+msgstr "Modus: {mode}"
 
+#, fuzzy
 msgid " Mode: {}\\\\\\\\n"
-msgstr "Modus: {}\\\\\\\\\\\\\\\\n"
+msgstr "Modus: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Module: {}\\\\\\\\n"
-msgstr "Modul: {}\\\\\\\\\\\\\\\\n"
+msgstr "Modul: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " SYSTEM LEVEL DIAGNOSTICS\\\\\\\\n"
-msgstr "DIAGNOSA TINGKAT SISTEM\\\\\\\\\\\\\\\\n"
+msgstr "DIAGNOSA TINGKAT SISTEM\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Bit Rate: {}\\\\\\\\n"
-msgstr "Kecepatan Bit: {}\\\\\\\\\\\\\\\\n"
+msgstr "Kecepatan Bit: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " Check hardware connection and drivers\\\\\\\\n"
-msgstr "Periksa koneksi perangkat keras dan driver\\\\\\\\\\\\\\\\n"
+msgstr "Periksa koneksi perangkat keras dan driver\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
+#, fuzzy
 msgid " VERY POOR connection\\\\\\\\n"
-msgstr "Koneksi SANGAT BURUK\\\\\\\\\\\\\\\\n"
+msgstr "Koneksi SANGAT BURUK\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+
+#~ msgid "Location: {city}, {country}\\\\\\\\\\\\\\\\n"
+#~ msgstr "Lokasi: {city}, {country}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+
+#~ msgid "MAC Address: {mac}\\\\\\\\\\\\\\\\n"
+#~ msgstr "Alamat MAC: {mac}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+
+#~ msgid "No WiFi interfaces found\\\\\\\\\\\\\\\\n"
+#~ msgstr "Tidak ditemukan antarmuka WiFi\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+
+#~ msgid "Quality: %s\\\\\\\\\\\\\\\\n"
+#~ msgstr "Kualitas: %s\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+
+#~ msgid "Scan error: {}\\\\\\\\\\\\\\\\n"
+#~ msgstr "Kesalahan pemindaian: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+
+#~ msgid "System Logs:\\\\\\\\\\\\\\\\n"
+#~ msgstr "Log Sistem:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+
+#~ msgid "{}\\\\\\\\\\\\\\\\n"
+#~ msgstr "{}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\N"
+
+#~ msgid " Error: {}\\\\\\\\\\\\\\\\n"
+#~ msgstr "Kesalahan: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+
+#~ msgid " {}\\\\\\\\\\\\\\\\n"
+#~ msgstr "{}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\N"
+
+#~ msgid " Tips:\\\\\\\\\\\\\\\\n"
+#~ msgstr "Tips:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+
+#~ msgid " Quality: {}\\\\\\\\\\\\\\\\n"
+#~ msgstr "Kualitas: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+
+#~ msgid " Interface: {}\\\\\\\\\\\\\\\\n"
+#~ msgstr "Antarmuka: {}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+
+#~ msgid " Mode: {mode}\\\\\\\\\\\\\\\\n"
+#~ msgstr "Modus: {mode}\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"

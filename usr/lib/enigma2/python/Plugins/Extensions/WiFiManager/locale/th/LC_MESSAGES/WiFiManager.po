@@ -13,580 +13,580 @@ msgid "- {adapter}\\\\\\\\n"
 msgstr ""
 
 msgid "... and {} more networks\\\\\\\\n"
-msgstr ""
+msgstr "... และอีก {} เครือข่าย\\\\\\\\\\\\\\\\n"
 
 msgid "1 dBm (Min)"
-msgstr ""
+msgstr "1 dBm (ต่ำสุด)"
 
 msgid "1. Check if WiFi adapter is properly connected\\\\\\\\n"
-msgstr ""
+msgstr "1. ตรวจสอบว่าอแด็ปเตอร์ WiFi เชื่อมต่ออย่างถูกต้องหรือไม่\\\\\\\\\\\\\\\\n"
 
 msgid "1. Disconnect from current WiFi network\\\\\\\\n"
-msgstr ""
+msgstr "1. ตัดการเชื่อมต่อจากเครือข่าย WiFi ปัจจุบัน\\\\\\\\\\\\\\\\n"
 
 msgid "10 dBm"
-msgstr ""
+msgstr "10 เดซิเบลม"
 
 msgid "15 dBm"
-msgstr ""
+msgstr "15 เดซิเบลม"
 
 msgid "2. Restart WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "2. รีสตาร์ทอแด็ปเตอร์ WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "2. Verify WiFi adapter is supported by your receiver\\\\\\\\n"
-msgstr ""
+msgstr "2. ตรวจสอบว่าตัวรับสัญญาณของคุณรองรับอแด็ปเตอร์ WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "20 dBm (Max)"
-msgstr ""
+msgstr "20 dBm (สูงสุด)"
 
 msgid "3. Check if WiFi driver is installed\\\\\\\\n"
-msgstr ""
+msgstr "3. ตรวจสอบว่ามีการติดตั้งไดรเวอร์ WiFi หรือไม่\\\\\\\\\\\\\\\\n"
 
 msgid "3. Try different USB port for USB WiFi adapters\\\\\\\\n"
-msgstr ""
+msgstr "3. ลองใช้พอร์ต USB อื่นสำหรับอะแดปเตอร์ USB WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "4. Check if WiFi drivers are installed\\\\\\\\n"
-msgstr ""
+msgstr "4. ตรวจสอบว่ามีการติดตั้งไดรเวอร์ WiFi หรือไม่\\\\\\\\\\\\\\\\n"
 
 msgid "4. Try with different USB WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "4. ลองใช้อะแดปเตอร์ USB WiFi อื่น\\\\\\\\\\\\\\\\n"
 
 msgid "5 dBm"
-msgstr ""
+msgstr "5 เดซิเบลม"
 
 msgid "5. Check root permissions\\\\\\\\n"
-msgstr ""
+msgstr "5. ตรวจสอบสิทธิ์การรูท\\\\\\\\\\\\\\\\n"
 
 msgid "5. Restart the receiver and try again\\\\\\\\n"
-msgstr ""
+msgstr "5. รีสตาร์ทเครื่องรับแล้วลองอีกครั้ง\\\\\\\\\\\\\\\\n"
 
 msgid "=== WiFi Diagnostics (System Commands Only) ===\\\\\\\\n"
-msgstr ""
+msgstr "=== การวินิจฉัย WiFi (คำสั่งของระบบเท่านั้น) ===\\\\\\\\\\\\\\\\n"
 
 msgid "ACTIVE"
-msgstr ""
+msgstr "คล่องแคล่ว"
 
 msgid "About"
-msgstr ""
+msgstr "เกี่ยวกับ"
 
 msgid "Access Point"
-msgstr ""
+msgstr "จุดเข้าใช้งาน"
 
 msgid "Access Point: {ap}"
-msgstr ""
+msgstr "จุดเข้าใช้งาน: {ap}"
 
 msgid "Access Points"
-msgstr ""
+msgstr "จุดเข้าใช้งาน"
 
 msgid "Access points info displayed."
-msgstr ""
+msgstr "ข้อมูลจุดเข้าใช้งานที่แสดง"
 
 msgid "Ad-Hoc"
-msgstr ""
+msgstr "เฉพาะกิจ"
 
 msgid "Advanced"
-msgstr ""
+msgstr "ขั้นสูง"
 
 msgid "Advanced Config"
-msgstr ""
+msgstr "การกำหนดค่าขั้นสูง"
 
 msgid "Advanced Config - {}"
-msgstr ""
+msgstr "การกำหนดค่าขั้นสูง - {}"
 
 msgid "Advanced Scan"
-msgstr ""
+msgstr "การสแกนขั้นสูง"
 
 msgid "Advanced Scan Results"
-msgstr ""
+msgstr "ผลลัพธ์การสแกนขั้นสูง"
 
 msgid "Advanced Tools"
-msgstr ""
+msgstr "เครื่องมือขั้นสูง"
 
 msgid "Advanced WiFi Configuration"
-msgstr ""
+msgstr "การกำหนดค่า WiFi ขั้นสูง"
 
 msgid "Advanced WiFi Tools"
-msgstr ""
+msgstr "เครื่องมือ WiFi ขั้นสูง"
 
 msgid "Advanced WiFi configuration"
-msgstr ""
+msgstr "การกำหนดค่า WiFi ขั้นสูง"
 
 msgid "Advanced WiFi configuration settings"
-msgstr ""
+msgstr "การตั้งค่าการกำหนดค่า WiFi ขั้นสูง"
 
 msgid "Advanced WiFi interface configuration"
-msgstr ""
+msgstr "การกำหนดค่าอินเทอร์เฟซ WiFi ขั้นสูง"
 
 msgid "Advanced configuration completed."
-msgstr ""
+msgstr "การกำหนดค่าขั้นสูงเสร็จสมบูรณ์"
 
 msgid "All Network Interfaces: {interfaces}\\\\\\\\n"
-msgstr ""
+msgstr "อินเทอร์เฟซเครือข่ายทั้งหมด: {interfaces}\\\\\\\\\\\\\\\\n"
 
 msgid "All ping tests failed"
-msgstr ""
+msgstr "การทดสอบ Ping ทั้งหมดล้มเหลว"
 
 msgid "All settings reset to defaults"
-msgstr ""
+msgstr "การตั้งค่าทั้งหมดรีเซ็ตเป็นค่าเริ่มต้น"
 
 msgid "Applied: {} commands\\\\\\\\n"
-msgstr ""
+msgstr "นำไปใช้: {} คำสั่ง\\\\\\\\\\\\\\\\n"
 
 msgid "Apply"
-msgstr ""
+msgstr "นำมาใช้"
 
 msgid "Auto"
-msgstr ""
+msgstr "อัตโนมัติ"
 
 msgid "Auto  limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "จำกัดอัตโนมัติ ; ขีดจำกัดขั้นต่ำ:{limit}"
 
 msgid "Automatic (DHCP)"
-msgstr ""
+msgstr "อัตโนมัติ (DHCP)"
 
 msgid "Available frequencies and channels for your region"
-msgstr ""
+msgstr "ความถี่และช่องสัญญาณที่ใช้ได้สำหรับภูมิภาคของคุณ"
 
 msgid "Available frequencies/channels"
-msgstr ""
+msgstr "ความถี่/ช่องสัญญาณที่ใช้ได้"
 
 msgid "Available interfaces: {}"
-msgstr ""
+msgstr "อินเทอร์เฟซที่ใช้ได้: {}"
 
 msgid "Back"
-msgstr ""
+msgstr "กลับ"
 
 msgid "Basic"
-msgstr ""
+msgstr "ขั้นพื้นฐาน"
 
 msgid "Basic info error: {}"
-msgstr ""
+msgstr "ข้อผิดพลาดข้อมูลพื้นฐาน: {}"
 
 msgid "Basic view enabled - rescan to see basic info"
-msgstr ""
+msgstr "เปิดใช้งานมุมมองพื้นฐานแล้ว - สแกนอีกครั้งเพื่อดูข้อมูลพื้นฐาน"
 
 msgid "Bit Rate: {rate}"
-msgstr ""
+msgstr "อัตราบิต: {rate}"
 
 msgid "Bit Rates:"
-msgstr ""
+msgstr "อัตราบิต:"
 
 msgid "Bitrate"
-msgstr ""
+msgstr "บิตเรต"
 
 msgid "Bitrate Info"
-msgstr ""
+msgstr "ข้อมูลบิตเรต"
 
 msgid "Bitrate info displayed."
-msgstr ""
+msgstr "ข้อมูลบิตเรตที่แสดง"
 
 msgid "Bitrate information not available\\\\\\\\n"
-msgstr ""
+msgstr "ไม่มีข้อมูลบิตเรต\\\\\\\\\\\\\\\\n"
 
 msgid "CONNECTED to: {} - Press OK for options"
-msgstr ""
+msgstr "เชื่อมต่อกับ: {} - กด OK เพื่อดูตัวเลือก"
 
 msgid "Cancel"
-msgstr ""
+msgstr "ยกเลิก"
 
 msgid "Cancelling test..."
-msgstr ""
+msgstr "กำลังยกเลิกการทดสอบ..."
 
 msgid "Cell"
-msgstr ""
+msgstr "เซลล์"
 
 msgid "Channel"
-msgstr ""
+msgstr "ช่อง"
 
 msgid "Channel Info"
-msgstr ""
+msgstr "ข้อมูลช่อง"
 
 msgid "Channel info displayed."
-msgstr ""
+msgstr "ข้อมูลช่องที่แสดง"
 
 msgid "Channel {}"
-msgstr ""
+msgstr "ช่อง {}"
 
 msgid "Channel: %s\\\\\\\\n"
-msgstr ""
+msgstr "ช่อง: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Check System Logs"
-msgstr ""
+msgstr "ตรวจสอบบันทึกของระบบ"
 
 msgid "Check system logs for WiFi errors"
-msgstr ""
+msgstr "ตรวจสอบบันทึกของระบบเพื่อหาข้อผิดพลาด WiFi"
 
 msgid "Check system logs for WiFi errors and connection issues"
-msgstr ""
+msgstr "ตรวจสอบบันทึกของระบบเพื่อหาข้อผิดพลาด WiFi และปัญหาการเชื่อมต่อ"
 
 msgid "Checking internet connection..."
-msgstr ""
+msgstr "กำลังตรวจสอบการเชื่อมต่ออินเทอร์เน็ต..."
 
 msgid "Checking system logs..."
-msgstr ""
+msgstr "กำลังตรวจสอบบันทึกของระบบ..."
 
 msgid "Clear"
-msgstr ""
+msgstr "ชัดเจน"
 
 msgid "Client info completed"
-msgstr ""
+msgstr "ข้อมูลลูกค้าเสร็จสมบูรณ์"
 
 msgid "Client info error: {error}"
-msgstr ""
+msgstr "ข้อผิดพลาดเกี่ยวกับข้อมูลลูกค้า: {error}"
 
 msgid "Close"
-msgstr ""
+msgstr "ปิด"
 
 msgid "Cloudflare"
 msgstr ""
 
 msgid "Complete iwconfig-like information"
-msgstr ""
+msgstr "กรอกข้อมูลที่คล้ายกับ iwconfig"
 
 msgid "Config"
-msgstr ""
+msgstr "การกำหนดค่า"
 
 msgid "Configure {}"
-msgstr ""
+msgstr "กำหนดค่า {}"
 
 msgid "Connect"
-msgstr ""
+msgstr "เชื่อมต่อ"
 
 msgid "Connect to WiFi networks"
-msgstr ""
+msgstr "เชื่อมต่อกับเครือข่าย WiFi"
 
 msgid "Connected but no timing data"
-msgstr ""
+msgstr "เชื่อมต่อแล้ว แต่ไม่มีข้อมูลเวลา"
 
 msgid "Connected successfully!"
-msgstr ""
+msgstr "เชื่อมต่อเรียบร้อยแล้ว!"
 
 msgid "Connected to %s"
-msgstr ""
+msgstr "เชื่อมต่อกับ %s แล้ว"
 
 msgid "Connected to: %s"
-msgstr ""
+msgstr "เชื่อมต่อกับ: %s"
 
 msgid "Connected: {} | Signal: {} dBm | IP: {}"
-msgstr ""
+msgstr "เชื่อมต่อแล้ว: {} | สัญญาณ: {} dBm | ไอพี: {}"
 
 msgid "Connecting to %s..."
-msgstr ""
+msgstr "กำลังเชื่อมต่อกับ %s..."
 
 msgid "Connection Info"
-msgstr ""
+msgstr "ข้อมูลการเชื่อมต่อ"
 
 msgid "Connection failed!"
-msgstr ""
+msgstr "การเชื่อมต่อล้มเหลว!"
 
 msgid "Connection timeout"
-msgstr ""
+msgstr "หมดเวลาการเชื่อมต่อ"
 
 msgid "Country Code"
-msgstr ""
+msgstr "รหัสประเทศ"
 
 msgid "DHCP"
-msgstr ""
+msgstr "ดีเอชซีพี"
 
 msgid "DNS Server 1"
-msgstr ""
+msgstr "เซิร์ฟเวอร์ DNS1"
 
 msgid "DNS Server 2"
-msgstr ""
+msgstr "เซิร์ฟเวอร์ DNS2"
 
 msgid "DOWN"
-msgstr ""
+msgstr "ลง"
 
 msgid "Data Rate"
-msgstr ""
+msgstr "อัตราข้อมูล"
 
 msgid "Defaults"
-msgstr ""
+msgstr "ค่าเริ่มต้น"
 
 msgid "Detailed Info - {}"
-msgstr ""
+msgstr "ข้อมูลโดยละเอียด - {}"
 
 msgid "Detailed network scanning"
-msgstr ""
+msgstr "การสแกนเครือข่ายโดยละเอียด"
 
 msgid "Detailed network scanning with signal strength and encryption info"
-msgstr ""
+msgstr "การสแกนเครือข่ายโดยละเอียดพร้อมความแรงของสัญญาณและข้อมูลการเข้ารหัส"
 
 msgid "Detailed speed test failed - Check internet connection"
-msgstr ""
+msgstr "การทดสอบความเร็วโดยละเอียดล้มเหลว - ตรวจสอบการเชื่อมต่ออินเทอร์เน็ต"
 
 msgid "Detailed test completed"
-msgstr ""
+msgstr "การทดสอบโดยละเอียดเสร็จสิ้นแล้ว"
 
 msgid "Detailed test error: {error}"
-msgstr ""
+msgstr "ข้อผิดพลาดในการทดสอบโดยละเอียด: {error}"
 
 msgid "Detailed view enabled - rescan to see details"
-msgstr ""
+msgstr "เปิดใช้งานมุมมองโดยละเอียดแล้ว - สแกนซ้ำเพื่อดูรายละเอียด"
 
 msgid "Details"
-msgstr ""
+msgstr "รายละเอียด"
 
 msgid "Details Info"
-msgstr ""
+msgstr "ข้อมูลรายละเอียด"
 
 msgid "Diagnostic error: {}\\\\\\\\n"
-msgstr ""
+msgstr "ข้อผิดพลาดในการวินิจฉัย: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Diagnostics"
-msgstr ""
+msgstr "การวินิจฉัย"
 
 msgid "Disconnect"
-msgstr ""
+msgstr "ตัดการเชื่อมต่อ"
 
 msgid "Disconnected"
-msgstr ""
+msgstr "ตัดการเชื่อมต่อแล้ว"
 
 msgid "Disconnecting..."
-msgstr ""
+msgstr "กำลังยกเลิกการเชื่อมต่อ..."
 
 msgid "Download Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "ความเร็วในการดาวน์โหลด: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Download Speed: {download}\\\\\\\\n"
-msgstr ""
+msgstr "ความเร็วในการดาวน์โหลด: {download}\\\\\\\\\\\\\\\\n"
 
 msgid "Download test completed"
-msgstr ""
+msgstr "การทดสอบการดาวน์โหลดเสร็จสมบูรณ์"
 
 msgid "Download: Failed\\\\\\\\n"
-msgstr ""
+msgstr "ดาวน์โหลด: ล้มเหลว\\\\\\\\\\\\\\\\n"
 
 msgid "Download: {:.2f} Mbps\\\\\\\\n"
-msgstr ""
+msgstr "ดาวน์โหลด: {:.2f} Mbps\\\\\\\\\\\\\\\\n"
 
 msgid "Driver check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "การตรวจสอบไดรเวอร์ล้มเหลว: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "Driver info error: {}"
-msgstr ""
+msgstr "ข้อผิดพลาดข้อมูลไดรเวอร์: {}"
 
 msgid "Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "ไดรเวอร์: ไม่ทราบ\\\\\\\\\\\\\\\\n"
 
 msgid "Driver: {driver}\\\\\\\\n"
-msgstr ""
+msgstr "ไดรเวอร์: {driver}\\\\\\\\\\\\\\\\n"
 
 msgid "ESSID: %s\\\\\\\\n"
 msgstr ""
 
 msgid "ESSID: {}"
-msgstr ""
+msgstr "รหัส: {}"
 
 msgid "Edit Configuration"
-msgstr ""
+msgstr "แก้ไขการกำหนดค่า"
 
 msgid "Edit Password"
-msgstr ""
+msgstr "แก้ไขรหัสผ่าน"
 
 msgid "Encryption"
-msgstr ""
+msgstr "การเข้ารหัส"
 
 msgid "Encryption Info"
-msgstr ""
+msgstr "ข้อมูลการเข้ารหัส"
 
 msgid "Encryption info displayed."
-msgstr ""
+msgstr "ข้อมูลการเข้ารหัสปรากฏขึ้น"
 
 msgid "Encryption information not available\\\\\\\\n"
-msgstr ""
+msgstr "ไม่มีข้อมูลการเข้ารหัส\\\\\\\\\\\\\\\\n"
 
 msgid "Encryption keys and security"
-msgstr ""
+msgstr "คีย์เข้ารหัสและความปลอดภัย"
 
 msgid "Encryption keys and security protocols"
-msgstr ""
+msgstr "คีย์เข้ารหัสและโปรโตคอลความปลอดภัย"
 
 msgid "Encryption: %s\\\\\\\\n"
-msgstr ""
+msgstr "การเข้ารหัส: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Enter Password"
-msgstr ""
+msgstr "ใส่รหัสผ่าน"
 
 msgid "Enter password for: %s"
-msgstr ""
+msgstr "ป้อนรหัสผ่านสำหรับ: %s"
 
 msgid "Error"
-msgstr ""
+msgstr "ข้อผิดพลาด"
 
 msgid "Error applying advanced settings: {}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการใช้การตั้งค่าขั้นสูง: {}"
 
 msgid "Error applying settings: {}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการใช้การตั้งค่า: {}"
 
 msgid "Error disconnecting"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการยกเลิกการเชื่อมต่อ"
 
 msgid "Error getting AP information: {}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการรับข้อมูล AP: {}"
 
 msgid "Error getting bitrate information: {}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการรับข้อมูลบิตเรต: {}"
 
 msgid "Error getting channel information: {}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการรับข้อมูลช่อง: {}"
 
 msgid "Error getting connection details: {error}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการรับรายละเอียดการเชื่อมต่อ: {error}"
 
 msgid "Error getting encryption information: {}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการรับข้อมูลการเข้ารหัส: {}"
 
 msgid "Error getting power information: {}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการรับข้อมูลพลังงาน: {}"
 
 msgid "Error getting retry information: {}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการรับข้อมูลการลองอีกครั้ง: {}"
 
 msgid "Error loading help"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการโหลดความช่วยเหลือ"
 
 msgid "Error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "ข้อผิดพลาดใน {interface}: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "Error opening {module}: {error}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการเปิด {module}: {error}"
 
 msgid "Error running {tool}: {error}"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการรัน {tool}: {error}"
 
 msgid "Error: {error}"
-msgstr ""
+msgstr "ข้อผิดพลาด: {error}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "ข้อผิดพลาด: {}"
 
 msgid "Estimating upload speed..."
-msgstr ""
+msgstr "กำลังประมาณความเร็วในการอัปโหลด..."
 
 msgid "Excellent"
-msgstr ""
+msgstr "ยอดเยี่ยม"
 
 msgid "Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "ความเร็วในการดาวน์โหลดที่ยอดเยี่ยม\\\\\\\\\\\\\\\\n"
 
 msgid "Executing tool..."
-msgstr ""
+msgstr "กำลังดำเนินการเครื่องมือ..."
 
 msgid "Exit"
-msgstr ""
+msgstr "ออก"
 
 msgid "Failed"
-msgstr ""
+msgstr "ล้มเหลว"
 
 msgid "Failed to connect to %s"
-msgstr ""
+msgstr "ไม่สามารถเชื่อมต่อกับ %s"
 
 msgid "Failed: {} commands"
-msgstr ""
+msgstr "ล้มเหลว: คำสั่ง {}"
 
 msgid "Fair"
-msgstr ""
+msgstr "ยุติธรรม"
 
 msgid "Final connectivity check..."
-msgstr ""
+msgstr "การตรวจสอบการเชื่อมต่อขั้นสุดท้าย..."
 
 msgid "Finding best server..."
-msgstr ""
+msgstr "ค้นหาเซิร์ฟเวอร์ที่ดีที่สุด..."
 
 msgid "Fixed lifetime ;  min lifetime:{lifetime}"
-msgstr ""
+msgstr "อายุการใช้งานคงที่ ; อายุการใช้งานขั้นต่ำ:{lifetime}"
 
 msgid "Fixed limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "ขีดจำกัดคงที่ ; ขีดจำกัดขั้นต่ำ:{limit}"
 
 msgid "For troubleshooting, detailed guidance, or community support, visit:\\\\\\\\n"
-msgstr ""
+msgstr "สำหรับการแก้ปัญหา คำแนะนำโดยละเอียด หรือการสนับสนุนชุมชน โปรดไปที่:\\\\\\\\\\\\\\\\n"
 
 msgid "Forget Network"
-msgstr ""
+msgstr "ลืมเครือข่าย"
 
 msgid "Forgotten network: {}"
-msgstr ""
+msgstr "เครือข่ายที่ถูกลืม: {}"
 
 msgid "Found {} networks:\\\\\\\\n"
-msgstr ""
+msgstr "พบ {} เครือข่าย:\\\\\\\\\\\\\\\\n"
 
 msgid "Found: {}\\\\\\\\n"
-msgstr ""
+msgstr "พบ: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Fragmentation"
-msgstr ""
+msgstr "การกระจายตัว"
 
 msgid "Frequency"
-msgstr ""
+msgstr "ความถี่"
 
 msgid "Frequency information not available\\\\\\\\n"
-msgstr ""
+msgstr "ไม่มีข้อมูลความถี่\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency/Channel"
-msgstr ""
+msgstr "ความถี่/ช่อง"
 
 msgid "Frequency:"
-msgstr ""
+msgstr "ความถี่:"
 
 msgid "Frequency: %s\\\\\\\\n"
-msgstr ""
+msgstr "ความถี่: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency: {frequency}"
-msgstr ""
+msgstr "ความถี่: {frequency}"
 
 msgid "Full Comprehensive Test"
-msgstr ""
+msgstr "การทดสอบที่ครอบคลุมเต็มรูปแบบ"
 
 msgid "Full Test"
-msgstr ""
+msgstr "การทดสอบฉบับเต็ม"
 
 msgid "Full test completed"
-msgstr ""
+msgstr "การทดสอบเต็มรูปแบบเสร็จสมบูรณ์"
 
 msgid "Full test error: {error}"
-msgstr ""
+msgstr "ข้อผิดพลาดในการทดสอบทั้งหมด: {error}"
 
 msgid "Gateway"
-msgstr ""
+msgstr "เกตเวย์"
 
 msgid "Gateway: {gateway}"
-msgstr ""
+msgstr "เกตเวย์: {gateway}"
 
 msgid "Gathering client information..."
-msgstr ""
+msgstr "กำลังรวบรวมข้อมูลลูกค้า..."
 
 msgid "Gathering network details..."
-msgstr ""
+msgstr "กำลังรวบรวมรายละเอียดเครือข่าย..."
 
 msgid "Getting access point information..."
-msgstr ""
+msgstr "กำลังรับข้อมูลจุดเข้าใช้งาน..."
 
 msgid "Getting bitrate information..."
-msgstr ""
+msgstr "กำลังรับข้อมูลบิตเรต..."
 
 msgid "Getting channel information..."
-msgstr ""
+msgstr "กำลังรับข้อมูลช่อง..."
 
 msgid "Getting client information..."
-msgstr ""
+msgstr "กำลังรับข้อมูลลูกค้า..."
 
 msgid "Getting encryption information..."
-msgstr ""
+msgstr "กำลังรับข้อมูลการเข้ารหัส..."
 
 msgid "Getting power management information..."
-msgstr ""
+msgstr "กำลังรับข้อมูลการจัดการพลังงาน..."
 
 msgid "Getting retry information..."
-msgstr ""
+msgstr "กำลังรับข้อมูลการลองอีกครั้ง..."
 
 msgid "Good"
-msgstr ""
+msgstr "ดี"
 
 msgid "Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "ความเร็วในการดาวน์โหลดที่ดี\\\\\\\\\\\\\\\\n"
 
 msgid "Google"
 msgstr ""
@@ -595,874 +595,874 @@ msgid "Google DNS"
 msgstr ""
 
 msgid "Help"
-msgstr ""
+msgstr "ช่วย"
 
 msgid "Hidden"
-msgstr ""
+msgstr "ที่ซ่อนอยู่"
 
 msgid "Hidden Network"
-msgstr ""
+msgstr "เครือข่ายที่ซ่อนอยู่"
 
 msgid "Host not found"
-msgstr ""
+msgstr "ไม่พบโฮสต์"
 
 msgid "Hostname: {hostname}"
-msgstr ""
+msgstr "ชื่อโฮสต์: {hostname}"
 
 msgid "INACTIVE"
-msgstr ""
+msgstr "ไม่ได้ใช้งาน"
 
 msgid "IP Address"
-msgstr ""
+msgstr "ที่อยู่ IP"
 
 msgid "IP Address: {ip}"
-msgstr ""
+msgstr "ที่อยู่ IP: {ip}"
 
 msgid "IP Configuration"
-msgstr ""
+msgstr "การกำหนดค่า IP"
 
 msgid "IP: N/A"
-msgstr ""
+msgstr "IP: ไม่มี"
 
 msgid "IP: {ip}\\\\\\\\n"
-msgstr ""
+msgstr "ไอพี: {ip}\\\\\\\\\\\\\\\\n"
 
 msgid "IP: {}"
-msgstr ""
+msgstr "ไอพี: {}"
 
 msgid "ISP: {isp}"
-msgstr ""
+msgstr "ผู้ให้บริการอินเทอร์เน็ต: {isp}"
 
 msgid "ISP: {isp}\\\\\\\\n"
-msgstr ""
+msgstr "ผู้ให้บริการอินเทอร์เน็ต: {isp}\\\\\\\\\\\\\\\\n"
 
 msgid "Info"
-msgstr ""
+msgstr "ข้อมูล"
 
 msgid "Initializing WiFi..."
-msgstr ""
+msgstr "กำลังเริ่มต้น WiFi..."
 
 msgid "Initializing detailed speed test..."
-msgstr ""
+msgstr "กำลังเริ่มต้นการทดสอบความเร็วโดยละเอียด..."
 
 msgid "Interface"
-msgstr ""
+msgstr "อินเทอร์เฟซ"
 
 msgid "Interface found: {}"
-msgstr ""
+msgstr "พบอินเทอร์เฟซ: {}"
 
 msgid "Interface restarted successfully"
-msgstr ""
+msgstr "รีสตาร์ทอินเทอร์เฟซสำเร็จแล้ว"
 
 msgid "Interface restarted."
-msgstr ""
+msgstr "รีสตาร์ทอินเทอร์เฟซแล้ว"
 
 msgid "Interface {} not available"
-msgstr ""
+msgstr "อินเทอร์เฟซ {} ไม่พร้อมใช้งาน"
 
 msgid "Interface: {}"
-msgstr ""
+msgstr "อินเทอร์เฟซ: {}"
 
 msgid "Invalid misc:%s"
-msgstr ""
+msgstr "เบ็ดเตล็ดไม่ถูกต้อง:%s"
 
 msgid "Kernel Messages (dmesg):\\\\\\\\n"
-msgstr ""
+msgstr "ข้อความเคอร์เนล (dmesg):\\\\\\\\\\\\\\\\n"
 
 msgid "Latency test completed"
-msgstr ""
+msgstr "การทดสอบเวลาในการตอบสนองเสร็จสิ้น"
 
 msgid "Latency: %s\\\\\\\\n"
-msgstr ""
+msgstr "เวลาแฝง: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Link Quality: {quality}"
-msgstr ""
+msgstr "คุณภาพลิงก์: {quality}"
 
 msgid "Link Quality:%s/100"
-msgstr ""
+msgstr "คุณภาพลิงก์:%s/100"
 
 msgid "List of access points and connected peer stations"
-msgstr ""
+msgstr "รายชื่อจุดเข้าใช้งานและสถานีเพียร์ที่เชื่อมต่อ"
 
 msgid "List of access points/peers"
-msgstr ""
+msgstr "รายการจุดเข้าใช้งาน/เพียร์"
 
 msgid "Location: {city}, {country}"
-msgstr ""
+msgstr "สถานที่: {city}, {country}"
 
 msgid "Location: {city}, {country}\\\\\\\\n"
-msgstr ""
+msgstr "สถานที่: {city}, {country}\\\\\\\\\\\\\\\\n"
 
 msgid "Logs checked."
-msgstr ""
+msgstr "ตรวจสอบบันทึกแล้ว"
 
 msgid "MAC Address: {mac}"
-msgstr ""
+msgstr "ที่อยู่ MAC: {mac}"
 
 msgid "MAC Address: {mac}\\\\\\\\n"
-msgstr ""
+msgstr "ที่อยู่ MAC: {mac}\\\\\\\\\\\\\\\\n"
 
 msgid "MAC: %s\\\\\\\\n"
 msgstr ""
 
 msgid "MAC: N/A"
-msgstr ""
+msgstr "แมค: ไม่มี"
 
 msgid "MAC: {}"
-msgstr ""
+msgstr "แม็ค: {}"
 
 msgid "Managed (Client)"
-msgstr ""
+msgstr "จัดการ (ลูกค้า)"
 
 msgid "Manual (Static IP)"
-msgstr ""
+msgstr "คู่มือ (IP แบบคงที่)"
 
 msgid "Master (AP)"
-msgstr ""
+msgstr "ปริญญาโท (เอพี)"
 
 msgid "Missed beacon:%s"
-msgstr ""
+msgstr "บีคอนที่ไม่ได้รับ:%s"
 
 msgid "Mode:"
-msgstr ""
+msgstr "โหมด:"
 
 msgid "Mode: {mode}"
-msgstr ""
+msgstr "โหมด: {mode}"
 
 msgid "Modules reloaded."
-msgstr ""
+msgstr "โหลดโมดูลแล้ว"
 
 msgid "Monitor"
-msgstr ""
+msgstr "เฝ้าสังเกต"
 
 msgid "Monitoring error: {}"
-msgstr ""
+msgstr "ข้อผิดพลาดในการตรวจสอบ: {}"
 
 msgid "N/A"
-msgstr ""
+msgstr "ไม่มี"
 
 msgid "Name: {name}\\\\\\\\n"
-msgstr ""
+msgstr "ชื่อ: {name}\\\\\\\\\\\\\\\\n"
 
 msgid "Netmask"
-msgstr ""
+msgstr "เน็ตมาสก์"
 
 msgid "Network %d:\\\\\\\\n"
-msgstr ""
+msgstr "เครือข่าย %d:\\\\\\\\\\\\\\\\n"
 
 msgid "Network Interface: {interface}"
-msgstr ""
+msgstr "อินเทอร์เฟซเครือข่าย: {interface}"
 
 msgid "Network Name (SSID)"
-msgstr ""
+msgstr "ชื่อเครือข่าย (SSID)"
 
 msgid "Network forgotten!"
-msgstr ""
+msgstr "เครือข่ายลืม!"
 
 msgid "Network info error: {error}"
-msgstr ""
+msgstr "ข้อผิดพลาดข้อมูลเครือข่าย: {error}"
 
 msgid "Network information unavailable"
-msgstr ""
+msgstr "ข้อมูลเครือข่ายไม่พร้อมใช้งาน"
 
 msgid "Network unreachable"
-msgstr ""
+msgstr "เครือข่ายไม่สามารถเข้าถึงได้"
 
 msgid "Network: %s"
-msgstr ""
+msgstr "เครือข่าย: %s"
 
 msgid "Network: {essid}"
-msgstr ""
+msgstr "เครือข่าย: {essid}"
 
 msgid "No"
-msgstr ""
+msgstr "เลขที่"
 
 msgid "No IP"
-msgstr ""
+msgstr "ไม่มีไอพี"
 
 msgid "No WiFi connection data available"
-msgstr ""
+msgstr "ไม่มีข้อมูลการเชื่อมต่อ WiFi"
 
 msgid "No WiFi interface available"
-msgstr ""
+msgstr "ไม่มีอินเทอร์เฟซ WiFi"
 
 msgid "No WiFi interface detected. Please check your hardware."
-msgstr ""
+msgstr "ไม่พบอินเทอร์เฟซ WiFi โปรดตรวจสอบฮาร์ดแวร์ของคุณ"
 
 msgid "No WiFi interface found"
-msgstr ""
+msgstr "ไม่พบอินเทอร์เฟซ WiFi"
 
 msgid "No WiFi interfaces found"
-msgstr ""
+msgstr "ไม่พบอินเทอร์เฟซ WiFi"
 
 msgid "No WiFi interfaces found\\\\\\\\n"
-msgstr ""
+msgstr "ไม่พบอินเทอร์เฟซ WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "No WiFi messages in system logs"
-msgstr ""
+msgstr "ไม่มีข้อความ WiFi ในบันทึกของระบบ"
 
 msgid "No connection details available"
-msgstr ""
+msgstr "ไม่มีรายละเอียดการเชื่อมต่อ"
 
 msgid "No data"
-msgstr ""
+msgstr "ไม่มีข้อมูล"
 
 msgid "No help available for this tool."
-msgstr ""
+msgstr "ไม่มีความช่วยเหลือสำหรับเครื่องมือนี้"
 
 msgid "No interface"
-msgstr ""
+msgstr "ไม่มีอินเทอร์เฟซ"
 
 msgid "No internet connection"
-msgstr ""
+msgstr "ไม่มีการเชื่อมต่ออินเทอร์เน็ต"
 
 msgid "No internet connection detected"
-msgstr ""
+msgstr "ไม่พบการเชื่อมต่ออินเทอร์เน็ต"
 
 msgid "No network selected"
-msgstr ""
+msgstr "ไม่ได้เลือกเครือข่าย"
 
 msgid "No networks found"
-msgstr ""
+msgstr "ไม่พบเครือข่าย"
 
 msgid "No networks found - Press BLUE to rescan"
-msgstr ""
+msgstr "ไม่พบเครือข่าย - กด BLUE เพื่อสแกนอีกครั้ง"
 
 msgid "No networks found on {}\\\\\\\\n"
-msgstr ""
+msgstr "ไม่พบเครือข่ายบน {}\\\\\\\\\\\\\\\\n"
 
 msgid "No networks found or scan not supported\\\\\\\\n"
-msgstr ""
+msgstr "ไม่พบเครือข่ายหรือไม่รองรับการสแกน\\\\\\\\\\\\\\\\n"
 
 msgid "No networks found with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "ไม่พบเครือข่ายที่มี iwlist\\\\\\\\\\\\\\\\n"
 
 msgid "No packets sent"
-msgstr ""
+msgstr "ไม่มีแพ็กเก็ตที่ส่ง"
 
 msgid "No ping data"
-msgstr ""
+msgstr "ไม่มีข้อมูลปิง"
 
 msgid "No results with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "ไม่มีผลลัพธ์ด้วย iwlist\\\\\\\\\\\\\\\\n"
 
 msgid "No station/peer information available\\\\\\\\n"
-msgstr ""
+msgstr "ไม่มีข้อมูลสถานี/เพียร์\\\\\\\\\\\\\\\\n"
 
 msgid "Noise level:%sdBm"
-msgstr ""
+msgstr "ระดับเสียง:%sdBm"
 
 msgid "None"
-msgstr ""
+msgstr "ไม่มี"
 
 msgid "None found"
-msgstr ""
+msgstr "ไม่พบเลย"
 
 msgid "Not connected"
-msgstr ""
+msgstr "ไม่ได้เชื่อมต่อ"
 
 msgid "Not connected to any network"
-msgstr ""
+msgstr "ไม่ได้เชื่อมต่อกับเครือข่ายใดๆ"
 
 msgid "Not-Associated"
-msgstr ""
+msgstr "ไม่เกี่ยวข้อง"
 
 msgid "Open"
-msgstr ""
+msgstr "เปิด"
 
 msgid "OpenDNS"
-msgstr ""
+msgstr "โอเพ่น DNS"
 
 msgid "Operation Mode"
-msgstr ""
+msgstr "โหมดการทำงาน"
 
 msgid "Operation completed."
-msgstr ""
+msgstr "การดำเนินการเสร็จสมบูรณ์"
 
 msgid "Output: {output}..."
-msgstr ""
+msgstr "เอาท์พุต: {output}..."
 
 msgid "Packet retry limits and frame lifetime settings"
-msgstr ""
+msgstr "ขีดจำกัดการลองแพ็คเก็ตใหม่และการตั้งค่าอายุการใช้งานของเฟรม"
 
 msgid "Packets: {sent}, Lost: {lost} ({percentage:.1f}%) - {stability}"
-msgstr ""
+msgstr "แพ็กเก็ต: {sent} สูญหาย: {lost} ({percentage:.1f}%) - {stability}"
 
 msgid "Password"
-msgstr ""
+msgstr "รหัสผ่าน"
 
 msgid "Pause"
-msgstr ""
+msgstr "หยุดชั่วคราว"
 
 msgid "Performing initial scan..."
-msgstr ""
+msgstr "กำลังดำเนินการสแกนเริ่มต้น..."
 
 msgid "Ping error for {host}: {error}"
-msgstr ""
+msgstr "ข้อผิดพลาดในการ Ping สำหรับ {host}: {error}"
 
 msgid "Ping failed"
-msgstr ""
+msgstr "ปิงล้มเหลว"
 
 msgid "Ping failed for {host} (returncode: {code})"
-msgstr ""
+msgstr "การ Ping ล้มเหลวสำหรับ {host} (รหัสส่งคืน: {code})"
 
 msgid "Ping not available"
-msgstr ""
+msgstr "ปิงไม่พร้อมใช้งาน"
 
 msgid "Ping test completed: {avg:.1f} ms average ({success}/{total} successful)"
-msgstr ""
+msgstr "การทดสอบ Ping เสร็จสมบูรณ์: {avg:.1f} ms โดยเฉลี่ย ({success}/{total} สำเร็จ)"
 
 msgid "Ping test error: {error}"
-msgstr ""
+msgstr "ข้อผิดพลาดในการทดสอบการ Ping: {error}"
 
 msgid "Ping timeout for {host}"
-msgstr ""
+msgstr "หมดเวลา Ping สำหรับ {host}"
 
 msgid "Ping {host} (fallback): {time} ms"
-msgstr ""
+msgstr "ปิง {host} (สำรอง): {time} ms"
 
 msgid "Ping {host}: {time} ms"
-msgstr ""
+msgstr "ปิง {host}: {time} มิลลิวินาที"
 
 msgid "Ping/Latency: {ping}\\\\\\\\n"
-msgstr ""
+msgstr "ปิง/เวลาแฝง: {ping}\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: Failed\\\\\\\\n"
-msgstr ""
+msgstr "ปิง: ล้มเหลว\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: {:.1f} ms\\\\\\\\n"
-msgstr ""
+msgstr "ปิง: {:.1f} ms\\\\\\\\\\\\\\\\n"
 
 msgid "Please enter a network name"
-msgstr ""
+msgstr "กรุณากรอกชื่อเครือข่าย"
 
 msgid "Please enter a password"
-msgstr ""
+msgstr "กรุณากรอกรหัสผ่าน"
 
 msgid "Poor"
-msgstr ""
+msgstr "ยากจน"
 
 msgid "Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "ความเร็วในการดาวน์โหลดต่ำ\\\\\\\\\\\\\\\\n"
 
 msgid "Power Management"
-msgstr ""
+msgstr "การจัดการพลังงาน"
 
 msgid "Power management info displayed."
-msgstr ""
+msgstr "ข้อมูลการจัดการพลังงานแสดงขึ้น"
 
 msgid "Power management information not available\\\\\\\\n"
-msgstr ""
+msgstr "ไม่มีข้อมูลการจัดการพลังงาน\\\\\\\\\\\\\\\\n"
 
 msgid "Power management settings"
-msgstr ""
+msgstr "การตั้งค่าการจัดการพลังงาน"
 
 msgid "Power management settings and power saving modes"
-msgstr ""
+msgstr "การตั้งค่าการจัดการพลังงานและโหมดประหยัดพลังงาน"
 
 msgid "Primary DNS"
-msgstr ""
+msgstr "DNS หลัก"
 
 msgid "Public IP: Unable to determine"
-msgstr ""
+msgstr "IP สาธารณะ: ไม่สามารถระบุได้"
 
 msgid "Public IP: {ip}"
-msgstr ""
+msgstr "ไอพีสาธารณะ: {ip}"
 
 msgid "Quality: %s\\\\\\\\n"
-msgstr ""
+msgstr "คุณภาพ: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Quality: N/A"
-msgstr ""
+msgstr "คุณภาพ: ไม่ระบุ"
 
 msgid "Quality: {}%"
-msgstr ""
+msgstr "คุณภาพ: {}%"
 
 msgid "Quality: {}% ({})"
-msgstr ""
+msgstr "คุณภาพ: {}% ({})"
 
 msgid "Quick System Check"
-msgstr ""
+msgstr "ตรวจสอบระบบด่วน"
 
 msgid "Quick Test"
-msgstr ""
+msgstr "การทดสอบอย่างรวดเร็ว"
 
 msgid "Quick test completed"
-msgstr ""
+msgstr "การทดสอบอย่างรวดเร็วเสร็จสิ้น"
 
 msgid "Quick test error: {error}"
-msgstr ""
+msgstr "ข้อผิดพลาดในการทดสอบด่วน: {error}"
 
 msgid "RTS Threshold"
-msgstr ""
+msgstr "เกณฑ์ RTS"
 
 msgid "Real-time signal quality monitor"
-msgstr ""
+msgstr "การตรวจสอบคุณภาพสัญญาณแบบเรียลไทม์"
 
 msgid "Refresh"
-msgstr ""
+msgstr "รีเฟรช"
 
 msgid "Reload WiFi Modules"
-msgstr ""
+msgstr "โหลดโมดูล WiFi ใหม่"
 
 msgid "Reload kernel WiFi modules"
-msgstr ""
+msgstr "โหลดโมดูลเคอร์เนล WiFi ใหม่"
 
 msgid "Reload kernel WiFi modules to fix driver issues"
-msgstr ""
+msgstr "โหลดโมดูลเคอร์เนล WiFi ใหม่เพื่อแก้ไขปัญหาไดรเวอร์"
 
 msgid "Remember password"
-msgstr ""
+msgstr "จำรหัสผ่าน"
 
 msgid "Restart WiFi Interface"
-msgstr ""
+msgstr "รีสตาร์ทอินเทอร์เฟซ WiFi"
 
 msgid "Restart WiFi interface %s?"
-msgstr ""
+msgstr "รีสตาร์ทอินเทอร์เฟซ WiFi %s หรือไม่"
 
 msgid "Restart wireless interface"
-msgstr ""
+msgstr "รีสตาร์ทอินเทอร์เฟซไร้สาย"
 
 msgid "Restart wireless interface to reset connectivity"
-msgstr ""
+msgstr "รีสตาร์ทอินเทอร์เฟซไร้สายเพื่อรีเซ็ตการเชื่อมต่อ"
 
 msgid "Restarting interface..."
-msgstr ""
+msgstr "กำลังรีสตาร์ทอินเทอร์เฟซ..."
 
 msgid "Retry Limits"
-msgstr ""
+msgstr "ขีดจำกัดการลองอีกครั้ง"
 
 msgid "Retry limit information not available\\\\\\\\n"
-msgstr ""
+msgstr "ไม่มีข้อมูลขีดจำกัดการลองใหม่\\\\\\\\\\\\\\\\n"
 
 msgid "Retry limits and lifetime"
-msgstr ""
+msgstr "ขีดจำกัดและอายุการใช้งานของการลองอีกครั้ง"
 
 msgid "Retry limits info displayed."
-msgstr ""
+msgstr "แสดงข้อมูลขีดจำกัดการลองอีกครั้ง"
 
 msgid "Running detailed speed test..."
-msgstr ""
+msgstr "กำลังรันการทดสอบความเร็วโดยละเอียด..."
 
 msgid "Running full speed test..."
-msgstr ""
+msgstr "กำลังทดสอบความเร็วเต็มที่..."
 
 msgid "Running quick speed test..."
-msgstr ""
+msgstr "กำลังทดสอบความเร็วอย่างรวดเร็ว..."
 
 msgid "Rx invalid crypt:%s"
-msgstr ""
+msgstr "Rx การเข้ารหัสไม่ถูกต้อง:%s"
 
 msgid "Rx invalid frag:%s"
-msgstr ""
+msgstr "Rx แฟรกเมนต์ไม่ถูกต้อง:%s"
 
 msgid "Rx invalid nwid:%s"
-msgstr ""
+msgstr "Rx nwid ไม่ถูกต้อง:%s"
 
 msgid "Save & Connect"
-msgstr ""
+msgstr "บันทึกและเชื่อมต่อ"
 
 msgid "Scan"
-msgstr ""
+msgstr "สแกน"
 
 msgid "Scan completed."
-msgstr ""
+msgstr "สแกนเสร็จแล้ว"
 
 msgid "Scan error {}"
-msgstr ""
+msgstr "ข้อผิดพลาดในการสแกน {}"
 
 msgid "Scan error:"
-msgstr ""
+msgstr "ข้อผิดพลาดในการสแกน:"
 
 msgid "Scan error: {}"
-msgstr ""
+msgstr "ข้อผิดพลาดในการสแกน: {}"
 
 msgid "Scan error: {}\\\\\\\\n"
-msgstr ""
+msgstr "ข้อผิดพลาดในการสแกน: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Scan failed"
-msgstr ""
+msgstr "การสแกนล้มเหลว"
 
 msgid "Scan for available networks"
-msgstr ""
+msgstr "สแกนหาเครือข่ายที่มีอยู่"
 
 msgid "Scanner"
-msgstr ""
+msgstr "เครื่องสแกน"
 
 msgid "Scanning for WiFi networks..."
-msgstr ""
+msgstr "กำลังสแกนหาเครือข่าย WiFi..."
 
 msgid "Scanning for networks..."
-msgstr ""
+msgstr "กำลังสแกนหาเครือข่าย..."
 
 msgid "Scanning..."
-msgstr ""
+msgstr "กำลังสแกน..."
 
 msgid "Secondary DNS"
-msgstr ""
+msgstr "DNS รอง"
 
 msgid "Secured"
-msgstr ""
+msgstr "ปลอดภัย"
 
 msgid "Select"
-msgstr ""
+msgstr "เลือก"
 
 msgid "Select a speed test type"
-msgstr ""
+msgstr "เลือกประเภทการทดสอบความเร็ว"
 
 msgid "Select a tool from the menu to get detailed information about WiFi configuration and status."
-msgstr ""
+msgstr "เลือกเครื่องมือจากเมนูเพื่อรับข้อมูลโดยละเอียดเกี่ยวกับการกำหนดค่าและสถานะ WiFi"
 
 msgid "Select a tool to see description"
-msgstr ""
+msgstr "เลือกเครื่องมือเพื่อดูคำอธิบาย"
 
 msgid "Select a tool to view detailed information"
-msgstr ""
+msgstr "เลือกเครื่องมือเพื่อดูข้อมูลโดยละเอียด"
 
 msgid "Select an option"
-msgstr ""
+msgstr "เลือกตัวเลือก"
 
 msgid "Server found"
-msgstr ""
+msgstr "พบเซิร์ฟเวอร์"
 
 msgid "Server info error: {error}"
-msgstr ""
+msgstr "ข้อผิดพลาดเกี่ยวกับข้อมูลเซิร์ฟเวอร์: {error}"
 
 msgid "Settings applied successfully"
-msgstr ""
+msgstr "ใช้การตั้งค่าเรียบร้อยแล้ว"
 
 msgid "Signal Level: {signal} dBm"
-msgstr ""
+msgstr "ระดับสัญญาณ: {signal} dBm"
 
 msgid "Signal level:%sdBm"
-msgstr ""
+msgstr "ระดับสัญญาณ:%sdBm"
 
 msgid "Signal: %s\\\\\\\\n"
-msgstr ""
+msgstr "สัญญาณ: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Signal: N/A"
-msgstr ""
+msgstr "สัญญาณ: ไม่มี"
 
 msgid "Signal: {} dBm"
-msgstr ""
+msgstr "สัญญาณ: {} เดซิเบลม"
 
 msgid "Speedtest"
-msgstr ""
+msgstr "ทดสอบความเร็ว"
 
 msgid "Speedtest failed - No internet connection or all tests failed"
-msgstr ""
+msgstr "การทดสอบความเร็วล้มเหลว - ไม่มีการเชื่อมต่ออินเทอร์เน็ตหรือการทดสอบทั้งหมดล้มเหลว"
 
 msgid "Speedtest failed: {}"
-msgstr ""
+msgstr "การทดสอบความเร็วล้มเหลว: {}"
 
 msgid "SpeedtestSimple not available"
-msgstr ""
+msgstr "SpeedtestSimple ไม่พร้อมใช้งาน"
 
 msgid "Sponsor: {sponsor}\\\\\\\\n"
-msgstr ""
+msgstr "สปอนเซอร์: {sponsor}\\\\\\\\\\\\\\\\n"
 
 msgid "Stability test error: {error}"
-msgstr ""
+msgstr "ข้อผิดพลาดในการทดสอบความเสถียร: {error}"
 
 msgid "Stable"
-msgstr ""
+msgstr "มั่นคง"
 
 msgid "Start"
-msgstr ""
+msgstr "เริ่ม"
 
 msgid "Static"
-msgstr ""
+msgstr "คงที่"
 
 msgid "Statistics error: {}"
-msgstr ""
+msgstr "ข้อผิดพลาดทางสถิติ: {}"
 
 msgid "Status check failed: {}"
-msgstr ""
+msgstr "การตรวจสอบสถานะล้มเหลว: {}"
 
 msgid "Stop"
-msgstr ""
+msgstr "หยุด"
 
 msgid "Supported bit rates"
-msgstr ""
+msgstr "อัตราบิตที่รองรับ"
 
 msgid "Supported bitrates and current transmission rates"
-msgstr ""
+msgstr "บิตเรตที่รองรับและอัตราการส่งข้อมูลปัจจุบัน"
 
 msgid "System Logs"
-msgstr ""
+msgstr "บันทึกของระบบ"
 
 msgid "System Logs:\\\\\\\\n"
-msgstr ""
+msgstr "บันทึกของระบบ:\\\\\\\\\\\\\\\\n"
 
 msgid "TX Power"
-msgstr ""
+msgstr "เท็กซัสพาวเวอร์"
 
 msgid "Tertiary DNS"
-msgstr ""
+msgstr "DNS ระดับอุดมศึกษา"
 
 msgid "Test cancelled"
-msgstr ""
+msgstr "ยกเลิกการทดสอบแล้ว"
 
 msgid "Test completed - See results below"
-msgstr ""
+msgstr "การทดสอบเสร็จสมบูรณ์ - ดูผลลัพธ์ด้านล่าง"
 
 msgid "Test completed!"
-msgstr ""
+msgstr "การทดสอบเสร็จสิ้น!"
 
 msgid "Test failed"
-msgstr ""
+msgstr "การทดสอบล้มเหลว"
 
 msgid "Testing connection stability..."
-msgstr ""
+msgstr "กำลังทดสอบความเสถียรของการเชื่อมต่อ..."
 
 msgid "Testing connectivity..."
-msgstr ""
+msgstr "กำลังทดสอบการเชื่อมต่อ..."
 
 msgid "Testing download speed (multiple servers)..."
-msgstr ""
+msgstr "ทดสอบความเร็วในการดาวน์โหลด (หลายเซิร์ฟเวอร์)..."
 
 msgid "Testing download speed..."
-msgstr ""
+msgstr "กำลังทดสอบความเร็วในการดาวน์โหลด..."
 
 msgid "Testing latency to multiple hosts..."
-msgstr ""
+msgstr "กำลังทดสอบเวลาในการตอบสนองกับหลายโฮสต์..."
 
 msgid "Testing latency..."
-msgstr ""
+msgstr "กำลังทดสอบเวลาในการตอบสนอง..."
 
 msgid "Testing upload speed..."
-msgstr ""
+msgstr "กำลังทดสอบความเร็วในการอัปโหลด..."
 
 msgid "These forums are great places to get help,\\\\\\\\n"
-msgstr ""
+msgstr "ฟอรัมเหล่านี้เป็นสถานที่ที่ดีเยี่ยมในการขอความช่วยเหลือ\\\\\\\\\\\\\\\\n"
 
 msgid "Timeout"
-msgstr ""
+msgstr "หมดเวลา"
 
 msgid "Tool not available"
-msgstr ""
+msgstr "ไม่มีเครื่องมือ"
 
 msgid "Tool not implemented: {}"
-msgstr ""
+msgstr "ไม่ได้ใช้เครื่องมือ: {}"
 
 msgid "Tools"
-msgstr ""
+msgstr "เครื่องมือ"
 
 msgid "Tx excessive retries:%s"
-msgstr ""
+msgstr "Tx ลองใหม่มากเกินไป:%s"
 
 msgid "UP and active"
-msgstr ""
+msgstr "ขึ้นและกระตือรือร้น"
 
 msgid "Unable to assess download quality\\\\\\\\n"
-msgstr ""
+msgstr "ไม่สามารถประเมินคุณภาพการดาวน์โหลดได้\\\\\\\\\\\\\\\\n"
 
 msgid "Unknown"
-msgstr ""
+msgstr "ไม่ทราบ"
 
 msgid "Unstable"
-msgstr ""
+msgstr "ไม่เสถียร"
 
 msgid "Upload Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "ความเร็วในการอัพโหลด: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Upload Speed: {upload}\\\\\\\\n"
-msgstr ""
+msgstr "ความเร็วในการอัพโหลด: {upload}\\\\\\\\\\\\\\\\n"
 
 msgid "Upload estimation completed"
-msgstr ""
+msgstr "การอัปโหลดการประเมินเสร็จสมบูรณ์"
 
 msgid "Upload test failed: {error}"
-msgstr ""
+msgstr "การทดสอบการอัปโหลดล้มเหลว: {error}"
 
 msgid "Upload test not available"
-msgstr ""
+msgstr "การทดสอบการอัปโหลดไม่พร้อมใช้งาน"
 
 msgid "Upload test: {result}"
-msgstr ""
+msgstr "ทดสอบการอัปโหลด: {result}"
 
 msgid "Upload: Not available\\\\\\\\n"
-msgstr ""
+msgstr "อัพโหลด: ไม่พร้อมใช้งาน\\\\\\\\\\\\\\\\n"
 
 msgid "Upload: {:.2f} Mbps (estimated)\\\\\\\\n"
-msgstr ""
+msgstr "อัปโหลด: {:.2f} Mbps (โดยประมาณ)\\\\\\\\\\\\\\\\n"
 
 msgid "Very Poor"
-msgstr ""
+msgstr "แย่มาก"
 
 msgid "WEP Key Type"
-msgstr ""
+msgstr "ประเภทคีย์ WEP"
 
 msgid "WiFi Advanced Tools"
-msgstr ""
+msgstr "เครื่องมือขั้นสูง WiFi"
 
 msgid "WiFi Connection Manager"
-msgstr ""
+msgstr "ตัวจัดการการเชื่อมต่อ WiFi"
 
 msgid "WiFi Diagnostics"
-msgstr ""
+msgstr "การวินิจฉัย WiFi"
 
 msgid "WiFi Manager"
-msgstr ""
+msgstr "ตัวจัดการ WiFi"
 
 msgid "WiFi Manager iwconfig version {}"
-msgstr ""
+msgstr "ตัวจัดการ WiFi เวอร์ชัน iwconfig {}"
 
 msgid "WiFi Manager v."
-msgstr ""
+msgstr "ตัวจัดการ WiFi v."
 
 msgid "WiFi Password"
-msgstr ""
+msgstr "รหัสผ่าน WiFi"
 
 msgid "WiFi Scanner"
-msgstr ""
+msgstr "เครื่องสแกน WiFi"
 
 msgid "WiFi Signal Monitor"
-msgstr ""
+msgstr "การตรวจสอบสัญญาณ WiFi"
 
 msgid "WiFi Speed Test Manager"
-msgstr ""
+msgstr "ผู้จัดการทดสอบความเร็ว WiFi"
 
 msgid "WiFi diagnostics and tests"
-msgstr ""
+msgstr "การวินิจฉัยและการทดสอบ WiFi"
 
 msgid "Wired"
-msgstr ""
+msgstr "แบบมีสาย"
 
 msgid "Wireless"
-msgstr ""
+msgstr "ไร้สาย"
 
 msgid "Wireless info error: {}"
-msgstr ""
+msgstr "ข้อผิดพลาดข้อมูลไร้สาย: {}"
 
 msgid "Yes"
-msgstr ""
+msgstr "ใช่"
 
 msgid "[LOCK]"
-msgstr ""
+msgstr "[ล็อค]"
 
 msgid "[OPEN]"
-msgstr ""
+msgstr "[เปิด]"
 
 msgid "[SAVED]"
-msgstr ""
+msgstr "[บันทึกแล้ว]"
 
 msgid "bits"
-msgstr ""
+msgstr "บิต"
 
 msgid "ethtool not found"
-msgstr ""
+msgstr "ไม่พบ ethtool"
 
 msgid "iwlist error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "ข้อผิดพลาด iwlist บน {interface}: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist error: {}\\\\\\\\n"
-msgstr ""
+msgstr "ข้อผิดพลาดรายการ iwlist: {}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist exception on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "ข้อยกเว้น iwlist บน {interface}: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist timeout on {}\\\\\\\\n"
-msgstr ""
+msgstr "หมดเวลา iwlist บน {}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist: No networks found or interface busy\\\\\\\\n"
-msgstr ""
+msgstr "iwlist: ไม่พบเครือข่ายหรืออินเทอร์เฟซไม่ว่าง\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "iwlist: ไม่พบเครือข่าย\\\\\\\\\\\\\\\\n"
 
 msgid "lifetime"
-msgstr ""
+msgstr "ตลอดชีวิต"
 
 msgid "limit"
-msgstr ""
+msgstr "ขีด จำกัด"
 
 msgid "long {type}:{value}"
-msgstr ""
+msgstr "ยาว {type}:{value}"
 
 msgid "max {type}:{value}"
-msgstr ""
+msgstr "สูงสุด {type}:{value}"
 
 msgid "min {type}:{value}"
-msgstr ""
+msgstr "ขั้นต่ำ {type}:{value}"
 
 msgid "off"
-msgstr ""
+msgstr "ปิด"
 
 msgid "on"
-msgstr ""
+msgstr "บน"
 
 msgid "pythonwifi: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "pythonwifi: ไม่พบเครือข่าย\\\\\\\\\\\\\\\\n"
 
 msgid "share experiences,and connect with other users."
-msgstr ""
+msgstr "แบ่งปันประสบการณ์และเชื่อมต่อกับผู้ใช้รายอื่น"
 
 msgid "short {type}:{value}"
-msgstr ""
+msgstr "สั้น {type}:{value}"
 
 msgid "wait..."
-msgstr ""
+msgstr "รอ..."
 
 msgid "{:.1f} ms"
-msgstr ""
+msgstr "{:.1f} มิลลิวินาที"
 
 msgid "{:.1f}%"
-msgstr ""
+msgstr "__ซีเอสเอช_0__%"
 
 msgid "{:2d}. {} {:20} | Signal: {:4} dBm ({}) | Channel: {}\\\\\\\\n"
-msgstr ""
+msgstr "__คช_0__. {} {:20} | สัญญาณ: {:4} dBm ({}) | ช่อง: {}\\\\\\\\\\\\\\\\n"
 
 msgid "{connection}{saved}{icon} {essid} | {security} | {signal} dBm"
-msgstr ""
+msgstr "{connection}{saved}{icon} {essid} | {security} | {signal} เดซิเบลม"
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}...\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} | คุณภาพ: {quality:3}% | สัญญาณ: {signal:4} dBm | {bssid}...\\\\\\\\\\\\\\\\n"
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} | คุณภาพ: {quality:3}% | สัญญาณ: {signal:4} dBm | {bssid}\\\\\\\\\\\\\\\\n"
 
 msgid "{icon} {interface}: {status}\\\\\\\\n"
 msgstr ""
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel:2} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "__คช_0__. {essid:20} | คุณภาพ: {quality:3}% ({signal_quality}) | สัญญาณ: {signal:4} dBm | ช่อง: {channel:2} | เข้ารหัสแล้ว: {encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "__คช_0__. {essid:20} | คุณภาพ: {quality:3}% ({signal_quality}) | สัญญาณ: {signal:4} dBm | ช่อง: {channel:2} | เข้ารหัสแล้ว: {encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "__คช_0__. {essid:20} | คุณภาพ: {quality:3}% | สัญญาณ: {signal:4} dBm\\\\\\\\\\\\\\\\n"
 
 msgid "{index}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "__คช_0__. {essid:20} | คุณภาพ: {quality:3}% | สัญญาณ: {signal:4} dBm\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Connected to {essid} ({quality})\\\\\\\\n"
-msgstr ""
+msgstr "{interface}: เชื่อมต่อกับ {essid} ({quality})\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Not connected\\\\\\\\n"
-msgstr ""
+msgstr "{interface}: ไม่ได้เชื่อมต่อ\\\\\\\\\\\\\\\\n"
 
 msgid "{name} ({host}): {ping}"
 msgstr ""
 
 msgid "{name} ({sponsor}): {ping}"
-msgstr ""
+msgstr "{name} ({host}): {ping}"
 
 msgid "{name}: Error {error}"
-msgstr ""
+msgstr "{name}: ข้อผิดพลาด {error}"
 
 msgid "{name}: Failed"
-msgstr ""
+msgstr "{name}: ล้มเหลว"
 
 msgid "{name}: Timeout"
-msgstr ""
+msgstr "{name}: หมดเวลา"
 
 msgid "{name}: {speed:.2f} Mbps"
 msgstr ""
 
 msgid "{server}: {speed:.2f} Mbps ({data:.1f} MB in {time:.1f}s)\\\\\\\\n"
-msgstr ""
+msgstr "{server}: {speed:.2f} Mbps ({data:.1f} MB ใน {time:.1f}s)\\\\\\\\\\\\\\\\n"
 
 msgid "{speed:.2f} Mbps"
 msgstr ""
@@ -1471,343 +1471,343 @@ msgid "{} ({:.0f}%)"
 msgstr ""
 
 msgid "{} - Open network - Press OK for options"
-msgstr ""
+msgstr "{} - เปิดเครือข่าย - กด OK เพื่อดูตัวเลือก"
 
 msgid "{} - Password required - Press OK for options"
-msgstr ""
+msgstr "{} - ต้องใช้รหัสผ่าน - กด OK เพื่อดูตัวเลือก"
 
 msgid "{} - Password saved - Press OK for options"
-msgstr ""
+msgstr "{} - บันทึกรหัสผ่านแล้ว - กด OK เพื่อดูตัวเลือก"
 
 msgid "{} GHz"
-msgstr ""
+msgstr "{} กิกะเฮิรตซ์"
 
 msgid "{} Mb/s"
-msgstr ""
+msgstr "{} เมกะไบต์/วินาที"
 
 msgid "{} Status: {}\\\\\\\\n"
-msgstr ""
+msgstr "{} สถานะ: {}\\\\\\\\\\\\\\\\n"
 
 msgid "{} Type: {} interface\\\\\\\\n"
-msgstr ""
+msgstr "{} ประเภท: {} อินเทอร์เฟซ\\\\\\\\\\\\\\\\n"
 
 msgid "{} dBm"
-msgstr ""
+msgstr "{} เดซิเบลม"
 
 msgid "{}: Failed"
-msgstr ""
+msgstr "{}: ล้มเหลว"
 
 msgid "{}: {:.1f} ms"
-msgstr ""
+msgstr "{}: {:.1f} มิลลิวินาที"
 
 msgid "{}\\\\\\\\n"
 msgstr ""
 
 msgid " Keep drivers updated\\\\\\\\n"
-msgstr ""
+msgstr "อัปเดตไดรเวอร์อยู่เสมอ\\\\\\\\\\\\\\\\n"
 
 msgid " Monitor signal strength for best performance\\\\\\\\n"
-msgstr ""
+msgstr "ตรวจสอบความแรงของสัญญาณเพื่อประสิทธิภาพที่ดีที่สุด\\\\\\\\\\\\\\\\n"
 
 msgid " Use 5GHz band for less interference\\\\\\\\n"
-msgstr ""
+msgstr "ใช้ย่านความถี่ 5GHz เพื่อการรบกวนน้อยลง\\\\\\\\\\\\\\\\n"
 
 msgid "  No USB WiFi adapters found\\\\\\\\n"
-msgstr ""
+msgstr "ไม่พบอแด็ปเตอร์ USB WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "  Interface {interface}: DOWN (needs activation)\\\\\\\\n"
-msgstr ""
+msgstr "อินเทอร์เฟซ {interface}: ลง (ต้องเปิดใช้งาน)\\\\\\\\\\\\\\\\n"
 
 msgid "  Missing commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "คำสั่งที่หายไป: {commands}\\\\\\\\\\\\\\\\n"
 
 msgid "  No WiFi kernel modules detected\\\\\\\\n"
-msgstr ""
+msgstr "ไม่พบโมดูลเคอร์เนล WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "  Scan: Interface busy (connected to network)\\\\\\\\n"
-msgstr ""
+msgstr "สแกน: อินเทอร์เฟซไม่ว่าง (เชื่อมต่อกับเครือข่าย)\\\\\\\\\\\\\\\\n"
 
 msgid "  {test}: No data\\\\\\\\n"
-msgstr ""
+msgstr "{test}: ไม่มีข้อมูล\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed\\\\\\\\n"
-msgstr ""
+msgstr "ความเร็วในการดาวน์โหลดเฉลี่ย\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "เวลาแฝงเฉลี่ย ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency\\\\\\\\n"
-msgstr ""
+msgstr "เวลาแฝงเฉลี่ย\\\\\\\\\\\\\\\\n"
 
 msgid " Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "ความเร็วในการดาวน์โหลดที่ดี\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency\\\\\\\\n"
-msgstr ""
+msgstr "เวลาแฝงที่ดี\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "เวลาแฝงที่ดีเยี่ยม ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " TX Power: {}\\\\\\\\n"
-msgstr ""
+msgstr "กำลังเท็กซัส: {}\\\\\\\\\\\\\\\\n"
 
 msgid " All systems operational\\\\\\\\n"
-msgstr ""
+msgstr "ระบบปฏิบัติการทั้งหมด\\\\\\\\\\\\\\\\n"
 
 msgid " Available commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "คำสั่งที่ใช้ได้: {commands}\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "ความเร็วในการดาวน์โหลดที่ยอดเยี่ยม\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency\\\\\\\\n"
-msgstr ""
+msgstr "เวลาแฝงที่ดีเยี่ยม\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "เวลาแฝงที่ดี ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: UP and active\\\\\\\\n"
-msgstr ""
+msgstr "อินเทอร์เฟซ {interface}: UP และใช้งานอยู่\\\\\\\\\\\\\\\\n"
 
 msgid " Loaded WiFi modules: {modules}\\\\\\\\n"
-msgstr ""
+msgstr "โมดูล WiFi ที่โหลด: {modules}\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: WiFi hardware detected and functional\\\\\\\\n"
-msgstr ""
+msgstr "สถานะระบบ: ตรวจพบฮาร์ดแวร์ WiFi และทำงานได้\\\\\\\\\\\\\\\\n"
 
 msgid " USB WiFi adapters detected:\\\\\\\\n"
-msgstr ""
+msgstr "ตรวจพบอแด็ปเตอร์ WiFi USB:\\\\\\\\\\\\\\\\n"
 
 msgid " {test}: {output}\\\\\\\\n"
-msgstr ""
+msgstr "{test}: {output}\\\\\\\\\\\\\\\\n"
 
 msgid " CRITICAL: No WiFi interfaces detected!\\\\\\\\n"
-msgstr ""
+msgstr "สำคัญมาก: ตรวจไม่พบอินเทอร์เฟซ WiFi!\\\\\\\\\\\\\\\\n"
 
 msgid " Download test failed\\\\\\\\n"
-msgstr ""
+msgstr "การทดสอบการดาวน์โหลดล้มเหลว\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "ตรวจสอบ ESSID: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Error: {}\\\\\\\\n"
-msgstr ""
+msgstr "ข้อผิดพลาด: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "การตรวจสอบอินเทอร์เฟซล้มเหลว: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: NOT FOUND\\\\\\\\n"
-msgstr ""
+msgstr "อินเทอร์เฟซ {interface}: ไม่พบ\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: UNKNOWN STATE\\\\\\\\n"
-msgstr ""
+msgstr "อินเทอร์เฟซ {interface}: สถานะที่ไม่รู้จัก\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {} not found or not a WiFi interface\\\\\\\\n"
-msgstr ""
+msgstr "ไม่พบอินเทอร์เฟซ {} หรือไม่ใช่อินเทอร์เฟซ WiFi\\\\\\\\\\\\\\\\n"
 
 msgid " Kernel module check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "การตรวจสอบโมดูลเคอร์เนลล้มเหลว: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Latency test failed\\\\\\\\n"
-msgstr ""
+msgstr "การทดสอบเวลาแฝงล้มเหลว\\\\\\\\\\\\\\\\n"
 
 msgid " Mode check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "ตรวจสอบโหมด: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "ความเร็วในการดาวน์โหลดต่ำ\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency\\\\\\\\n"
-msgstr ""
+msgstr "เวลาแฝงไม่ดี\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: No WiFi interfaces detected\\\\\\\\n"
-msgstr ""
+msgstr "สถานะระบบ: ตรวจไม่พบอินเทอร์เฟซ WiFi\\\\\\\\\\\\\\\\n"
 
 msgid " Scan test: {error}\\\\\\\\n"
-msgstr ""
+msgstr "การทดสอบการสแกน: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Signal check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "ตรวจสอบสัญญาณ: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " USB device check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "การตรวจสอบอุปกรณ์ USB ล้มเหลว: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Very poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "เวลาแฝงต่ำมาก ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " {}\\\\\\\\n"
-msgstr ""
+msgstr "{}\\\\\\\\\\\\\\\\n"
 
 msgid " Cannot assess connection quality\\\\\\\\n"
-msgstr ""
+msgstr "ไม่สามารถประเมินคุณภาพการเชื่อมต่อ\\\\\\\\\\\\\\\\n"
 
 msgid " Download speed unavailable\\\\\\\\n"
-msgstr ""
+msgstr "ความเร็วในการดาวน์โหลดไม่พร้อมใช้งาน\\\\\\\\\\\\\\\\n"
 
 msgid " Latency unavailable\\\\\\\\n"
-msgstr ""
+msgstr "เวลาแฝงไม่พร้อมใช้งาน\\\\\\\\\\\\\\\\n"
 
 msgid " Quality assessment unavailable\\\\\\\\n"
-msgstr ""
+msgstr "การประเมินคุณภาพไม่พร้อมใช้งาน\\\\\\\\\\\\\\\\n"
 
 msgid "  Transmitted: {}\\\\\\\\n"
-msgstr ""
+msgstr "ส่งแล้ว: {}\\\\\\\\\\\\\\\\n"
 
 msgid "  Received: {}\\\\\\\\n"
-msgstr ""
+msgstr "ได้รับ: {}\\\\\\\\\\\\\\\\n"
 
 msgid " AVAILABLE NETWORKS\\\\\\\\n"
-msgstr ""
+msgstr "เครือข่ายที่มีอยู่\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: IP {ip} - ONLINE\\\\\\\\n"
-msgstr ""
+msgstr "การเชื่อมต่อ: IP {ip} - ออนไลน์\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: No IP address - OFFLINE\\\\\\\\n"
-msgstr ""
+msgstr "การเชื่อมต่อ: ไม่มีที่อยู่ IP - ออฟไลน์\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: Unknown status\\\\\\\\n"
-msgstr ""
+msgstr "การเชื่อมต่อ: สถานะที่ไม่รู้จัก\\\\\\\\\\\\\\\\n"
 
 msgid " EXCELLENT connection\\\\\\\\n"
-msgstr ""
+msgstr "การเชื่อมต่อที่ยอดเยี่ยม\\\\\\\\\\\\\\\\n"
 
 msgid " SERVER INFORMATION:\\\\\\\\n"
-msgstr ""
+msgstr "ข้อมูลเซิร์ฟเวอร์:\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "เวลาแฝงต่ำ ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " FAIR connection\\\\\\\\n"
-msgstr ""
+msgstr "การเชื่อมต่อที่ยุติธรรม\\\\\\\\\\\\\\\\n"
 
 msgid " GOOD connection\\\\\\\\n"
-msgstr ""
+msgstr "การเชื่อมต่อที่ดี\\\\\\\\\\\\\\\\n"
 
 msgid " POOR connection\\\\\\\\n"
-msgstr ""
+msgstr "การเชื่อมต่อไม่ดี\\\\\\\\\\\\\\\\n"
 
 msgid " CLIENT INFORMATION:\\\\\\\\n"
-msgstr ""
+msgstr "ข้อมูลลูกค้า:\\\\\\\\\\\\\\\\n"
 
 msgid " All basic diagnostics available\\\\\\\\n"
-msgstr ""
+msgstr "มีการวินิจฉัยขั้นพื้นฐานทั้งหมด\\\\\\\\\\\\\\\\n"
 
 msgid " Tips:\\\\\\\\n"
-msgstr ""
+msgstr "เคล็ดลับ:\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "ไดรเวอร์: ไม่ทราบ\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: {}\\\\\\\\n"
-msgstr ""
+msgstr "ไดรเวอร์: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Protocol: {}\\\\\\\\n"
-msgstr ""
+msgstr "โปรโตคอล: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "ความเร็วในการดาวน์โหลดที่ดีเยี่ยม ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " TEST RESULTS:\\\\\\\\n"
-msgstr ""
+msgstr "ผลการทดสอบ:\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "ความเร็วในการดาวน์โหลดเฉลี่ย ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " Poor download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "ความเร็วในการดาวน์โหลดต่ำ ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " Good download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "ความเร็วในการดาวน์โหลดที่ดี ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " NETWORK STATISTICS\\\\\\\\n"
-msgstr ""
+msgstr "สถิติเครือข่าย\\\\\\\\\\\\\\\\n"
 
 msgid " Quality: {}\\\\\\\\n"
-msgstr ""
+msgstr "คุณภาพ: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Signal: No quality data available\\\\\\\\n"
-msgstr ""
+msgstr "สัญญาณ: ไม่มีข้อมูลคุณภาพ\\\\\\\\\\\\\\\\n"
 
 msgid " Signal: {quality}% quality, {signal} dBm\\\\\\\\n"
-msgstr ""
+msgstr "สัญญาณ: คุณภาพ {quality}%, {signal} dBm\\\\\\\\\\\\\\\\n"
 
 msgid " MAC: {}\\\\\\\\n"
-msgstr ""
+msgstr "แม็ค: {}\\\\\\\\\\\\\\\\n"
 
 msgid " DETAILED WIFI INFORMATION - {}\\\\\\\\n"
-msgstr ""
+msgstr "ข้อมูล WiFi โดยละเอียด - {}\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: {}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface Type: WIRELESS\\\\\\\\n"
-msgstr ""
+msgstr "ประเภทอินเทอร์เฟซ: ไร้สาย \\\\\\\\\\\\\\\\n"
 
 msgid " Scan: Found {count} networks\\\\\\\\n"
-msgstr ""
+msgstr "สแกน: พบ {count} เครือข่าย\\\\\\\\\\\\\\\\n"
 
 msgid " Type: Wireless interface\\\\\\\\n"
-msgstr ""
+msgstr "ประเภท: อินเทอร์เฟซไร้สาย\\\\\\\\\\\\\\\\n"
 
 msgid " Connection appears good (based on download)\\\\\\\\n"
-msgstr ""
+msgstr "การเชื่อมต่อดูดี (ขึ้นอยู่กับการดาวน์โหลด)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection appears responsive (based on ping)\\\\\\\\n"
-msgstr ""
+msgstr "การเชื่อมต่อปรากฏขึ้นแบบตอบสนอง (ขึ้นอยู่กับการ ping)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection may be limited (based on download)\\\\\\\\n"
-msgstr ""
+msgstr "การเชื่อมต่ออาจถูกจำกัด (ขึ้นอยู่กับการดาวน์โหลด)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection may be slow (based on ping)\\\\\\\\n"
-msgstr ""
+msgstr "การเชื่อมต่ออาจช้า (ขึ้นอยู่กับการ ping)\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: Not connected\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: ไม่ได้เชื่อมต่อ\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: {essid}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: {essid}\\\\\\\\\\\\\\\\n"
 
 msgid " Frequency: {}\\\\\\\\n"
-msgstr ""
+msgstr "ความถี่: {}\\\\\\\\\\\\\\\\n"
 
 msgid " WIRELESS INFORMATION\\\\\\\\n"
-msgstr ""
+msgstr "ข้อมูลไร้สาย\\\\\\\\\\\\\\\\n"
 
 msgid " DRIVER & HARDWARE\\\\\\\\n"
-msgstr ""
+msgstr "ไดรเวอร์และฮาร์ดแวร์\\\\\\\\\\\\\\\\n"
 
 msgid " Type: Wired interface\\\\\\\\n"
-msgstr ""
+msgstr "ประเภท: อินเทอร์เฟซแบบใช้สาย \\\\\\\\\\\\\\\\n"
 
 msgid " BASIC INTERFACE INFO\\\\\\\\n"
-msgstr ""
+msgstr "ข้อมูลอินเทอร์เฟซพื้นฐาน\\\\\\\\\\\\\\\\n"
 
 msgid " Interface: {}\\\\\\\\n"
-msgstr ""
+msgstr "อินเทอร์เฟซ: {}\\\\\\\\\\\\\\\\n"
 
 msgid " METHOD: Using system commands (no root required)\\\\\\\\n"
-msgstr ""
+msgstr "วิธีการ: การใช้คำสั่งระบบ (ไม่จำเป็นต้องรูท)\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "โหมด: ไม่ทราบ\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: {mode}\\\\\\\\n"
-msgstr ""
+msgstr "โหมด: {mode}\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: {}\\\\\\\\n"
-msgstr ""
+msgstr "โหมด: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Module: {}\\\\\\\\n"
-msgstr ""
+msgstr "โมดูล: {}\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM LEVEL DIAGNOSTICS\\\\\\\\n"
-msgstr ""
+msgstr "การวินิจฉัยระดับระบบ\\\\\\\\\\\\\\\\n"
 
 msgid " Bit Rate: {}\\\\\\\\n"
-msgstr ""
+msgstr "อัตราบิต: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Check hardware connection and drivers\\\\\\\\n"
-msgstr ""
+msgstr "ตรวจสอบการเชื่อมต่อฮาร์ดแวร์และไดรเวอร์\\\\\\\\\\\\\\\\n"
 
 msgid " VERY POOR connection\\\\\\\\n"
-msgstr ""
+msgstr "การเชื่อมต่อแย่มาก\\\\\\\\\\\\\\\\n"

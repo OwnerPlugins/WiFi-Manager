@@ -13,1456 +13,1456 @@ msgid "- {adapter}\\\\\\\\n"
 msgstr ""
 
 msgid "... and {} more networks\\\\\\\\n"
-msgstr ""
+msgstr "...以及另外 {} 个网络\\\\\\\\\\\\\\\\n"
 
 msgid "1 dBm (Min)"
-msgstr ""
+msgstr "1dBm（最小值）"
 
 msgid "1. Check if WiFi adapter is properly connected\\\\\\\\n"
-msgstr ""
+msgstr "1. 检查WiFi适配器是否正确连接\\\\\\\\\\\\\\\\n"
 
 msgid "1. Disconnect from current WiFi network\\\\\\\\n"
-msgstr ""
+msgstr "1. 断开当前 WiFi 网络\\\\\\\\\\\\\\\\n"
 
 msgid "10 dBm"
-msgstr ""
+msgstr "10分贝"
 
 msgid "15 dBm"
-msgstr ""
+msgstr "15分贝"
 
 msgid "2. Restart WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "2. 重新启动 WiFi 适配器\\\\\\\\\\\\\\\\n"
 
 msgid "2. Verify WiFi adapter is supported by your receiver\\\\\\\\n"
-msgstr ""
+msgstr "2. 验证您的接收器是否支持 WiFi 适配器\\\\\\\\\\\\\\\\n"
 
 msgid "20 dBm (Max)"
-msgstr ""
+msgstr "20dBm（最大）"
 
 msgid "3. Check if WiFi driver is installed\\\\\\\\n"
-msgstr ""
+msgstr "3.检查WiFi驱动是否安装\\\\\\\\\\\\\\\\n"
 
 msgid "3. Try different USB port for USB WiFi adapters\\\\\\\\n"
-msgstr ""
+msgstr "3. 为 USB WiFi 适配器尝试不同的 USB 端口\\\\\\\\\\\\\\\\n"
 
 msgid "4. Check if WiFi drivers are installed\\\\\\\\n"
-msgstr ""
+msgstr "4.检查WiFi驱动是否安装\\\\\\\\\\\\\\\\n"
 
 msgid "4. Try with different USB WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "4. 尝试使用不同的 USB WiFi 适配器\\\\\\\\\\\\\\\\n"
 
 msgid "5 dBm"
-msgstr ""
+msgstr "5分贝"
 
 msgid "5. Check root permissions\\\\\\\\n"
-msgstr ""
+msgstr "5.检查root权限\\\\\\\\\\\\\\\\n"
 
 msgid "5. Restart the receiver and try again\\\\\\\\n"
-msgstr ""
+msgstr "5. 重新启动接收器并重试\\\\\\\\\\\\\\\\n"
 
 msgid "=== WiFi Diagnostics (System Commands Only) ===\\\\\\\\n"
-msgstr ""
+msgstr "=== WiFi 诊断（仅限系统命令）===\\\\\\\\\\\\\\\\n"
 
 msgid "ACTIVE"
-msgstr ""
+msgstr "积极的"
 
 msgid "About"
-msgstr ""
+msgstr "关于"
 
 msgid "Access Point"
-msgstr ""
+msgstr "接入点"
 
 msgid "Access Point: {ap}"
-msgstr ""
+msgstr "接入点：{ap}"
 
 msgid "Access Points"
-msgstr ""
+msgstr "接入点"
 
 msgid "Access points info displayed."
-msgstr ""
+msgstr "显示接入点信息。"
 
 msgid "Ad-Hoc"
-msgstr ""
+msgstr "特别指定"
 
 msgid "Advanced"
-msgstr ""
+msgstr "先进的"
 
 msgid "Advanced Config"
-msgstr ""
+msgstr "高级配置"
 
 msgid "Advanced Config - {}"
-msgstr ""
+msgstr "高级配置 - {}"
 
 msgid "Advanced Scan"
-msgstr ""
+msgstr "高级扫描"
 
 msgid "Advanced Scan Results"
-msgstr ""
+msgstr "高级扫描结果"
 
 msgid "Advanced Tools"
-msgstr ""
+msgstr "高级工具"
 
 msgid "Advanced WiFi Configuration"
-msgstr ""
+msgstr "高级 WiFi 配置"
 
 msgid "Advanced WiFi Tools"
-msgstr ""
+msgstr "高级 WiFi 工具"
 
 msgid "Advanced WiFi configuration"
-msgstr ""
+msgstr "高级 WiFi 配置"
 
 msgid "Advanced WiFi configuration settings"
-msgstr ""
+msgstr "高级 WiFi 配置设置"
 
 msgid "Advanced WiFi interface configuration"
-msgstr ""
+msgstr "高级 WiFi 接口配置"
 
 msgid "Advanced configuration completed."
-msgstr ""
+msgstr "高级配置完成。"
 
 msgid "All Network Interfaces: {interfaces}\\\\\\\\n"
-msgstr ""
+msgstr "所有网络接口：{interfaces}\\\\\\\\\\\\\\\\n"
 
 msgid "All ping tests failed"
-msgstr ""
+msgstr "所有 ping 测试均失败"
 
 msgid "All settings reset to defaults"
-msgstr ""
+msgstr "所有设置重置为默认值"
 
 msgid "Applied: {} commands\\\\\\\\n"
-msgstr ""
+msgstr "应用：{} 命令\\\\\\\\\\\\\\\\n"
 
 msgid "Apply"
-msgstr ""
+msgstr "申请"
 
 msgid "Auto"
-msgstr ""
+msgstr "汽车"
 
 msgid "Auto  limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "自动限位； 最小限制：{limit}"
 
 msgid "Automatic (DHCP)"
-msgstr ""
+msgstr "自动（DHCP）"
 
 msgid "Available frequencies and channels for your region"
-msgstr ""
+msgstr "您所在地区的可用频率和频道"
 
 msgid "Available frequencies/channels"
-msgstr ""
+msgstr "可用频率/频道"
 
 msgid "Available interfaces: {}"
-msgstr ""
+msgstr "可用接口：{}"
 
 msgid "Back"
-msgstr ""
+msgstr "后退"
 
 msgid "Basic"
-msgstr ""
+msgstr "基本的"
 
 msgid "Basic info error: {}"
-msgstr ""
+msgstr "基本信息错误：{}"
 
 msgid "Basic view enabled - rescan to see basic info"
-msgstr ""
+msgstr "基本视图已启用 - 重新扫描以查看基本信息"
 
 msgid "Bit Rate: {rate}"
-msgstr ""
+msgstr "比特率：{rate}"
 
 msgid "Bit Rates:"
-msgstr ""
+msgstr "比特率："
 
 msgid "Bitrate"
-msgstr ""
+msgstr "比特率"
 
 msgid "Bitrate Info"
-msgstr ""
+msgstr "比特率信息"
 
 msgid "Bitrate info displayed."
-msgstr ""
+msgstr "显示比特率信息。"
 
 msgid "Bitrate information not available\\\\\\\\n"
-msgstr ""
+msgstr "比特率信息不可用\\\\\\\\\\\\\\\\n"
 
 msgid "CONNECTED to: {} - Press OK for options"
-msgstr ""
+msgstr "连接到：{} - 按“确定”查看选项"
 
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 msgid "Cancelling test..."
-msgstr ""
+msgstr "正在取消测试..."
 
 msgid "Cell"
-msgstr ""
+msgstr "细胞"
 
 msgid "Channel"
-msgstr ""
+msgstr "渠道"
 
 msgid "Channel Info"
-msgstr ""
+msgstr "频道信息"
 
 msgid "Channel info displayed."
-msgstr ""
+msgstr "显示频道信息。"
 
 msgid "Channel {}"
-msgstr ""
+msgstr "渠道 {}"
 
 msgid "Channel: %s\\\\\\\\n"
-msgstr ""
+msgstr "频道：%s\\\\\\\\\\\\\\\\n"
 
 msgid "Check System Logs"
-msgstr ""
+msgstr "检查系统日志"
 
 msgid "Check system logs for WiFi errors"
-msgstr ""
+msgstr "检查系统日志是否有 WiFi 错误"
 
 msgid "Check system logs for WiFi errors and connection issues"
-msgstr ""
+msgstr "检查系统日志中是否有 WiFi 错误和连接问题"
 
 msgid "Checking internet connection..."
-msgstr ""
+msgstr "正在检查互联网连接..."
 
 msgid "Checking system logs..."
-msgstr ""
+msgstr "检查系统日志..."
 
 msgid "Clear"
-msgstr ""
+msgstr "清除"
 
 msgid "Client info completed"
-msgstr ""
+msgstr "客户信息填写完毕"
 
 msgid "Client info error: {error}"
-msgstr ""
+msgstr "客户端信息错误：{error}"
 
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 msgid "Cloudflare"
-msgstr ""
+msgstr "云耀"
 
 msgid "Complete iwconfig-like information"
-msgstr ""
+msgstr "完整的类似 iwconfig 的信息"
 
 msgid "Config"
-msgstr ""
+msgstr "配置"
 
 msgid "Configure {}"
-msgstr ""
+msgstr "配置{}"
 
 msgid "Connect"
-msgstr ""
+msgstr "连接"
 
 msgid "Connect to WiFi networks"
-msgstr ""
+msgstr "连接到 WiFi 网络"
 
 msgid "Connected but no timing data"
-msgstr ""
+msgstr "已连接但无计时数据"
 
 msgid "Connected successfully!"
-msgstr ""
+msgstr "连接成功！"
 
 msgid "Connected to %s"
-msgstr ""
+msgstr "已连接到 %s"
 
 msgid "Connected to: %s"
-msgstr ""
+msgstr "连接到：%s"
 
 msgid "Connected: {} | Signal: {} dBm | IP: {}"
-msgstr ""
+msgstr "已连接：{} |信号：{} dBm | IP：{}"
 
 msgid "Connecting to %s..."
-msgstr ""
+msgstr "正在连接到 %s..."
 
 msgid "Connection Info"
-msgstr ""
+msgstr "连接信息"
 
 msgid "Connection failed!"
-msgstr ""
+msgstr "连接失败！"
 
 msgid "Connection timeout"
-msgstr ""
+msgstr "连接超时"
 
 msgid "Country Code"
-msgstr ""
+msgstr "国家/地区代码"
 
 msgid "DHCP"
-msgstr ""
+msgstr "动态主机配置协议"
 
 msgid "DNS Server 1"
-msgstr ""
+msgstr "域名服务器1"
 
 msgid "DNS Server 2"
-msgstr ""
+msgstr "域名服务器2"
 
 msgid "DOWN"
-msgstr ""
+msgstr "向下"
 
 msgid "Data Rate"
-msgstr ""
+msgstr "数据速率"
 
 msgid "Defaults"
-msgstr ""
+msgstr "默认值"
 
 msgid "Detailed Info - {}"
-msgstr ""
+msgstr "详细信息 - {}"
 
 msgid "Detailed network scanning"
-msgstr ""
+msgstr "详细网络扫描"
 
 msgid "Detailed network scanning with signal strength and encryption info"
-msgstr ""
+msgstr "详细的网络扫描，包括信号强度和加密信息"
 
 msgid "Detailed speed test failed - Check internet connection"
-msgstr ""
+msgstr "详细速度测试失败 - 检查互联网连接"
 
 msgid "Detailed test completed"
-msgstr ""
+msgstr "详细测试完成"
 
 msgid "Detailed test error: {error}"
-msgstr ""
+msgstr "详细测试错误：{error}"
 
 msgid "Detailed view enabled - rescan to see details"
-msgstr ""
+msgstr "启用详细视图 - 重新扫描以查看详细信息"
 
 msgid "Details"
-msgstr ""
+msgstr "细节"
 
 msgid "Details Info"
-msgstr ""
+msgstr "详细信息"
 
 msgid "Diagnostic error: {}\\\\\\\\n"
-msgstr ""
+msgstr "诊断错误：{}\\\\\\\\\\\\\\\\n"
 
 msgid "Diagnostics"
-msgstr ""
+msgstr "诊断"
 
 msgid "Disconnect"
-msgstr ""
+msgstr "断开"
 
 msgid "Disconnected"
-msgstr ""
+msgstr "已断开连接"
 
 msgid "Disconnecting..."
-msgstr ""
+msgstr "正在断开连接..."
 
 msgid "Download Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "下载速度：%s\\\\\\\\\\\\\\\\n"
 
 msgid "Download Speed: {download}\\\\\\\\n"
-msgstr ""
+msgstr "下载速度：{download}\\\\\\\\\\\\\\\\n"
 
 msgid "Download test completed"
-msgstr ""
+msgstr "下载测试完成"
 
 msgid "Download: Failed\\\\\\\\n"
-msgstr ""
+msgstr "下载：失败\\\\\\\\\\\\\\\\n"
 
 msgid "Download: {:.2f} Mbps\\\\\\\\n"
-msgstr ""
+msgstr "下载：{:.2f} Mbps\\\\\\\\\\\\\\\\n"
 
 msgid "Driver check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "驱动程序检查失败：{error}\\\\\\\\\\\\\\\\n"
 
 msgid "Driver info error: {}"
-msgstr ""
+msgstr "驱动程序信息错误：{}"
 
 msgid "Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "驱动程序：未知\\\\\\\\\\\\\\\\n"
 
 msgid "Driver: {driver}\\\\\\\\n"
-msgstr ""
+msgstr "驱动程序：{driver}\\\\\\\\\\\\\\\\n"
 
 msgid "ESSID: %s\\\\\\\\n"
-msgstr ""
+msgstr "ESSID：%s\\\\\\\\\\\\\\\\n"
 
 msgid "ESSID: {}"
-msgstr ""
+msgstr "ESSID：{}"
 
 msgid "Edit Configuration"
-msgstr ""
+msgstr "编辑配置"
 
 msgid "Edit Password"
-msgstr ""
+msgstr "编辑密码"
 
 msgid "Encryption"
-msgstr ""
+msgstr "加密"
 
 msgid "Encryption Info"
-msgstr ""
+msgstr "加密信息"
 
 msgid "Encryption info displayed."
-msgstr ""
+msgstr "显示加密信息。"
 
 msgid "Encryption information not available\\\\\\\\n"
-msgstr ""
+msgstr "加密信息不可用\\\\\\\\\\\\\\\\n"
 
 msgid "Encryption keys and security"
-msgstr ""
+msgstr "加密密钥和安全性"
 
 msgid "Encryption keys and security protocols"
-msgstr ""
+msgstr "加密密钥和安全协议"
 
 msgid "Encryption: %s\\\\\\\\n"
-msgstr ""
+msgstr "加密：%s\\\\\\\\\\\\\\\\n"
 
 msgid "Enter Password"
-msgstr ""
+msgstr "输入密码"
 
 msgid "Enter password for: %s"
-msgstr ""
+msgstr "输入密码：%s"
 
 msgid "Error"
-msgstr ""
+msgstr "错误"
 
 msgid "Error applying advanced settings: {}"
-msgstr ""
+msgstr "应用高级设置时出错：{}"
 
 msgid "Error applying settings: {}"
-msgstr ""
+msgstr "应用设置时出错：{}"
 
 msgid "Error disconnecting"
-msgstr ""
+msgstr "断开连接时出错"
 
 msgid "Error getting AP information: {}"
-msgstr ""
+msgstr "获取 AP 信息时出错：{}"
 
 msgid "Error getting bitrate information: {}"
-msgstr ""
+msgstr "获取比特率信息时出错：{}"
 
 msgid "Error getting channel information: {}"
-msgstr ""
+msgstr "获取频道信息时出错：{}"
 
 msgid "Error getting connection details: {error}"
-msgstr ""
+msgstr "获取连接详细信息时出错：{error}"
 
 msgid "Error getting encryption information: {}"
-msgstr ""
+msgstr "获取加密信息时出错：{}"
 
 msgid "Error getting power information: {}"
-msgstr ""
+msgstr "获取电源信息时出错：{}"
 
 msgid "Error getting retry information: {}"
-msgstr ""
+msgstr "获取重试信息时出错：{}"
 
 msgid "Error loading help"
-msgstr ""
+msgstr "加载帮助时出错"
 
 msgid "Error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "{interface} 上的错误：{error}\\\\\\\\\\\\\\\\n"
 
 msgid "Error opening {module}: {error}"
-msgstr ""
+msgstr "打开 {module} 时出错：{error}"
 
 msgid "Error running {tool}: {error}"
-msgstr ""
+msgstr "运行 {tool} 时出错：{error}"
 
 msgid "Error: {error}"
-msgstr ""
+msgstr "错误：{error}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "错误： {}"
 
 msgid "Estimating upload speed..."
-msgstr ""
+msgstr "正在估计上传速度..."
 
 msgid "Excellent"
-msgstr ""
+msgstr "出色的"
 
 msgid "Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "出色的下载速度\\\\\\\\\\\\\\\\n"
 
 msgid "Executing tool..."
-msgstr ""
+msgstr "执行工具..."
 
 msgid "Exit"
-msgstr ""
+msgstr "出口"
 
 msgid "Failed"
-msgstr ""
+msgstr "失败的"
 
 msgid "Failed to connect to %s"
-msgstr ""
+msgstr "无法连接到 %s"
 
 msgid "Failed: {} commands"
-msgstr ""
+msgstr "失败：{} 个命令"
 
 msgid "Fair"
-msgstr ""
+msgstr "公平的"
 
 msgid "Final connectivity check..."
-msgstr ""
+msgstr "最终连接检查..."
 
 msgid "Finding best server..."
-msgstr ""
+msgstr "寻找最佳服务器..."
 
 msgid "Fixed lifetime ;  min lifetime:{lifetime}"
-msgstr ""
+msgstr "固定寿命； 最短寿命：{lifetime}"
 
 msgid "Fixed limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "固定限额； 最小限制：{limit}"
 
 msgid "For troubleshooting, detailed guidance, or community support, visit:\\\\\\\\n"
-msgstr ""
+msgstr "如需疑难解答、详细指导或社区支持，请访问：\\\\\\\\\\\\\\\\n"
 
 msgid "Forget Network"
-msgstr ""
+msgstr "忘记网络"
 
 msgid "Forgotten network: {}"
-msgstr ""
+msgstr "忘记的网络：{}"
 
 msgid "Found {} networks:\\\\\\\\n"
-msgstr ""
+msgstr "找到 {} 个网络：\\\\\\\\\\\\\\\\n"
 
 msgid "Found: {}\\\\\\\\n"
-msgstr ""
+msgstr "找到：{}\\\\\\\\\\\\\\\\n"
 
 msgid "Fragmentation"
-msgstr ""
+msgstr "碎片化"
 
 msgid "Frequency"
-msgstr ""
+msgstr "频率"
 
 msgid "Frequency information not available\\\\\\\\n"
-msgstr ""
+msgstr "频率信息不可用\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency/Channel"
-msgstr ""
+msgstr "频率/频道"
 
 msgid "Frequency:"
-msgstr ""
+msgstr "频率："
 
 msgid "Frequency: %s\\\\\\\\n"
-msgstr ""
+msgstr "频率：%s\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency: {frequency}"
-msgstr ""
+msgstr "频率：{frequency}"
 
 msgid "Full Comprehensive Test"
-msgstr ""
+msgstr "全面综合测试"
 
 msgid "Full Test"
-msgstr ""
+msgstr "全面测试"
 
 msgid "Full test completed"
-msgstr ""
+msgstr "完整测试完成"
 
 msgid "Full test error: {error}"
-msgstr ""
+msgstr "完整测试错误：{error}"
 
 msgid "Gateway"
-msgstr ""
+msgstr "网关"
 
 msgid "Gateway: {gateway}"
-msgstr ""
+msgstr "网关：{gateway}"
 
 msgid "Gathering client information..."
-msgstr ""
+msgstr "正在收集客户信息..."
 
 msgid "Gathering network details..."
-msgstr ""
+msgstr "正在收集网络详细信息..."
 
 msgid "Getting access point information..."
-msgstr ""
+msgstr "正在获取接入点信息..."
 
 msgid "Getting bitrate information..."
-msgstr ""
+msgstr "正在获取比特率信息..."
 
 msgid "Getting channel information..."
-msgstr ""
+msgstr "获取频道信息..."
 
 msgid "Getting client information..."
-msgstr ""
+msgstr "获取客户信息..."
 
 msgid "Getting encryption information..."
-msgstr ""
+msgstr "正在获取加密信息..."
 
 msgid "Getting power management information..."
-msgstr ""
+msgstr "获取电源管理信息..."
 
 msgid "Getting retry information..."
-msgstr ""
+msgstr "正在获取重试信息..."
 
 msgid "Good"
-msgstr ""
+msgstr "好的"
 
 msgid "Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "下载速度不错\\\\\\\\\\\\\\\\n"
 
 msgid "Google"
-msgstr ""
+msgstr "谷歌"
 
 msgid "Google DNS"
-msgstr ""
+msgstr "谷歌域名系统"
 
 msgid "Help"
-msgstr ""
+msgstr "帮助"
 
 msgid "Hidden"
-msgstr ""
+msgstr "隐"
 
 msgid "Hidden Network"
-msgstr ""
+msgstr "隐藏网络"
 
 msgid "Host not found"
-msgstr ""
+msgstr "找不到主机"
 
 msgid "Hostname: {hostname}"
-msgstr ""
+msgstr "主机名：{hostname}"
 
 msgid "INACTIVE"
-msgstr ""
+msgstr "不活跃"
 
 msgid "IP Address"
-msgstr ""
+msgstr "IP地址"
 
 msgid "IP Address: {ip}"
-msgstr ""
+msgstr "IP 地址：{ip}"
 
 msgid "IP Configuration"
-msgstr ""
+msgstr "IP配置"
 
 msgid "IP: N/A"
-msgstr ""
+msgstr "IP：不适用"
 
 msgid "IP: {ip}\\\\\\\\n"
-msgstr ""
+msgstr "IP：{ip}\\\\\\\\\\\\\\\\n"
 
 msgid "IP: {}"
-msgstr ""
+msgstr "IP：{}"
 
 msgid "ISP: {isp}"
-msgstr ""
+msgstr "ISP：{isp}"
 
 msgid "ISP: {isp}\\\\\\\\n"
-msgstr ""
+msgstr "ISP：{isp}\\\\\\\\\\\\\\\\n"
 
 msgid "Info"
-msgstr ""
+msgstr "信息"
 
 msgid "Initializing WiFi..."
-msgstr ""
+msgstr "正在初始化 WiFi..."
 
 msgid "Initializing detailed speed test..."
-msgstr ""
+msgstr "正在初始化详细速度测试..."
 
 msgid "Interface"
-msgstr ""
+msgstr "界面"
 
 msgid "Interface found: {}"
-msgstr ""
+msgstr "找到接口：{}"
 
 msgid "Interface restarted successfully"
-msgstr ""
+msgstr "界面重启成功"
 
 msgid "Interface restarted."
-msgstr ""
+msgstr "界面重新启动。"
 
 msgid "Interface {} not available"
-msgstr ""
+msgstr "接口 {} 不可用"
 
 msgid "Interface: {}"
-msgstr ""
+msgstr "界面： {}"
 
 msgid "Invalid misc:%s"
-msgstr ""
+msgstr "无效杂项：%s"
 
 msgid "Kernel Messages (dmesg):\\\\\\\\n"
-msgstr ""
+msgstr "内核消息 (dmesg):\\\\\\\\\\\\\\\\n"
 
 msgid "Latency test completed"
-msgstr ""
+msgstr "延迟测试完成"
 
 msgid "Latency: %s\\\\\\\\n"
-msgstr ""
+msgstr "延迟：%s\\\\\\\\\\\\\\\\n"
 
 msgid "Link Quality: {quality}"
-msgstr ""
+msgstr "链接质量：{quality}"
 
 msgid "Link Quality:%s/100"
-msgstr ""
+msgstr "链接质量：%s/100"
 
 msgid "List of access points and connected peer stations"
-msgstr ""
+msgstr "接入点和连接的对等站列表"
 
 msgid "List of access points/peers"
-msgstr ""
+msgstr "接入点/对等点列表"
 
 msgid "Location: {city}, {country}"
-msgstr ""
+msgstr "地点：{city}、{country}"
 
 msgid "Location: {city}, {country}\\\\\\\\n"
-msgstr ""
+msgstr "位置：{city}、{country}\\\\\\\\\\\\\\\\n"
 
 msgid "Logs checked."
-msgstr ""
+msgstr "检查日志。"
 
 msgid "MAC Address: {mac}"
-msgstr ""
+msgstr "MAC 地址：{mac}"
 
 msgid "MAC Address: {mac}\\\\\\\\n"
-msgstr ""
+msgstr "MAC 地址：{mac}\\\\\\\\\\\\\\\\n"
 
 msgid "MAC: %s\\\\\\\\n"
-msgstr ""
+msgstr "MAC：%s\\\\\\\\\\\\\\\\n"
 
 msgid "MAC: N/A"
-msgstr ""
+msgstr "MAC：不适用"
 
 msgid "MAC: {}"
-msgstr ""
+msgstr "苹果： {}"
 
 msgid "Managed (Client)"
-msgstr ""
+msgstr "托管（客户端）"
 
 msgid "Manual (Static IP)"
-msgstr ""
+msgstr "手动（静态IP）"
 
 msgid "Master (AP)"
-msgstr ""
+msgstr "硕士（AP）"
 
 msgid "Missed beacon:%s"
-msgstr ""
+msgstr "错过的信标：%s"
 
 msgid "Mode:"
-msgstr ""
+msgstr "模式："
 
 msgid "Mode: {mode}"
-msgstr ""
+msgstr "模式：{mode}"
 
 msgid "Modules reloaded."
-msgstr ""
+msgstr "模块已重新加载。"
 
 msgid "Monitor"
-msgstr ""
+msgstr "监视器"
 
 msgid "Monitoring error: {}"
-msgstr ""
+msgstr "监控错误：{}"
 
 msgid "N/A"
-msgstr ""
+msgstr "不适用"
 
 msgid "Name: {name}\\\\\\\\n"
-msgstr ""
+msgstr "名称：{name}\\\\\\\\\\\\\\\\n"
 
 msgid "Netmask"
-msgstr ""
+msgstr "网络掩码"
 
 msgid "Network %d:\\\\\\\\n"
-msgstr ""
+msgstr "网络 %d:\\\\\\\\\\\\\\\\n"
 
 msgid "Network Interface: {interface}"
-msgstr ""
+msgstr "网络接口：{interface}"
 
 msgid "Network Name (SSID)"
-msgstr ""
+msgstr "网络名称 (SSID)"
 
 msgid "Network forgotten!"
-msgstr ""
+msgstr "网络忘记了！"
 
 msgid "Network info error: {error}"
-msgstr ""
+msgstr "网络信息错误：{error}"
 
 msgid "Network information unavailable"
-msgstr ""
+msgstr "网络信息不可用"
 
 msgid "Network unreachable"
-msgstr ""
+msgstr "网络不可达"
 
 msgid "Network: %s"
-msgstr ""
+msgstr "网络：%s"
 
 msgid "Network: {essid}"
-msgstr ""
+msgstr "网络：{essid}"
 
 msgid "No"
-msgstr ""
+msgstr "不"
 
 msgid "No IP"
-msgstr ""
+msgstr "无IP"
 
 msgid "No WiFi connection data available"
-msgstr ""
+msgstr "没有可用的 WiFi 连接数据"
 
 msgid "No WiFi interface available"
-msgstr ""
+msgstr "没有可用的 WiFi 接口"
 
 msgid "No WiFi interface detected. Please check your hardware."
-msgstr ""
+msgstr "未检测到 WiFi 接口。请检查您的硬件。"
 
 msgid "No WiFi interface found"
-msgstr ""
+msgstr "找不到 WiFi 接口"
 
 msgid "No WiFi interfaces found"
-msgstr ""
+msgstr "未找到 WiFi 接口"
 
 msgid "No WiFi interfaces found\\\\\\\\n"
-msgstr ""
+msgstr "未找到 WiFi 接口\\\\\\\\\\\\\\\\n"
 
 msgid "No WiFi messages in system logs"
-msgstr ""
+msgstr "系统日志中没有 WiFi 消息"
 
 msgid "No connection details available"
-msgstr ""
+msgstr "没有可用的连接详细信息"
 
 msgid "No data"
-msgstr ""
+msgstr "无数据"
 
 msgid "No help available for this tool."
-msgstr ""
+msgstr "此工具没有可用的帮助。"
 
 msgid "No interface"
-msgstr ""
+msgstr "无接口"
 
 msgid "No internet connection"
-msgstr ""
+msgstr "没有互联网连接"
 
 msgid "No internet connection detected"
-msgstr ""
+msgstr "未检测到互联网连接"
 
 msgid "No network selected"
-msgstr ""
+msgstr "未选择网络"
 
 msgid "No networks found"
-msgstr ""
+msgstr "未找到网络"
 
 msgid "No networks found - Press BLUE to rescan"
-msgstr ""
+msgstr "未找到网络 - 按蓝色重新扫描"
 
 msgid "No networks found on {}\\\\\\\\n"
-msgstr ""
+msgstr "在 {}\\\\\\\\\\\\\\\\n 上找不到网络"
 
 msgid "No networks found or scan not supported\\\\\\\\n"
-msgstr ""
+msgstr "未找到网络或不支持扫描\\\\\\\\\\\\\\\\n"
 
 msgid "No networks found with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "使用 iwlist 找不到网络\\\\\\\\\\\\\\\\n"
 
 msgid "No packets sent"
-msgstr ""
+msgstr "没有发送数据包"
 
 msgid "No ping data"
-msgstr ""
+msgstr "无 ping 数据"
 
 msgid "No results with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "iwlist 没有结果\\\\\\\\\\\\\\\\n"
 
 msgid "No station/peer information available\\\\\\\\n"
-msgstr ""
+msgstr "没有可用的站/对等信息\\\\\\\\\\\\\\\\n"
 
 msgid "Noise level:%sdBm"
-msgstr ""
+msgstr "噪音水平：%sdBm"
 
 msgid "None"
-msgstr ""
+msgstr "没有任何"
 
 msgid "None found"
-msgstr ""
+msgstr "没有找到"
 
 msgid "Not connected"
-msgstr ""
+msgstr "未连接"
 
 msgid "Not connected to any network"
-msgstr ""
+msgstr "未连接到任何网络"
 
 msgid "Not-Associated"
-msgstr ""
+msgstr "不关联"
 
 msgid "Open"
-msgstr ""
+msgstr "打开"
 
 msgid "OpenDNS"
-msgstr ""
+msgstr "开放DNS"
 
 msgid "Operation Mode"
-msgstr ""
+msgstr "操作模式"
 
 msgid "Operation completed."
-msgstr ""
+msgstr "操作完成。"
 
 msgid "Output: {output}..."
-msgstr ""
+msgstr "输出：{output}..."
 
 msgid "Packet retry limits and frame lifetime settings"
-msgstr ""
+msgstr "数据包重试限制和帧寿命设置"
 
 msgid "Packets: {sent}, Lost: {lost} ({percentage:.1f}%) - {stability}"
-msgstr ""
+msgstr "数据包：{sent}，丢失：{lost} ({percentage:.1f}%) - {stability}"
 
 msgid "Password"
-msgstr ""
+msgstr "密码"
 
 msgid "Pause"
-msgstr ""
+msgstr "暂停"
 
 msgid "Performing initial scan..."
-msgstr ""
+msgstr "正在执行初始扫描..."
 
 msgid "Ping error for {host}: {error}"
-msgstr ""
+msgstr "{host} 的 Ping 错误：{error}"
 
 msgid "Ping failed"
-msgstr ""
+msgstr "Ping 失败"
 
 msgid "Ping failed for {host} (returncode: {code})"
-msgstr ""
+msgstr "{host} 的 Ping 失败（返回码：{code}）"
 
 msgid "Ping not available"
-msgstr ""
+msgstr "Ping 不可用"
 
 msgid "Ping test completed: {avg:.1f} ms average ({success}/{total} successful)"
-msgstr ""
+msgstr "Ping 测试完成：平均 {avg:.1f} 毫秒（{success}/{total} 成功）"
 
 msgid "Ping test error: {error}"
-msgstr ""
+msgstr "Ping 测试错误：{error}"
 
 msgid "Ping timeout for {host}"
-msgstr ""
+msgstr "{host} 的 Ping 超时"
 
 msgid "Ping {host} (fallback): {time} ms"
-msgstr ""
+msgstr "Ping {host}（后备）：{time} 毫秒"
 
 msgid "Ping {host}: {time} ms"
-msgstr ""
+msgstr "Ping {host}：{time} 毫秒"
 
 msgid "Ping/Latency: {ping}\\\\\\\\n"
-msgstr ""
+msgstr "Ping/延迟：{ping}\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: Failed\\\\\\\\n"
-msgstr ""
+msgstr "Ping：失败\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: {:.1f} ms\\\\\\\\n"
-msgstr ""
+msgstr "Ping：{:.1f} ms\\\\\\\\\\\\\\\\n"
 
 msgid "Please enter a network name"
-msgstr ""
+msgstr "请输入网络名称"
 
 msgid "Please enter a password"
-msgstr ""
+msgstr "请输入密码"
 
 msgid "Poor"
-msgstr ""
+msgstr "贫穷的"
 
 msgid "Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "下载速度慢\\\\\\\\\\\\\\\\n"
 
 msgid "Power Management"
-msgstr ""
+msgstr "电源管理"
 
 msgid "Power management info displayed."
-msgstr ""
+msgstr "显示电源管理信息。"
 
 msgid "Power management information not available\\\\\\\\n"
-msgstr ""
+msgstr "电源管理信息不可用\\\\\\\\\\\\\\\\n"
 
 msgid "Power management settings"
-msgstr ""
+msgstr "电源管理设置"
 
 msgid "Power management settings and power saving modes"
-msgstr ""
+msgstr "电源管理设置和省电模式"
 
 msgid "Primary DNS"
-msgstr ""
+msgstr "主 DNS"
 
 msgid "Public IP: Unable to determine"
-msgstr ""
+msgstr "公共IP：无法确定"
 
 msgid "Public IP: {ip}"
-msgstr ""
+msgstr "公共IP：{ip}"
 
 msgid "Quality: %s\\\\\\\\n"
-msgstr ""
+msgstr "质量：%s\\\\\\\\\\\\\\\\n"
 
 msgid "Quality: N/A"
-msgstr ""
+msgstr "质量：不适用"
 
 msgid "Quality: {}%"
-msgstr ""
+msgstr "质量： {}％"
 
 msgid "Quality: {}% ({})"
-msgstr ""
+msgstr "质量： {}％ （{}）"
 
 msgid "Quick System Check"
-msgstr ""
+msgstr "快速系统检查"
 
 msgid "Quick Test"
-msgstr ""
+msgstr "快速测试"
 
 msgid "Quick test completed"
-msgstr ""
+msgstr "快速测试完成"
 
 msgid "Quick test error: {error}"
-msgstr ""
+msgstr "快速测试错误：{error}"
 
 msgid "RTS Threshold"
-msgstr ""
+msgstr "RTS阈值"
 
 msgid "Real-time signal quality monitor"
-msgstr ""
+msgstr "实时信号质量监控"
 
 msgid "Refresh"
-msgstr ""
+msgstr "刷新"
 
 msgid "Reload WiFi Modules"
-msgstr ""
+msgstr "重新加载 WiFi 模块"
 
 msgid "Reload kernel WiFi modules"
-msgstr ""
+msgstr "重新加载内核 WiFi 模块"
 
 msgid "Reload kernel WiFi modules to fix driver issues"
-msgstr ""
+msgstr "重新加载内核 WiFi 模块以修复驱动程序问题"
 
 msgid "Remember password"
-msgstr ""
+msgstr "记住密码"
 
 msgid "Restart WiFi Interface"
-msgstr ""
+msgstr "重启WiFi接口"
 
 msgid "Restart WiFi interface %s?"
-msgstr ""
+msgstr "重新启动 WiFi 接口 %s？"
 
 msgid "Restart wireless interface"
-msgstr ""
+msgstr "重新启动无线接口"
 
 msgid "Restart wireless interface to reset connectivity"
-msgstr ""
+msgstr "重新启动无线接口以重置连接"
 
 msgid "Restarting interface..."
-msgstr ""
+msgstr "正在重启界面..."
 
 msgid "Retry Limits"
-msgstr ""
+msgstr "重试限制"
 
 msgid "Retry limit information not available\\\\\\\\n"
-msgstr ""
+msgstr "重试限制信息不可用\\\\\\\\\\\\\\\\n"
 
 msgid "Retry limits and lifetime"
-msgstr ""
+msgstr "重试限制和生命周期"
 
 msgid "Retry limits info displayed."
-msgstr ""
+msgstr "显示重试限制信息。"
 
 msgid "Running detailed speed test..."
-msgstr ""
+msgstr "运行详细的速度测试..."
 
 msgid "Running full speed test..."
-msgstr ""
+msgstr "运行全速测试..."
 
 msgid "Running quick speed test..."
-msgstr ""
+msgstr "运行快速速度测试..."
 
 msgid "Rx invalid crypt:%s"
-msgstr ""
+msgstr "接收无效密码：%s"
 
 msgid "Rx invalid frag:%s"
-msgstr ""
+msgstr "接收无效碎片：%s"
 
 msgid "Rx invalid nwid:%s"
-msgstr ""
+msgstr "接收无效 nwid：%s"
 
 msgid "Save & Connect"
-msgstr ""
+msgstr "保存并连接"
 
 msgid "Scan"
-msgstr ""
+msgstr "扫描"
 
 msgid "Scan completed."
-msgstr ""
+msgstr "扫描完成。"
 
 msgid "Scan error {}"
-msgstr ""
+msgstr "扫描错误{}"
 
 msgid "Scan error:"
-msgstr ""
+msgstr "扫描错误："
 
 msgid "Scan error: {}"
-msgstr ""
+msgstr "扫描错误：{}"
 
 msgid "Scan error: {}\\\\\\\\n"
-msgstr ""
+msgstr "扫描错误：{}\\\\\\\\\\\\\\\\n"
 
 msgid "Scan failed"
-msgstr ""
+msgstr "扫描失败"
 
 msgid "Scan for available networks"
-msgstr ""
+msgstr "扫描可用网络"
 
 msgid "Scanner"
-msgstr ""
+msgstr "扫描器"
 
 msgid "Scanning for WiFi networks..."
-msgstr ""
+msgstr "正在扫描 WiFi 网络..."
 
 msgid "Scanning for networks..."
-msgstr ""
+msgstr "正在扫描网络..."
 
 msgid "Scanning..."
-msgstr ""
+msgstr "扫描..."
 
 msgid "Secondary DNS"
-msgstr ""
+msgstr "辅助 DNS"
 
 msgid "Secured"
-msgstr ""
+msgstr "有担保"
 
 msgid "Select"
-msgstr ""
+msgstr "选择"
 
 msgid "Select a speed test type"
-msgstr ""
+msgstr "选择速度测试类型"
 
 msgid "Select a tool from the menu to get detailed information about WiFi configuration and status."
-msgstr ""
+msgstr "从菜单中选择一个工具来获取有关 WiFi 配置和状态的详细信息。"
 
 msgid "Select a tool to see description"
-msgstr ""
+msgstr "选择工具查看说明"
 
 msgid "Select a tool to view detailed information"
-msgstr ""
+msgstr "选择工具查看详细信息"
 
 msgid "Select an option"
-msgstr ""
+msgstr "选择一个选项"
 
 msgid "Server found"
-msgstr ""
+msgstr "找到服务器"
 
 msgid "Server info error: {error}"
-msgstr ""
+msgstr "服务器信息错误：{error}"
 
 msgid "Settings applied successfully"
-msgstr ""
+msgstr "设置应用成功"
 
 msgid "Signal Level: {signal} dBm"
-msgstr ""
+msgstr "信号电平：{signal} dBm"
 
 msgid "Signal level:%sdBm"
-msgstr ""
+msgstr "信号电平：%sdBm"
 
 msgid "Signal: %s\\\\\\\\n"
-msgstr ""
+msgstr "信号：%s\\\\\\\\\\\\\\\\n"
 
 msgid "Signal: N/A"
-msgstr ""
+msgstr "信号：不适用"
 
 msgid "Signal: {} dBm"
-msgstr ""
+msgstr "信号：{} dBm"
 
 msgid "Speedtest"
-msgstr ""
+msgstr "速度测试"
 
 msgid "Speedtest failed - No internet connection or all tests failed"
-msgstr ""
+msgstr "速度测试失败 - 无互联网连接或所有测试均失败"
 
 msgid "Speedtest failed: {}"
-msgstr ""
+msgstr "速度测试失败：{}"
 
 msgid "SpeedtestSimple not available"
-msgstr ""
+msgstr "SpeedtestSimple 不可用"
 
 msgid "Sponsor: {sponsor}\\\\\\\\n"
-msgstr ""
+msgstr "赞助商：{sponsor}\\\\\\\\\\\\\\\\n"
 
 msgid "Stability test error: {error}"
-msgstr ""
+msgstr "稳定性测试错误：{error}"
 
 msgid "Stable"
-msgstr ""
+msgstr "稳定的"
 
 msgid "Start"
-msgstr ""
+msgstr "开始"
 
 msgid "Static"
-msgstr ""
+msgstr "静止的"
 
 msgid "Statistics error: {}"
-msgstr ""
+msgstr "统计错误：{}"
 
 msgid "Status check failed: {}"
-msgstr ""
+msgstr "状态检查失败：{}"
 
 msgid "Stop"
-msgstr ""
+msgstr "停止"
 
 msgid "Supported bit rates"
-msgstr ""
+msgstr "支持的比特率"
 
 msgid "Supported bitrates and current transmission rates"
-msgstr ""
+msgstr "支持的比特率和当前传输速率"
 
 msgid "System Logs"
-msgstr ""
+msgstr "系统日志"
 
 msgid "System Logs:\\\\\\\\n"
-msgstr ""
+msgstr "系统日志：\\\\\\\\\\\\\\\\n"
 
 msgid "TX Power"
-msgstr ""
+msgstr "发射功率"
 
 msgid "Tertiary DNS"
-msgstr ""
+msgstr "三级DNS"
 
 msgid "Test cancelled"
-msgstr ""
+msgstr "测试取消"
 
 msgid "Test completed - See results below"
-msgstr ""
+msgstr "测试完成 - 请参阅下面的结果"
 
 msgid "Test completed!"
-msgstr ""
+msgstr "测试完成！"
 
 msgid "Test failed"
-msgstr ""
+msgstr "测试失败"
 
 msgid "Testing connection stability..."
-msgstr ""
+msgstr "测试连接稳定性..."
 
 msgid "Testing connectivity..."
-msgstr ""
+msgstr "测试连通性..."
 
 msgid "Testing download speed (multiple servers)..."
-msgstr ""
+msgstr "测试下载速度（多个服务器）..."
 
 msgid "Testing download speed..."
-msgstr ""
+msgstr "测试下载速度..."
 
 msgid "Testing latency to multiple hosts..."
-msgstr ""
+msgstr "测试多个主机的延迟..."
 
 msgid "Testing latency..."
-msgstr ""
+msgstr "测试延迟..."
 
 msgid "Testing upload speed..."
-msgstr ""
+msgstr "测试上传速度..."
 
 msgid "These forums are great places to get help,\\\\\\\\n"
-msgstr ""
+msgstr "这些论坛是获得帮助的好地方，\\\\\\\\\\\\\\\\n"
 
 msgid "Timeout"
-msgstr ""
+msgstr "暂停"
 
 msgid "Tool not available"
-msgstr ""
+msgstr "工具不可用"
 
 msgid "Tool not implemented: {}"
-msgstr ""
+msgstr "工具未实现：{}"
 
 msgid "Tools"
-msgstr ""
+msgstr "工具"
 
 msgid "Tx excessive retries:%s"
-msgstr ""
+msgstr "发送重试次数过多：%s"
 
 msgid "UP and active"
-msgstr ""
+msgstr "UP 并处于活动状态"
 
 msgid "Unable to assess download quality\\\\\\\\n"
-msgstr ""
+msgstr "无法评估下载质量\\\\\\\\\\\\\\\\n"
 
 msgid "Unknown"
-msgstr ""
+msgstr "未知"
 
 msgid "Unstable"
-msgstr ""
+msgstr "不稳定"
 
 msgid "Upload Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "上传速度：%s\\\\\\\\\\\\\\\\n"
 
 msgid "Upload Speed: {upload}\\\\\\\\n"
-msgstr ""
+msgstr "上传速度：{upload}\\\\\\\\\\\\\\\\n"
 
 msgid "Upload estimation completed"
-msgstr ""
+msgstr "上传估算完成"
 
 msgid "Upload test failed: {error}"
-msgstr ""
+msgstr "上传测试失败：{error}"
 
 msgid "Upload test not available"
-msgstr ""
+msgstr "上传测试不可用"
 
 msgid "Upload test: {result}"
-msgstr ""
+msgstr "上传测试：{result}"
 
 msgid "Upload: Not available\\\\\\\\n"
-msgstr ""
+msgstr "上传：不可用\\\\\\\\\\\\\\\\n"
 
 msgid "Upload: {:.2f} Mbps (estimated)\\\\\\\\n"
-msgstr ""
+msgstr "上传：{:.2f} Mbps（估计）\\\\\\\\\\\\\\\\n"
 
 msgid "Very Poor"
-msgstr ""
+msgstr "很差"
 
 msgid "WEP Key Type"
-msgstr ""
+msgstr "WEP 密钥类型"
 
 msgid "WiFi Advanced Tools"
-msgstr ""
+msgstr "WiFi 高级工具"
 
 msgid "WiFi Connection Manager"
-msgstr ""
+msgstr "WiFi 连接管理器"
 
 msgid "WiFi Diagnostics"
-msgstr ""
+msgstr "无线网络诊断"
 
 msgid "WiFi Manager"
-msgstr ""
+msgstr "无线网络管理器"
 
 msgid "WiFi Manager iwconfig version {}"
-msgstr ""
+msgstr "WiFi 管理器 iwconfig 版本 {}"
 
 msgid "WiFi Manager v."
-msgstr ""
+msgstr "WiFi 管理器 v."
 
 msgid "WiFi Password"
-msgstr ""
+msgstr "无线网络密码"
 
 msgid "WiFi Scanner"
-msgstr ""
+msgstr "无线网络扫描器"
 
 msgid "WiFi Signal Monitor"
-msgstr ""
+msgstr "WiFi信号监测器"
 
 msgid "WiFi Speed Test Manager"
-msgstr ""
+msgstr "WiFi 速度测试管理器"
 
 msgid "WiFi diagnostics and tests"
-msgstr ""
+msgstr "WiFi 诊断和测试"
 
 msgid "Wired"
-msgstr ""
+msgstr "有线"
 
 msgid "Wireless"
-msgstr ""
+msgstr "无线的"
 
 msgid "Wireless info error: {}"
-msgstr ""
+msgstr "无线信息错误：{}"
 
 msgid "Yes"
-msgstr ""
+msgstr "是的"
 
 msgid "[LOCK]"
-msgstr ""
+msgstr "[锁]"
 
 msgid "[OPEN]"
-msgstr ""
+msgstr "[打开]"
 
 msgid "[SAVED]"
-msgstr ""
+msgstr "[已保存]"
 
 msgid "bits"
-msgstr ""
+msgstr "位"
 
 msgid "ethtool not found"
-msgstr ""
+msgstr "未找到 ethtool"
 
 msgid "iwlist error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "{interface} 上的 iwlist 错误：{error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist error: {}\\\\\\\\n"
-msgstr ""
+msgstr "iwlist 错误：{}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist exception on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "{interface} 上的 iwlist 异常：{error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist timeout on {}\\\\\\\\n"
-msgstr ""
+msgstr "{}\\\\\\\\\\\\\\\\n 上的 iwlist 超时"
 
 msgid "iwlist: No networks found or interface busy\\\\\\\\n"
-msgstr ""
+msgstr "iwlist：未找到网络或接口繁忙\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "iwlist：未找到网络\\\\\\\\\\\\\\\\n"
 
 msgid "lifetime"
-msgstr ""
+msgstr "寿命"
 
 msgid "limit"
-msgstr ""
+msgstr "限制"
 
 msgid "long {type}:{value}"
-msgstr ""
+msgstr "长 {type}:{value}"
 
 msgid "max {type}:{value}"
-msgstr ""
+msgstr "最大 {type}:{value}"
 
 msgid "min {type}:{value}"
-msgstr ""
+msgstr "分钟 {type}:{value}"
 
 msgid "off"
-msgstr ""
+msgstr "离开"
 
 msgid "on"
-msgstr ""
+msgstr "在"
 
 msgid "pythonwifi: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "pythonwifi：找不到网络\\\\\\\\\\\\\\\\n"
 
 msgid "share experiences,and connect with other users."
-msgstr ""
+msgstr "分享经验并与其他用户联系。"
 
 msgid "short {type}:{value}"
-msgstr ""
+msgstr "短 {type}:{value}"
 
 msgid "wait..."
-msgstr ""
+msgstr "等待..."
 
 msgid "{:.1f} ms"
-msgstr ""
+msgstr "{:.1f} 毫秒"
 
 msgid "{:.1f}%"
 msgstr ""
 
 msgid "{:2d}. {} {:20} | Signal: {:4} dBm ({}) | Channel: {}\\\\\\\\n"
-msgstr ""
+msgstr "{:2d}。 {} {:20} |信号：{:4} dBm ({}) |频道：{}\\\\\\\\\\\\\\\\n"
 
 msgid "{connection}{saved}{icon} {essid} | {security} | {signal} dBm"
 msgstr ""
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}...\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} |质量：{quality:3}% |信号：{signal:4} dBm | {bssid}...\\\\\\\\\\\\\\\\n"
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} |质量：{quality:3}% |信号：{signal:4} dBm | {bssid}\\\\\\\\\\\\\\\\n"
 
 msgid "{icon} {interface}: {status}\\\\\\\\n"
 msgstr ""
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel:2} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}。 {essid:20} |质量：{quality:3}% ({signal_quality}) |信号：{signal:4} dBm |频道：{channel:2} |加密：{encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}。 {essid:20} |质量：{quality:3}% ({signal_quality}) |信号：{signal:4} dBm |频道：{channel:2} |加密：{encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}。 {essid:20} |质量：{quality:3}% |信号：{signal:4} dBm\\\\\\\\\\\\\\\\n"
 
 msgid "{index}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}。 {essid:20} |质量：{quality:3}% |信号：{signal:4} dBm\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Connected to {essid} ({quality})\\\\\\\\n"
-msgstr ""
+msgstr "{interface}：连接到 {essid} ({quality})\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Not connected\\\\\\\\n"
-msgstr ""
+msgstr "{interface}：未连接\\\\\\\\\\\\\\\\n"
 
 msgid "{name} ({host}): {ping}"
 msgstr ""
 
 msgid "{name} ({sponsor}): {ping}"
-msgstr ""
+msgstr "{name} ({host}): {ping}"
 
 msgid "{name}: Error {error}"
-msgstr ""
+msgstr "{name}：错误 {error}"
 
 msgid "{name}: Failed"
-msgstr ""
+msgstr "{name}：失败"
 
 msgid "{name}: Timeout"
-msgstr ""
+msgstr "{name}：超时"
 
 msgid "{name}: {speed:.2f} Mbps"
-msgstr ""
+msgstr "{name}：{speed:.2f} Mbps"
 
 msgid "{server}: {speed:.2f} Mbps ({data:.1f} MB in {time:.1f}s)\\\\\\\\n"
-msgstr ""
+msgstr "{server}：{speed:.2f} Mbps（{time:.1f} 秒内的 {data:.1f} MB）\\\\\\\\\\\\\\\\n"
 
 msgid "{speed:.2f} Mbps"
 msgstr ""
@@ -1471,343 +1471,343 @@ msgid "{} ({:.0f}%)"
 msgstr ""
 
 msgid "{} - Open network - Press OK for options"
-msgstr ""
+msgstr "{} - 打开网络 - 按“确定”查看选项"
 
 msgid "{} - Password required - Press OK for options"
-msgstr ""
+msgstr "{} - 需要密码 - 按“确定”查看选项"
 
 msgid "{} - Password saved - Press OK for options"
-msgstr ""
+msgstr "{} - 密码已保存 - 按“确定”查看选项"
 
 msgid "{} GHz"
 msgstr ""
 
 msgid "{} Mb/s"
-msgstr ""
+msgstr "{} Mb/秒"
 
 msgid "{} Status: {}\\\\\\\\n"
-msgstr ""
+msgstr "{} 状态：{}\\\\\\\\\\\\\\\\n"
 
 msgid "{} Type: {} interface\\\\\\\\n"
-msgstr ""
+msgstr "{} 类型：{} 接口\\\\\\\\\\\\\\\\n"
 
 msgid "{} dBm"
 msgstr ""
 
 msgid "{}: Failed"
-msgstr ""
+msgstr "{}： 失败的"
 
 msgid "{}: {:.1f} ms"
-msgstr ""
+msgstr "{}：{:.1f} 毫秒"
 
 msgid "{}\\\\\\\\n"
 msgstr ""
 
 msgid " Keep drivers updated\\\\\\\\n"
-msgstr ""
+msgstr "保持驱动程序更新\\\\\\\\\\\\\\\\n"
 
 msgid " Monitor signal strength for best performance\\\\\\\\n"
-msgstr ""
+msgstr "监控信号强度以获得最佳性能\\\\\\\\\\\\\\\\n"
 
 msgid " Use 5GHz band for less interference\\\\\\\\n"
-msgstr ""
+msgstr "使用 5GHz 频段以减少干扰\\\\\\\\\\\\\\\\n"
 
 msgid "  No USB WiFi adapters found\\\\\\\\n"
-msgstr ""
+msgstr "未找到 USB WiFi 适配器\\\\\\\\\\\\\\\\n"
 
 msgid "  Interface {interface}: DOWN (needs activation)\\\\\\\\n"
-msgstr ""
+msgstr "接口 {interface}: DOWN（需要激活）\\\\\\\\\\\\\\\\n"
 
 msgid "  Missing commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "缺少命令：{commands}\\\\\\\\\\\\\\\\n"
 
 msgid "  No WiFi kernel modules detected\\\\\\\\n"
-msgstr ""
+msgstr "未检测到 WiFi 内核模块\\\\\\\\\\\\\\\\n"
 
 msgid "  Scan: Interface busy (connected to network)\\\\\\\\n"
-msgstr ""
+msgstr "扫描：接口繁忙（连接到网络）\\\\\\\\\\\\\\\\n"
 
 msgid "  {test}: No data\\\\\\\\n"
-msgstr ""
+msgstr "{test}：无数据\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed\\\\\\\\n"
-msgstr ""
+msgstr "平均下载速度\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "平均延迟 ({:.1f} 毫秒)\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency\\\\\\\\n"
-msgstr ""
+msgstr "平均延迟\\\\\\\\\\\\\\\\n"
 
 msgid " Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "下载速度不错\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency\\\\\\\\n"
-msgstr ""
+msgstr "良好的延迟\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "出色的延迟 ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " TX Power: {}\\\\\\\\n"
-msgstr ""
+msgstr "发射功率：{}\\\\\\\\\\\\\\\\n"
 
 msgid " All systems operational\\\\\\\\n"
-msgstr ""
+msgstr "所有系统均可运行\\\\\\\\\\\\\\\\n"
 
 msgid " Available commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "可用命令：{commands}\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "出色的下载速度\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency\\\\\\\\n"
-msgstr ""
+msgstr "出色的延迟\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "良好的延迟（{:.1f} 毫秒）\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: UP and active\\\\\\\\n"
-msgstr ""
+msgstr "接口 {interface}： UP 且处于活动状态\\\\\\\\\\\\\\\\n"
 
 msgid " Loaded WiFi modules: {modules}\\\\\\\\n"
-msgstr ""
+msgstr "已加载的 WiFi 模块：{modules}\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: WiFi hardware detected and functional\\\\\\\\n"
-msgstr ""
+msgstr "系统状态：检测到 WiFi 硬件并正常运行\\\\\\\\\\\\\\\\n"
 
 msgid " USB WiFi adapters detected:\\\\\\\\n"
-msgstr ""
+msgstr "检测到 USB WiFi 适配器：\\\\\\\\\\\\\\\\n"
 
 msgid " {test}: {output}\\\\\\\\n"
-msgstr ""
+msgstr "{test}: {output}\\\\\\\\\\\\\\\\n"
 
 msgid " CRITICAL: No WiFi interfaces detected!\\\\\\\\n"
-msgstr ""
+msgstr "严重：未检测到 WiFi 接口！\\\\\\\\\\\\\\\\n"
 
 msgid " Download test failed\\\\\\\\n"
-msgstr ""
+msgstr "下载测试失败\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID 检查：{error}\\\\\\\\\\\\\\\\n"
 
 msgid " Error: {}\\\\\\\\n"
-msgstr ""
+msgstr "错误：{}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "接口检查失败：{error}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: NOT FOUND\\\\\\\\n"
-msgstr ""
+msgstr "接口 {interface}：未找到\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: UNKNOWN STATE\\\\\\\\n"
-msgstr ""
+msgstr "接口 {interface}：未知状态\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {} not found or not a WiFi interface\\\\\\\\n"
-msgstr ""
+msgstr "未找到接口 {} 或不是 WiFi 接口\\\\\\\\\\\\\\\\n"
 
 msgid " Kernel module check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "内核模块检查失败：{error}\\\\\\\\\\\\\\\\n"
 
 msgid " Latency test failed\\\\\\\\n"
-msgstr ""
+msgstr "延迟测试失败\\\\\\\\\\\\\\\\n"
 
 msgid " Mode check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "模式检查：{error}\\\\\\\\\\\\\\\\n"
 
 msgid " Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "下载速度慢\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency\\\\\\\\n"
-msgstr ""
+msgstr "延迟差\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: No WiFi interfaces detected\\\\\\\\n"
-msgstr ""
+msgstr "系统状态：未检测到 WiFi 接口\\\\\\\\\\\\\\\\n"
 
 msgid " Scan test: {error}\\\\\\\\n"
-msgstr ""
+msgstr "扫描测试：{error}\\\\\\\\\\\\\\\\n"
 
 msgid " Signal check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "信号检查：{error}\\\\\\\\\\\\\\\\n"
 
 msgid " USB device check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "USB 设备检查失败：{error}\\\\\\\\\\\\\\\\n"
 
 msgid " Very poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "延迟非常差 ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " {}\\\\\\\\n"
-msgstr ""
+msgstr "{}\\\\\\\\\\\\\\\\n"
 
 msgid " Cannot assess connection quality\\\\\\\\n"
-msgstr ""
+msgstr "无法评估连接质量\\\\\\\\\\\\\\\\n"
 
 msgid " Download speed unavailable\\\\\\\\n"
-msgstr ""
+msgstr "下载速度不可用\\\\\\\\\\\\\\\\n"
 
 msgid " Latency unavailable\\\\\\\\n"
-msgstr ""
+msgstr "延迟不可用\\\\\\\\\\\\\\\\n"
 
 msgid " Quality assessment unavailable\\\\\\\\n"
-msgstr ""
+msgstr "无法进行质量评估\\\\\\\\\\\\\\\\n"
 
 msgid "  Transmitted: {}\\\\\\\\n"
-msgstr ""
+msgstr "已发送：{}\\\\\\\\\\\\\\\\n"
 
 msgid "  Received: {}\\\\\\\\n"
-msgstr ""
+msgstr "收到：{}\\\\\\\\\\\\\\\\n"
 
 msgid " AVAILABLE NETWORKS\\\\\\\\n"
-msgstr ""
+msgstr "可用网络\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: IP {ip} - ONLINE\\\\\\\\n"
-msgstr ""
+msgstr "连接性：IP {ip} - 在线\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: No IP address - OFFLINE\\\\\\\\n"
-msgstr ""
+msgstr "连接性：无 IP 地址 - 离线\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: Unknown status\\\\\\\\n"
-msgstr ""
+msgstr "连接性：未知状态\\\\\\\\\\\\\\\\n"
 
 msgid " EXCELLENT connection\\\\\\\\n"
-msgstr ""
+msgstr "优秀的连接\\\\\\\\\\\\\\\\n"
 
 msgid " SERVER INFORMATION:\\\\\\\\n"
-msgstr ""
+msgstr "服务器信息：\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "延迟较差（{:.1f} 毫秒）\\\\\\\\\\\\\\\\n"
 
 msgid " FAIR connection\\\\\\\\n"
-msgstr ""
+msgstr "公平连接\\\\\\\\\\\\\\\\n"
 
 msgid " GOOD connection\\\\\\\\n"
-msgstr ""
+msgstr "连接良好\\\\\\\\\\\\\\\\n"
 
 msgid " POOR connection\\\\\\\\n"
-msgstr ""
+msgstr "连接不良\\\\\\\\\\\\\\\\n"
 
 msgid " CLIENT INFORMATION:\\\\\\\\n"
-msgstr ""
+msgstr "客户信息：\\\\\\\\\\\\\\\\n"
 
 msgid " All basic diagnostics available\\\\\\\\n"
-msgstr ""
+msgstr "所有基本诊断可用\\\\\\\\\\\\\\\\n"
 
 msgid " Tips:\\\\\\\\n"
-msgstr ""
+msgstr "提示：\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "驱动程序：未知\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: {}\\\\\\\\n"
-msgstr ""
+msgstr "驱动程序：{}\\\\\\\\\\\\\\\\n"
 
 msgid " Protocol: {}\\\\\\\\n"
-msgstr ""
+msgstr "协议：{}\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "出色的下载速度 ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " TEST RESULTS:\\\\\\\\n"
-msgstr ""
+msgstr "测试结果：\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "平均下载速度 ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " Poor download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "下载速度不佳 ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " Good download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "下载速度良好 ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " NETWORK STATISTICS\\\\\\\\n"
-msgstr ""
+msgstr "网络统计\\\\\\\\\\\\\\\\n"
 
 msgid " Quality: {}\\\\\\\\n"
-msgstr ""
+msgstr "质量：{}\\\\\\\\\\\\\\\\n"
 
 msgid " Signal: No quality data available\\\\\\\\n"
-msgstr ""
+msgstr "信号：没有可用的质量数据\\\\\\\\\\\\\\\\n"
 
 msgid " Signal: {quality}% quality, {signal} dBm\\\\\\\\n"
-msgstr ""
+msgstr "信号：{quality}% 质量，{signal} dBm\\\\\\\\\\\\\\\\n"
 
 msgid " MAC: {}\\\\\\\\n"
-msgstr ""
+msgstr "MAC：{}\\\\\\\\\\\\\\\\n"
 
 msgid " DETAILED WIFI INFORMATION - {}\\\\\\\\n"
-msgstr ""
+msgstr "详细的 WIFI 信息 - {}\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: {}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID：{}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface Type: WIRELESS\\\\\\\\n"
-msgstr ""
+msgstr "接口类型：无线\\\\\\\\\\\\\\\\n"
 
 msgid " Scan: Found {count} networks\\\\\\\\n"
-msgstr ""
+msgstr "扫描：找到 {count} 网络\\\\\\\\\\\\\\\\n"
 
 msgid " Type: Wireless interface\\\\\\\\n"
-msgstr ""
+msgstr "类型：无线接口\\\\\\\\\\\\\\\\n"
 
 msgid " Connection appears good (based on download)\\\\\\\\n"
-msgstr ""
+msgstr "连接看起来良好（基于下载）\\\\\\\\\\\\\\\\n"
 
 msgid " Connection appears responsive (based on ping)\\\\\\\\n"
-msgstr ""
+msgstr "连接显示响应（基于 ping）\\\\\\\\\\\\\\\\n"
 
 msgid " Connection may be limited (based on download)\\\\\\\\n"
-msgstr ""
+msgstr "连接可能受到限制（基于下载）\\\\\\\\\\\\\\\\n"
 
 msgid " Connection may be slow (based on ping)\\\\\\\\n"
-msgstr ""
+msgstr "连接可能很慢（基于 ping）\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: Not connected\\\\\\\\n"
-msgstr ""
+msgstr "ESSID：未连接\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: {essid}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID：{essid}\\\\\\\\\\\\\\\\n"
 
 msgid " Frequency: {}\\\\\\\\n"
-msgstr ""
+msgstr "频率：{}\\\\\\\\\\\\\\\\n"
 
 msgid " WIRELESS INFORMATION\\\\\\\\n"
-msgstr ""
+msgstr "无线信息\\\\\\\\\\\\\\\\n"
 
 msgid " DRIVER & HARDWARE\\\\\\\\n"
-msgstr ""
+msgstr "驱动程序和硬件\\\\\\\\\\\\\\\\n"
 
 msgid " Type: Wired interface\\\\\\\\n"
-msgstr ""
+msgstr "类型：有线接口\\\\\\\\\\\\\\\\n"
 
 msgid " BASIC INTERFACE INFO\\\\\\\\n"
-msgstr ""
+msgstr "基本接口信息\\\\\\\\\\\\\\\\n"
 
 msgid " Interface: {}\\\\\\\\n"
-msgstr ""
+msgstr "接口：{}\\\\\\\\\\\\\\\\n"
 
 msgid " METHOD: Using system commands (no root required)\\\\\\\\n"
-msgstr ""
+msgstr "方法：使用系统命令（无需root）\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "模式：未知\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: {mode}\\\\\\\\n"
-msgstr ""
+msgstr "模式：{mode}\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: {}\\\\\\\\n"
-msgstr ""
+msgstr "模式：{}\\\\\\\\\\\\\\\\n"
 
 msgid " Module: {}\\\\\\\\n"
-msgstr ""
+msgstr "模块：{}\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM LEVEL DIAGNOSTICS\\\\\\\\n"
-msgstr ""
+msgstr "系统级诊断\\\\\\\\\\\\\\\\n"
 
 msgid " Bit Rate: {}\\\\\\\\n"
-msgstr ""
+msgstr "比特率：{}\\\\\\\\\\\\\\\\n"
 
 msgid " Check hardware connection and drivers\\\\\\\\n"
-msgstr ""
+msgstr "检查硬件连接和驱动程序\\\\\\\\\\\\\\\\n"
 
 msgid " VERY POOR connection\\\\\\\\n"
-msgstr ""
+msgstr "连接非常差\\\\\\\\\\\\\\\\n"

@@ -14,364 +14,364 @@ msgid "- {adapter}\\\\\\\\n"
 msgstr ""
 
 msgid "... and {} more networks\\\\\\\\n"
-msgstr ""
+msgstr "... і ще {} мереж\\\\\\\\\\\\\\\\n"
 
 msgid "1 dBm (Min)"
-msgstr ""
+msgstr "1 дБм (хв.)"
 
 msgid "1. Check if WiFi adapter is properly connected\\\\\\\\n"
-msgstr ""
+msgstr "1. Перевірте, чи правильно під’єднано адаптер WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "1. Disconnect from current WiFi network\\\\\\\\n"
-msgstr ""
+msgstr "1. Відключіться від поточної мережі WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "10 dBm"
-msgstr ""
+msgstr "10 дБм"
 
 msgid "15 dBm"
-msgstr ""
+msgstr "15 дБм"
 
 msgid "2. Restart WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "2. Перезапустіть адаптер WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "2. Verify WiFi adapter is supported by your receiver\\\\\\\\n"
-msgstr ""
+msgstr "2. Переконайтеся, що адаптер WiFi підтримується вашим приймачем\\\\\\\\\\\\\\\\n"
 
 msgid "20 dBm (Max)"
-msgstr ""
+msgstr "20 дБм (макс.)"
 
 msgid "3. Check if WiFi driver is installed\\\\\\\\n"
-msgstr ""
+msgstr "3. Перевірте, чи встановлено драйвер WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "3. Try different USB port for USB WiFi adapters\\\\\\\\n"
-msgstr ""
+msgstr "3. Спробуйте інший порт USB для адаптерів USB WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "4. Check if WiFi drivers are installed\\\\\\\\n"
-msgstr ""
+msgstr "4. Перевірте, чи встановлені драйвери WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "4. Try with different USB WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "4. Спробуйте інший адаптер USB WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "5 dBm"
-msgstr ""
+msgstr "5 дБм"
 
 msgid "5. Check root permissions\\\\\\\\n"
-msgstr ""
+msgstr "5. Перевірте права root\\\\\\\\\\\\\\\\n"
 
 msgid "5. Restart the receiver and try again\\\\\\\\n"
-msgstr ""
+msgstr "5. Перезапустіть приймач і повторіть спробу\\\\\\\\\\\\\\\\n"
 
 msgid "=== WiFi Diagnostics (System Commands Only) ===\\\\\\\\n"
-msgstr ""
+msgstr "=== Діагностика WiFi (лише системні команди) ===\\\\\\\\\\\\\\\\n"
 
 msgid "ACTIVE"
-msgstr ""
+msgstr "АКТИВНИЙ"
 
 msgid "About"
-msgstr ""
+msgstr "про"
 
 msgid "Access Point"
-msgstr ""
+msgstr "Точка доступу"
 
 msgid "Access Point: {ap}"
-msgstr ""
+msgstr "Точка доступу: {ap}"
 
 msgid "Access Points"
-msgstr ""
+msgstr "Точки доступу"
 
 msgid "Access points info displayed."
-msgstr ""
+msgstr "Відображається інформація про точки доступу."
 
 msgid "Ad-Hoc"
 msgstr ""
 
 msgid "Advanced"
-msgstr ""
+msgstr "Просунутий"
 
 msgid "Advanced Config"
 msgstr ""
 
 msgid "Advanced Config - {}"
-msgstr ""
+msgstr "Розширена конфігурація - {}"
 
 msgid "Advanced Scan"
-msgstr ""
+msgstr "Розширене сканування"
 
 msgid "Advanced Scan Results"
-msgstr ""
+msgstr "Розширені результати сканування"
 
 msgid "Advanced Tools"
-msgstr ""
+msgstr "Розширені інструменти"
 
 msgid "Advanced WiFi Configuration"
-msgstr ""
+msgstr "Розширена конфігурація WiFi"
 
 msgid "Advanced WiFi Tools"
-msgstr ""
+msgstr "Розширені інструменти WiFi"
 
 msgid "Advanced WiFi configuration"
-msgstr ""
+msgstr "Розширена конфігурація WiFi"
 
 msgid "Advanced WiFi configuration settings"
-msgstr ""
+msgstr "Розширені налаштування конфігурації WiFi"
 
 msgid "Advanced WiFi interface configuration"
-msgstr ""
+msgstr "Розширена конфігурація інтерфейсу WiFi"
 
 msgid "Advanced configuration completed."
-msgstr ""
+msgstr "Розширене налаштування завершено."
 
 msgid "All Network Interfaces: {interfaces}\\\\\\\\n"
-msgstr ""
+msgstr "Усі мережеві інтерфейси: {interfaces}\\\\\\\\\\\\\\\\n"
 
 msgid "All ping tests failed"
-msgstr ""
+msgstr "Усі тести ping виявились невдалими"
 
 msgid "All settings reset to defaults"
-msgstr ""
+msgstr "Усі налаштування скинуто до значень за замовчуванням"
 
 msgid "Applied: {} commands\\\\\\\\n"
-msgstr ""
+msgstr "Застосовано: {} команд\\\\\\\\\\\\\\\\n"
 
 msgid "Apply"
-msgstr ""
+msgstr "Застосувати"
 
 msgid "Auto"
-msgstr ""
+msgstr "Авто"
 
 msgid "Auto  limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "Автоліміт ; мінімальний ліміт:{limit}"
 
 msgid "Automatic (DHCP)"
-msgstr ""
+msgstr "Автоматично (DHCP)"
 
 msgid "Available frequencies and channels for your region"
-msgstr ""
+msgstr "Доступні частоти та канали для вашого регіону"
 
 msgid "Available frequencies/channels"
-msgstr ""
+msgstr "Доступні частоти/канали"
 
 msgid "Available interfaces: {}"
-msgstr ""
+msgstr "Доступні інтерфейси: {}"
 
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 msgid "Basic"
-msgstr ""
+msgstr "Базовий"
 
 msgid "Basic info error: {}"
-msgstr ""
+msgstr "Помилка основної інформації: {}"
 
 msgid "Basic view enabled - rescan to see basic info"
-msgstr ""
+msgstr "Базовий режим перегляду ввімкнено – повторіть сканування, щоб переглянути основну інформацію"
 
 msgid "Bit Rate: {rate}"
-msgstr ""
+msgstr "Бітрейт: {rate}"
 
 msgid "Bit Rates:"
-msgstr ""
+msgstr "Бітрейт:"
 
 msgid "Bitrate"
-msgstr ""
+msgstr "Бітрейт"
 
 msgid "Bitrate Info"
-msgstr ""
+msgstr "Інформація про бітрейт"
 
 msgid "Bitrate info displayed."
-msgstr ""
+msgstr "Відображається інформація про бітрейт."
 
 msgid "Bitrate information not available\\\\\\\\n"
-msgstr ""
+msgstr "Інформація про бітрейт недоступна\\\\\\\\\\\\\\\\n"
 
 msgid "CONNECTED to: {} - Press OK for options"
-msgstr ""
+msgstr "ПІДКЛЮЧЕНО до: {} - Натисніть OK, щоб переглянути параметри"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Скасувати"
 
 msgid "Cancelling test..."
-msgstr ""
+msgstr "Скасування тестування..."
 
 msgid "Cell"
-msgstr ""
+msgstr "Стільниковий"
 
 msgid "Channel"
-msgstr ""
+msgstr "Канал"
 
 msgid "Channel Info"
-msgstr ""
+msgstr "Інформація про канал"
 
 msgid "Channel info displayed."
-msgstr ""
+msgstr "Відображається інформація про канал."
 
 msgid "Channel {}"
-msgstr ""
+msgstr "Канал {}"
 
 msgid "Channel: %s\\\\\\\\n"
-msgstr ""
+msgstr "Канал: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Check System Logs"
-msgstr ""
+msgstr "Перевірте системні журнали"
 
 msgid "Check system logs for WiFi errors"
-msgstr ""
+msgstr "Перевірте системні журнали на наявність помилок WiFi"
 
 msgid "Check system logs for WiFi errors and connection issues"
-msgstr ""
+msgstr "Перевірте системні журнали на наявність помилок WiFi і проблем з підключенням"
 
 msgid "Checking internet connection..."
-msgstr ""
+msgstr "Перевірка підключення до Інтернету..."
 
 msgid "Checking system logs..."
-msgstr ""
+msgstr "Перевірка системних журналів..."
 
 msgid "Clear"
-msgstr ""
+msgstr "ясно"
 
 msgid "Client info completed"
-msgstr ""
+msgstr "Інформація про клієнта завершена"
 
 msgid "Client info error: {error}"
-msgstr ""
+msgstr "Помилка інформації про клієнта: {error}"
 
 msgid "Close"
-msgstr ""
+msgstr "Закрити"
 
 msgid "Cloudflare"
 msgstr ""
 
 msgid "Complete iwconfig-like information"
-msgstr ""
+msgstr "Повна інформація, подібна до iwconfig"
 
 msgid "Config"
-msgstr ""
+msgstr "Конфігурація"
 
 msgid "Configure {}"
-msgstr ""
+msgstr "Налаштувати {}"
 
 msgid "Connect"
-msgstr ""
+msgstr "Підключитися"
 
 msgid "Connect to WiFi networks"
-msgstr ""
+msgstr "Підключіться до мереж WiFi"
 
 msgid "Connected but no timing data"
-msgstr ""
+msgstr "Підключено, але немає даних про час"
 
 msgid "Connected successfully!"
-msgstr ""
+msgstr "Підключено успішно!"
 
 msgid "Connected to %s"
-msgstr ""
+msgstr "Підключено до %s"
 
 msgid "Connected to: %s"
-msgstr ""
+msgstr "Підключено до: %s"
 
 msgid "Connected: {} | Signal: {} dBm | IP: {}"
-msgstr ""
+msgstr "Підключено: {} | Сигнал: {} дБм | IP: {}"
 
 msgid "Connecting to %s..."
-msgstr ""
+msgstr "Підключення до %s..."
 
 msgid "Connection Info"
-msgstr ""
+msgstr "Інформація про підключення"
 
 msgid "Connection failed!"
-msgstr ""
+msgstr "Помилка підключення!"
 
 msgid "Connection timeout"
-msgstr ""
+msgstr "Час очікування підключення"
 
 msgid "Country Code"
-msgstr ""
+msgstr "Код країни"
 
 msgid "DHCP"
 msgstr ""
 
 msgid "DNS Server 1"
-msgstr ""
+msgstr "DNS-сервер 1"
 
 msgid "DNS Server 2"
-msgstr ""
+msgstr "DNS-сервер 2"
 
 msgid "DOWN"
-msgstr ""
+msgstr "ВНИЗ"
 
 msgid "Data Rate"
-msgstr ""
+msgstr "Швидкість передачі даних"
 
 msgid "Defaults"
-msgstr ""
+msgstr "За замовчуванням"
 
 msgid "Detailed Info - {}"
-msgstr ""
+msgstr "Детальна інформація - {}"
 
 msgid "Detailed network scanning"
-msgstr ""
+msgstr "Детальне сканування мережі"
 
 msgid "Detailed network scanning with signal strength and encryption info"
-msgstr ""
+msgstr "Детальне сканування мережі з інформацією про силу сигналу та шифрування"
 
 msgid "Detailed speed test failed - Check internet connection"
-msgstr ""
+msgstr "Детальний тест швидкості не пройшов – перевірте підключення до Інтернету"
 
 msgid "Detailed test completed"
-msgstr ""
+msgstr "Детальний тест завершено"
 
 msgid "Detailed test error: {error}"
-msgstr ""
+msgstr "Помилка детального тесту: {error}"
 
 msgid "Detailed view enabled - rescan to see details"
-msgstr ""
+msgstr "Детальний перегляд увімкнено – повторіть сканування, щоб побачити деталі"
 
 msgid "Details"
-msgstr ""
+msgstr "Подробиці"
 
 msgid "Details Info"
-msgstr ""
+msgstr "Детальна інформація"
 
 msgid "Diagnostic error: {}\\\\\\\\n"
-msgstr ""
+msgstr "Діагностична помилка: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Diagnostics"
-msgstr ""
+msgstr "діагностика"
 
 msgid "Disconnect"
-msgstr ""
+msgstr "Відключити"
 
 msgid "Disconnected"
-msgstr ""
+msgstr "Відключено"
 
 msgid "Disconnecting..."
-msgstr ""
+msgstr "Відключення..."
 
 msgid "Download Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "Швидкість завантаження: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Download Speed: {download}\\\\\\\\n"
-msgstr ""
+msgstr "Швидкість завантаження: {download}\\\\\\\\\\\\\\\\n"
 
 msgid "Download test completed"
-msgstr ""
+msgstr "Тест завантаження завершено"
 
 msgid "Download: Failed\\\\\\\\n"
-msgstr ""
+msgstr "Завантаження: не вдалося\\\\\\\\\\\\\\\\n"
 
 msgid "Download: {:.2f} Mbps\\\\\\\\n"
-msgstr ""
+msgstr "Завантажити: {:.2f} Мбіт/с\\\\\\\\\\\\\\\\n"
 
 msgid "Driver check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Не вдалося перевірити драйвер: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "Driver info error: {}"
-msgstr ""
+msgstr "Помилка інформації про водія: {}"
 
 msgid "Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "Драйвер: невідомий\\\\\\\\\\\\\\\\n"
 
 msgid "Driver: {driver}\\\\\\\\n"
-msgstr ""
+msgstr "Драйвер: {driver}\\\\\\\\\\\\\\\\n"
 
 msgid "ESSID: %s\\\\\\\\n"
 msgstr ""
@@ -380,214 +380,214 @@ msgid "ESSID: {}"
 msgstr ""
 
 msgid "Edit Configuration"
-msgstr ""
+msgstr "Редагувати конфігурацію"
 
 msgid "Edit Password"
-msgstr ""
+msgstr "Змінити пароль"
 
 msgid "Encryption"
-msgstr ""
+msgstr "Шифрування"
 
 msgid "Encryption Info"
-msgstr ""
+msgstr "Інформація про шифрування"
 
 msgid "Encryption info displayed."
-msgstr ""
+msgstr "Відображається інформація про шифрування."
 
 msgid "Encryption information not available\\\\\\\\n"
-msgstr ""
+msgstr "Інформація про шифрування недоступна\\\\\\\\\\\\\\\\n"
 
 msgid "Encryption keys and security"
-msgstr ""
+msgstr "Ключі шифрування та безпека"
 
 msgid "Encryption keys and security protocols"
-msgstr ""
+msgstr "Ключі шифрування та протоколи безпеки"
 
 msgid "Encryption: %s\\\\\\\\n"
-msgstr ""
+msgstr "Шифрування: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Enter Password"
-msgstr ""
+msgstr "Введіть пароль"
 
 msgid "Enter password for: %s"
-msgstr ""
+msgstr "Введіть пароль для: %s"
 
 msgid "Error"
-msgstr ""
+msgstr "Помилка"
 
 msgid "Error applying advanced settings: {}"
-msgstr ""
+msgstr "Помилка застосування додаткових налаштувань: {}"
 
 msgid "Error applying settings: {}"
-msgstr ""
+msgstr "Помилка застосування налаштувань: {}"
 
 msgid "Error disconnecting"
-msgstr ""
+msgstr "Помилка відключення"
 
 msgid "Error getting AP information: {}"
-msgstr ""
+msgstr "Помилка отримання інформації про AP: {}"
 
 msgid "Error getting bitrate information: {}"
-msgstr ""
+msgstr "Помилка отримання інформації про бітрейт: {}"
 
 msgid "Error getting channel information: {}"
-msgstr ""
+msgstr "Помилка отримання інформації про канал: {}"
 
 msgid "Error getting connection details: {error}"
-msgstr ""
+msgstr "Помилка отримання деталей підключення: {error}"
 
 msgid "Error getting encryption information: {}"
-msgstr ""
+msgstr "Помилка отримання інформації про шифрування: {}"
 
 msgid "Error getting power information: {}"
-msgstr ""
+msgstr "Помилка отримання інформації про живлення: {}"
 
 msgid "Error getting retry information: {}"
-msgstr ""
+msgstr "Помилка отримання інформації про повторну спробу: {}"
 
 msgid "Error loading help"
-msgstr ""
+msgstr "Помилка завантаження довідки"
 
 msgid "Error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Помилка на {interface}: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "Error opening {module}: {error}"
-msgstr ""
+msgstr "Помилка відкриття {module}: {error}"
 
 msgid "Error running {tool}: {error}"
-msgstr ""
+msgstr "Помилка запуску {tool}: {error}"
 
 msgid "Error: {error}"
-msgstr ""
+msgstr "Помилка: {error}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Помилка: {}"
 
 msgid "Estimating upload speed..."
-msgstr ""
+msgstr "Оцінка швидкості завантаження..."
 
 msgid "Excellent"
-msgstr ""
+msgstr "Чудово"
 
 msgid "Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "Чудова швидкість завантаження\\\\\\\\\\\\\\\\n"
 
 msgid "Executing tool..."
-msgstr ""
+msgstr "Інструмент виконання..."
 
 msgid "Exit"
-msgstr ""
+msgstr "Вихід"
 
 msgid "Failed"
-msgstr ""
+msgstr "Не вдалося"
 
 msgid "Failed to connect to %s"
-msgstr ""
+msgstr "Не вдалося підключитися до %s"
 
 msgid "Failed: {} commands"
-msgstr ""
+msgstr "Помилка: {} команд"
 
 msgid "Fair"
-msgstr ""
+msgstr "ярмарок"
 
 msgid "Final connectivity check..."
-msgstr ""
+msgstr "Остаточна перевірка підключення..."
 
 msgid "Finding best server..."
-msgstr ""
+msgstr "Пошук найкращого сервера..."
 
 msgid "Fixed lifetime ;  min lifetime:{lifetime}"
-msgstr ""
+msgstr "Фіксований термін служби; мінімальний термін служби:{lifetime}"
 
 msgid "Fixed limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "Фіксований ліміт ; мінімальний ліміт:{limit}"
 
 msgid "For troubleshooting, detailed guidance, or community support, visit:\\\\\\\\n"
-msgstr ""
+msgstr "Для усунення несправностей, детальних інструкцій або підтримки спільноти відвідайте:\\\\\\\\\\\\\\\\n"
 
 msgid "Forget Network"
-msgstr ""
+msgstr "Забудьте про мережу"
 
 msgid "Forgotten network: {}"
-msgstr ""
+msgstr "Забута мережа: {}"
 
 msgid "Found {} networks:\\\\\\\\n"
-msgstr ""
+msgstr "Знайдено {} мереж:\\\\\\\\\\\\\\\\n"
 
 msgid "Found: {}\\\\\\\\n"
-msgstr ""
+msgstr "Знайдено: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Fragmentation"
-msgstr ""
+msgstr "Фрагментація"
 
 msgid "Frequency"
-msgstr ""
+msgstr "Частота"
 
 msgid "Frequency information not available\\\\\\\\n"
-msgstr ""
+msgstr "Інформація про частоту недоступна\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency/Channel"
-msgstr ""
+msgstr "Частота/Канал"
 
 msgid "Frequency:"
-msgstr ""
+msgstr "Частота:"
 
 msgid "Frequency: %s\\\\\\\\n"
-msgstr ""
+msgstr "Частота: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency: {frequency}"
-msgstr ""
+msgstr "Частота: {frequency}"
 
 msgid "Full Comprehensive Test"
-msgstr ""
+msgstr "Повний комплексний тест"
 
 msgid "Full Test"
-msgstr ""
+msgstr "Повний тест"
 
 msgid "Full test completed"
-msgstr ""
+msgstr "Повний тест завершено"
 
 msgid "Full test error: {error}"
-msgstr ""
+msgstr "Помилка повного тесту: {error}"
 
 msgid "Gateway"
-msgstr ""
+msgstr "Шлюз"
 
 msgid "Gateway: {gateway}"
-msgstr ""
+msgstr "Шлюз: {gateway}"
 
 msgid "Gathering client information..."
-msgstr ""
+msgstr "Збір інформації про клієнта..."
 
 msgid "Gathering network details..."
-msgstr ""
+msgstr "Збір даних про мережу..."
 
 msgid "Getting access point information..."
-msgstr ""
+msgstr "Отримання інформації про точку доступу..."
 
 msgid "Getting bitrate information..."
-msgstr ""
+msgstr "Отримання інформації про бітрейт..."
 
 msgid "Getting channel information..."
-msgstr ""
+msgstr "Отримання інформації про канал..."
 
 msgid "Getting client information..."
-msgstr ""
+msgstr "Отримання інформації про клієнта..."
 
 msgid "Getting encryption information..."
-msgstr ""
+msgstr "Отримання інформації про шифрування..."
 
 msgid "Getting power management information..."
-msgstr ""
+msgstr "Отримання інформації про керування живленням..."
 
 msgid "Getting retry information..."
-msgstr ""
+msgstr "Отримання інформації про повторну спробу..."
 
 msgid "Good"
-msgstr ""
+msgstr "добре"
 
 msgid "Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "Хороша швидкість завантаження\\\\\\\\\\\\\\\\n"
 
 msgid "Google"
 msgstr ""
@@ -596,34 +596,34 @@ msgid "Google DNS"
 msgstr ""
 
 msgid "Help"
-msgstr ""
+msgstr "Довідка"
 
 msgid "Hidden"
-msgstr ""
+msgstr "Прихований"
 
 msgid "Hidden Network"
-msgstr ""
+msgstr "Прихована мережа"
 
 msgid "Host not found"
-msgstr ""
+msgstr "Хост не знайдено"
 
 msgid "Hostname: {hostname}"
-msgstr ""
+msgstr "Ім'я хосту: {hostname}"
 
 msgid "INACTIVE"
-msgstr ""
+msgstr "НЕАКТИВНИЙ"
 
 msgid "IP Address"
-msgstr ""
+msgstr "IP-адреса"
 
 msgid "IP Address: {ip}"
-msgstr ""
+msgstr "IP-адреса: {ip}"
 
 msgid "IP Configuration"
-msgstr ""
+msgstr "Конфігурація IP"
 
 msgid "IP: N/A"
-msgstr ""
+msgstr "IP: Н/Д"
 
 msgid "IP: {ip}\\\\\\\\n"
 msgstr ""
@@ -635,1180 +635,1180 @@ msgid "ISP: {isp}"
 msgstr ""
 
 msgid "ISP: {isp}\\\\\\\\n"
-msgstr ""
+msgstr "Інтернет-провайдер: {isp}\\\\\\\\\\\\\\\\n"
 
 msgid "Info"
-msgstr ""
+msgstr "Інформація"
 
 msgid "Initializing WiFi..."
 msgstr ""
 
 msgid "Initializing detailed speed test..."
-msgstr ""
+msgstr "Ініціалізація детального тесту швидкості..."
 
 msgid "Interface"
-msgstr ""
+msgstr "Інтерфейс"
 
 msgid "Interface found: {}"
-msgstr ""
+msgstr "Знайдено інтерфейс: {}"
 
 msgid "Interface restarted successfully"
-msgstr ""
+msgstr "Інтерфейс успішно перезавантажено"
 
 msgid "Interface restarted."
-msgstr ""
+msgstr "Інтерфейс перезавантажено."
 
 msgid "Interface {} not available"
-msgstr ""
+msgstr "Інтерфейс {} недоступний"
 
 msgid "Interface: {}"
-msgstr ""
+msgstr "Інтерфейс: {}"
 
 msgid "Invalid misc:%s"
-msgstr ""
+msgstr "Недійсне інше:%s"
 
 msgid "Kernel Messages (dmesg):\\\\\\\\n"
-msgstr ""
+msgstr "Повідомлення ядра (dmesg):\\\\\\\\\\\\\\\\n"
 
 msgid "Latency test completed"
-msgstr ""
+msgstr "Тест затримки завершено"
 
 msgid "Latency: %s\\\\\\\\n"
-msgstr ""
+msgstr "Затримка: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Link Quality: {quality}"
-msgstr ""
+msgstr "Якість посилання: {quality}"
 
 msgid "Link Quality:%s/100"
-msgstr ""
+msgstr "Якість посилання: %s/100"
 
 msgid "List of access points and connected peer stations"
-msgstr ""
+msgstr "Список точок доступу та підключених однорангових станцій"
 
 msgid "List of access points/peers"
-msgstr ""
+msgstr "Список точок доступу/пірів"
 
 msgid "Location: {city}, {country}"
-msgstr ""
+msgstr "Розташування: {city}, {country}"
 
 msgid "Location: {city}, {country}\\\\\\\\n"
-msgstr ""
+msgstr "Розташування: {city}, {country}\\\\\\\\\\\\\\\\n"
 
 msgid "Logs checked."
-msgstr ""
+msgstr "Журнали перевірено."
 
 msgid "MAC Address: {mac}"
-msgstr ""
+msgstr "MAC-адреса: {mac}"
 
 msgid "MAC Address: {mac}\\\\\\\\n"
-msgstr ""
+msgstr "MAC-адреса: {mac}\\\\\\\\\\\\\\\\n"
 
 msgid "MAC: %s\\\\\\\\n"
 msgstr ""
 
 msgid "MAC: N/A"
-msgstr ""
+msgstr "MAC: Н/Д"
 
 msgid "MAC: {}"
 msgstr ""
 
 msgid "Managed (Client)"
-msgstr ""
+msgstr "Керований (клієнт)"
 
 msgid "Manual (Static IP)"
-msgstr ""
+msgstr "Вручну (Статичний IP)"
 
 msgid "Master (AP)"
-msgstr ""
+msgstr "Майстер (AP)"
 
 msgid "Missed beacon:%s"
-msgstr ""
+msgstr "Пропущений маяк: %s"
 
 msgid "Mode:"
-msgstr ""
+msgstr "режим:"
 
 msgid "Mode: {mode}"
-msgstr ""
+msgstr "Режим: {mode}"
 
 msgid "Modules reloaded."
-msgstr ""
+msgstr "Модулі перезавантажено."
 
 msgid "Monitor"
-msgstr ""
+msgstr "Монітор"
 
 msgid "Monitoring error: {}"
-msgstr ""
+msgstr "Помилка моніторингу: {}"
 
 msgid "N/A"
 msgstr ""
 
 msgid "Name: {name}\\\\\\\\n"
-msgstr ""
+msgstr "Ім'я: {name}\\\\\\\\\\\\\\\\n"
 
 msgid "Netmask"
-msgstr ""
+msgstr "Маска мережі"
 
 msgid "Network %d:\\\\\\\\n"
-msgstr ""
+msgstr "Мережа %d:\\\\\\\\\\\\\\\\n"
 
 msgid "Network Interface: {interface}"
-msgstr ""
+msgstr "Мережевий інтерфейс: {interface}"
 
 msgid "Network Name (SSID)"
-msgstr ""
+msgstr "Назва мережі (SSID)"
 
 msgid "Network forgotten!"
-msgstr ""
+msgstr "Мережа забута!"
 
 msgid "Network info error: {error}"
-msgstr ""
+msgstr "Помилка інформації про мережу: {error}"
 
 msgid "Network information unavailable"
-msgstr ""
+msgstr "Інформація про мережу недоступна"
 
 msgid "Network unreachable"
-msgstr ""
+msgstr "Мережа недоступна"
 
 msgid "Network: %s"
-msgstr ""
+msgstr "Мережа: %s"
 
 msgid "Network: {essid}"
-msgstr ""
+msgstr "Мережа: {essid}"
 
 msgid "No"
-msgstr ""
+msgstr "немає"
 
 msgid "No IP"
-msgstr ""
+msgstr "Немає IP"
 
 msgid "No WiFi connection data available"
-msgstr ""
+msgstr "Немає даних про з’єднання WiFi"
 
 msgid "No WiFi interface available"
-msgstr ""
+msgstr "Немає інтерфейсу WiFi"
 
 msgid "No WiFi interface detected. Please check your hardware."
-msgstr ""
+msgstr "Інтерфейс WiFi не виявлено. Будь ласка, перевірте своє обладнання."
 
 msgid "No WiFi interface found"
-msgstr ""
+msgstr "Інтерфейс WiFi не знайдено"
 
 msgid "No WiFi interfaces found"
-msgstr ""
+msgstr "Інтерфейси WiFi не знайдено"
 
 msgid "No WiFi interfaces found\\\\\\\\n"
-msgstr ""
+msgstr "Інтерфейси WiFi не знайдено\\\\\\\\\\\\\\\\n"
 
 msgid "No WiFi messages in system logs"
-msgstr ""
+msgstr "У системних журналах немає повідомлень WiFi"
 
 msgid "No connection details available"
-msgstr ""
+msgstr "Немає відомостей про підключення"
 
 msgid "No data"
-msgstr ""
+msgstr "Немає даних"
 
 msgid "No help available for this tool."
-msgstr ""
+msgstr "Немає довідки для цього інструменту."
 
 msgid "No interface"
-msgstr ""
+msgstr "Немає інтерфейсу"
 
 msgid "No internet connection"
-msgstr ""
+msgstr "Немає підключення до Інтернету"
 
 msgid "No internet connection detected"
-msgstr ""
+msgstr "Підключення до Інтернету не виявлено"
 
 msgid "No network selected"
-msgstr ""
+msgstr "Мережа не вибрана"
 
 msgid "No networks found"
-msgstr ""
+msgstr "Мережі не знайдено"
 
 msgid "No networks found - Press BLUE to rescan"
-msgstr ""
+msgstr "Мережі не знайдено – натисніть СИНІЙ, щоб повторно сканувати"
 
 msgid "No networks found on {}\\\\\\\\n"
-msgstr ""
+msgstr "Немає мереж на {}\\\\\\\\\\\\\\\\n"
 
 msgid "No networks found or scan not supported\\\\\\\\n"
-msgstr ""
+msgstr "Мережі не знайдено або сканування не підтримується\\\\\\\\\\\\\\\\n"
 
 msgid "No networks found with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "Не знайдено мереж за допомогою iwlist\\\\\\\\\\\\\\\\n"
 
 msgid "No packets sent"
-msgstr ""
+msgstr "Пакетів не надіслано"
 
 msgid "No ping data"
-msgstr ""
+msgstr "Немає даних ping"
 
 msgid "No results with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "Немає результатів із iwlist\\\\\\\\\\\\\\\\n"
 
 msgid "No station/peer information available\\\\\\\\n"
-msgstr ""
+msgstr "Немає інформації про станцію/рівень\\\\\\\\\\\\\\\\n"
 
 msgid "Noise level:%sdBm"
-msgstr ""
+msgstr "Рівень шуму: %sdBm"
 
 msgid "None"
-msgstr ""
+msgstr "Жодного"
 
 msgid "None found"
-msgstr ""
+msgstr "Не знайдено"
 
 msgid "Not connected"
-msgstr ""
+msgstr "Не підключено"
 
 msgid "Not connected to any network"
-msgstr ""
+msgstr "Не підключено до жодної мережі"
 
 msgid "Not-Associated"
-msgstr ""
+msgstr "Не пов'язаний"
 
 msgid "Open"
-msgstr ""
+msgstr "ВІДЧИНЕНО"
 
 msgid "OpenDNS"
 msgstr ""
 
 msgid "Operation Mode"
-msgstr ""
+msgstr "Режим роботи"
 
 msgid "Operation completed."
-msgstr ""
+msgstr "Операція завершена."
 
 msgid "Output: {output}..."
-msgstr ""
+msgstr "Вихід: {output}..."
 
 msgid "Packet retry limits and frame lifetime settings"
-msgstr ""
+msgstr "Обмеження повторних спроб пакетів і параметри тривалості кадру"
 
 msgid "Packets: {sent}, Lost: {lost} ({percentage:.1f}%) - {stability}"
-msgstr ""
+msgstr "Пакети: {sent}, втрачено: {lost} ({percentage:.1f}%) - {stability}"
 
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 msgid "Pause"
-msgstr ""
+msgstr "Пауза"
 
 msgid "Performing initial scan..."
-msgstr ""
+msgstr "Виконання початкового сканування..."
 
 msgid "Ping error for {host}: {error}"
-msgstr ""
+msgstr "Помилка ping для {host}: {error}"
 
 msgid "Ping failed"
-msgstr ""
+msgstr "Помилка ping"
 
 msgid "Ping failed for {host} (returncode: {code})"
-msgstr ""
+msgstr "Помилка ping для {host} (код повернення: {code})"
 
 msgid "Ping not available"
-msgstr ""
+msgstr "Пінг недоступний"
 
 msgid "Ping test completed: {avg:.1f} ms average ({success}/{total} successful)"
-msgstr ""
+msgstr "Тест ping завершено: {avg:.1f} мс в середньому ({success}/{total} успішно)"
 
 msgid "Ping test error: {error}"
-msgstr ""
+msgstr "Помилка тесту ping: {error}"
 
 msgid "Ping timeout for {host}"
-msgstr ""
+msgstr "Час очікування ping для {host}"
 
 msgid "Ping {host} (fallback): {time} ms"
-msgstr ""
+msgstr "Пінг {host} (резервний): {time} мс"
 
 msgid "Ping {host}: {time} ms"
-msgstr ""
+msgstr "Пінг {host}: {time} мс"
 
 msgid "Ping/Latency: {ping}\\\\\\\\n"
-msgstr ""
+msgstr "Пінг/затримка: {ping}\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: Failed\\\\\\\\n"
-msgstr ""
+msgstr "Ping: не вдалося\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: {:.1f} ms\\\\\\\\n"
-msgstr ""
+msgstr "Пінг: {:.1f} мс\\\\\\\\\\\\\\\\n"
 
 msgid "Please enter a network name"
-msgstr ""
+msgstr "Введіть назву мережі"
 
 msgid "Please enter a password"
-msgstr ""
+msgstr "Будь ласка, введіть пароль"
 
 msgid "Poor"
-msgstr ""
+msgstr "Бідний"
 
 msgid "Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "Низька швидкість завантаження\\\\\\\\\\\\\\\\n"
 
 msgid "Power Management"
-msgstr ""
+msgstr "Управління живленням"
 
 msgid "Power management info displayed."
-msgstr ""
+msgstr "Відображається інформація про керування живленням."
 
 msgid "Power management information not available\\\\\\\\n"
-msgstr ""
+msgstr "Інформація про керування живленням недоступна\\\\\\\\\\\\\\\\n"
 
 msgid "Power management settings"
-msgstr ""
+msgstr "Налаштування керування живленням"
 
 msgid "Power management settings and power saving modes"
-msgstr ""
+msgstr "Налаштування керування живленням і режими енергозбереження"
 
 msgid "Primary DNS"
-msgstr ""
+msgstr "Первинний DNS"
 
 msgid "Public IP: Unable to determine"
-msgstr ""
+msgstr "Загальнодоступна IP-адреса: неможливо визначити"
 
 msgid "Public IP: {ip}"
-msgstr ""
+msgstr "Публічна IP: {ip}"
 
 msgid "Quality: %s\\\\\\\\n"
-msgstr ""
+msgstr "Якість: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Quality: N/A"
-msgstr ""
+msgstr "Якість: Н/Д"
 
 msgid "Quality: {}%"
-msgstr ""
+msgstr "Якість: {}%"
 
 msgid "Quality: {}% ({})"
-msgstr ""
+msgstr "Якість: {}% ({})"
 
 msgid "Quick System Check"
-msgstr ""
+msgstr "Швидка перевірка системи"
 
 msgid "Quick Test"
-msgstr ""
+msgstr "Швидкий тест"
 
 msgid "Quick test completed"
-msgstr ""
+msgstr "Швидкий тест завершено"
 
 msgid "Quick test error: {error}"
-msgstr ""
+msgstr "Помилка швидкого тесту: {error}"
 
 msgid "RTS Threshold"
-msgstr ""
+msgstr "Поріг RTS"
 
 msgid "Real-time signal quality monitor"
-msgstr ""
+msgstr "Монітор якості сигналу в реальному часі"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Оновити"
 
 msgid "Reload WiFi Modules"
-msgstr ""
+msgstr "Перезавантажте модулі WiFi"
 
 msgid "Reload kernel WiFi modules"
-msgstr ""
+msgstr "Перезавантажте модулі WiFi ядра"
 
 msgid "Reload kernel WiFi modules to fix driver issues"
-msgstr ""
+msgstr "Перезавантажте модулі WiFi ядра, щоб вирішити проблеми з драйвером"
 
 msgid "Remember password"
-msgstr ""
+msgstr "Запам'ятайте пароль"
 
 msgid "Restart WiFi Interface"
-msgstr ""
+msgstr "Перезапустіть інтерфейс WiFi"
 
 msgid "Restart WiFi interface %s?"
-msgstr ""
+msgstr "Перезапустити інтерфейс WiFi %s?"
 
 msgid "Restart wireless interface"
-msgstr ""
+msgstr "Перезапустіть бездротовий інтерфейс"
 
 msgid "Restart wireless interface to reset connectivity"
-msgstr ""
+msgstr "Перезапустіть бездротовий інтерфейс, щоб скинути підключення"
 
 msgid "Restarting interface..."
-msgstr ""
+msgstr "Перезапуск інтерфейсу..."
 
 msgid "Retry Limits"
-msgstr ""
+msgstr "Обмеження повторних спроб"
 
 msgid "Retry limit information not available\\\\\\\\n"
-msgstr ""
+msgstr "Інформація про ліміт повторної спроби недоступна\\\\\\\\\\\\\\\\n"
 
 msgid "Retry limits and lifetime"
-msgstr ""
+msgstr "Повторні обмеження та термін служби"
 
 msgid "Retry limits info displayed."
-msgstr ""
+msgstr "Відображається інформація про обмеження повторної спроби."
 
 msgid "Running detailed speed test..."
-msgstr ""
+msgstr "Виконується детальний тест швидкості..."
 
 msgid "Running full speed test..."
-msgstr ""
+msgstr "Виконується тест на повній швидкості..."
 
 msgid "Running quick speed test..."
-msgstr ""
+msgstr "Виконується швидкий тест швидкості..."
 
 msgid "Rx invalid crypt:%s"
-msgstr ""
+msgstr "Rx недійсний crypt:%s"
 
 msgid "Rx invalid frag:%s"
-msgstr ""
+msgstr "Rx недійсний фрагмент:%s"
 
 msgid "Rx invalid nwid:%s"
-msgstr ""
+msgstr "Rx недійсний nwid:%s"
 
 msgid "Save & Connect"
-msgstr ""
+msgstr "Зберегти та підключитися"
 
 msgid "Scan"
-msgstr ""
+msgstr "Сканувати"
 
 msgid "Scan completed."
-msgstr ""
+msgstr "Сканування завершено."
 
 msgid "Scan error {}"
-msgstr ""
+msgstr "Помилка сканування {}"
 
 msgid "Scan error:"
-msgstr ""
+msgstr "Помилка сканування:"
 
 msgid "Scan error: {}"
-msgstr ""
+msgstr "Помилка сканування: {}"
 
 msgid "Scan error: {}\\\\\\\\n"
-msgstr ""
+msgstr "Помилка сканування: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Scan failed"
-msgstr ""
+msgstr "Помилка сканування"
 
 msgid "Scan for available networks"
-msgstr ""
+msgstr "Пошук доступних мереж"
 
 msgid "Scanner"
-msgstr ""
+msgstr "Сканер"
 
 msgid "Scanning for WiFi networks..."
-msgstr ""
+msgstr "Пошук мереж WiFi..."
 
 msgid "Scanning for networks..."
-msgstr ""
+msgstr "Пошук мереж..."
 
 msgid "Scanning..."
-msgstr ""
+msgstr "Сканування..."
 
 msgid "Secondary DNS"
-msgstr ""
+msgstr "Вторинний DNS"
 
 msgid "Secured"
-msgstr ""
+msgstr "Забезпечено"
 
 msgid "Select"
-msgstr ""
+msgstr "Виберіть"
 
 msgid "Select a speed test type"
-msgstr ""
+msgstr "Виберіть тип перевірки швидкості"
 
 msgid "Select a tool from the menu to get detailed information about WiFi configuration and status."
-msgstr ""
+msgstr "Виберіть інструмент у меню, щоб отримати детальну інформацію про конфігурацію та статус WiFi."
 
 msgid "Select a tool to see description"
-msgstr ""
+msgstr "Виберіть інструмент, щоб переглянути опис"
 
 msgid "Select a tool to view detailed information"
-msgstr ""
+msgstr "Виберіть інструмент, щоб переглянути детальну інформацію"
 
 msgid "Select an option"
-msgstr ""
+msgstr "Виберіть опцію"
 
 msgid "Server found"
-msgstr ""
+msgstr "Сервер знайдено"
 
 msgid "Server info error: {error}"
-msgstr ""
+msgstr "Помилка інформації про сервер: {error}"
 
 msgid "Settings applied successfully"
-msgstr ""
+msgstr "Налаштування успішно застосовано"
 
 msgid "Signal Level: {signal} dBm"
-msgstr ""
+msgstr "Рівень сигналу: {signal} дБм"
 
 msgid "Signal level:%sdBm"
-msgstr ""
+msgstr "Рівень сигналу: %sdBm"
 
 msgid "Signal: %s\\\\\\\\n"
-msgstr ""
+msgstr "Сигнал: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Signal: N/A"
-msgstr ""
+msgstr "Сигнал: Н/Д"
 
 msgid "Signal: {} dBm"
-msgstr ""
+msgstr "Сигнал: {} дБм"
 
 msgid "Speedtest"
 msgstr ""
 
 msgid "Speedtest failed - No internet connection or all tests failed"
-msgstr ""
+msgstr "Перевірка швидкості не виконана – немає з’єднання з Інтернетом або всі перевірки не пройшли"
 
 msgid "Speedtest failed: {}"
-msgstr ""
+msgstr "Помилка перевірки швидкості: {}"
 
 msgid "SpeedtestSimple not available"
-msgstr ""
+msgstr "SpeedtestSimple недоступний"
 
 msgid "Sponsor: {sponsor}\\\\\\\\n"
-msgstr ""
+msgstr "Спонсор: {sponsor}\\\\\\\\\\\\\\\\n"
 
 msgid "Stability test error: {error}"
-msgstr ""
+msgstr "Помилка тесту стабільності: {error}"
 
 msgid "Stable"
-msgstr ""
+msgstr "Стабільний"
 
 msgid "Start"
-msgstr ""
+msgstr "старт"
 
 msgid "Static"
-msgstr ""
+msgstr "Статичний"
 
 msgid "Statistics error: {}"
-msgstr ""
+msgstr "Помилка статистики: {}"
 
 msgid "Status check failed: {}"
-msgstr ""
+msgstr "Помилка перевірки статусу: {}"
 
 msgid "Stop"
-msgstr ""
+msgstr "СТІЙ"
 
 msgid "Supported bit rates"
-msgstr ""
+msgstr "Підтримувані бітрейти"
 
 msgid "Supported bitrates and current transmission rates"
-msgstr ""
+msgstr "Підтримувані бітрейти та поточні швидкості передачі"
 
 msgid "System Logs"
-msgstr ""
+msgstr "Системні журнали"
 
 msgid "System Logs:\\\\\\\\n"
-msgstr ""
+msgstr "Системні журнали:\\\\\\\\\\\\\\\\n"
 
 msgid "TX Power"
-msgstr ""
+msgstr "Потужність передачі"
 
 msgid "Tertiary DNS"
-msgstr ""
+msgstr "Третинний DNS"
 
 msgid "Test cancelled"
-msgstr ""
+msgstr "Тест скасовано"
 
 msgid "Test completed - See results below"
-msgstr ""
+msgstr "Тест завершено – результати дивіться нижче"
 
 msgid "Test completed!"
-msgstr ""
+msgstr "Тест завершено!"
 
 msgid "Test failed"
-msgstr ""
+msgstr "Тест не вдалося"
 
 msgid "Testing connection stability..."
-msgstr ""
+msgstr "Тестування стабільності з'єднання..."
 
 msgid "Testing connectivity..."
-msgstr ""
+msgstr "Перевірка підключення..."
 
 msgid "Testing download speed (multiple servers)..."
-msgstr ""
+msgstr "Перевірка швидкості завантаження (кілька серверів)..."
 
 msgid "Testing download speed..."
-msgstr ""
+msgstr "Перевірка швидкості завантаження..."
 
 msgid "Testing latency to multiple hosts..."
-msgstr ""
+msgstr "Тестування затримки для кількох хостів..."
 
 msgid "Testing latency..."
-msgstr ""
+msgstr "Тестування затримки..."
 
 msgid "Testing upload speed..."
-msgstr ""
+msgstr "Перевірка швидкості завантаження..."
 
 msgid "These forums are great places to get help,\\\\\\\\n"
-msgstr ""
+msgstr "Ці форуми є чудовим місцем для отримання допомоги,\\\\\\\\\\\\\\\\n"
 
 msgid "Timeout"
-msgstr ""
+msgstr "Час очікування"
 
 msgid "Tool not available"
-msgstr ""
+msgstr "Інструмент недоступний"
 
 msgid "Tool not implemented: {}"
-msgstr ""
+msgstr "Інструмент не реалізовано: {}"
 
 msgid "Tools"
-msgstr ""
+msgstr "Інструменти"
 
 msgid "Tx excessive retries:%s"
-msgstr ""
+msgstr "Надсилання надмірної кількості повторів: %s"
 
 msgid "UP and active"
-msgstr ""
+msgstr "UP і активний"
 
 msgid "Unable to assess download quality\\\\\\\\n"
-msgstr ""
+msgstr "Неможливо оцінити якість завантаження\\\\\\\\\\\\\\\\n"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Невідомий"
 
 msgid "Unstable"
-msgstr ""
+msgstr "Нестабільний"
 
 msgid "Upload Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "Швидкість завантаження: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Upload Speed: {upload}\\\\\\\\n"
-msgstr ""
+msgstr "Швидкість завантаження: {upload}\\\\\\\\\\\\\\\\n"
 
 msgid "Upload estimation completed"
-msgstr ""
+msgstr "Оцінку завантаження завершено"
 
 msgid "Upload test failed: {error}"
-msgstr ""
+msgstr "Помилка тесту завантаження: {error}"
 
 msgid "Upload test not available"
-msgstr ""
+msgstr "Тест завантаження недоступний"
 
 msgid "Upload test: {result}"
-msgstr ""
+msgstr "Тест завантаження: {result}"
 
 msgid "Upload: Not available\\\\\\\\n"
-msgstr ""
+msgstr "Завантаження: недоступно\\\\\\\\\\\\\\\\n"
 
 msgid "Upload: {:.2f} Mbps (estimated)\\\\\\\\n"
-msgstr ""
+msgstr "Завантаження: {:.2f} Мбіт/с (приблизно)\\\\\\\\\\\\\\\\n"
 
 msgid "Very Poor"
-msgstr ""
+msgstr "Дуже погано"
 
 msgid "WEP Key Type"
-msgstr ""
+msgstr "Тип ключа WEP"
 
 msgid "WiFi Advanced Tools"
-msgstr ""
+msgstr "Розширені інструменти WiFi"
 
 msgid "WiFi Connection Manager"
-msgstr ""
+msgstr "Менеджер підключень WiFi"
 
 msgid "WiFi Diagnostics"
-msgstr ""
+msgstr "WiFi діагностика"
 
 msgid "WiFi Manager"
-msgstr ""
+msgstr "WiFi менеджер"
 
 msgid "WiFi Manager iwconfig version {}"
-msgstr ""
+msgstr "WiFi Manager iwconfig версія {}"
 
 msgid "WiFi Manager v."
 msgstr ""
 
 msgid "WiFi Password"
-msgstr ""
+msgstr "Пароль WiFi"
 
 msgid "WiFi Scanner"
-msgstr ""
+msgstr "WiFi сканер"
 
 msgid "WiFi Signal Monitor"
-msgstr ""
+msgstr "Монітор сигналу WiFi"
 
 msgid "WiFi Speed Test Manager"
-msgstr ""
+msgstr "Менеджер перевірки швидкості WiFi"
 
 msgid "WiFi diagnostics and tests"
-msgstr ""
+msgstr "Діагностика та тести WiFi"
 
 msgid "Wired"
-msgstr ""
+msgstr "Провідний"
 
 msgid "Wireless"
-msgstr ""
+msgstr "Бездротовий"
 
 msgid "Wireless info error: {}"
-msgstr ""
+msgstr "Помилка бездротової інформації: {}"
 
 msgid "Yes"
-msgstr ""
+msgstr "так"
 
 msgid "[LOCK]"
-msgstr ""
+msgstr "[ЗАМОК]"
 
 msgid "[OPEN]"
-msgstr ""
+msgstr "[ВІДЧИНЕНО]"
 
 msgid "[SAVED]"
-msgstr ""
+msgstr "[ЗБЕРЕЖЕНО]"
 
 msgid "bits"
-msgstr ""
+msgstr "біти"
 
 msgid "ethtool not found"
-msgstr ""
+msgstr "ethtool не знайдено"
 
 msgid "iwlist error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "помилка iwlist на {interface}: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist error: {}\\\\\\\\n"
-msgstr ""
+msgstr "iwlist помилка: {}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist exception on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "виняток iwlist на {interface}: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist timeout on {}\\\\\\\\n"
-msgstr ""
+msgstr "тайм-аут iwlist на {}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist: No networks found or interface busy\\\\\\\\n"
-msgstr ""
+msgstr "iwlist: мережі не знайдено або інтерфейс зайнятий\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "iwlist: мережі не знайдено\\\\\\\\\\\\\\\\n"
 
 msgid "lifetime"
-msgstr ""
+msgstr "термін служби"
 
 msgid "limit"
-msgstr ""
+msgstr "обмеження"
 
 msgid "long {type}:{value}"
-msgstr ""
+msgstr "довгий {type}:{value}"
 
 msgid "max {type}:{value}"
-msgstr ""
+msgstr "макс. {type}:{value}"
 
 msgid "min {type}:{value}"
-msgstr ""
+msgstr "хв. {type}:{value}"
 
 msgid "off"
-msgstr ""
+msgstr "вимкнено"
 
 msgid "on"
-msgstr ""
+msgstr "на"
 
 msgid "pythonwifi: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "pythonwifi: мережі не знайдено\\\\\\\\\\\\\\\\n"
 
 msgid "share experiences,and connect with other users."
-msgstr ""
+msgstr "обмінюватися досвідом і спілкуватися з іншими користувачами."
 
 msgid "short {type}:{value}"
-msgstr ""
+msgstr "короткий {type}:{value}"
 
 msgid "wait..."
-msgstr ""
+msgstr "чекай..."
 
 msgid "{:.1f} ms"
-msgstr ""
+msgstr "{:.1f} мс"
 
 msgid "{:.1f}%"
 msgstr ""
 
 msgid "{:2d}. {} {:20} | Signal: {:4} dBm ({}) | Channel: {}\\\\\\\\n"
-msgstr ""
+msgstr "{:2d}. {} {:20} | Сигнал: {:4} дБм ({}) | Канал: {}\\\\\\\\\\\\\\\\n"
 
 msgid "{connection}{saved}{icon} {essid} | {security} | {signal} dBm"
-msgstr ""
+msgstr "{connection}{saved}{icon} {essid} | {security} | {signal} дБм"
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}...\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} | Якість: {quality:3}% | Сигнал: {signal:4} дБм | {bssid}...\\\\\\\\\\\\\\\\n"
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} | Якість: {quality:3}% | Сигнал: {signal:4} дБм | {bssid}\\\\\\\\\\\\\\\\n"
 
 msgid "{icon} {interface}: {status}\\\\\\\\n"
 msgstr ""
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel:2} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Якість: {quality:3}% ({signal_quality}) | Сигнал: {signal:4} дБм | Канал: {channel:2} | Зашифровано: {encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Якість: {quality:3}% ({signal_quality}) | Сигнал: {signal:4} дБм | Канал: {channel:2} | Зашифровано: {encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Якість: {quality:3}% | Сигнал: {signal:4} дБм\\\\\\\\\\\\\\\\n"
 
 msgid "{index}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Якість: {quality:3}% | Сигнал: {signal:4} дБм\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Connected to {essid} ({quality})\\\\\\\\n"
-msgstr ""
+msgstr "{interface}: підключено до {essid} ({quality})\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Not connected\\\\\\\\n"
-msgstr ""
+msgstr "{interface}: Не підключено\\\\\\\\\\\\\\\\n"
 
 msgid "{name} ({host}): {ping}"
 msgstr ""
 
 msgid "{name} ({sponsor}): {ping}"
-msgstr ""
+msgstr "{name} ({host}): {ping}"
 
 msgid "{name}: Error {error}"
-msgstr ""
+msgstr "{name}: Помилка {error}"
 
 msgid "{name}: Failed"
-msgstr ""
+msgstr "{name}: Помилка"
 
 msgid "{name}: Timeout"
-msgstr ""
+msgstr "{name}: Час очікування"
 
 msgid "{name}: {speed:.2f} Mbps"
-msgstr ""
+msgstr "{name}: {speed:.2f} Мбіт/с"
 
 msgid "{server}: {speed:.2f} Mbps ({data:.1f} MB in {time:.1f}s)\\\\\\\\n"
-msgstr ""
+msgstr "{server}: {speed:.2f} Мбіт/с ({data:.1f} МБ в {time:.1f} с)\\\\\\\\\\\\\\\\n"
 
 msgid "{speed:.2f} Mbps"
-msgstr ""
+msgstr "{speed:.2f} Мбіт/с"
 
 msgid "{} ({:.0f}%)"
 msgstr ""
 
 msgid "{} - Open network - Press OK for options"
-msgstr ""
+msgstr "{} - Відкрита мережа - Натисніть OK для опцій"
 
 msgid "{} - Password required - Press OK for options"
-msgstr ""
+msgstr "{} - Потрібен пароль - Натисніть OK, щоб переглянути параметри"
 
 msgid "{} - Password saved - Press OK for options"
-msgstr ""
+msgstr "{} - Пароль збережено - Натисніть OK, щоб переглянути параметри"
 
 msgid "{} GHz"
-msgstr ""
+msgstr "{} ГГц"
 
 msgid "{} Mb/s"
-msgstr ""
+msgstr "{} Мбіт/с"
 
 msgid "{} Status: {}\\\\\\\\n"
-msgstr ""
+msgstr "{} Статус: {}\\\\\\\\\\\\\\\\n"
 
 msgid "{} Type: {} interface\\\\\\\\n"
-msgstr ""
+msgstr "{} Тип: {} інтерфейс\\\\\\\\\\\\\\\\n"
 
 msgid "{} dBm"
-msgstr ""
+msgstr "{} дБм"
 
 msgid "{}: Failed"
-msgstr ""
+msgstr "{}: не вдалося"
 
 msgid "{}: {:.1f} ms"
-msgstr ""
+msgstr "{}: {:.1f} мс"
 
 msgid "{}\\\\\\\\n"
 msgstr ""
 
 msgid " Keep drivers updated\\\\\\\\n"
-msgstr ""
+msgstr "Оновлюйте драйвери\\\\\\\\\\\\\\\\n"
 
 msgid " Monitor signal strength for best performance\\\\\\\\n"
-msgstr ""
+msgstr "Контролюйте силу сигналу для найкращої продуктивності\\\\\\\\\\\\\\\\n"
 
 msgid " Use 5GHz band for less interference\\\\\\\\n"
-msgstr ""
+msgstr "Використовуйте діапазон 5 ГГц для зменшення перешкод\\\\\\\\\\\\\\\\n"
 
 msgid "  No USB WiFi adapters found\\\\\\\\n"
-msgstr ""
+msgstr "USB WiFi-адаптери не знайдено\\\\\\\\\\\\\\\\n"
 
 msgid "  Interface {interface}: DOWN (needs activation)\\\\\\\\n"
-msgstr ""
+msgstr "Інтерфейс {interface}: ВНИЗ (потребує активації)\\\\\\\\\\\\\\\\n"
 
 msgid "  Missing commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "Відсутні команди: {commands}\\\\\\\\\\\\\\\\n"
 
 msgid "  No WiFi kernel modules detected\\\\\\\\n"
-msgstr ""
+msgstr "Модулі ядра WiFi не виявлено\\\\\\\\\\\\\\\\n"
 
 msgid "  Scan: Interface busy (connected to network)\\\\\\\\n"
-msgstr ""
+msgstr "Сканування: інтерфейс зайнятий (підключено до мережі)\\\\\\\\\\\\\\\\n"
 
 msgid "  {test}: No data\\\\\\\\n"
-msgstr ""
+msgstr "{test}: Немає даних\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed\\\\\\\\n"
-msgstr ""
+msgstr "Середня швидкість завантаження\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Середня затримка ({:.1f} мс)\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency\\\\\\\\n"
-msgstr ""
+msgstr "Середня затримка\\\\\\\\\\\\\\\\n"
 
 msgid " Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "Хороша швидкість завантаження\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency\\\\\\\\n"
-msgstr ""
+msgstr "Хороша затримка\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Чудова затримка ({:.1f} мс)\\\\\\\\\\\\\\\\n"
 
 msgid " TX Power: {}\\\\\\\\n"
-msgstr ""
+msgstr "Потужність передачі: {}\\\\\\\\\\\\\\\\n"
 
 msgid " All systems operational\\\\\\\\n"
-msgstr ""
+msgstr "Всі системи працюють\\\\\\\\\\\\\\\\n"
 
 msgid " Available commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "Доступні команди: {commands}\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "Чудова швидкість завантаження\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency\\\\\\\\n"
-msgstr ""
+msgstr "Чудова затримка\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Хороша затримка ({:.1f} мс)\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: UP and active\\\\\\\\n"
-msgstr ""
+msgstr "Інтерфейс {interface}: Вгору та активний\\\\\\\\\\\\\\\\n"
 
 msgid " Loaded WiFi modules: {modules}\\\\\\\\n"
-msgstr ""
+msgstr "Завантажені модулі WiFi: {modules}\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: WiFi hardware detected and functional\\\\\\\\n"
-msgstr ""
+msgstr "СТАТУС СИСТЕМИ: апаратне забезпечення WiFi виявлено та працює\\\\\\\\\\\\\\\\n"
 
 msgid " USB WiFi adapters detected:\\\\\\\\n"
-msgstr ""
+msgstr "Виявлено адаптери USB WiFi:\\\\\\\\\\\\\\\\n"
 
 msgid " {test}: {output}\\\\\\\\n"
-msgstr ""
+msgstr "{test}: {output}\\\\\\\\\\\\\\\\n"
 
 msgid " CRITICAL: No WiFi interfaces detected!\\\\\\\\n"
-msgstr ""
+msgstr "КРИТИЧНО: Інтерфейси WiFi не виявлено!\\\\\\\\\\\\\\\\n"
 
 msgid " Download test failed\\\\\\\\n"
-msgstr ""
+msgstr "Помилка тесту завантаження\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Перевірка ESSID: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Error: {}\\\\\\\\n"
-msgstr ""
+msgstr "Помилка: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Не вдалося перевірити інтерфейс: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: NOT FOUND\\\\\\\\n"
-msgstr ""
+msgstr "Інтерфейс {interface}: НЕ ЗНАЙДЕНО\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: UNKNOWN STATE\\\\\\\\n"
-msgstr ""
+msgstr "Інтерфейс {interface}: НЕВІДОМИЙ СТАН\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {} not found or not a WiFi interface\\\\\\\\n"
-msgstr ""
+msgstr "Інтерфейс {} не знайдено або не є інтерфейсом WiFi\\\\\\\\\\\\\\\\n"
 
 msgid " Kernel module check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Не вдалося перевірити модуль ядра: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Latency test failed\\\\\\\\n"
-msgstr ""
+msgstr "Не вдалося перевірити затримку\\\\\\\\\\\\\\\\n"
 
 msgid " Mode check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Перевірка режиму: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "Низька швидкість завантаження\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency\\\\\\\\n"
-msgstr ""
+msgstr "Низька затримка\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: No WiFi interfaces detected\\\\\\\\n"
-msgstr ""
+msgstr "СТАТУС СИСТЕМИ: Інтерфейси WiFi не виявлено\\\\\\\\\\\\\\\\n"
 
 msgid " Scan test: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Тест сканування: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Signal check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Перевірка сигналу: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " USB device check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Не вдалося перевірити пристрій USB: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Very poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Дуже низька затримка ({:.1f} мс)\\\\\\\\\\\\\\\\n"
 
 msgid " {}\\\\\\\\n"
-msgstr ""
+msgstr "{}\\\\\\\\\\\\\\\\n"
 
 msgid " Cannot assess connection quality\\\\\\\\n"
-msgstr ""
+msgstr "Неможливо оцінити якість з'єднання\\\\\\\\\\\\\\\\n"
 
 msgid " Download speed unavailable\\\\\\\\n"
-msgstr ""
+msgstr "Швидкість завантаження недоступна\\\\\\\\\\\\\\\\n"
 
 msgid " Latency unavailable\\\\\\\\n"
-msgstr ""
+msgstr "Затримка недоступна\\\\\\\\\\\\\\\\n"
 
 msgid " Quality assessment unavailable\\\\\\\\n"
-msgstr ""
+msgstr "Оцінка якості недоступна\\\\\\\\\\\\\\\\n"
 
 msgid "  Transmitted: {}\\\\\\\\n"
-msgstr ""
+msgstr "Передано: {}\\\\\\\\\\\\\\\\n"
 
 msgid "  Received: {}\\\\\\\\n"
-msgstr ""
+msgstr "Отримано: {}\\\\\\\\\\\\\\\\n"
 
 msgid " AVAILABLE NETWORKS\\\\\\\\n"
-msgstr ""
+msgstr "ДОСТУПНІ МЕРЕЖІ\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: IP {ip} - ONLINE\\\\\\\\n"
-msgstr ""
+msgstr "Підключення: IP {ip} - ONLINE\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: No IP address - OFFLINE\\\\\\\\n"
-msgstr ""
+msgstr "Підключення: Немає IP-адреси - OFFLINE\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: Unknown status\\\\\\\\n"
-msgstr ""
+msgstr "Підключення: невідомий статус\\\\\\\\\\\\\\\\n"
 
 msgid " EXCELLENT connection\\\\\\\\n"
-msgstr ""
+msgstr "ВІДМІННЕ з'єднання\\\\\\\\\\\\\\\\n"
 
 msgid " SERVER INFORMATION:\\\\\\\\n"
-msgstr ""
+msgstr "ІНФОРМАЦІЯ ПРО СЕРВЕР:\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Низька затримка ({:.1f} мс)\\\\\\\\\\\\\\\\n"
 
 msgid " FAIR connection\\\\\\\\n"
-msgstr ""
+msgstr "ЧЕСНЕ з'єднання\\\\\\\\\\\\\\\\n"
 
 msgid " GOOD connection\\\\\\\\n"
-msgstr ""
+msgstr "ХОРОШИЙ зв'язок\\\\\\\\\\\\\\\\n"
 
 msgid " POOR connection\\\\\\\\n"
-msgstr ""
+msgstr "ПОГАНЕ з'єднання\\\\\\\\\\\\\\\\n"
 
 msgid " CLIENT INFORMATION:\\\\\\\\n"
-msgstr ""
+msgstr "ІНФОРМАЦІЯ ПРО КЛІЄНТА:\\\\\\\\\\\\\\\\n"
 
 msgid " All basic diagnostics available\\\\\\\\n"
-msgstr ""
+msgstr "Є вся базова діагностика\\\\\\\\\\\\\\\\n"
 
 msgid " Tips:\\\\\\\\n"
-msgstr ""
+msgstr "Поради:\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "Драйвер: невідомий\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: {}\\\\\\\\n"
-msgstr ""
+msgstr "Водій: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Protocol: {}\\\\\\\\n"
-msgstr ""
+msgstr "Протокол: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "Чудова швидкість завантаження ({:.1f} Мбіт/с)\\\\\\\\\\\\\\\\n"
 
 msgid " TEST RESULTS:\\\\\\\\n"
-msgstr ""
+msgstr "РЕЗУЛЬТАТИ ТЕСТУ:\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "Середня швидкість завантаження ({:.1f} Мбіт/с)\\\\\\\\\\\\\\\\n"
 
 msgid " Poor download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "Низька швидкість завантаження ({:.1f} Мбіт/с)\\\\\\\\\\\\\\\\n"
 
 msgid " Good download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "Хороша швидкість завантаження ({:.1f} Мбіт/с)\\\\\\\\\\\\\\\\n"
 
 msgid " NETWORK STATISTICS\\\\\\\\n"
-msgstr ""
+msgstr "СТАТИСТИКА МЕРЕЖІ\\\\\\\\\\\\\\\\n"
 
 msgid " Quality: {}\\\\\\\\n"
-msgstr ""
+msgstr "Якість: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Signal: No quality data available\\\\\\\\n"
-msgstr ""
+msgstr "Сигнал: немає даних про якість\\\\\\\\\\\\\\\\n"
 
 msgid " Signal: {quality}% quality, {signal} dBm\\\\\\\\n"
-msgstr ""
+msgstr "Сигнал: {quality}% якість, {signal} дБм\\\\\\\\\\\\\\\\n"
 
 msgid " MAC: {}\\\\\\\\n"
-msgstr ""
+msgstr "MAC: {}\\\\\\\\\\\\\\\\n"
 
 msgid " DETAILED WIFI INFORMATION - {}\\\\\\\\n"
-msgstr ""
+msgstr "ДЕТАЛЬНА ІНФОРМАЦІЯ WIFI - {}\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: {}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface Type: WIRELESS\\\\\\\\n"
-msgstr ""
+msgstr "Тип інтерфейсу: БЕЗДРОТОВИЙ\\\\\\\\\\\\\\\\n"
 
 msgid " Scan: Found {count} networks\\\\\\\\n"
-msgstr ""
+msgstr "Сканування: знайдено {count} мереж\\\\\\\\\\\\\\\\n"
 
 msgid " Type: Wireless interface\\\\\\\\n"
-msgstr ""
+msgstr "Тип: Бездротовий інтерфейс\\\\\\\\\\\\\\\\n"
 
 msgid " Connection appears good (based on download)\\\\\\\\n"
-msgstr ""
+msgstr "З’єднання добре (на основі завантаження)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection appears responsive (based on ping)\\\\\\\\n"
-msgstr ""
+msgstr "З’єднання реагує (на основі ping)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection may be limited (based on download)\\\\\\\\n"
-msgstr ""
+msgstr "Підключення може бути обмежено (залежно від завантаження)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection may be slow (based on ping)\\\\\\\\n"
-msgstr ""
+msgstr "З’єднання може бути повільним (на основі ping)\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: Not connected\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: не підключено\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: {essid}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: {essid}\\\\\\\\\\\\\\\\n"
 
 msgid " Frequency: {}\\\\\\\\n"
-msgstr ""
+msgstr "Частота: {}\\\\\\\\\\\\\\\\n"
 
 msgid " WIRELESS INFORMATION\\\\\\\\n"
-msgstr ""
+msgstr "БЕЗДРОТОВА ІНФОРМАЦІЯ\\\\\\\\\\\\\\\\n"
 
 msgid " DRIVER & HARDWARE\\\\\\\\n"
-msgstr ""
+msgstr "ДРАЙВЕР ТА АПАРАТНЕ ЗАБЕЗПЕЧЕННЯ\\\\\\\\\\\\\\\\n"
 
 msgid " Type: Wired interface\\\\\\\\n"
-msgstr ""
+msgstr "Тип: Дротовий інтерфейс\\\\\\\\\\\\\\\\n"
 
 msgid " BASIC INTERFACE INFO\\\\\\\\n"
-msgstr ""
+msgstr "ОСНОВНА ІНФОРМАЦІЯ ПРО ІНТЕРФЕЙС\\\\\\\\\\\\\\\\n"
 
 msgid " Interface: {}\\\\\\\\n"
-msgstr ""
+msgstr "Інтерфейс: {}\\\\\\\\\\\\\\\\n"
 
 msgid " METHOD: Using system commands (no root required)\\\\\\\\n"
-msgstr ""
+msgstr "МЕТОД: за допомогою системних команд (root не потрібен)\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "Режим: невідомий\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: {mode}\\\\\\\\n"
-msgstr ""
+msgstr "Режим: {mode}\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: {}\\\\\\\\n"
-msgstr ""
+msgstr "Режим: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Module: {}\\\\\\\\n"
-msgstr ""
+msgstr "Модуль: {}\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM LEVEL DIAGNOSTICS\\\\\\\\n"
-msgstr ""
+msgstr "ДІАГНОСТИКА НА РІВНІ СИСТЕМИ\\\\\\\\\\\\\\\\n"
 
 msgid " Bit Rate: {}\\\\\\\\n"
-msgstr ""
+msgstr "Бітрейт: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Check hardware connection and drivers\\\\\\\\n"
-msgstr ""
+msgstr "Перевірте підключення обладнання та драйвери\\\\\\\\\\\\\\\\n"
 
 msgid " VERY POOR connection\\\\\\\\n"
-msgstr ""
+msgstr "ДУЖЕ ПОГАНЕ з'єднання\\\\\\\\\\\\\\\\n"

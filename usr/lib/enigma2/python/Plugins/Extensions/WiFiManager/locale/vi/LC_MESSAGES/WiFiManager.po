@@ -14,16 +14,16 @@ msgid "- {adapter}\\\\\\\\n"
 msgstr ""
 
 msgid "... and {} more networks\\\\\\\\n"
-msgstr ""
+msgstr "... và {} mạng khác\\\\\\\\\\\\\\\\n"
 
 msgid "1 dBm (Min)"
-msgstr ""
+msgstr "1 dBm (Tối thiểu)"
 
 msgid "1. Check if WiFi adapter is properly connected\\\\\\\\n"
-msgstr ""
+msgstr "1. Kiểm tra xem bộ điều hợp WiFi đã được kết nối đúng cách chưa\\\\\\\\\\\\\\\\n"
 
 msgid "1. Disconnect from current WiFi network\\\\\\\\n"
-msgstr ""
+msgstr "1. Ngắt kết nối khỏi mạng WiFi hiện tại\\\\\\\\\\\\\\\\n"
 
 msgid "10 dBm"
 msgstr ""
@@ -32,346 +32,346 @@ msgid "15 dBm"
 msgstr ""
 
 msgid "2. Restart WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "2. Khởi động lại bộ điều hợp WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "2. Verify WiFi adapter is supported by your receiver\\\\\\\\n"
-msgstr ""
+msgstr "2. Xác minh bộ điều hợp WiFi được bộ thu của bạn hỗ trợ\\\\\\\\\\\\\\\\n"
 
 msgid "20 dBm (Max)"
-msgstr ""
+msgstr "20 dBm (Tối đa)"
 
 msgid "3. Check if WiFi driver is installed\\\\\\\\n"
-msgstr ""
+msgstr "3. Kiểm tra xem trình điều khiển WiFi đã được cài đặt chưa\\\\\\\\\\\\\\\\n"
 
 msgid "3. Try different USB port for USB WiFi adapters\\\\\\\\n"
-msgstr ""
+msgstr "3. Thử cổng USB khác cho bộ điều hợp USB WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "4. Check if WiFi drivers are installed\\\\\\\\n"
-msgstr ""
+msgstr "4. Kiểm tra xem trình điều khiển WiFi đã được cài đặt chưa\\\\\\\\\\\\\\\\n"
 
 msgid "4. Try with different USB WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "4. Thử với bộ chuyển đổi USB WiFi khác\\\\\\\\\\\\\\\\n"
 
 msgid "5 dBm"
 msgstr ""
 
 msgid "5. Check root permissions\\\\\\\\n"
-msgstr ""
+msgstr "5. Kiểm tra quyền root\\\\\\\\\\\\\\\\n"
 
 msgid "5. Restart the receiver and try again\\\\\\\\n"
-msgstr ""
+msgstr "5. Khởi động lại máy thu và thử lại\\\\\\\\\\\\\\\\n"
 
 msgid "=== WiFi Diagnostics (System Commands Only) ===\\\\\\\\n"
-msgstr ""
+msgstr "=== Chẩn đoán WiFi (Chỉ lệnh hệ thống) ===\\\\\\\\\\\\\\\\n"
 
 msgid "ACTIVE"
-msgstr ""
+msgstr "TÍCH CỰC"
 
 msgid "About"
-msgstr ""
+msgstr "Về"
 
 msgid "Access Point"
-msgstr ""
+msgstr "Điểm truy cập"
 
 msgid "Access Point: {ap}"
-msgstr ""
+msgstr "Điểm truy cập: {ap}"
 
 msgid "Access Points"
-msgstr ""
+msgstr "Điểm truy cập"
 
 msgid "Access points info displayed."
-msgstr ""
+msgstr "Thông tin điểm truy cập được hiển thị."
 
 msgid "Ad-Hoc"
-msgstr ""
+msgstr "đặc biệt"
 
 msgid "Advanced"
-msgstr ""
+msgstr "Trình độ cao"
 
 msgid "Advanced Config"
-msgstr ""
+msgstr "Cấu hình nâng cao"
 
 msgid "Advanced Config - {}"
-msgstr ""
+msgstr "Cấu hình nâng cao - {}"
 
 msgid "Advanced Scan"
-msgstr ""
+msgstr "Quét nâng cao"
 
 msgid "Advanced Scan Results"
-msgstr ""
+msgstr "Kết quả quét nâng cao"
 
 msgid "Advanced Tools"
-msgstr ""
+msgstr "Công cụ nâng cao"
 
 msgid "Advanced WiFi Configuration"
-msgstr ""
+msgstr "Cấu hình WiFi nâng cao"
 
 msgid "Advanced WiFi Tools"
-msgstr ""
+msgstr "Công cụ WiFi nâng cao"
 
 msgid "Advanced WiFi configuration"
-msgstr ""
+msgstr "Cấu hình WiFi nâng cao"
 
 msgid "Advanced WiFi configuration settings"
-msgstr ""
+msgstr "Cài đặt cấu hình WiFi nâng cao"
 
 msgid "Advanced WiFi interface configuration"
-msgstr ""
+msgstr "Cấu hình giao diện WiFi nâng cao"
 
 msgid "Advanced configuration completed."
-msgstr ""
+msgstr "Cấu hình nâng cao đã hoàn tất."
 
 msgid "All Network Interfaces: {interfaces}\\\\\\\\n"
-msgstr ""
+msgstr "Tất cả các giao diện mạng: {interfaces}\\\\\\\\\\\\\\\\n"
 
 msgid "All ping tests failed"
-msgstr ""
+msgstr "Tất cả các bài kiểm tra ping đều thất bại"
 
 msgid "All settings reset to defaults"
-msgstr ""
+msgstr "Tất cả cài đặt được đặt lại về mặc định"
 
 msgid "Applied: {} commands\\\\\\\\n"
-msgstr ""
+msgstr "Đã áp dụng: {} command\\\\\\\\\\\\\\\\n"
 
 msgid "Apply"
-msgstr ""
+msgstr "Áp dụng"
 
 msgid "Auto"
-msgstr ""
+msgstr "Tự động"
 
 msgid "Auto  limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "Tự động giới hạn; giới hạn tối thiểu:{limit}"
 
 msgid "Automatic (DHCP)"
-msgstr ""
+msgstr "Tự động (DHCP)"
 
 msgid "Available frequencies and channels for your region"
-msgstr ""
+msgstr "Tần số và kênh có sẵn cho khu vực của bạn"
 
 msgid "Available frequencies/channels"
-msgstr ""
+msgstr "Tần số/kênh có sẵn"
 
 msgid "Available interfaces: {}"
-msgstr ""
+msgstr "Giao diện có sẵn: {}"
 
 msgid "Back"
-msgstr ""
+msgstr "Mặt sau"
 
 msgid "Basic"
-msgstr ""
+msgstr "Nền tảng"
 
 msgid "Basic info error: {}"
-msgstr ""
+msgstr "Lỗi thông tin cơ bản: {}"
 
 msgid "Basic view enabled - rescan to see basic info"
-msgstr ""
+msgstr "Đã bật chế độ xem cơ bản - quét lại để xem thông tin cơ bản"
 
 msgid "Bit Rate: {rate}"
-msgstr ""
+msgstr "Tốc độ bit: {rate}"
 
 msgid "Bit Rates:"
-msgstr ""
+msgstr "Tốc độ bit:"
 
 msgid "Bitrate"
-msgstr ""
+msgstr "Tốc độ bit"
 
 msgid "Bitrate Info"
-msgstr ""
+msgstr "Thông tin tốc độ bit"
 
 msgid "Bitrate info displayed."
-msgstr ""
+msgstr "Thông tin bitrate được hiển thị."
 
 msgid "Bitrate information not available\\\\\\\\n"
-msgstr ""
+msgstr "Thông tin tốc độ bit không có sẵn\\\\\\\\\\\\\\\\n"
 
 msgid "CONNECTED to: {} - Press OK for options"
-msgstr ""
+msgstr "KẾT NỐI với: {} - Nhấn OK để có các tùy chọn"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Hủy bỏ"
 
 msgid "Cancelling test..."
-msgstr ""
+msgstr "Đang hủy bài kiểm tra..."
 
 msgid "Cell"
-msgstr ""
+msgstr "Tế bào"
 
 msgid "Channel"
-msgstr ""
+msgstr "Kênh"
 
 msgid "Channel Info"
-msgstr ""
+msgstr "Thông tin kênh"
 
 msgid "Channel info displayed."
-msgstr ""
+msgstr "Thông tin kênh được hiển thị."
 
 msgid "Channel {}"
-msgstr ""
+msgstr "Kênh {}"
 
 msgid "Channel: %s\\\\\\\\n"
-msgstr ""
+msgstr "Kênh: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Check System Logs"
-msgstr ""
+msgstr "Kiểm tra nhật ký hệ thống"
 
 msgid "Check system logs for WiFi errors"
-msgstr ""
+msgstr "Kiểm tra nhật ký hệ thống để tìm lỗi WiFi"
 
 msgid "Check system logs for WiFi errors and connection issues"
-msgstr ""
+msgstr "Kiểm tra nhật ký hệ thống để tìm lỗi WiFi và sự cố kết nối"
 
 msgid "Checking internet connection..."
-msgstr ""
+msgstr "Đang kiểm tra kết nối internet..."
 
 msgid "Checking system logs..."
-msgstr ""
+msgstr "Đang kiểm tra nhật ký hệ thống..."
 
 msgid "Clear"
-msgstr ""
+msgstr "Thông thoáng"
 
 msgid "Client info completed"
-msgstr ""
+msgstr "Thông tin khách hàng đã hoàn tất"
 
 msgid "Client info error: {error}"
-msgstr ""
+msgstr "Lỗi thông tin khách hàng: {error}"
 
 msgid "Close"
-msgstr ""
+msgstr "Đóng"
 
 msgid "Cloudflare"
-msgstr ""
+msgstr "Đám mây bùng phát"
 
 msgid "Complete iwconfig-like information"
-msgstr ""
+msgstr "Hoàn thành thông tin giống như iwconfig"
 
 msgid "Config"
-msgstr ""
+msgstr "Cấu hình"
 
 msgid "Configure {}"
-msgstr ""
+msgstr "Định cấu hình {}"
 
 msgid "Connect"
-msgstr ""
+msgstr "Kết nối"
 
 msgid "Connect to WiFi networks"
-msgstr ""
+msgstr "Kết nối với mạng WiFi"
 
 msgid "Connected but no timing data"
-msgstr ""
+msgstr "Đã kết nối nhưng không có dữ liệu thời gian"
 
 msgid "Connected successfully!"
-msgstr ""
+msgstr "Đã kết nối thành công!"
 
 msgid "Connected to %s"
-msgstr ""
+msgstr "Đã kết nối với %s"
 
 msgid "Connected to: %s"
-msgstr ""
+msgstr "Đã kết nối với: %s"
 
 msgid "Connected: {} | Signal: {} dBm | IP: {}"
-msgstr ""
+msgstr "Đã kết nối: {} | Tín hiệu: {} dBm | IP: {}"
 
 msgid "Connecting to %s..."
-msgstr ""
+msgstr "Đang kết nối với %s..."
 
 msgid "Connection Info"
-msgstr ""
+msgstr "Thông tin kết nối"
 
 msgid "Connection failed!"
-msgstr ""
+msgstr "Kết nối không thành công!"
 
 msgid "Connection timeout"
-msgstr ""
+msgstr "Hết thời gian kết nối"
 
 msgid "Country Code"
-msgstr ""
+msgstr "Mã nước"
 
 msgid "DHCP"
 msgstr ""
 
 msgid "DNS Server 1"
-msgstr ""
+msgstr "Máy chủ DNS 1"
 
 msgid "DNS Server 2"
-msgstr ""
+msgstr "Máy chủ DNS 2"
 
 msgid "DOWN"
-msgstr ""
+msgstr "XUỐNG"
 
 msgid "Data Rate"
-msgstr ""
+msgstr "Tốc độ dữ liệu"
 
 msgid "Defaults"
-msgstr ""
+msgstr "Mặc định"
 
 msgid "Detailed Info - {}"
-msgstr ""
+msgstr "Thông tin chi tiết - {}"
 
 msgid "Detailed network scanning"
-msgstr ""
+msgstr "Quét mạng chi tiết"
 
 msgid "Detailed network scanning with signal strength and encryption info"
-msgstr ""
+msgstr "Quét mạng chi tiết với cường độ tín hiệu và thông tin mã hóa"
 
 msgid "Detailed speed test failed - Check internet connection"
-msgstr ""
+msgstr "Kiểm tra tốc độ chi tiết không thành công - Kiểm tra kết nối internet"
 
 msgid "Detailed test completed"
-msgstr ""
+msgstr "Kiểm tra chi tiết đã hoàn thành"
 
 msgid "Detailed test error: {error}"
-msgstr ""
+msgstr "Lỗi kiểm tra chi tiết: {error}"
 
 msgid "Detailed view enabled - rescan to see details"
-msgstr ""
+msgstr "Đã bật chế độ xem chi tiết - quét lại để xem chi tiết"
 
 msgid "Details"
-msgstr ""
+msgstr "Chi tiết"
 
 msgid "Details Info"
-msgstr ""
+msgstr "Thông tin chi tiết"
 
 msgid "Diagnostic error: {}\\\\\\\\n"
-msgstr ""
+msgstr "Lỗi chẩn đoán: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Diagnostics"
-msgstr ""
+msgstr "Chẩn đoán"
 
 msgid "Disconnect"
-msgstr ""
+msgstr "Ngắt kết nối"
 
 msgid "Disconnected"
-msgstr ""
+msgstr "Đã ngắt kết nối"
 
 msgid "Disconnecting..."
-msgstr ""
+msgstr "Đang ngắt kết nối..."
 
 msgid "Download Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "Tốc độ tải xuống: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Download Speed: {download}\\\\\\\\n"
-msgstr ""
+msgstr "Tốc độ tải xuống: {download}\\\\\\\\\\\\\\\\n"
 
 msgid "Download test completed"
-msgstr ""
+msgstr "Kiểm tra tải xuống đã hoàn tất"
 
 msgid "Download: Failed\\\\\\\\n"
-msgstr ""
+msgstr "Tải xuống: Thất bại\\\\\\\\\\\\\\\\n"
 
 msgid "Download: {:.2f} Mbps\\\\\\\\n"
-msgstr ""
+msgstr "Tải xuống: {:.2f} Mbps\\\\\\\\\\\\\\\\n"
 
 msgid "Driver check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Kiểm tra trình điều khiển không thành công: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "Driver info error: {}"
-msgstr ""
+msgstr "Lỗi thông tin trình điều khiển: {}"
 
 msgid "Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "Trình điều khiển: Không rõ\\\\\\\\\\\\\\\\n"
 
 msgid "Driver: {driver}\\\\\\\\n"
-msgstr ""
+msgstr "Người lái xe: {driver}\\\\\\\\\\\\\\\\n"
 
 msgid "ESSID: %s\\\\\\\\n"
 msgstr ""
@@ -380,250 +380,250 @@ msgid "ESSID: {}"
 msgstr ""
 
 msgid "Edit Configuration"
-msgstr ""
+msgstr "Chỉnh sửa cấu hình"
 
 msgid "Edit Password"
-msgstr ""
+msgstr "Chỉnh sửa mật khẩu"
 
 msgid "Encryption"
-msgstr ""
+msgstr "Mã hóa"
 
 msgid "Encryption Info"
-msgstr ""
+msgstr "Thông tin mã hóa"
 
 msgid "Encryption info displayed."
-msgstr ""
+msgstr "Thông tin mã hóa được hiển thị."
 
 msgid "Encryption information not available\\\\\\\\n"
-msgstr ""
+msgstr "Thông tin mã hóa không có sẵn\\\\\\\\\\\\\\\\n"
 
 msgid "Encryption keys and security"
-msgstr ""
+msgstr "Khóa mã hóa và bảo mật"
 
 msgid "Encryption keys and security protocols"
-msgstr ""
+msgstr "Khóa mã hóa và giao thức bảo mật"
 
 msgid "Encryption: %s\\\\\\\\n"
-msgstr ""
+msgstr "Mã hóa: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Enter Password"
-msgstr ""
+msgstr "Nhập mật khẩu"
 
 msgid "Enter password for: %s"
-msgstr ""
+msgstr "Nhập mật khẩu cho: %s"
 
 msgid "Error"
-msgstr ""
+msgstr "Lỗi"
 
 msgid "Error applying advanced settings: {}"
-msgstr ""
+msgstr "Lỗi khi áp dụng cài đặt nâng cao: {}"
 
 msgid "Error applying settings: {}"
-msgstr ""
+msgstr "Lỗi khi áp dụng cài đặt: {}"
 
 msgid "Error disconnecting"
-msgstr ""
+msgstr "Lỗi ngắt kết nối"
 
 msgid "Error getting AP information: {}"
-msgstr ""
+msgstr "Lỗi lấy thông tin AP: {}"
 
 msgid "Error getting bitrate information: {}"
-msgstr ""
+msgstr "Lỗi nhận thông tin tốc độ bit: {}"
 
 msgid "Error getting channel information: {}"
-msgstr ""
+msgstr "Lỗi lấy thông tin kênh: {}"
 
 msgid "Error getting connection details: {error}"
-msgstr ""
+msgstr "Lỗi nhận chi tiết kết nối: {error}"
 
 msgid "Error getting encryption information: {}"
-msgstr ""
+msgstr "Lỗi nhận thông tin mã hóa: {}"
 
 msgid "Error getting power information: {}"
-msgstr ""
+msgstr "Lỗi lấy thông tin nguồn: {}"
 
 msgid "Error getting retry information: {}"
-msgstr ""
+msgstr "Lỗi nhận thông tin thử lại: {}"
 
 msgid "Error loading help"
-msgstr ""
+msgstr "Lỗi tải trợ giúp"
 
 msgid "Error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Lỗi trên {interface}: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "Error opening {module}: {error}"
-msgstr ""
+msgstr "Lỗi mở {module}: {error}"
 
 msgid "Error running {tool}: {error}"
-msgstr ""
+msgstr "Lỗi chạy {tool}: {error}"
 
 msgid "Error: {error}"
-msgstr ""
+msgstr "Lỗi: {error}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Lỗi: {}"
 
 msgid "Estimating upload speed..."
-msgstr ""
+msgstr "Đang ước tính tốc độ tải lên..."
 
 msgid "Excellent"
-msgstr ""
+msgstr "Xuất sắc"
 
 msgid "Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "Tốc độ tải xuống tuyệt vời\\\\\\\\\\\\\\\\n"
 
 msgid "Executing tool..."
-msgstr ""
+msgstr "Công cụ thực hiện..."
 
 msgid "Exit"
-msgstr ""
+msgstr "Ra"
 
 msgid "Failed"
-msgstr ""
+msgstr "Thất bại"
 
 msgid "Failed to connect to %s"
-msgstr ""
+msgstr "Không thể kết nối với %s"
 
 msgid "Failed: {} commands"
-msgstr ""
+msgstr "Không thành công: lệnh {}"
 
 msgid "Fair"
-msgstr ""
+msgstr "Hội chợ"
 
 msgid "Final connectivity check..."
-msgstr ""
+msgstr "Kiểm tra kết nối lần cuối..."
 
 msgid "Finding best server..."
-msgstr ""
+msgstr "Tìm kiếm máy chủ tốt nhất..."
 
 msgid "Fixed lifetime ;  min lifetime:{lifetime}"
-msgstr ""
+msgstr "Tuổi thọ cố định; thời gian tồn tại tối thiểu:{lifetime}"
 
 msgid "Fixed limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "Giới hạn cố định; giới hạn tối thiểu:{limit}"
 
 msgid "For troubleshooting, detailed guidance, or community support, visit:\\\\\\\\n"
-msgstr ""
+msgstr "Để khắc phục sự cố, hướng dẫn chi tiết hoặc hỗ trợ cộng đồng, hãy truy cập:\\\\\\\\\\\\\\\\n"
 
 msgid "Forget Network"
-msgstr ""
+msgstr "Quên mạng"
 
 msgid "Forgotten network: {}"
-msgstr ""
+msgstr "Mạng bị quên: {}"
 
 msgid "Found {} networks:\\\\\\\\n"
-msgstr ""
+msgstr "Đã tìm thấy {} mạng:\\\\\\\\\\\\\\\\n"
 
 msgid "Found: {}\\\\\\\\n"
-msgstr ""
+msgstr "Đã tìm thấy: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Fragmentation"
-msgstr ""
+msgstr "Sự phân mảnh"
 
 msgid "Frequency"
-msgstr ""
+msgstr "Tính thường xuyên"
 
 msgid "Frequency information not available\\\\\\\\n"
-msgstr ""
+msgstr "Không có thông tin tần số\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency/Channel"
-msgstr ""
+msgstr "Tần số/Kênh"
 
 msgid "Frequency:"
-msgstr ""
+msgstr "Tính thường xuyên:"
 
 msgid "Frequency: %s\\\\\\\\n"
-msgstr ""
+msgstr "Tần suất: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency: {frequency}"
-msgstr ""
+msgstr "Tần suất: {frequency}"
 
 msgid "Full Comprehensive Test"
-msgstr ""
+msgstr "Kiểm tra toàn diện đầy đủ"
 
 msgid "Full Test"
-msgstr ""
+msgstr "Kiểm tra đầy đủ"
 
 msgid "Full test completed"
-msgstr ""
+msgstr "Đã hoàn thành bài kiểm tra đầy đủ"
 
 msgid "Full test error: {error}"
-msgstr ""
+msgstr "Lỗi kiểm tra đầy đủ: {error}"
 
 msgid "Gateway"
-msgstr ""
+msgstr "Cổng vào"
 
 msgid "Gateway: {gateway}"
-msgstr ""
+msgstr "Cổng: {gateway}"
 
 msgid "Gathering client information..."
-msgstr ""
+msgstr "Thu thập thông tin khách hàng..."
 
 msgid "Gathering network details..."
-msgstr ""
+msgstr "Đang thu thập thông tin chi tiết về mạng..."
 
 msgid "Getting access point information..."
-msgstr ""
+msgstr "Đang lấy thông tin điểm truy cập..."
 
 msgid "Getting bitrate information..."
-msgstr ""
+msgstr "Đang lấy thông tin tốc độ bit..."
 
 msgid "Getting channel information..."
-msgstr ""
+msgstr "Đang lấy thông tin kênh..."
 
 msgid "Getting client information..."
-msgstr ""
+msgstr "Lấy thông tin khách hàng..."
 
 msgid "Getting encryption information..."
-msgstr ""
+msgstr "Đang lấy thông tin mã hóa..."
 
 msgid "Getting power management information..."
-msgstr ""
+msgstr "Đang lấy thông tin quản lý năng lượng..."
 
 msgid "Getting retry information..."
-msgstr ""
+msgstr "Đang lấy thông tin thử lại..."
 
 msgid "Good"
-msgstr ""
+msgstr "Tốt"
 
 msgid "Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "Tốc độ tải xuống tốt\\\\\\\\\\\\\\\\n"
 
 msgid "Google"
 msgstr ""
 
 msgid "Google DNS"
-msgstr ""
+msgstr "DNS của Google"
 
 msgid "Help"
-msgstr ""
+msgstr "Giúp đỡ"
 
 msgid "Hidden"
-msgstr ""
+msgstr "Ẩn giấu"
 
 msgid "Hidden Network"
-msgstr ""
+msgstr "Mạng ẩn"
 
 msgid "Host not found"
-msgstr ""
+msgstr "Không tìm thấy máy chủ"
 
 msgid "Hostname: {hostname}"
-msgstr ""
+msgstr "Tên máy chủ: {hostname}"
 
 msgid "INACTIVE"
-msgstr ""
+msgstr "KHÔNG HOẠT ĐỘNG"
 
 msgid "IP Address"
-msgstr ""
+msgstr "Địa chỉ IP"
 
 msgid "IP Address: {ip}"
-msgstr ""
+msgstr "Địa chỉ IP: {ip}"
 
 msgid "IP Configuration"
-msgstr ""
+msgstr "Cấu hình IP"
 
 msgid "IP: N/A"
-msgstr ""
+msgstr "IP: Không áp dụng"
 
 msgid "IP: {ip}\\\\\\\\n"
 msgstr ""
@@ -632,853 +632,853 @@ msgid "IP: {}"
 msgstr ""
 
 msgid "ISP: {isp}"
-msgstr ""
+msgstr "Nhà cung cấp dịch vụ Internet: {isp}"
 
 msgid "ISP: {isp}\\\\\\\\n"
 msgstr ""
 
 msgid "Info"
-msgstr ""
+msgstr "Thông tin"
 
 msgid "Initializing WiFi..."
-msgstr ""
+msgstr "Đang khởi chạy Wi-Fi..."
 
 msgid "Initializing detailed speed test..."
-msgstr ""
+msgstr "Đang khởi chạy kiểm tra tốc độ chi tiết..."
 
 msgid "Interface"
-msgstr ""
+msgstr "Giao diện"
 
 msgid "Interface found: {}"
-msgstr ""
+msgstr "Đã tìm thấy giao diện: {}"
 
 msgid "Interface restarted successfully"
-msgstr ""
+msgstr "Giao diện được khởi động lại thành công"
 
 msgid "Interface restarted."
-msgstr ""
+msgstr "Giao diện đã được khởi động lại."
 
 msgid "Interface {} not available"
-msgstr ""
+msgstr "Giao diện {} không có sẵn"
 
 msgid "Interface: {}"
-msgstr ""
+msgstr "Giao diện: {}"
 
 msgid "Invalid misc:%s"
-msgstr ""
+msgstr "Linh tinh không hợp lệ:%s"
 
 msgid "Kernel Messages (dmesg):\\\\\\\\n"
-msgstr ""
+msgstr "Tin nhắn hạt nhân (dmesg):\\\\\\\\\\\\\\\\n"
 
 msgid "Latency test completed"
-msgstr ""
+msgstr "Kiểm tra độ trễ đã hoàn thành"
 
 msgid "Latency: %s\\\\\\\\n"
-msgstr ""
+msgstr "Độ trễ: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Link Quality: {quality}"
-msgstr ""
+msgstr "Chất lượng liên kết: {quality}"
 
 msgid "Link Quality:%s/100"
-msgstr ""
+msgstr "Chất lượng liên kết:%s/100"
 
 msgid "List of access points and connected peer stations"
-msgstr ""
+msgstr "Danh sách các điểm truy cập và các trạm ngang hàng được kết nối"
 
 msgid "List of access points/peers"
-msgstr ""
+msgstr "Danh sách các điểm truy cập/đồng nghiệp"
 
 msgid "Location: {city}, {country}"
-msgstr ""
+msgstr "Địa điểm: {city}, {country}"
 
 msgid "Location: {city}, {country}\\\\\\\\n"
-msgstr ""
+msgstr "Vị trí: {city}, {country}\\\\\\\\\\\\\\\\n"
 
 msgid "Logs checked."
-msgstr ""
+msgstr "Nhật ký đã được kiểm tra."
 
 msgid "MAC Address: {mac}"
-msgstr ""
+msgstr "Địa chỉ MAC: {mac}"
 
 msgid "MAC Address: {mac}\\\\\\\\n"
-msgstr ""
+msgstr "Địa chỉ MAC: {mac}\\\\\\\\\\\\\\\\n"
 
 msgid "MAC: %s\\\\\\\\n"
 msgstr ""
 
 msgid "MAC: N/A"
-msgstr ""
+msgstr "MAC: Không áp dụng"
 
 msgid "MAC: {}"
 msgstr ""
 
 msgid "Managed (Client)"
-msgstr ""
+msgstr "Được quản lý (Khách hàng)"
 
 msgid "Manual (Static IP)"
-msgstr ""
+msgstr "Hướng dẫn sử dụng (IP tĩnh)"
 
 msgid "Master (AP)"
-msgstr ""
+msgstr "Thạc sĩ (AP)"
 
 msgid "Missed beacon:%s"
-msgstr ""
+msgstr "Đèn hiệu bị bỏ lỡ:%s"
 
 msgid "Mode:"
-msgstr ""
+msgstr "Cách thức:"
 
 msgid "Mode: {mode}"
-msgstr ""
+msgstr "Chế độ: {mode}"
 
 msgid "Modules reloaded."
-msgstr ""
+msgstr "Các mô-đun được tải lại."
 
 msgid "Monitor"
-msgstr ""
+msgstr "Màn hình"
 
 msgid "Monitoring error: {}"
-msgstr ""
+msgstr "Lỗi giám sát: {}"
 
 msgid "N/A"
-msgstr ""
+msgstr "không áp dụng"
 
 msgid "Name: {name}\\\\\\\\n"
-msgstr ""
+msgstr "Tên: {name}\\\\\\\\\\\\\\\\n"
 
 msgid "Netmask"
-msgstr ""
+msgstr "Mặt nạ mạng"
 
 msgid "Network %d:\\\\\\\\n"
-msgstr ""
+msgstr "Mạng %d:\\\\\\\\\\\\\\\\n"
 
 msgid "Network Interface: {interface}"
-msgstr ""
+msgstr "Giao diện mạng: {interface}"
 
 msgid "Network Name (SSID)"
-msgstr ""
+msgstr "Tên mạng (SSID)"
 
 msgid "Network forgotten!"
-msgstr ""
+msgstr "Mạng bị lãng quên!"
 
 msgid "Network info error: {error}"
-msgstr ""
+msgstr "Lỗi thông tin mạng: {error}"
 
 msgid "Network information unavailable"
-msgstr ""
+msgstr "Thông tin mạng không có sẵn"
 
 msgid "Network unreachable"
-msgstr ""
+msgstr "Mạng không thể truy cập được"
 
 msgid "Network: %s"
-msgstr ""
+msgstr "Mạng: %s"
 
 msgid "Network: {essid}"
-msgstr ""
+msgstr "Mạng: {essid}"
 
 msgid "No"
-msgstr ""
+msgstr "KHÔNG"
 
 msgid "No IP"
-msgstr ""
+msgstr "Không có IP"
 
 msgid "No WiFi connection data available"
-msgstr ""
+msgstr "Không có dữ liệu kết nối WiFi"
 
 msgid "No WiFi interface available"
-msgstr ""
+msgstr "Không có giao diện WiFi"
 
 msgid "No WiFi interface detected. Please check your hardware."
-msgstr ""
+msgstr "Không phát hiện thấy giao diện WiFi. Vui lòng kiểm tra phần cứng của bạn."
 
 msgid "No WiFi interface found"
-msgstr ""
+msgstr "Không tìm thấy giao diện WiFi"
 
 msgid "No WiFi interfaces found"
-msgstr ""
+msgstr "Không tìm thấy giao diện WiFi"
 
 msgid "No WiFi interfaces found\\\\\\\\n"
-msgstr ""
+msgstr "Không tìm thấy giao diện WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "No WiFi messages in system logs"
-msgstr ""
+msgstr "Không có tin nhắn WiFi trong nhật ký hệ thống"
 
 msgid "No connection details available"
-msgstr ""
+msgstr "Không có chi tiết kết nối nào"
 
 msgid "No data"
-msgstr ""
+msgstr "Không có dữ liệu"
 
 msgid "No help available for this tool."
-msgstr ""
+msgstr "Không có trợ giúp nào cho công cụ này."
 
 msgid "No interface"
-msgstr ""
+msgstr "Không có giao diện"
 
 msgid "No internet connection"
-msgstr ""
+msgstr "Không có kết nối internet"
 
 msgid "No internet connection detected"
-msgstr ""
+msgstr "Không phát hiện thấy kết nối internet"
 
 msgid "No network selected"
-msgstr ""
+msgstr "Không có mạng nào được chọn"
 
 msgid "No networks found"
-msgstr ""
+msgstr "Không tìm thấy mạng nào"
 
 msgid "No networks found - Press BLUE to rescan"
-msgstr ""
+msgstr "Không tìm thấy mạng - Nhấn BLUE để quét lại"
 
 msgid "No networks found on {}\\\\\\\\n"
-msgstr ""
+msgstr "Không tìm thấy mạng nào trên {}\\\\\\\\\\\\\\\\n"
 
 msgid "No networks found or scan not supported\\\\\\\\n"
-msgstr ""
+msgstr "Không tìm thấy mạng hoặc quét không được hỗ trợ\\\\\\\\\\\\\\\\n"
 
 msgid "No networks found with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "Không tìm thấy mạng nào với iwlist\\\\\\\\\\\\\\\\n"
 
 msgid "No packets sent"
-msgstr ""
+msgstr "Không có gói nào được gửi"
 
 msgid "No ping data"
-msgstr ""
+msgstr "Không có dữ liệu ping"
 
 msgid "No results with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "Không có kết quả với iwlist\\\\\\\\\\\\\\\\n"
 
 msgid "No station/peer information available\\\\\\\\n"
-msgstr ""
+msgstr "Không có thông tin trạm/ngang hàng\\\\\\\\\\\\\\\\n"
 
 msgid "Noise level:%sdBm"
-msgstr ""
+msgstr "Độ ồn:%sdBm"
 
 msgid "None"
-msgstr ""
+msgstr "Không có"
 
 msgid "None found"
-msgstr ""
+msgstr "Không tìm thấy"
 
 msgid "Not connected"
-msgstr ""
+msgstr "Không được kết nối"
 
 msgid "Not connected to any network"
-msgstr ""
+msgstr "Không kết nối với bất kỳ mạng nào"
 
 msgid "Not-Associated"
-msgstr ""
+msgstr "Không liên kết"
 
 msgid "Open"
-msgstr ""
+msgstr "Mở"
 
 msgid "OpenDNS"
 msgstr ""
 
 msgid "Operation Mode"
-msgstr ""
+msgstr "Chế độ hoạt động"
 
 msgid "Operation completed."
-msgstr ""
+msgstr "Hoạt động đã hoàn tất."
 
 msgid "Output: {output}..."
-msgstr ""
+msgstr "Đầu ra: {output}..."
 
 msgid "Packet retry limits and frame lifetime settings"
-msgstr ""
+msgstr "Giới hạn thử lại gói và cài đặt thời gian tồn tại của khung"
 
 msgid "Packets: {sent}, Lost: {lost} ({percentage:.1f}%) - {stability}"
-msgstr ""
+msgstr "Gói: {sent}, Bị mất: {lost} ({percentage:.1f}%) - {stability}"
 
 msgid "Password"
-msgstr ""
+msgstr "Mật khẩu"
 
 msgid "Pause"
-msgstr ""
+msgstr "Tạm dừng"
 
 msgid "Performing initial scan..."
-msgstr ""
+msgstr "Đang thực hiện quét lần đầu..."
 
 msgid "Ping error for {host}: {error}"
-msgstr ""
+msgstr "Lỗi ping cho {host}: {error}"
 
 msgid "Ping failed"
-msgstr ""
+msgstr "Ping không thành công"
 
 msgid "Ping failed for {host} (returncode: {code})"
-msgstr ""
+msgstr "Ping không thành công cho {host} (mã trả về: {code})"
 
 msgid "Ping not available"
-msgstr ""
+msgstr "Ping không có sẵn"
 
 msgid "Ping test completed: {avg:.1f} ms average ({success}/{total} successful)"
-msgstr ""
+msgstr "Kiểm tra ping đã hoàn thành: trung bình {avg:.1f} ms ({success}/{total} thành công)"
 
 msgid "Ping test error: {error}"
-msgstr ""
+msgstr "Lỗi kiểm tra ping: {error}"
 
 msgid "Ping timeout for {host}"
-msgstr ""
+msgstr "Hết thời gian chờ ping cho {host}"
 
 msgid "Ping {host} (fallback): {time} ms"
-msgstr ""
+msgstr "Ping {host} (dự phòng): {time} mili giây"
 
 msgid "Ping {host}: {time} ms"
-msgstr ""
+msgstr "Ping {host}: {time} mili giây"
 
 msgid "Ping/Latency: {ping}\\\\\\\\n"
-msgstr ""
+msgstr "Ping/Độ trễ: {ping}\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: Failed\\\\\\\\n"
-msgstr ""
+msgstr "Ping: Thất bại\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: {:.1f} ms\\\\\\\\n"
 msgstr ""
 
 msgid "Please enter a network name"
-msgstr ""
+msgstr "Vui lòng nhập tên mạng"
 
 msgid "Please enter a password"
-msgstr ""
+msgstr "Vui lòng nhập mật khẩu"
 
 msgid "Poor"
-msgstr ""
+msgstr "Nghèo"
 
 msgid "Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "Tốc độ tải xuống kém\\\\\\\\\\\\\\\\n"
 
 msgid "Power Management"
-msgstr ""
+msgstr "Quản lý nguồn điện"
 
 msgid "Power management info displayed."
-msgstr ""
+msgstr "Thông tin quản lý năng lượng được hiển thị."
 
 msgid "Power management information not available\\\\\\\\n"
-msgstr ""
+msgstr "Thông tin quản lý nguồn không có sẵn\\\\\\\\\\\\\\\\n"
 
 msgid "Power management settings"
-msgstr ""
+msgstr "Cài đặt quản lý nguồn"
 
 msgid "Power management settings and power saving modes"
-msgstr ""
+msgstr "Cài đặt quản lý nguồn và chế độ tiết kiệm năng lượng"
 
 msgid "Primary DNS"
-msgstr ""
+msgstr "DNS chính"
 
 msgid "Public IP: Unable to determine"
-msgstr ""
+msgstr "IP công cộng: Không thể xác định"
 
 msgid "Public IP: {ip}"
-msgstr ""
+msgstr "IP công cộng: {ip}"
 
 msgid "Quality: %s\\\\\\\\n"
-msgstr ""
+msgstr "Chất lượng: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Quality: N/A"
-msgstr ""
+msgstr "Chất lượng: Không áp dụng"
 
 msgid "Quality: {}%"
-msgstr ""
+msgstr "Chất lượng: {}%"
 
 msgid "Quality: {}% ({})"
-msgstr ""
+msgstr "Chất lượng: {}% ({})"
 
 msgid "Quick System Check"
-msgstr ""
+msgstr "Kiểm tra hệ thống nhanh"
 
 msgid "Quick Test"
-msgstr ""
+msgstr "Kiểm tra nhanh"
 
 msgid "Quick test completed"
-msgstr ""
+msgstr "Đã hoàn thành bài kiểm tra nhanh"
 
 msgid "Quick test error: {error}"
-msgstr ""
+msgstr "Lỗi kiểm tra nhanh: {error}"
 
 msgid "RTS Threshold"
-msgstr ""
+msgstr "Ngưỡng RTS"
 
 msgid "Real-time signal quality monitor"
-msgstr ""
+msgstr "Giám sát chất lượng tín hiệu thời gian thực"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Làm cho khỏe lại"
 
 msgid "Reload WiFi Modules"
-msgstr ""
+msgstr "Tải lại mô-đun WiFi"
 
 msgid "Reload kernel WiFi modules"
-msgstr ""
+msgstr "Tải lại các mô-đun WiFi hạt nhân"
 
 msgid "Reload kernel WiFi modules to fix driver issues"
-msgstr ""
+msgstr "Tải lại các mô-đun WiFi kernel để khắc phục sự cố trình điều khiển"
 
 msgid "Remember password"
-msgstr ""
+msgstr "Nhớ mật khẩu"
 
 msgid "Restart WiFi Interface"
-msgstr ""
+msgstr "Khởi động lại giao diện WiFi"
 
 msgid "Restart WiFi interface %s?"
-msgstr ""
+msgstr "Khởi động lại giao diện WiFi %s?"
 
 msgid "Restart wireless interface"
-msgstr ""
+msgstr "Khởi động lại giao diện không dây"
 
 msgid "Restart wireless interface to reset connectivity"
-msgstr ""
+msgstr "Khởi động lại giao diện không dây để thiết lập lại kết nối"
 
 msgid "Restarting interface..."
-msgstr ""
+msgstr "Đang khởi động lại giao diện..."
 
 msgid "Retry Limits"
-msgstr ""
+msgstr "Giới hạn thử lại"
 
 msgid "Retry limit information not available\\\\\\\\n"
-msgstr ""
+msgstr "Không có thông tin giới hạn thử lại\\\\\\\\\\\\\\\\n"
 
 msgid "Retry limits and lifetime"
-msgstr ""
+msgstr "Giới hạn thử lại và thời gian tồn tại"
 
 msgid "Retry limits info displayed."
-msgstr ""
+msgstr "Thử lại thông tin giới hạn được hiển thị."
 
 msgid "Running detailed speed test..."
-msgstr ""
+msgstr "Đang chạy thử nghiệm tốc độ chi tiết..."
 
 msgid "Running full speed test..."
-msgstr ""
+msgstr "Đang chạy thử nghiệm tốc độ tối đa..."
 
 msgid "Running quick speed test..."
-msgstr ""
+msgstr "Đang chạy thử nghiệm tốc độ nhanh..."
 
 msgid "Rx invalid crypt:%s"
-msgstr ""
+msgstr "Rx mật mã không hợp lệ:%s"
 
 msgid "Rx invalid frag:%s"
-msgstr ""
+msgstr "Rx đoạn không hợp lệ:%s"
 
 msgid "Rx invalid nwid:%s"
-msgstr ""
+msgstr "Rx nwid không hợp lệ:%s"
 
 msgid "Save & Connect"
-msgstr ""
+msgstr "Lưu & Kết nối"
 
 msgid "Scan"
-msgstr ""
+msgstr "Quét"
 
 msgid "Scan completed."
-msgstr ""
+msgstr "Quét hoàn tất."
 
 msgid "Scan error {}"
-msgstr ""
+msgstr "Lỗi quét {}"
 
 msgid "Scan error:"
-msgstr ""
+msgstr "Lỗi quét:"
 
 msgid "Scan error: {}"
-msgstr ""
+msgstr "Lỗi quét: {}"
 
 msgid "Scan error: {}\\\\\\\\n"
-msgstr ""
+msgstr "Lỗi quét: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Scan failed"
-msgstr ""
+msgstr "Quét không thành công"
 
 msgid "Scan for available networks"
-msgstr ""
+msgstr "Quét các mạng có sẵn"
 
 msgid "Scanner"
-msgstr ""
+msgstr "Máy quét"
 
 msgid "Scanning for WiFi networks..."
-msgstr ""
+msgstr "Đang quét tìm mạng WiFi..."
 
 msgid "Scanning for networks..."
-msgstr ""
+msgstr "Đang quét mạng..."
 
 msgid "Scanning..."
-msgstr ""
+msgstr "Đang quét..."
 
 msgid "Secondary DNS"
-msgstr ""
+msgstr "DNS phụ"
 
 msgid "Secured"
-msgstr ""
+msgstr "Bảo đảm"
 
 msgid "Select"
-msgstr ""
+msgstr "Lựa chọn"
 
 msgid "Select a speed test type"
-msgstr ""
+msgstr "Chọn loại kiểm tra tốc độ"
 
 msgid "Select a tool from the menu to get detailed information about WiFi configuration and status."
-msgstr ""
+msgstr "Chọn một công cụ từ menu để nhận thông tin chi tiết về cấu hình và trạng thái WiFi."
 
 msgid "Select a tool to see description"
-msgstr ""
+msgstr "Chọn một công cụ để xem mô tả"
 
 msgid "Select a tool to view detailed information"
-msgstr ""
+msgstr "Chọn công cụ để xem thông tin chi tiết"
 
 msgid "Select an option"
-msgstr ""
+msgstr "Chọn một tùy chọn"
 
 msgid "Server found"
-msgstr ""
+msgstr "Đã tìm thấy máy chủ"
 
 msgid "Server info error: {error}"
-msgstr ""
+msgstr "Lỗi thông tin máy chủ: {error}"
 
 msgid "Settings applied successfully"
-msgstr ""
+msgstr "Đã áp dụng cài đặt thành công"
 
 msgid "Signal Level: {signal} dBm"
-msgstr ""
+msgstr "Mức tín hiệu: {signal} dBm"
 
 msgid "Signal level:%sdBm"
-msgstr ""
+msgstr "Mức tín hiệu:%sdBm"
 
 msgid "Signal: %s\\\\\\\\n"
-msgstr ""
+msgstr "Tín hiệu: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Signal: N/A"
-msgstr ""
+msgstr "Tín hiệu: Không áp dụng"
 
 msgid "Signal: {} dBm"
-msgstr ""
+msgstr "Tín hiệu: {} dBm"
 
 msgid "Speedtest"
 msgstr ""
 
 msgid "Speedtest failed - No internet connection or all tests failed"
-msgstr ""
+msgstr "Speedtest không thành công - Không có kết nối internet hoặc tất cả các bài kiểm tra đều không thành công"
 
 msgid "Speedtest failed: {}"
-msgstr ""
+msgstr "Kiểm tra tốc độ không thành công: {}"
 
 msgid "SpeedtestSimple not available"
-msgstr ""
+msgstr "SpeedtestĐơn giản không có sẵn"
 
 msgid "Sponsor: {sponsor}\\\\\\\\n"
-msgstr ""
+msgstr "Nhà tài trợ: {sponsor}\\\\\\\\\\\\\\\\n"
 
 msgid "Stability test error: {error}"
-msgstr ""
+msgstr "Lỗi kiểm tra độ ổn định: {error}"
 
 msgid "Stable"
-msgstr ""
+msgstr "Ổn định"
 
 msgid "Start"
-msgstr ""
+msgstr "Bắt đầu"
 
 msgid "Static"
-msgstr ""
+msgstr "Tĩnh"
 
 msgid "Statistics error: {}"
-msgstr ""
+msgstr "Lỗi thống kê: {}"
 
 msgid "Status check failed: {}"
-msgstr ""
+msgstr "Kiểm tra trạng thái không thành công: {}"
 
 msgid "Stop"
-msgstr ""
+msgstr "Dừng lại"
 
 msgid "Supported bit rates"
-msgstr ""
+msgstr "Tốc độ bit được hỗ trợ"
 
 msgid "Supported bitrates and current transmission rates"
-msgstr ""
+msgstr "Tốc độ bit được hỗ trợ và tốc độ truyền hiện tại"
 
 msgid "System Logs"
-msgstr ""
+msgstr "Nhật ký hệ thống"
 
 msgid "System Logs:\\\\\\\\n"
-msgstr ""
+msgstr "Nhật ký hệ thống:\\\\\\\\\\\\\\\\n"
 
 msgid "TX Power"
-msgstr ""
+msgstr "Nguồn điện TX"
 
 msgid "Tertiary DNS"
-msgstr ""
+msgstr "DNS cấp ba"
 
 msgid "Test cancelled"
-msgstr ""
+msgstr "Đã hủy bài kiểm tra"
 
 msgid "Test completed - See results below"
-msgstr ""
+msgstr "Kiểm tra đã hoàn thành - Xem kết quả bên dưới"
 
 msgid "Test completed!"
-msgstr ""
+msgstr "Kiểm tra đã hoàn thành!"
 
 msgid "Test failed"
-msgstr ""
+msgstr "Kiểm tra không thành công"
 
 msgid "Testing connection stability..."
-msgstr ""
+msgstr "Kiểm tra độ ổn định của kết nối..."
 
 msgid "Testing connectivity..."
-msgstr ""
+msgstr "Đang kiểm tra kết nối..."
 
 msgid "Testing download speed (multiple servers)..."
-msgstr ""
+msgstr "Đang kiểm tra tốc độ tải xuống (nhiều máy chủ)..."
 
 msgid "Testing download speed..."
-msgstr ""
+msgstr "Đang kiểm tra tốc độ tải xuống..."
 
 msgid "Testing latency to multiple hosts..."
-msgstr ""
+msgstr "Kiểm tra độ trễ đối với nhiều máy chủ..."
 
 msgid "Testing latency..."
-msgstr ""
+msgstr "Kiểm tra độ trễ..."
 
 msgid "Testing upload speed..."
-msgstr ""
+msgstr "Đang kiểm tra tốc độ tải lên..."
 
 msgid "These forums are great places to get help,\\\\\\\\n"
-msgstr ""
+msgstr "Những diễn đàn này là nơi tuyệt vời để nhận trợ giúp,\\\\\\\\\\\\\\\\n"
 
 msgid "Timeout"
-msgstr ""
+msgstr "Hết giờ"
 
 msgid "Tool not available"
-msgstr ""
+msgstr "Công cụ không có sẵn"
 
 msgid "Tool not implemented: {}"
-msgstr ""
+msgstr "Công cụ chưa được triển khai: {}"
 
 msgid "Tools"
-msgstr ""
+msgstr "Công cụ"
 
 msgid "Tx excessive retries:%s"
-msgstr ""
+msgstr "Tx thử lại quá nhiều lần:%s"
 
 msgid "UP and active"
-msgstr ""
+msgstr "LÊN và hoạt động"
 
 msgid "Unable to assess download quality\\\\\\\\n"
-msgstr ""
+msgstr "Không thể đánh giá chất lượng tải xuống\\\\\\\\\\\\\\\\n"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Không xác định"
 
 msgid "Unstable"
-msgstr ""
+msgstr "Không ổn định"
 
 msgid "Upload Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "Tốc độ tải lên: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Upload Speed: {upload}\\\\\\\\n"
-msgstr ""
+msgstr "Tốc độ tải lên: {upload}\\\\\\\\\\\\\\\\n"
 
 msgid "Upload estimation completed"
-msgstr ""
+msgstr "Ước tính tải lên đã hoàn tất"
 
 msgid "Upload test failed: {error}"
-msgstr ""
+msgstr "Kiểm tra tải lên không thành công: {error}"
 
 msgid "Upload test not available"
-msgstr ""
+msgstr "Kiểm tra tải lên không có sẵn"
 
 msgid "Upload test: {result}"
-msgstr ""
+msgstr "Tải lên bài kiểm tra: {result}"
 
 msgid "Upload: Not available\\\\\\\\n"
-msgstr ""
+msgstr "Tải lên: Không có\\\\\\\\\\\\\\\\n"
 
 msgid "Upload: {:.2f} Mbps (estimated)\\\\\\\\n"
-msgstr ""
+msgstr "Tải lên: {:.2f} Mbps (ước tính)\\\\\\\\\\\\\\\\n"
 
 msgid "Very Poor"
-msgstr ""
+msgstr "Rất kém"
 
 msgid "WEP Key Type"
-msgstr ""
+msgstr "Loại khóa WEP"
 
 msgid "WiFi Advanced Tools"
-msgstr ""
+msgstr "Công cụ nâng cao WiFi"
 
 msgid "WiFi Connection Manager"
-msgstr ""
+msgstr "Trình quản lý kết nối WiFi"
 
 msgid "WiFi Diagnostics"
-msgstr ""
+msgstr "Chẩn đoán Wi-Fi"
 
 msgid "WiFi Manager"
-msgstr ""
+msgstr "Trình quản lý Wi-Fi"
 
 msgid "WiFi Manager iwconfig version {}"
-msgstr ""
+msgstr "Phiên bản iwconfig của Trình quản lý WiFi {}"
 
 msgid "WiFi Manager v."
-msgstr ""
+msgstr "Trình quản lý WiFi v."
 
 msgid "WiFi Password"
-msgstr ""
+msgstr "Mật khẩu Wi-Fi"
 
 msgid "WiFi Scanner"
-msgstr ""
+msgstr "Máy quét WiFi"
 
 msgid "WiFi Signal Monitor"
-msgstr ""
+msgstr "Giám sát tín hiệu WiFi"
 
 msgid "WiFi Speed Test Manager"
-msgstr ""
+msgstr "Trình quản lý kiểm tra tốc độ WiFi"
 
 msgid "WiFi diagnostics and tests"
-msgstr ""
+msgstr "Chẩn đoán và kiểm tra WiFi"
 
 msgid "Wired"
-msgstr ""
+msgstr "Có dây"
 
 msgid "Wireless"
-msgstr ""
+msgstr "Không dây"
 
 msgid "Wireless info error: {}"
-msgstr ""
+msgstr "Lỗi thông tin không dây: {}"
 
 msgid "Yes"
-msgstr ""
+msgstr "Đúng"
 
 msgid "[LOCK]"
-msgstr ""
+msgstr "[KHÓA]"
 
 msgid "[OPEN]"
-msgstr ""
+msgstr "[MỞ]"
 
 msgid "[SAVED]"
-msgstr ""
+msgstr "[ĐÃ LƯU]"
 
 msgid "bits"
-msgstr ""
+msgstr "bit"
 
 msgid "ethtool not found"
-msgstr ""
+msgstr "không tìm thấy ethtool"
 
 msgid "iwlist error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "lỗi iwlist trên {interface}: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist error: {}\\\\\\\\n"
-msgstr ""
+msgstr "lỗi danh sách iwlist: {}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist exception on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "iwlist ngoại lệ trên {interface}: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist timeout on {}\\\\\\\\n"
-msgstr ""
+msgstr "iwlist hết thời gian chờ trên {}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist: No networks found or interface busy\\\\\\\\n"
-msgstr ""
+msgstr "iwlist: Không tìm thấy mạng hoặc giao diện bận\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "iwlist: Không tìm thấy mạng\\\\\\\\\\\\\\\\n"
 
 msgid "lifetime"
-msgstr ""
+msgstr "trọn đời"
 
 msgid "limit"
-msgstr ""
+msgstr "giới hạn"
 
 msgid "long {type}:{value}"
-msgstr ""
+msgstr "dài {type}:{value}"
 
 msgid "max {type}:{value}"
-msgstr ""
+msgstr "tối đa {type}:{value}"
 
 msgid "min {type}:{value}"
-msgstr ""
+msgstr "phút {type}:{value}"
 
 msgid "off"
-msgstr ""
+msgstr "tắt"
 
 msgid "on"
-msgstr ""
+msgstr "TRÊN"
 
 msgid "pythonwifi: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "pythonwifi: Không tìm thấy mạng\\\\\\\\\\\\\\\\n"
 
 msgid "share experiences,and connect with other users."
-msgstr ""
+msgstr "chia sẻ kinh nghiệm và kết nối với những người dùng khác."
 
 msgid "short {type}:{value}"
-msgstr ""
+msgstr "ngắn {type}:{value}"
 
 msgid "wait..."
-msgstr ""
+msgstr "Chờ đợi..."
 
 msgid "{:.1f} ms"
-msgstr ""
+msgstr "{:.1f} mili giây"
 
 msgid "{:.1f}%"
 msgstr ""
 
 msgid "{:2d}. {} {:20} | Signal: {:4} dBm ({}) | Channel: {}\\\\\\\\n"
-msgstr ""
+msgstr "{:2d}. {} {:20} | Tín hiệu: {:4} dBm ({}) | Kênh: {}\\\\\\\\\\\\\\\\n"
 
 msgid "{connection}{saved}{icon} {essid} | {security} | {signal} dBm"
 msgstr ""
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}...\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} | Chất lượng: {quality:3}% | Tín hiệu: {signal:4} dBm | {bssid}...\\\\\\\\\\\\\\\\n"
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} | Chất lượng: {quality:3}% | Tín hiệu: {signal:4} dBm | {bssid}\\\\\\\\\\\\\\\\n"
 
 msgid "{icon} {interface}: {status}\\\\\\\\n"
 msgstr ""
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel:2} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Chất lượng: {quality:3}% ({signal_quality}) | Tín hiệu: {signal:4} dBm | Kênh: {channel:2} | Đã mã hóa: {encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Chất lượng: {quality:3}% ({signal_quality}) | Tín hiệu: {signal:4} dBm | Kênh: {channel:2} | Đã mã hóa: {encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Chất lượng: {quality:3}% | Tín hiệu: {signal:4} dBm\\\\\\\\\\\\\\\\n"
 
 msgid "{index}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Chất lượng: {quality:3}% | Tín hiệu: {signal:4} dBm\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Connected to {essid} ({quality})\\\\\\\\n"
-msgstr ""
+msgstr "{interface}: Đã kết nối với {essid} ({quality})\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Not connected\\\\\\\\n"
-msgstr ""
+msgstr "{interface}: Chưa kết nối\\\\\\\\\\\\\\\\n"
 
 msgid "{name} ({host}): {ping}"
 msgstr ""
 
 msgid "{name} ({sponsor}): {ping}"
-msgstr ""
+msgstr "{name} ({host}): {ping}"
 
 msgid "{name}: Error {error}"
-msgstr ""
+msgstr "{name}: Lỗi {error}"
 
 msgid "{name}: Failed"
-msgstr ""
+msgstr "{name}: Không thành công"
 
 msgid "{name}: Timeout"
-msgstr ""
+msgstr "{name}: Hết giờ"
 
 msgid "{name}: {speed:.2f} Mbps"
-msgstr ""
+msgstr "{name}: {speed:.2f} Mb/giây"
 
 msgid "{server}: {speed:.2f} Mbps ({data:.1f} MB in {time:.1f}s)\\\\\\\\n"
-msgstr ""
+msgstr "{server}: {speed:.2f} Mbps ({data:.1f} MB trong {time:.1f} giây)\\\\\\\\\\\\\\\\n"
 
 msgid "{speed:.2f} Mbps"
-msgstr ""
+msgstr "{speed:.2f} Mb/giây"
 
 msgid "{} ({:.0f}%)"
 msgstr ""
 
 msgid "{} - Open network - Press OK for options"
-msgstr ""
+msgstr "{} - Mở mạng - Nhấn OK để có các tùy chọn"
 
 msgid "{} - Password required - Press OK for options"
-msgstr ""
+msgstr "{} - Yêu cầu mật khẩu - Nhấn OK để có các tùy chọn"
 
 msgid "{} - Password saved - Press OK for options"
-msgstr ""
+msgstr "{} - Đã lưu mật khẩu - Nhấn OK để có các tùy chọn"
 
 msgid "{} GHz"
 msgstr ""
@@ -1487,328 +1487,328 @@ msgid "{} Mb/s"
 msgstr ""
 
 msgid "{} Status: {}\\\\\\\\n"
-msgstr ""
+msgstr "{} Trạng thái: {}\\\\\\\\\\\\\\\\n"
 
 msgid "{} Type: {} interface\\\\\\\\n"
-msgstr ""
+msgstr "{} Loại: {} giao diện\\\\\\\\\\\\\\\\n"
 
 msgid "{} dBm"
 msgstr ""
 
 msgid "{}: Failed"
-msgstr ""
+msgstr "{}: Thất bại"
 
 msgid "{}: {:.1f} ms"
-msgstr ""
+msgstr "{}: {:.1f} mili giây"
 
 msgid "{}\\\\\\\\n"
-msgstr ""
+msgstr "{}\\\\\\\\\\\\\\\\N"
 
 msgid " Keep drivers updated\\\\\\\\n"
-msgstr ""
+msgstr "Luôn cập nhật trình điều khiển\\\\\\\\\\\\\\\\n"
 
 msgid " Monitor signal strength for best performance\\\\\\\\n"
-msgstr ""
+msgstr "Theo dõi cường độ tín hiệu để có hiệu suất tốt nhất\\\\\\\\\\\\\\\\n"
 
 msgid " Use 5GHz band for less interference\\\\\\\\n"
-msgstr ""
+msgstr "Sử dụng băng tần 5GHz để ít bị nhiễu hơn\\\\\\\\\\\\\\\\n"
 
 msgid "  No USB WiFi adapters found\\\\\\\\n"
-msgstr ""
+msgstr "Không tìm thấy bộ điều hợp USB WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "  Interface {interface}: DOWN (needs activation)\\\\\\\\n"
-msgstr ""
+msgstr "Giao diện {interface}: DOWN (cần kích hoạt)\\\\\\\\\\\\\\\\n"
 
 msgid "  Missing commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "Thiếu lệnh: {commands}\\\\\\\\\\\\\\\\n"
 
 msgid "  No WiFi kernel modules detected\\\\\\\\n"
-msgstr ""
+msgstr "Không phát hiện thấy mô-đun hạt nhân WiFi nào\\\\\\\\\\\\\\\\n"
 
 msgid "  Scan: Interface busy (connected to network)\\\\\\\\n"
-msgstr ""
+msgstr "Quét: Giao diện bận (đã kết nối mạng)\\\\\\\\\\\\\\\\n"
 
 msgid "  {test}: No data\\\\\\\\n"
-msgstr ""
+msgstr "{test}: Không có dữ liệu\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed\\\\\\\\n"
-msgstr ""
+msgstr "Tốc độ tải xuống trung bình\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Độ trễ trung bình ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency\\\\\\\\n"
-msgstr ""
+msgstr "Độ trễ trung bình\\\\\\\\\\\\\\\\n"
 
 msgid " Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "Tốc độ tải xuống tốt\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency\\\\\\\\n"
-msgstr ""
+msgstr "Độ trễ tốt\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Độ trễ tuyệt vời ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " TX Power: {}\\\\\\\\n"
-msgstr ""
+msgstr "Nguồn TX: {}\\\\\\\\\\\\\\\\n"
 
 msgid " All systems operational\\\\\\\\n"
-msgstr ""
+msgstr "Tất cả các hệ thống đều hoạt động\\\\\\\\\\\\\\\\n"
 
 msgid " Available commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "Các lệnh có sẵn: {commands}\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "Tốc độ tải xuống tuyệt vời\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency\\\\\\\\n"
-msgstr ""
+msgstr "Độ trễ tuyệt vời\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Độ trễ tốt ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: UP and active\\\\\\\\n"
-msgstr ""
+msgstr "Giao diện {interface}: LÊN và hoạt động\\\\\\\\\\\\\\\\n"
 
 msgid " Loaded WiFi modules: {modules}\\\\\\\\n"
-msgstr ""
+msgstr "Đã tải các mô-đun WiFi: {modules}\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: WiFi hardware detected and functional\\\\\\\\n"
-msgstr ""
+msgstr "TRẠNG THÁI HỆ THỐNG: Đã phát hiện phần cứng WiFi và hoạt động\\\\\\\\\\\\\\\\n"
 
 msgid " USB WiFi adapters detected:\\\\\\\\n"
-msgstr ""
+msgstr "Đã phát hiện bộ điều hợp USB WiFi:\\\\\\\\\\\\\\\\n"
 
 msgid " {test}: {output}\\\\\\\\n"
-msgstr ""
+msgstr "{test}: {output}\\\\\\\\\\\\\\\\n"
 
 msgid " CRITICAL: No WiFi interfaces detected!\\\\\\\\n"
-msgstr ""
+msgstr "QUAN TRỌNG: Không phát hiện thấy giao diện WiFi nào!\\\\\\\\\\\\\\\\n"
 
 msgid " Download test failed\\\\\\\\n"
-msgstr ""
+msgstr "Kiểm tra tải xuống không thành công\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Kiểm tra ESSID: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Error: {}\\\\\\\\n"
-msgstr ""
+msgstr "Lỗi: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Kiểm tra giao diện không thành công: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: NOT FOUND\\\\\\\\n"
-msgstr ""
+msgstr "Giao diện {interface}: KHÔNG TÌM THẤY\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: UNKNOWN STATE\\\\\\\\n"
-msgstr ""
+msgstr "Giao diện {interface}: TRẠNG THÁI KHÔNG XÁC ĐỊNH\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {} not found or not a WiFi interface\\\\\\\\n"
-msgstr ""
+msgstr "Giao diện {} không tìm thấy hoặc không có giao diện WiFi\\\\\\\\\\\\\\\\n"
 
 msgid " Kernel module check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Kiểm tra mô-đun hạt nhân không thành công: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Latency test failed\\\\\\\\n"
-msgstr ""
+msgstr "Kiểm tra độ trễ không thành công\\\\\\\\\\\\\\\\n"
 
 msgid " Mode check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Kiểm tra chế độ: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "Tốc độ tải xuống kém\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency\\\\\\\\n"
-msgstr ""
+msgstr "Độ trễ kém\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: No WiFi interfaces detected\\\\\\\\n"
-msgstr ""
+msgstr "TRẠNG THÁI HỆ THỐNG: Không phát hiện thấy giao diện WiFi\\\\\\\\\\\\\\\\n"
 
 msgid " Scan test: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Kiểm tra quét: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Signal check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Kiểm tra tín hiệu: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " USB device check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Kiểm tra thiết bị USB không thành công: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Very poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Độ trễ rất kém ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " {}\\\\\\\\n"
-msgstr ""
+msgstr "{}\\\\\\\\\\\\\\\\N"
 
 msgid " Cannot assess connection quality\\\\\\\\n"
-msgstr ""
+msgstr "Không thể đánh giá chất lượng kết nối\\\\\\\\\\\\\\\\n"
 
 msgid " Download speed unavailable\\\\\\\\n"
-msgstr ""
+msgstr "Không có tốc độ tải xuống\\\\\\\\\\\\\\\\n"
 
 msgid " Latency unavailable\\\\\\\\n"
-msgstr ""
+msgstr "Độ trễ không có sẵn\\\\\\\\\\\\\\\\n"
 
 msgid " Quality assessment unavailable\\\\\\\\n"
-msgstr ""
+msgstr "Đánh giá chất lượng không có\\\\\\\\\\\\\\\\n"
 
 msgid "  Transmitted: {}\\\\\\\\n"
-msgstr ""
+msgstr "Đã truyền: {}\\\\\\\\\\\\\\\\n"
 
 msgid "  Received: {}\\\\\\\\n"
-msgstr ""
+msgstr "Đã nhận: {}\\\\\\\\\\\\\\\\n"
 
 msgid " AVAILABLE NETWORKS\\\\\\\\n"
-msgstr ""
+msgstr "MẠNG CÓ SẴN\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: IP {ip} - ONLINE\\\\\\\\n"
-msgstr ""
+msgstr "Kết nối: IP {ip} - TRỰC TUYẾN\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: No IP address - OFFLINE\\\\\\\\n"
-msgstr ""
+msgstr "Kết nối: Không có địa chỉ IP - OFFLINE\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: Unknown status\\\\\\\\n"
-msgstr ""
+msgstr "Kết nối: Trạng thái không xác định\\\\\\\\\\\\\\\\n"
 
 msgid " EXCELLENT connection\\\\\\\\n"
-msgstr ""
+msgstr "Kết nối TUYỆT VỜI\\\\\\\\\\\\\\\\n"
 
 msgid " SERVER INFORMATION:\\\\\\\\n"
-msgstr ""
+msgstr "THÔNG TIN MÁY CHỦ:\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Độ trễ kém ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " FAIR connection\\\\\\\\n"
-msgstr ""
+msgstr "Kết nối CÔNG BẰNG\\\\\\\\\\\\\\\\n"
 
 msgid " GOOD connection\\\\\\\\n"
-msgstr ""
+msgstr "Kết nối TỐT\\\\\\\\\\\\\\\\n"
 
 msgid " POOR connection\\\\\\\\n"
-msgstr ""
+msgstr "Kết nối Kém\\\\\\\\\\\\\\\\n"
 
 msgid " CLIENT INFORMATION:\\\\\\\\n"
-msgstr ""
+msgstr "THÔNG TIN KHÁCH HÀNG:\\\\\\\\\\\\\\\\n"
 
 msgid " All basic diagnostics available\\\\\\\\n"
-msgstr ""
+msgstr "Tất cả các chẩn đoán cơ bản đều có sẵn\\\\\\\\\\\\\\\\n"
 
 msgid " Tips:\\\\\\\\n"
-msgstr ""
+msgstr "Lời khuyên:\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "Trình điều khiển: Không rõ\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: {}\\\\\\\\n"
-msgstr ""
+msgstr "Người lái xe: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Protocol: {}\\\\\\\\n"
-msgstr ""
+msgstr "Giao thức: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "Tốc độ tải xuống tuyệt vời ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " TEST RESULTS:\\\\\\\\n"
-msgstr ""
+msgstr "KẾT QUẢ KIỂM TRA:\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "Tốc độ tải xuống trung bình ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " Poor download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "Tốc độ tải xuống kém ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " Good download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "Tốc độ tải xuống tốt ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " NETWORK STATISTICS\\\\\\\\n"
-msgstr ""
+msgstr "THỐNG KÊ MẠNG\\\\\\\\\\\\\\\\n"
 
 msgid " Quality: {}\\\\\\\\n"
-msgstr ""
+msgstr "Chất lượng: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Signal: No quality data available\\\\\\\\n"
-msgstr ""
+msgstr "Tín hiệu: Không có sẵn dữ liệu chất lượng\\\\\\\\\\\\\\\\n"
 
 msgid " Signal: {quality}% quality, {signal} dBm\\\\\\\\n"
-msgstr ""
+msgstr "Tín hiệu: chất lượng {quality}%, {signal} dBm\\\\\\\\\\\\\\\\n"
 
 msgid " MAC: {}\\\\\\\\n"
-msgstr ""
+msgstr "MAC: {}\\\\\\\\\\\\\\\\n"
 
 msgid " DETAILED WIFI INFORMATION - {}\\\\\\\\n"
-msgstr ""
+msgstr "THÔNG TIN CHI TIẾT WIFI - {}\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: {}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface Type: WIRELESS\\\\\\\\n"
-msgstr ""
+msgstr "Loại giao diện: KHÔNG DÂY\\\\\\\\\\\\\\\\n"
 
 msgid " Scan: Found {count} networks\\\\\\\\n"
-msgstr ""
+msgstr "Quét: Đã tìm thấy {count} mạng\\\\\\\\\\\\\\\\n"
 
 msgid " Type: Wireless interface\\\\\\\\n"
-msgstr ""
+msgstr "Loại: Giao diện không dây\\\\\\\\\\\\\\\\n"
 
 msgid " Connection appears good (based on download)\\\\\\\\n"
-msgstr ""
+msgstr "Kết nối có vẻ tốt (dựa trên tải xuống)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection appears responsive (based on ping)\\\\\\\\n"
-msgstr ""
+msgstr "Kết nối có vẻ phản hồi nhanh (dựa trên ping)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection may be limited (based on download)\\\\\\\\n"
-msgstr ""
+msgstr "Kết nối có thể bị hạn chế (dựa trên tải xuống)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection may be slow (based on ping)\\\\\\\\n"
-msgstr ""
+msgstr "Kết nối có thể chậm (dựa trên ping)\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: Not connected\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: Chưa kết nối\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: {essid}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: {essid}\\\\\\\\\\\\\\\\n"
 
 msgid " Frequency: {}\\\\\\\\n"
-msgstr ""
+msgstr "Tần suất: {}\\\\\\\\\\\\\\\\n"
 
 msgid " WIRELESS INFORMATION\\\\\\\\n"
-msgstr ""
+msgstr "THÔNG TIN KHÔNG DÂY\\\\\\\\\\\\\\\\n"
 
 msgid " DRIVER & HARDWARE\\\\\\\\n"
-msgstr ""
+msgstr "TRÌNH ĐIỀU KHIỂN & PHẦN CỨNG\\\\\\\\\\\\\\\\n"
 
 msgid " Type: Wired interface\\\\\\\\n"
-msgstr ""
+msgstr "Loại: Giao diện có dây\\\\\\\\\\\\\\\\n"
 
 msgid " BASIC INTERFACE INFO\\\\\\\\n"
-msgstr ""
+msgstr "THÔNG TIN GIAO DIỆN CƠ BẢN\\\\\\\\\\\\\\\\n"
 
 msgid " Interface: {}\\\\\\\\n"
-msgstr ""
+msgstr "Giao diện: {}\\\\\\\\\\\\\\\\n"
 
 msgid " METHOD: Using system commands (no root required)\\\\\\\\n"
-msgstr ""
+msgstr "PHƯƠNG PHÁP: Sử dụng lệnh hệ thống (không cần root)\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "Chế độ: Không xác định\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: {mode}\\\\\\\\n"
-msgstr ""
+msgstr "Chế độ: {mode}\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: {}\\\\\\\\n"
-msgstr ""
+msgstr "Chế độ: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Module: {}\\\\\\\\n"
-msgstr ""
+msgstr "Mô-đun: {}\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM LEVEL DIAGNOSTICS\\\\\\\\n"
-msgstr ""
+msgstr "CHẨN ĐOÁN CẤP HỆ THỐNG\\\\\\\\\\\\\\\\n"
 
 msgid " Bit Rate: {}\\\\\\\\n"
-msgstr ""
+msgstr "Tốc độ bit: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Check hardware connection and drivers\\\\\\\\n"
-msgstr ""
+msgstr "Kiểm tra kết nối phần cứng và trình điều khiển\\\\\\\\\\\\\\\\n"
 
 msgid " VERY POOR connection\\\\\\\\n"
-msgstr ""
+msgstr "Kết nối RẤT KÉM\\\\\\\\\\\\\\\\n"

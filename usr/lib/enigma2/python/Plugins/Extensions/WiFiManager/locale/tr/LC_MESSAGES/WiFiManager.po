@@ -14,16 +14,16 @@ msgid "- {adapter}\\\\\\\\n"
 msgstr ""
 
 msgid "... and {} more networks\\\\\\\\n"
-msgstr ""
+msgstr "... ve {} ağ daha\\\\\\\\\\\\\\\\n"
 
 msgid "1 dBm (Min)"
 msgstr ""
 
 msgid "1. Check if WiFi adapter is properly connected\\\\\\\\n"
-msgstr ""
+msgstr "1. WiFi adaptörünün düzgün şekilde bağlanıp bağlanmadığını kontrol edin\\\\\\\\\\\\\\\\n"
 
 msgid "1. Disconnect from current WiFi network\\\\\\\\n"
-msgstr ""
+msgstr "1. Mevcut WiFi ağının bağlantısını kesin\\\\\\\\\\\\\\\\n"
 
 msgid "10 dBm"
 msgstr ""
@@ -32,346 +32,346 @@ msgid "15 dBm"
 msgstr ""
 
 msgid "2. Restart WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "2. WiFi bağdaştırıcısını yeniden başlatın\\\\\\\\\\\\\\\\n"
 
 msgid "2. Verify WiFi adapter is supported by your receiver\\\\\\\\n"
-msgstr ""
+msgstr "2. WiFi adaptörünün alıcınız tarafından desteklendiğini doğrulayın\\\\\\\\\\\\\\\\n"
 
 msgid "20 dBm (Max)"
-msgstr ""
+msgstr "20 dBm (Maks.)"
 
 msgid "3. Check if WiFi driver is installed\\\\\\\\n"
-msgstr ""
+msgstr "3. WiFi sürücüsünün kurulu olup olmadığını kontrol edin\\\\\\\\\\\\\\\\n"
 
 msgid "3. Try different USB port for USB WiFi adapters\\\\\\\\n"
-msgstr ""
+msgstr "3. USB WiFi adaptörleri için farklı USB bağlantı noktasını deneyin\\\\\\\\\\\\\\\\n"
 
 msgid "4. Check if WiFi drivers are installed\\\\\\\\n"
-msgstr ""
+msgstr "4. WiFi sürücülerinin yüklü olup olmadığını kontrol edin\\\\\\\\\\\\\\\\n"
 
 msgid "4. Try with different USB WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "4. Farklı USB WiFi adaptörüyle deneyin\\\\\\\\\\\\\\\\n"
 
 msgid "5 dBm"
 msgstr ""
 
 msgid "5. Check root permissions\\\\\\\\n"
-msgstr ""
+msgstr "5. Kök izinlerini kontrol edin\\\\\\\\\\\\\\\\n"
 
 msgid "5. Restart the receiver and try again\\\\\\\\n"
-msgstr ""
+msgstr "5. Alıcıyı yeniden başlatın ve tekrar deneyin\\\\\\\\\\\\\\\\n"
 
 msgid "=== WiFi Diagnostics (System Commands Only) ===\\\\\\\\n"
-msgstr ""
+msgstr "=== WiFi Tanılaması (Yalnızca Sistem Komutları) ===\\\\\\\\\\\\\\\\n"
 
 msgid "ACTIVE"
-msgstr ""
+msgstr "AKTİF"
 
 msgid "About"
-msgstr ""
+msgstr "Hakkında"
 
 msgid "Access Point"
-msgstr ""
+msgstr "Erişim Noktası"
 
 msgid "Access Point: {ap}"
-msgstr ""
+msgstr "Erişim Noktası: {ap}"
 
 msgid "Access Points"
-msgstr ""
+msgstr "Erişim Noktaları"
 
 msgid "Access points info displayed."
-msgstr ""
+msgstr "Erişim noktaları bilgileri görüntüleniyor."
 
 msgid "Ad-Hoc"
-msgstr ""
+msgstr "Geçici"
 
 msgid "Advanced"
-msgstr ""
+msgstr "Gelişmiş"
 
 msgid "Advanced Config"
-msgstr ""
+msgstr "Gelişmiş Yapılandırma"
 
 msgid "Advanced Config - {}"
-msgstr ""
+msgstr "Gelişmiş Yapılandırma - {}"
 
 msgid "Advanced Scan"
-msgstr ""
+msgstr "Gelişmiş Tarama"
 
 msgid "Advanced Scan Results"
-msgstr ""
+msgstr "Gelişmiş Tarama Sonuçları"
 
 msgid "Advanced Tools"
-msgstr ""
+msgstr "Gelişmiş Araçlar"
 
 msgid "Advanced WiFi Configuration"
-msgstr ""
+msgstr "Gelişmiş WiFi Yapılandırması"
 
 msgid "Advanced WiFi Tools"
-msgstr ""
+msgstr "Gelişmiş WiFi Araçları"
 
 msgid "Advanced WiFi configuration"
-msgstr ""
+msgstr "Gelişmiş Wi-Fi yapılandırması"
 
 msgid "Advanced WiFi configuration settings"
-msgstr ""
+msgstr "Gelişmiş WiFi yapılandırma ayarları"
 
 msgid "Advanced WiFi interface configuration"
-msgstr ""
+msgstr "Gelişmiş WiFi arayüzü yapılandırması"
 
 msgid "Advanced configuration completed."
-msgstr ""
+msgstr "Gelişmiş yapılandırma tamamlandı."
 
 msgid "All Network Interfaces: {interfaces}\\\\\\\\n"
-msgstr ""
+msgstr "Tüm Ağ Arayüzleri: {interfaces}\\\\\\\\\\\\\\\\n"
 
 msgid "All ping tests failed"
-msgstr ""
+msgstr "Tüm ping testleri başarısız oldu"
 
 msgid "All settings reset to defaults"
-msgstr ""
+msgstr "Tüm ayarlar varsayılanlara sıfırlandı"
 
 msgid "Applied: {} commands\\\\\\\\n"
-msgstr ""
+msgstr "Uygulanan: {} komutlar\\\\\\\\\\\\\\\\n"
 
 msgid "Apply"
-msgstr ""
+msgstr "Uygula"
 
 msgid "Auto"
-msgstr ""
+msgstr "Otomatik"
 
 msgid "Auto  limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "Otomatik sınırlama; minimum sınır:{limit}"
 
 msgid "Automatic (DHCP)"
-msgstr ""
+msgstr "Otomatik (DHCP)"
 
 msgid "Available frequencies and channels for your region"
-msgstr ""
+msgstr "Bölgeniz için mevcut frekanslar ve kanallar"
 
 msgid "Available frequencies/channels"
-msgstr ""
+msgstr "Mevcut frekanslar/kanallar"
 
 msgid "Available interfaces: {}"
-msgstr ""
+msgstr "Mevcut arayüzler: {}"
 
 msgid "Back"
-msgstr ""
+msgstr "Geri"
 
 msgid "Basic"
-msgstr ""
+msgstr "Temel"
 
 msgid "Basic info error: {}"
-msgstr ""
+msgstr "Temel bilgi hatası: {}"
 
 msgid "Basic view enabled - rescan to see basic info"
-msgstr ""
+msgstr "Temel görünüm etkinleştirildi - temel bilgileri görmek için yeniden tarayın"
 
 msgid "Bit Rate: {rate}"
-msgstr ""
+msgstr "Bit Hızı: {rate}"
 
 msgid "Bit Rates:"
-msgstr ""
+msgstr "Bit Hızları:"
 
 msgid "Bitrate"
-msgstr ""
+msgstr "Bit hızı"
 
 msgid "Bitrate Info"
-msgstr ""
+msgstr "Bit Hızı Bilgisi"
 
 msgid "Bitrate info displayed."
-msgstr ""
+msgstr "Bit hızı bilgisi görüntüleniyor."
 
 msgid "Bitrate information not available\\\\\\\\n"
-msgstr ""
+msgstr "Bit hızı bilgisi mevcut değil\\\\\\\\\\\\\\\\n"
 
 msgid "CONNECTED to: {} - Press OK for options"
-msgstr ""
+msgstr "BAĞLANTI: {} - Seçenekler için Tamam'a basın"
 
 msgid "Cancel"
-msgstr ""
+msgstr "İptal etmek"
 
 msgid "Cancelling test..."
-msgstr ""
+msgstr "Test iptal ediliyor..."
 
 msgid "Cell"
-msgstr ""
+msgstr "Hücre"
 
 msgid "Channel"
-msgstr ""
+msgstr "Kanal"
 
 msgid "Channel Info"
-msgstr ""
+msgstr "Kanal Bilgisi"
 
 msgid "Channel info displayed."
-msgstr ""
+msgstr "Kanal bilgisi görüntüleniyor."
 
 msgid "Channel {}"
-msgstr ""
+msgstr "Kanal {}"
 
 msgid "Channel: %s\\\\\\\\n"
-msgstr ""
+msgstr "Kanal: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Check System Logs"
-msgstr ""
+msgstr "Sistem Günlüklerini Kontrol Edin"
 
 msgid "Check system logs for WiFi errors"
-msgstr ""
+msgstr "WiFi hataları için sistem günlüklerini kontrol edin"
 
 msgid "Check system logs for WiFi errors and connection issues"
-msgstr ""
+msgstr "WiFi hataları ve bağlantı sorunları için sistem günlüklerini kontrol edin"
 
 msgid "Checking internet connection..."
-msgstr ""
+msgstr "İnternet bağlantısı kontrol ediliyor..."
 
 msgid "Checking system logs..."
-msgstr ""
+msgstr "Sistem günlükleri kontrol ediliyor..."
 
 msgid "Clear"
-msgstr ""
+msgstr "Temizlemek"
 
 msgid "Client info completed"
-msgstr ""
+msgstr "Müşteri bilgileri tamamlandı"
 
 msgid "Client info error: {error}"
-msgstr ""
+msgstr "İstemci bilgisi hatası: {error}"
 
 msgid "Close"
-msgstr ""
+msgstr "Kapalı"
 
 msgid "Cloudflare"
-msgstr ""
+msgstr "Bulut parlaması"
 
 msgid "Complete iwconfig-like information"
-msgstr ""
+msgstr "iwconfig benzeri bilgileri tamamlayın"
 
 msgid "Config"
-msgstr ""
+msgstr "Yapılandırma"
 
 msgid "Configure {}"
-msgstr ""
+msgstr "{}'ı yapılandır"
 
 msgid "Connect"
-msgstr ""
+msgstr "Bağlamak"
 
 msgid "Connect to WiFi networks"
-msgstr ""
+msgstr "WiFi ağlarına bağlanın"
 
 msgid "Connected but no timing data"
-msgstr ""
+msgstr "Bağlı ancak zamanlama verisi yok"
 
 msgid "Connected successfully!"
-msgstr ""
+msgstr "Başarıyla bağlanıldı!"
 
 msgid "Connected to %s"
-msgstr ""
+msgstr "%s'e bağlanıldı"
 
 msgid "Connected to: %s"
-msgstr ""
+msgstr "Bağlandı: %s"
 
 msgid "Connected: {} | Signal: {} dBm | IP: {}"
-msgstr ""
+msgstr "Bağlandı: {} | Sinyal: {} dBm | IP: {}"
 
 msgid "Connecting to %s..."
-msgstr ""
+msgstr "%s'e bağlanılıyor..."
 
 msgid "Connection Info"
-msgstr ""
+msgstr "Bağlantı Bilgisi"
 
 msgid "Connection failed!"
-msgstr ""
+msgstr "Bağlantı başarısız oldu!"
 
 msgid "Connection timeout"
-msgstr ""
+msgstr "Bağlantı zaman aşımı"
 
 msgid "Country Code"
-msgstr ""
+msgstr "Ülke kodu"
 
 msgid "DHCP"
 msgstr ""
 
 msgid "DNS Server 1"
-msgstr ""
+msgstr "DNS Sunucusu 1"
 
 msgid "DNS Server 2"
-msgstr ""
+msgstr "DNS Sunucusu 2"
 
 msgid "DOWN"
-msgstr ""
+msgstr "AŞAĞI"
 
 msgid "Data Rate"
-msgstr ""
+msgstr "Veri Hızı"
 
 msgid "Defaults"
-msgstr ""
+msgstr "Varsayılanlar"
 
 msgid "Detailed Info - {}"
-msgstr ""
+msgstr "Ayrıntılı Bilgi - {}"
 
 msgid "Detailed network scanning"
-msgstr ""
+msgstr "Ayrıntılı ağ taraması"
 
 msgid "Detailed network scanning with signal strength and encryption info"
-msgstr ""
+msgstr "Sinyal gücü ve şifreleme bilgileriyle ayrıntılı ağ taraması"
 
 msgid "Detailed speed test failed - Check internet connection"
-msgstr ""
+msgstr "Ayrıntılı hız testi başarısız oldu - İnternet bağlantısını kontrol edin"
 
 msgid "Detailed test completed"
-msgstr ""
+msgstr "Ayrıntılı test tamamlandı"
 
 msgid "Detailed test error: {error}"
-msgstr ""
+msgstr "Ayrıntılı test hatası: {error}"
 
 msgid "Detailed view enabled - rescan to see details"
-msgstr ""
+msgstr "Ayrıntılı görünüm etkinleştirildi - ayrıntıları görmek için yeniden tarayın"
 
 msgid "Details"
-msgstr ""
+msgstr "Detaylar"
 
 msgid "Details Info"
-msgstr ""
+msgstr "Detay Bilgisi"
 
 msgid "Diagnostic error: {}\\\\\\\\n"
-msgstr ""
+msgstr "Teşhis hatası: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Diagnostics"
-msgstr ""
+msgstr "Teşhis"
 
 msgid "Disconnect"
-msgstr ""
+msgstr "Bağlantıyı kes"
 
 msgid "Disconnected"
-msgstr ""
+msgstr "Bağlantı kesildi"
 
 msgid "Disconnecting..."
-msgstr ""
+msgstr "Bağlantı kesiliyor..."
 
 msgid "Download Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "İndirme Hızı: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Download Speed: {download}\\\\\\\\n"
-msgstr ""
+msgstr "İndirme Hızı: {download}\\\\\\\\\\\\\\\\n"
 
 msgid "Download test completed"
-msgstr ""
+msgstr "İndirme testi tamamlandı"
 
 msgid "Download: Failed\\\\\\\\n"
-msgstr ""
+msgstr "İndirme: Başarısız oldu\\\\\\\\\\\\\\\\n"
 
 msgid "Download: {:.2f} Mbps\\\\\\\\n"
-msgstr ""
+msgstr "İndirme: {:.2f} Mbps\\\\\\\\\\\\\\\\n"
 
 msgid "Driver check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Sürücü kontrolü başarısız oldu: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "Driver info error: {}"
-msgstr ""
+msgstr "Sürücü bilgisi hatası: {}"
 
 msgid "Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "Sürücü: Bilinmiyor\\\\\\\\\\\\\\\\n"
 
 msgid "Driver: {driver}\\\\\\\\n"
-msgstr ""
+msgstr "Sürücü: {driver}\\\\\\\\\\\\\\\\n"
 
 msgid "ESSID: %s\\\\\\\\n"
 msgstr ""
@@ -380,250 +380,250 @@ msgid "ESSID: {}"
 msgstr ""
 
 msgid "Edit Configuration"
-msgstr ""
+msgstr "Yapılandırmayı Düzenle"
 
 msgid "Edit Password"
-msgstr ""
+msgstr "Şifreyi Düzenle"
 
 msgid "Encryption"
-msgstr ""
+msgstr "Şifreleme"
 
 msgid "Encryption Info"
-msgstr ""
+msgstr "Şifreleme Bilgisi"
 
 msgid "Encryption info displayed."
-msgstr ""
+msgstr "Şifreleme bilgisi görüntüleniyor."
 
 msgid "Encryption information not available\\\\\\\\n"
-msgstr ""
+msgstr "Şifreleme bilgisi mevcut değil\\\\\\\\\\\\\\\\n"
 
 msgid "Encryption keys and security"
-msgstr ""
+msgstr "Şifreleme anahtarları ve güvenlik"
 
 msgid "Encryption keys and security protocols"
-msgstr ""
+msgstr "Şifreleme anahtarları ve güvenlik protokolleri"
 
 msgid "Encryption: %s\\\\\\\\n"
-msgstr ""
+msgstr "Şifreleme: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Enter Password"
-msgstr ""
+msgstr "Şifreyi Girin"
 
 msgid "Enter password for: %s"
-msgstr ""
+msgstr "Şunun için şifreyi girin: %s"
 
 msgid "Error"
-msgstr ""
+msgstr "Hata"
 
 msgid "Error applying advanced settings: {}"
-msgstr ""
+msgstr "Gelişmiş ayarlar uygulanırken hata oluştu: {}"
 
 msgid "Error applying settings: {}"
-msgstr ""
+msgstr "Ayarlar uygulanırken hata oluştu: {}"
 
 msgid "Error disconnecting"
-msgstr ""
+msgstr "Bağlantı kesilirken hata oluştu"
 
 msgid "Error getting AP information: {}"
-msgstr ""
+msgstr "AP bilgileri alınırken hata oluştu: {}"
 
 msgid "Error getting bitrate information: {}"
-msgstr ""
+msgstr "Bit hızı bilgisi alınırken hata oluştu: {}"
 
 msgid "Error getting channel information: {}"
-msgstr ""
+msgstr "Kanal bilgileri alınırken hata oluştu: {}"
 
 msgid "Error getting connection details: {error}"
-msgstr ""
+msgstr "Bağlantı ayrıntıları alınırken hata oluştu: {error}"
 
 msgid "Error getting encryption information: {}"
-msgstr ""
+msgstr "Şifreleme bilgileri alınırken hata oluştu: {}"
 
 msgid "Error getting power information: {}"
-msgstr ""
+msgstr "Güç bilgileri alınırken hata oluştu: {}"
 
 msgid "Error getting retry information: {}"
-msgstr ""
+msgstr "Yeniden deneme bilgisi alınırken hata oluştu: {}"
 
 msgid "Error loading help"
-msgstr ""
+msgstr "Yardım yüklenirken hata oluştu"
 
 msgid "Error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "{interface} ile ilgili hata: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "Error opening {module}: {error}"
-msgstr ""
+msgstr "{module} açılırken hata oluştu: {error}"
 
 msgid "Error running {tool}: {error}"
-msgstr ""
+msgstr "{tool} çalıştırılırken hata oluştu: {error}"
 
 msgid "Error: {error}"
-msgstr ""
+msgstr "Hata: {error}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Hata: {}"
 
 msgid "Estimating upload speed..."
-msgstr ""
+msgstr "Yükleme hızı tahmin ediliyor..."
 
 msgid "Excellent"
-msgstr ""
+msgstr "Harika"
 
 msgid "Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "Mükemmel indirme hızı\\\\\\\\\\\\\\\\n"
 
 msgid "Executing tool..."
-msgstr ""
+msgstr "Araç yürütülüyor..."
 
 msgid "Exit"
-msgstr ""
+msgstr "Çıkış"
 
 msgid "Failed"
-msgstr ""
+msgstr "Arızalı"
 
 msgid "Failed to connect to %s"
-msgstr ""
+msgstr "%s'e bağlanılamadı"
 
 msgid "Failed: {} commands"
-msgstr ""
+msgstr "Başarısız oldu: {} komut"
 
 msgid "Fair"
-msgstr ""
+msgstr "Adil"
 
 msgid "Final connectivity check..."
-msgstr ""
+msgstr "Son bağlantı kontrolü..."
 
 msgid "Finding best server..."
-msgstr ""
+msgstr "En iyi sunucuyu bulma..."
 
 msgid "Fixed lifetime ;  min lifetime:{lifetime}"
-msgstr ""
+msgstr "Sabit ömür; minimum ömür:{lifetime}"
 
 msgid "Fixed limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "Sabit limit; minimum sınır:{limit}"
 
 msgid "For troubleshooting, detailed guidance, or community support, visit:\\\\\\\\n"
-msgstr ""
+msgstr "Sorun giderme, ayrıntılı rehberlik veya topluluk desteği için şu adresi ziyaret edin:\\\\\\\\\\\\\\\\n"
 
 msgid "Forget Network"
-msgstr ""
+msgstr "Ağı Unut"
 
 msgid "Forgotten network: {}"
-msgstr ""
+msgstr "Unutulan ağ: {}"
 
 msgid "Found {} networks:\\\\\\\\n"
-msgstr ""
+msgstr "{} ağ bulundu:\\\\\\\\\\\\\\\\n"
 
 msgid "Found: {}\\\\\\\\n"
-msgstr ""
+msgstr "Bulunan: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Fragmentation"
-msgstr ""
+msgstr "Parçalanma"
 
 msgid "Frequency"
-msgstr ""
+msgstr "Sıklık"
 
 msgid "Frequency information not available\\\\\\\\n"
-msgstr ""
+msgstr "Frekans bilgisi mevcut değil\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency/Channel"
-msgstr ""
+msgstr "Frekans/Kanal"
 
 msgid "Frequency:"
-msgstr ""
+msgstr "Sıklık:"
 
 msgid "Frequency: %s\\\\\\\\n"
-msgstr ""
+msgstr "Frekans: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency: {frequency}"
-msgstr ""
+msgstr "Sıklık: {frequency}"
 
 msgid "Full Comprehensive Test"
-msgstr ""
+msgstr "Tam Kapsamlı Test"
 
 msgid "Full Test"
-msgstr ""
+msgstr "Tam Test"
 
 msgid "Full test completed"
-msgstr ""
+msgstr "Tam test tamamlandı"
 
 msgid "Full test error: {error}"
-msgstr ""
+msgstr "Tam test hatası: {error}"
 
 msgid "Gateway"
-msgstr ""
+msgstr "Geçit"
 
 msgid "Gateway: {gateway}"
-msgstr ""
+msgstr "Ağ Geçidi: {gateway}"
 
 msgid "Gathering client information..."
-msgstr ""
+msgstr "Müşteri bilgileri toplanıyor..."
 
 msgid "Gathering network details..."
-msgstr ""
+msgstr "Ağ ayrıntıları toplanıyor..."
 
 msgid "Getting access point information..."
-msgstr ""
+msgstr "Erişim noktası bilgileri alınıyor..."
 
 msgid "Getting bitrate information..."
-msgstr ""
+msgstr "Bit hızı bilgisi alınıyor..."
 
 msgid "Getting channel information..."
-msgstr ""
+msgstr "Kanal bilgisi alınıyor..."
 
 msgid "Getting client information..."
-msgstr ""
+msgstr "Müşteri bilgileri alınıyor..."
 
 msgid "Getting encryption information..."
-msgstr ""
+msgstr "Şifreleme bilgileri alınıyor..."
 
 msgid "Getting power management information..."
-msgstr ""
+msgstr "Güç yönetimi bilgileri alınıyor..."
 
 msgid "Getting retry information..."
-msgstr ""
+msgstr "Yeniden deneme bilgileri alınıyor..."
 
 msgid "Good"
-msgstr ""
+msgstr "İyi"
 
 msgid "Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "İyi indirme hızı\\\\\\\\\\\\\\\\n"
 
 msgid "Google"
 msgstr ""
 
 msgid "Google DNS"
-msgstr ""
+msgstr "Google DNS'i"
 
 msgid "Help"
-msgstr ""
+msgstr "Yardım"
 
 msgid "Hidden"
-msgstr ""
+msgstr "Gizlenmiş"
 
 msgid "Hidden Network"
-msgstr ""
+msgstr "Gizli Ağ"
 
 msgid "Host not found"
-msgstr ""
+msgstr "Ana bilgisayar bulunamadı"
 
 msgid "Hostname: {hostname}"
-msgstr ""
+msgstr "Ana makine adı: {hostname}"
 
 msgid "INACTIVE"
-msgstr ""
+msgstr "AKTİF DEĞİL"
 
 msgid "IP Address"
-msgstr ""
+msgstr "IP Adresi"
 
 msgid "IP Address: {ip}"
-msgstr ""
+msgstr "IP Adresi: {ip}"
 
 msgid "IP Configuration"
-msgstr ""
+msgstr "IP Yapılandırması"
 
 msgid "IP: N/A"
-msgstr ""
+msgstr "IP: Yok"
 
 msgid "IP: {ip}\\\\\\\\n"
 msgstr ""
@@ -632,778 +632,778 @@ msgid "IP: {}"
 msgstr ""
 
 msgid "ISP: {isp}"
-msgstr ""
+msgstr "İSS: {isp}"
 
 msgid "ISP: {isp}\\\\\\\\n"
-msgstr ""
+msgstr "İSS: {isp}\\\\\\\\\\\\\\\\n"
 
 msgid "Info"
-msgstr ""
+msgstr "Bilgi"
 
 msgid "Initializing WiFi..."
-msgstr ""
+msgstr "WiFi başlatılıyor..."
 
 msgid "Initializing detailed speed test..."
-msgstr ""
+msgstr "Ayrıntılı hız testi başlatılıyor..."
 
 msgid "Interface"
-msgstr ""
+msgstr "Arayüz"
 
 msgid "Interface found: {}"
-msgstr ""
+msgstr "Arayüz bulundu: {}"
 
 msgid "Interface restarted successfully"
-msgstr ""
+msgstr "Arayüz başarıyla yeniden başlatıldı"
 
 msgid "Interface restarted."
-msgstr ""
+msgstr "Arayüz yeniden başlatıldı."
 
 msgid "Interface {} not available"
-msgstr ""
+msgstr "{} arayüzü mevcut değil"
 
 msgid "Interface: {}"
-msgstr ""
+msgstr "Arayüz: {}"
 
 msgid "Invalid misc:%s"
-msgstr ""
+msgstr "Geçersiz çeşitli:%s"
 
 msgid "Kernel Messages (dmesg):\\\\\\\\n"
-msgstr ""
+msgstr "Çekirdek Mesajları (dmesg):\\\\\\\\\\\\\\\\n"
 
 msgid "Latency test completed"
-msgstr ""
+msgstr "Gecikme testi tamamlandı"
 
 msgid "Latency: %s\\\\\\\\n"
-msgstr ""
+msgstr "Gecikme: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Link Quality: {quality}"
-msgstr ""
+msgstr "Bağlantı Kalitesi: {quality}"
 
 msgid "Link Quality:%s/100"
-msgstr ""
+msgstr "Bağlantı Kalitesi:%s/100"
 
 msgid "List of access points and connected peer stations"
-msgstr ""
+msgstr "Erişim noktalarının ve bağlı eş istasyonların listesi"
 
 msgid "List of access points/peers"
-msgstr ""
+msgstr "Erişim noktalarının/eşlerin listesi"
 
 msgid "Location: {city}, {country}"
-msgstr ""
+msgstr "Konum: {city}, {country}"
 
 msgid "Location: {city}, {country}\\\\\\\\n"
-msgstr ""
+msgstr "Konum: {city}, {country}\\\\\\\\\\\\\\\\n"
 
 msgid "Logs checked."
-msgstr ""
+msgstr "Günlükler kontrol edildi."
 
 msgid "MAC Address: {mac}"
-msgstr ""
+msgstr "MAC Adresi: {mac}"
 
 msgid "MAC Address: {mac}\\\\\\\\n"
-msgstr ""
+msgstr "MAC Adresi: {mac}\\\\\\\\\\\\\\\\n"
 
 msgid "MAC: %s\\\\\\\\n"
 msgstr ""
 
 msgid "MAC: N/A"
-msgstr ""
+msgstr "MAC: Yok"
 
 msgid "MAC: {}"
 msgstr ""
 
 msgid "Managed (Client)"
-msgstr ""
+msgstr "Yönetilen (Müşteri)"
 
 msgid "Manual (Static IP)"
-msgstr ""
+msgstr "Manuel (Statik IP)"
 
 msgid "Master (AP)"
-msgstr ""
+msgstr "Usta (AP)"
 
 msgid "Missed beacon:%s"
-msgstr ""
+msgstr "Kaçırılan işaret:%s"
 
 msgid "Mode:"
-msgstr ""
+msgstr "Mod:"
 
 msgid "Mode: {mode}"
-msgstr ""
+msgstr "Mod: {mode}"
 
 msgid "Modules reloaded."
-msgstr ""
+msgstr "Modüller yeniden yüklendi."
 
 msgid "Monitor"
-msgstr ""
+msgstr "Monitör"
 
 msgid "Monitoring error: {}"
-msgstr ""
+msgstr "İzleme hatası: {}"
 
 msgid "N/A"
-msgstr ""
+msgstr "Yok"
 
 msgid "Name: {name}\\\\\\\\n"
-msgstr ""
+msgstr "Ad: {name}\\\\\\\\\\\\\\\\n"
 
 msgid "Netmask"
-msgstr ""
+msgstr "Ağ maskesi"
 
 msgid "Network %d:\\\\\\\\n"
-msgstr ""
+msgstr "Ağ %d:\\\\\\\\\\\\\\\\n"
 
 msgid "Network Interface: {interface}"
-msgstr ""
+msgstr "Ağ Arayüzü: {interface}"
 
 msgid "Network Name (SSID)"
-msgstr ""
+msgstr "Ağ Adı (SSID)"
 
 msgid "Network forgotten!"
-msgstr ""
+msgstr "Ağ unutuldu!"
 
 msgid "Network info error: {error}"
-msgstr ""
+msgstr "Ağ bilgisi hatası: {error}"
 
 msgid "Network information unavailable"
-msgstr ""
+msgstr "Ağ bilgisi kullanılamıyor"
 
 msgid "Network unreachable"
-msgstr ""
+msgstr "Ağa ulaşılamıyor"
 
 msgid "Network: %s"
-msgstr ""
+msgstr "Ağ: %s"
 
 msgid "Network: {essid}"
-msgstr ""
+msgstr "Ağ: {essid}"
 
 msgid "No"
-msgstr ""
+msgstr "HAYIR"
 
 msgid "No IP"
-msgstr ""
+msgstr "IP yok"
 
 msgid "No WiFi connection data available"
-msgstr ""
+msgstr "WiFi bağlantı verisi yok"
 
 msgid "No WiFi interface available"
-msgstr ""
+msgstr "WiFi arayüzü mevcut değil"
 
 msgid "No WiFi interface detected. Please check your hardware."
-msgstr ""
+msgstr "WiFi arayüzü algılanmadı. Lütfen donanımınızı kontrol edin."
 
 msgid "No WiFi interface found"
-msgstr ""
+msgstr "WiFi arayüzü bulunamadı"
 
 msgid "No WiFi interfaces found"
-msgstr ""
+msgstr "WiFi arayüzü bulunamadı"
 
 msgid "No WiFi interfaces found\\\\\\\\n"
-msgstr ""
+msgstr "Hiçbir WiFi arayüzü bulunamadı\\\\\\\\\\\\\\\\n"
 
 msgid "No WiFi messages in system logs"
-msgstr ""
+msgstr "Sistem günlüklerinde WiFi mesajı yok"
 
 msgid "No connection details available"
-msgstr ""
+msgstr "Bağlantı ayrıntıları mevcut değil"
 
 msgid "No data"
-msgstr ""
+msgstr "Veri yok"
 
 msgid "No help available for this tool."
-msgstr ""
+msgstr "Bu araç için yardım mevcut değil."
 
 msgid "No interface"
-msgstr ""
+msgstr "Arayüz yok"
 
 msgid "No internet connection"
-msgstr ""
+msgstr "İnternet bağlantısı yok"
 
 msgid "No internet connection detected"
-msgstr ""
+msgstr "İnternet bağlantısı algılanmadı"
 
 msgid "No network selected"
-msgstr ""
+msgstr "Hiçbir ağ seçilmedi"
 
 msgid "No networks found"
-msgstr ""
+msgstr "Ağ bulunamadı"
 
 msgid "No networks found - Press BLUE to rescan"
-msgstr ""
+msgstr "Ağ bulunamadı - Yeniden taramak için MAVİ'ye basın"
 
 msgid "No networks found on {}\\\\\\\\n"
-msgstr ""
+msgstr "{}\\\\\\\\\\\\\\\\n üzerinde ağ bulunamadı"
 
 msgid "No networks found or scan not supported\\\\\\\\n"
-msgstr ""
+msgstr "Hiçbir ağ bulunamadı veya tarama desteklenmiyor\\\\\\\\\\\\\\\\n"
 
 msgid "No networks found with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "iwlist ile ağ bulunamadı\\\\\\\\\\\\\\\\n"
 
 msgid "No packets sent"
-msgstr ""
+msgstr "Paket gönderilmedi"
 
 msgid "No ping data"
-msgstr ""
+msgstr "Ping verisi yok"
 
 msgid "No results with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "iwlist ile sonuç yok\\\\\\\\\\\\\\\\n"
 
 msgid "No station/peer information available\\\\\\\\n"
-msgstr ""
+msgstr "İstasyon/eş bilgisi yok\\\\\\\\\\\\\\\\n"
 
 msgid "Noise level:%sdBm"
-msgstr ""
+msgstr "Gürültü seviyesi:%sdBm"
 
 msgid "None"
-msgstr ""
+msgstr "Hiçbiri"
 
 msgid "None found"
-msgstr ""
+msgstr "Hiçbiri bulunamadı"
 
 msgid "Not connected"
-msgstr ""
+msgstr "Bağlı değil"
 
 msgid "Not connected to any network"
-msgstr ""
+msgstr "Hiçbir ağa bağlı değil"
 
 msgid "Not-Associated"
-msgstr ""
+msgstr "İlişkili Değil"
 
 msgid "Open"
-msgstr ""
+msgstr "Açık"
 
 msgid "OpenDNS"
 msgstr ""
 
 msgid "Operation Mode"
-msgstr ""
+msgstr "Çalışma Modu"
 
 msgid "Operation completed."
-msgstr ""
+msgstr "Operasyon tamamlandı."
 
 msgid "Output: {output}..."
-msgstr ""
+msgstr "Çıktı: {output}..."
 
 msgid "Packet retry limits and frame lifetime settings"
-msgstr ""
+msgstr "Paket yeniden deneme sınırları ve çerçeve ömrü ayarları"
 
 msgid "Packets: {sent}, Lost: {lost} ({percentage:.1f}%) - {stability}"
-msgstr ""
+msgstr "Paketler: {sent}, Kayıp: {lost} ({percentage:.1f}%) - {stability}"
 
 msgid "Password"
-msgstr ""
+msgstr "Şifre"
 
 msgid "Pause"
-msgstr ""
+msgstr "Duraklat"
 
 msgid "Performing initial scan..."
-msgstr ""
+msgstr "İlk tarama gerçekleştiriliyor..."
 
 msgid "Ping error for {host}: {error}"
-msgstr ""
+msgstr "{host} için ping hatası: {error}"
 
 msgid "Ping failed"
-msgstr ""
+msgstr "Ping başarısız oldu"
 
 msgid "Ping failed for {host} (returncode: {code})"
-msgstr ""
+msgstr "{host} için ping başarısız oldu (dönüş kodu: {code})"
 
 msgid "Ping not available"
-msgstr ""
+msgstr "Ping kullanılamıyor"
 
 msgid "Ping test completed: {avg:.1f} ms average ({success}/{total} successful)"
-msgstr ""
+msgstr "Ping testi tamamlandı: {avg:.1f} ms ortalama ({success}/{total} başarılı)"
 
 msgid "Ping test error: {error}"
-msgstr ""
+msgstr "Ping testi hatası: {error}"
 
 msgid "Ping timeout for {host}"
-msgstr ""
+msgstr "{host} için ping zaman aşımı"
 
 msgid "Ping {host} (fallback): {time} ms"
-msgstr ""
+msgstr "Ping {host} (geri dönüş): {time} ms"
 
 msgid "Ping {host}: {time} ms"
 msgstr ""
 
 msgid "Ping/Latency: {ping}\\\\\\\\n"
-msgstr ""
+msgstr "Ping/Gecikme: {ping}\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: Failed\\\\\\\\n"
-msgstr ""
+msgstr "Ping: Başarısız\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: {:.1f} ms\\\\\\\\n"
 msgstr ""
 
 msgid "Please enter a network name"
-msgstr ""
+msgstr "Lütfen bir ağ adı girin"
 
 msgid "Please enter a password"
-msgstr ""
+msgstr "Lütfen bir şifre girin"
 
 msgid "Poor"
-msgstr ""
+msgstr "Fakir"
 
 msgid "Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "Düşük indirme hızı\\\\\\\\\\\\\\\\n"
 
 msgid "Power Management"
-msgstr ""
+msgstr "Güç Yönetimi"
 
 msgid "Power management info displayed."
-msgstr ""
+msgstr "Güç yönetimi bilgileri görüntüleniyor."
 
 msgid "Power management information not available\\\\\\\\n"
-msgstr ""
+msgstr "Güç yönetimi bilgisi mevcut değil\\\\\\\\\\\\\\\\n"
 
 msgid "Power management settings"
-msgstr ""
+msgstr "Güç yönetimi ayarları"
 
 msgid "Power management settings and power saving modes"
-msgstr ""
+msgstr "Güç yönetimi ayarları ve güç tasarrufu modları"
 
 msgid "Primary DNS"
-msgstr ""
+msgstr "Birincil DNS"
 
 msgid "Public IP: Unable to determine"
-msgstr ""
+msgstr "Genel IP: Belirlenemiyor"
 
 msgid "Public IP: {ip}"
-msgstr ""
+msgstr "Genel IP: {ip}"
 
 msgid "Quality: %s\\\\\\\\n"
-msgstr ""
+msgstr "Kalite: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Quality: N/A"
-msgstr ""
+msgstr "Kalite: Yok"
 
 msgid "Quality: {}%"
-msgstr ""
+msgstr "Kalite: {}%"
 
 msgid "Quality: {}% ({})"
-msgstr ""
+msgstr "Kalite: {}% ({})"
 
 msgid "Quick System Check"
-msgstr ""
+msgstr "Hızlı Sistem Kontrolü"
 
 msgid "Quick Test"
-msgstr ""
+msgstr "Hızlı Test"
 
 msgid "Quick test completed"
-msgstr ""
+msgstr "Hızlı test tamamlandı"
 
 msgid "Quick test error: {error}"
-msgstr ""
+msgstr "Hızlı test hatası: {error}"
 
 msgid "RTS Threshold"
-msgstr ""
+msgstr "GZS Eşiği"
 
 msgid "Real-time signal quality monitor"
-msgstr ""
+msgstr "Gerçek zamanlı sinyal kalitesi monitörü"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Yenile"
 
 msgid "Reload WiFi Modules"
-msgstr ""
+msgstr "WiFi Modüllerini Yeniden Yükle"
 
 msgid "Reload kernel WiFi modules"
-msgstr ""
+msgstr "Çekirdek WiFi modüllerini yeniden yükleyin"
 
 msgid "Reload kernel WiFi modules to fix driver issues"
-msgstr ""
+msgstr "Sürücü sorunlarını düzeltmek için çekirdek WiFi modüllerini yeniden yükleyin"
 
 msgid "Remember password"
-msgstr ""
+msgstr "Şifreyi hatırla"
 
 msgid "Restart WiFi Interface"
-msgstr ""
+msgstr "WiFi Arayüzünü yeniden başlatın"
 
 msgid "Restart WiFi interface %s?"
-msgstr ""
+msgstr "%s WiFi arayüzü yeniden başlatılsın mı?"
 
 msgid "Restart wireless interface"
-msgstr ""
+msgstr "Kablosuz arayüzü yeniden başlat"
 
 msgid "Restart wireless interface to reset connectivity"
-msgstr ""
+msgstr "Bağlantıyı sıfırlamak için kablosuz arayüzü yeniden başlatın"
 
 msgid "Restarting interface..."
-msgstr ""
+msgstr "Arayüz yeniden başlatılıyor..."
 
 msgid "Retry Limits"
-msgstr ""
+msgstr "Yeniden Deneme Sınırları"
 
 msgid "Retry limit information not available\\\\\\\\n"
-msgstr ""
+msgstr "Yeniden deneme sınırı bilgisi mevcut değil\\\\\\\\\\\\\\\\n"
 
 msgid "Retry limits and lifetime"
-msgstr ""
+msgstr "Sınırları ve kullanım ömrünü yeniden deneme"
 
 msgid "Retry limits info displayed."
-msgstr ""
+msgstr "Görüntülenen limit bilgilerini yeniden deneyin."
 
 msgid "Running detailed speed test..."
-msgstr ""
+msgstr "Ayrıntılı hız testi çalıştırılıyor..."
 
 msgid "Running full speed test..."
-msgstr ""
+msgstr "Tam hız testi çalıştırılıyor..."
 
 msgid "Running quick speed test..."
-msgstr ""
+msgstr "Hızlı hız testi çalıştırılıyor..."
 
 msgid "Rx invalid crypt:%s"
-msgstr ""
+msgstr "Rx geçersiz şifre:%s"
 
 msgid "Rx invalid frag:%s"
-msgstr ""
+msgstr "Rx geçersiz parça:%s"
 
 msgid "Rx invalid nwid:%s"
-msgstr ""
+msgstr "Rx geçersiz nwid:%s"
 
 msgid "Save & Connect"
-msgstr ""
+msgstr "Kaydet ve Bağlan"
 
 msgid "Scan"
-msgstr ""
+msgstr "Tara"
 
 msgid "Scan completed."
-msgstr ""
+msgstr "Tarama tamamlandı."
 
 msgid "Scan error {}"
-msgstr ""
+msgstr "Tarama hatası {}"
 
 msgid "Scan error:"
-msgstr ""
+msgstr "Tarama hatası:"
 
 msgid "Scan error: {}"
-msgstr ""
+msgstr "Tarama hatası: {}"
 
 msgid "Scan error: {}\\\\\\\\n"
-msgstr ""
+msgstr "Tarama hatası: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Scan failed"
-msgstr ""
+msgstr "Tarama başarısız oldu"
 
 msgid "Scan for available networks"
-msgstr ""
+msgstr "Kullanılabilir ağları tarayın"
 
 msgid "Scanner"
-msgstr ""
+msgstr "Tarayıcı"
 
 msgid "Scanning for WiFi networks..."
-msgstr ""
+msgstr "WiFi ağları taranıyor..."
 
 msgid "Scanning for networks..."
-msgstr ""
+msgstr "Ağlar taranıyor..."
 
 msgid "Scanning..."
-msgstr ""
+msgstr "Tarama..."
 
 msgid "Secondary DNS"
-msgstr ""
+msgstr "İkincil DNS"
 
 msgid "Secured"
-msgstr ""
+msgstr "Güvenli"
 
 msgid "Select"
-msgstr ""
+msgstr "Seçme"
 
 msgid "Select a speed test type"
-msgstr ""
+msgstr "Bir hız testi türü seçin"
 
 msgid "Select a tool from the menu to get detailed information about WiFi configuration and status."
-msgstr ""
+msgstr "WiFi yapılandırması ve durumu hakkında ayrıntılı bilgi almak için menüden bir araç seçin."
 
 msgid "Select a tool to see description"
-msgstr ""
+msgstr "Açıklamayı görmek için bir araç seçin"
 
 msgid "Select a tool to view detailed information"
-msgstr ""
+msgstr "Ayrıntılı bilgileri görüntülemek için bir araç seçin"
 
 msgid "Select an option"
-msgstr ""
+msgstr "Bir seçenek seçin"
 
 msgid "Server found"
-msgstr ""
+msgstr "Sunucu bulundu"
 
 msgid "Server info error: {error}"
-msgstr ""
+msgstr "Sunucu bilgisi hatası: {error}"
 
 msgid "Settings applied successfully"
-msgstr ""
+msgstr "Ayarlar başarıyla uygulandı"
 
 msgid "Signal Level: {signal} dBm"
-msgstr ""
+msgstr "Sinyal Seviyesi: {signal} dBm"
 
 msgid "Signal level:%sdBm"
-msgstr ""
+msgstr "Sinyal seviyesi:%sdBm"
 
 msgid "Signal: %s\\\\\\\\n"
-msgstr ""
+msgstr "Sinyal: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Signal: N/A"
-msgstr ""
+msgstr "Sinyal: Yok"
 
 msgid "Signal: {} dBm"
-msgstr ""
+msgstr "Sinyal: {} dBm"
 
 msgid "Speedtest"
-msgstr ""
+msgstr "Hız testi"
 
 msgid "Speedtest failed - No internet connection or all tests failed"
-msgstr ""
+msgstr "Speedtest başarısız oldu - İnternet bağlantısı yok veya tüm testler başarısız oldu"
 
 msgid "Speedtest failed: {}"
-msgstr ""
+msgstr "Hız testi başarısız oldu: {}"
 
 msgid "SpeedtestSimple not available"
-msgstr ""
+msgstr "SpeedtestSimple mevcut değil"
 
 msgid "Sponsor: {sponsor}\\\\\\\\n"
 msgstr ""
 
 msgid "Stability test error: {error}"
-msgstr ""
+msgstr "Kararlılık testi hatası: {error}"
 
 msgid "Stable"
-msgstr ""
+msgstr "Stabil"
 
 msgid "Start"
-msgstr ""
+msgstr "Başlangıç"
 
 msgid "Static"
-msgstr ""
+msgstr "Statik"
 
 msgid "Statistics error: {}"
-msgstr ""
+msgstr "İstatistik hatası: {}"
 
 msgid "Status check failed: {}"
-msgstr ""
+msgstr "Durum kontrolü başarısız oldu: {}"
 
 msgid "Stop"
-msgstr ""
+msgstr "Durmak"
 
 msgid "Supported bit rates"
-msgstr ""
+msgstr "Desteklenen bit hızları"
 
 msgid "Supported bitrates and current transmission rates"
-msgstr ""
+msgstr "Desteklenen bit hızları ve mevcut iletim hızları"
 
 msgid "System Logs"
-msgstr ""
+msgstr "Sistem Günlükleri"
 
 msgid "System Logs:\\\\\\\\n"
-msgstr ""
+msgstr "Sistem Günlükleri:\\\\\\\\\\\\\\\\n"
 
 msgid "TX Power"
-msgstr ""
+msgstr "Teksas Gücü"
 
 msgid "Tertiary DNS"
-msgstr ""
+msgstr "Üçüncül DNS"
 
 msgid "Test cancelled"
-msgstr ""
+msgstr "Test iptal edildi"
 
 msgid "Test completed - See results below"
-msgstr ""
+msgstr "Test tamamlandı - Aşağıdaki sonuçlara bakın"
 
 msgid "Test completed!"
-msgstr ""
+msgstr "Test tamamlandı!"
 
 msgid "Test failed"
-msgstr ""
+msgstr "Test başarısız oldu"
 
 msgid "Testing connection stability..."
-msgstr ""
+msgstr "Bağlantı kararlılığı test ediliyor..."
 
 msgid "Testing connectivity..."
-msgstr ""
+msgstr "Bağlantı test ediliyor..."
 
 msgid "Testing download speed (multiple servers)..."
-msgstr ""
+msgstr "İndirme hızı test ediliyor (birden fazla sunucu)..."
 
 msgid "Testing download speed..."
-msgstr ""
+msgstr "İndirme hızı test ediliyor..."
 
 msgid "Testing latency to multiple hosts..."
-msgstr ""
+msgstr "Birden çok ana makinede gecikme test ediliyor..."
 
 msgid "Testing latency..."
-msgstr ""
+msgstr "Gecikme test ediliyor..."
 
 msgid "Testing upload speed..."
-msgstr ""
+msgstr "Yükleme hızı test ediliyor..."
 
 msgid "These forums are great places to get help,\\\\\\\\n"
-msgstr ""
+msgstr "Bu forumlar yardım almak için harika yerlerdir\\\\\\\\\\\\\\\\n"
 
 msgid "Timeout"
-msgstr ""
+msgstr "Zaman aşımı"
 
 msgid "Tool not available"
-msgstr ""
+msgstr "Araç mevcut değil"
 
 msgid "Tool not implemented: {}"
-msgstr ""
+msgstr "Araç uygulanmadı: {}"
 
 msgid "Tools"
-msgstr ""
+msgstr "Aletler"
 
 msgid "Tx excessive retries:%s"
-msgstr ""
+msgstr "Tx aşırı yeniden deneme sayısı:%s"
 
 msgid "UP and active"
-msgstr ""
+msgstr "YUKARI ve aktif"
 
 msgid "Unable to assess download quality\\\\\\\\n"
-msgstr ""
+msgstr "İndirme kalitesi değerlendirilemiyor\\\\\\\\\\\\\\\\n"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Bilinmiyor"
 
 msgid "Unstable"
-msgstr ""
+msgstr "Dengesiz"
 
 msgid "Upload Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "Yükleme Hızı: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Upload Speed: {upload}\\\\\\\\n"
-msgstr ""
+msgstr "Yükleme Hızı: {upload}\\\\\\\\\\\\\\\\n"
 
 msgid "Upload estimation completed"
-msgstr ""
+msgstr "Yükleme tahmini tamamlandı"
 
 msgid "Upload test failed: {error}"
-msgstr ""
+msgstr "Yükleme testi başarısız oldu: {error}"
 
 msgid "Upload test not available"
-msgstr ""
+msgstr "Yükleme testi kullanılamıyor"
 
 msgid "Upload test: {result}"
-msgstr ""
+msgstr "Yükleme testi: {result}"
 
 msgid "Upload: Not available\\\\\\\\n"
-msgstr ""
+msgstr "Yükleme: Mevcut değil\\\\\\\\\\\\\\\\n"
 
 msgid "Upload: {:.2f} Mbps (estimated)\\\\\\\\n"
-msgstr ""
+msgstr "Yükleme: {:.2f} Mb/sn (tahmini)\\\\\\\\\\\\\\\\n"
 
 msgid "Very Poor"
-msgstr ""
+msgstr "Çok Zayıf"
 
 msgid "WEP Key Type"
-msgstr ""
+msgstr "WEP Anahtarı Türü"
 
 msgid "WiFi Advanced Tools"
-msgstr ""
+msgstr "WiFi Gelişmiş Araçlar"
 
 msgid "WiFi Connection Manager"
-msgstr ""
+msgstr "WiFi Bağlantı Yöneticisi"
 
 msgid "WiFi Diagnostics"
-msgstr ""
+msgstr "Wi-Fi Teşhisi"
 
 msgid "WiFi Manager"
-msgstr ""
+msgstr "WiFi Yöneticisi"
 
 msgid "WiFi Manager iwconfig version {}"
-msgstr ""
+msgstr "WiFi Yöneticisi iwconfig sürümü {}"
 
 msgid "WiFi Manager v."
-msgstr ""
+msgstr "WiFi Yöneticisi v."
 
 msgid "WiFi Password"
-msgstr ""
+msgstr "Wi-Fi Şifresi"
 
 msgid "WiFi Scanner"
-msgstr ""
+msgstr "WiFi Tarayıcı"
 
 msgid "WiFi Signal Monitor"
-msgstr ""
+msgstr "WiFi Sinyal Monitörü"
 
 msgid "WiFi Speed Test Manager"
-msgstr ""
+msgstr "WiFi Hız Testi Yöneticisi"
 
 msgid "WiFi diagnostics and tests"
-msgstr ""
+msgstr "WiFi teşhisi ve testleri"
 
 msgid "Wired"
-msgstr ""
+msgstr "kablolu"
 
 msgid "Wireless"
-msgstr ""
+msgstr "Kablosuz"
 
 msgid "Wireless info error: {}"
-msgstr ""
+msgstr "Kablosuz bilgi hatası: {}"
 
 msgid "Yes"
-msgstr ""
+msgstr "Evet"
 
 msgid "[LOCK]"
-msgstr ""
+msgstr "[KİLİT]"
 
 msgid "[OPEN]"
-msgstr ""
+msgstr "[AÇIK]"
 
 msgid "[SAVED]"
-msgstr ""
+msgstr "[KAYDEDİLDİ]"
 
 msgid "bits"
-msgstr ""
+msgstr "bitler"
 
 msgid "ethtool not found"
-msgstr ""
+msgstr "ethtool bulunamadı"
 
 msgid "iwlist error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "{interface} üzerinde iwlist hatası: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist error: {}\\\\\\\\n"
-msgstr ""
+msgstr "iwlist hatası: {}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist exception on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "{interface} ile ilgili iwlist istisnası: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist timeout on {}\\\\\\\\n"
-msgstr ""
+msgstr "{}\\\\\\\\\\\\\\\\n üzerinde iwlist zaman aşımı"
 
 msgid "iwlist: No networks found or interface busy\\\\\\\\n"
-msgstr ""
+msgstr "iwlist: Ağ bulunamadı veya arayüz meşgul\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "iwlist: Hiçbir ağ bulunamadı\\\\\\\\\\\\\\\\n"
 
 msgid "lifetime"
-msgstr ""
+msgstr "ömür boyu"
 
 msgid "limit"
-msgstr ""
+msgstr "sınır"
 
 msgid "long {type}:{value}"
-msgstr ""
+msgstr "uzun {type}:{value}"
 
 msgid "max {type}:{value}"
-msgstr ""
+msgstr "maksimum {type}:{value}"
 
 msgid "min {type}:{value}"
-msgstr ""
+msgstr "dk {type}:{value}"
 
 msgid "off"
-msgstr ""
+msgstr "kapalı"
 
 msgid "on"
-msgstr ""
+msgstr "Açık"
 
 msgid "pythonwifi: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "pythonwifi: Ağ bulunamadı\\\\\\\\\\\\\\\\n"
 
 msgid "share experiences,and connect with other users."
-msgstr ""
+msgstr "deneyimlerinizi paylaşın ve diğer kullanıcılarla bağlantı kurun."
 
 msgid "short {type}:{value}"
-msgstr ""
+msgstr "kısa {type}:{value}"
 
 msgid "wait..."
-msgstr ""
+msgstr "Beklemek..."
 
 msgid "{:.1f} ms"
 msgstr ""
@@ -1412,403 +1412,403 @@ msgid "{:.1f}%"
 msgstr ""
 
 msgid "{:2d}. {} {:20} | Signal: {:4} dBm ({}) | Channel: {}\\\\\\\\n"
-msgstr ""
+msgstr "{:2d}. {} {:20} | Sinyal: {:4} dBm ({}) | Kanal: {}\\\\\\\\\\\\\\\\n"
 
 msgid "{connection}{saved}{icon} {essid} | {security} | {signal} dBm"
 msgstr ""
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}...\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} | Kalite: {quality:3}% | Sinyal: {signal:4} dBm | {bssid}...\\\\\\\\\\\\\\\\n"
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} | Kalite: {quality:3}% | Sinyal: {signal:4} dBm | {bssid}\\\\\\\\\\\\\\\\n"
 
 msgid "{icon} {interface}: {status}\\\\\\\\n"
 msgstr ""
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel:2} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Kalite: {quality:3}% ({signal_quality}) | Sinyal: {signal:4} dBm | Kanal: {channel:2} | Şifrelenmiş: {encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Kalite: {quality:3}% ({signal_quality}) | Sinyal: {signal:4} dBm | Kanal: {channel:2} | Şifrelenmiş: {encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Kalite: {quality:3}% | Sinyal: {signal:4} dBm\\\\\\\\\\\\\\\\n"
 
 msgid "{index}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Kalite: {quality:3}% | Sinyal: {signal:4} dBm\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Connected to {essid} ({quality})\\\\\\\\n"
-msgstr ""
+msgstr "{interface}: {essid} ({quality})'ye bağlanıldı\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Not connected\\\\\\\\n"
-msgstr ""
+msgstr "{interface}: Bağlı değil\\\\\\\\\\\\\\\\n"
 
 msgid "{name} ({host}): {ping}"
 msgstr ""
 
 msgid "{name} ({sponsor}): {ping}"
-msgstr ""
+msgstr "{name} ({host}): {ping}"
 
 msgid "{name}: Error {error}"
-msgstr ""
+msgstr "{name}: Hata {error}"
 
 msgid "{name}: Failed"
-msgstr ""
+msgstr "{name}: Başarısız"
 
 msgid "{name}: Timeout"
-msgstr ""
+msgstr "{name}: Zaman aşımı"
 
 msgid "{name}: {speed:.2f} Mbps"
-msgstr ""
+msgstr "{name}: {speed:.2f} Mb/sn"
 
 msgid "{server}: {speed:.2f} Mbps ({data:.1f} MB in {time:.1f}s)\\\\\\\\n"
-msgstr ""
+msgstr "{server}: {speed:.2f} Mb/sn ({time:.1f}s cinsinden {data:.1f} MB)\\\\\\\\\\\\\\\\n"
 
 msgid "{speed:.2f} Mbps"
-msgstr ""
+msgstr "{speed:.2f} Mb/sn"
 
 msgid "{} ({:.0f}%)"
 msgstr ""
 
 msgid "{} - Open network - Press OK for options"
-msgstr ""
+msgstr "{} - Ağı aç - Seçenekler için Tamam'a basın"
 
 msgid "{} - Password required - Press OK for options"
-msgstr ""
+msgstr "{} - Şifre gerekli - Seçenekler için Tamam'a basın"
 
 msgid "{} - Password saved - Press OK for options"
-msgstr ""
+msgstr "{} - Şifre kaydedildi - Seçenekler için Tamam'a basın"
 
 msgid "{} GHz"
 msgstr ""
 
 msgid "{} Mb/s"
-msgstr ""
+msgstr "{} Mb/sn"
 
 msgid "{} Status: {}\\\\\\\\n"
-msgstr ""
+msgstr "{} Durum: {}\\\\\\\\\\\\\\\\n"
 
 msgid "{} Type: {} interface\\\\\\\\n"
-msgstr ""
+msgstr "{} Tür: {} arayüz\\\\\\\\\\\\\\\\n"
 
 msgid "{} dBm"
 msgstr ""
 
 msgid "{}: Failed"
-msgstr ""
+msgstr "{}: Arızalı"
 
 msgid "{}: {:.1f} ms"
 msgstr ""
 
 msgid "{}\\\\\\\\n"
-msgstr ""
+msgstr "{}\\\\\\\\\\\\\\\\N"
 
 msgid " Keep drivers updated\\\\\\\\n"
-msgstr ""
+msgstr "Sürücüleri güncel tutun\\\\\\\\\\\\\\\\n"
 
 msgid " Monitor signal strength for best performance\\\\\\\\n"
-msgstr ""
+msgstr "En iyi performans için sinyal gücünü izleyin\\\\\\\\\\\\\\\\n"
 
 msgid " Use 5GHz band for less interference\\\\\\\\n"
-msgstr ""
+msgstr "Daha az parazit için 5 GHz bant kullanın\\\\\\\\\\\\\\\\n"
 
 msgid "  No USB WiFi adapters found\\\\\\\\n"
-msgstr ""
+msgstr "Hiçbir USB Wi-Fi bağdaştırıcısı bulunamadı\\\\\\\\\\\\\\\\n"
 
 msgid "  Interface {interface}: DOWN (needs activation)\\\\\\\\n"
-msgstr ""
+msgstr "Arayüz {interface}: DOWN (etkinleştirilmesi gerekiyor)\\\\\\\\\\\\\\\\n"
 
 msgid "  Missing commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "Eksik komutlar: {commands}\\\\\\\\\\\\\\\\n"
 
 msgid "  No WiFi kernel modules detected\\\\\\\\n"
-msgstr ""
+msgstr "WiFi çekirdek modülü algılanmadı\\\\\\\\\\\\\\\\n"
 
 msgid "  Scan: Interface busy (connected to network)\\\\\\\\n"
-msgstr ""
+msgstr "Tarama: Arayüz meşgul (ağa bağlı)\\\\\\\\\\\\\\\\n"
 
 msgid "  {test}: No data\\\\\\\\n"
-msgstr ""
+msgstr "{test}: Veri yok\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed\\\\\\\\n"
-msgstr ""
+msgstr "Ortalama indirme hızı\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Ortalama gecikme ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency\\\\\\\\n"
-msgstr ""
+msgstr "Ortalama gecikme\\\\\\\\\\\\\\\\n"
 
 msgid " Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "İyi indirme hızı\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency\\\\\\\\n"
-msgstr ""
+msgstr "İyi gecikme\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Mükemmel gecikme ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " TX Power: {}\\\\\\\\n"
-msgstr ""
+msgstr "İletim Gücü: {}\\\\\\\\\\\\\\\\n"
 
 msgid " All systems operational\\\\\\\\n"
-msgstr ""
+msgstr "Tüm sistemler çalışır durumda\\\\\\\\\\\\\\\\n"
 
 msgid " Available commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "Kullanılabilir komutlar: {commands}\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "Mükemmel indirme hızı\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency\\\\\\\\n"
-msgstr ""
+msgstr "Mükemmel gecikme\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "İyi gecikme ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: UP and active\\\\\\\\n"
-msgstr ""
+msgstr "Arayüz {interface}: ÇALIŞIYOR ve etkin\\\\\\\\\\\\\\\\n"
 
 msgid " Loaded WiFi modules: {modules}\\\\\\\\n"
-msgstr ""
+msgstr "Yüklü WiFi modülleri: {modules}\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: WiFi hardware detected and functional\\\\\\\\n"
-msgstr ""
+msgstr "SİSTEM DURUMU: WiFi donanımı algılandı ve çalışıyor\\\\\\\\\\\\\\\\n"
 
 msgid " USB WiFi adapters detected:\\\\\\\\n"
-msgstr ""
+msgstr "USB WiFi bağdaştırıcıları algılandı:\\\\\\\\\\\\\\\\n"
 
 msgid " {test}: {output}\\\\\\\\n"
-msgstr ""
+msgstr "{test}: {output}\\\\\\\\\\\\\\\\n"
 
 msgid " CRITICAL: No WiFi interfaces detected!\\\\\\\\n"
-msgstr ""
+msgstr "KRİTİK: WiFi arayüzü algılanmadı!\\\\\\\\\\\\\\\\n"
 
 msgid " Download test failed\\\\\\\\n"
-msgstr ""
+msgstr "İndirme testi başarısız oldu\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID kontrolü: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Error: {}\\\\\\\\n"
-msgstr ""
+msgstr "Hata: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Arayüz kontrolü başarısız oldu: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: NOT FOUND\\\\\\\\n"
-msgstr ""
+msgstr "Arayüz {interface}: BULUNAMADI\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: UNKNOWN STATE\\\\\\\\n"
-msgstr ""
+msgstr "Arayüz {interface}: BİLİNMEYEN DURUM\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {} not found or not a WiFi interface\\\\\\\\n"
-msgstr ""
+msgstr "Arayüz {} bulunamadı veya WiFi arayüzü değil\\\\\\\\\\\\\\\\n"
 
 msgid " Kernel module check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Çekirdek modülü denetimi başarısız oldu: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Latency test failed\\\\\\\\n"
-msgstr ""
+msgstr "Gecikme testi başarısız oldu\\\\\\\\\\\\\\\\n"
 
 msgid " Mode check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Mod kontrolü: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "Düşük indirme hızı\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency\\\\\\\\n"
-msgstr ""
+msgstr "Düşük gecikme\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: No WiFi interfaces detected\\\\\\\\n"
-msgstr ""
+msgstr "SİSTEM DURUMU: WiFi arayüzü algılanmadı\\\\\\\\\\\\\\\\n"
 
 msgid " Scan test: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Tarama testi: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Signal check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Sinyal kontrolü: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " USB device check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "USB cihazı kontrolü başarısız oldu: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Very poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Çok düşük gecikme ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " {}\\\\\\\\n"
-msgstr ""
+msgstr "{}\\\\\\\\\\\\\\\\N"
 
 msgid " Cannot assess connection quality\\\\\\\\n"
-msgstr ""
+msgstr "Bağlantı kalitesi değerlendirilemiyor\\\\\\\\\\\\\\\\n"
 
 msgid " Download speed unavailable\\\\\\\\n"
-msgstr ""
+msgstr "İndirme hızı mevcut değil\\\\\\\\\\\\\\\\n"
 
 msgid " Latency unavailable\\\\\\\\n"
-msgstr ""
+msgstr "Gecikme mevcut değil\\\\\\\\\\\\\\\\n"
 
 msgid " Quality assessment unavailable\\\\\\\\n"
-msgstr ""
+msgstr "Kalite değerlendirmesi mevcut değil\\\\\\\\\\\\\\\\n"
 
 msgid "  Transmitted: {}\\\\\\\\n"
-msgstr ""
+msgstr "İletilen: {}\\\\\\\\\\\\\\\\n"
 
 msgid "  Received: {}\\\\\\\\n"
-msgstr ""
+msgstr "Alındı: {}\\\\\\\\\\\\\\\\n"
 
 msgid " AVAILABLE NETWORKS\\\\\\\\n"
-msgstr ""
+msgstr "KULLANILABİLİR AĞLAR\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: IP {ip} - ONLINE\\\\\\\\n"
-msgstr ""
+msgstr "Bağlantı: IP {ip} - ÇEVRİMİÇİ\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: No IP address - OFFLINE\\\\\\\\n"
-msgstr ""
+msgstr "Bağlantı: IP adresi yok - ÇEVRİMDIŞI\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: Unknown status\\\\\\\\n"
-msgstr ""
+msgstr "Bağlantı: Bilinmeyen durum\\\\\\\\\\\\\\\\n"
 
 msgid " EXCELLENT connection\\\\\\\\n"
-msgstr ""
+msgstr "MÜKEMMEL bağlantı\\\\\\\\\\\\\\\\n"
 
 msgid " SERVER INFORMATION:\\\\\\\\n"
-msgstr ""
+msgstr "SUNUCU BİLGİSİ:\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Düşük gecikme ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " FAIR connection\\\\\\\\n"
-msgstr ""
+msgstr "ADİL bağlantı\\\\\\\\\\\\\\\\n"
 
 msgid " GOOD connection\\\\\\\\n"
-msgstr ""
+msgstr "İYİ bağlantı\\\\\\\\\\\\\\\\n"
 
 msgid " POOR connection\\\\\\\\n"
-msgstr ""
+msgstr "ZAYIF bağlantı\\\\\\\\\\\\\\\\n"
 
 msgid " CLIENT INFORMATION:\\\\\\\\n"
-msgstr ""
+msgstr "MÜŞTERİ BİLGİLERİ:\\\\\\\\\\\\\\\\n"
 
 msgid " All basic diagnostics available\\\\\\\\n"
-msgstr ""
+msgstr "Tüm temel teşhisler mevcut\\\\\\\\\\\\\\\\n"
 
 msgid " Tips:\\\\\\\\n"
-msgstr ""
+msgstr "İpuçları:\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "Sürücü: Bilinmiyor\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: {}\\\\\\\\n"
-msgstr ""
+msgstr "Sürücü: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Protocol: {}\\\\\\\\n"
-msgstr ""
+msgstr "Protokol: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "Mükemmel indirme hızı ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " TEST RESULTS:\\\\\\\\n"
-msgstr ""
+msgstr "TEST SONUÇLARI:\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "Ortalama indirme hızı ({:.1f} Mb/sn)\\\\\\\\\\\\\\\\n"
 
 msgid " Poor download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "Düşük indirme hızı ({:.1f} Mb/sn)\\\\\\\\\\\\\\\\n"
 
 msgid " Good download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "İyi indirme hızı ({:.1f} Mb/sn)\\\\\\\\\\\\\\\\n"
 
 msgid " NETWORK STATISTICS\\\\\\\\n"
-msgstr ""
+msgstr "AĞ İSTATİSTİKLERİ\\\\\\\\\\\\\\\\n"
 
 msgid " Quality: {}\\\\\\\\n"
-msgstr ""
+msgstr "Kalite: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Signal: No quality data available\\\\\\\\n"
-msgstr ""
+msgstr "Sinyal: Kaliteli veri yok\\\\\\\\\\\\\\\\n"
 
 msgid " Signal: {quality}% quality, {signal} dBm\\\\\\\\n"
-msgstr ""
+msgstr "Sinyal: {quality}% kalite, {signal} dBm\\\\\\\\\\\\\\\\n"
 
 msgid " MAC: {}\\\\\\\\n"
-msgstr ""
+msgstr "MAC: {}\\\\\\\\\\\\\\\\n"
 
 msgid " DETAILED WIFI INFORMATION - {}\\\\\\\\n"
-msgstr ""
+msgstr "DETAYLI WIFI BİLGİSİ - {}\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: {}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface Type: WIRELESS\\\\\\\\n"
-msgstr ""
+msgstr "Arayüz Türü: KABLOSUZ\\\\\\\\\\\\\\\\n"
 
 msgid " Scan: Found {count} networks\\\\\\\\n"
-msgstr ""
+msgstr "Tarama: {count} ağ bulundu\\\\\\\\\\\\\\\\n"
 
 msgid " Type: Wireless interface\\\\\\\\n"
-msgstr ""
+msgstr "Tür: Kablosuz arayüz\\\\\\\\\\\\\\\\n"
 
 msgid " Connection appears good (based on download)\\\\\\\\n"
-msgstr ""
+msgstr "Bağlantı iyi görünüyor (indirmeye bağlı olarak)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection appears responsive (based on ping)\\\\\\\\n"
-msgstr ""
+msgstr "Bağlantı duyarlı görünüyor (ping'e göre)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection may be limited (based on download)\\\\\\\\n"
-msgstr ""
+msgstr "Bağlantı sınırlı olabilir (indirmeye bağlı olarak)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection may be slow (based on ping)\\\\\\\\n"
-msgstr ""
+msgstr "Bağlantı yavaş olabilir (ping'e bağlı olarak)\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: Not connected\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: Bağlı değil\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: {essid}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: {essid}\\\\\\\\\\\\\\\\n"
 
 msgid " Frequency: {}\\\\\\\\n"
-msgstr ""
+msgstr "Frekans: {}\\\\\\\\\\\\\\\\n"
 
 msgid " WIRELESS INFORMATION\\\\\\\\n"
-msgstr ""
+msgstr "KABLOSUZ BİLGİLERİ\\\\\\\\\\\\\\\\n"
 
 msgid " DRIVER & HARDWARE\\\\\\\\n"
-msgstr ""
+msgstr "SÜRÜCÜ VE DONANIM\\\\\\\\\\\\\\\\n"
 
 msgid " Type: Wired interface\\\\\\\\n"
-msgstr ""
+msgstr "Tür: Kablolu arayüz\\\\\\\\\\\\\\\\n"
 
 msgid " BASIC INTERFACE INFO\\\\\\\\n"
-msgstr ""
+msgstr "TEMEL ARAYÜZ BİLGİLERİ\\\\\\\\\\\\\\\\n"
 
 msgid " Interface: {}\\\\\\\\n"
-msgstr ""
+msgstr "Arayüz: {}\\\\\\\\\\\\\\\\n"
 
 msgid " METHOD: Using system commands (no root required)\\\\\\\\n"
-msgstr ""
+msgstr "YÖNTEM: Sistem komutlarını kullanma (root gerekmez)\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "Mod: Bilinmiyor\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: {mode}\\\\\\\\n"
-msgstr ""
+msgstr "Mod: {mode}\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: {}\\\\\\\\n"
-msgstr ""
+msgstr "Mod: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Module: {}\\\\\\\\n"
-msgstr ""
+msgstr "Modül: {}\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM LEVEL DIAGNOSTICS\\\\\\\\n"
-msgstr ""
+msgstr "SİSTEM DÜZEYİ TEŞHİSLERİ\\\\\\\\\\\\\\\\n"
 
 msgid " Bit Rate: {}\\\\\\\\n"
-msgstr ""
+msgstr "Bit Hızı: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Check hardware connection and drivers\\\\\\\\n"
-msgstr ""
+msgstr "Donanım bağlantısını ve sürücüleri kontrol edin\\\\\\\\\\\\\\\\n"
 
 msgid " VERY POOR connection\\\\\\\\n"
-msgstr ""
+msgstr "ÇOK KÖTÜ bağlantı\\\\\\\\\\\\\\\\n"

@@ -14,364 +14,364 @@ msgid "- {adapter}\\\\\\\\n"
 msgstr ""
 
 msgid "... and {} more networks\\\\\\\\n"
-msgstr ""
+msgstr "... e {} mais redes\\\\\\\\\\\\\\\\n"
 
 msgid "1 dBm (Min)"
-msgstr ""
+msgstr "1 dBm (mín.)"
 
 msgid "1. Check if WiFi adapter is properly connected\\\\\\\\n"
-msgstr ""
+msgstr "1. Verifique se o adaptador WiFi está conectado corretamente\\\\\\\\\\\\\\\\n"
 
 msgid "1. Disconnect from current WiFi network\\\\\\\\n"
-msgstr ""
+msgstr "1. Desconecte-se da rede WiFi atual\\\\\\\\\\\\\\\\n"
 
 msgid "10 dBm"
-msgstr ""
+msgstr "10dBm"
 
 msgid "15 dBm"
-msgstr ""
+msgstr "15dBm"
 
 msgid "2. Restart WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "2. Reinicie o adaptador WiFi\\\\\\\\\\\\\\\\n"
 
 msgid "2. Verify WiFi adapter is supported by your receiver\\\\\\\\n"
-msgstr ""
+msgstr "2. Verifique se o adaptador WiFi é compatível com seu receptor\\\\\\\\\\\\\\\\n"
 
 msgid "20 dBm (Max)"
-msgstr ""
+msgstr "20 dBm (máx.)"
 
 msgid "3. Check if WiFi driver is installed\\\\\\\\n"
-msgstr ""
+msgstr "3. Verifique se o driver WiFi está instalado\\\\\\\\\\\\\\\\n"
 
 msgid "3. Try different USB port for USB WiFi adapters\\\\\\\\n"
-msgstr ""
+msgstr "3. Experimente uma porta USB diferente para adaptadores WiFi USB\\\\\\\\\\\\\\\\n"
 
 msgid "4. Check if WiFi drivers are installed\\\\\\\\n"
-msgstr ""
+msgstr "4. Verifique se os drivers WiFi estão instalados\\\\\\\\\\\\\\\\n"
 
 msgid "4. Try with different USB WiFi adapter\\\\\\\\n"
-msgstr ""
+msgstr "4. Experimente com um adaptador USB WiFi diferente\\\\\\\\\\\\\\\\n"
 
 msgid "5 dBm"
-msgstr ""
+msgstr "5dBm"
 
 msgid "5. Check root permissions\\\\\\\\n"
-msgstr ""
+msgstr "5. Verifique as permissões de root\\\\\\\\\\\\\\\\n"
 
 msgid "5. Restart the receiver and try again\\\\\\\\n"
-msgstr ""
+msgstr "5. Reinicie o receptor e tente novamente\\\\\\\\\\\\\\\\n"
 
 msgid "=== WiFi Diagnostics (System Commands Only) ===\\\\\\\\n"
-msgstr ""
+msgstr "=== Diagnóstico de WiFi (somente comandos do sistema) ===\\\\\\\\\\\\\\\\n"
 
 msgid "ACTIVE"
-msgstr ""
+msgstr "ATIVO"
 
 msgid "About"
-msgstr ""
+msgstr "Sobre"
 
 msgid "Access Point"
-msgstr ""
+msgstr "Ponto de acesso"
 
 msgid "Access Point: {ap}"
-msgstr ""
+msgstr "Ponto de acesso: {ap}"
 
 msgid "Access Points"
-msgstr ""
+msgstr "Pontos de acesso"
 
 msgid "Access points info displayed."
-msgstr ""
+msgstr "Informações de pontos de acesso exibidas."
 
 msgid "Ad-Hoc"
-msgstr ""
+msgstr "Ad hoc"
 
 msgid "Advanced"
-msgstr ""
+msgstr "Avançado"
 
 msgid "Advanced Config"
-msgstr ""
+msgstr "Configuração avançada"
 
 msgid "Advanced Config - {}"
-msgstr ""
+msgstr "Configuração avançada - {}"
 
 msgid "Advanced Scan"
-msgstr ""
+msgstr "Verificação Avançada"
 
 msgid "Advanced Scan Results"
-msgstr ""
+msgstr "Resultados de verificação avançada"
 
 msgid "Advanced Tools"
-msgstr ""
+msgstr "Ferramentas Avançadas"
 
 msgid "Advanced WiFi Configuration"
-msgstr ""
+msgstr "Configuração WiFi avançada"
 
 msgid "Advanced WiFi Tools"
-msgstr ""
+msgstr "Ferramentas avançadas de WiFi"
 
 msgid "Advanced WiFi configuration"
-msgstr ""
+msgstr "Configuração WiFi avançada"
 
 msgid "Advanced WiFi configuration settings"
-msgstr ""
+msgstr "Configurações avançadas de WiFi"
 
 msgid "Advanced WiFi interface configuration"
-msgstr ""
+msgstr "Configuração avançada de interface WiFi"
 
 msgid "Advanced configuration completed."
-msgstr ""
+msgstr "Configuração avançada concluída."
 
 msgid "All Network Interfaces: {interfaces}\\\\\\\\n"
-msgstr ""
+msgstr "Todas as interfaces de rede: {interfaces}\\\\\\\\\\\\\\\\n"
 
 msgid "All ping tests failed"
-msgstr ""
+msgstr "Todos os testes de ping falharam"
 
 msgid "All settings reset to defaults"
-msgstr ""
+msgstr "Todas as configurações foram redefinidas para os padrões"
 
 msgid "Applied: {} commands\\\\\\\\n"
-msgstr ""
+msgstr "Aplicado: {} comandos\\\\\\\\\\\\\\\\n"
 
 msgid "Apply"
-msgstr ""
+msgstr "Aplicar"
 
 msgid "Auto"
 msgstr ""
 
 msgid "Auto  limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "Limite automático; limite mínimo:{limit}"
 
 msgid "Automatic (DHCP)"
-msgstr ""
+msgstr "Automático (DHCP)"
 
 msgid "Available frequencies and channels for your region"
-msgstr ""
+msgstr "Frequências e canais disponíveis para sua região"
 
 msgid "Available frequencies/channels"
-msgstr ""
+msgstr "Frequências/canais disponíveis"
 
 msgid "Available interfaces: {}"
-msgstr ""
+msgstr "Interfaces disponíveis: {}"
 
 msgid "Back"
-msgstr ""
+msgstr "Voltar"
 
 msgid "Basic"
-msgstr ""
+msgstr "Básico"
 
 msgid "Basic info error: {}"
-msgstr ""
+msgstr "Erro de informações básicas: {}"
 
 msgid "Basic view enabled - rescan to see basic info"
-msgstr ""
+msgstr "Visualização básica ativada - verifique novamente para ver informações básicas"
 
 msgid "Bit Rate: {rate}"
-msgstr ""
+msgstr "Taxa de bits: {rate}"
 
 msgid "Bit Rates:"
-msgstr ""
+msgstr "Taxas de bits:"
 
 msgid "Bitrate"
-msgstr ""
+msgstr "Taxa de bits"
 
 msgid "Bitrate Info"
-msgstr ""
+msgstr "Informações sobre taxa de bits"
 
 msgid "Bitrate info displayed."
-msgstr ""
+msgstr "Informações de taxa de bits exibidas."
 
 msgid "Bitrate information not available\\\\\\\\n"
-msgstr ""
+msgstr "Informações de taxa de bits não disponíveis\\\\\\\\\\\\\\\\n"
 
 msgid "CONNECTED to: {} - Press OK for options"
-msgstr ""
+msgstr "CONECTADO a: {} - Pressione OK para ver as opções"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 msgid "Cancelling test..."
-msgstr ""
+msgstr "Cancelando teste..."
 
 msgid "Cell"
-msgstr ""
+msgstr "Célula"
 
 msgid "Channel"
-msgstr ""
+msgstr "Canal"
 
 msgid "Channel Info"
-msgstr ""
+msgstr "Informações do canal"
 
 msgid "Channel info displayed."
-msgstr ""
+msgstr "Informações do canal exibidas."
 
 msgid "Channel {}"
-msgstr ""
+msgstr "Canal {}"
 
 msgid "Channel: %s\\\\\\\\n"
-msgstr ""
+msgstr "Canal: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Check System Logs"
-msgstr ""
+msgstr "Verifique os registros do sistema"
 
 msgid "Check system logs for WiFi errors"
-msgstr ""
+msgstr "Verifique os registros do sistema em busca de erros de WiFi"
 
 msgid "Check system logs for WiFi errors and connection issues"
-msgstr ""
+msgstr "Verifique os registros do sistema em busca de erros de WiFi e problemas de conexão"
 
 msgid "Checking internet connection..."
-msgstr ""
+msgstr "Verificando conexão com a Internet..."
 
 msgid "Checking system logs..."
-msgstr ""
+msgstr "Verificando registros do sistema..."
 
 msgid "Clear"
-msgstr ""
+msgstr "Claro"
 
 msgid "Client info completed"
-msgstr ""
+msgstr "Informações do cliente concluídas"
 
 msgid "Client info error: {error}"
-msgstr ""
+msgstr "Erro de informações do cliente: {error}"
 
 msgid "Close"
-msgstr ""
+msgstr "Fechar"
 
 msgid "Cloudflare"
-msgstr ""
+msgstr "nuvemflare"
 
 msgid "Complete iwconfig-like information"
-msgstr ""
+msgstr "Informações completas do tipo iwconfig"
 
 msgid "Config"
-msgstr ""
+msgstr "Configuração"
 
 msgid "Configure {}"
-msgstr ""
+msgstr "Configurar {}"
 
 msgid "Connect"
-msgstr ""
+msgstr "Conectar"
 
 msgid "Connect to WiFi networks"
-msgstr ""
+msgstr "Conecte-se a redes WiFi"
 
 msgid "Connected but no timing data"
-msgstr ""
+msgstr "Conectado, mas sem dados de tempo"
 
 msgid "Connected successfully!"
-msgstr ""
+msgstr "Conectado com sucesso!"
 
 msgid "Connected to %s"
-msgstr ""
+msgstr "Conectado a %s"
 
 msgid "Connected to: %s"
-msgstr ""
+msgstr "Conectado a: %s"
 
 msgid "Connected: {} | Signal: {} dBm | IP: {}"
-msgstr ""
+msgstr "Conectado: {} | Sinal: {}dBm | IP: {}"
 
 msgid "Connecting to %s..."
-msgstr ""
+msgstr "Conectando a %s..."
 
 msgid "Connection Info"
-msgstr ""
+msgstr "Informações de conexão"
 
 msgid "Connection failed!"
-msgstr ""
+msgstr "Falha na conexão!"
 
 msgid "Connection timeout"
-msgstr ""
+msgstr "Tempo limite de conexão"
 
 msgid "Country Code"
-msgstr ""
+msgstr "Código do país"
 
 msgid "DHCP"
 msgstr ""
 
 msgid "DNS Server 1"
-msgstr ""
+msgstr "Servidor DNS 1"
 
 msgid "DNS Server 2"
-msgstr ""
+msgstr "Servidor DNS 2"
 
 msgid "DOWN"
-msgstr ""
+msgstr "ABAIXO"
 
 msgid "Data Rate"
-msgstr ""
+msgstr "Taxa de dados"
 
 msgid "Defaults"
-msgstr ""
+msgstr "Padrões"
 
 msgid "Detailed Info - {}"
-msgstr ""
+msgstr "Informações detalhadas - {}"
 
 msgid "Detailed network scanning"
-msgstr ""
+msgstr "Verificação de rede detalhada"
 
 msgid "Detailed network scanning with signal strength and encryption info"
-msgstr ""
+msgstr "Verificação detalhada da rede com intensidade do sinal e informações de criptografia"
 
 msgid "Detailed speed test failed - Check internet connection"
-msgstr ""
+msgstr "Falha no teste de velocidade detalhado - Verifique a conexão com a Internet"
 
 msgid "Detailed test completed"
-msgstr ""
+msgstr "Teste detalhado concluído"
 
 msgid "Detailed test error: {error}"
-msgstr ""
+msgstr "Erro de teste detalhado: {error}"
 
 msgid "Detailed view enabled - rescan to see details"
-msgstr ""
+msgstr "Visualização detalhada ativada - verifique novamente para ver os detalhes"
 
 msgid "Details"
-msgstr ""
+msgstr "Detalhes"
 
 msgid "Details Info"
-msgstr ""
+msgstr "Informações detalhadas"
 
 msgid "Diagnostic error: {}\\\\\\\\n"
-msgstr ""
+msgstr "Erro de diagnóstico: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Diagnostics"
-msgstr ""
+msgstr "Diagnóstico"
 
 msgid "Disconnect"
-msgstr ""
+msgstr "Desconectar"
 
 msgid "Disconnected"
-msgstr ""
+msgstr "Desconectado"
 
 msgid "Disconnecting..."
-msgstr ""
+msgstr "Desconectando..."
 
 msgid "Download Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "Velocidade de download: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Download Speed: {download}\\\\\\\\n"
-msgstr ""
+msgstr "Velocidade de download: {download}\\\\\\\\\\\\\\\\n"
 
 msgid "Download test completed"
-msgstr ""
+msgstr "Teste de download concluído"
 
 msgid "Download: Failed\\\\\\\\n"
-msgstr ""
+msgstr "Download: Falha\\\\\\\\\\\\\\\\n"
 
 msgid "Download: {:.2f} Mbps\\\\\\\\n"
-msgstr ""
+msgstr "Baixar: {:.2f} Mbps\\\\\\\\\\\\\\\\n"
 
 msgid "Driver check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Falha na verificação do driver: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "Driver info error: {}"
-msgstr ""
+msgstr "Erro nas informações do driver: {}"
 
 msgid "Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "Motorista: Desconhecido\\\\\\\\\\\\\\\\n"
 
 msgid "Driver: {driver}\\\\\\\\n"
-msgstr ""
+msgstr "Motorista: {driver}\\\\\\\\\\\\\\\\n"
 
 msgid "ESSID: %s\\\\\\\\n"
 msgstr ""
@@ -380,250 +380,250 @@ msgid "ESSID: {}"
 msgstr ""
 
 msgid "Edit Configuration"
-msgstr ""
+msgstr "Editar configuração"
 
 msgid "Edit Password"
-msgstr ""
+msgstr "Editar senha"
 
 msgid "Encryption"
-msgstr ""
+msgstr "Criptografia"
 
 msgid "Encryption Info"
-msgstr ""
+msgstr "Informações de criptografia"
 
 msgid "Encryption info displayed."
-msgstr ""
+msgstr "Informações de criptografia exibidas."
 
 msgid "Encryption information not available\\\\\\\\n"
-msgstr ""
+msgstr "Informações de criptografia não disponíveis\\\\\\\\\\\\\\\\n"
 
 msgid "Encryption keys and security"
-msgstr ""
+msgstr "Chaves de criptografia e segurança"
 
 msgid "Encryption keys and security protocols"
-msgstr ""
+msgstr "Chaves de criptografia e protocolos de segurança"
 
 msgid "Encryption: %s\\\\\\\\n"
-msgstr ""
+msgstr "Criptografia: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Enter Password"
-msgstr ""
+msgstr "Digite a senha"
 
 msgid "Enter password for: %s"
-msgstr ""
+msgstr "Digite a senha para: %s"
 
 msgid "Error"
-msgstr ""
+msgstr "Erro"
 
 msgid "Error applying advanced settings: {}"
-msgstr ""
+msgstr "Erro ao aplicar configurações avançadas: {}"
 
 msgid "Error applying settings: {}"
-msgstr ""
+msgstr "Erro ao aplicar configurações: {}"
 
 msgid "Error disconnecting"
-msgstr ""
+msgstr "Erro ao desconectar"
 
 msgid "Error getting AP information: {}"
-msgstr ""
+msgstr "Erro ao obter informações do AP: {}"
 
 msgid "Error getting bitrate information: {}"
-msgstr ""
+msgstr "Erro ao obter informações de taxa de bits: {}"
 
 msgid "Error getting channel information: {}"
-msgstr ""
+msgstr "Erro ao obter informações do canal: {}"
 
 msgid "Error getting connection details: {error}"
-msgstr ""
+msgstr "Erro ao obter detalhes da conexão: {error}"
 
 msgid "Error getting encryption information: {}"
-msgstr ""
+msgstr "Erro ao obter informações de criptografia: {}"
 
 msgid "Error getting power information: {}"
-msgstr ""
+msgstr "Erro ao obter informações de energia: {}"
 
 msgid "Error getting retry information: {}"
-msgstr ""
+msgstr "Erro ao obter informações de nova tentativa: {}"
 
 msgid "Error loading help"
-msgstr ""
+msgstr "Erro ao carregar a ajuda"
 
 msgid "Error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Erro em {interface}: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "Error opening {module}: {error}"
-msgstr ""
+msgstr "Erro ao abrir {module}: {error}"
 
 msgid "Error running {tool}: {error}"
-msgstr ""
+msgstr "Erro ao executar {tool}: {error}"
 
 msgid "Error: {error}"
-msgstr ""
+msgstr "Erro: {error}"
 
 msgid "Error: {}"
-msgstr ""
+msgstr "Erro: {}"
 
 msgid "Estimating upload speed..."
-msgstr ""
+msgstr "Estimando velocidade de upload..."
 
 msgid "Excellent"
-msgstr ""
+msgstr "Excelente"
 
 msgid "Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "Excelente velocidade de download\\\\\\\\\\\\\\\\n"
 
 msgid "Executing tool..."
-msgstr ""
+msgstr "Ferramenta de execução..."
 
 msgid "Exit"
-msgstr ""
+msgstr "Saída"
 
 msgid "Failed"
-msgstr ""
+msgstr "Fracassado"
 
 msgid "Failed to connect to %s"
-msgstr ""
+msgstr "Falha ao conectar-se a %s"
 
 msgid "Failed: {} commands"
-msgstr ""
+msgstr "Falha: comandos {}"
 
 msgid "Fair"
-msgstr ""
+msgstr "Justo"
 
 msgid "Final connectivity check..."
-msgstr ""
+msgstr "Verificação final de conectividade..."
 
 msgid "Finding best server..."
-msgstr ""
+msgstr "Encontrando o melhor servidor..."
 
 msgid "Fixed lifetime ;  min lifetime:{lifetime}"
-msgstr ""
+msgstr "Vida útil fixa; vida útil mínima:{lifetime}"
 
 msgid "Fixed limit    ;  min limit:{limit}"
-msgstr ""
+msgstr "Limite fixo; limite mínimo:{limit}"
 
 msgid "For troubleshooting, detailed guidance, or community support, visit:\\\\\\\\n"
-msgstr ""
+msgstr "Para solução de problemas, orientação detalhada ou suporte da comunidade, visite:\\\\\\\\\\\\\\\\n"
 
 msgid "Forget Network"
-msgstr ""
+msgstr "Esqueça a rede"
 
 msgid "Forgotten network: {}"
-msgstr ""
+msgstr "Rede esquecida: {}"
 
 msgid "Found {} networks:\\\\\\\\n"
-msgstr ""
+msgstr "Redes {} encontradas:\\\\\\\\\\\\\\\\n"
 
 msgid "Found: {}\\\\\\\\n"
-msgstr ""
+msgstr "Encontrado: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Fragmentation"
-msgstr ""
+msgstr "Fragmentação"
 
 msgid "Frequency"
-msgstr ""
+msgstr "Freqüência"
 
 msgid "Frequency information not available\\\\\\\\n"
-msgstr ""
+msgstr "Informações de frequência não disponíveis\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency/Channel"
-msgstr ""
+msgstr "Frequência/Canal"
 
 msgid "Frequency:"
-msgstr ""
+msgstr "Freqüência:"
 
 msgid "Frequency: %s\\\\\\\\n"
-msgstr ""
+msgstr "Frequência: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Frequency: {frequency}"
-msgstr ""
+msgstr "Frequência: {frequency}"
 
 msgid "Full Comprehensive Test"
-msgstr ""
+msgstr "Teste abrangente completo"
 
 msgid "Full Test"
-msgstr ""
+msgstr "Teste Completo"
 
 msgid "Full test completed"
-msgstr ""
+msgstr "Teste completo concluído"
 
 msgid "Full test error: {error}"
-msgstr ""
+msgstr "Erro de teste completo: {error}"
 
 msgid "Gateway"
-msgstr ""
+msgstr "Portal"
 
 msgid "Gateway: {gateway}"
-msgstr ""
+msgstr "Portal: {gateway}"
 
 msgid "Gathering client information..."
-msgstr ""
+msgstr "Coletando informações do cliente..."
 
 msgid "Gathering network details..."
-msgstr ""
+msgstr "Reunindo detalhes da rede..."
 
 msgid "Getting access point information..."
-msgstr ""
+msgstr "Obtendo informações do ponto de acesso..."
 
 msgid "Getting bitrate information..."
-msgstr ""
+msgstr "Obtendo informações de taxa de bits..."
 
 msgid "Getting channel information..."
-msgstr ""
+msgstr "Obtendo informações do canal..."
 
 msgid "Getting client information..."
-msgstr ""
+msgstr "Obtendo informações do cliente..."
 
 msgid "Getting encryption information..."
-msgstr ""
+msgstr "Obtendo informações de criptografia..."
 
 msgid "Getting power management information..."
-msgstr ""
+msgstr "Obtendo informações de gerenciamento de energia..."
 
 msgid "Getting retry information..."
-msgstr ""
+msgstr "Obtendo informações sobre novas tentativas..."
 
 msgid "Good"
-msgstr ""
+msgstr "Bom"
 
 msgid "Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "Boa velocidade de download\\\\\\\\\\\\\\\\n"
 
 msgid "Google"
 msgstr ""
 
 msgid "Google DNS"
-msgstr ""
+msgstr "DNS do Google"
 
 msgid "Help"
-msgstr ""
+msgstr "Ajuda"
 
 msgid "Hidden"
-msgstr ""
+msgstr "Escondido"
 
 msgid "Hidden Network"
-msgstr ""
+msgstr "Rede Oculta"
 
 msgid "Host not found"
-msgstr ""
+msgstr "Host não encontrado"
 
 msgid "Hostname: {hostname}"
-msgstr ""
+msgstr "Nome do host: {hostname}"
 
 msgid "INACTIVE"
-msgstr ""
+msgstr "INATIVO"
 
 msgid "IP Address"
-msgstr ""
+msgstr "Endereço IP"
 
 msgid "IP Address: {ip}"
-msgstr ""
+msgstr "Endereço IP: {ip}"
 
 msgid "IP Configuration"
-msgstr ""
+msgstr "Configuração IP"
 
 msgid "IP: N/A"
-msgstr ""
+msgstr "PI: N/A"
 
 msgid "IP: {ip}\\\\\\\\n"
 msgstr ""
@@ -638,772 +638,772 @@ msgid "ISP: {isp}\\\\\\\\n"
 msgstr ""
 
 msgid "Info"
-msgstr ""
+msgstr "Informações"
 
 msgid "Initializing WiFi..."
-msgstr ""
+msgstr "Inicializando Wi-Fi..."
 
 msgid "Initializing detailed speed test..."
-msgstr ""
+msgstr "Inicializando teste de velocidade detalhado..."
 
 msgid "Interface"
 msgstr ""
 
 msgid "Interface found: {}"
-msgstr ""
+msgstr "Interface encontrada: {}"
 
 msgid "Interface restarted successfully"
-msgstr ""
+msgstr "Interface reiniciada com sucesso"
 
 msgid "Interface restarted."
-msgstr ""
+msgstr "Interface reiniciada."
 
 msgid "Interface {} not available"
-msgstr ""
+msgstr "Interface {} não disponível"
 
 msgid "Interface: {}"
 msgstr ""
 
 msgid "Invalid misc:%s"
-msgstr ""
+msgstr "Diversos inválidos:%s"
 
 msgid "Kernel Messages (dmesg):\\\\\\\\n"
-msgstr ""
+msgstr "Mensagens do Kernel (dmesg):\\\\\\\\\\\\\\\\n"
 
 msgid "Latency test completed"
-msgstr ""
+msgstr "Teste de latência concluído"
 
 msgid "Latency: %s\\\\\\\\n"
-msgstr ""
+msgstr "Latência: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Link Quality: {quality}"
-msgstr ""
+msgstr "Qualidade do link: {quality}"
 
 msgid "Link Quality:%s/100"
-msgstr ""
+msgstr "Qualidade do link:%s/100"
 
 msgid "List of access points and connected peer stations"
-msgstr ""
+msgstr "Lista de pontos de acesso e estações peer conectadas"
 
 msgid "List of access points/peers"
-msgstr ""
+msgstr "Lista de pontos de acesso/pares"
 
 msgid "Location: {city}, {country}"
-msgstr ""
+msgstr "Localização: {city}, {country}"
 
 msgid "Location: {city}, {country}\\\\\\\\n"
-msgstr ""
+msgstr "Localização: {city}, {country}\\\\\\\\\\\\\\\\n"
 
 msgid "Logs checked."
-msgstr ""
+msgstr "Registros verificados."
 
 msgid "MAC Address: {mac}"
-msgstr ""
+msgstr "Endereço MAC: {mac}"
 
 msgid "MAC Address: {mac}\\\\\\\\n"
-msgstr ""
+msgstr "Endereço MAC: {mac}\\\\\\\\\\\\\\\\n"
 
 msgid "MAC: %s\\\\\\\\n"
 msgstr ""
 
 msgid "MAC: N/A"
-msgstr ""
+msgstr "MAC: N/D"
 
 msgid "MAC: {}"
 msgstr ""
 
 msgid "Managed (Client)"
-msgstr ""
+msgstr "Gerenciado (Cliente)"
 
 msgid "Manual (Static IP)"
-msgstr ""
+msgstr "Manual (IP estático)"
 
 msgid "Master (AP)"
-msgstr ""
+msgstr "Mestre (AP)"
 
 msgid "Missed beacon:%s"
-msgstr ""
+msgstr "Sinal perdido:%s"
 
 msgid "Mode:"
-msgstr ""
+msgstr "Modo:"
 
 msgid "Mode: {mode}"
-msgstr ""
+msgstr "Modo: {mode}"
 
 msgid "Modules reloaded."
-msgstr ""
+msgstr "Módulos recarregados."
 
 msgid "Monitor"
 msgstr ""
 
 msgid "Monitoring error: {}"
-msgstr ""
+msgstr "Erro de monitoramento: {}"
 
 msgid "N/A"
-msgstr ""
+msgstr "N / D"
 
 msgid "Name: {name}\\\\\\\\n"
-msgstr ""
+msgstr "Nome: {name}\\\\\\\\\\\\\\\\n"
 
 msgid "Netmask"
-msgstr ""
+msgstr "Máscara de rede"
 
 msgid "Network %d:\\\\\\\\n"
-msgstr ""
+msgstr "Rede %d:\\\\\\\\\\\\\\\\n"
 
 msgid "Network Interface: {interface}"
-msgstr ""
+msgstr "Interface de rede: {interface}"
 
 msgid "Network Name (SSID)"
-msgstr ""
+msgstr "Nome da rede (SSID)"
 
 msgid "Network forgotten!"
-msgstr ""
+msgstr "Rede esquecida!"
 
 msgid "Network info error: {error}"
-msgstr ""
+msgstr "Erro de informações de rede: {error}"
 
 msgid "Network information unavailable"
-msgstr ""
+msgstr "Informações de rede indisponíveis"
 
 msgid "Network unreachable"
-msgstr ""
+msgstr "Rede inacessível"
 
 msgid "Network: %s"
-msgstr ""
+msgstr "Rede: %s"
 
 msgid "Network: {essid}"
-msgstr ""
+msgstr "Rede: {essid}"
 
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 msgid "No IP"
-msgstr ""
+msgstr "Sem IP"
 
 msgid "No WiFi connection data available"
-msgstr ""
+msgstr "Nenhum dado de conexão WiFi disponível"
 
 msgid "No WiFi interface available"
-msgstr ""
+msgstr "Nenhuma interface WiFi disponível"
 
 msgid "No WiFi interface detected. Please check your hardware."
-msgstr ""
+msgstr "Nenhuma interface WiFi detectada. Por favor, verifique seu hardware."
 
 msgid "No WiFi interface found"
-msgstr ""
+msgstr "Nenhuma interface WiFi encontrada"
 
 msgid "No WiFi interfaces found"
-msgstr ""
+msgstr "Nenhuma interface WiFi encontrada"
 
 msgid "No WiFi interfaces found\\\\\\\\n"
-msgstr ""
+msgstr "Nenhuma interface WiFi encontrada\\\\\\\\\\\\\\\\n"
 
 msgid "No WiFi messages in system logs"
-msgstr ""
+msgstr "Nenhuma mensagem WiFi nos registros do sistema"
 
 msgid "No connection details available"
-msgstr ""
+msgstr "Nenhum detalhe de conexão disponível"
 
 msgid "No data"
-msgstr ""
+msgstr "Sem dados"
 
 msgid "No help available for this tool."
-msgstr ""
+msgstr "Nenhuma ajuda disponível para esta ferramenta."
 
 msgid "No interface"
-msgstr ""
+msgstr "Sem interface"
 
 msgid "No internet connection"
-msgstr ""
+msgstr "Sem conexão com a internet"
 
 msgid "No internet connection detected"
-msgstr ""
+msgstr "Nenhuma conexão com a Internet detectada"
 
 msgid "No network selected"
-msgstr ""
+msgstr "Nenhuma rede selecionada"
 
 msgid "No networks found"
-msgstr ""
+msgstr "Nenhuma rede encontrada"
 
 msgid "No networks found - Press BLUE to rescan"
-msgstr ""
+msgstr "Nenhuma rede encontrada - Pressione AZUL para digitalizar novamente"
 
 msgid "No networks found on {}\\\\\\\\n"
-msgstr ""
+msgstr "Nenhuma rede encontrada em {}\\\\\\\\\\\\\\\\n"
 
 msgid "No networks found or scan not supported\\\\\\\\n"
-msgstr ""
+msgstr "Nenhuma rede encontrada ou verificação não suportada\\\\\\\\\\\\\\\\n"
 
 msgid "No networks found with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "Nenhuma rede encontrada com iwlist\\\\\\\\\\\\\\\\n"
 
 msgid "No packets sent"
-msgstr ""
+msgstr "Nenhum pacote enviado"
 
 msgid "No ping data"
-msgstr ""
+msgstr "Sem dados de ping"
 
 msgid "No results with iwlist\\\\\\\\n"
-msgstr ""
+msgstr "Nenhum resultado com iwlist\\\\\\\\\\\\\\\\n"
 
 msgid "No station/peer information available\\\\\\\\n"
-msgstr ""
+msgstr "Nenhuma informação de estação/par disponível\\\\\\\\\\\\\\\\n"
 
 msgid "Noise level:%sdBm"
-msgstr ""
+msgstr "Nível de ruído:% sdBm"
 
 msgid "None"
-msgstr ""
+msgstr "Nenhum"
 
 msgid "None found"
-msgstr ""
+msgstr "Nenhum encontrado"
 
 msgid "Not connected"
-msgstr ""
+msgstr "Não conectado"
 
 msgid "Not connected to any network"
-msgstr ""
+msgstr "Não conectado a nenhuma rede"
 
 msgid "Not-Associated"
-msgstr ""
+msgstr "Não associado"
 
 msgid "Open"
-msgstr ""
+msgstr "Abrir"
 
 msgid "OpenDNS"
 msgstr ""
 
 msgid "Operation Mode"
-msgstr ""
+msgstr "Modo de operação"
 
 msgid "Operation completed."
-msgstr ""
+msgstr "Operação concluída."
 
 msgid "Output: {output}..."
-msgstr ""
+msgstr "Saída: {output}..."
 
 msgid "Packet retry limits and frame lifetime settings"
-msgstr ""
+msgstr "Limites de novas tentativas de pacotes e configurações de vida útil do quadro"
 
 msgid "Packets: {sent}, Lost: {lost} ({percentage:.1f}%) - {stability}"
-msgstr ""
+msgstr "Pacotes: {sent}, Perdidos: {lost} ({percentage:.1f}%) - {stability}"
 
 msgid "Password"
-msgstr ""
+msgstr "Senha"
 
 msgid "Pause"
-msgstr ""
+msgstr "Pausa"
 
 msgid "Performing initial scan..."
-msgstr ""
+msgstr "Executando verificação inicial..."
 
 msgid "Ping error for {host}: {error}"
-msgstr ""
+msgstr "Erro de ping para {host}: {error}"
 
 msgid "Ping failed"
-msgstr ""
+msgstr "Falha no ping"
 
 msgid "Ping failed for {host} (returncode: {code})"
-msgstr ""
+msgstr "Falha no ping para {host} (código de retorno: {code})"
 
 msgid "Ping not available"
-msgstr ""
+msgstr "Ping não disponível"
 
 msgid "Ping test completed: {avg:.1f} ms average ({success}/{total} successful)"
-msgstr ""
+msgstr "Teste de ping concluído: média de {avg:.1f} ms ({success}/{total} bem-sucedido)"
 
 msgid "Ping test error: {error}"
-msgstr ""
+msgstr "Erro de teste de ping: {error}"
 
 msgid "Ping timeout for {host}"
-msgstr ""
+msgstr "Tempo limite de ping para {host}"
 
 msgid "Ping {host} (fallback): {time} ms"
-msgstr ""
+msgstr "Ping {host} (substituto): {time} ms"
 
 msgid "Ping {host}: {time} ms"
 msgstr ""
 
 msgid "Ping/Latency: {ping}\\\\\\\\n"
-msgstr ""
+msgstr "Ping/Latência: {ping}\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: Failed\\\\\\\\n"
-msgstr ""
+msgstr "Ping: Falha\\\\\\\\\\\\\\\\n"
 
 msgid "Ping: {:.1f} ms\\\\\\\\n"
-msgstr ""
+msgstr "Ping: {:.1f}ms\\\\\\\\\\\\\\\\n"
 
 msgid "Please enter a network name"
-msgstr ""
+msgstr "Insira um nome de rede"
 
 msgid "Please enter a password"
-msgstr ""
+msgstr "Por favor insira uma senha"
 
 msgid "Poor"
-msgstr ""
+msgstr "Pobre"
 
 msgid "Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "Baixa velocidade de download\\\\\\\\\\\\\\\\n"
 
 msgid "Power Management"
-msgstr ""
+msgstr "Gerenciamento de energia"
 
 msgid "Power management info displayed."
-msgstr ""
+msgstr "Informações de gerenciamento de energia exibidas."
 
 msgid "Power management information not available\\\\\\\\n"
-msgstr ""
+msgstr "Informações de gerenciamento de energia não disponíveis\\\\\\\\\\\\\\\\n"
 
 msgid "Power management settings"
-msgstr ""
+msgstr "Configurações de gerenciamento de energia"
 
 msgid "Power management settings and power saving modes"
-msgstr ""
+msgstr "Configurações de gerenciamento de energia e modos de economia de energia"
 
 msgid "Primary DNS"
-msgstr ""
+msgstr "DNS primário"
 
 msgid "Public IP: Unable to determine"
-msgstr ""
+msgstr "IP público: não foi possível determinar"
 
 msgid "Public IP: {ip}"
-msgstr ""
+msgstr "IP público: {ip}"
 
 msgid "Quality: %s\\\\\\\\n"
-msgstr ""
+msgstr "Qualidade: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Quality: N/A"
-msgstr ""
+msgstr "Qualidade: N/A"
 
 msgid "Quality: {}%"
-msgstr ""
+msgstr "Qualidade: {}%"
 
 msgid "Quality: {}% ({})"
-msgstr ""
+msgstr "Qualidade: {}% ({})"
 
 msgid "Quick System Check"
-msgstr ""
+msgstr "Verificação rápida do sistema"
 
 msgid "Quick Test"
-msgstr ""
+msgstr "Teste rápido"
 
 msgid "Quick test completed"
-msgstr ""
+msgstr "Teste rápido concluído"
 
 msgid "Quick test error: {error}"
-msgstr ""
+msgstr "Erro de teste rápido: {error}"
 
 msgid "RTS Threshold"
-msgstr ""
+msgstr "Limite RTS"
 
 msgid "Real-time signal quality monitor"
-msgstr ""
+msgstr "Monitor de qualidade de sinal em tempo real"
 
 msgid "Refresh"
-msgstr ""
+msgstr "Atualizar"
 
 msgid "Reload WiFi Modules"
-msgstr ""
+msgstr "Recarregar Módulos WiFi"
 
 msgid "Reload kernel WiFi modules"
-msgstr ""
+msgstr "Recarregar módulos WiFi do kernel"
 
 msgid "Reload kernel WiFi modules to fix driver issues"
-msgstr ""
+msgstr "Recarregue os módulos WiFi do kernel para corrigir problemas de driver"
 
 msgid "Remember password"
-msgstr ""
+msgstr "Lembrar senha"
 
 msgid "Restart WiFi Interface"
-msgstr ""
+msgstr "Reinicie a interface WiFi"
 
 msgid "Restart WiFi interface %s?"
-msgstr ""
+msgstr "Reiniciar a interface WiFi %s?"
 
 msgid "Restart wireless interface"
-msgstr ""
+msgstr "Reinicie a interface sem fio"
 
 msgid "Restart wireless interface to reset connectivity"
-msgstr ""
+msgstr "Reinicie a interface sem fio para redefinir a conectividade"
 
 msgid "Restarting interface..."
-msgstr ""
+msgstr "Reiniciando a interface..."
 
 msgid "Retry Limits"
-msgstr ""
+msgstr "Limites de novas tentativas"
 
 msgid "Retry limit information not available\\\\\\\\n"
-msgstr ""
+msgstr "Informações sobre limite de novas tentativas não disponíveis\\\\\\\\\\\\\\\\n"
 
 msgid "Retry limits and lifetime"
-msgstr ""
+msgstr "Limites de repetição e tempo de vida"
 
 msgid "Retry limits info displayed."
-msgstr ""
+msgstr "Informações sobre limites de novas tentativas exibidas."
 
 msgid "Running detailed speed test..."
-msgstr ""
+msgstr "Executando teste de velocidade detalhado..."
 
 msgid "Running full speed test..."
-msgstr ""
+msgstr "Executando teste de velocidade total..."
 
 msgid "Running quick speed test..."
-msgstr ""
+msgstr "Executando teste rápido de velocidade..."
 
 msgid "Rx invalid crypt:%s"
-msgstr ""
+msgstr "Criptografa Rx inválida:%s"
 
 msgid "Rx invalid frag:%s"
-msgstr ""
+msgstr "Frag Rx inválido:%s"
 
 msgid "Rx invalid nwid:%s"
-msgstr ""
+msgstr "Rx nwid inválido:%s"
 
 msgid "Save & Connect"
-msgstr ""
+msgstr "Salvar e conectar"
 
 msgid "Scan"
-msgstr ""
+msgstr "Digitalizar"
 
 msgid "Scan completed."
-msgstr ""
+msgstr "Verificação concluída."
 
 msgid "Scan error {}"
-msgstr ""
+msgstr "Erro de verificação {}"
 
 msgid "Scan error:"
-msgstr ""
+msgstr "Erro de digitalização:"
 
 msgid "Scan error: {}"
-msgstr ""
+msgstr "Erro de verificação: {}"
 
 msgid "Scan error: {}\\\\\\\\n"
-msgstr ""
+msgstr "Erro de verificação: {}\\\\\\\\\\\\\\\\n"
 
 msgid "Scan failed"
-msgstr ""
+msgstr "Falha na verificação"
 
 msgid "Scan for available networks"
-msgstr ""
+msgstr "Procure redes disponíveis"
 
 msgid "Scanner"
 msgstr ""
 
 msgid "Scanning for WiFi networks..."
-msgstr ""
+msgstr "Procurando redes WiFi..."
 
 msgid "Scanning for networks..."
-msgstr ""
+msgstr "Procurando redes..."
 
 msgid "Scanning..."
-msgstr ""
+msgstr "Digitalizando..."
 
 msgid "Secondary DNS"
-msgstr ""
+msgstr "DNS secundário"
 
 msgid "Secured"
-msgstr ""
+msgstr "Protegido"
 
 msgid "Select"
-msgstr ""
+msgstr "Selecione"
 
 msgid "Select a speed test type"
-msgstr ""
+msgstr "Selecione um tipo de teste de velocidade"
 
 msgid "Select a tool from the menu to get detailed information about WiFi configuration and status."
-msgstr ""
+msgstr "Selecione uma ferramenta no menu para obter informações detalhadas sobre a configuração e o status do WiFi."
 
 msgid "Select a tool to see description"
-msgstr ""
+msgstr "Selecione uma ferramenta para ver a descrição"
 
 msgid "Select a tool to view detailed information"
-msgstr ""
+msgstr "Selecione uma ferramenta para visualizar informações detalhadas"
 
 msgid "Select an option"
-msgstr ""
+msgstr "Selecione uma opção"
 
 msgid "Server found"
-msgstr ""
+msgstr "Servidor encontrado"
 
 msgid "Server info error: {error}"
-msgstr ""
+msgstr "Erro de informações do servidor: {error}"
 
 msgid "Settings applied successfully"
-msgstr ""
+msgstr "Configurações aplicadas com sucesso"
 
 msgid "Signal Level: {signal} dBm"
-msgstr ""
+msgstr "Nível de sinal: {signal} dBm"
 
 msgid "Signal level:%sdBm"
-msgstr ""
+msgstr "Nível de sinal:% sdBm"
 
 msgid "Signal: %s\\\\\\\\n"
-msgstr ""
+msgstr "Sinal: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Signal: N/A"
-msgstr ""
+msgstr "Sinal: N/A"
 
 msgid "Signal: {} dBm"
-msgstr ""
+msgstr "Sinal: {}dBm"
 
 msgid "Speedtest"
-msgstr ""
+msgstr "Teste de velocidade"
 
 msgid "Speedtest failed - No internet connection or all tests failed"
-msgstr ""
+msgstr "Falha no Speedtest - Sem conexão com a Internet ou todos os testes falharam"
 
 msgid "Speedtest failed: {}"
-msgstr ""
+msgstr "Falha no teste rápido: {}"
 
 msgid "SpeedtestSimple not available"
-msgstr ""
+msgstr "SpeedtestSimple não disponível"
 
 msgid "Sponsor: {sponsor}\\\\\\\\n"
-msgstr ""
+msgstr "Patrocinador: {sponsor}\\\\\\\\\\\\\\\\n"
 
 msgid "Stability test error: {error}"
-msgstr ""
+msgstr "Erro no teste de estabilidade: {error}"
 
 msgid "Stable"
-msgstr ""
+msgstr "Estável"
 
 msgid "Start"
-msgstr ""
+msgstr "Começar"
 
 msgid "Static"
-msgstr ""
+msgstr "Estático"
 
 msgid "Statistics error: {}"
-msgstr ""
+msgstr "Erro de estatísticas: {}"
 
 msgid "Status check failed: {}"
-msgstr ""
+msgstr "Falha na verificação de status: {}"
 
 msgid "Stop"
-msgstr ""
+msgstr "Parar"
 
 msgid "Supported bit rates"
-msgstr ""
+msgstr "Taxas de bits suportadas"
 
 msgid "Supported bitrates and current transmission rates"
-msgstr ""
+msgstr "Taxas de bits suportadas e taxas de transmissão atuais"
 
 msgid "System Logs"
-msgstr ""
+msgstr "Registros do sistema"
 
 msgid "System Logs:\\\\\\\\n"
-msgstr ""
+msgstr "Registros do sistema:\\\\\\\\\\\\\\\\n"
 
 msgid "TX Power"
-msgstr ""
+msgstr "Potência TX"
 
 msgid "Tertiary DNS"
-msgstr ""
+msgstr "DNS terciário"
 
 msgid "Test cancelled"
-msgstr ""
+msgstr "Teste cancelado"
 
 msgid "Test completed - See results below"
-msgstr ""
+msgstr "Teste concluído - Veja os resultados abaixo"
 
 msgid "Test completed!"
-msgstr ""
+msgstr "Teste concluído!"
 
 msgid "Test failed"
-msgstr ""
+msgstr "Falha no teste"
 
 msgid "Testing connection stability..."
-msgstr ""
+msgstr "Testando a estabilidade da conexão..."
 
 msgid "Testing connectivity..."
-msgstr ""
+msgstr "Testando conectividade..."
 
 msgid "Testing download speed (multiple servers)..."
-msgstr ""
+msgstr "Testando velocidade de download (múltiplos servidores)..."
 
 msgid "Testing download speed..."
-msgstr ""
+msgstr "Testando velocidade de download..."
 
 msgid "Testing latency to multiple hosts..."
-msgstr ""
+msgstr "Testando latência para vários hosts..."
 
 msgid "Testing latency..."
-msgstr ""
+msgstr "Testando latência..."
 
 msgid "Testing upload speed..."
-msgstr ""
+msgstr "Testando velocidade de upload..."
 
 msgid "These forums are great places to get help,\\\\\\\\n"
-msgstr ""
+msgstr "Esses fóruns são ótimos lugares para obter ajuda,\\\\\\\\\\\\\\\\n"
 
 msgid "Timeout"
-msgstr ""
+msgstr "Tempo esgotado"
 
 msgid "Tool not available"
-msgstr ""
+msgstr "Ferramenta não disponível"
 
 msgid "Tool not implemented: {}"
-msgstr ""
+msgstr "Ferramenta não implementada: {}"
 
 msgid "Tools"
-msgstr ""
+msgstr "Ferramentas"
 
 msgid "Tx excessive retries:%s"
-msgstr ""
+msgstr "Tentativas excessivas de Tx:%s"
 
 msgid "UP and active"
-msgstr ""
+msgstr "UP e ativo"
 
 msgid "Unable to assess download quality\\\\\\\\n"
-msgstr ""
+msgstr "Não foi possível avaliar a qualidade do download\\\\\\\\\\\\\\\\n"
 
 msgid "Unknown"
-msgstr ""
+msgstr "Desconhecido"
 
 msgid "Unstable"
-msgstr ""
+msgstr "Instável"
 
 msgid "Upload Speed: %s\\\\\\\\n"
-msgstr ""
+msgstr "Velocidade de upload: %s\\\\\\\\\\\\\\\\n"
 
 msgid "Upload Speed: {upload}\\\\\\\\n"
-msgstr ""
+msgstr "Velocidade de upload: {upload}\\\\\\\\\\\\\\\\n"
 
 msgid "Upload estimation completed"
-msgstr ""
+msgstr "Estimativa de upload concluída"
 
 msgid "Upload test failed: {error}"
-msgstr ""
+msgstr "Falha no teste de upload: {error}"
 
 msgid "Upload test not available"
-msgstr ""
+msgstr "Teste de upload não disponível"
 
 msgid "Upload test: {result}"
-msgstr ""
+msgstr "Teste de upload: {result}"
 
 msgid "Upload: Not available\\\\\\\\n"
-msgstr ""
+msgstr "Carregar: Não disponível\\\\\\\\\\\\\\\\n"
 
 msgid "Upload: {:.2f} Mbps (estimated)\\\\\\\\n"
-msgstr ""
+msgstr "Upload: {:.2f} Mbps (estimado)\\\\\\\\\\\\\\\\n"
 
 msgid "Very Poor"
-msgstr ""
+msgstr "Muito pobre"
 
 msgid "WEP Key Type"
-msgstr ""
+msgstr "Tipo de chave WEP"
 
 msgid "WiFi Advanced Tools"
-msgstr ""
+msgstr "Ferramentas avançadas de WiFi"
 
 msgid "WiFi Connection Manager"
-msgstr ""
+msgstr "Gerenciador de conexão WiFi"
 
 msgid "WiFi Diagnostics"
-msgstr ""
+msgstr "Diagnóstico de WiFi"
 
 msgid "WiFi Manager"
-msgstr ""
+msgstr "Gerenciador de Wi-Fi"
 
 msgid "WiFi Manager iwconfig version {}"
-msgstr ""
+msgstr "Versão iwconfig do WiFi Manager {}"
 
 msgid "WiFi Manager v."
-msgstr ""
+msgstr "Gerenciador de WiFi v."
 
 msgid "WiFi Password"
-msgstr ""
+msgstr "Senha Wi-Fi"
 
 msgid "WiFi Scanner"
-msgstr ""
+msgstr "Scanner Wi-Fi"
 
 msgid "WiFi Signal Monitor"
-msgstr ""
+msgstr "Monitor de sinal WiFi"
 
 msgid "WiFi Speed Test Manager"
-msgstr ""
+msgstr "Gerenciador de teste de velocidade WiFi"
 
 msgid "WiFi diagnostics and tests"
-msgstr ""
+msgstr "Diagnósticos e testes de WiFi"
 
 msgid "Wired"
-msgstr ""
+msgstr "Com fio"
 
 msgid "Wireless"
-msgstr ""
+msgstr "Sem fio"
 
 msgid "Wireless info error: {}"
-msgstr ""
+msgstr "Erro de informações sem fio: {}"
 
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 msgid "[LOCK]"
-msgstr ""
+msgstr "[TRANCAR]"
 
 msgid "[OPEN]"
-msgstr ""
+msgstr "[ABRIR]"
 
 msgid "[SAVED]"
-msgstr ""
+msgstr "[SALVO]"
 
 msgid "bits"
-msgstr ""
+msgstr "pedaços"
 
 msgid "ethtool not found"
-msgstr ""
+msgstr "ettool não encontrado"
 
 msgid "iwlist error on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "erro iwlist em {interface}: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist error: {}\\\\\\\\n"
-msgstr ""
+msgstr "erro iwlist: {}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist exception on {interface}: {error}\\\\\\\\n"
-msgstr ""
+msgstr "exceção iwlist em {interface}: {error}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist timeout on {}\\\\\\\\n"
-msgstr ""
+msgstr "tempo limite do iwlist em {}\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist: No networks found or interface busy\\\\\\\\n"
-msgstr ""
+msgstr "iwlist: Nenhuma rede encontrada ou interface ocupada\\\\\\\\\\\\\\\\n"
 
 msgid "iwlist: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "iwlist: Nenhuma rede encontrada\\\\\\\\\\\\\\\\n"
 
 msgid "lifetime"
-msgstr ""
+msgstr "vida"
 
 msgid "limit"
-msgstr ""
+msgstr "limite"
 
 msgid "long {type}:{value}"
-msgstr ""
+msgstr "longo {type}:{value}"
 
 msgid "max {type}:{value}"
-msgstr ""
+msgstr "máximo {type}:{value}"
 
 msgid "min {type}:{value}"
 msgstr ""
 
 msgid "off"
-msgstr ""
+msgstr "desligado"
 
 msgid "on"
-msgstr ""
+msgstr "sobre"
 
 msgid "pythonwifi: No networks found\\\\\\\\n"
-msgstr ""
+msgstr "pythonwifi: Nenhuma rede encontrada\\\\\\\\\\\\\\\\n"
 
 msgid "share experiences,and connect with other users."
-msgstr ""
+msgstr "compartilhe experiências e conecte-se com outros usuários."
 
 msgid "short {type}:{value}"
-msgstr ""
+msgstr "{type} curto:{value}"
 
 msgid "wait..."
-msgstr ""
+msgstr "espere..."
 
 msgid "{:.1f} ms"
 msgstr ""
@@ -1412,91 +1412,91 @@ msgid "{:.1f}%"
 msgstr ""
 
 msgid "{:2d}. {} {:20} | Signal: {:4} dBm ({}) | Channel: {}\\\\\\\\n"
-msgstr ""
+msgstr "{:2d}. {} {:20} | Sinal: {:4} dBm ({}) | Canal: {}\\\\\\\\\\\\\\\\n"
 
 msgid "{connection}{saved}{icon} {essid} | {security} | {signal} dBm"
-msgstr ""
+msgstr "{connection}{saved}{icon} {essid} | {security} | {signal}dBm"
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}...\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} | Qualidade: {quality:3}% | Sinal: {signal:4} dBm | {bssid}...\\\\\\\\\\\\\\\\n"
 
 msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}\\\\\\\\n"
-msgstr ""
+msgstr "{essid:20} | Qualidade: {quality:3}% | Sinal: {signal:4} dBm | {bssid}\\\\\\\\\\\\\\\\n"
 
 msgid "{icon} {interface}: {status}\\\\\\\\n"
 msgstr ""
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel:2} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Qualidade: {quality:3}% ({signal_quality}) | Sinal: {signal:4} dBm | Canal: {channel:2} | Criptografado: {encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel} | Encrypted: {encrypted}\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Qualidade: {quality:3}% ({signal_quality}) | Sinal: {signal:4} dBm | Canal: {channel:2} | Criptografado: {encrypted}\\\\\\\\\\\\\\\\n"
 
 msgid "{index:2d}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Qualidade: {quality:3}% | Sinal: {signal:4} dBm\\\\\\\\\\\\\\\\n"
 
 msgid "{index}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\\\\\\\n"
-msgstr ""
+msgstr "{index:2d}. {essid:20} | Qualidade: {quality:3}% | Sinal: {signal:4} dBm\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Connected to {essid} ({quality})\\\\\\\\n"
-msgstr ""
+msgstr "{interface}: Conectado a {essid} ({quality})\\\\\\\\\\\\\\\\n"
 
 msgid "{interface}: Not connected\\\\\\\\n"
-msgstr ""
+msgstr "{interface}: Não conectado\\\\\\\\\\\\\\\\n"
 
 msgid "{name} ({host}): {ping}"
 msgstr ""
 
 msgid "{name} ({sponsor}): {ping}"
-msgstr ""
+msgstr "{name} ({host}): {ping}"
 
 msgid "{name}: Error {error}"
-msgstr ""
+msgstr "{name}: Erro {error}"
 
 msgid "{name}: Failed"
-msgstr ""
+msgstr "{name}: Falha"
 
 msgid "{name}: Timeout"
-msgstr ""
+msgstr "{name}: Tempo limite"
 
 msgid "{name}: {speed:.2f} Mbps"
-msgstr ""
+msgstr "{name}: {speed:.2f}Mbps"
 
 msgid "{server}: {speed:.2f} Mbps ({data:.1f} MB in {time:.1f}s)\\\\\\\\n"
-msgstr ""
+msgstr "{server}: {speed:.2f} Mbps ({data:.1f} MB em {time:.1f}s)\\\\\\\\\\\\\\\\n"
 
 msgid "{speed:.2f} Mbps"
-msgstr ""
+msgstr "{speed:.2f}Mbps"
 
 msgid "{} ({:.0f}%)"
 msgstr ""
 
 msgid "{} - Open network - Press OK for options"
-msgstr ""
+msgstr "{} - Rede aberta - Pressione OK para opções"
 
 msgid "{} - Password required - Press OK for options"
-msgstr ""
+msgstr "{} - Senha obrigatória - Pressione OK para ver as opções"
 
 msgid "{} - Password saved - Press OK for options"
-msgstr ""
+msgstr "{} - Senha salva - Pressione OK para opções"
 
 msgid "{} GHz"
 msgstr ""
 
 msgid "{} Mb/s"
-msgstr ""
+msgstr "{}Mb/s"
 
 msgid "{} Status: {}\\\\\\\\n"
 msgstr ""
 
 msgid "{} Type: {} interface\\\\\\\\n"
-msgstr ""
+msgstr "{} Tipo: {} interface\\\\\\\\\\\\\\\\n"
 
 msgid "{} dBm"
-msgstr ""
+msgstr "{}dBm"
 
 msgid "{}: Failed"
-msgstr ""
+msgstr "{}: Fracassado"
 
 msgid "{}: {:.1f} ms"
 msgstr ""
@@ -1505,310 +1505,310 @@ msgid "{}\\\\\\\\n"
 msgstr ""
 
 msgid " Keep drivers updated\\\\\\\\n"
-msgstr ""
+msgstr "Mantenha os drivers atualizados\\\\\\\\\\\\\\\\n"
 
 msgid " Monitor signal strength for best performance\\\\\\\\n"
-msgstr ""
+msgstr "Monitore a intensidade do sinal para obter melhor desempenho\\\\\\\\\\\\\\\\n"
 
 msgid " Use 5GHz band for less interference\\\\\\\\n"
-msgstr ""
+msgstr "Use a banda de 5 GHz para menos interferência\\\\\\\\\\\\\\\\n"
 
 msgid "  No USB WiFi adapters found\\\\\\\\n"
-msgstr ""
+msgstr "Nenhum adaptador WiFi USB encontrado\\\\\\\\\\\\\\\\n"
 
 msgid "  Interface {interface}: DOWN (needs activation)\\\\\\\\n"
-msgstr ""
+msgstr "Interface {interface}: DOWN (precisa de ativação)\\\\\\\\\\\\\\\\n"
 
 msgid "  Missing commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "Comandos ausentes: {commands}\\\\\\\\\\\\\\\\n"
 
 msgid "  No WiFi kernel modules detected\\\\\\\\n"
-msgstr ""
+msgstr "Nenhum módulo de kernel WiFi detectado\\\\\\\\\\\\\\\\n"
 
 msgid "  Scan: Interface busy (connected to network)\\\\\\\\n"
-msgstr ""
+msgstr "Digitalizar: Interface ocupada (conectada à rede)\\\\\\\\\\\\\\\\n"
 
 msgid "  {test}: No data\\\\\\\\n"
-msgstr ""
+msgstr "{test}: Sem dados\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed\\\\\\\\n"
-msgstr ""
+msgstr "Velocidade média de download\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Latência média ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " Average latency\\\\\\\\n"
-msgstr ""
+msgstr "Latência média\\\\\\\\\\\\\\\\n"
 
 msgid " Good download speed\\\\\\\\n"
-msgstr ""
+msgstr "Boa velocidade de download\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency\\\\\\\\n"
-msgstr ""
+msgstr "Boa latência\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Excelente latência ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " TX Power: {}\\\\\\\\n"
-msgstr ""
+msgstr "Potência de transmissão: {}\\\\\\\\\\\\\\\\n"
 
 msgid " All systems operational\\\\\\\\n"
-msgstr ""
+msgstr "Todos os sistemas operacionais\\\\\\\\\\\\\\\\n"
 
 msgid " Available commands: {commands}\\\\\\\\n"
-msgstr ""
+msgstr "Comandos disponíveis: {commands}\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent download speed\\\\\\\\n"
-msgstr ""
+msgstr "Excelente velocidade de download\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent latency\\\\\\\\n"
-msgstr ""
+msgstr "Excelente latência\\\\\\\\\\\\\\\\n"
 
 msgid " Good latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Boa latência ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: UP and active\\\\\\\\n"
-msgstr ""
+msgstr "Interface {interface}: ATIVA e ativa\\\\\\\\\\\\\\\\n"
 
 msgid " Loaded WiFi modules: {modules}\\\\\\\\n"
-msgstr ""
+msgstr "Módulos WiFi carregados: {modules}\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: WiFi hardware detected and functional\\\\\\\\n"
-msgstr ""
+msgstr "STATUS DO SISTEMA: Hardware WiFi detectado e funcional\\\\\\\\\\\\\\\\n"
 
 msgid " USB WiFi adapters detected:\\\\\\\\n"
-msgstr ""
+msgstr "Adaptadores WiFi USB detectados:\\\\\\\\\\\\\\\\n"
 
 msgid " {test}: {output}\\\\\\\\n"
-msgstr ""
+msgstr "{test}: {output}\\\\\\\\\\\\\\\\n"
 
 msgid " CRITICAL: No WiFi interfaces detected!\\\\\\\\n"
-msgstr ""
+msgstr "CRÍTICO: Nenhuma interface WiFi detectada!\\\\\\\\\\\\\\\\n"
 
 msgid " Download test failed\\\\\\\\n"
-msgstr ""
+msgstr "Falha no teste de download\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Verificação de ESSID: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Error: {}\\\\\\\\n"
-msgstr ""
+msgstr "Erro: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Falha na verificação da interface: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: NOT FOUND\\\\\\\\n"
-msgstr ""
+msgstr "Interface {interface}: NÃO ENCONTRADA\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {interface}: UNKNOWN STATE\\\\\\\\n"
-msgstr ""
+msgstr "Interface {interface}: ESTADO DESCONHECIDO\\\\\\\\\\\\\\\\n"
 
 msgid " Interface {} not found or not a WiFi interface\\\\\\\\n"
-msgstr ""
+msgstr "Interface {} não encontrada ou não é uma interface WiFi\\\\\\\\\\\\\\\\n"
 
 msgid " Kernel module check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Falha na verificação do módulo do kernel: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Latency test failed\\\\\\\\n"
-msgstr ""
+msgstr "Falha no teste de latência\\\\\\\\\\\\\\\\n"
 
 msgid " Mode check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Verificação de modo: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Poor download speed\\\\\\\\n"
-msgstr ""
+msgstr "Baixa velocidade de download\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency\\\\\\\\n"
-msgstr ""
+msgstr "Latência ruim\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM STATUS: No WiFi interfaces detected\\\\\\\\n"
-msgstr ""
+msgstr "STATUS DO SISTEMA: Nenhuma interface WiFi detectada\\\\\\\\\\\\\\\\n"
 
 msgid " Scan test: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Teste de verificação: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Signal check: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Verificação de sinal: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " USB device check failed: {error}\\\\\\\\n"
-msgstr ""
+msgstr "Falha na verificação do dispositivo USB: {error}\\\\\\\\\\\\\\\\n"
 
 msgid " Very poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Latência muito baixa ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " {}\\\\\\\\n"
-msgstr ""
+msgstr "{}\\\\\\\\\\\\\\\\n"
 
 msgid " Cannot assess connection quality\\\\\\\\n"
-msgstr ""
+msgstr "Não é possível avaliar a qualidade da conexão\\\\\\\\\\\\\\\\n"
 
 msgid " Download speed unavailable\\\\\\\\n"
-msgstr ""
+msgstr "Velocidade de download indisponível\\\\\\\\\\\\\\\\n"
 
 msgid " Latency unavailable\\\\\\\\n"
-msgstr ""
+msgstr "Latência indisponível\\\\\\\\\\\\\\\\n"
 
 msgid " Quality assessment unavailable\\\\\\\\n"
-msgstr ""
+msgstr "Avaliação de qualidade indisponível\\\\\\\\\\\\\\\\n"
 
 msgid "  Transmitted: {}\\\\\\\\n"
-msgstr ""
+msgstr "Transmitido: {}\\\\\\\\\\\\\\\\n"
 
 msgid "  Received: {}\\\\\\\\n"
-msgstr ""
+msgstr "Recebido: {}\\\\\\\\\\\\\\\\n"
 
 msgid " AVAILABLE NETWORKS\\\\\\\\n"
-msgstr ""
+msgstr "REDES DISPONÍVEIS\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: IP {ip} - ONLINE\\\\\\\\n"
-msgstr ""
+msgstr "Conectividade: IP {ip} - ONLINE\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: No IP address - OFFLINE\\\\\\\\n"
-msgstr ""
+msgstr "Conectividade: Sem endereço IP - OFFLINE\\\\\\\\\\\\\\\\n"
 
 msgid " Connectivity: Unknown status\\\\\\\\n"
-msgstr ""
+msgstr "Conectividade: Status desconhecido\\\\\\\\\\\\\\\\n"
 
 msgid " EXCELLENT connection\\\\\\\\n"
-msgstr ""
+msgstr "EXCELENTE conexão\\\\\\\\\\\\\\\\n"
 
 msgid " SERVER INFORMATION:\\\\\\\\n"
-msgstr ""
+msgstr "INFORMAÇÕES DO SERVIDOR:\\\\\\\\\\\\\\\\n"
 
 msgid " Poor latency ({:.1f} ms)\\\\\\\\n"
-msgstr ""
+msgstr "Latência baixa ({:.1f} ms)\\\\\\\\\\\\\\\\n"
 
 msgid " FAIR connection\\\\\\\\n"
-msgstr ""
+msgstr "Conexão JUSTA\\\\\\\\\\\\\\\\n"
 
 msgid " GOOD connection\\\\\\\\n"
-msgstr ""
+msgstr "BOA conexão\\\\\\\\\\\\\\\\n"
 
 msgid " POOR connection\\\\\\\\n"
-msgstr ""
+msgstr "Conexão ruim\\\\\\\\\\\\\\\\n"
 
 msgid " CLIENT INFORMATION:\\\\\\\\n"
-msgstr ""
+msgstr "INFORMAÇÕES DO CLIENTE:\\\\\\\\\\\\\\\\n"
 
 msgid " All basic diagnostics available\\\\\\\\n"
-msgstr ""
+msgstr "Todos os diagnósticos básicos disponíveis\\\\\\\\\\\\\\\\n"
 
 msgid " Tips:\\\\\\\\n"
-msgstr ""
+msgstr "Dicas:\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "Motorista: Desconhecido\\\\\\\\\\\\\\\\n"
 
 msgid " Driver: {}\\\\\\\\n"
-msgstr ""
+msgstr "Motorista: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Protocol: {}\\\\\\\\n"
-msgstr ""
+msgstr "Protocolo: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Excellent download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "Excelente velocidade de download ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " TEST RESULTS:\\\\\\\\n"
-msgstr ""
+msgstr "RESULTADOS DO TESTE:\\\\\\\\\\\\\\\\n"
 
 msgid " Average download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "Velocidade média de download ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " Poor download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "Baixa velocidade de download ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " Good download speed ({:.1f} Mbps)\\\\\\\\n"
-msgstr ""
+msgstr "Boa velocidade de download ({:.1f} Mbps)\\\\\\\\\\\\\\\\n"
 
 msgid " NETWORK STATISTICS\\\\\\\\n"
-msgstr ""
+msgstr "ESTATÍSTICAS DA REDE\\\\\\\\\\\\\\\\n"
 
 msgid " Quality: {}\\\\\\\\n"
-msgstr ""
+msgstr "Qualidade: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Signal: No quality data available\\\\\\\\n"
-msgstr ""
+msgstr "Sinal: Não há dados de qualidade disponíveis\\\\\\\\\\\\\\\\n"
 
 msgid " Signal: {quality}% quality, {signal} dBm\\\\\\\\n"
-msgstr ""
+msgstr "Sinal: qualidade {quality}%, {signal} dBm\\\\\\\\\\\\\\\\n"
 
 msgid " MAC: {}\\\\\\\\n"
-msgstr ""
+msgstr "MAC: {}\\\\\\\\\\\\\\\\n"
 
 msgid " DETAILED WIFI INFORMATION - {}\\\\\\\\n"
-msgstr ""
+msgstr "INFORMAÇÕES DETALHADAS DO WIFI - {}\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: {}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Interface Type: WIRELESS\\\\\\\\n"
-msgstr ""
+msgstr "Tipo de interface: SEM FIO\\\\\\\\\\\\\\\\n"
 
 msgid " Scan: Found {count} networks\\\\\\\\n"
-msgstr ""
+msgstr "Verificação: redes {count} encontradas\\\\\\\\\\\\\\\\n"
 
 msgid " Type: Wireless interface\\\\\\\\n"
-msgstr ""
+msgstr "Tipo: Interface sem fio\\\\\\\\\\\\\\\\n"
 
 msgid " Connection appears good (based on download)\\\\\\\\n"
-msgstr ""
+msgstr "A conexão parece boa (com base no download)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection appears responsive (based on ping)\\\\\\\\n"
-msgstr ""
+msgstr "A conexão parece responsiva (com base no ping)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection may be limited (based on download)\\\\\\\\n"
-msgstr ""
+msgstr "A conexão pode ser limitada (com base no download)\\\\\\\\\\\\\\\\n"
 
 msgid " Connection may be slow (based on ping)\\\\\\\\n"
-msgstr ""
+msgstr "A conexão pode estar lenta (com base no ping)\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: Not connected\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: Não conectado\\\\\\\\\\\\\\\\n"
 
 msgid " ESSID: {essid}\\\\\\\\n"
-msgstr ""
+msgstr "ESSID: {essid}\\\\\\\\\\\\\\\\n"
 
 msgid " Frequency: {}\\\\\\\\n"
-msgstr ""
+msgstr "Frequência: {}\\\\\\\\\\\\\\\\n"
 
 msgid " WIRELESS INFORMATION\\\\\\\\n"
-msgstr ""
+msgstr "INFORMAÇÕES SEM FIO\\\\\\\\\\\\\\\\n"
 
 msgid " DRIVER & HARDWARE\\\\\\\\n"
-msgstr ""
+msgstr "DRIVER E HARDWARE\\\\\\\\\\\\\\\\n"
 
 msgid " Type: Wired interface\\\\\\\\n"
-msgstr ""
+msgstr "Tipo: Interface com fio\\\\\\\\\\\\\\\\n"
 
 msgid " BASIC INTERFACE INFO\\\\\\\\n"
-msgstr ""
+msgstr "INFORMAÇÕES BÁSICAS DA INTERFACE\\\\\\\\\\\\\\\\n"
 
 msgid " Interface: {}\\\\\\\\n"
-msgstr ""
+msgstr "Interface: {}\\\\\\\\\\\\\\\\n"
 
 msgid " METHOD: Using system commands (no root required)\\\\\\\\n"
-msgstr ""
+msgstr "MÉTODO: Usando comandos do sistema (sem necessidade de root)\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: Unknown\\\\\\\\n"
-msgstr ""
+msgstr "Modo: Desconhecido\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: {mode}\\\\\\\\n"
-msgstr ""
+msgstr "Modo: {mode}\\\\\\\\\\\\\\\\n"
 
 msgid " Mode: {}\\\\\\\\n"
-msgstr ""
+msgstr "Modo: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Module: {}\\\\\\\\n"
-msgstr ""
+msgstr "Módulo: {}\\\\\\\\\\\\\\\\n"
 
 msgid " SYSTEM LEVEL DIAGNOSTICS\\\\\\\\n"
-msgstr ""
+msgstr "DIAGNÓSTICO A NÍVEL DO SISTEMA\\\\\\\\\\\\\\\\n"
 
 msgid " Bit Rate: {}\\\\\\\\n"
-msgstr ""
+msgstr "Taxa de bits: {}\\\\\\\\\\\\\\\\n"
 
 msgid " Check hardware connection and drivers\\\\\\\\n"
-msgstr ""
+msgstr "Verifique a conexão de hardware e os drivers\\\\\\\\\\\\\\\\n"
 
 msgid " VERY POOR connection\\\\\\\\n"
-msgstr ""
+msgstr "Conexão MUITO RUIM\\\\\\\\\\\\\\\\n"
