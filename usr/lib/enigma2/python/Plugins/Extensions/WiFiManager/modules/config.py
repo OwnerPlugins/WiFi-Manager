@@ -277,7 +277,8 @@ class WiFiConfigScreen(Screen, ConfigListScreen):
                         for line in result.stdout.split('\n'):
                             if 'IEEE 802.11' in line and 'no wireless extensions' not in line:
                                 ifname = line.split()[0]
-                                if ifname and (ifname, ifname) not in interfaces:
+                                if ifname and (
+                                        ifname, ifname) not in interfaces:
                                     interfaces.append((ifname, ifname))
                 except Exception as e:
                     print(e)
@@ -392,8 +393,8 @@ class WiFiConfigScreen(Screen, ConfigListScreen):
                     ['iw', 'reg', 'set', self.wifi_config.country.value])
 
             if self.wifi_config.rate.value != "auto":
-                commands.append(
-                    ['iwconfig', ifname, 'rate', self.wifi_config.rate.value + 'M'])
+                commands.append(['iwconfig', ifname, 'rate',
+                                 self.wifi_config.rate.value + 'M'])
 
             success_count = 0
             failed_commands = []
@@ -677,7 +678,8 @@ class WiFiConfigScreen(Screen, ConfigListScreen):
             hidden=self.wifi_config.hiddenessid.value,
             wep_ascii=self.wifi_config.wepkeytype.value == "ASCII")
         # the interface chosen in the list (default: the one passed in)
-        path = write_wpa_supplicant(self.wifi_config.interface.value or self.iface, block)
+        path = write_wpa_supplicant(
+            self.wifi_config.interface.value or self.iface, block)
         print(f"[WiFiConfig] Configuration saved to {path}")
 
     def set_defaults(self):

@@ -54,7 +54,7 @@ def verify_connection(interface, essid):
             text=True)
         if f'ESSID:"{essid}"' in result.stdout:
             ip_result = subprocess.run(
-            ['ip', 'addr', 'show', interface],
+                ['ip', 'addr', 'show', interface],
                 capture_output=True,
                 text=True)
             return 'inet ' in ip_result.stdout
@@ -103,7 +103,7 @@ def ensure_interface_up(interface):
             print(f"[DEBUG] Failed to bring interface up: {result.stderr}")
             # Try alternative command
             result2 = subprocess.run(
-            ['ifconfig', interface, 'up'],
+                ['ifconfig', interface, 'up'],
                 capture_output=True,
                 text=True,
                 timeout=10)
@@ -649,7 +649,8 @@ def parse_iwlist_detailed(scan_output):
         if 'ESSID:' in line:
             essid_match = search(r'ESSID:\s*"(.*)"', line)
             if essid_match:
-                current_net['essid'] = essid_match.group(1).strip().strip('\x00')
+                current_net['essid'] = essid_match.group(
+                    1).strip().strip('\x00')
 
         if 'Encryption key:' in line:
             value = line.split('Encryption key:', 1)[1].strip().lower()
@@ -659,7 +660,8 @@ def parse_iwlist_detailed(scan_output):
         quality_match = search(r'Quality[=:](\d+)/(\d+)', line)
         if quality_match:
             q, qmax = int(quality_match.group(1)), int(quality_match.group(2))
-            current_net['quality_percent'] = int(q * 100 / qmax) if qmax > 0 else 0
+            current_net['quality_percent'] = int(
+                q * 100 / qmax) if qmax > 0 else 0
 
         signal_match = search(r'Signal level[=:]\s*(-?\d+)\s*dBm', line)
         if signal_match:
@@ -970,7 +972,8 @@ def test_ping(host="8.8.8.8", count=3, timeout=5, debug=False):
 
 def _wpa_quote_ok(text):
     """True if text can be written between quotes in wpa_supplicant.conf"""
-    return all(32 <= ord(c) < 127 for c in text) and '"' not in text and '\\' not in text
+    return all(
+        32 <= ord(c) < 127 for c in text) and '"' not in text and '\\' not in text
 
 
 def _hex(text):
@@ -985,7 +988,8 @@ def wpa_psk(essid, password):
     """
     import hashlib
     import binascii
-    if len(password) == 64 and all(c in '0123456789abcdefABCDEF' for c in password):
+    if len(password) == 64 and all(
+            c in '0123456789abcdefABCDEF' for c in password):
         return password.lower()           # already a raw key
     key = hashlib.pbkdf2_hmac('sha1', password.encode('utf-8'),
                               essid.encode('utf-8'), 4096, 32)

@@ -189,8 +189,9 @@ class IWListTools(Screen):
         try:
             if error is not None:
                 raise error
-            networks = sorted(networks or [], key=lambda n: n.get('quality_percent', 0),
-                              reverse=True)
+            networks = sorted(
+                networks or [], key=lambda n: n.get(
+                    'quality_percent', 0), reverse=True)
             if networks:
                 output = self.format_scan_results(networks)
                 self.session.openWithCallback(
@@ -449,8 +450,10 @@ class IWListTools(Screen):
         module = self._driver_module()
         if not module:
             self.session.openWithCallback(
-                self.close, MessageBox,
-                _("The WiFi driver of {} is built into the kernel (or unknown): it cannot be reloaded.").format(self.interface),
+                self.close,
+                MessageBox,
+                _("The WiFi driver of {} is built into the kernel (or unknown): it cannot be reloaded.").format(
+                    self.interface),
                 MessageBox.TYPE_INFO)
             return
         self._module = module
@@ -473,7 +476,9 @@ class IWListTools(Screen):
         if not answer:
             self.close()
             return
-        self.show_working_message(_("Reloading module {}...").format(self._module))
+        self.show_working_message(
+            _("Reloading module {}...").format(
+                self._module))
         module, iface = self._module, self.interface
 
         def work():
@@ -510,7 +515,8 @@ class IWListTools(Screen):
             dmesg_result = self.run_command(
                 "dmesg | grep -iE '%s' | tail -25" % words)
             syslog_result = self.run_command(
-                "grep -iE '%s' /var/log/messages /var/log/syslog 2>/dev/null | tail -25" % words)
+                "grep -iE '%s' /var/log/messages /var/log/syslog 2>/dev/null | tail -25" %
+                words)
 
             output = _("=== SYSTEM LOGS - WIFI ERRORS ===\n\n")
 

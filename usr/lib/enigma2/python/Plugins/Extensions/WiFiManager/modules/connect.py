@@ -401,7 +401,8 @@ class WiFiConnectZ(Screen):
                     return sec
                 if not net.get('encryption'):
                     return "Open"
-        return default if default in ("WPA", "WPA2", "WPA/WPA2", "WEP") else "WPA/WPA2"
+        return default if default in (
+            "WPA", "WPA2", "WPA/WPA2", "WEP") else "WPA/WPA2"
 
     def update_display_after_scan(self):
         """Update display after scanning completes"""
@@ -1211,7 +1212,8 @@ class WiFiConnectZ(Screen):
                         self.open_password_dialog_with_callback(lambda: None)
                     else:
                         self.execute_connection()
-                        self["status"].setText(_("Connecting to %s...") % essid)
+                        self["status"].setText(
+                            _("Connecting to %s...") % essid)
 
                 elif action == "disconnect":
                     print("[DEBUG] Disconnect selected")

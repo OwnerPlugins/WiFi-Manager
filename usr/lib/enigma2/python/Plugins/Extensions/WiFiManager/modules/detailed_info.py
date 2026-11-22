@@ -361,7 +361,8 @@ class WiFiDetailedInfo(Screen):
                 info += _("📟 MAC: {}\n").format(mac.upper())
             if 'ap_addr' in interface_info and interface_info['ap_addr'] not in (
                     _("Unknown"), "Not-Associated"):
-                info += _("📡 Access Point: {}\n").format(interface_info['ap_addr'])
+                info += _("📡 Access Point: {}\n").format(
+                    interface_info['ap_addr'])
             ip = get_ip_address(self.ifname)
             info += _("🌐 IP: {}\n").format(ip or _("No IP address"))
             gateway, dns = self._gateway_dns()
@@ -494,8 +495,9 @@ class WiFiDetailedInfo(Screen):
                 info += _("Found {} networks:\n").format(len(networks))
                 self._write_debug("Found {} networks".format(len(networks)))
 
-                networks = sorted(networks, key=lambda n: n.get('quality_percent', 0),
-                                  reverse=True)
+                networks = sorted(
+                    networks, key=lambda n: n.get(
+                        'quality_percent', 0), reverse=True)
                 for i, net in enumerate(networks[:8]):
                     essid = net.get('essid', _('Unknown'))
                     signal = net.get('signal')

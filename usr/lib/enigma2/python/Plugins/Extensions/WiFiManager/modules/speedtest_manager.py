@@ -412,9 +412,10 @@ class WiFiSpeedtestManager(Screen):
                 conn=connectivity)
 
             # summary at the top: the numbers people look for
-            best = [ln for ln in multi_download.split("\n")
-                    if ln.startswith(_("Best: ").strip()) or ln.startswith("Best")]
-            dl_text = best[-1].split(":", 1)[1].strip() if best else _("failed")
+            best = [ln for ln in multi_download.split("\n") if ln.startswith(
+                _("Best: ").strip()) or ln.startswith("Best")]
+            dl_text = best[-1].split(":",
+                                     1)[1].strip() if best else _("failed")
             summary = _("=== RESULT ===\nDownload: {dl}\nUpload: {ul}\nPing: {ping}\n\n").format(
                 dl=dl_text, ul=upload_result, ping=connectivity)
             header = _("=== COMPREHENSIVE SPEED TEST ===\n\n")

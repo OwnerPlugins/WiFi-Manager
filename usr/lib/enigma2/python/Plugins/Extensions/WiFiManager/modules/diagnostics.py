@@ -112,7 +112,9 @@ class WiFiDiagnostics(Screen):
         def failed(failure):
             self.running = False
             if not self.closed:
-                self.display_results(_("Diagnostic error: {}").format(failure.value))
+                self.display_results(
+                    _("Diagnostic error: {}").format(
+                        failure.value))
 
         d = threads.deferToThread(self._collect, full_test)
         d.addCallback(done)

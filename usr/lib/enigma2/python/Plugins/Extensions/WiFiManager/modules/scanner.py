@@ -137,7 +137,8 @@ class WiFiScanner(Screen):
             output = result.stdout + result.stderr
             if result.returncode != 0 and 'Cell' not in output:
                 if 'busy' in output.lower():
-                    last_error = _("Interface {} busy, try again in a few seconds").format(iface)
+                    last_error = _(
+                        "Interface {} busy, try again in a few seconds").format(iface)
                 else:
                     last_error = output.strip() or _("Scan failed")
                 continue
@@ -184,17 +185,24 @@ class WiFiScanner(Screen):
             self["scan_output"].setText(error + "\n\n" + "".join(
                 self.get_detailed_network_status()))
             return
-        shown = group_networks(networks, include_hidden=not self.grouped) \
-            if self.grouped else sorted(
-                networks, key=lambda n: n.get('quality_percent', 0), reverse=True)
+        shown = group_networks(
+            networks, include_hidden=not self.grouped) if self.grouped else sorted(
+            networks, key=lambda n: n.get(
+                'quality_percent', 0), reverse=True)
         hidden = len([n for n in networks if not n.get('essid')])
 
-        lines = [_("{count} networks on {iface} ({aps} access points, {hidden} hidden)").format(
-            count=len(group_networks(networks)), iface=iface,
-            aps=len(networks), hidden=hidden), "\n\n"]
+        lines = [
+            _("{count} networks on {iface} ({aps} access points, {hidden} hidden)").format(
+                count=len(
+                    group_networks(networks)),
+                iface=iface,
+                aps=len(networks),
+                hidden=hidden),
+            "\n\n"]
         for i, net in enumerate(shown, 1):
             essid = net.get('essid') or _("<hidden>")
-            mark = ">> " if connected and net.get('essid') == connected else "   "
+            mark = ">> " if connected and net.get(
+                'essid') == connected else "   "
             q = net.get('quality_percent', 0)
             sig = net.get('signal')
             sig_txt = ("%d dBm" % sig) if sig is not None else "-"
@@ -213,17 +221,20 @@ class WiFiScanner(Screen):
                     lines.append("  |  %s" % net['mode'])
                 lines.append("\n")
         if connected:
-            lines.append("\n" + _(">> = connected network ({})").format(connected))
+            lines.append(
+                "\n" + _(">> = connected network ({})").format(connected))
         self["scan_output"].setText("".join(lines))
 
     def toggle_details(self):
         self.detailed_view = not self.detailed_view
-        self["key_yellow"].setText(_("Basic") if self.detailed_view else _("Details"))
+        self["key_yellow"].setText(
+            _("Basic") if self.detailed_view else _("Details"))
         self.show_results()
 
     def toggle_grouping(self):
         self.grouped = not self.grouped
-        self["key_green"].setText(_("By name") if not self.grouped else _("All APs"))
+        self["key_green"].setText(
+            _("By name") if not self.grouped else _("All APs"))
         self.show_results()
 
     def get_detailed_network_status(self):
@@ -232,5 +243,6 @@ class WiFiScanner(Screen):
         info.append(_("   1. Check that the WiFi adapter is connected\n"))
         info.append(_("   2. Restart the WiFi interface (Tools menu)\n"))
         info.append(_("   3. Check that the WiFi driver is installed\n"))
-        info.append(_("   4. Some drivers cannot scan while connecting: retry\n"))
+        info.append(
+            _("   4. Some drivers cannot scan while connecting: retry\n"))
         return info
