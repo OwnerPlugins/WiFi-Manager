@@ -19,6 +19,7 @@ from Components.MenuList import MenuList
 from Components.config import ConfigPassword, ConfigSubsection, ConfigYesNo
 
 from . import _
+from .skin_scale import scale_skin
 from .signal_indicator import WiFiSignalIndicator, skin_compact
 from .tools import (
     open_virtual_keyboard,
@@ -65,9 +66,9 @@ WEP_LIST = ["ASCII", "HEX"]
 
 
 class WiFiConnectZ(Screen):
-    skin = """
+    skin = scale_skin("""
     <screen position="center,center" size="800,700" title="WiFi Connection Manager">
-        <widget name="network_list" position="10,55" size="776,305" scrollbarMode="showOnDemand" />
+        <widget name="network_list" position="10,55" size="776,306" font="Regular;22" itemHeight="34" scrollbarMode="showOnDemand" />
         <widget name="status" position="10,368" size="776,250" font="Regular;20" />
         <widget name="key_red" position="10,635" size="180,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="red" transparent="1" />
         <widget name="key_green" position="210,635" size="180,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="green" transparent="1" />
@@ -79,7 +80,7 @@ class WiFiConnectZ(Screen):
         <eLabel name="" position="599,677" size="180,8" zPosition="3" backgroundColor="#1a27408b" />
     """ + skin_compact(540, 2) + """
     </screen>
-    """
+    """)
 
     def __init__(self, session):
         self.list = []
@@ -233,7 +234,9 @@ class WiFiConnectZ(Screen):
             essid = net.get('essid', _('Unknown'))
             signal = net.get('signal')
             if signal is None:
-                signal = "-"
+                signal = "%d%%" % net.get('quality_percent', 0)
+            else:
+                signal = "%d dBm" % signal
             is_encrypted = net.get('encryption', False)
 
             # CONNECTION INDICATOR - mark if this is the currently connected
@@ -258,7 +261,7 @@ class WiFiConnectZ(Screen):
                 saved_indicator = ""
 
             network_list.append(
-                _("{connection}{saved}{icon} {essid} | {security} | {signal} dBm").format(
+                _("{connection}{saved}{icon} {essid} | {security} | {signal}").format(
                     connection=connection_indicator,
                     saved=saved_indicator,
                     icon=icon,
@@ -370,6 +373,9 @@ class WiFiConnectZ(Screen):
             status_msg = _("{essid} - Open network\nSignal: {quality} ({strength} dBm)\nPress OK to connect").format(
                 essid=essid, quality=signal_quality, strength=signal_strength)
 
+        if signal_strength == "-":
+            # driver without dBm: the quality % is already shown
+            status_msg = status_msg.replace(" (- dBm)", "")
         self["status"].setText(status_msg)
 
     def update_wpa_supplicant(self, essid, password, encryption):

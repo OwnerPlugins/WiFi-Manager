@@ -19,6 +19,7 @@ from Components.ConfigList import ConfigListScreen
 
 from .tools import get_wifi_interfaces, scan_networks
 from .. import _
+from .skin_scale import scale_skin
 
 """
 #########################################################
@@ -41,7 +42,7 @@ from .. import _
 
 
 class IWListTools(Screen):
-    skin = """
+    skin = scale_skin("""
     <screen position="center,center" size="800,700" title="WiFi Advanced Tools">
         <widget name="info_label" position="19,529" size="760,80" font="Regular;20" />
         <widget name="key_red" position="10,635" size="200,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="red" transparent="1" />
@@ -53,7 +54,7 @@ class IWListTools(Screen):
         <eLabel name="" position="209,677" size="200,8" zPosition="3" backgroundColor="#fe00" />
         <eLabel name="" position="409,677" size="200,8" zPosition="3" backgroundColor="#cccc40" />
     </screen>
-    """
+    """)
 
     def __init__(self, session, tool_name=None):
         Screen.__init__(self, session)
@@ -534,7 +535,7 @@ class IWListTools(Screen):
 
 
 class AdvancedConfigScreen(ConfigListScreen, Screen):
-    skin = """
+    skin = scale_skin("""
     <screen position="center,center" size="800,700" title="Advanced WiFi Configuration">
         <widget name="config" position="20,20" size="760,450" scrollbarMode="showNever" />
         <widget name="info_label" position="20,490" size="760,135" font="Regular;18" />
@@ -547,7 +548,7 @@ class AdvancedConfigScreen(ConfigListScreen, Screen):
         <eLabel name="" position="409,677" size="180,8" zPosition="3" backgroundColor="#cccc40" />
         <eLabel name="" position="599,677" size="180,8" zPosition="3" backgroundColor="#1a27408b" />
     </screen>
-    """
+    """)
 
     def __init__(self, session, ifname):
         Screen.__init__(self, session)
@@ -706,13 +707,13 @@ class AdvancedConfigScreen(ConfigListScreen, Screen):
 
 
 class ResultsScreen(Screen):
-    skin = """
+    skin = scale_skin("""
     <screen position="center,center" size="800,700" title="Results">
         <widget name="results" position="20,20" size="760,600" font="Regular;18" />
         <widget name="key_red" position="10,635" size="180,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="red" transparent="1" />
         <eLabel name="" position="9,677" size="180,8" zPosition="3" backgroundColor="#fe0000" />
     </screen>
-    """
+    """)
 
     def __init__(self, session, title, text):
         Screen.__init__(self, session)

@@ -12,6 +12,7 @@ from Components.Label import Label
 from Components.config import ConfigIP, ConfigSubsection, ConfigText, ConfigYesNo, ConfigPassword, ConfigSelection, getConfigListEntry, ConfigEnableDisable
 
 from . import _
+from .skin_scale import scale_skin
 from .tools import (open_virtual_keyboard, wpa_network_block,
                     write_wpa_supplicant, get_current_connected_essid,
                     load_saved_networks)
@@ -50,7 +51,7 @@ NETWORK_CONFIGS = [
 
 
 class WiFiConfigScreen(Screen, ConfigListScreen):
-    skin = """
+    skin = scale_skin("""
     <screen position="center,center" size="800,700" title="Configurazione WiFi">
         <widget name="config" position="10,10" size="780,514" scrollbarMode="showOnDemand" />
         <widget name="key_red" position="10,635" size="180,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="red" transparent="1" />
@@ -63,7 +64,7 @@ class WiFiConfigScreen(Screen, ConfigListScreen):
         <eLabel name="" position="599,677" size="180,8" zPosition="3" backgroundColor="#1a27408b" />
         <eLabel name="" position="590,560" size="200,24" backgroundColor="#49bbff" halign="center" valign="center" transparent="0" cornerRadius="9" font="Regular;16" zPosition="1" text="OK / TXT - KEYBOARD" />
     </screen>
-    """
+    """)
 
     def __init__(self, session, iface='wlan0', network_info=None):
         Screen.__init__(self, session)

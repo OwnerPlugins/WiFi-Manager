@@ -22,6 +22,7 @@ except ImportError as e:
 from .tools import get_wifi_interfaces, get_interface_info
 from . import speedtest
 from .. import _
+from .skin_scale import scale_skin
 from .signal_indicator import WiFiSignalIndicator, skin_compact
 
 """
@@ -45,7 +46,7 @@ from .signal_indicator import WiFiSignalIndicator, skin_compact
 
 
 class WiFiSpeedtestManager(Screen):
-    skin = """
+    skin = scale_skin("""
     <screen position="center,center" size="800,700" title="WiFi Speed Test">
         <widget name="status_label" position="20,12" size="510,40" font="Regular;24" halign="center" valign="center" />
         <widget name="progress" position="20,60" size="760,30" />
@@ -60,7 +61,7 @@ class WiFiSpeedtestManager(Screen):
         <eLabel name="" position="599,677" size="180,8" zPosition="3" backgroundColor="#1a27408b" />
     """ + skin_compact(540, 4) + """
     </screen>
-    """
+    """)
 
     def __init__(self, session):
         Screen.__init__(self, session)

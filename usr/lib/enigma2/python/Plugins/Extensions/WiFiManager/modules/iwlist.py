@@ -13,6 +13,7 @@ from Components.MenuList import MenuList
 from Components.ScrollLabel import ScrollLabel
 
 from .. import _
+from .skin_scale import scale_skin
 
 """
 #########################################################
@@ -42,13 +43,13 @@ except ImportError as e:
 
 
 class IWListTools(Screen):
-    skin = """
+    skin = scale_skin("""
     <screen position="center,center" size="700,500" title="Advanced WiFi Tools">
-        <widget name="menu" position="10,10" size="680,300" scrollbarMode="showOnDemand" />
+        <widget name="menu" position="10,10" size="680,300" font="Regular;22" itemHeight="36" scrollbarMode="showOnDemand" />
         <widget name="description" position="10,320" size="680,60" font="Regular;18" />
         <widget name="output" position="10,390" size="680,100" font="Regular;16" />
     </screen>
-    """
+    """)
 
     def __init__(self, session):
         Screen.__init__(self, session)
@@ -137,13 +138,13 @@ class IWListTools(Screen):
 
 
 class IWListOutputScreen(Screen):
-    skin = """
+    skin = scale_skin("""
     <screen position="center,center" size="800,600" title="IWList Output">
         <widget name="output" position="10,10" size="780,540" font="Regular;18" />
-        <ePixmap position="10,560" size="140,40" pixmap="buttons/red.png" transparent="1" alphatest="on" />
+        <ePixmap position="10,560" size="140,40" pixmap="buttons/red.png" transparent="1" alphatest="on" scale="1" />
         <widget name="key_red" position="10,560" size="140,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="red" transparent="1" />
     </screen>
-    """
+    """)
 
     def __init__(self, session, title, output_text):
         Screen.__init__(self, session)

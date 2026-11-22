@@ -8,6 +8,7 @@ from Components.Label import Label
 from Components.ProgressBar import ProgressBar
 
 from . import _
+from .skin_scale import scale_skin
 from .signal_indicator import WiFiSignalIndicator, skin_large, read_signal, _IwHelper
 from .tools import (
     get_wifi_interfaces,
@@ -37,7 +38,7 @@ from .tools import (
 
 
 class WiFiMonitor(Screen):
-    skin = """
+    skin = scale_skin("""
     <screen position="center,center" size="800,700" title="WiFi Monitor">
         <widget name="interface_label" position="10,35" size="780,40" font="Regular;20" />
         <widget name="essid_label" position="10,100" size="780,40" font="Regular;20" />
@@ -57,7 +58,7 @@ class WiFiMonitor(Screen):
         <eLabel name="" position="599,677" size="180,8" zPosition="3" backgroundColor="#1a27408b" />
     """ + skin_large(600, 330) + """
     </screen>
-    """
+    """)
 
     def __init__(self, session):
         Screen.__init__(self, session)

@@ -9,6 +9,7 @@ from Components.Button import Button
 from Components.ScrollLabel import ScrollLabel
 
 from . import _
+from .skin_scale import scale_skin
 from .signal_indicator import WiFiSignalIndicator, skin_compact
 from .tools import (
     get_wifi_interfaces,
@@ -40,7 +41,7 @@ from .tools import (
 
 
 class WiFiScanner(Screen):
-    skin = """
+    skin = scale_skin("""
     <screen position="center,center" size="800,700" title="WiFi Scanner">
         <widget name="scan_output" position="10,58" size="782,560" font="Regular;18" />
         <widget name="key_red" position="10,635" size="180,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="red" transparent="1" />
@@ -53,7 +54,7 @@ class WiFiScanner(Screen):
         <eLabel name="" position="599,677" size="180,8" zPosition="3" backgroundColor="#1a27408b" />
     """ + skin_compact(540, 2) + """
     </screen>
-    """
+    """)
 
     def __init__(self, session):
         Screen.__init__(self, session)

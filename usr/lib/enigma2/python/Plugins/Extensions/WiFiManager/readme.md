@@ -138,3 +138,10 @@ PayPal / Ko-fi QR codes.
 
 At startup the plugin checks `installer.sh` on GitHub (once per session) and
 offers to install a newer release; manual check in About (GREEN).
+
+## Skin resolution
+
+The screens are written once for HD and adapted at load time to the skin in
+use (HD / FHD / WQHD / UHD) by `modules/skin_scale.py`: positions, sizes and
+fonts are scaled so that the window (plus the skin title bar) always fits.
+Images are drawn at high resolution and shown with `scale="1"`.

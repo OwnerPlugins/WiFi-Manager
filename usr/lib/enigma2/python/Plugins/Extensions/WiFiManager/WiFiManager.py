@@ -20,6 +20,7 @@ from .modules.updater import UpdateChecker
 from .modules.signal_indicator import WiFiSignalIndicator, skin_compact
 
 from . import _, __version__, __author__
+from .modules.skin_scale import scale_skin
 
 """
 #########################################################
@@ -45,7 +46,7 @@ from .modules.tools import get_wifi_interfaces
 
 
 class WiFiManagerMain(Screen):
-    skin = """
+    skin = scale_skin("""
     <screen position="center,center" size="800,700" title="WiFi Manager Main">
         <widget name="title" position="0,0" size="800,47" font="Regular;32" halign="center" valign="center" />
 
@@ -91,7 +92,7 @@ class WiFiManagerMain(Screen):
         <widget name="description" position="24,615" size="750,70" font="Regular;18" halign="center" valign="center" />
     """ + skin_compact(546, 0) + """
     </screen>
-    """
+    """)
 
     def __init__(self, session):
         Screen.__init__(self, session)
@@ -383,14 +384,14 @@ ICONS_PATH = "/usr/lib/enigma2/python/Plugins/Extensions/WiFiManager/icons/"
 
 class WiFiAboutScreen(Screen):
     """About: support info and 'offer a coffee' QR codes"""
-    skin = """
+    skin = scale_skin("""
     <screen position="center,center" size="800,700" title="WiFi Manager - About">
         <widget name="about_title" position="0,10" size="800,44" font="Regular;30" halign="center" valign="center" />
         <widget name="about_text" position="40,64" size="720,236" font="Regular;19" halign="center" valign="top" />
         <widget name="coffee_label" position="0,306" size="800,36" font="Regular;26" halign="center" valign="center" foregroundColor="#ffcc33" />
         <widget name="scan_label" position="0,342" size="800,26" font="Regular;17" halign="center" valign="center" foregroundColor="#bbbbbb" />
-        <widget name="qr_paypal" position="150,376" size="200,200" alphatest="off" zPosition="1" />
-        <widget name="qr_kofi" position="450,376" size="200,200" alphatest="off" zPosition="1" />
+        <widget name="qr_paypal" position="150,376" size="200,200" alphatest="off" scale="1" zPosition="1" />
+        <widget name="qr_kofi" position="450,376" size="200,200" alphatest="off" scale="1" zPosition="1" />
         <eLabel position="150,580" size="200,30" text="PayPal" font="Regular;22" halign="center" valign="center" transparent="1" />
         <eLabel position="450,580" size="200,30" text="Ko-fi" font="Regular;22" halign="center" valign="center" transparent="1" />
         <widget name="key_red" position="10,635" size="200,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="red" transparent="1" />
@@ -398,7 +399,7 @@ class WiFiAboutScreen(Screen):
         <eLabel name="" position="9,677" size="200,8" zPosition="3" backgroundColor="#fe0000" />
         <eLabel name="" position="229,677" size="260,8" zPosition="3" backgroundColor="#fe00" />
     </screen>
-    """
+    """)
 
     def __init__(self, session):
         Screen.__init__(self, session)
@@ -449,10 +450,10 @@ class WiFiAboutScreen(Screen):
 
 
 class ToolsMenuScreen(Screen):
-    skin = """
+    skin = scale_skin("""
     <screen position="center,center" size="800,700" title="WiFi Advanced Tools">
-        <widget name="menu" position="20,20" size="760,355" scrollbarMode="showOnDemand" />
-        <widget name="help_label" position="20,384" size="760,225" font="Regular;18" />
+        <widget name="menu" position="20,20" size="760,400" font="Regular;22" itemHeight="36" scrollbarMode="showOnDemand" />
+        <widget name="help_label" position="20,432" size="760,190" font="Regular;18" />
         <widget name="key_red" position="10,635" size="200,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="red" transparent="1" />
         <widget name="key_green" position="210,635" size="200,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="green" transparent="1" />
         <eLabel name="" position="645,630" size="150,20" backgroundColor="#49bbff" halign="center" valign="center" transparent="0" cornerRadius="9" font="Regular; 16" zPosition="1" text="OK - SELECT" />
@@ -460,7 +461,7 @@ class ToolsMenuScreen(Screen):
         <eLabel name="" position="9,677" size="200,8" zPosition="3" backgroundColor="#fe0000" />
         <eLabel name="" position="209,677" size="200,8" zPosition="3" backgroundColor="#fe00" />
     </screen>
-    """
+    """)
 
     def __init__(self, session):
         Screen.__init__(self, session)
