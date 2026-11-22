@@ -56,7 +56,9 @@ It provides both **basic and advanced functionalities**, suitable for **home** a
 <p align="center">
   <img src="https://raw.githubusercontent.com/Belfagor2005/WiFi-Manager/main/screen/main.png" height="220">
 </p>
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Belfagor2005/WiFi-Manager/main/screen/speedtest.png" height="220">
+</p>
 ---
 
 ## 1. Main Menu
