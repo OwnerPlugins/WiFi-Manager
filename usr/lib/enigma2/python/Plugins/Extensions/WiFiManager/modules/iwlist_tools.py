@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import subprocess
+import time
+from os.path import basename, exists, realpath
+from twisted.internet import threads
 from re import search
 from enigma import eTimer
 
@@ -176,8 +179,17 @@ class IWListTools(Screen):
         self.show()
 
     def run_advanced_scan(self):
+        self.show_working_message(_("Scanning..."))
+        d = threads.deferToThread(scan_networks, self.interface, True)
+        d.addCallback(self._advanced_scan_done)
+        d.addErrback(lambda f: self._advanced_scan_done(None, f.value))
+
+    def _advanced_scan_done(self, networks, error=None):
         try:
-            networks = scan_networks(self.interface, detailed=True)
+            if error is not None:
+                raise error
+            networks = sorted(networks or [], key=lambda n: n.get('quality_percent', 0),
+                              reverse=True)
             if networks:
                 output = self.format_scan_results(networks)
                 self.session.openWithCallback(
@@ -432,21 +444,72 @@ class IWListTools(Screen):
                 )
 
     def reload_wifi_modules(self):
-        """Recharge WiFi modules"""
+        """Reload the kernel module of the WiFi driver"""
+        module = self._driver_module()
+        if not module:
+            self.session.openWithCallback(
+                self.close, MessageBox,
+                _("The WiFi driver of {} is built into the kernel (or unknown): it cannot be reloaded.").format(self.interface),
+                MessageBox.TYPE_INFO)
+            return
+        self._module = module
         self.session.openWithCallback(
-            self.close,
+            self._confirm_reload,
             MessageBox,
-            _("Reload WiFi kernel modules?\nThis will temporarily disconnect all WiFi."),
+            _("Reload WiFi kernel module '{}'?\nThis will temporarily disconnect all WiFi.").format(module),
             MessageBox.TYPE_YESNO)
+
+    def _driver_module(self):
+        """Kernel module of the interface driver, None if built-in"""
+        if not self.interface:
+            return None
+        path = "/sys/class/net/%s/device/driver/module" % self.interface
+        if exists(path):
+            return basename(realpath(path))
+        return None
+
+    def _confirm_reload(self, answer):
+        if not answer:
+            self.close()
+            return
+        self.show_working_message(_("Reloading module {}...").format(self._module))
+        module, iface = self._module, self.interface
+
+        def work():
+            log = []
+            for cmd, pause in ((['ip', 'link', 'set', iface, 'down'], 0),
+                               (['modprobe', '-r', module], 2),
+                               (['modprobe', module], 4),
+                               (['ip', 'link', 'set', iface, 'up'], 1)):
+                try:
+                    r = subprocess.run(cmd, capture_output=True, text=True,
+                                       timeout=30)
+                    log.append("%s -> %s %s" % (" ".join(cmd), r.returncode,
+                                                (r.stderr or "").strip()))
+                except Exception as e:
+                    log.append("%s -> %s" % (" ".join(cmd), e))
+                time.sleep(pause)
+            return "\n".join(log)
+
+        def done(log):
+            self.session.openWithCallback(self.close, ResultsScreen,
+                                          _("Reload WiFi Modules"), log)
+        threads.deferToThread(work).addCallback(done)
 
     def check_system_logs(self):
         """Check system logs for WiFi errors"""
         self.show_working_message(_("Checking system logs..."))
 
         try:
-            dmesg_result = self.run_command("dmesg | grep -i wifi | tail -20")
+            # drivers rarely write "wifi": look for the usual WiFi words
+            words = "wifi|wlan|802\\.11|80211|wpa|deauth|disassoc|authenticat|associat|firmware"
+            module = self._driver_module()
+            if module:
+                words += "|" + module
+            dmesg_result = self.run_command(
+                "dmesg | grep -iE '%s' | tail -25" % words)
             syslog_result = self.run_command(
-                "grep -i wifi /var/log/messages /var/log/syslog 2>/dev/null | tail -20")
+                "grep -iE '%s' /var/log/messages /var/log/syslog 2>/dev/null | tail -25" % words)
 
             output = _("=== SYSTEM LOGS - WIFI ERRORS ===\n\n")
 
@@ -568,28 +631,22 @@ class AdvancedConfigScreen(ConfigListScreen, Screen):
 
             # Apply mode
             if self.wifi_config.mode.value != "auto":
-                commands.append("iwconfig {} mode {}".format(
-                    self.ifname,
-                    self.wifi_config.mode.value
-                ))
+                commands.append(['iwconfig', self.ifname, 'mode',
+                                 self.wifi_config.mode.value])
 
             # Apply channel
             if self.wifi_config.channel.value != "auto":
-                commands.append("iwconfig {} channel {}".format(
-                    self.ifname,
-                    self.wifi_config.channel.value
-                ))
+                commands.append(['iwconfig', self.ifname, 'channel',
+                                 self.wifi_config.channel.value])
 
             # Apply TX power
             if self.wifi_config.txpower.value != "auto":
-                commands.append("iwconfig {} txpower {}".format(
-                    self.ifname,
-                    self.wifi_config.txpower.value
-                ))
+                commands.append(['iwconfig', self.ifname, 'txpower',
+                                 self.wifi_config.txpower.value])
 
             # Execute commands
             for cmd in commands:
-                subprocess.run(cmd, shell=True)
+                subprocess.run(cmd, capture_output=True, timeout=10)
 
             self.session.openWithCallback(
                 lambda result: self.close(True),

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-version='1.4'
-changelog='\nComplete Porting PY3'
+version='1.5'
+changelog='- Graphical speed test (live gauges, ping, jitter, closest server)\n- Live WiFi signal icon on all screens\n- Virtual keyboard for passwords\n- About with donation QR codes\n- Automatic update check\n- Many fixes: scanner, connection, diagnostics, security'
 
 TMPPATH=/tmp/WiFiManager-install
 FILEPATH=/tmp/WiFiManager-main.tar.gz

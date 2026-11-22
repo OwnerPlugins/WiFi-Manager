@@ -3,6 +3,8 @@
 import subprocess
 from threading import Thread
 
+from twisted.internet import reactor
+
 from Screens.Screen import Screen
 from Screens.MessageBox import MessageBox
 from Components.ActionMap import ActionMap
@@ -17,9 +19,10 @@ except ImportError as e:
     print(f"SpeedtestSimple import error: {e}")
     Enigma2Speedtest = None
 
-from .tools import get_wifi_interfaces
+from .tools import get_wifi_interfaces, get_interface_info
 from . import speedtest
 from .. import _
+from .signal_indicator import WiFiSignalIndicator, skin_compact
 
 """
 #########################################################
@@ -44,7 +47,7 @@ from .. import _
 class WiFiSpeedtestManager(Screen):
     skin = """
     <screen position="center,center" size="800,700" title="WiFi Speed Test">
-        <widget name="status_label" position="20,20" size="760,30" font="Regular;24" halign="center" />
+        <widget name="status_label" position="20,12" size="510,40" font="Regular;24" halign="center" valign="center" />
         <widget name="progress" position="20,60" size="760,30" />
         <widget name="results" position="20,100" size="760,512" font="Regular;20" />
         <widget name="key_red" position="10,635" size="180,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="red" transparent="1" />
@@ -55,16 +58,21 @@ class WiFiSpeedtestManager(Screen):
         <eLabel name="" position="209,677" size="180,8" zPosition="3" backgroundColor="#fe00" />
         <eLabel name="" position="409,677" size="180,8" zPosition="3" backgroundColor="#cccc40" />
         <eLabel name="" position="599,677" size="180,8" zPosition="3" backgroundColor="#1a27408b" />
+    """ + skin_compact(540, 4) + """
     </screen>
     """
 
     def __init__(self, session):
         Screen.__init__(self, session)
+        self.signal_indicator = WiFiSignalIndicator(self)
         self.session = session
         self.speedtest = None
         self.is_testing = False
         self.current_test = None
-        self.interface = get_wifi_interfaces
+        self.interface = None       # detected when a test starts
+        self.debug = False
+        self.cancelled = False      # set when the screen is closed
+        self.closed = False
 
         self["status_label"] = Label(_("Select a speed test type"))
         self["progress"] = ProgressBar()
@@ -132,49 +140,51 @@ class WiFiSpeedtestManager(Screen):
         self.update_buttons()
 
     def _check_cancellation(self):
-        """Check if test should be cancelled"""
-        if not self.is_testing:
-            self.show_error(_("Test cancelled"))
-            return False
-        return True
+        """False if the test must stop (screen closed)"""
+        return not self.cancelled
+
+    def _stop_requested(self):
+        return self.cancelled
+
+    def _ui(self, func, *args):
+        """Run func in the GUI thread: Enigma2 widgets must not be touched
+        from the worker thread"""
+        def run():
+            if not self.closed:
+                func(*args)
+        reactor.callFromThread(run)
+
+    def _progress_range(self, low, high, status):
+        """Progress callback mapping 0..1 into low..high"""
+        def cb(fraction):
+            self.update_progress(int(low + (high - low) * fraction), status)
+        return cb
+
+    def _start(self, target, status):
+        if self.is_testing:
+            return
+        self.is_testing = True
+        self.cancelled = False
+        self.update_buttons()
+        self["results"].setText(_("wait..."))
+        self["status_label"].setText(status)
+        self["progress"].setValue(0)
+        t = Thread(target=target)
+        t.daemon = True
+        t.start()
 
     def quick_test(self):
         """Quick speed test"""
-        if self.is_testing:
-            return
-
-        self.is_testing = True
-        self.update_buttons()
-        self["results"].setText(_("wait..."))
-        self["status_label"].setText(_("Running quick speed test..."))
-        self["progress"].setValue(0)
-        Thread(target=self._run_quick_test).start()
+        self._start(self._run_quick_test, _("Running quick speed test..."))
 
     def full_test(self):
         """Full speed test"""
-        if self.is_testing:
-            return
-
-        self.is_testing = True
-        self.update_buttons()
-        self["results"].setText(_("wait..."))
-        self["status_label"].setText(_("Running full speed test..."))
-        self["progress"].setValue(0)
-
-        Thread(target=self._run_full_test).start()
+        self._start(self._run_full_test, _("Running full speed test..."))
 
     def detailed_test(self):
         """Detailed test with more information"""
-        if self.is_testing:
-            return
-
-        self.is_testing = True
-        self.update_buttons()
-        self["results"].setText(_("wait..."))
-        self["status_label"].setText(_("Running detailed speed test..."))
-        self["progress"].setValue(0)
-
-        Thread(target=self._run_detailed_test).start()
+        self._start(self._run_detailed_test,
+                    _("Running detailed speed test..."))
 
     def _get_client_information(self):
         """Get client network information"""
@@ -244,6 +254,7 @@ class WiFiSpeedtestManager(Screen):
                 info.append(
                     _("Network Interface: {interface}").format(
                         interface=interfaces[0]))
+                info.append(self._wifi_link_info(interfaces[0]))
 
             # Gateway
             try:
@@ -265,19 +276,45 @@ class WiFiSpeedtestManager(Screen):
         except Exception as e:
             return _("Network info error: {error}").format(error=str(e))
 
+    def _wifi_link_info(self, ifname):
+        """WiFi link rate: the real speed over WiFi is about 50-70% of it,
+        so it is the ceiling of what the receiver can measure"""
+        try:
+            info = get_interface_info(ifname)
+            rate = info.get('bitrate', '')
+            text = _("WiFi link rate: {rate}").format(rate=rate)
+            freq = info.get('frequency', '')
+            if freq:
+                text += " - " + freq
+            return text + "\n" + _(
+                "(real WiFi throughput is about 50-70% of the link rate)")
+        except Exception as e:
+            print(e)
+            return _("WiFi link rate: unknown")
+
     def _run_quick_test(self):
         """Run a quick test using speedtest.quick_speed_test"""
         try:
             self.current_test = "quick"
 
-            self.update_progress(20, _("Testing connectivity..."))
+            self.update_progress(5, _("Testing connectivity..."))
             ping_result = speedtest.test_ping()
+            if not self._check_cancellation():
+                return
 
-            self.update_progress(40, _("Testing download speed..."))
-            download_result = speedtest.test_download_speed(self.interface)
+            download_result = speedtest.test_download_speed(
+                stop=self._stop_requested,
+                progress=self._progress_range(
+                    10, 55, _("Testing download speed...")))
+            if not self._check_cancellation():
+                return
 
-            self.update_progress(70, _("Testing upload speed..."))
-            upload_result = speedtest.test_upload_speed(self.interface)
+            upload_result = speedtest.test_upload_speed(
+                stop=self._stop_requested,
+                progress=self._progress_range(
+                    55, 100, _("Testing upload speed...")))
+            if not self._check_cancellation():
+                return
 
             self.update_progress(100, _("Quick test completed"))
 
@@ -332,18 +369,20 @@ class WiFiSpeedtestManager(Screen):
             # 3. Multiple download tests
             if not self._check_cancellation():
                 return
-            self.update_progress(
-                30, _("Testing download speed (multiple servers)..."))
             multi_download = speedtest.multi_server_download_test(
-                self.interface)
+                stop=self._stop_requested,
+                progress=self._progress_range(
+                    30, 65, _("Testing download speed (multiple servers)...")))
             results_text += _("=== DOWNLOAD SPEED TEST ===\n{download}\n\n").format(
                 download=multi_download)
 
             # 4. Upload test
             if not self._check_cancellation():
                 return
-            self.update_progress(60, _("Testing upload speed..."))
-            upload_result = speedtest.test_upload_speed(self.interface)
+            upload_result = speedtest.test_upload_speed(
+                stop=self._stop_requested,
+                progress=self._progress_range(
+                    65, 80, _("Testing upload speed...")))
             results_text += _("=== UPLOAD SPEED TEST ===\n{upload}\n\n").format(
                 upload=upload_result)
 
@@ -351,7 +390,7 @@ class WiFiSpeedtestManager(Screen):
             if not self._check_cancellation():
                 return
             self.update_progress(80, _("Testing connection stability..."))
-            stability = speedtest.connection_stability_test(self.interface)
+            stability = speedtest.connection_stability_test()
             results_text += _("=== CONNECTION STABILITY ===\n{stability}\n\n").format(
                 stability=stability)
 
@@ -370,6 +409,15 @@ class WiFiSpeedtestManager(Screen):
             connectivity = speedtest.test_connectivity()
             results_text += _("=== FINAL CHECK ===\nConnectivity: {conn}\n").format(
                 conn=connectivity)
+
+            # summary at the top: the numbers people look for
+            best = [ln for ln in multi_download.split("\n")
+                    if ln.startswith(_("Best: ").strip()) or ln.startswith("Best")]
+            dl_text = best[-1].split(":", 1)[1].strip() if best else _("failed")
+            summary = _("=== RESULT ===\nDownload: {dl}\nUpload: {ul}\nPing: {ping}\n\n").format(
+                dl=dl_text, ul=upload_result, ping=connectivity)
+            header = _("=== COMPREHENSIVE SPEED TEST ===\n\n")
+            results_text = header + summary + results_text[len(header):]
 
             # Complete
             self.update_progress(100, _("Full test completed"))
@@ -398,8 +446,8 @@ class WiFiSpeedtestManager(Screen):
                     'server_found': (50, _("Server found")),
                     'download_start': (60, _("Testing download speed...")),
                     'download_complete': (80, _("Download test completed")),
-                    'upload_start': (85, _("Estimating upload speed...")),
-                    'upload_complete': (95, _("Upload estimation completed")),
+                    'upload_start': (85, _("Testing upload speed...")),
+                    'upload_complete': (95, _("Upload test completed")),
                     'error': (0, _("Test failed")),
                 }
                 if stage in stages:
@@ -408,9 +456,11 @@ class WiFiSpeedtestManager(Screen):
                     self.update_progress(progress, status)
 
             self.update_progress(5, _("Initializing detailed speed test..."))
-            speedtest_simple = Enigma2Speedtest()
+            speedtest_simple = Enigma2Speedtest(stop=self._stop_requested)
 
             results = speedtest_simple.run_test(callback=callback)
+            if not self._check_cancellation():
+                return
 
             if results:
                 self.update_progress(100, _("Detailed test completed"))
@@ -541,6 +591,9 @@ class WiFiSpeedtestManager(Screen):
 
     def update_progress(self, value, status):
         """Update progress and status (thread-safe)"""
+        self._ui(self._do_update_progress, value, status)
+
+    def _do_update_progress(self, value, status):
         self["progress"].setValue(value)
         self["status_label"].setText(status)
 
@@ -570,7 +623,10 @@ class WiFiSpeedtestManager(Screen):
         return results
 
     def show_results_success(self, results):
-        """Show results successfully"""
+        """Show results (called from the worker thread)"""
+        self._ui(self._do_show_results_success, results)
+
+    def _do_show_results_success(self, results):
         self.is_testing = False
         self.update_buttons()
         self["results"].setText(results)
@@ -589,7 +645,10 @@ class WiFiSpeedtestManager(Screen):
             pass
 
     def show_error(self, message):
-        """Show error"""
+        """Show error (called from the worker thread)"""
+        self._ui(self._do_show_error, message)
+
+    def _do_show_error(self, message):
         self.is_testing = False
         self.update_buttons()
         self["status_label"].setText(_("Test failed"))
@@ -609,24 +668,8 @@ class WiFiSpeedtestManager(Screen):
             self["results"].show()
 
     def close(self):
-        """Close the screen with proper test termination"""
-        if self.is_testing:
-            # Stop the test gracefully
-            self.is_testing = False
-            self["status_label"].setText(_("Cancelling test..."))
-
-            # Wait a bit for thread to terminate
-            import time
-            for i in range(5):
-                if not self.is_testing:
-                    break
-                time.sleep(0.1)
-
-            self.session.open(
-                MessageBox,
-                _("Test cancelled"),
-                MessageBox.TYPE_WARNING)
-            # Don't close immediately, let user see the cancellation
-            return
-
+        """Close the screen; a running test stops by itself in a moment"""
+        self.cancelled = True
+        self.closed = True
+        self.is_testing = False
         Screen.close(self)

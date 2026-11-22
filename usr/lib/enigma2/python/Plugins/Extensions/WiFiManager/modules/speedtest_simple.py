@@ -6,10 +6,12 @@ import subprocess
 import socket
 from json import loads
 from re import search
-from urllib.request import urlopen, Request
+from urllib.request import urlopen
 from urllib.error import URLError, HTTPError
 
 from .. import _
+from . import speed_engine
+from . import speedtest
 
 
 """
@@ -33,7 +35,8 @@ from .. import _
 
 
 class Enigma2Speedtest:
-    def __init__(self):
+    def __init__(self, stop=None):
+        self.stop = stop    # callable: True when the test must stop
         self.results = {
             'download': 0,
             'upload': 0,
@@ -187,111 +190,54 @@ class Enigma2Speedtest:
             return 999
 
     def test_download_simple(self):
-        """Download test semplificato e più affidabile"""
+        """Download speed: parallel connections, timed measurement"""
         try:
-            # Check connection
             if not self._check_internet_connection():
                 print("No internet connection for download test")
                 return 0
 
-            # Use a small, reliable test file
-            test_urls = [
-                "http://ipv4.download.thinkbroadband.com/1MB.zip",
-                "http://speedtest.ftp.otenet.gr/files/test1Mb.db",
-                "http://cachefly.cachefly.net/1mb.test"
-            ]
+            res, failed = speed_engine.first_working(
+                'download', servers=speedtest.ordered_servers(self.stop),
+                stop=self.stop)
+            details = []
+            for r in failed + ([res] if res else []):
+                details.append({
+                    'server': r.server,
+                    'speed_mbps': r.mbps or 0,
+                    'time_seconds': r.seconds,
+                    'data_mb': r.megabytes,
+                    'error': r.error,
+                })
+            self.results['download_details'] = details
 
-            best_speed_mbps = 0
-            download_details = []
-
-            for url in test_urls:
-                try:
-                    print("Testing download from: {}".format(url))
-
-                    start_time = time.time()
-                    request = Request(url)
-                    response = urlopen(request, timeout=15)
-
-                    # Read only 1MB per test
-                    data = response.read(1024 * 1024)  # 1MB
-                    end_time = time.time()
-
-                    download_time = end_time - start_time
-                    response.close()
-
-                    if download_time > 0:
-                        speed_bps = (len(data) * 8) / download_time
-                        speed_mbps = speed_bps / 1000000
-
-                        download_details.append({
-                            'server': url.split('/')[2],
-                            'speed_mbps': speed_mbps,
-                            'time_seconds': download_time,
-                            'data_mb': len(data) / (1024 * 1024)
-                        })
-
-                        if speed_mbps > best_speed_mbps:
-                            best_speed_mbps = speed_mbps
-
-                        print("Download from {}: {:.2f} Mbps".format(
-                            url.split('/')[2],
-                            speed_mbps
-                        ))
-
-                    # Short break between tests
-                    time.sleep(1)
-
-                except Exception as e:
-                    print("Download test failed for {}: {}".format(url, e))
-                    continue
-
-            if download_details:
-                self.results['download_details'] = download_details
-                self.results['download'] = best_speed_mbps * 1000000  # bps
-
-                print("Download test completed. Best speed: {:.2f} Mbps".format(
-                    best_speed_mbps
-                ))
-
-                return best_speed_mbps * 1000000
-
-            else:
+            if res is None:
                 print("All download tests failed")
                 return 0
+
+            self.results['download'] = res.mbps * 1000000  # bps
+            print("Download: {}".format(res))
+            return self.results['download']
 
         except Exception as e:
             print("Download test error: {}".format(e))
             return 0
 
-    def test_upload_estimated(self):
-        """Upload test basato su stima realistica"""
+    def test_upload(self):
+        """Real upload measurement (data is sent to the server)"""
         try:
-            if self.results['download'] > 0:
-                download_mbps = self.results['download'] / 1000000
-
-                # Upload estimate based on connection type
-                if download_mbps > 100:  # Fibra
-                    upload_ratio = 0.9
-                elif download_mbps > 50:  # VDSL
-                    upload_ratio = 0.8
-                elif download_mbps > 20:  # ADSL2+
-                    upload_ratio = 0.3
-                else:  # ADSL
-                    upload_ratio = 0.1
-
-                upload_mbps = download_mbps * upload_ratio
-                self.results['upload'] = upload_mbps * 1000000
-
-                print("Upload estimated: {:.2f} Mbps (ratio: {})".format(
-                    upload_mbps,
-                    upload_ratio
-                ))
-
-                return upload_mbps * 1000000
-
-            print("Cannot estimate upload - no download data")
-            return 0
-
+            res, failed = speed_engine.first_working(
+                'upload', servers=speedtest.ordered_servers(self.stop),
+                stop=self.stop)
+            if res is None:
+                self.results['upload_error'] = "; ".join(
+                    str(f) for f in failed[:3])
+                print("Upload test failed: {}".format(
+                    self.results['upload_error']))
+                return 0
+            self.results['upload'] = res.mbps * 1000000
+            self.results['upload_server'] = res.server
+            print("Upload: {}".format(res))
+            return self.results['upload']
         except Exception as e:
             print("Upload test error: {}".format(e))
             return 0
@@ -397,7 +343,7 @@ class Enigma2Speedtest:
             # Upload test (stima)
             if callback:
                 callback('upload_start')
-            self.test_upload_estimated()
+            self.test_upload()
             if callback:
                 callback('upload_complete')
 
@@ -478,9 +424,11 @@ class Enigma2Speedtest:
             result_text += _("Download: Failed\n")
 
         if self.results['upload'] > 0:
-            result_text += _("Upload: {:.2f} Mbps (estimated)\n").format(upload_mbps)
+            result_text += _("Upload: {:.2f} Mbps\n").format(upload_mbps)
         else:
             result_text += _("Upload: Not available\n")
+            if self.results.get('upload_error'):
+                result_text += "({})\n".format(self.results['upload_error'])
 
         # Additional Details
         if 'ping_details' in self.results:
@@ -491,6 +439,10 @@ class Enigma2Speedtest:
         if 'download_details' in self.results and has_download:
             result_text += _("\n⬇️ DOWNLOAD DETAILS:\n")
             for detail in self.results['download_details']:
+                if detail.get('error'):
+                    result_text += "{}: {}\n".format(
+                        detail['server'], detail['error'])
+                    continue
                 result_text += _("{server}: {speed:.2f} Mbps ({data:.1f} MB in {time:.1f}s)\n").format(
                     server=detail['server'],
                     speed=detail['speed_mbps'],

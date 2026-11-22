@@ -6,13 +6,12 @@ import subprocess
 
 from json import dump
 from os.path import exists
-from re import IGNORECASE, search, escape, sub, DOTALL
+from re import IGNORECASE, search
 from twisted.internet import reactor, threads
 
 from Screens.MessageBox import MessageBox
 from Screens.Screen import Screen
 from Screens.ChoiceBox import ChoiceBox
-from Screens.InputBox import InputBox
 
 from Components.ActionMap import ActionMap
 from Components.Label import Label
@@ -20,8 +19,13 @@ from Components.MenuList import MenuList
 from Components.config import ConfigPassword, ConfigSubsection, ConfigYesNo
 
 from . import _
+from .signal_indicator import WiFiSignalIndicator, skin_compact
 from .tools import (
-    # ensure_interface_up,
+    open_virtual_keyboard,
+    dbm_to_percent,
+    group_networks,
+    wpa_network_block,
+    write_wpa_supplicant,
     format_signal_quality,
     get_current_connected_essid,
     get_interface_info,
@@ -63,7 +67,7 @@ WEP_LIST = ["ASCII", "HEX"]
 class WiFiConnectZ(Screen):
     skin = """
     <screen position="center,center" size="800,700" title="WiFi Connection Manager">
-        <widget name="network_list" position="10,5" size="776,350" scrollbarMode="showOnDemand" />
+        <widget name="network_list" position="10,55" size="776,305" scrollbarMode="showOnDemand" />
         <widget name="status" position="10,368" size="776,250" font="Regular;20" />
         <widget name="key_red" position="10,635" size="180,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="red" transparent="1" />
         <widget name="key_green" position="210,635" size="180,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="green" transparent="1" />
@@ -73,6 +77,7 @@ class WiFiConnectZ(Screen):
         <eLabel name="" position="209,677" size="180,8" zPosition="3" backgroundColor="#fe00" />
         <eLabel name="" position="409,677" size="180,8" zPosition="3" backgroundColor="#cccc40" />
         <eLabel name="" position="599,677" size="180,8" zPosition="3" backgroundColor="#1a27408b" />
+    """ + skin_compact(540, 2) + """
     </screen>
     """
 
@@ -94,6 +99,7 @@ class WiFiConnectZ(Screen):
         self.connect_config.remember = ConfigYesNo(default=True)
 
         self["network_list"] = MenuList([])
+        self.signal_indicator = WiFiSignalIndicator(self)
         self["status"] = Label(_("Initializing WiFi..."))
         self["key_red"] = Label(_("Exit"))
         self["key_green"] = Label()
@@ -199,7 +205,8 @@ class WiFiConnectZ(Screen):
         def scan_completed(networks):
             self.is_scanning = False
             self["key_blue"].setText(_("Scan"))
-            self.networks = networks
+            # one line per network name (strongest access point), sorted
+            self.networks = group_networks(networks)
             self.update_display_after_scan()
 
         def scan_failed(failure):
@@ -224,7 +231,9 @@ class WiFiConnectZ(Screen):
 
         for net in self.networks:
             essid = net.get('essid', _('Unknown'))
-            signal = net.get('signal', 0)
+            signal = net.get('signal')
+            if signal is None:
+                signal = "-"
             is_encrypted = net.get('encryption', False)
 
             # CONNECTION INDICATOR - mark if this is the currently connected
@@ -317,16 +326,17 @@ class WiFiConnectZ(Screen):
         current_essid = get_current_connected_essid(self.interface)
         is_encrypted = self.current_network.get('encryption', False)
         has_saved_password = self.get_saved_password(essid)
-        signal_strength = self.current_network.get('signal', 0)
-
-        signal_quality = format_signal_quality(signal_strength)
+        signal_strength = self.current_network.get('signal')
+        percent = self.current_network.get('quality_percent')
+        if percent is None:
+            percent = dbm_to_percent(signal_strength)
+        signal_quality = format_signal_quality(percent)
+        if signal_strength is None:
+            signal_strength = "-"
 
         # IF CONNECTED TO THIS NETWORK
         if current_essid == essid:
-            interface = get_wifi_interfaces()
-            ip = _("No IP")
-            if interface:
-                ip = get_ip_address(interface)
+            ip = get_ip_address(self.interface) if self.interface else None
 
             # Check if static IP is configured
             network_type = _("DHCP")
@@ -363,45 +373,29 @@ class WiFiConnectZ(Screen):
         self["status"].setText(status_msg)
 
     def update_wpa_supplicant(self, essid, password, encryption):
-        """Update wpa_supplicant configuration"""
+        """Write wpa_supplicant.<if>.conf for this network.
+
+        The key is stored as a 64-hex PSK (like wpa_passphrase): passwords
+        with quotes or other special characters no longer break the file.
+        """
         try:
-            wpa_file = "/etc/wpa_supplicant.%s.conf" % self.interface
-
-            # Read existing content
-            content = ""
-            if exists(wpa_file):
-                with open(wpa_file, 'r') as f:
-                    content = f.read()
-
-            # Remove existing network block for this ESSID
-            content = sub(
-                r'network=\{([^}]*ssid="%s"[^}]*)\}' %
-                escape(essid), '', content, flags=DOTALL)
-
-            # Add new network block
-            network_block = """
-                network={
-                    ssid="%s"
-                    scan_ssid=0
-                    key_mgmt=WPA-PSK
-                    proto=WPA RSN
-                    pairwise=CCMP TKIP
-                    group=CCMP TKIP
-                    psk="%s"
-                }
-                """ % (essid, password)
-
-            # Append new network block
-            content = content.rstrip() + network_block
-
-            # Write back to file
-            with open(wpa_file, 'w') as f:
-                f.write(content)
-
-            print("[DEBUG] Updated wpa_supplicant for: " + essid)
-
+            security = self._security_of(essid, encryption)
+            block = wpa_network_block(essid, password, security)
+            path = write_wpa_supplicant(self.interface, block)
+            print("[DEBUG] Updated %s for: %s" % (path, essid))
         except Exception as e:
             print("[DEBUG] Error updating wpa_supplicant: " + str(e))
+
+    def _security_of(self, essid, default="WPA/WPA2"):
+        """Security type seen in the scan for this network"""
+        for net in self.networks:
+            if net.get('essid') == essid:
+                sec = net.get('security')
+                if sec in ("WPA", "WPA2", "WPA/WPA2", "WEP"):
+                    return sec
+                if not net.get('encryption'):
+                    return "Open"
+        return default if default in ("WPA", "WPA2", "WPA/WPA2", "WEP") else "WPA/WPA2"
 
     def update_display_after_scan(self):
         """Update display after scanning completes"""
@@ -513,19 +507,15 @@ class WiFiConnectZ(Screen):
             essid = self.current_network.get('essid')
 
             # Disconnect first
-            subprocess.run(
-                "iwconfig {} essid off".format(self.interface),
-                shell=True,
-                capture_output=True,
-                timeout=5
-            )
+            subprocess.run(['iwconfig', self.interface, 'essid', 'off'],
+                           capture_output=True, timeout=5)
             time.sleep(1)
 
             # Connect to open network
-            cmd = 'iwconfig {} essid "{}"'.format(self.interface, essid)
+            # list of arguments, no shell: a network name like
+            # 'x"; reboot; "' cannot run commands
             result = subprocess.run(
-                cmd,
-                shell=True,
+                ['iwconfig', self.interface, 'essid', essid],
                 capture_output=True,
                 text=True,
                 timeout=30
@@ -577,6 +567,11 @@ class WiFiConnectZ(Screen):
     def connect_with_saved_config_thread(self, essid, password=None):
         """Connect using saved configuration - IN THREAD"""
         try:
+            # the config file must contain THIS network (it could still hold
+            # the previous one): rewrite it with the saved password
+            if password:
+                self.update_wpa_supplicant(essid, password, None)
+
             # Stop any existing connections
             subprocess.run(['killall', 'wpa_supplicant'],
                            capture_output=True, timeout=5)
@@ -689,17 +684,25 @@ class WiFiConnectZ(Screen):
                 self.show_message(_("Connection failed!"))
             self.refresh_after_connection()
 
-        if self.current_network.get('encryption'):
-            saved_password = self.get_saved_password(
-                self.current_network.get('essid'))
-            success = self.connect_with_saved_config_thread(
-                self.current_network.get('essid'), saved_password)
-        else:
-            # ALWAYS USE THE THREADED VERSION
-            success = self.connect_to_open_network_thread()
+        if self.is_connecting:
+            return
+        self.is_connecting = True
+        essid = self.current_network.get('essid')
+        self["status"].setText(_("Connecting to %s...") % essid)
 
-        # Wait for the thread to finish before applying network config
-        reactor.callLater(5, lambda: connection_finished(success))
+        def work():
+            try:
+                if self.current_network.get('encryption'):
+                    return self.connect_with_saved_config_thread(
+                        essid, self.get_saved_password(essid))
+                return self.connect_to_open_network_thread()
+            finally:
+                self.is_connecting = False
+
+        # in a thread: it takes 10-50 s and used to freeze the receiver
+        d = threads.deferToThread(work)
+        d.addCallback(connection_finished)
+        d.addErrback(lambda failure: connection_finished(False))
 
     def open_configuration_with_callback(self, callback):
         """Open configuration and return to callback - FIXED"""
@@ -760,7 +763,7 @@ class WiFiConnectZ(Screen):
                 callback()
 
     def open_password_dialog_with_callback(self, callback):
-        """Open password dialog and return to callback - FIXED"""
+        """Ask the password with the virtual keyboard, then callback"""
         def password_entered(password):
             if password:
                 essid = self.current_network.get('essid')
@@ -774,12 +777,13 @@ class WiFiConnectZ(Screen):
                 if callback:
                     callback()
 
-        self.session.openWithCallback(
+        essid = self.current_network.get('essid')
+        open_virtual_keyboard(
+            self.session,
             password_entered,
-            InputBox,
-            title=_("Enter password for: %s") %
-            self.current_network.get('essid'),
-            windowTitle=_("WiFi Password"))
+            title=_("Enter password for: %s") % essid,
+            # prefill with the saved password, if any
+            text=self.get_saved_password(essid) or "")
 
     def apply_network_configuration(self):
         """Applica configurazione network da /etc/enigma2/network.conf"""
@@ -805,12 +809,12 @@ class WiFiConnectZ(Screen):
                 gateway = config_data.get('gateway', '')
 
                 if ip and netmask:
-                    cmd = f"ifconfig {self.interface} {ip} netmask {netmask}"
-                    subprocess.run(cmd, shell=True, timeout=10)
+                    subprocess.run(['ifconfig', self.interface, ip,
+                                    'netmask', netmask], timeout=10)
 
                 if gateway:
-                    cmd = f"route add default gw {gateway} {self.interface}"
-                    subprocess.run(cmd, shell=True, timeout=10)
+                    subprocess.run(['route', 'add', 'default', 'gw', gateway,
+                                    self.interface], timeout=10)
 
                 # Applica DNS
                 dns1 = config_data.get('dns1', '')
@@ -827,13 +831,9 @@ class WiFiConnectZ(Screen):
 
                 print("[DEBUG] Static network configuration applied")
             else:
-                # DHCP - ottieni IP automaticamente
-                subprocess.run(
-                    "dhclient {}".format(self.interface),
-                    shell=True,
-                    timeout=15
-                )
-                print("[DEBUG] DHCP configuration applied")
+                # DHCP: the address was already requested by the connection
+                # thread (dhcpcd/udhcpc/dhclient), nothing else to do
+                print("[DEBUG] DHCP configuration: already applied")
 
         except Exception as e:
             print(f"[DEBUG] Error applying network configuration: {e}")
@@ -842,36 +842,13 @@ class WiFiConnectZ(Screen):
         """Disconnect from current network - IN THREAD"""
         def disconnect_thread():
             try:
-                subprocess.run(
-                    "killall wpa_supplicant 2>/dev/null",
-                    shell=True,
-                    timeout=5
-                )
-
-                subprocess.run(
-                    "killall dhclient 2>/dev/null",
-                    shell=True,
-                    timeout=5
-                )
-
-                subprocess.run(
-                    "iwconfig {} essid off".format(self.interface),
-                    shell=True,
-                    timeout=5
-                )
-
-                # Reset interface
-                subprocess.run(
-                    "ip link set {} down".format(self.interface),
-                    shell=True,
-                    timeout=5
-                )
-
-                subprocess.run(
-                    "ip link set {} up".format(self.interface),
-                    shell=True,
-                    timeout=5
-                )
+                for cmd in (['killall', 'wpa_supplicant'],
+                            ['killall', 'dhclient'],
+                            ['killall', 'udhcpc'],
+                            ['iwconfig', self.interface, 'essid', 'off'],
+                            ['ip', 'link', 'set', self.interface, 'down'],
+                            ['ip', 'link', 'set', self.interface, 'up']):
+                    subprocess.run(cmd, capture_output=True, timeout=5)
 
                 return True
 
@@ -924,8 +901,7 @@ class WiFiConnectZ(Screen):
         """Show current connection status"""
         try:
             result = subprocess.run(
-                "iwconfig {}".format(self.interface),
-                shell=True,
+                ['iwconfig', self.interface],
                 capture_output=True,
                 text=True
             )
@@ -942,8 +918,7 @@ class WiFiConnectZ(Screen):
 
                     # Get IP address
                     ip_result = subprocess.run(
-                        "ip addr show {}".format(self.interface),
-                        shell=True,
+                        ['ip', 'addr', 'show', self.interface],
                         capture_output=True,
                         text=True
                     )
@@ -970,8 +945,7 @@ class WiFiConnectZ(Screen):
         """Show connection details in vertical format"""
         try:
             result = subprocess.run(
-                "iwconfig {}".format(self.interface),
-                shell=True,
+                ['iwconfig', self.interface],
                 capture_output=True,
                 text=True
             )
@@ -1057,8 +1031,7 @@ class WiFiConnectZ(Screen):
                 # Add IP address information
                 try:
                     ip_result = subprocess.run(
-                        "ip addr show {}".format(self.interface),
-                        shell=True,
+                        ['ip', 'addr', 'show', self.interface],
                         capture_output=True,
                         text=True
                     )
@@ -1226,10 +1199,13 @@ class WiFiConnectZ(Screen):
                     return
 
                 elif action == "connect":
-                    print("[DEBUG] Connect selected")
-                    # SEMPLICE: esegui connessione e aggiorna status
-                    self.execute_connection()
-                    self["status"].setText(_("Connecting to %s...") % essid)
+                    if (self.current_network.get('encryption') and
+                            not self.get_saved_password(essid)):
+                        # protected network, no password yet: ask it first
+                        self.open_password_dialog_with_callback(lambda: None)
+                    else:
+                        self.execute_connection()
+                        self["status"].setText(_("Connecting to %s...") % essid)
 
                 elif action == "disconnect":
                     print("[DEBUG] Disconnect selected")
@@ -1275,10 +1251,7 @@ class WiFiConnectZ(Screen):
         if info.get('essid') and info['essid'] != _("Not connected"):
             essid = info['essid']
             quality = info.get('quality', _('?'))
-            interface = get_wifi_interfaces()
-            ip_addr = _("No interface")
-            if interface:
-                ip_addr = get_ip_address(interface)
+            ip_addr = get_ip_address(self.interface) or _("No IP")
 
             self["status"].setText(
                 _("Connected to: {essid}\nSignal: {quality} | IP: {ip}").format(

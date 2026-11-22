@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import subprocess
-from re import search
-from enigma import eTimer
+from twisted.internet import threads
 
 from Screens.Screen import Screen
 from Components.ActionMap import ActionMap
@@ -10,14 +9,14 @@ from Components.Button import Button
 from Components.ScrollLabel import ScrollLabel
 
 from . import _
-# from .iwlibs import getWNICnames, Wireless
+from .signal_indicator import WiFiSignalIndicator, skin_compact
 from .tools import (
     get_wifi_interfaces,
     is_interface_up,
     ensure_interface_up,
     parse_iwlist_detailed,
-    format_signal_quality,
-    get_interface_info
+    group_networks,
+    get_current_connected_essid,
 )
 
 """
@@ -40,29 +39,10 @@ from .tools import (
 """
 
 
-# Attempt to import pythonwifi with fallback
-try:
-    from wifi.scan import Cell
-    PYTHONWIFI_AVAILABLE = True
-    print("[WiFiScanner] pythonwifi module available")
-except ImportError as e:
-    PYTHONWIFI_AVAILABLE = False
-    print(f"[WiFiScanner] pythonwifi not available: {e}")
-    # Define fallback for Cell
-
-    class Cell:
-        @staticmethod
-        def all(interface, timeout=5):
-            return []
-
-IW_ENCODE_DISABLED = 0x8000  # Encoding disabled
-IW_ENCODE_ENABLED = 0x0000  # Encoding enabled
-
-
 class WiFiScanner(Screen):
     skin = """
     <screen position="center,center" size="800,700" title="WiFi Scanner">
-        <widget name="scan_output" position="10,10" size="782,608" font="Regular;18" />
+        <widget name="scan_output" position="10,58" size="782,560" font="Regular;18" />
         <widget name="key_red" position="10,635" size="180,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="red" transparent="1" />
         <widget name="key_green" position="210,635" size="180,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="green" transparent="1" />
         <widget name="key_yellow" position="410,635" size="180,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="yellow" transparent="1" />
@@ -71,18 +51,18 @@ class WiFiScanner(Screen):
         <eLabel name="" position="209,677" size="180,8" zPosition="3" backgroundColor="#fe00" />
         <eLabel name="" position="409,677" size="180,8" zPosition="3" backgroundColor="#cccc40" />
         <eLabel name="" position="599,677" size="180,8" zPosition="3" backgroundColor="#1a27408b" />
+    """ + skin_compact(540, 2) + """
     </screen>
     """
 
     def __init__(self, session):
         Screen.__init__(self, session)
+        self.signal_indicator = WiFiSignalIndicator(self)
         self.session = session
-        self.scan_timer = eTimer()
-        self.scan_timer.callback.append(self.perform_scan)
 
         self["scan_output"] = ScrollLabel()
         self["key_red"] = Button(_("Scan"))
-        self["key_green"] = Button(_("Refresh"))
+        self["key_green"] = Button(_("All APs"))
         self["key_yellow"] = Button(_("Details"))
         self["key_blue"] = Button(_("Exit"))
 
@@ -90,7 +70,7 @@ class WiFiScanner(Screen):
             ["ColorActions", "OkCancelActions", "DirectionActions"],
             {
                 "red": self.start_scan,
-                "green": self.refresh_scan,
+                "green": self.toggle_grouping,
                 "yellow": self.toggle_details,
                 "blue": self.close,
                 "cancel": self.close,
@@ -100,14 +80,21 @@ class WiFiScanner(Screen):
                 "down": self.pageDown,
                 "left": self.pageUp,
                 "right": self.pageDown,
-                "ok": self.refresh_scan,
+                "ok": self.start_scan,
             }
         )
 
         self.detailed_view = False
-        self.last_scan_results = []
+        self.grouped = True          # one line per network name
+        self.scanning = False
+        self.closed = False
+        self.last_scan = None        # (interface, networks, connected, error)
         self.setTitle(_("WiFi Scanner"))
-        self.start_scan()
+        self.onClose.append(self._on_close)
+        self.onLayoutFinish.append(self.start_scan)
+
+    def _on_close(self):
+        self.closed = True
 
     def pageUp(self):
         self["scan_output"].pageUp()
@@ -115,537 +102,134 @@ class WiFiScanner(Screen):
     def pageDown(self):
         self["scan_output"].pageDown()
 
+    # -- scan (worker thread) ---------------------------------------------
+
     def start_scan(self):
+        if self.scanning:
+            return
+        self.scanning = True
+        self["key_red"].setText(_("Scanning..."))
         self["scan_output"].setText(_("Scanning for WiFi networks..."))
-        self.scan_timer.start(1000, True)
+        d = threads.deferToThread(self._scan_worker)
+        d.addCallback(self._scan_done)
+        d.addErrback(self._scan_failed)
 
-    def refresh_scan(self):
-        if self.last_scan_results:
-            self.display_networks(self.last_scan_results)
-        else:
-            self.start_scan()
-
-    def perform_scan(self):
-        try:
-            networks = []
-            print("[WiFiScanner] Starting scan process...")
-
-            wifi_ifaces = get_wifi_interfaces()
-            if not wifi_ifaces:
-                networks.append(_("No WiFi interfaces found\n"))
-                networks.extend(self.get_detailed_network_status())
-                self.last_scan_results = networks
-                self.display_networks(networks)
-                return
-
-            # FIRST ATTEMPT: use pythonwifi if available
-            if PYTHONWIFI_AVAILABLE:
-                networks.extend(self.scan_with_pythonwifi(wifi_ifaces))
-            else:
-                networks.append(
-                    _("\n[INFO] pythonwifi not available, using iwlist\n"))
-
-            # SECOND ATTEMPT: use iwlist as fallback
-            if not networks or len(networks) <= 2:
-                networks.extend(self.scan_with_iwlist(wifi_ifaces))
-
-            # THIRD ATTEMPT: if everything fails, show diagnostics
-
-            # If no scan worked, show diagnostic info
-            if len(networks) <= 3:  # Only headers and few results
-                print("[WiFiScanner] Scan failed, showing diagnostics")
-                networks.extend(self.get_detailed_network_status())
-
-            self.last_scan_results = networks
-            self.display_networks(networks)
-
-        except Exception as e:
-            error_msg = _("Scan error: {}\n").format(str(e))
-            print(f"[WiFiScanner] {error_msg}")
-            self["scan_output"].setText(_("Scan error: ") + str(e))
-
-    def scan_with_iwlist(self, wifi_ifaces):
-        """Scan using iwlist as fallback"""
-        print("[WiFiScanner] Starting iwlist fallback scan")
-
-        networks = []
-        networks.append(_("\n=== SCAN WITH IWLIST ===\n"))
-
-        for iface in wifi_ifaces:
+    def _scan_worker(self):
+        """Runs in a thread: no GUI access here"""
+        ifaces = get_wifi_interfaces()
+        if not ifaces:
+            return None, [], None, _("No WiFi interfaces found")
+        last_error = None
+        for iface in ifaces:
+            if not is_interface_up(iface):
+                ensure_interface_up(iface)
             try:
-                print("[WiFiScanner] iwlist scan on {}".format(iface))
-
-                result = subprocess.check_output(
-                    ['iwlist', iface, 'scan'],
-                    stderr=subprocess.STDOUT,
-                    text=True,
-                    timeout=15
-                )
-
-                parsed_networks = parse_iwlist_detailed(result)
-
-                if parsed_networks:
-                    for i, net in enumerate(parsed_networks):
-                        essid = net.get('essid', _('Unknown'))
-                        signal = net.get('signal', 0)
-                        quality_percent = net.get('quality_percent', 0)
-                        channel = net.get('channel', '?')
-                        encrypted = _("Yes") if net.get(
-                            'encryption') else _("No")
-
-                        signal_quality = format_signal_quality(quality_percent)
-
-                        networks.append(
-                            _("{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel} | Encrypted: {encrypted}\n").format(
-                                index=i +
-                                1,
-                                essid=essid,
-                                quality=quality_percent,
-                                signal_quality=signal_quality,
-                                signal=signal,
-                                channel=channel,
-                                encrypted=encrypted))
-
-                    print("[WiFiScanner] iwlist found {} networks".format(
-                        len(parsed_networks)
-                    ))
-                    break
-
+                result = subprocess.run(['iwlist', iface, 'scan'],
+                                        capture_output=True, text=True,
+                                        timeout=20)
             except subprocess.TimeoutExpired:
-                networks.append(_("   iwlist timeout on {}\n").format(iface))
-
-            except subprocess.CalledProcessError as e:
-                networks.append(
-                    _("   iwlist error on {interface}: {error}\n").format(
-                        interface=iface,
-                        error=e
-                    )
-                )
-
-            except Exception as e:
-                networks.append(
-                    _("   iwlist exception on {interface}: {error}\n").format(
-                        interface=iface,
-                        error=e
-                    )
-                )
-
-        if len(networks) <= 2:
-            networks.append(_("   No networks found with iwlist\n"))
-
-        return networks
-
-    def scan_with_pythonwifi(self, wifi_ifaces):
-        """Scan using pythonwifi and Cell.all()"""
-        networks = []
-        networks.append(_("\n=== SCAN WITH PYTHONWIFI ===\n"))
-
-        for iface in wifi_ifaces:
-            try:
-                print(
-                    "[WiFiScanner] Scanning with pythonwifi on {}".format(iface))
-
-                # Ensure interface is up
-                if not is_interface_up(iface):
-                    print(
-                        "[WiFiScanner] Activating interface {}".format(iface))
-                    ensure_interface_up(iface)
-
-                # Perform scan with Cell.all()
-                scan_results = list(Cell.all(iface, timeout=10))
-
-                print("[WiFiScanner] Found {} networks on {}".format(
-                    len(scan_results),
-                    iface
-                ))
-
-                if scan_results:
-                    for i, cell in enumerate(scan_results):
-                        network_info = self.parse_cell(cell, i)
-                        if network_info:
-                            networks.append(network_info)
-
-                    break  # Use first working interface
-
-                else:
-                    networks.append(
-                        _("   No networks found on {}\n").format(iface))
-
-            except Exception as e:
-                error_msg = _("   Error on {interface}: {error}\n").format(
-                    interface=iface,
-                    error=str(e)
-                )
-
-                networks.append(error_msg)
-                print("[WiFiScanner] pythonwifi error: {}".format(error_msg))
+                last_error = _("iwlist timeout on {}").format(iface)
                 continue
-
-        return networks
-
-    def parse_cell(self, cell, index):
-        """Parse a pythonwifi Cell object"""
-        try:
-            # ESSID
-            essid = cell.ssid if cell.ssid else _("Hidden")
-
-            # Quality
-            quality = self.parse_quality(cell.quality)
-
-            # Signal
-            signal = self.extract_signal_from_cell(cell)
-
-            # Channel and Frequency
-            channel = getattr(cell, 'channel', 0)
-            frequency = getattr(cell, 'frequency', 0)
-            print("[WiFiScanner] frequency cell: {}".format(frequency))
-
-            # Encryption
-            encrypted = _("Yes") if cell.encrypted else _("No")
-
-            # Format signal quality
-            signal_quality = format_signal_quality(quality)
-
-            return _(
-                "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel:2} | Encrypted: {encrypted}\n"
-            ).format(
-                index=index + 1,
-                essid=essid,
-                quality=quality,
-                signal_quality=signal_quality,
-                signal=signal,
-                channel=channel,
-                encrypted=encrypted
-            )
-
-        except Exception as e:
-            print("[WiFiScanner] Error parsing cell: {}".format(e))
-            return None
-
-    def parse_quality(self, quality_str):
-        """Parse quality string (e.g., '39/70')"""
-        try:
-            if isinstance(quality_str, str) and '/' in quality_str:
-                parts = quality_str.split('/')
-                if len(parts) == 2:
-                    current = int(parts[0])
-                    max_val = int(parts[1])
-                    if max_val > 0:
-                        return int((current / max_val) * 100)
-            return 0
-        except (ValueError, ZeroDivisionError):
-            return 0
-
-    def extract_signal_from_cell(self, cell, debug=False):
-        """Extract signal strength from a Cell object"""
-        signal = 0
-
-        # Method 1: direct signal attribute
-        if hasattr(cell, 'signal') and cell.signal is not None:
-            if isinstance(cell.signal, (int, float)):
-                return int(cell.signal)
-            elif isinstance(cell.signal, str):
-                match = search(r'(-?\d+)\s*dBm?', cell.signal)
-                if match:
-                    return int(match.group(1))
-
-        # Method 2: estimate from quality
-        quality = self.parse_quality(getattr(cell, 'quality', '0/100'))
-        if quality > 0:
-            # Rough estimation: -30dBm (excellent) to -90dBm (poor)
-            return int(-90 + (quality * 0.6))
-
-        return signal
-
-    def parse_iwlist_output(self, output):
-        """Parse iwlist output with debug"""
-        print("[WiFiScanner] Parsing iwlist output...")
-
-        networks = []
-
-        if "Cell" not in output:
-            print("[WiFiScanner] No 'Cell' found in iwlist output")
-            return [_("iwlist: No networks found or interface busy\n")]
-
-        lines = output.split('\n')
-        current_net = {}
-        cell_count = 0
-
-        for line in lines:
-            line = line.strip()
-            print("[WiFiScanner] iwlist line: {}".format(line))
-
-            # New cell
-            if 'Cell' in line and 'Address' in line:
-                cell_count += 1
-
-                if current_net:
-                    formatted = self.format_network(current_net)
-                    networks.append(formatted)
-                    print(
-                        "[WiFiScanner] Added network: {}".format(
-                            formatted.strip()))
-
-                parts = line.split('Address: ')
-                current_net = {'bssid': parts[1] if len(parts) > 1 else ''}
-                print("[WiFiScanner] New cell #{}".format(cell_count))
-
-            # ESSID
-            elif 'ESSID:' in line:
-                essid = line.split('ESSID:"')[1].rstrip(
-                    '"') if 'ESSID:"' in line else _('Hidden')
-                current_net['essid'] = essid
-                print("[WiFiScanner] Found ESSID: {}".format(essid))
-
-            # Quality
-            elif 'Quality=' in line:
-                match = search(r'Quality=(\d+)/(\d+)', line)
-
-                if match:
-                    try:
-                        current_qual = int(match.group(1))
-                        max_qual = int(match.group(2))
-
-                        if max_qual > 0:
-                            quality = (current_qual / max_qual) * 100
-                            current_net['quality'] = int(quality)
-                            print("[WiFiScanner] Quality: {}/{} = {}%".format(
-                                current_qual, max_qual, quality
-                            ))
-                        else:
-                            current_net['quality'] = 0
-                            print("[WiFiScanner] Quality: {}/{} = 0% (max is 0)".format(
-                                current_qual, max_qual
-                            ))
-
-                    except (ValueError, ZeroDivisionError) as e:
-                        current_net['quality'] = 0
-                        print(
-                            "[WiFiScanner] Error parsing quality: {}".format(e))
-
-                signal_match = search(r'Signal level=(-?\d+)', line)
-
-                if signal_match:
-                    current_net['signal'] = int(signal_match.group(1))
-                    print(
-                        "[WiFiScanner] Signal: {} dBm".format(
-                            signal_match.group(1)))
-
+            except Exception as e:
+                last_error = str(e)
+                continue
+            output = result.stdout + result.stderr
+            if result.returncode != 0 and 'Cell' not in output:
+                if 'busy' in output.lower():
+                    last_error = _("Interface {} busy, try again in a few seconds").format(iface)
                 else:
-                    alt_signal_match = search(
-                        r'signal[=:](-?\d+)', line, search.IGNORECASE)
+                    last_error = output.strip() or _("Scan failed")
+                continue
+            networks = parse_iwlist_detailed(output)
+            connected = get_current_connected_essid(iface)
+            return iface, networks, connected, None
+        return None, [], None, last_error or _("Scan failed")
 
-                    if alt_signal_match:
-                        current_net['signal'] = int(alt_signal_match.group(1))
-                        print("[WiFiScanner] Signal (alt): {} dBm".format(
-                            alt_signal_match.group(1)
-                        ))
+    def _scan_done(self, result):
+        self.scanning = False
+        if self.closed:
+            return
+        self["key_red"].setText(_("Scan"))
+        self.last_scan = result
+        self.show_results()
 
-            # Signal level (separate line)
-            elif 'Signal level=' in line and 'quality' not in line.lower():
-                match = search(r'Signal level=(-?\d+)', line)
+    def _scan_failed(self, failure):
+        self.scanning = False
+        if self.closed:
+            return
+        self["key_red"].setText(_("Scan"))
+        self["scan_output"].setText(_("Scan error: ") + str(failure.value))
 
-                if match:
-                    current_net['signal'] = int(match.group(1))
-                    print(
-                        "[WiFiScanner] Signal level: {} dBm".format(
-                            match.group(1)))
+    # -- display ------------------------------------------------------------
 
-        if current_net:
-            formatted = self.format_network(current_net)
-            networks.append(formatted)
-            print("[WiFiScanner] Final network: {}".format(formatted.strip()))
+    @staticmethod
+    def _band(net):
+        freq = net.get('frequency')
+        ch = net.get('channel') or 0
+        if (freq and freq >= 5) or ch > 14:
+            return "5 GHz"
+        return "2.4 GHz"
 
-        print("[WiFiScanner] Total networks parsed: {}".format(len(networks)))
+    @staticmethod
+    def _bar(percent):
+        filled = int(round(percent / 20.0))
+        return "|" * filled + "." * (5 - filled)
 
-        return networks if networks else [_("iwlist: No networks found\n")]
+    def show_results(self):
+        if not self.last_scan:
+            return
+        iface, networks, connected, error = self.last_scan
+        if error:
+            self["scan_output"].setText(error + "\n\n" + "".join(
+                self.get_detailed_network_status()))
+            return
+        shown = group_networks(networks, include_hidden=not self.grouped) \
+            if self.grouped else sorted(
+                networks, key=lambda n: n.get('quality_percent', 0), reverse=True)
+        hidden = len([n for n in networks if not n.get('essid')])
 
-    def fallback_iwlist_scan(self):
-        """Fallback scan with iwlist using tools.py"""
-        print("[WiFiScanner] Starting fallback iwlist scan")
-        networks = []
-        networks.append(_("\n=== FALLBACK SCAN with iwlist ===\n"))
-
-        try:
-            wifi_ifaces = get_wifi_interfaces()
-
-            for iface in wifi_ifaces:
-                try:
-                    print(f"[WiFiScanner] iwlist scan on {iface}")
-                    result = subprocess.check_output(['iwlist', iface, 'scan'],
-                                                     stderr=subprocess.STDOUT,
-                                                     text=True,
-                                                     timeout=15)
-                    print(f"[WiFiScanner] iwlist output length: {len(result)}")
-
-                    # DEBUG: Show sample of iwlist output for signal parsing
-                    lines = result.split('\n')
-                    signal_lines = [
-                        line for line in lines if 'Signal level' in line or 'Quality' in line]
-                    for i, line in enumerate(signal_lines[:3]):
-                        print("[SIGNAL] iwlist signal line {}: {}".format(
-                            i,
-                            line.strip()
-                        ))
-
-                    # Use parse_iwlist_detailed da tools.py
-                    parsed_networks = parse_iwlist_detailed(result)
-                    if parsed_networks:
-                        for i, net in enumerate(parsed_networks):
-                            essid = net.get('essid', _('Unknown'))
-                            signal = net.get('signal', 0)
-                            quality_percent = net.get('quality_percent', 0)
-                            channel = net.get('channel', '?')
-                            encrypted = _("Yes") if net.get(
-                                'encryption') else _("No")
-
-                            # Use format_signal_quality
-                            signal_quality = format_signal_quality(
-                                quality_percent)
-
-                            networks.append(
-                                _("{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel} | Encrypted: {encrypted}\n").format(
-                                    index=i +
-                                    1,
-                                    essid=essid,
-                                    quality=quality_percent,
-                                    signal_quality=signal_quality,
-                                    signal=signal,
-                                    channel=channel,
-                                    encrypted=encrypted))
-                        print("[WiFiScanner] iwlist found {} networks".format(
-                            len(parsed_networks)
-                        ))
-                        break
-                    else:
-                        print("[WiFiScanner] No networks parsed from iwlist output")
-                except Exception as e:
-                    print(
-                        "[WiFiScanner] iwlist error on {}: {}".format(
-                            iface, e))
-                    continue
-
-            if len(networks) <= 2:  # Only header
-                networks.append(_("   No results with iwlist\n"))
-                print("[WiFiScanner] iwlist found no networks")
-
-        except Exception as e:
-            error_msg = _("   iwlist error: {}\n").format(e)
-            networks.append(error_msg)
-            print("[WiFiScanner] {}".format(error_msg))
-
-        return networks
-
-    def process_pythonwifi_scan(self, scan_results):
-        """Process pythonwifi results"""
-        networks = []
-        if not scan_results:
-            return [_("pythonwifi: No networks found\n")]
-
-        for i, network in enumerate(scan_results):
-            essid = network.essid or _("Hidden")
-            quality = network.quality.quality if network.quality else 0
-            signal = network.quality.siglevel if network.quality else 0
-
-            networks.append(
-                _("{index}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\n").format(
-                    index=i + 1, essid=essid, quality=quality, signal=signal))
-
-        return networks
-
-    def format_network(self, net):
-        """Format a network for display"""
-        essid = net.get('essid', _('Unknown'))
-        quality = net.get('quality', 0)
-        signal = net.get('signal', 0)
-        bssid = net.get('bssid', '')[:8]
-        return _("{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}...\n").format(
-            essid=essid, quality=quality, signal=signal, bssid=bssid)
-
-    def format_network_info(self, net):
-        """Format network info for display"""
-        essid = net.get('essid', _('Unknown'))
-        bssid = net.get('bssid', _('Unknown'))
-        quality = net.get('quality', 0)
-        signal = net.get('signal', 0)
-
-        return _("{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}\n").format(
-            essid=essid, quality=quality, signal=signal, bssid=bssid)
-
-    def get_basic_network_info(self, network, index):
-        essid = network.essid or _("Hidden")
-        quality = network.quality.quality if network.quality else 0
-        signal = network.quality.siglevel if network.quality else 0
-
-        return _("{index:2d}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\n").format(
-            index=index, essid=essid, quality=quality, signal=signal)
-
-    def get_detailed_network_status(self):
-        """Detailed network diagnostics"""
-        info = []
-        info.append("\n" + "=" * 50)
-        info.append(_("\nDETAILED DIAGNOSTICS"))
-        info.append("\n" + "=" * 50 + "\n")
-
-        try:
-            # WiFi Interfaces
-            info.append(_("\nWIFI INTERFACES:\n"))
-            wifi_ifaces = get_wifi_interfaces()
-            if wifi_ifaces:
-                info.append(_("   Found: {}\n").format(', '.join(wifi_ifaces)))
-            else:
-                info.append(_("   No WiFi interfaces found\n"))
-
-            # Interface status
-            info.append(_("\nINTERFACE STATUS:\n"))
-            for iface in wifi_ifaces:
-                status = _("ACTIVE") if is_interface_up(
-                    iface) else _("INACTIVE")
-                icon = "V" if is_interface_up(iface) else "X"
-                info.append(
-                    _("   {icon} {interface}: {status}\n").format(
-                        icon=icon, interface=iface, status=status))
-
-            # Active connections
-            info.append(_("\nACTIVE CONNECTIONS:\n"))
-            for iface in wifi_ifaces:
-                interface_info = get_interface_info(iface)
-                if 'essid' in interface_info and interface_info['essid'] != _(
-                        "Not connected"):
-                    essid = interface_info['essid']
-                    quality = interface_info.get('quality', '?')
-                    info.append(
-                        _("   {interface}: Connected to {essid} ({quality})\n").format(
-                            interface=iface, essid=essid, quality=quality))
-                else:
-                    info.append(
-                        _("   {interface}: Not connected\n").format(
-                            interface=iface))
-
-            # Solutions
-            info.append(_("\nPOSSIBLE SOLUTIONS:\n"))
-            info.append(_("   1. Disconnect from current WiFi network\n"))
-            info.append(_("   2. Restart WiFi adapter\n"))
-            info.append(_("   3. Check if WiFi driver is installed\n"))
-            info.append(_("   4. Try with different USB WiFi adapter\n"))
-            info.append(_("   5. Check root permissions\n"))
-
-        except Exception as e:
-            info.append(_("Diagnostic error: {}\n").format(e))
-
-        return info
-
-    def display_networks(self, networks):
-        if isinstance(networks, list):
-            self["scan_output"].setText("".join(networks))
-        else:
-            self["scan_output"].setText(networks)
+        lines = [_("{count} networks on {iface} ({aps} access points, {hidden} hidden)").format(
+            count=len(group_networks(networks)), iface=iface,
+            aps=len(networks), hidden=hidden), "\n\n"]
+        for i, net in enumerate(shown, 1):
+            essid = net.get('essid') or _("<hidden>")
+            mark = ">> " if connected and net.get('essid') == connected else "   "
+            q = net.get('quality_percent', 0)
+            sig = net.get('signal')
+            sig_txt = ("%d dBm" % sig) if sig is not None else "-"
+            lines.append("%s%2d. %s\n" % (mark, i, essid))
+            lines.append("       %s %3d%%  %s  |  %s  ch %s  |  %s" % (
+                self._bar(q), q, sig_txt, self._band(net),
+                net.get('channel', '?'), net.get('security', '?')))
+            if self.grouped and net.get('aps', 1) > 1:
+                lines.append(_("  |  {} APs").format(net['aps']))
+            lines.append("\n")
+            if self.detailed_view:
+                lines.append("       BSSID %s" % net.get('bssid', '?'))
+                if net.get('frequency'):
+                    lines.append("  |  %.3f GHz" % net['frequency'])
+                if net.get('mode'):
+                    lines.append("  |  %s" % net['mode'])
+                lines.append("\n")
+        if connected:
+            lines.append("\n" + _(">> = connected network ({})").format(connected))
+        self["scan_output"].setText("".join(lines))
 
     def toggle_details(self):
         self.detailed_view = not self.detailed_view
-        if self.detailed_view:
-            self["scan_output"].setText(
-                _("Detailed view enabled - rescan to see details"))
-        else:
-            self["scan_output"].setText(
-                _("Basic view enabled - rescan to see basic info"))
+        self["key_yellow"].setText(_("Basic") if self.detailed_view else _("Details"))
+        self.show_results()
+
+    def toggle_grouping(self):
+        self.grouped = not self.grouped
+        self["key_green"].setText(_("By name") if not self.grouped else _("All APs"))
+        self.show_results()
+
+    def get_detailed_network_status(self):
+        """Hints when the scan does not work"""
+        info = ["\n" + _("POSSIBLE SOLUTIONS:") + "\n"]
+        info.append(_("   1. Check that the WiFi adapter is connected\n"))
+        info.append(_("   2. Restart the WiFi interface (Tools menu)\n"))
+        info.append(_("   3. Check that the WiFi driver is installed\n"))
+        info.append(_("   4. Some drivers cannot scan while connecting: retry\n"))
+        return info

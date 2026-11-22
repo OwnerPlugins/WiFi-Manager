@@ -12,7 +12,9 @@ from Components.Label import Label
 from Components.config import ConfigIP, ConfigSubsection, ConfigText, ConfigYesNo, ConfigPassword, ConfigSelection, getConfigListEntry, ConfigEnableDisable
 
 from . import _
-
+from .tools import (open_virtual_keyboard, wpa_network_block,
+                    write_wpa_supplicant, get_current_connected_essid,
+                    load_saved_networks)
 """
 #########################################################
 #                                                       #
@@ -59,6 +61,7 @@ class WiFiConfigScreen(Screen, ConfigListScreen):
         <eLabel name="" position="209,677" size="180,8" zPosition="3" backgroundColor="#fe00" />
         <eLabel name="" position="409,677" size="180,8" zPosition="3" backgroundColor="#cccc40" />
         <eLabel name="" position="599,677" size="180,8" zPosition="3" backgroundColor="#1a27408b" />
+        <eLabel name="" position="590,560" size="200,24" backgroundColor="#49bbff" halign="center" valign="center" transparent="0" cornerRadius="9" font="Regular;16" zPosition="1" text="OK / TXT - KEYBOARD" />
     </screen>
     """
 
@@ -185,13 +188,14 @@ class WiFiConfigScreen(Screen, ConfigListScreen):
         self["key_yellow"] = Label(_("Advanced"))
         self["key_blue"] = Label(_("Defaults"))
 
-        self["actions"] = ActionMap(["ColorActions", "OkCancelActions"], {
+        self["actions"] = ActionMap(["ColorActions", "OkCancelActions", "VirtualKeyboardActions"], {
             "red": self.cancel,
             "green": self.save_and_connect,
             "yellow": self.toggle_advanced,
             "blue": self.set_defaults,
             "cancel": self.cancel,
             "ok": self.keyOK,
+            "showVirtualKeyboard": self.keyOK,  # TXT key
         })
         self.wifi_config.connection_type.addNotifier(
             self.configChanged, initial_call=False)
@@ -204,6 +208,7 @@ class WiFiConfigScreen(Screen, ConfigListScreen):
 
         if not network_info:
             self.load_current_settings()
+            self.prefill_current_network()
 
     def configChanged(self, configElement=None):
         """Handle configuration changes"""
@@ -247,7 +252,7 @@ class WiFiConfigScreen(Screen, ConfigListScreen):
             for line in lines[2:]:  # Skip header lines
                 if ':' in line:
                     ifname = line.split(':')[0].strip()
-                    if ifname and ifname not in interfaces:
+                    if ifname and (ifname, ifname) not in interfaces:
                         interfaces.append((ifname, ifname))
 
             # Method 2: Check ip link for common WiFi interfaces
@@ -271,7 +276,7 @@ class WiFiConfigScreen(Screen, ConfigListScreen):
                         for line in result.stdout.split('\n'):
                             if 'IEEE 802.11' in line and 'no wireless extensions' not in line:
                                 ifname = line.split()[0]
-                                if ifname and ifname not in interfaces:
+                                if ifname and (ifname, ifname) not in interfaces:
                                     interfaces.append((ifname, ifname))
                 except Exception as e:
                     print(e)
@@ -363,36 +368,31 @@ class WiFiConfigScreen(Screen, ConfigListScreen):
 
             if self.wifi_config.mode.value != "auto":
                 commands.append(
-                    "iwconfig {} mode {}".format(
-                        ifname, self.wifi_config.mode.value))
+                    ['iwconfig', ifname, 'mode', self.wifi_config.mode.value])
 
             if self.wifi_config.channel.value != "auto":
                 commands.append(
-                    "iwconfig {} channel {}".format(
-                        ifname, self.wifi_config.channel.value))
+                    ['iwconfig', ifname, 'channel', self.wifi_config.channel.value])
 
             if self.wifi_config.txpower.value != "auto":
                 commands.append(
-                    "iwconfig {} txpower {}".format(
-                        ifname, self.wifi_config.txpower.value))
+                    ['iwconfig', ifname, 'txpower', self.wifi_config.txpower.value])
 
             if self.wifi_config.rts.value != "auto":
                 rts_val = "off" if self.wifi_config.rts.value == "off" else self.wifi_config.rts.value
-                commands.append("iwconfig {} rts {}".format(ifname, rts_val))
+                commands.append(['iwconfig', ifname, 'rts', rts_val])
 
             if self.wifi_config.frag.value != "auto":
                 frag_val = "off" if self.wifi_config.frag.value == "off" else self.wifi_config.frag.value
-                commands.append("iwconfig {} frag {}".format(ifname, frag_val))
+                commands.append(['iwconfig', ifname, 'frag', frag_val])
 
             if self.wifi_config.country.value != "auto":
                 commands.append(
-                    "iw reg set {}".format(
-                        self.wifi_config.country.value))
+                    ['iw', 'reg', 'set', self.wifi_config.country.value])
 
             if self.wifi_config.rate.value != "auto":
                 commands.append(
-                    "iwconfig {} rate {}M".format(
-                        ifname, self.wifi_config.rate.value))
+                    ['iwconfig', ifname, 'rate', self.wifi_config.rate.value + 'M'])
 
             success_count = 0
             failed_commands = []
@@ -400,7 +400,7 @@ class WiFiConfigScreen(Screen, ConfigListScreen):
             for cmd in commands:
                 try:
                     result = subprocess.run(
-                        cmd, shell=True, capture_output=True, text=True, timeout=10)
+                        cmd, capture_output=True, text=True, timeout=10)
                     if result.returncode == 0:
                         success_count += 1
                         print(
@@ -559,8 +559,27 @@ class WiFiConfigScreen(Screen, ConfigListScreen):
         self.buildConfigList()
 
     def keyOK(self):
-        """Handle OK button in config list"""
-        pass
+        """OK / TXT on a text field (SSID, password) opens the keyboard"""
+        current = self["config"].getCurrent()
+        if not current or len(current) < 2:
+            return
+        element = current[1]
+        if not isinstance(element, ConfigText):  # ConfigPassword included
+            # other entries: default Enigma2 behaviour (e.g. choice list)
+            try:
+                ConfigListScreen.keyOK(self)
+            except Exception:
+                pass
+            return
+
+        def keyboard_closed(text):
+            if text is not None:
+                element.value = text
+                self["config"].invalidateCurrent()
+
+        open_virtual_keyboard(
+            self.session, keyboard_closed, title=current[0],
+            text=element.value)
 
     def cancel(self):
         """Cancel configuration"""
@@ -629,61 +648,36 @@ class WiFiConfigScreen(Screen, ConfigListScreen):
             print(f"[WiFiConfig] Error writing network config: {e}")
             return False
 
+    def prefill_current_network(self):
+        """Opened from the main menu: show the network in use"""
+        try:
+            iface = self.wifi_config.interface.value
+            essid = get_current_connected_essid(iface)
+            if essid and not self.wifi_config.essid.value:
+                self.wifi_config.essid.value = essid
+                saved = load_saved_networks(interface=iface).get(essid, {})
+                if saved.get('password'):
+                    self.wifi_config.psk.value = saved['password']
+                enc = saved.get('encryption')
+                if enc in MODE_LIST:
+                    self.wifi_config.encryption.value = enc
+                self.buildConfigList()
+        except Exception as e:
+            print("[WiFiConfig] prefill error: %s" % e)
+
     def write_wpa_supplicant_config(self):
-        """Write wpa_supplicant configuration like Enigma2"""
-        config_file = f"/etc/wpa_supplicant.{self.iface}.conf"
-
-        lines = [
-            "# WiFi configuration for {}".format(self.wifi_config.essid.value),
-            "ctrl_interface=/var/run/wpa_supplicant",
-            "update_config=1",
-            "",
-            "network={",
-            '\tssid="{}"'.format(self.wifi_config.essid.value),
-        ]
-
-        if self.wifi_config.hiddenessid.value:
-            lines.append('\tscan_ssid=1')
-        else:
-            lines.append('\tscan_ssid=0')
-
+        """Write wpa_supplicant configuration like Enigma2 (safe for any
+        character in name and password: hex SSID / 64-hex PSK)"""
         encryption = self.wifi_config.encryption.value
-        if encryption in ("WPA", "WPA2", "WPA/WPA2"):
-            lines.append('\tkey_mgmt=WPA-PSK')
-            if encryption == "WPA":
-                lines.append('\tproto=WPA')
-                lines.append('\tpairwise=TKIP')
-                lines.append('\tgroup=TKIP')
-            elif encryption == "WPA2":
-                lines.append('\tproto=RSN')
-                lines.append('\tpairwise=CCMP')
-                lines.append('\tgroup=CCMP')
-            else:  # WPA/WPA2
-                lines.append('\tproto=WPA RSN')
-                lines.append('\tpairwise=CCMP TKIP')
-                lines.append('\tgroup=CCMP TKIP')
-            lines.append('\tpsk="{}"'.format(self.wifi_config.psk.value))
-
-        elif encryption == "WEP":
-            lines.append('\tkey_mgmt=NONE')
-            if self.wifi_config.wepkeytype.value == "ASCII":
-                lines.append(
-                    '\twep_key0="{}"'.format(
-                        self.wifi_config.psk.value))
-            else:
-                lines.append(
-                    '\twep_key0={}'.format(
-                        self.wifi_config.psk.value))
-        else:  # Unencrypted
-            lines.append('\tkey_mgmt=NONE')
-
-        lines.append("}")
-
-        # Write the file
-        with open(config_file, 'w') as f:
-            f.write('\n'.join(lines))
-
-        print(f"[WiFiConfig] Configuration saved to {config_file}")
+        block = wpa_network_block(
+            self.wifi_config.essid.value,
+            self.wifi_config.psk.value,
+            "Open" if encryption == "Unencrypted" else encryption,
+            hidden=self.wifi_config.hiddenessid.value,
+            wep_ascii=self.wifi_config.wepkeytype.value == "ASCII")
+        # the interface chosen in the list (default: the one passed in)
+        path = write_wpa_supplicant(self.wifi_config.interface.value or self.iface, block)
+        print(f"[WiFiConfig] Configuration saved to {path}")
 
     def set_defaults(self):
         """Reset all settings to defaults"""

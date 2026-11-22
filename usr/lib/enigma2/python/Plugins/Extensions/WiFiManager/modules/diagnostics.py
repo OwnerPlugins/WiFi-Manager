@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import subprocess
-from re import search, IGNORECASE, findall
+from twisted.internet import threads
+from re import search, IGNORECASE, MULTILINE, findall
 
 from Screens.Screen import Screen
 from Components.ActionMap import ActionMap
@@ -11,6 +12,7 @@ from os.path import basename, realpath
 
 from .tools import get_wifi_interfaces
 from . import _
+from .signal_indicator import WiFiSignalIndicator, skin_compact
 
 """
 #########################################################
@@ -35,7 +37,7 @@ from . import _
 class WiFiDiagnostics(Screen):
     skin = """
     <screen position="center,center" size="800,700" title="WiFi Diagnostics">
-        <widget name="diagnostics_output" position="10,10" size="773,579" font="Regular;18" />
+        <widget name="diagnostics_output" position="10,58" size="773,560" font="Regular;18" />
         <widget name="key_red" position="10,635" size="180,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="red" transparent="1" />
         <widget name="key_green" position="210,635" size="180,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="green" transparent="1" />
         <widget name="key_yellow" position="410,635" size="180,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="yellow" transparent="1" />
@@ -44,11 +46,13 @@ class WiFiDiagnostics(Screen):
         <eLabel name="" position="209,677" size="180,8" zPosition="3" backgroundColor="#fe00" />
         <eLabel name="" position="409,677" size="180,8" zPosition="3" backgroundColor="#cccc40" />
         <eLabel name="" position="599,677" size="180,8" zPosition="3" backgroundColor="#1a27408b" />
+    """ + skin_compact(540, 2) + """
     </screen>
     """
 
     def __init__(self, session):
         Screen.__init__(self, session)
+        self.signal_indicator = WiFiSignalIndicator(self)
         self.session = session
         self["diagnostics_output"] = ScrollLabel()
         self["key_red"] = Button(_("Full Test"))
@@ -72,8 +76,14 @@ class WiFiDiagnostics(Screen):
             }
         )
         self.setTitle(_("WiFi Diagnostics"))
-        self.interfaces = get_wifi_interfaces()
-        self.run_diagnostics(full_test=False)
+        self.running = False
+        self.closed = False
+        self.onClose.append(self._on_close)
+        # start after the screen is shown (it used to block the opening)
+        self.onLayoutFinish.append(lambda: self.run_diagnostics(full_test=False))
+
+    def _on_close(self):
+        self.closed = True
 
     def pageUp(self):
         self["diagnostics_output"].pageUp()
@@ -82,6 +92,29 @@ class WiFiDiagnostics(Screen):
         self["diagnostics_output"].pageDown()
 
     def run_diagnostics(self, full_test=True):
+        """Run the checks in a thread, show the result when done"""
+        if self.running:
+            return
+        self.running = True
+        self["diagnostics_output"].setText(
+            _("Running diagnostics, please wait..."))
+
+        def done(result):
+            self.running = False
+            if not self.closed:
+                self.display_results(result)
+
+        def failed(failure):
+            self.running = False
+            if not self.closed:
+                self.display_results(_("Diagnostic error: {}").format(failure.value))
+
+        d = threads.deferToThread(self._collect, full_test)
+        d.addCallback(done)
+        d.addErrback(failed)
+
+    def _collect(self, full_test=True):
+        """Runs in a worker thread: returns the report lines"""
         diagnostics = [_("=== WiFi Diagnostics (System Commands Only) ===\n")]
         diagnostics.append(_("Test Type: {test_type}\n\n").format(test_type=_(
             'Full Comprehensive Test') if full_test else _('Quick System Check')))
@@ -137,8 +170,7 @@ class WiFiDiagnostics(Screen):
                 diagnostics.extend(solutions)
                 for line in solutions:
                     print(f"[WiFiDiagnostics] {line.strip()}")
-                self.display_results(diagnostics)
-                return
+                return diagnostics
 
             # 3. PER-INTERFACE DETAILED TESTS
             for ifname in wifi_interfaces:
@@ -200,7 +232,7 @@ class WiFiDiagnostics(Screen):
             diagnostics.append(error_msg)
             print(f"[WiFiDiagnostics] ERROR: {e}")
 
-        self.display_results(diagnostics)
+        return diagnostics
 
     def get_all_interfaces(self):
         """Get all network interfaces"""
@@ -225,20 +257,12 @@ class WiFiDiagnostics(Screen):
         results = []
         try:
             output = subprocess.check_output(["lsmod"], text=True)
-            wifi_modules = []
-            for module in [
-                "rtl",
-                "ath",
-                "brcm",
-                "wl",
-                "iwl",
-                "mt",
-                "rt",
-                    "zd"]:
-                if module in output.lower():
-                    matches = findall(rf"({module}\w*)\s+\d", output)
-                    wifi_modules.extend(matches)
-
+            # only module names of real WiFi drivers (the old check matched
+            # any module containing "rt", "mt", "wl"...)
+            pattern = (r"^((?:rtl|r8\d{3}|8\d{3}|88x2|rtw|ath|carl9170|brcm|"
+                       r"iwl|mt7|rt2|rt3|rt5|rt7|zd1211|mac80211|cfg80211|"
+                       r"wlan|bcmdhd|dhd|aic|ssv|esp)\w*)\s+\d")
+            wifi_modules = findall(pattern, output, MULTILINE | IGNORECASE)
             if wifi_modules:
                 results.append(
                     _("✅ Loaded WiFi modules: {modules}\n").format(
@@ -437,29 +461,30 @@ class WiFiDiagnostics(Screen):
         results = []
         results.append(_("\n   🔬 ADVANCED TESTS:\n"))
 
+        # one iwconfig call, values parsed here (the old "grep BitRate"
+        # never matched: iwconfig prints "Bit Rate")
+        try:
+            output = subprocess.run(["iwconfig", ifname], capture_output=True,
+                                    text=True, timeout=5).stdout
+        except Exception as e:
+            output = ""
+            results.append(_("   ❌ iwconfig: {error}\n").format(error=e))
         advanced_tests = [
-            (_("Frequency/Channel"), f"iwconfig {ifname} | grep Frequency"),
-            (_("Bitrate"), f"iwconfig {ifname} | grep BitRate"),
-            (_("Encryption"), f"iwconfig {ifname} | grep Encryption"),
-            (_("Access Point"), f"iwconfig {ifname} | grep 'Access Point'"),
+            (_("Frequency/Channel"), r"Frequency[:=]\s*([0-9.]+\s*GHz)"),
+            (_("Bitrate"), r"Bit Rate[:=]\s*([0-9.]+\s*\S+)"),
+            (_("Encryption"), r"Encryption key:\s*(\S+)"),
+            (_("Access Point"), r"Access Point:\s*(\S+)"),
+            (_("TX Power"), r"Tx-Power[:=]\s*(\S+\s*dBm)"),
+            (_("Power Management"), r"Power Management[:=]\s*(\S+)"),
         ]
-
-        for test_name, cmd in advanced_tests:
-            try:
-                output = subprocess.check_output(
-                    cmd, shell=True, text=True, timeout=5)
-                if output.strip():
-                    results.append(
-                        _("   ✅ {test}: {output}\n").format(
-                            test=test_name, output=output.strip()))
-                else:
-                    results.append(
-                        _("   ⚠️  {test}: No data\n").format(
-                            test=test_name))
-            except Exception as e:
-                results.append(
-                    _("   ❌ {test}: Failed\nError: {error}").format(
-                        test=test_name, error=e))
+        for test_name, pattern in advanced_tests:
+            match = search(pattern, output)
+            if match:
+                results.append(_("   ✅ {test}: {output}\n").format(
+                    test=test_name, output=match.group(1)))
+            else:
+                results.append(_("   ⚠️  {test}: No data\n").format(
+                    test=test_name))
 
         return results
 

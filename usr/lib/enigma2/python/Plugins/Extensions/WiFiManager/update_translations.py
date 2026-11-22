@@ -608,8 +608,13 @@ def fix_po_file(po_file):
 
             if prefix == 'msgid':
                 if content == '':
-                    if not any(l.startswith('msgid ""')
-                               for l in new_lines if l.startswith('msgid')):
+                    next_line = lines[i + 1] if i + 1 < len(lines) else ''
+                    if next_line.startswith('"'):
+                        # multi-line msgid: the empty first line is required
+                        new_lines.append(new_line)
+                    elif not any(l.startswith('msgid ""')
+                                 for l in new_lines if l.startswith('msgid')):
+                        # header (only once)
                         new_lines.append(new_line)
                 else:
                     if content in seen_msgids:

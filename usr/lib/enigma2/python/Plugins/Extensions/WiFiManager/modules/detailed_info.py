@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import subprocess
+from twisted.internet import threads
 import traceback
 from datetime import datetime
 from os.path import basename, realpath, isdir
@@ -10,12 +10,14 @@ from Components.Button import Button
 from Components.ScrollLabel import ScrollLabel
 
 from . import _
+from .signal_indicator import WiFiSignalIndicator, skin_compact
 from .tools import (
     get_interface_info,
     is_interface_up,
     scan_networks,
     format_signal_quality,
-    get_wifi_interfaces
+    get_wifi_interfaces,
+    get_ip_address,
 )
 
 """
@@ -41,16 +43,18 @@ from .tools import (
 class WiFiDetailedInfo(Screen):
     skin = """
     <screen position="center,center" size="800,700" title="WiFi Detailed Info">
-        <widget name="info_output" position="10,10" size="780,600" font="Regular;18" />
+        <widget name="info_output" position="10,58" size="780,560" font="Regular;18" />
         <widget name="key_red" position="10,635" size="180,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="red" transparent="1" />
         <widget name="key_green" position="210,635" size="180,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="green" transparent="1" />
         <eLabel name="" position="9,677" size="180,8" zPosition="3" backgroundColor="#fe0000" />
         <eLabel name="" position="209,677" size="180,8" zPosition="3" backgroundColor="#fe00" />
+    """ + skin_compact(540, 2) + """
     </screen>
     """
 
     def __init__(self, session, ifname):
         Screen.__init__(self, session)
+        self.signal_indicator = WiFiSignalIndicator(self)
         self.session = session
         self.ifname = ifname
         self.debug_file = '/tmp/WifiManager_detailed_info_debug.txt'
@@ -73,9 +77,15 @@ class WiFiDetailedInfo(Screen):
         )
         self.setTitle(_("Detailed Info - {}").format(ifname))
         # Write initialization to the debug file
-        self._write_debug(
-            f"🚀 WiFiDetailedInfo INITIALIZED for interface: {ifname}")
-        self.refresh_info()
+        self.closed = False
+        self.running = False
+        self._iface_info = {}
+        self._wifi_ifaces = []
+        self.onClose.append(self._on_close)
+        self.onLayoutFinish.append(self.refresh_info)
+
+    def _on_close(self):
+        self.closed = True
 
     def _write_debug(self, message, error=False):
         """Write debug messages to file"""
@@ -99,10 +109,40 @@ class WiFiDetailedInfo(Screen):
         self["info_output"].pageDown()
 
     def refresh_info(self):
+        """Collect the information in a thread (it used to freeze the GUI)"""
+        if self.running:
+            return
+        self.running = True
+        self["info_output"].setText(_("Reading interface information..."))
+
+        def done(text):
+            self.running = False
+            if not self.closed:
+                self["info_output"].setText(text)
+
+        def failed(failure):
+            self.running = False
+            if not self.closed:
+                self["info_output"].setText(str(failure.value))
+
+        d = threads.deferToThread(self._collect)
+        d.addCallback(done)
+        d.addErrback(failed)
+
+    def _collect(self):
+        """Worker thread: returns the text to show"""
+        # new log for every refresh (the file used to grow forever)
+        try:
+            open(self.debug_file, "w").close()
+        except Exception:
+            pass
         self._write_debug("🔄 STARTING REFRESH for {}".format(self.ifname))
         print("[WiFiDetailedInfo] Starting refresh for {}".format(self.ifname))
 
         wifi_ifaces = get_wifi_interfaces()
+        self._wifi_ifaces = wifi_ifaces
+        # read once, used by all the sections below
+        self._iface_info = get_interface_info(self.ifname)
 
         if self.ifname not in wifi_ifaces:
             error_msg = _("❌ Interface {} not found or not a WiFi interface\n").format(
@@ -114,9 +154,7 @@ class WiFiDetailedInfo(Screen):
             self._write_debug(
                 "Interface not found: {}".format(
                     self.ifname), error=True)
-            self["info_output"].setText(error_msg)
-            return
-
+            return error_msg
         try:
             info_text = _(
                 "📡 DETAILED WIFI INFORMATION - {}\n").format(self.ifname.upper())
@@ -195,7 +233,7 @@ class WiFiDetailedInfo(Screen):
                 )
 
             print("[WiFiDetailedInfo] Refresh completed successfully")
-            self["info_output"].setText(info_text)
+            return info_text
 
         except Exception as e:
             error_msg = _(
@@ -214,7 +252,7 @@ class WiFiDetailedInfo(Screen):
 
             print("[WiFiDetailedInfo] ERROR: {}".format(e))
             print("Stack trace: {}".format(stack_trace))
-            self["info_output"].setText(error_msg)
+            return error_msg
 
     def get_wireless_info(self):
         """Get wireless-specific information using tools.py"""
@@ -227,8 +265,7 @@ class WiFiDetailedInfo(Screen):
         info = ""
 
         try:
-            interface_info = get_interface_info(self.ifname)
-
+            interface_info = self._iface_info
             if 'error' in interface_info:
                 info += _("❌ Error: {}\n").format(interface_info['error'])
 
@@ -294,8 +331,7 @@ class WiFiDetailedInfo(Screen):
         info = ""
 
         try:
-            interface_info = get_interface_info(self.ifname)
-
+            interface_info = self._iface_info
             if 'error' in interface_info:
                 info += _("❌ Error: {}\n").format(interface_info['error'])
 
@@ -319,14 +355,23 @@ class WiFiDetailedInfo(Screen):
             info += _("🔧 Interface: {}\n").format(interface_info.get('name', self.ifname))
 
             # MAC Address
-            if 'ap_addr' in interface_info and interface_info['ap_addr'] != _(
-                    "Unknown"):
-                info += _("📟 MAC: {}\n").format(interface_info['ap_addr'])
-                self._write_debug(f"MAC: {interface_info['ap_addr']}")
+            mac = self._read_sys("address")
+            if mac:
+                info += _("📟 MAC: {}\n").format(mac.upper())
+            if 'ap_addr' in interface_info and interface_info['ap_addr'] not in (
+                    _("Unknown"), "Not-Associated"):
+                info += _("📡 Access Point: {}\n").format(interface_info['ap_addr'])
+            ip = get_ip_address(self.ifname)
+            info += _("🌐 IP: {}\n").format(ip or _("No IP address"))
+            gateway, dns = self._gateway_dns()
+            if gateway:
+                info += _("🚪 Gateway: {}\n").format(gateway)
+            if dns:
+                info += _("📖 DNS: {}\n").format(", ".join(dns))
 
             # Type
             interface_type = _(
-                "Wireless") if self.ifname in get_wifi_interfaces() else _("Wired")
+                "Wireless") if self.ifname in self._wifi_ifaces else _("Wired")
             icon = "📡" if interface_type == _("Wireless") else "🔌"
             info += _("{} Type: {} interface\n").format(icon, interface_type)
             self._write_debug(f"Type: {interface_type}")
@@ -360,14 +405,14 @@ class WiFiDetailedInfo(Screen):
                 self._write_debug("Driver: Unknown")
 
             # Additional interface information
-            interface_info = get_interface_info(self.ifname)
+            interface_info = self._iface_info
             protocol = interface_info.get('protocol')
             if protocol not in (None, "", _("Unknown")):
                 info += _("🔧 Module: {}\n").format(protocol)
                 self._write_debug(f"Module: {protocol}")
 
             # Interface type
-            if self.ifname in get_wifi_interfaces():
+            if self.ifname in self._wifi_ifaces:
                 info += _("📡 Type: Wireless interface\n")
                 self._write_debug("Type: Wireless")
             else:
@@ -382,43 +427,50 @@ class WiFiDetailedInfo(Screen):
         self._write_debug(f"Driver info completed, length: {len(info)}")
         return info
 
+    def _read_sys(self, name):
+        try:
+            with open("/sys/class/net/%s/%s" % (self.ifname, name)) as f:
+                return f.read().strip()
+        except Exception:
+            return None
+
+    def _gateway_dns(self):
+        gateway, dns = None, []
+        try:
+            with open("/proc/net/route") as f:
+                for line in f.readlines()[1:]:
+                    parts = line.split()
+                    if len(parts) > 2 and parts[1] == "00000000":
+                        g = int(parts[2], 16)
+                        gateway = "%d.%d.%d.%d" % (g & 255, (g >> 8) & 255,
+                                                   (g >> 16) & 255, g >> 24)
+                        break
+        except Exception:
+            pass
+        try:
+            with open("/etc/resolv.conf") as f:
+                for line in f:
+                    if line.startswith("nameserver"):
+                        dns.append(line.split()[1])
+        except Exception:
+            pass
+        return gateway, dns
+
     def get_network_statistics(self):
-        """Get network statistics"""
-        self._write_debug("Getting network statistics")
+        """Traffic counters from sysfs"""
         info = ""
         try:
-            # Interface statistics
-            rx_path = f'/sys/class/net/{self.ifname}/statistics/rx_bytes'
-            tx_path = f'/sys/class/net/{self.ifname}/statistics/tx_bytes'
-
-            self._write_debug(f"Reading RX bytes from: {rx_path}")
-            result = subprocess.run(['cat', rx_path],
-                                    capture_output=True, text=True, timeout=5)
-            if result.returncode == 0:
-                rx_bytes = int(result.stdout.strip())
-                formatted_rx = self.format_bytes(rx_bytes)
-                info += _("⬇️  Received: {}\n").format(formatted_rx)
-                self._write_debug(f"RX bytes: {rx_bytes} ({formatted_rx})")
-            else:
-                self._write_debug(f"Failed to read RX bytes: {result.stderr}")
-
-            self._write_debug(f"Reading TX bytes from: {tx_path}")
-            result = subprocess.run(['cat', tx_path],
-                                    capture_output=True, text=True, timeout=5)
-            if result.returncode == 0:
-                tx_bytes = int(result.stdout.strip())
-                formatted_tx = self.format_bytes(tx_bytes)
-                info += _("⬆️  Transmitted: {}\n").format(formatted_tx)
-                self._write_debug(f"TX bytes: {tx_bytes} ({formatted_tx})")
-            else:
-                self._write_debug(f"Failed to read TX bytes: {result.stderr}")
-
+            rx = self._read_sys("statistics/rx_bytes")
+            tx = self._read_sys("statistics/tx_bytes")
+            if rx is not None:
+                info += _("⬇️  Received: {}\n").format(self.format_bytes(int(rx)))
+            if tx is not None:
+                info += _("⬆️  Transmitted: {}\n").format(self.format_bytes(int(tx)))
+            errors = [self._read_sys("statistics/" + n) or "0" for n in
+                      ("rx_errors", "tx_errors", "rx_dropped", "tx_dropped")]
+            info += _("⚠️  Errors RX/TX: {}/{}  Dropped RX/TX: {}/{}\n").format(*errors)
         except Exception as e:
-            error_msg = _("Statistics error: {}").format(str(e))
-            info += _("❌ {}\n").format(error_msg)
-            self._write_debug(error_msg, error=True)
-
-        self._write_debug(f"Network statistics completed, length: {len(info)}")
+            info += _("❌ {}\n").format(_("Statistics error: {}").format(str(e)))
         return info
 
     def get_available_networks(self):
@@ -441,9 +493,13 @@ class WiFiDetailedInfo(Screen):
                 info += _("Found {} networks:\n").format(len(networks))
                 self._write_debug("Found {} networks".format(len(networks)))
 
+                networks = sorted(networks, key=lambda n: n.get('quality_percent', 0),
+                                  reverse=True)
                 for i, net in enumerate(networks[:8]):
                     essid = net.get('essid', _('Unknown'))
-                    signal = net.get('signal', _('N/A'))
+                    signal = net.get('signal')
+                    if signal is None:
+                        signal = _('N/A')
                     quality_percent = net.get('quality_percent', 0)
                     channel = net.get('channel', '?')
                     encrypted = "🔒" if net.get('encryption') else "🔓"

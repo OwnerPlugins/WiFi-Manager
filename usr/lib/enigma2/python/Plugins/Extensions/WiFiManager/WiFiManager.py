@@ -15,7 +15,9 @@ from .modules.diagnostics import WiFiDiagnostics
 from .modules.detailed_info import WiFiDetailedInfo
 from .modules.iwlist_tools import IWListTools
 from .modules.connect import WiFiConnectZ
-from .modules.speedtest_manager import WiFiSpeedtestManager
+from .modules.speed_gauge import WiFiSpeedGauge
+from .modules.updater import UpdateChecker
+from .modules.signal_indicator import WiFiSignalIndicator, skin_compact
 
 from . import _, __version__, __author__
 
@@ -39,10 +41,7 @@ from . import _, __version__, __author__
 """
 
 
-try:
-    from .modules.iwlibs import getWNICnames
-except ImportError as e:
-    print(f"Error importing pythonwifi: {e}")
+from .modules.tools import get_wifi_interfaces
 
 
 class WiFiManagerMain(Screen):
@@ -90,6 +89,7 @@ class WiFiManagerMain(Screen):
         <widget name="label_lululla" position="535,570" size="200,40" font="Regular;20" halign="center" valign="center" />
 
         <widget name="description" position="24,615" size="750,70" font="Regular;18" halign="center" valign="center" />
+    """ + skin_compact(546, 0) + """
     </screen>
     """
 
@@ -136,6 +136,9 @@ class WiFiManagerMain(Screen):
         self["label_lululla"] = Label(_("Info"))
         self["selected_lululla"] = Pixmap()
 
+        # live animated WiFi signal (top-right corner)
+        self.signal_indicator = WiFiSignalIndicator(self)
+
         self.current_selection = 0
         self.grid_items = [
             # row 1
@@ -156,9 +159,9 @@ class WiFiManagerMain(Screen):
             {'row': 2, 'col': 0, 'module': 'config', 'description': _(
                 "Advanced WiFi configuration"), 'selected_widget': 'selected_config'},
             {'row': 2, 'col': 1, 'module': 'speedtest', 'description': _(
-                "Speedtest"), 'selected_widget': 'selected_speedtest'},
+                "Speed test: download, upload, ping and jitter"), 'selected_widget': 'selected_speedtest'},
             {'row': 2, 'col': 2, 'module': 'lululla', 'description': _(
-                "About"), 'selected_widget': 'selected_lululla'},
+                "About, support and donations (INFO key)"), 'selected_widget': 'selected_lululla'},
         ]
 
         self.grid_map = {
@@ -167,10 +170,11 @@ class WiFiManagerMain(Screen):
             (2, 0): 6, (2, 1): 7, (2, 2): 8,
         }
         self["actions"] = ActionMap(
-            ["OkCancelActions", "NavigationActions"],
+            ["OkCancelActions", "NavigationActions", "EPGSelectActions"],
             {
                 "ok": self.run_selected,
                 "cancel": self.close,
+                "info": self.contactSupport,            # INFO key -> About
                 "up": self.up,
                 "down": self.down,
                 "left": self.left,
@@ -180,23 +184,9 @@ class WiFiManagerMain(Screen):
         self.setTitle(_("WiFi Manager"))
         self.onLayoutFinish.append(self.load_icons)
         self.onLayoutFinish.append(self.update_selection)
-
-    def show_connection_config(self):
-        """Show connection configuration for secured networks"""
-        essid = self.current_network.get('essid')
-
-        # Prefill with saved password
-        saved_password = self.get_saved_password(essid)
-        self.connect_config.password.value = saved_password
-
-        self.list = [
-            (_("Password"), self.connect_config.password),
-            (_("Remember password"), self.connect_config.remember),
-        ]
-
-        self["config"].setList(self.list)
-        self["key_green"].setText(_("Connect"))
-        self["actions"] = self.config_actions
+        # new release on GitHub? (background, once per Enigma2 session)
+        self.onLayoutFinish.append(
+            lambda: UpdateChecker(self.session).check(silent=True))
 
     def load_icons(self):
         base_path = "/usr/lib/enigma2/python/Plugins/Extensions/WiFiManager/icons/"
@@ -299,19 +289,7 @@ class WiFiManagerMain(Screen):
         print("[DEBUG] WiFiConnectZ closed")
 
     def contactSupport(self):
-        self.session.open(
-            MessageBox,
-            "WiFi Manager by %s v.%s\n\n" %
-            (__author__,
-             __version__) +
-            _("Need help or have questions about WiFi Manager?\n\n") +
-            _("For troubleshooting, detailed guidance, or community support, visit:\n") +
-            "https://www.linuxsat-support.com\n" +
-            "https://www.corvoboys.org\n\n" +
-            _("These forums are great places to get help,\n") +
-            _("share experiences,and connect with other users."),
-            MessageBox.TYPE_INFO,
-            timeout=20)
+        self.session.open(WiFiAboutScreen)
 
     def run_selected(self):
         selection = self.grid_items[self.current_selection]
@@ -330,7 +308,7 @@ class WiFiManagerMain(Screen):
             elif module_name == "diagnostics":
                 self.session.open(WiFiDiagnostics)
             elif module_name == "detailed_info":
-                ifnames = getWNICnames()
+                ifnames = get_wifi_interfaces()
                 if ifnames:
                     self.session.open(WiFiDetailedInfo, ifnames[0])
                 else:
@@ -343,7 +321,7 @@ class WiFiManagerMain(Screen):
             elif module_name == "config":
                 self.session.open(WiFiConfig)
             elif module_name == "speedtest":
-                self.session.open(WiFiSpeedtestManager)
+                self.session.open(WiFiSpeedGauge)
             elif module_name == "lululla":
                 self.contactSupport()
 
@@ -394,6 +372,76 @@ class WiFiManagerMain(Screen):
     def return_to_tools_callback(self, result=None):
         """Callback when finishing a tool - returns to the tools menu"""
         self.open_tools_direct()
+
+
+ICONS_PATH = "/usr/lib/enigma2/python/Plugins/Extensions/WiFiManager/icons/"
+
+
+class WiFiAboutScreen(Screen):
+    """About: support info and 'offer a coffee' QR codes"""
+    skin = """
+    <screen position="center,center" size="800,700" title="WiFi Manager - About">
+        <widget name="about_title" position="0,10" size="800,44" font="Regular;30" halign="center" valign="center" />
+        <widget name="about_text" position="40,64" size="720,236" font="Regular;19" halign="center" valign="top" />
+        <widget name="coffee_label" position="0,306" size="800,36" font="Regular;26" halign="center" valign="center" foregroundColor="#ffcc33" />
+        <widget name="scan_label" position="0,342" size="800,26" font="Regular;17" halign="center" valign="center" foregroundColor="#bbbbbb" />
+        <widget name="qr_paypal" position="150,376" size="200,200" alphatest="off" zPosition="1" />
+        <widget name="qr_kofi" position="450,376" size="200,200" alphatest="off" zPosition="1" />
+        <eLabel position="150,580" size="200,30" text="PayPal" font="Regular;22" halign="center" valign="center" transparent="1" />
+        <eLabel position="450,580" size="200,30" text="Ko-fi" font="Regular;22" halign="center" valign="center" transparent="1" />
+        <widget name="key_red" position="10,635" size="200,40" zPosition="1" font="Regular;20" halign="center" valign="center" backgroundColor="red" transparent="1" />
+        <widget name="key_green" position="230,635" size="260,40" zPosition="1" font="Regular;20" halign="center" valign="center" transparent="1" />
+        <eLabel name="" position="9,677" size="200,8" zPosition="3" backgroundColor="#fe0000" />
+        <eLabel name="" position="229,677" size="260,8" zPosition="3" backgroundColor="#fe00" />
+    </screen>
+    """
+
+    def __init__(self, session):
+        Screen.__init__(self, session)
+        self.session = session
+        self["about_title"] = Label(
+            "WiFi Manager v.%s by %s" % (__version__, __author__))
+        self["about_text"] = Label(
+            _("Need help or have questions about WiFi Manager?\n\n") +
+            _("For troubleshooting, detailed guidance, or community support, visit:\n") +
+            "https://www.linuxsat-support.com\n" +
+            "https://www.corvoboys.org\n\n" +
+            _("These forums are great places to get help,\n") +
+            _("share experiences,and connect with other users."))
+        self["coffee_label"] = Label(
+            _("Do you like this plugin? Offer me a coffee!"))
+        self["scan_label"] = Label(
+            _("Scan a QR code with your phone"))
+        self["key_red"] = Label(_("Close"))
+        self["key_green"] = Label(_("Check for updates"))
+        self["qr_paypal"] = Pixmap()
+        self["qr_kofi"] = Pixmap()
+        self["actions"] = ActionMap(
+            ["OkCancelActions", "ColorActions", "EPGSelectActions"],
+            {"ok": self.close, "cancel": self.close, "red": self.close,
+             "info": self.close,
+             "green": lambda: UpdateChecker(self.session).check(silent=False)})
+        self.setTitle(_("WiFi Manager - About"))
+        self.onLayoutFinish.append(self.load_qr_codes)
+
+    def load_qr_codes(self):
+        """Same loading method as the main menu icons"""
+        missing = []
+        for widget, filename in (("qr_paypal", "qr-paypal.png"),
+                                 ("qr_kofi", "qr-kofi.png")):
+            path = ICONS_PATH + filename
+            try:
+                if exists(path) and self[widget].instance:
+                    self[widget].instance.setPixmapFromFile(path)
+                    print("[WiFiAbout] loaded %s" % path)
+                else:
+                    missing.append(filename)
+            except Exception as e:
+                print("[WiFiAbout] error loading %s: %s" % (path, e))
+                missing.append(filename)
+        if missing:
+            self["scan_label"].setText(
+                _("QR code image missing: {}").format(", ".join(missing)))
 
 
 class ToolsMenuScreen(Screen):

@@ -102,3 +102,39 @@ For troubleshooting, guidance, or community support, visit:
 - [CorvoBoys Forum](https://www.corvoboys.org)  
 
 ---
+
+## Live signal indicator
+
+Home, Monitor, Connect, Scanner, Diagnostics, Details Info and Speedtest show an
+animated WiFi icon with the current signal (dBm), link quality (%) and network name.
+
+- the arcs light up according to the signal: red (weak) → orange → lime → green (excellent)
+- when the signal changes the icon moves arc by arc to the new level, and every few
+  seconds a "wave" runs up to the current level
+- blue rotating arcs = interface present but not connected; grey crossed icon = no WiFi
+- data is read from `/proc/net/wireless` (no external commands), and the indicator
+  pauses while another screen is open on top
+
+To add it to another screen: `self.signal_indicator = WiFiSignalIndicator(self)` and put
+`skin_compact(x, y)` or `skin_large(x, y)` (from `modules/signal_indicator.py`) in the skin.
+
+## Speed test
+
+- **Speedtest** in the main menu opens the graphical test: live download/upload
+  gauges, ping and jitter, automatic choice of the closest server (public
+  LibreSpeed backends: GARR Roma/Bologna/Bari, Clouvider, Hetzner, CESNET; plus
+  OVH, Tele2, Cloudflare), IP/provider and a verdict for IPTV (HD / Full HD / 4K).
+  YELLOW = choose the server, BLUE = classic text tests.
+- Method (like LibreSpeed / speedtest.net): parallel connections, timed test with
+  warm-up excluded, real bytes counted, upload confirmed by the server, IPv4 first.
+- The last result is kept in `/etc/enigma2/wifimanager_speedtest.json`.
+
+## About
+
+The **Info** icon, or the **INFO** key in the main menu, opens About with the
+PayPal / Ko-fi QR codes.
+
+## Updates
+
+At startup the plugin checks `installer.sh` on GitHub (once per session) and
+offers to install a newer release; manual check in About (GREEN).

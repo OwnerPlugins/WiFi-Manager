@@ -7,6 +7,7 @@ from json import loads
 from urllib.request import urlopen
 
 from .. import _
+from . import speed_engine
 
 """
 #########################################################
@@ -28,97 +29,55 @@ from .. import _
 """
 
 
-def test_download_speed(interface=None, timeout=10):
-    """Test download speed with better timeout handling"""
+_ORDER = {'time': 0, 'servers': None}
+
+
+def ordered_servers(stop=None):
+    """Servers sorted by ping (closest LibreSpeed first), cached 10 min"""
+    if _ORDER['servers'] is None or time.time() - _ORDER['time'] > 600:
+        _ORDER['servers'], _pings = speed_engine.servers_by_ping(stop)
+        _ORDER['time'] = time.time()
+    return _ORDER['servers']
+
+
+def _fmt_failed(failed):
+    if not failed:
+        return _("no server")
+    text = "; ".join(str(f) for f in failed[:3])
+    if len(failed) > 3:
+        text += _(" (+{} more)").format(len(failed) - 3)
+    return text
+
+
+def test_download_speed(interface=None, timeout=10, stop=None, progress=None):
+    """Download speed: parallel connections, 8 s measurement.
+
+    Returns a string like "185.3 Mbps (Cloudflare, 4 conn.)"
+    """
     try:
-        test_servers = [
-            "http://ipv4.download.thinkbroadband.com/5MB.zip",
-            "http://speedtest.tele2.net/5MB.zip",
-            "http://proof.ovh.net/files/10Mb.dat",
-        ]
-
-        # Quick connectivity check first
-        try:
-            ping_result = subprocess.run(['ping',
-                                          '-c',
-                                          '1',
-                                          '-W',
-                                          '2',
-                                          '8.8.8.8'],
-                                         capture_output=True,
-                                         text=True,
-                                         timeout=5)
-            if ping_result.returncode != 0:
-                return _("No internet connection")
-        except subprocess.TimeoutExpired:
-            return _("Connection timeout")
-
-        for test_url in test_servers:
-            try:
-                print(f"Testing download from: {test_url}")
-                start_time = time.time()
-
-                # Usa timeout più aggressivo
-                result = subprocess.run([
-                    'wget', '-O', '/dev/null',
-                    '--timeout=8', '--tries=1', test_url
-                ], capture_output=True, text=True, timeout=timeout)
-
-                end_time = time.time()
-
-                if result.returncode == 0:
-                    duration = end_time - start_time
-                    # File size estimation
-                    if "10Mb" in test_url:
-                        file_size_mb = 10 / 8
-                    elif "5MB" in test_url:
-                        file_size_mb = 5
-                    else:
-                        file_size_mb = 1
-
-                    speed_mbps = (file_size_mb * 8) / duration
-                    return f"{speed_mbps:.2f} Mbps"
-
-            except subprocess.TimeoutExpired:
-                print(f"Timeout with server: {test_url}")
-                continue
-            except Exception as e:
-                print(f"Error with server {test_url}: {e}")
-                continue
-
-        return "All download servers failed"
-
+        res, failed = speed_engine.first_working(
+            'download', servers=ordered_servers(stop), stop=stop, progress=progress)
+        if res is None:
+            return _("All download servers failed: {}").format(
+                _fmt_failed(failed))
+        return _("{speed} ({server}, {streams} conn.)").format(
+            speed=speed_engine.format_mbps(res.mbps), server=res.server,
+            streams=res.streams)
     except Exception as e:
         return _("Error: {error}").format(error=str(e))
 
 
-def test_upload_speed(interface=None, timeout=10):
-    """Test upload speed - simple version"""
+def test_upload_speed(interface=None, timeout=10, stop=None, progress=None):
+    """Real upload speed (data is sent to the server, nothing estimated)"""
     try:
-        test_file = "/tmp/upload_test.bin"
-        test_data = b'0' * 1024 * 100  # 100KB di dati
-
-        with open(test_file, 'wb') as f:
-            f.write(test_data)
-
-        start_time = time.time()
-        result = subprocess.run([
-            'curl', '-X', 'POST', '--data-binary', f'@{test_file}',
-            'http://httpbin.org/post', '--max-time', '10'
-        ], capture_output=True, text=True, timeout=timeout)
-        end_time = time.time()
-
-        # Pulisci
-        subprocess.run(['rm', '-f', test_file], capture_output=True)
-
-        if result.returncode == 0:
-            duration = end_time - start_time
-            file_size_mb = 0.1  # 100KB = 0.1MB
-            speed_mbps = (file_size_mb * 8) / duration
-            return _("{speed:.2f} Mbps").format(speed=speed_mbps)
-        else:
-            return _("Upload test not available")
-
+        res, failed = speed_engine.first_working(
+            'upload', servers=ordered_servers(stop), stop=stop, progress=progress)
+        if res is None:
+            return _("Upload test failed: {error}").format(
+                error=_fmt_failed(failed))
+        return _("{speed} ({server}, {streams} conn.)").format(
+            speed=speed_engine.format_mbps(res.mbps), server=res.server,
+            streams=res.streams)
     except Exception as e:
         return _("Upload test failed: {error}").format(error=str(e))
 
@@ -206,51 +165,37 @@ def get_network_interfaces():
         return []
 
 
-def multi_server_download_test(interface=None):
-    """Test downloads from multiple servers"""
-    servers = [
-        ("Otenet Greece",
-         "http://speedtest.ftp.otenet.gr/files/test1Mb.db"),
-        ("Linode Frankfurt",
-         "http://speedtest.frankfurt.linode.com/100MB-frankfurt.bin"),
-    ]
+def multi_server_download_test(interface=None, stop=None, progress=None,
+                               duration=5.0):
+    """Download speed from every server, plus the best one"""
+    servers = speed_engine.SERVERS[:4] + [
+        s for s in speed_engine.SERVERS if s['sponsor'] == 'OVH']
+    lines = []
+    best = None
+    for i, server in enumerate(servers):
+        if stop and stop():
+            break
 
-    results = []
-    for name, url in servers:
-        try:
-            start_time = time.time()
-            result = subprocess.run(['wget', '-O', '/dev/null', url],
-                                    capture_output=True, text=True, timeout=15)
-            end_time = time.time()
+        def part(fraction, i=i):
+            if progress:
+                progress((i + fraction) / len(servers))
 
-            if result.returncode == 0:
-                duration = end_time - start_time
-                # URL-based size estimation
-                if "100MB" in url:
-                    size_mb = 100
-                else:
-                    size_mb = 1
-                speed = (size_mb * 8) / duration
-                results.append(
-                    _("{name}: {speed:.2f} Mbps").format(
-                        name=name, speed=speed))
-            else:
-                results.append(_("{name}: Failed").format(name=name))
-
-        except subprocess.TimeoutExpired:
-            results.append(_("{name}: Timeout").format(name=name))
-        except Exception as e:
-            results.append(
-                _("{name}: Error {error}").format(
-                    name=name, error=e))
-
-    return "\n".join(results)
+        res = speed_engine.measure_download(server, duration=duration,
+                                            stop=stop, progress=part)
+        lines.append(str(res))
+        if res.ok and (best is None or res.mbps > best.mbps):
+            best = res
+    if best is not None:
+        lines.append(_("Best: {speed} ({server})").format(
+            speed=speed_engine.format_mbps(best.mbps), server=best.server))
+    else:
+        lines.append(_("All download servers failed"))
+    return "\n".join(lines)
 
 
-def multi_server_upload_test(interface=None):
-    """Multi-server upload test (simulated)"""
-    # For uploading we use a simplified approach
-    upload_result = test_upload_speed(interface)
+def multi_server_upload_test(interface=None, stop=None, progress=None):
+    """Upload test on the first server that answers"""
+    upload_result = test_upload_speed(interface, stop=stop, progress=progress)
     return _("Upload test: {result}").format(result=upload_result)
 
 

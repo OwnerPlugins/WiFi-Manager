@@ -1,18 +1,17 @@
 # -*- coding: utf-8 -*-
 
-import subprocess
 from enigma import eTimer
-from re import sub, search, IGNORECASE
-
+from re import search
 from Screens.Screen import Screen
 from Components.ActionMap import ActionMap
 from Components.Label import Label
 from Components.ProgressBar import ProgressBar
 
 from . import _
+from .signal_indicator import WiFiSignalIndicator, skin_large, read_signal, _IwHelper
 from .tools import (
     get_wifi_interfaces,
-    get_interface_info,
+    get_ip_address,
     # is_interface_up,
     format_signal_quality
 )
@@ -56,6 +55,7 @@ class WiFiMonitor(Screen):
         <eLabel name="" position="209,677" size="180,8" zPosition="3" backgroundColor="#fe00" />
         <eLabel name="" position="409,677" size="180,8" zPosition="3" backgroundColor="#cccc40" />
         <eLabel name="" position="599,677" size="180,8" zPosition="3" backgroundColor="#1a27408b" />
+    """ + skin_large(600, 330) + """
     </screen>
     """
 
@@ -88,19 +88,26 @@ class WiFiMonitor(Screen):
                 "cancel": self.close,
             }
         )
+        self.signal_indicator = WiFiSignalIndicator(self)
         self.monitoring = False
         self.monitor_timer = eTimer()
         self.monitor_timer.callback.append(self.update_status)
+        self.ifname = None
         self.setTitle(_("WiFi Signal Monitor"))
+        self.onClose.append(self.stop_monitoring)
         self.start_monitoring()
 
     def start_monitoring(self):
         """Start monitoring with interface check"""
+        # Interface detection runs many external commands: do it once here,
+        # not on every refresh
         interfaces = get_wifi_interfaces()
         if not interfaces:
+            self.ifname = None
             self.show_error(_("No WiFi interfaces found"))
             return
 
+        self.ifname = interfaces[0]
         self.monitoring = True
         self.monitor_timer.start(2000)
         self["key_red"].setText(_("Pause"))
@@ -187,9 +194,9 @@ class WiFiMonitor(Screen):
                 # Use format_signal_quality for a better description
                 signal_description = format_signal_quality(quality)
 
+                # signal_description already contains the percentage
                 self["quality_label"].setText(
-                    _("Quality: {}% ({})").format(
-                        quality, signal_description))
+                    _("Quality: {}").format(signal_description))
                 self["signal_label"].setText(
                     _("Signal: {} dBm").format(signal))
 
@@ -204,6 +211,10 @@ class WiFiMonitor(Screen):
 
                 self["signal_bar"].setValue(int(signal_percent))
 
+                # bars may have been hidden by a previous show_error()
+                self["quality_bar"].show()
+                self["signal_bar"].show()
+
             else:
                 self.show_error(_("No WiFi connection data available"))
 
@@ -212,163 +223,42 @@ class WiFiMonitor(Screen):
             self.show_error(_("Monitoring error: {}").format(str(e)))
 
     def get_wifi_info_iwconfig(self):
-        """Get WiFi info using tools.py (more reliable)"""
+        """Current link data without external commands:
+        /proc/net/wireless (quality, dBm), ioctl (ESSID), sysfs (MAC, IP)"""
         try:
-            # Find WiFi interfaces using tools.py
-            interfaces = get_wifi_interfaces()
-            if not interfaces:
+            ifname = self.ifname
+            if not ifname:
                 return None
-
-            # Use the first available interface
-            ifname = interfaces[0]
+            if not hasattr(self, "_iw"):
+                self._iw = _IwHelper()
+                self.onClose.append(self._iw.close)
+            self._iw.load_qmax(ifname)
+            sig = read_signal(ifname, self._iw.qmax, self._iw.essid)
             wifi_data = {'interface': ifname}
-
-            # Get information using get_interface_info from tools.py
-            interface_info = get_interface_info(ifname)
-            print("[WiFiMonitor] Interface info: {}".format(interface_info))
-
-            if 'error' in interface_info:
-                print("[WiFiMonitor] Error getting interface info: {}".format(
-                    interface_info['error']
-                ))
-                return None
-
-            # ESSID
-            wifi_data['essid'] = interface_info.get(
-                'essid', _('Not connected'))
-
-            # Quality
-            quality_str = interface_info.get('quality', '0')
-            print("[WiFiMonitor] Raw quality string: '{}'".format(quality_str))
-
-            try:
-                if isinstance(quality_str, str):
-
-                    if '/' in quality_str:
-                        parts = quality_str.split('/')
-                        if len(parts) == 2:
-                            current = float(parts[0])
-                            max_val = float(parts[1])
-                            quality = int(
-                                (current / max_val) * 100) if max_val > 0 else 0
-                        else:
-                            quality = 0
-
-                    elif '%' in quality_str:
-                        quality = int(float(quality_str.replace('%', '')))
-
-                    else:
-                        quality_clean = sub(r'[^\d.-]', '', quality_str)
-                        quality = int(
-                            float(quality_clean)) if quality_clean else 0
-                else:
-                    quality = int(quality_str)
-
-                wifi_data['quality'] = min(max(quality, 0), 100)
-
-                print("[WiFiMonitor] Parsed quality: {}%".format(
-                    wifi_data['quality']
-                ))
-
-            except (ValueError, TypeError) as e:
-                print("[WiFiMonitor] Quality parsing error: {}".format(e))
+            if sig['state'] == 'connected':
+                wifi_data['essid'] = sig['essid'] or _('Connected')
+                wifi_data['quality'] = sig['quality']
+                wifi_data['signal'] = sig['dbm'] if sig['dbm'] is not None \
+                    else int(-100 + sig['quality'] / 2.0)
+            else:
+                wifi_data['essid'] = _('Not connected')
                 wifi_data['quality'] = 0
-
-            # Signal level
+                wifi_data['signal'] = -100
             try:
-                result = subprocess.run(
-                    ['iwconfig', ifname],
-                    capture_output=True,
-                    text=True,
-                    timeout=5
-                )
-                output = result.stdout
-
-                print("[WiFiMonitor] iwconfig output: {}".format(output))
-
-                signal_match = search(r'Signal level=(-?\d+) dBm', output)
-
-                if signal_match:
-                    wifi_data['signal'] = int(signal_match.group(1))
-                    print("[WiFiMonitor] Found signal level: {} dBm".format(
-                        wifi_data['signal']
-                    ))
-
-                else:
-                    signal_match2 = search(r'Signal level=(-?\d+)', output)
-
-                    if signal_match2:
-                        wifi_data['signal'] = int(signal_match2.group(1))
-                        print(
-                            "[WiFiMonitor] Found signal level (alt format): {}".format(
-                                wifi_data['signal']))
-
-                    else:
-                        quality_percent = wifi_data['quality']
-                        wifi_data['signal'] = int(-100 +
-                                                  (quality_percent * 0.8))
-
-                        print("[WiFiMonitor] Estimated signal: {} dBm".format(
-                            wifi_data['signal']
-                        ))
-
-            except Exception as e:
-                print("[WiFiMonitor] Error getting signal: {}".format(e))
-                wifi_data['signal'] = -90
-
-            # IP and MAC
-            try:
-                from Components.Network import iNetwork
-
-                ip = iNetwork.getAdapterAttribute(ifname, "ip")
-                mac = iNetwork.getAdapterAttribute(ifname, "mac")
-
-                if ip and ip != [0, 0, 0, 0]:
-                    wifi_data['ip'] = '.'.join(map(str, ip))
-                else:
-                    wifi_data['ip'] = _('Not connected')
-
-                wifi_data['mac'] = mac if mac else _('N/A')
-
-            except Exception as e:
-                print(e)
-
-                try:
-                    result = subprocess.run(
-                        ['ip', 'addr', 'show', ifname],
-                        capture_output=True,
-                        text=True
-                    )
-
-                    ip_match = search(
-                        r'inet (\d+\.\d+\.\d+\.\d+)', result.stdout)
-                    wifi_data['ip'] = ip_match.group(
-                        1) if ip_match else _('Not connected')
-
-                    mac_match = search(
-                        r'link/ether ([0-9a-f:]+)', result.stdout, IGNORECASE)
-                    wifi_data['mac'] = mac_match.group(
-                        1) if mac_match else _('N/A')
-
-                except Exception as e:
-                    print(e)
-                    wifi_data['ip'] = _('N/A')
-                    wifi_data['mac'] = _('N/A')
-
-            print("[WiFiMonitor] Final data: {}".format(wifi_data))
+                with open("/sys/class/net/%s/address" % ifname) as f:
+                    wifi_data['mac'] = f.read().strip()
+            except Exception:
+                wifi_data['mac'] = _('N/A')
+            wifi_data['ip'] = get_ip_address(ifname) or _('Not connected')
             return wifi_data
-
         except Exception as e:
             print("[WiFiMonitor] Error: {}".format(e))
             return None
 
     def show_error(self, message):
         """Show error status with contextual information"""
-        interfaces = get_wifi_interfaces()
-
         self["interface_label"].setText(
-            _("Interface: {}").format(
-                interfaces[0] if interfaces else _('N/A')))
+            _("Interface: {}").format(self.ifname or _('N/A')))
         self["essid_label"].setText(message)
         self["ip_label"].setText(_("IP: N/A"))
         self["mac_label"].setText(_("MAC: N/A"))
