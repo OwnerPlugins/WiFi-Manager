@@ -1,5 +1,11 @@
 #, fuzzy
 
+msgid "(+{} more)"
+msgstr ""
+
+msgid "(real WiFi throughput is about 50-70% of the link rate)"
+msgstr ""
+
 msgid "- {adapter}\\n"
 msgstr ""
 
@@ -12,7 +18,7 @@ msgstr ""
 msgid "1. Check if WiFi adapter is properly connected\\n"
 msgstr ""
 
-msgid "1. Disconnect from current WiFi network\\n"
+msgid "1. Check that the WiFi adapter is connected\\n"
 msgstr ""
 
 msgid "10 dBm"
@@ -21,7 +27,7 @@ msgstr ""
 msgid "15 dBm"
 msgstr ""
 
-msgid "2. Restart WiFi adapter\\n"
+msgid "2. Restart the WiFi interface (Tools menu)\\n"
 msgstr ""
 
 msgid "2. Verify WiFi adapter is supported by your receiver\\n"
@@ -30,7 +36,7 @@ msgstr ""
 msgid "20 dBm (Max)"
 msgstr ""
 
-msgid "3. Check if WiFi driver is installed\\n"
+msgid "3. Check that the WiFi driver is installed\\n"
 msgstr ""
 
 msgid "3. Try different USB port for USB WiFi adapters\\n"
@@ -39,25 +45,25 @@ msgstr ""
 msgid "4. Check if WiFi drivers are installed\\n"
 msgstr ""
 
-msgid "4. Try with different USB WiFi adapter\\n"
+msgid "4. Some drivers cannot scan while connecting: retry\\n"
 msgstr ""
 
 msgid "5 dBm"
 msgstr ""
 
-msgid "5. Check root permissions\\n"
+msgid "5. Restart the receiver and try again\\n"
 msgstr ""
 
-msgid "5. Restart the receiver and try again\\n"
+msgid "<hidden>"
 msgstr ""
 
 msgid "=== WiFi Diagnostics (System Commands Only) ===\\n"
 msgstr ""
 
-msgid "ACTIVE"
+msgid ">> = connected network ({})"
 msgstr ""
 
-msgid "About"
+msgid "About, support and donations (INFO key)"
 msgstr ""
 
 msgid "Access Point"
@@ -111,7 +117,16 @@ msgstr ""
 msgid "Advanced configuration completed."
 msgstr ""
 
+msgid "All APs"
+msgstr ""
+
 msgid "All Network Interfaces: {interfaces}\\n"
+msgstr ""
+
+msgid "All download servers failed"
+msgstr ""
+
+msgid "All download servers failed: {}"
 msgstr ""
 
 msgid "All ping tests failed"
@@ -153,7 +168,10 @@ msgstr ""
 msgid "Basic info error: {}"
 msgstr ""
 
-msgid "Basic view enabled - rescan to see basic info"
+msgid "Best:"
+msgstr ""
+
+msgid "Best: {speed} ({server})"
 msgstr ""
 
 msgid "Bit Rate: {rate}"
@@ -174,13 +192,13 @@ msgstr ""
 msgid "Bitrate information not available\\n"
 msgstr ""
 
+msgid "By name"
+msgstr ""
+
 msgid "CONNECTED to: {} - Press OK for options"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
-
-msgid "Cancelling test..."
 msgstr ""
 
 msgid "Cell"
@@ -202,6 +220,9 @@ msgid "Channel: %s\\n"
 msgstr ""
 
 msgid "Check System Logs"
+msgstr ""
+
+msgid "Check for updates"
 msgstr ""
 
 msgid "Check system logs for WiFi errors"
@@ -246,6 +267,9 @@ msgstr ""
 msgid "Connect to WiFi networks"
 msgstr ""
 
+msgid "Connected"
+msgstr ""
+
 msgid "Connected but no timing data"
 msgstr ""
 
@@ -268,9 +292,6 @@ msgid "Connection Info"
 msgstr ""
 
 msgid "Connection failed!"
-msgstr ""
-
-msgid "Connection timeout"
 msgstr ""
 
 msgid "Country Code"
@@ -312,16 +333,13 @@ msgstr ""
 msgid "Detailed test error: {error}"
 msgstr ""
 
-msgid "Detailed view enabled - rescan to see details"
-msgstr ""
-
 msgid "Details"
 msgstr ""
 
 msgid "Details Info"
 msgstr ""
 
-msgid "Diagnostic error: {}\\n"
+msgid "Diagnostic error: {}"
 msgstr ""
 
 msgid "Diagnostics"
@@ -334,6 +352,9 @@ msgid "Disconnected"
 msgstr ""
 
 msgid "Disconnecting..."
+msgstr ""
+
+msgid "Do you like this plugin? Offer me a coffee!"
 msgstr ""
 
 msgid "Download Speed: %s\\n"
@@ -438,9 +459,6 @@ msgstr ""
 msgid "Error loading help"
 msgstr ""
 
-msgid "Error on {interface}: {error}\\n"
-msgstr ""
-
 msgid "Error opening {module}: {error}"
 msgstr ""
 
@@ -451,9 +469,6 @@ msgid "Error: {error}"
 msgstr ""
 
 msgid "Error: {}"
-msgstr ""
-
-msgid "Estimating upload speed..."
 msgstr ""
 
 msgid "Excellent"
@@ -502,9 +517,6 @@ msgid "Forgotten network: {}"
 msgstr ""
 
 msgid "Found {} networks:\\n"
-msgstr ""
-
-msgid "Found: {}\\n"
 msgstr ""
 
 msgid "Fragmentation"
@@ -588,9 +600,6 @@ msgstr ""
 msgid "Help"
 msgstr ""
 
-msgid "Hidden"
-msgstr ""
-
 msgid "Hidden Network"
 msgstr ""
 
@@ -598,9 +607,6 @@ msgid "Host not found"
 msgstr ""
 
 msgid "Hostname: {hostname}"
-msgstr ""
-
-msgid "INACTIVE"
 msgstr ""
 
 msgid "IP Address"
@@ -646,6 +652,9 @@ msgid "Interface restarted successfully"
 msgstr ""
 
 msgid "Interface restarted."
+msgstr ""
+
+msgid "Interface {} busy, try again in a few seconds"
 msgstr ""
 
 msgid "Interface {} not available"
@@ -771,6 +780,9 @@ msgstr ""
 msgid "No IP"
 msgstr ""
 
+msgid "No IP address"
+msgstr ""
+
 msgid "No WiFi connection data available"
 msgstr ""
 
@@ -786,9 +798,6 @@ msgstr ""
 msgid "No WiFi interfaces found"
 msgstr ""
 
-msgid "No WiFi interfaces found\\n"
-msgstr ""
-
 msgid "No WiFi messages in system logs"
 msgstr ""
 
@@ -799,12 +808,6 @@ msgid "No data"
 msgstr ""
 
 msgid "No help available for this tool."
-msgstr ""
-
-msgid "No interface"
-msgstr ""
-
-msgid "No internet connection"
 msgstr ""
 
 msgid "No internet connection detected"
@@ -819,22 +822,13 @@ msgstr ""
 msgid "No networks found - Press BLUE to rescan"
 msgstr ""
 
-msgid "No networks found on {}\\n"
-msgstr ""
-
 msgid "No networks found or scan not supported\\n"
-msgstr ""
-
-msgid "No networks found with iwlist\\n"
 msgstr ""
 
 msgid "No packets sent"
 msgstr ""
 
 msgid "No ping data"
-msgstr ""
-
-msgid "No results with iwlist\\n"
 msgstr ""
 
 msgid "No station/peer information available\\n"
@@ -871,6 +865,9 @@ msgid "Operation completed."
 msgstr ""
 
 msgid "Output: {output}..."
+msgstr ""
+
+msgid "POSSIBLE SOLUTIONS:"
 msgstr ""
 
 msgid "Packet retry limits and frame lifetime settings"
@@ -960,16 +957,19 @@ msgstr ""
 msgid "Public IP: {ip}"
 msgstr ""
 
+msgid "QR code image missing: {}"
+msgstr ""
+
 msgid "Quality: %s\\n"
 msgstr ""
 
 msgid "Quality: N/A"
 msgstr ""
 
-msgid "Quality: {}%"
+msgid "Quality: {}"
 msgstr ""
 
-msgid "Quality: {}% ({})"
+msgid "Quality: {}%"
 msgstr ""
 
 msgid "Quick System Check"
@@ -987,6 +987,9 @@ msgstr ""
 msgid "RTS Threshold"
 msgstr ""
 
+msgid "Reading interface information..."
+msgstr ""
+
 msgid "Real-time signal quality monitor"
 msgstr ""
 
@@ -1002,7 +1005,7 @@ msgstr ""
 msgid "Reload kernel WiFi modules to fix driver issues"
 msgstr ""
 
-msgid "Remember password"
+msgid "Reloading module {}..."
 msgstr ""
 
 msgid "Restart WiFi Interface"
@@ -1035,6 +1038,9 @@ msgstr ""
 msgid "Running detailed speed test..."
 msgstr ""
 
+msgid "Running diagnostics, please wait..."
+msgstr ""
+
 msgid "Running full speed test..."
 msgstr ""
 
@@ -1056,6 +1062,9 @@ msgstr ""
 msgid "Scan"
 msgstr ""
 
+msgid "Scan a QR code with your phone"
+msgstr ""
+
 msgid "Scan completed."
 msgstr ""
 
@@ -1066,9 +1075,6 @@ msgid "Scan error:"
 msgstr ""
 
 msgid "Scan error: {}"
-msgstr ""
-
-msgid "Scan error: {}\\n"
 msgstr ""
 
 msgid "Scan failed"
@@ -1137,6 +1143,9 @@ msgstr ""
 msgid "Signal: {} dBm"
 msgstr ""
 
+msgid "Speed test: download, upload, ping and jitter"
+msgstr ""
+
 msgid "Speedtest"
 msgstr ""
 
@@ -1191,9 +1200,6 @@ msgstr ""
 msgid "Tertiary DNS"
 msgstr ""
 
-msgid "Test cancelled"
-msgstr ""
-
 msgid "Test completed - See results below"
 msgstr ""
 
@@ -1222,6 +1228,9 @@ msgid "Testing latency..."
 msgstr ""
 
 msgid "Testing upload speed..."
+msgstr ""
+
+msgid "The WiFi driver of {} is built into the kernel (or unknown): it cannot be reloaded."
 msgstr ""
 
 msgid "These forums are great places to get help,\\n"
@@ -1260,13 +1269,10 @@ msgstr ""
 msgid "Upload Speed: {upload}\\n"
 msgstr ""
 
-msgid "Upload estimation completed"
+msgid "Upload test completed"
 msgstr ""
 
 msgid "Upload test failed: {error}"
-msgstr ""
-
-msgid "Upload test not available"
 msgstr ""
 
 msgid "Upload test: {result}"
@@ -1275,7 +1281,7 @@ msgstr ""
 msgid "Upload: Not available\\n"
 msgstr ""
 
-msgid "Upload: {:.2f} Mbps (estimated)\\n"
+msgid "Upload: {:.2f} Mbps\\n"
 msgstr ""
 
 msgid "Very Poor"
@@ -1296,13 +1302,13 @@ msgstr ""
 msgid "WiFi Manager"
 msgstr ""
 
+msgid "WiFi Manager - About"
+msgstr ""
+
 msgid "WiFi Manager iwconfig version {}"
 msgstr ""
 
 msgid "WiFi Manager v."
-msgstr ""
-
-msgid "WiFi Password"
 msgstr ""
 
 msgid "WiFi Scanner"
@@ -1315,6 +1321,12 @@ msgid "WiFi Speed Test Manager"
 msgstr ""
 
 msgid "WiFi diagnostics and tests"
+msgstr ""
+
+msgid "WiFi link rate: unknown"
+msgstr ""
+
+msgid "WiFi link rate: {rate}"
 msgstr ""
 
 msgid "Wired"
@@ -1344,22 +1356,10 @@ msgstr ""
 msgid "ethtool not found"
 msgstr ""
 
-msgid "iwlist error on {interface}: {error}\\n"
+msgid "failed"
 msgstr ""
 
-msgid "iwlist error: {}\\n"
-msgstr ""
-
-msgid "iwlist exception on {interface}: {error}\\n"
-msgstr ""
-
-msgid "iwlist timeout on {}\\n"
-msgstr ""
-
-msgid "iwlist: No networks found or interface busy\\n"
-msgstr ""
-
-msgid "iwlist: No networks found\\n"
+msgid "iwlist timeout on {}"
 msgstr ""
 
 msgid "lifetime"
@@ -1377,13 +1377,13 @@ msgstr ""
 msgid "min {type}:{value}"
 msgstr ""
 
+msgid "no server"
+msgstr ""
+
 msgid "off"
 msgstr ""
 
 msgid "on"
-msgstr ""
-
-msgid "pythonwifi: No networks found\\n"
 msgstr ""
 
 msgid "share experiences,and connect with other users."
@@ -1404,34 +1404,10 @@ msgstr ""
 msgid "{:2d}. {} {:20} | Signal: {:4} dBm ({}) | Channel: {}\\n"
 msgstr ""
 
-msgid "{connection}{saved}{icon} {essid} | {security} | {signal} dBm"
+msgid "{connection}{saved}{icon} {essid} | {security} | {signal}"
 msgstr ""
 
-msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}...\\n"
-msgstr ""
-
-msgid "{essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm | {bssid}\\n"
-msgstr ""
-
-msgid "{icon} {interface}: {status}\\n"
-msgstr ""
-
-msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel:2} | Encrypted: {encrypted}\\n"
-msgstr ""
-
-msgid "{index:2d}. {essid:20} | Quality: {quality:3}% ({signal_quality}) | Signal: {signal:4} dBm | Channel: {channel} | Encrypted: {encrypted}\\n"
-msgstr ""
-
-msgid "{index:2d}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\n"
-msgstr ""
-
-msgid "{index}. {essid:20} | Quality: {quality:3}% | Signal: {signal:4} dBm\\n"
-msgstr ""
-
-msgid "{interface}: Connected to {essid} ({quality})\\n"
-msgstr ""
-
-msgid "{interface}: Not connected\\n"
+msgid "{count} networks on {iface} ({aps} access points, {hidden} hidden)"
 msgstr ""
 
 msgid "{name} ({host}): {ping}"
@@ -1440,22 +1416,10 @@ msgstr ""
 msgid "{name} ({sponsor}): {ping}"
 msgstr ""
 
-msgid "{name}: Error {error}"
-msgstr ""
-
-msgid "{name}: Failed"
-msgstr ""
-
-msgid "{name}: Timeout"
-msgstr ""
-
-msgid "{name}: {speed:.2f} Mbps"
-msgstr ""
-
 msgid "{server}: {speed:.2f} Mbps ({data:.1f} MB in {time:.1f}s)\\n"
 msgstr ""
 
-msgid "{speed:.2f} Mbps"
+msgid "{speed} ({server}, {streams} conn.)"
 msgstr ""
 
 msgid "{} ({:.0f}%)"
@@ -1494,6 +1458,9 @@ msgstr ""
 msgid "{}\\n"
 msgstr ""
 
+msgid "|  {} APs"
+msgstr ""
+
 msgid "• Keep drivers updated\\n"
 msgstr ""
 
@@ -1504,6 +1471,9 @@ msgid "• Use 5GHz band for less interference\\n"
 msgstr ""
 
 msgid "ℹ️  No USB WiFi adapters found\\n"
+msgstr ""
+
+msgid "⚠️  Errors RX/TX: {}/{}  Dropped RX/TX: {}/{}\\n"
 msgstr ""
 
 msgid "⚠️  Interface {interface}: DOWN (needs activation)\\n"
@@ -1626,6 +1596,9 @@ msgstr ""
 msgid "❌ Very poor latency ({:.1f} ms)\\n"
 msgstr ""
 
+msgid "❌ iwconfig: {error}\\n"
+msgstr ""
+
 msgid "❌ {}\\n"
 msgstr ""
 
@@ -1657,6 +1630,9 @@ msgid "🌐 Connectivity: No IP address - OFFLINE\\n"
 msgstr ""
 
 msgid "🌐 Connectivity: Unknown status\\n"
+msgstr ""
+
+msgid "🌐 IP: {}\\n"
 msgstr ""
 
 msgid "🎯 EXCELLENT connection\\n"
@@ -1722,7 +1698,13 @@ msgstr ""
 msgid "📊 Signal: {quality}% quality, {signal} dBm\\n"
 msgstr ""
 
+msgid "📖 DNS: {}\\n"
+msgstr ""
+
 msgid "📟 MAC: {}\\n"
+msgstr ""
+
+msgid "📡 Access Point: {}\\n"
 msgstr ""
 
 msgid "📡 DETAILED WIFI INFORMATION - {}\\n"
@@ -1798,6 +1780,9 @@ msgid "🚀 Bit Rate: {}\\n"
 msgstr ""
 
 msgid "🚨 Check hardware connection and drivers\\n"
+msgstr ""
+
+msgid "🚪 Gateway: {}\\n"
 msgstr ""
 
 msgid "🚫 VERY POOR connection\\n"
