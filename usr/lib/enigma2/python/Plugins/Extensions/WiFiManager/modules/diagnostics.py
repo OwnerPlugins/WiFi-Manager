@@ -80,10 +80,14 @@ class WiFiDiagnostics(Screen):
         self.closed = False
         self.onClose.append(self._on_close)
         # start after the screen is shown (it used to block the opening)
-        self.onLayoutFinish.append(lambda: self.run_diagnostics(full_test=False))
+        # bound method: OpenATV exec()s non-methods in onLayoutFinish
+        self.onLayoutFinish.append(self.run_quick_diagnostics)
 
     def _on_close(self):
         self.closed = True
+
+    def run_quick_diagnostics(self):
+        self.run_diagnostics(full_test=False)
 
     def pageUp(self):
         self["diagnostics_output"].pageUp()

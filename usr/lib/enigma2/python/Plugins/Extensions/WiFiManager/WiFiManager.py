@@ -185,8 +185,12 @@ class WiFiManagerMain(Screen):
         self.onLayoutFinish.append(self.load_icons)
         self.onLayoutFinish.append(self.update_selection)
         # new release on GitHub? (background, once per Enigma2 session)
-        self.onLayoutFinish.append(
-            lambda: UpdateChecker(self.session).check(silent=True))
+        # NB: onLayoutFinish accepts only bound methods (OpenATV exec()s
+        # anything else), so no lambda here
+        self.onLayoutFinish.append(self.check_updates)
+
+    def check_updates(self):
+        UpdateChecker(self.session).check(silent=True)
 
     def load_icons(self):
         base_path = "/usr/lib/enigma2/python/Plugins/Extensions/WiFiManager/icons/"
